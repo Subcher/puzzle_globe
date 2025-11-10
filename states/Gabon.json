@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GAB.1_1",
-        "GID_0": "GAB",
-        "COUNTRY": "Gabon",
-        "NAME_1": "Estuaire",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Province",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "GA.ES",
-        "ISO_1": "GA-1"
+        "Country": "Gabon",
+        "Name_1": "Estuaire",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3788,17 +3780,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GAB.2_1",
-        "GID_0": "GAB",
-        "COUNTRY": "Gabon",
-        "NAME_1": "Haut-Ogooué",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Province",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "GA.HO",
-        "ISO_1": "NA"
+        "Country": "Gabon",
+        "Name_1": "Haut- Ogooué",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5209,17 +5193,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GAB.3_1",
-        "GID_0": "GAB",
-        "COUNTRY": "Gabon",
-        "NAME_1": "Moyen-Ogooué",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Province",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "GA.MO",
-        "ISO_1": "NA"
+        "Country": "Gabon",
+        "Name_1": "Moyen- Ogooué",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6518,17 +6494,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GAB.4_1",
-        "GID_0": "GAB",
-        "COUNTRY": "Gabon",
-        "NAME_1": "Ngounié",
-        "VARNAME_1": "N'Gounié",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Province",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "GA.NG",
-        "ISO_1": "NA"
+        "Country": "Gabon",
+        "Name_1": "Ngounié",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -8143,17 +8111,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GAB.5_1",
-        "GID_0": "GAB",
-        "COUNTRY": "Gabon",
-        "NAME_1": "Nyanga",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Province",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "GA.NY",
-        "ISO_1": "GA-5"
+        "Country": "Gabon",
+        "Name_1": "Nyanga",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9592,17 +9552,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GAB.6_1",
-        "GID_0": "GAB",
-        "COUNTRY": "Gabon",
-        "NAME_1": "Ogooué-Ivindo",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Province",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "GA.OI",
-        "ISO_1": "NA"
+        "Country": "Gabon",
+        "Name_1": "Ogooué- Ivindo",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -11351,7 +11303,7 @@
               ],
               [
                 13.9335,
-                0.0
+                0
               ],
               [
                 13.9348,
@@ -11745,17 +11697,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GAB.7_1",
-        "GID_0": "GAB",
-        "COUNTRY": "Gabon",
-        "NAME_1": "Ogooué-Lolo",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Province",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "GA.OL",
-        "ISO_1": "NA"
+        "Country": "Gabon",
+        "Name_1": "Ogooué- Lolo",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -12818,17 +12762,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GAB.8_1",
-        "GID_0": "GAB",
-        "COUNTRY": "Gabon",
-        "NAME_1": "Ogooué-Maritime",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Province",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "GA.OM",
-        "ISO_1": "NA"
+        "Country": "Gabon",
+        "Name_1": "Ogooué- Maritime",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13960,7 +13896,7 @@
                 -1.9418
               ],
               [
-                9.320407594936709,
+                9.32040759493671,
                 -1.944564556962025
               ],
               [
@@ -15590,7 +15526,7 @@
             ],
             [
               [
-                9.320407594936709,
+                9.32040759493671,
                 -1.944564556962025
               ],
               [
@@ -15602,7 +15538,7 @@
                 -1.9446
               ],
               [
-                9.320407594936709,
+                9.32040759493671,
                 -1.944564556962025
               ]
             ],
@@ -18271,17 +18207,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GAB.9_1",
-        "GID_0": "GAB",
-        "COUNTRY": "Gabon",
-        "NAME_1": "Wouleu-Ntem",
-        "VARNAME_1": "Woleu-Ntem",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Province",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "GA.WN",
-        "ISO_1": "NA"
+        "Country": "Gabon",
+        "Name_1": "Wouleu- Ntem",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",

@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "COL.1_2",
-        "GID_0": "COL",
-        "COUNTRY": "Colombia",
-        "NAME_1": "Amazonas",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Comisaría",
-        "ENGTYPE_1": "Commissiary",
-        "CC_1": "NA",
-        "HASC_1": "CO.AM",
-        "ISO_1": "CO-AMA"
+        "Country": "Colombia",
+        "Name_1": "Amazonas",
+        "Type": "Commissiary"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6504,17 +6496,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "COL.2_2",
-        "GID_0": "COL",
-        "COUNTRY": "Colombia",
-        "NAME_1": "Antioquia",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "CO.AN",
-        "ISO_1": "CO-ANT"
+        "Country": "Colombia",
+        "Name_1": "Antioquia",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -15261,17 +15245,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "COL.3_2",
-        "GID_0": "COL",
-        "COUNTRY": "Colombia",
-        "NAME_1": "Arauca",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Intendencia",
-        "ENGTYPE_1": "Intendancy",
-        "CC_1": "NA",
-        "HASC_1": "CO.AR",
-        "ISO_1": "CO-ARA"
+        "Country": "Colombia",
+        "Name_1": "Arauca",
+        "Type": "Intendancy"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -18352,7 +18328,7 @@
               ],
               [
                 -70.9799,
-                7.0
+                7
               ],
               [
                 -70.9767,
@@ -19114,17 +19090,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "COL.4_2",
-        "GID_0": "COL",
-        "COUNTRY": "Colombia",
-        "NAME_1": "Atlántico",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "CO.AT",
-        "ISO_1": "NA"
+        "Country": "Colombia",
+        "Name_1": "Atlántico",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -20047,17 +20015,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "COL.5_2",
-        "GID_0": "COL",
-        "COUNTRY": "Colombia",
-        "NAME_1": "BogotáD.C.",
-        "VARNAME_1": "DistritoCapitaldeBogotá",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "DistritoCapital",
-        "ENGTYPE_1": "CapitalDistrict",
-        "CC_1": "NA",
-        "HASC_1": "CO.DC",
-        "ISO_1": "NA"
+        "Country": "Colombia",
+        "Name_1": "Bogotá D. C.",
+        "Type": "CapitalDistrict"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -22088,17 +22048,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "COL.6_2",
-        "GID_0": "COL",
-        "COUNTRY": "Colombia",
-        "NAME_1": "Bolívar",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "CO.BL",
-        "ISO_1": "NA"
+        "Country": "Colombia",
+        "Name_1": "Bolívar",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -29145,17 +29097,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "COL.7_2",
-        "GID_0": "COL",
-        "COUNTRY": "Colombia",
-        "NAME_1": "Boyacá",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "CO.BY",
-        "ISO_1": "NA"
+        "Country": "Colombia",
+        "Name_1": "Boyacá",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -33304,7 +33248,7 @@
               ],
               [
                 -73.3719,
-                6.0
+                6
               ],
               [
                 -73.3688,
@@ -37234,17 +37178,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "COL.8_2",
-        "GID_0": "COL",
-        "COUNTRY": "Colombia",
-        "NAME_1": "Caldas",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "CO.CL",
-        "ISO_1": "CO-CAL"
+        "Country": "Colombia",
+        "Name_1": "Caldas",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -40955,17 +40891,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "COL.9_2",
-        "GID_0": "COL",
-        "COUNTRY": "Colombia",
-        "NAME_1": "Caquetá",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Intendencia",
-        "ENGTYPE_1": "Intendancy",
-        "CC_1": "NA",
-        "HASC_1": "CO.CQ",
-        "ISO_1": "NA"
+        "Country": "Colombia",
+        "Name_1": "Caquetá",
+        "Type": "Intendancy"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -49052,17 +48980,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "COL.10_2",
-        "GID_0": "COL",
-        "COUNTRY": "Colombia",
-        "NAME_1": "Casanare",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Intendencia",
-        "ENGTYPE_1": "Intendancy",
-        "CC_1": "NA",
-        "HASC_1": "CO.CS",
-        "ISO_1": "CO-CAS"
+        "Country": "Colombia",
+        "Name_1": "Casanare",
+        "Type": "Intendancy"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -54181,17 +54101,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "COL.11_2",
-        "GID_0": "COL",
-        "COUNTRY": "Colombia",
-        "NAME_1": "Cauca",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "CO.CA",
-        "ISO_1": "CO-CAU"
+        "Country": "Colombia",
+        "Name_1": "Cauca",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -61534,17 +61446,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "COL.12_2",
-        "GID_0": "COL",
-        "COUNTRY": "Colombia",
-        "NAME_1": "Cesar",
-        "VARNAME_1": "ElCesar",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "CO.CE",
-        "ISO_1": "CO-CES"
+        "Country": "Colombia",
+        "Name_1": "Cesar",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -63100,7 +63004,7 @@
                 9.3846
               ],
               [
-                -74.0,
+                -74,
                 9.3911
               ],
               [
@@ -68519,17 +68423,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "COL.13_2",
-        "GID_0": "COL",
-        "COUNTRY": "Colombia",
-        "NAME_1": "Chocó",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "CO.CH",
-        "ISO_1": "NA"
+        "Country": "Colombia",
+        "Name_1": "Chocó",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -79774,17 +79670,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "COL.14_2",
-        "GID_0": "COL",
-        "COUNTRY": "Colombia",
-        "NAME_1": "Córdoba",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "CO.CO",
-        "ISO_1": "NA"
+        "Country": "Colombia",
+        "Name_1": "Córdoba",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -83691,17 +83579,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "COL.15_2",
-        "GID_0": "COL",
-        "COUNTRY": "Colombia",
-        "NAME_1": "Cundinamarca",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "CO.CU",
-        "ISO_1": "CO-CUN"
+        "Country": "Colombia",
+        "Name_1": "Cundinamarca",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -90164,17 +90044,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "COL.16_2",
-        "GID_0": "COL",
-        "COUNTRY": "Colombia",
-        "NAME_1": "Guainía",
-        "VARNAME_1": "Guania",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Comisaría",
-        "ENGTYPE_1": "Commissiary",
-        "CC_1": "NA",
-        "HASC_1": "CO.GN",
-        "ISO_1": "NA"
+        "Country": "Colombia",
+        "Name_1": "Guainía",
+        "Type": "Commissiary"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -92186,7 +92058,7 @@
                 1.7522
               ],
               [
-                -70.0,
+                -70,
                 1.76
               ],
               [
@@ -97921,17 +97793,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "COL.17_2",
-        "GID_0": "COL",
-        "COUNTRY": "Colombia",
-        "NAME_1": "Guaviare",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Comisaría",
-        "ENGTYPE_1": "Commissiary",
-        "CC_1": "NA",
-        "HASC_1": "CO.GV",
-        "ISO_1": "CO-GUV"
+        "Country": "Colombia",
+        "Name_1": "Guaviare",
+        "Type": "Commissiary"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -108666,17 +108530,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "COL.18_2",
-        "GID_0": "COL",
-        "COUNTRY": "Colombia",
-        "NAME_1": "Huila",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "CO.HU",
-        "ISO_1": "CO-HUI"
+        "Country": "Colombia",
+        "Name_1": "Huila",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -112627,17 +112483,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "COL.19_2",
-        "GID_0": "COL",
-        "COUNTRY": "Colombia",
-        "NAME_1": "LaGuajira",
-        "VARNAME_1": "Guajira|Goagira|LaGoajira",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "CO.LG",
-        "ISO_1": "CO-LAG"
+        "Country": "Colombia",
+        "Name_1": "La Guajira",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -119960,17 +119808,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "COL.20_2",
-        "GID_0": "COL",
-        "COUNTRY": "Colombia",
-        "NAME_1": "Magdalena",
-        "VARNAME_1": "LaMagdalena",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "CO.MA",
-        "ISO_1": "CO-MAG"
+        "Country": "Colombia",
+        "Name_1": "Magdalena",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -125742,7 +125582,7 @@
                 9.393
               ],
               [
-                -74.0,
+                -74,
                 9.3911
               ],
               [
@@ -126293,17 +126133,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "COL.21_2",
-        "GID_0": "COL",
-        "COUNTRY": "Colombia",
-        "NAME_1": "Meta",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "CO.ME",
-        "ISO_1": "CO-MET"
+        "Country": "Colombia",
+        "Name_1": "Meta",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -131686,17 +131518,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "COL.22_2",
-        "GID_0": "COL",
-        "COUNTRY": "Colombia",
-        "NAME_1": "Nariño",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "CO.NA",
-        "ISO_1": "NA"
+        "Country": "Colombia",
+        "Name_1": "Nariño",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -138451,17 +138275,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "COL.23_2",
-        "GID_0": "COL",
-        "COUNTRY": "Colombia",
-        "NAME_1": "NortedeSantander",
-        "VARNAME_1": "SantanderdelNorte",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "CO.NS",
-        "ISO_1": "CO-NSA"
+        "Country": "Colombia",
+        "Name_1": "Nortede Santander",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -144264,17 +144080,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "COL.24_2",
-        "GID_0": "COL",
-        "COUNTRY": "Colombia",
-        "NAME_1": "Putumayo",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Intendencia",
-        "ENGTYPE_1": "Intendancy",
-        "CC_1": "NA",
-        "HASC_1": "CO.PU",
-        "ISO_1": "CO-PUT"
+        "Country": "Colombia",
+        "Name_1": "Putumayo",
+        "Type": "Intendancy"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -149073,17 +148881,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "COL.25_2",
-        "GID_0": "COL",
-        "COUNTRY": "Colombia",
-        "NAME_1": "Quindío",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "CO.QD",
-        "ISO_1": "NA"
+        "Country": "Colombia",
+        "Name_1": "Quindío",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -150450,17 +150250,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "COL.26_2",
-        "GID_0": "COL",
-        "COUNTRY": "Colombia",
-        "NAME_1": "Risaralda",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "CO.RI",
-        "ISO_1": "CO-RIS"
+        "Country": "Colombia",
+        "Name_1": "Risaralda",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -153047,17 +152839,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "COL.27_1",
-        "GID_0": "COL",
-        "COUNTRY": "Colombia",
-        "NAME_1": "SanAndrésyProvidencia",
-        "VARNAME_1": "SaintAndrewandProvidence",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "CO.SA",
-        "ISO_1": "NA"
+        "Country": "Colombia",
+        "Name_1": "San Andrésy Providencia",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -153644,17 +153428,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "COL.28_2",
-        "GID_0": "COL",
-        "COUNTRY": "Colombia",
-        "NAME_1": "Santander",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "CO.ST",
-        "ISO_1": "CO-SAN"
+        "Country": "Colombia",
+        "Name_1": "Santander",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -154243,7 +154019,7 @@
               ],
               [
                 -73.3719,
-                6.0
+                6
               ],
               [
                 -73.37,
@@ -159517,17 +159293,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "COL.29_2",
-        "GID_0": "COL",
-        "COUNTRY": "Colombia",
-        "NAME_1": "Sucre",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "CO.SU",
-        "ISO_1": "CO-SUC"
+        "Country": "Colombia",
+        "Name_1": "Sucre",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -163866,17 +163634,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "COL.30_2",
-        "GID_0": "COL",
-        "COUNTRY": "Colombia",
-        "NAME_1": "Tolima",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "CO.TO",
-        "ISO_1": "CO-TOL"
+        "Country": "Colombia",
+        "Name_1": "Tolima",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -168571,17 +168331,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "COL.31_2",
-        "GID_0": "COL",
-        "COUNTRY": "Colombia",
-        "NAME_1": "ValledelCauca",
-        "VARNAME_1": "Valle",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "CO.VC",
-        "ISO_1": "CO-VAC"
+        "Country": "Colombia",
+        "Name_1": "Valledel Cauca",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -178492,17 +178244,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "COL.32_2",
-        "GID_0": "COL",
-        "COUNTRY": "Colombia",
-        "NAME_1": "Vaupés",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Comisaría",
-        "ENGTYPE_1": "Commissiary",
-        "CC_1": "NA",
-        "HASC_1": "CO.VP",
-        "ISO_1": "NA"
+        "Country": "Colombia",
+        "Name_1": "Vaupés",
+        "Type": "Commissiary"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -186618,7 +186362,7 @@
                 1.7575
               ],
               [
-                -70.0,
+                -70,
                 1.76
               ],
               [
@@ -188329,17 +188073,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "COL.33_2",
-        "GID_0": "COL",
-        "COUNTRY": "Colombia",
-        "NAME_1": "Vichada",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Comisaría",
-        "ENGTYPE_1": "Commissiary",
-        "CC_1": "NA",
-        "HASC_1": "CO.VD",
-        "ISO_1": "CO-VID"
+        "Country": "Colombia",
+        "Name_1": "Vichada",
+        "Type": "Commissiary"
       },
       "geometry": {
         "type": "MultiPolygon",

@@ -11,8 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "NIC",
-        "COUNTRY": "Nicaragua"
+        "Country": "Nicaragua",
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5921,7 +5922,7 @@
               ],
               [
                 -83.4837,
-                15.0
+                15
               ],
               [
                 -83.4822,
@@ -5993,7 +5994,7 @@
               ],
               [
                 -83.36,
-                15.0
+                15
               ],
               [
                 -83.3556,

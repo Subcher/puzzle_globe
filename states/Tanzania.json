@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TZA.1_1",
-        "GID_0": "TZA",
-        "COUNTRY": "Tanzania",
-        "NAME_1": "Arusha",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Mkoa",
-        "ENGTYPE_1": "Region",
-        "CC_1": "02",
-        "HASC_1": "TZ.AS",
-        "ISO_1": "TZ-01"
+        "Country": "Tanzania",
+        "Name_1": "Arusha",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1476,17 +1468,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TZA.2_1",
-        "GID_0": "TZA",
-        "COUNTRY": "Tanzania",
-        "NAME_1": "DaresSalaam",
-        "VARNAME_1": "Dar-es-salaam|Pwani",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Mkoa",
-        "ENGTYPE_1": "Region",
-        "CC_1": "07",
-        "HASC_1": "TZ.DS",
-        "ISO_1": "TZ-02"
+        "Country": "Tanzania",
+        "Name_1": "Dares Salaam",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3745,17 +3729,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TZA.3_1",
-        "GID_0": "TZA",
-        "COUNTRY": "Tanzania",
-        "NAME_1": "Dodoma",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Mkoa",
-        "ENGTYPE_1": "Region",
-        "CC_1": "01",
-        "HASC_1": "TZ.DO",
-        "ISO_1": "TZ-03"
+        "Country": "Tanzania",
+        "Name_1": "Dodoma",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6798,17 +6774,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TZA.4_1",
-        "GID_0": "TZA",
-        "COUNTRY": "Tanzania",
-        "NAME_1": "Geita",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Mkoa",
-        "ENGTYPE_1": "Region",
-        "CC_1": "25",
-        "HASC_1": "TZ.GE",
-        "ISO_1": "TZ-27"
+        "Country": "Tanzania",
+        "Name_1": "Geita",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10031,17 +9999,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TZA.5_1",
-        "GID_0": "TZA",
-        "COUNTRY": "Tanzania",
-        "NAME_1": "Iringa",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Mkoa",
-        "ENGTYPE_1": "Region",
-        "CC_1": "11",
-        "HASC_1": "TZ.IG",
-        "ISO_1": "TZ-04"
+        "Country": "Tanzania",
+        "Name_1": "Iringa",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13136,17 +13096,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TZA.6_1",
-        "GID_0": "TZA",
-        "COUNTRY": "Tanzania",
-        "NAME_1": "Kagera",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Mkoa",
-        "ENGTYPE_1": "Region",
-        "CC_1": "18",
-        "HASC_1": "TZ.KG",
-        "ISO_1": "TZ-05"
+        "Country": "Tanzania",
+        "Name_1": "Kagera",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -15163,7 +15115,7 @@
               ],
               [
                 31.6851,
-                -1.0
+                -1
               ],
               [
                 31.6843,
@@ -16557,17 +16509,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TZA.18_1",
-        "GID_0": "TZA",
-        "COUNTRY": "Tanzania",
-        "NAME_1": "KaskaziniPemba",
-        "VARNAME_1": "PembaNorth",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Mkoa",
-        "ENGTYPE_1": "Region",
-        "CC_1": "54",
-        "HASC_1": "TZ.PN",
-        "ISO_1": "TZ-06"
+        "Country": "Tanzania",
+        "Name_1": "Kaskazini Pemba",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -19282,17 +19226,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TZA.28_1",
-        "GID_0": "TZA",
-        "COUNTRY": "Tanzania",
-        "NAME_1": "KaskaziniUnguja",
-        "VARNAME_1": "ZanzibarNorth",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Mkoa",
-        "ENGTYPE_1": "Region",
-        "CC_1": "51",
-        "HASC_1": "TZ.ZN",
-        "ISO_1": "TZ-07"
+        "Country": "Tanzania",
+        "Name_1": "Kaskazini Unguja",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -20111,17 +20047,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TZA.7_1",
-        "GID_0": "TZA",
-        "COUNTRY": "Tanzania",
-        "NAME_1": "Katavi",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Mkoa",
-        "ENGTYPE_1": "Region",
-        "CC_1": "23",
-        "HASC_1": "TZ.KA",
-        "ISO_1": "TZ-28"
+        "Country": "Tanzania",
+        "Name_1": "Katavi",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -23474,7 +23402,7 @@
               ],
               [
                 32.7238,
-                -7.0
+                -7
               ],
               [
                 32.7018,
@@ -23780,17 +23708,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TZA.8_1",
-        "GID_0": "TZA",
-        "COUNTRY": "Tanzania",
-        "NAME_1": "Kigoma",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Mkoa",
-        "ENGTYPE_1": "Region",
-        "CC_1": "16",
-        "HASC_1": "TZ.KM",
-        "ISO_1": "TZ-08"
+        "Country": "Tanzania",
+        "Name_1": "Kigoma",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -29185,17 +29105,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TZA.9_1",
-        "GID_0": "TZA",
-        "COUNTRY": "Tanzania",
-        "NAME_1": "Kilimanjaro",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Mkoa",
-        "ENGTYPE_1": "Region",
-        "CC_1": "03",
-        "HASC_1": "TZ.KL",
-        "ISO_1": "TZ-09"
+        "Country": "Tanzania",
+        "Name_1": "Kilimanjaro",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -31310,17 +31222,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TZA.19_1",
-        "GID_0": "TZA",
-        "COUNTRY": "Tanzania",
-        "NAME_1": "KusiniPemba",
-        "VARNAME_1": "PembaSouth",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Mkoa",
-        "ENGTYPE_1": "Region",
-        "CC_1": "55",
-        "HASC_1": "TZ.PS",
-        "ISO_1": "TZ-10"
+        "Country": "Tanzania",
+        "Name_1": "Kusini Pemba",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -33159,17 +33063,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TZA.29_1",
-        "GID_0": "TZA",
-        "COUNTRY": "Tanzania",
-        "NAME_1": "KusiniUnguja",
-        "VARNAME_1": "ZanzibarSouthandCentral",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Mkoa",
-        "ENGTYPE_1": "Region",
-        "CC_1": "52",
-        "HASC_1": "TZ.ZS",
-        "ISO_1": "TZ-11"
+        "Country": "Tanzania",
+        "Name_1": "Kusini Unguja",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -34104,17 +34000,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TZA.10_1",
-        "GID_0": "TZA",
-        "COUNTRY": "Tanzania",
-        "NAME_1": "Lindi",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Mkoa",
-        "ENGTYPE_1": "Region",
-        "CC_1": "08",
-        "HASC_1": "TZ.LI",
-        "ISO_1": "TZ-12"
+        "Country": "Tanzania",
+        "Name_1": "Lindi",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -40369,17 +40257,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TZA.11_1",
-        "GID_0": "TZA",
-        "COUNTRY": "Tanzania",
-        "NAME_1": "Manyara",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Mkoa",
-        "ENGTYPE_1": "Region",
-        "CC_1": "21",
-        "HASC_1": "TZ.MY",
-        "ISO_1": "TZ-26"
+        "Country": "Tanzania",
+        "Name_1": "Manyara",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -44450,17 +44330,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TZA.12_1",
-        "GID_0": "TZA",
-        "COUNTRY": "Tanzania",
-        "NAME_1": "Mara",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Mkoa",
-        "ENGTYPE_1": "Region",
-        "CC_1": "20",
-        "HASC_1": "TZ.MA",
-        "ISO_1": "TZ-13"
+        "Country": "Tanzania",
+        "Name_1": "Mara",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -45551,17 +45423,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TZA.13_1",
-        "GID_0": "TZA",
-        "COUNTRY": "Tanzania",
-        "NAME_1": "Mbeya",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Mkoa",
-        "ENGTYPE_1": "Region",
-        "CC_1": "12",
-        "HASC_1": "TZ.MB",
-        "ISO_1": "TZ-14"
+        "Country": "Tanzania",
+        "Name_1": "Mbeya",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -49112,17 +48976,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TZA.30_1",
-        "GID_0": "TZA",
-        "COUNTRY": "Tanzania",
-        "NAME_1": "MjiniMagharibi",
-        "VARNAME_1": "ZanzibarWest",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Mkoa",
-        "ENGTYPE_1": "Region",
-        "CC_1": "53",
-        "HASC_1": "TZ.ZW",
-        "ISO_1": "TZ-15"
+        "Country": "Tanzania",
+        "Name_1": "Mjini Magharibi",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -50069,17 +49925,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TZA.14_1",
-        "GID_0": "TZA",
-        "COUNTRY": "Tanzania",
-        "NAME_1": "Morogoro",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Mkoa",
-        "ENGTYPE_1": "Region",
-        "CC_1": "05",
-        "HASC_1": "TZ.MO",
-        "ISO_1": "TZ-16"
+        "Country": "Tanzania",
+        "Name_1": "Morogoro",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -53832,7 +53680,7 @@
               ],
               [
                 37.8524,
-                -6.0
+                -6
               ],
               [
                 37.8576,
@@ -56086,17 +55934,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TZA.15_1",
-        "GID_0": "TZA",
-        "COUNTRY": "Tanzania",
-        "NAME_1": "Mtwara",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Mkoa",
-        "ENGTYPE_1": "Region",
-        "CC_1": "09",
-        "HASC_1": "TZ.MT",
-        "ISO_1": "TZ-17"
+        "Country": "Tanzania",
+        "Name_1": "Mtwara",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -59331,17 +59171,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TZA.16_1",
-        "GID_0": "TZA",
-        "COUNTRY": "Tanzania",
-        "NAME_1": "Mwanza",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Mkoa",
-        "ENGTYPE_1": "Region",
-        "CC_1": "19",
-        "HASC_1": "TZ.MZ",
-        "ISO_1": "TZ-18"
+        "Country": "Tanzania",
+        "Name_1": "Mwanza",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -60816,17 +60648,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TZA.17_1",
-        "GID_0": "TZA",
-        "COUNTRY": "Tanzania",
-        "NAME_1": "Njombe",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Mkoa",
-        "ENGTYPE_1": "Region",
-        "CC_1": "22",
-        "HASC_1": "TZ.NJ",
-        "ISO_1": "TZ-29"
+        "Country": "Tanzania",
+        "Name_1": "Njombe",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -62650,7 +62474,7 @@
                 -10.2893
               ],
               [
-                35.0,
+                35,
                 -10.2878
               ],
               [
@@ -62977,17 +62801,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TZA.20_1",
-        "GID_0": "TZA",
-        "COUNTRY": "Tanzania",
-        "NAME_1": "Pwani",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Mkoa",
-        "ENGTYPE_1": "Region",
-        "CC_1": "06",
-        "HASC_1": "TZ.PW",
-        "ISO_1": "TZ-19"
+        "Country": "Tanzania",
+        "Name_1": "Pwani",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -65212,7 +65028,7 @@
               ],
               [
                 37.8524,
-                -6.0
+                -6
               ],
               [
                 37.8439,
@@ -70878,17 +70694,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TZA.21_1",
-        "GID_0": "TZA",
-        "COUNTRY": "Tanzania",
-        "NAME_1": "Rukwa",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Mkoa",
-        "ENGTYPE_1": "Region",
-        "CC_1": "15",
-        "HASC_1": "TZ.RU",
-        "ISO_1": "TZ-20"
+        "Country": "Tanzania",
+        "Name_1": "Rukwa",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -73047,17 +72855,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TZA.22_1",
-        "GID_0": "TZA",
-        "COUNTRY": "Tanzania",
-        "NAME_1": "Ruvuma",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Mkoa",
-        "ENGTYPE_1": "Region",
-        "CC_1": "10",
-        "HASC_1": "TZ.RV",
-        "ISO_1": "TZ-21"
+        "Country": "Tanzania",
+        "Name_1": "Ruvuma",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -73717,7 +73517,7 @@
                 -10.2952
               ],
               [
-                35.0,
+                35,
                 -10.2878
               ],
               [
@@ -77728,17 +77528,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TZA.23_1",
-        "GID_0": "TZA",
-        "COUNTRY": "Tanzania",
-        "NAME_1": "Shinyanga",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Mkoa",
-        "ENGTYPE_1": "Region",
-        "CC_1": "17",
-        "HASC_1": "TZ.SY",
-        "ISO_1": "TZ-22"
+        "Country": "Tanzania",
+        "Name_1": "Shinyanga",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -81681,17 +81473,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TZA.24_1",
-        "GID_0": "TZA",
-        "COUNTRY": "Tanzania",
-        "NAME_1": "Simiyu",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Mkoa",
-        "ENGTYPE_1": "Region",
-        "CC_1": "24",
-        "HASC_1": "TZ.SI",
-        "ISO_1": "TZ-30"
+        "Country": "Tanzania",
+        "Name_1": "Simiyu",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -84538,17 +84322,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TZA.25_1",
-        "GID_0": "TZA",
-        "COUNTRY": "Tanzania",
-        "NAME_1": "Singida",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Mkoa",
-        "ENGTYPE_1": "Region",
-        "CC_1": "13",
-        "HASC_1": "TZ.SD",
-        "ISO_1": "TZ-23"
+        "Country": "Tanzania",
+        "Name_1": "Singida",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -88051,17 +87827,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TZA.31_1",
-        "GID_0": "TZA",
-        "COUNTRY": "Tanzania",
-        "NAME_1": "Songwe",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Mkoa",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "TZ.SO",
-        "ISO_1": "TZ-31"
+        "Country": "Tanzania",
+        "Name_1": "Songwe",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -91488,17 +91256,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TZA.26_1",
-        "GID_0": "TZA",
-        "COUNTRY": "Tanzania",
-        "NAME_1": "Tabora",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Mkoa",
-        "ENGTYPE_1": "Region",
-        "CC_1": "14",
-        "HASC_1": "TZ.TB",
-        "ISO_1": "TZ-24"
+        "Country": "Tanzania",
+        "Name_1": "Tabora",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -97209,17 +96969,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TZA.27_1",
-        "GID_0": "TZA",
-        "COUNTRY": "Tanzania",
-        "NAME_1": "Tanga",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Mkoa",
-        "ENGTYPE_1": "Region",
-        "CC_1": "04",
-        "HASC_1": "TZ.TN",
-        "ISO_1": "TZ-25"
+        "Country": "Tanzania",
+        "Name_1": "Tanga",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",

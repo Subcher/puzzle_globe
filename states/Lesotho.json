@@ -11,8 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "LSO",
-        "COUNTRY": "Lesotho"
+        "Country": "Lesotho",
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",

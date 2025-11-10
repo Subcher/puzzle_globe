@@ -11,18 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BFA.1_1",
-        "GID_0": "BFA",
-        "COUNTRY": "BurkinaFaso",
-        "NAME_1": "BoucleduMouhoun",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "BF.BO",
-        "ISO_1": "NA",
-        "AREA": 34333
+        "Country": "BurkinaFaso",
+        "Name_1": "Boucledu Mouhoun",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1302,11 +1293,11 @@
                 11.9391
               ],
               [
-                -4.0,
+                -4,
                 11.9396
               ],
               [
-                -4.0,
+                -4,
                 11.9409
               ],
               [
@@ -3533,18 +3524,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BFA.2_1",
-        "GID_0": "BFA",
-        "COUNTRY": "BurkinaFaso",
-        "NAME_1": "Cascades",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "BF.CD",
-        "ISO_1": "NA",
-        "AREA": 18970
+        "Country": "BurkinaFaso",
+        "Name_1": "Cascades",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6232,7 +6214,7 @@
                 10.0426
               ],
               [
-                -4.0,
+                -4,
                 10.0406
               ],
               [
@@ -6799,18 +6781,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BFA.7_1",
-        "GID_0": "BFA",
-        "COUNTRY": "BurkinaFaso",
-        "NAME_1": "Centre",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "BF.CT",
-        "ISO_1": "NA",
-        "AREA": 2850
+        "Country": "BurkinaFaso",
+        "Name_1": "Centre",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7693,18 +7666,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BFA.3_1",
-        "GID_0": "BFA",
-        "COUNTRY": "BurkinaFaso",
-        "NAME_1": "Centre-Est",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "BF.CE",
-        "ISO_1": "NA",
-        "AREA": 14126
+        "Country": "BurkinaFaso",
+        "Name_1": "Centre- Est",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10651,18 +10615,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BFA.4_1",
-        "GID_0": "BFA",
-        "COUNTRY": "BurkinaFaso",
-        "NAME_1": "Centre-Nord",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "BF.CN",
-        "ISO_1": "NA",
-        "AREA": 19973
+        "Country": "BurkinaFaso",
+        "Name_1": "Centre- Nord",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13153,18 +13108,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BFA.5_1",
-        "GID_0": "BFA",
-        "COUNTRY": "BurkinaFaso",
-        "NAME_1": "Centre-Ouest",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "BF.CO",
-        "ISO_1": "NA",
-        "AREA": 21722
+        "Country": "BurkinaFaso",
+        "Name_1": "Centre- Ouest",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -14392,7 +14338,7 @@
                 12.4749
               ],
               [
-                -2.0,
+                -2,
                 12.4709
               ],
               [
@@ -14460,11 +14406,11 @@
                 12.3086
               ],
               [
-                -2.0,
+                -2,
                 12.3106
               ],
               [
-                -2.0,
+                -2,
                 12.3082
               ],
               [
@@ -14672,7 +14618,7 @@
                 12.0458
               ],
               [
-                -2.0,
+                -2,
                 12.0413
               ],
               [
@@ -14708,11 +14654,11 @@
                 11.9734
               ],
               [
-                -2.0,
+                -2,
                 11.969
               ],
               [
-                -2.0,
+                -2,
                 11.9654
               ],
               [
@@ -15751,18 +15697,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BFA.6_1",
-        "GID_0": "BFA",
-        "COUNTRY": "BurkinaFaso",
-        "NAME_1": "Centre-Sud",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "BF.CS",
-        "ISO_1": "NA",
-        "AREA": 11149
+        "Country": "BurkinaFaso",
+        "Name_1": "Centre- Sud",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -16846,11 +16783,11 @@
                 11.9567
               ],
               [
-                -2.0,
+                -2,
                 11.9654
               ],
               [
-                -2.0,
+                -2,
                 11.969
               ],
               [
@@ -16886,7 +16823,7 @@
                 12.0132
               ],
               [
-                -2.0,
+                -2,
                 12.0413
               ],
               [
@@ -18269,18 +18206,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BFA.8_1",
-        "GID_0": "BFA",
-        "COUNTRY": "BurkinaFaso",
-        "NAME_1": "Est",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "BF.ES",
-        "ISO_1": "NA",
-        "AREA": 46256
+        "Country": "BurkinaFaso",
+        "Name_1": "Est",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -21783,18 +21711,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BFA.9_1",
-        "GID_0": "BFA",
-        "COUNTRY": "BurkinaFaso",
-        "NAME_1": "Haut-Bassins",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "BF.HB",
-        "ISO_1": "NA",
-        "AREA": 25478
+        "Country": "BurkinaFaso",
+        "Name_1": "Haut- Bassins",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -23538,11 +23457,11 @@
                 11.9507
               ],
               [
-                -4.0,
+                -4,
                 11.9409
               ],
               [
-                -4.0,
+                -4,
                 11.9396
               ],
               [
@@ -25741,18 +25660,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BFA.10_1",
-        "GID_0": "BFA",
-        "COUNTRY": "BurkinaFaso",
-        "NAME_1": "Nord",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "BF.NO",
-        "ISO_1": "NA",
-        "AREA": 17354 
+        "Country": "BurkinaFaso",
+        "Name_1": "Nord",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -27139,18 +27049,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BFA.11_1",
-        "GID_0": "BFA",
-        "COUNTRY": "BurkinaFaso",
-        "NAME_1": "Plateau-Central",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "BF.PC",
-        "ISO_1": "NA",
-        "AREA": 8605
+        "Country": "BurkinaFaso",
+        "Name_1": "Plateau- Central",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -28102,11 +28003,11 @@
                 12.308
               ],
               [
-                -2.0,
+                -2,
                 12.3082
               ],
               [
-                -2.0,
+                -2,
                 12.3106
               ],
               [
@@ -28174,7 +28075,7 @@
                 12.4612
               ],
               [
-                -2.0,
+                -2,
                 12.4709
               ],
               [
@@ -29309,18 +29210,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BFA.12_1",
-        "GID_0": "BFA",
-        "COUNTRY": "BurkinaFaso",
-        "NAME_1": "Sahel",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "BF.SA",
-        "ISO_1": "NA",
-        "AREA": 36166
+        "Country": "BurkinaFaso",
+        "Name_1": "Sahel",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -31531,18 +31423,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BFA.13_1",
-        "GID_0": "BFA",
-        "COUNTRY": "BurkinaFaso",
-        "NAME_1": "Sud-Ouest",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "BF.SO",
-        "ISO_1": "NA",
-        "AREA": 16536
+        "Country": "BurkinaFaso",
+        "Name_1": "Sud- Ouest",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -32154,7 +32037,7 @@
                 10.0351
               ],
               [
-                -4.0,
+                -4,
                 10.0397
               ],
               [

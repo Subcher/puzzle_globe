@@ -11,8 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "HMD",
-        "COUNTRY": "HeardIslandandMcDonaldIsland"
+        "Country": "HeardIslandandMcDonaldIsland",
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",

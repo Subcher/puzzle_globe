@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ESH.1_1",
-        "GID_0": "ESH",
-        "COUNTRY": "WesternSahara",
-        "NAME_1": "Boujdour",
-        "VARNAME_1": "Bojador",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Willaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "EH.BO",
-        "ISO_1": "NA"
+        "Country": "WesternSahara",
+        "Name_1": "Boujdour",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1200,17 +1192,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ESH.2_1",
-        "GID_0": "ESH",
-        "COUNTRY": "WesternSahara",
-        "NAME_1": "EsSemara",
-        "VARNAME_1": "Smara",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Willaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "EH.ES",
-        "ISO_1": "NA"
+        "Country": "WesternSahara",
+        "Name_1": "Es Semara",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1271,7 +1255,7 @@
               ],
               [
                 -9.5629,
-                26.0
+                26
               ],
               [
                 -9.686,
@@ -1295,7 +1279,7 @@
               ],
               [
                 -10.6862,
-                26.0
+                26
               ],
               [
                 -10.8413,
@@ -1509,17 +1493,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ESH.3_1",
-        "GID_0": "ESH",
-        "COUNTRY": "WesternSahara",
-        "NAME_1": "Laayoune",
-        "VARNAME_1": "Elaaiún",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Willaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "EH.LA",
-        "ISO_1": "NA"
+        "Country": "WesternSahara",
+        "Name_1": "Laayoune",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2494,17 +2470,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ESH.4_1",
-        "GID_0": "ESH",
-        "COUNTRY": "WesternSahara",
-        "NAME_1": "OuedelDahab",
-        "VARNAME_1": "EdDakhla|OuedEddahab",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Willaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "EH.OD",
-        "ISO_1": "NA"
+        "Country": "WesternSahara",
+        "Name_1": "Ouedel Dahab",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5912,11 +5880,11 @@
                 24.1052
               ],
               [
-                -12.0,
-                24.0
+                -12,
+                24
               ],
               [
-                -12.0,
+                -12,
                 23.4545
               ],
               [

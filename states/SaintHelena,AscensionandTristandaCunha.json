@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SHN.1_1",
-        "GID_0": "SHN",
-        "COUNTRY": "SaintHelena,AscensionandTristandaCunha",
-        "NAME_1": "Ascension",
-        "VARNAME_1": "Ascensão",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "AdministrativeArea",
-        "ENGTYPE_1": "AdministrativeArea",
-        "CC_1": "NA",
-        "HASC_1": "SH.AC",
-        "ISO_1": "NA"
+        "Country": "SaintHelena,AscensionandTristandaCunha",
+        "Name_1": "Ascension",
+        "Type": "AdministrativeArea"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -328,17 +320,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SHN.2_1",
-        "GID_0": "SHN",
-        "COUNTRY": "SaintHelena,AscensionandTristandaCunha",
-        "NAME_1": "SaintHelena",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Dependency",
-        "ENGTYPE_1": "Dependency",
-        "CC_1": "NA",
-        "HASC_1": "SH.SH",
-        "ISO_1": "SH-HL"
+        "Country": "SaintHelena,AscensionandTristandaCunha",
+        "Name_1": "Saint Helena",
+        "Type": "Dependency"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1361,17 +1345,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SHN.3_1",
-        "GID_0": "SHN",
-        "COUNTRY": "SaintHelena,AscensionandTristandaCunha",
-        "NAME_1": "TristandaCunha",
-        "VARNAME_1": "TristãodaCunha",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Dependency",
-        "ENGTYPE_1": "Dependency",
-        "CC_1": "NA",
-        "HASC_1": "SH.TA",
-        "ISO_1": "NA"
+        "Country": "SaintHelena,AscensionandTristandaCunha",
+        "Name_1": "Tristanda Cunha",
+        "Type": "Dependency"
       },
       "geometry": {
         "type": "MultiPolygon",

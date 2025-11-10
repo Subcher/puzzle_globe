@@ -11,8 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "WSM",
-        "COUNTRY": "Samoa"
+        "Country": "Samoa",
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",

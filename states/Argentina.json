@@ -11,18 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ARG.1_1",
-        "GID_0": "ARG",
-        "COUNTRY": "Argentina",
-        "NAME_1": "BuenosAires",
-        "VARNAME_1": "Baires|BuenosAyres",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AR.BA",
-        "ISO_1": "AR-B",
-	"AREA": 307571
+        "Country": "Argentina",
+        "Name_1": "Buenos Aires",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -12835,7 +12826,7 @@
               ],
               [
                 -56.764615468409566,
-                -36.337366122004369
+                -36.33736612200437
               ],
               [
                 -56.7699,
@@ -19333,11 +19324,11 @@
             [
               [
                 -56.764615468409566,
-                -36.337366122004369
+                -36.33736612200437
               ],
               [
-                -56.763655907429978,
-                -36.337868392204619
+                -56.76365590742998,
+                -36.33786839220462
               ],
               [
                 -56.764,
@@ -19345,13 +19336,13 @@
               ],
               [
                 -56.764615468409566,
-                -36.337366122004369
+                -36.33736612200437
               ]
             ],
             [
               [
-                -56.763655907429978,
-                -36.337868392204619
+                -56.76365590742998,
+                -36.33786839220462
               ],
               [
                 -56.759,
@@ -19370,8 +19361,8 @@
                 -36.3413
               ],
               [
-                -56.763655907429978,
-                -36.337868392204619
+                -56.76365590742998,
+                -36.33786839220462
               ]
             ]
           ],
@@ -30673,18 +30664,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ARG.2_1",
-        "GID_0": "ARG",
-        "COUNTRY": "Argentina",
-        "NAME_1": "Catamarca",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AR.CT",
-        "ISO_1": "AR-K",
-	"AREA": 102602
+        "Country": "Argentina",
+        "Name_1": "Catamarca",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -32541,7 +32523,7 @@
               ],
               [
                 -68.3125,
-                -27.0
+                -27
               ],
               [
                 -68.3151,
@@ -34235,18 +34217,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ARG.3_1",
-        "GID_0": "ARG",
-        "COUNTRY": "Argentina",
-        "NAME_1": "Chaco",
-        "VARNAME_1": "ElChaco|PresidenteJuanPeron",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AR.CC",
-        "ISO_1": "AR-H",
-	"AREA": 99633
+        "Country": "Argentina",
+        "Name_1": "Chaco",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -35975,7 +35948,7 @@
               ],
               [
                 -60.3884,
-                -28.0
+                -28
               ],
               [
                 -61.4189,
@@ -37745,18 +37718,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ARG.4_1",
-        "GID_0": "ARG",
-        "COUNTRY": "Argentina",
-        "NAME_1": "Chubut",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AR.CH",
-        "ISO_1": "AR-U",
-	"AREA": 224686
+        "Country": "Argentina",
+        "Name_1": "Chubut",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -39129,7 +39093,7 @@
               ],
               [
                 -71.5406,
-                -45.0
+                -45
               ],
               [
                 -71.5418,
@@ -42385,7 +42349,7 @@
               ],
               [
                 -72.0381,
-                -43.0
+                -43
               ],
               [
                 -72.039,
@@ -54835,18 +54799,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ARG.5_1",
-        "GID_0": "ARG",
-        "COUNTRY": "Argentina",
-        "NAME_1": "CiudaddeBuenosAires",
-        "VARNAME_1": "BUENOSAIRESD.F.|CapitalFedera",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "DistritoFederal",
-        "ENGTYPE_1": "FederalDistrict",
-        "CC_1": "NA",
-        "HASC_1": "AR.DF",
-        "ISO_1": "NA",
-	"AREA": 203
+        "Country": "Argentina",
+        "Name_1": "Ciudadde Buenos Aires",
+        "Type": "FederalDistrict"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -55141,18 +55096,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ARG.6_1",
-        "GID_0": "ARG",
-        "COUNTRY": "Argentina",
-        "NAME_1": "Córdoba",
-        "VARNAME_1": "Cordova",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AR.CB",
-        "ISO_1": "NA",
-	"AREA": 165321
+        "Country": "Argentina",
+        "Name_1": "Córdoba",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -56663,18 +56609,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ARG.7_1",
-        "GID_0": "ARG",
-        "COUNTRY": "Argentina",
-        "NAME_1": "Corrientes",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AR.CN",
-        "ISO_1": "AR-W",
-	"AREA": 88199
+        "Country": "Argentina",
+        "Name_1": "Corrientes",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -57619,7 +57556,7 @@
               ],
               [
                 -59.5883,
-                -30.0
+                -30
               ],
               [
                 -59.593,
@@ -58610,11 +58547,11 @@
                 -27.4729
               ],
               [
-                -57.0,
+                -57,
                 -27.4648
               ],
               [
-                -57.0,
+                -57,
                 -27.5106
               ],
               [
@@ -59825,18 +59762,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ARG.8_1",
-        "GID_0": "ARG",
-        "COUNTRY": "Argentina",
-        "NAME_1": "EntreRíos",
-        "VARNAME_1": "Entre-Rios",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AR.ER",
-        "ISO_1": "NA",
-	"AREA": 78781
+        "Country": "Argentina",
+        "Name_1": "Entre Ríos",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -60844,7 +60772,7 @@
                 -31.2178
               ],
               [
-                -60.0,
+                -60,
                 -31.2074
               ],
               [
@@ -63027,18 +62955,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ARG.9_1",
-        "GID_0": "ARG",
-        "COUNTRY": "Argentina",
-        "NAME_1": "Formosa",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AR.FM",
-        "ISO_1": "AR-P",
-	"AREA": 72066
+        "Country": "Argentina",
+        "Name_1": "Formosa",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -67071,7 +66990,7 @@
               ],
               [
                 -60.3874,
-                -24.0
+                -24
               ],
               [
                 -60.381,
@@ -68601,18 +68520,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ARG.10_1",
-        "GID_0": "ARG",
-        "COUNTRY": "Argentina",
-        "NAME_1": "Jujuy",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AR.JY",
-        "ISO_1": "AR-Y",
-	"AREA": 53219
+        "Country": "Argentina",
+        "Name_1": "Jujuy",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -69888,7 +69798,7 @@
                 -23.918
               ],
               [
-                -67.0,
+                -67,
                 -23.8793
               ],
               [
@@ -69909,7 +69819,7 @@
               ],
               [
                 -66.9902,
-                -23.0
+                -23
               ],
               [
                 -67.1803,
@@ -71135,18 +71045,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ARG.11_1",
-        "GID_0": "ARG",
-        "COUNTRY": "Argentina",
-        "NAME_1": "LaPampa",
-        "VARNAME_1": "ElPampa|EvaPerón",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AR.LP",
-        "ISO_1": "AR-L",
-	"AREA": 143440
+        "Country": "Argentina",
+        "Name_1": "La Pampa",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -72841,18 +72742,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ARG.12_1",
-        "GID_0": "ARG",
-        "COUNTRY": "Argentina",
-        "NAME_1": "LaRioja",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AR.LR",
-        "ISO_1": "AR-F",
-	"AREA": 89680
+        "Country": "Argentina",
+        "Name_1": "La Rioja",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -75215,18 +75107,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ARG.13_1",
-        "GID_0": "ARG",
-        "COUNTRY": "Argentina",
-        "NAME_1": "Mendoza",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AR.MZ",
-        "ISO_1": "AR-M",
-	"AREA": 148827
+        "Country": "Argentina",
+        "Name_1": "Mendoza",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -78858,7 +78741,7 @@
                 -32.9466
               ],
               [
-                -70.0,
+                -70,
                 -32.9441
               ],
               [
@@ -81285,18 +81168,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ARG.14_1",
-        "GID_0": "ARG",
-        "COUNTRY": "Argentina",
-        "NAME_1": "Misiones",
-        "VARNAME_1": "Missões",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AR.MN",
-        "ISO_1": "AR-N",
-	"AREA": 29801
+        "Country": "Argentina",
+        "Name_1": "Misiones",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -85172,7 +85046,7 @@
                 -27.7831
               ],
               [
-                -55.0,
+                -55,
                 -27.7901
               ],
               [
@@ -85355,18 +85229,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ARG.15_1",
-        "GID_0": "ARG",
-        "COUNTRY": "Argentina",
-        "NAME_1": "Neuquén",
-        "VARNAME_1": "Neuquén",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AR.NQ",
-        "ISO_1": "NA",
-	"AREA": 94078
+        "Country": "Argentina",
+        "Name_1": "Neuquén",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -92621,18 +92486,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ARG.16_1",
-        "GID_0": "ARG",
-        "COUNTRY": "Argentina",
-        "NAME_1": "RíoNegro",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AR.RN",
-        "ISO_1": "NA",
-	"AREA": 203013
+        "Country": "Argentina",
+        "Name_1": "Río Negro",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -99663,18 +99519,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ARG.17_1",
-        "GID_0": "ARG",
-        "COUNTRY": "Argentina",
-        "NAME_1": "Salta",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AR.SA",
-        "ISO_1": "AR-A",
-	"AREA": 155488
+        "Country": "Argentina",
+        "Name_1": "Salta",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -100786,7 +100633,7 @@
                 -23.8739
               ],
               [
-                -67.0,
+                -67,
                 -23.8793
               ],
               [
@@ -105429,18 +105276,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ARG.18_1",
-        "GID_0": "ARG",
-        "COUNTRY": "Argentina",
-        "NAME_1": "SanJuan",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AR.SJ",
-        "ISO_1": "AR-J",
-	"AREA": 89651
+        "Country": "Argentina",
+        "Name_1": "San Juan",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -111427,18 +111265,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ARG.19_1",
-        "GID_0": "ARG",
-        "COUNTRY": "Argentina",
-        "NAME_1": "SanLuis",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AR.SL",
-        "ISO_1": "AR-D",
-	"AREA": 76748
+        "Country": "Argentina",
+        "Name_1": "San Luis",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -113433,18 +113262,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ARG.20_1",
-        "GID_0": "ARG",
-        "COUNTRY": "Argentina",
-        "NAME_1": "SantaCruz",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AR.SC",
-        "ISO_1": "AR-Z",
-	"AREA": 243943
+        "Country": "Argentina",
+        "Name_1": "Santa Cruz",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -119093,7 +118913,7 @@
               ],
               [
                 -72.4183,
-                -48.0
+                -48
               ],
               [
                 -72.4258,
@@ -126223,18 +126043,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ARG.21_1",
-        "GID_0": "ARG",
-        "COUNTRY": "Argentina",
-        "NAME_1": "SantaFe",
-        "VARNAME_1": "SantaFé",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AR.SF",
-        "ISO_1": "AR-S",
-	"AREA": 133007
+        "Country": "Argentina",
+        "Name_1": "Santa Fe",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -126763,7 +126574,7 @@
               ],
               [
                 -60.3884,
-                -28.0
+                -28
               ],
               [
                 -60.0996,
@@ -127315,7 +127126,7 @@
               ],
               [
                 -59.5883,
-                -30.0
+                -30
               ],
               [
                 -59.5861,
@@ -127650,7 +127461,7 @@
                 -31.1891
               ],
               [
-                -60.0,
+                -60,
                 -31.2074
               ],
               [
@@ -128645,18 +128456,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ARG.22_1",
-        "GID_0": "ARG",
-        "COUNTRY": "Argentina",
-        "NAME_1": "SantiagodelEstero",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AR.SE",
-        "ISO_1": "AR-G",
-	"AREA": 136351
+        "Country": "Argentina",
+        "Name_1": "Santiagodel Estero",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -129811,18 +129613,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ARG.23_1",
-        "GID_0": "ARG",
-        "COUNTRY": "Argentina",
-        "NAME_1": "TierradelFuego",
-        "VARNAME_1": "Feuerland|TerradelFuoco|Terre",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AR.TF",
-        "ISO_1": "AR-V",
-	"AREA": 21263
+        "Country": "Argentina",
+        "Name_1": "Tierradel Fuego",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -141269,18 +141062,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ARG.24_1",
-        "GID_0": "ARG",
-        "COUNTRY": "Argentina",
-        "NAME_1": "Tucumán",
-        "VARNAME_1": "Tucumão",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AR.TM",
-        "ISO_1": "NA",
-	"AREA": 22524
+        "Country": "Argentina",
+        "Name_1": "Tucumán",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",

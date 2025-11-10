@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SPM.1_1",
-        "GID_0": "SPM",
-        "COUNTRY": "SaintPierreandMiquelon",
-        "NAME_1": "Miquelon-Langlade",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Commune",
-        "ENGTYPE_1": "Commune",
-        "CC_1": "NA",
-        "HASC_1": "PM.ML",
-        "ISO_1": "NA"
+        "Country": "SaintPierreandMiquelon",
+        "Name_1": "Miquelon- Langlade",
+        "Type": "Commune"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -784,17 +776,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SPM.2_1",
-        "GID_0": "SPM",
-        "COUNTRY": "SaintPierreandMiquelon",
-        "NAME_1": "Saint-Pierre",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Commune",
-        "ENGTYPE_1": "Commune",
-        "CC_1": "NA",
-        "HASC_1": "PM.SP",
-        "ISO_1": "NA"
+        "Country": "SaintPierreandMiquelon",
+        "Name_1": "Saint- Pierre",
+        "Type": "Commune"
       },
       "geometry": {
         "type": "MultiPolygon",

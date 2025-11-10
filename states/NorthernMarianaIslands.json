@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MNP.1_1",
-        "GID_0": "MNP",
-        "COUNTRY": "NorthernMarianaIslands",
-        "NAME_1": "NorthernIslands",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Municipality",
-        "ENGTYPE_1": "Municipality",
-        "CC_1": "NA",
-        "HASC_1": "MP.NI",
-        "ISO_1": "NA"
+        "Country": "NorthernMarianaIslands",
+        "Name_1": "Northern Islands",
+        "Type": "Municipality"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1144,17 +1136,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MNP.2_1",
-        "GID_0": "MNP",
-        "COUNTRY": "NorthernMarianaIslands",
-        "NAME_1": "Rota",
-        "VARNAME_1": "Luta",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Municipality",
-        "ENGTYPE_1": "Municipality",
-        "CC_1": "NA",
-        "HASC_1": "MP.RO",
-        "ISO_1": "NA"
+        "Country": "NorthernMarianaIslands",
+        "Name_1": "Rota",
+        "Type": "Municipality"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1457,17 +1441,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MNP.3_1",
-        "GID_0": "MNP",
-        "COUNTRY": "NorthernMarianaIslands",
-        "NAME_1": "Saipan",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Municipality",
-        "ENGTYPE_1": "Municipality",
-        "CC_1": "NA",
-        "HASC_1": "MP.SA",
-        "ISO_1": "NA"
+        "Country": "NorthernMarianaIslands",
+        "Name_1": "Saipan",
+        "Type": "Municipality"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1842,17 +1818,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MNP.4_1",
-        "GID_0": "MNP",
-        "COUNTRY": "NorthernMarianaIslands",
-        "NAME_1": "Tinian",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Municipality",
-        "ENGTYPE_1": "Municipality",
-        "CC_1": "NA",
-        "HASC_1": "MP.TI",
-        "ISO_1": "NA"
+        "Country": "NorthernMarianaIslands",
+        "Name_1": "Tinian",
+        "Type": "Municipality"
       },
       "geometry": {
         "type": "MultiPolygon",

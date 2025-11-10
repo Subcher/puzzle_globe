@@ -11,18 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "COM.3_1",
-        "GID_0": "COM",
-        "COUNTRY": "Comoros",
-        "NAME_1": "Mwali",
-        "VARNAME_1": "Mohéli",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "AutonomousIsland",
-        "ENGTYPE_1": "AutonomousIsland",
-        "CC_1": "NA",
-        "HASC_1": "KM.MO",
-        "ISO_1": "NA",
-        "AREA": 290
+        "Country": "Comoros",
+        "Name_1": "Mwali",
+        "Type": "AutonomousIsland"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1149,18 +1140,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "COM.2_1",
-        "GID_0": "COM",
-        "COUNTRY": "Comoros",
-        "NAME_1": "Njazídja",
-        "VARNAME_1": "GrandeComore",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "AutonomousIsland",
-        "ENGTYPE_1": "AutonomousIsland",
-        "CC_1": "NA",
-        "HASC_1": "KM.GC",
-        "ISO_1": "NA",
-        "AREA": 1148
+        "Country": "Comoros",
+        "Name_1": "Njazídja",
+        "Type": "AutonomousIsland"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2183,18 +2165,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "COM.1_1",
-        "GID_0": "COM",
-        "COUNTRY": "Comoros",
-        "NAME_1": "Nzwani",
-        "VARNAME_1": "Anjouan",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "AutonomousIsland",
-        "ENGTYPE_1": "AutonomousIsland",
-        "CC_1": "NA",
-        "HASC_1": "KM.AN",
-        "ISO_1": "NA",
-        "AREA": 424
+        "Country": "Comoros",
+        "Name_1": "Nzwani",
+        "Type": "AutonomousIsland"
       },
       "geometry": {
         "type": "MultiPolygon",

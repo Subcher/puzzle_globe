@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUN.1_1",
-        "GID_0": "TUN",
-        "COUNTRY": "Tunisia",
-        "NAME_1": "Ariana",
-        "VARNAME_1": "AlAryiānah|L'Ariana|TunisArian",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "NA",
-        "HASC_1": "TN.AN",
-        "ISO_1": "NA"
+        "Country": "Tunisia",
+        "Name_1": "Ariana",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -616,17 +608,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUN.2_1",
-        "GID_0": "TUN",
-        "COUNTRY": "Tunisia",
-        "NAME_1": "Béja",
-        "VARNAME_1": "Bājah|Béja",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "NA",
-        "HASC_1": "TN.BJ",
-        "ISO_1": "NA"
+        "Country": "Tunisia",
+        "Name_1": "Béja",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1517,17 +1501,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUN.3_1",
-        "GID_0": "TUN",
-        "COUNTRY": "Tunisia",
-        "NAME_1": "BenArous(TunisSud)",
-        "VARNAME_1": "Bin`Arūs|BenArous|TunisBenAr",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "NA",
-        "HASC_1": "TN.BA",
-        "ISO_1": "NA"
+        "Country": "Tunisia",
+        "Name_1": "Ben Arous( Tunis Sud)",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2046,17 +2022,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUN.4_1",
-        "GID_0": "TUN",
-        "COUNTRY": "Tunisia",
-        "NAME_1": "Bizerte",
-        "VARNAME_1": "BanzartBanzart|Bensert|Binzart|B",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "NA",
-        "HASC_1": "TN.BZ",
-        "ISO_1": "TN-23"
+        "Country": "Tunisia",
+        "Name_1": "Bizerte",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4115,17 +4083,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUN.5_1",
-        "GID_0": "TUN",
-        "COUNTRY": "Tunisia",
-        "NAME_1": "Gabès",
-        "VARNAME_1": "Qābis|Gabās",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "NA",
-        "HASC_1": "TN.GB",
-        "ISO_1": "NA"
+        "Country": "Tunisia",
+        "Name_1": "Gabès",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5216,17 +5176,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUN.6_1",
-        "GID_0": "TUN",
-        "COUNTRY": "Tunisia",
-        "NAME_1": "Gafsa",
-        "VARNAME_1": "Gafṣah|Qafṣah",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "NA",
-        "HASC_1": "TN.GF",
-        "ISO_1": "TN-71"
+        "Country": "Tunisia",
+        "Name_1": "Gafsa",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6073,17 +6025,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUN.7_1",
-        "GID_0": "TUN",
-        "COUNTRY": "Tunisia",
-        "NAME_1": "Jendouba",
-        "VARNAME_1": "Jendoûbah|Jenduba|Jondouba|Jundū",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "NA",
-        "HASC_1": "TN.JE",
-        "ISO_1": "TN-32"
+        "Country": "Tunisia",
+        "Name_1": "Jendouba",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7118,17 +7062,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUN.8_1",
-        "GID_0": "TUN",
-        "COUNTRY": "Tunisia",
-        "NAME_1": "Kairouan",
-        "VARNAME_1": "AlQayrawān|AlQīrwān|Qairouân|K",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "NA",
-        "HASC_1": "TN.KR",
-        "ISO_1": "TN-41"
+        "Country": "Tunisia",
+        "Name_1": "Kairouan",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7987,17 +7923,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUN.9_1",
-        "GID_0": "TUN",
-        "COUNTRY": "Tunisia",
-        "NAME_1": "Kassérine",
-        "VARNAME_1": "AlQaṣrayn|AlGaṣrīn|AlQasrin|K",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "NA",
-        "HASC_1": "TN.KS",
-        "ISO_1": "NA"
+        "Country": "Tunisia",
+        "Name_1": "Kassérine",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9008,17 +8936,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUN.10_1",
-        "GID_0": "TUN",
-        "COUNTRY": "Tunisia",
-        "NAME_1": "Kebili",
-        "VARNAME_1": "Kebilli|Qbili|Qibilī",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "NA",
-        "HASC_1": "TN.KB",
-        "ISO_1": "TN-73"
+        "Country": "Tunisia",
+        "Name_1": "Kebili",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9861,17 +9781,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUN.11_1",
-        "GID_0": "TUN",
-        "COUNTRY": "Tunisia",
-        "NAME_1": "LeKef",
-        "VARNAME_1": "AlKāf|ElKef|Kaf|Kef",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "NA",
-        "HASC_1": "TN.KF",
-        "ISO_1": "TN-33"
+        "Country": "Tunisia",
+        "Name_1": "Le Kef",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10484,7 +10396,7 @@
               ],
               [
                 9.139,
-                36.0
+                36
               ],
               [
                 9.1219,
@@ -10694,17 +10606,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUN.12_1",
-        "GID_0": "TUN",
-        "COUNTRY": "Tunisia",
-        "NAME_1": "Mahdia",
-        "VARNAME_1": "AlMadīyah|AlMahdiyya|Mahdiâh",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "NA",
-        "HASC_1": "TN.MH",
-        "ISO_1": "TN-53"
+        "Country": "Tunisia",
+        "Name_1": "Mahdia",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -11847,17 +11751,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUN.13_1",
-        "GID_0": "TUN",
-        "COUNTRY": "Tunisia",
-        "NAME_1": "Manubah",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "NA",
-        "HASC_1": "TN.MN",
-        "ISO_1": "NA"
+        "Country": "Tunisia",
+        "Name_1": "Manubah",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -12229,7 +12125,7 @@
                 36.8017
               ],
               [
-                10.0,
+                10,
                 36.792
               ],
               [
@@ -12336,17 +12232,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUN.14_1",
-        "GID_0": "TUN",
-        "COUNTRY": "Tunisia",
-        "NAME_1": "Médenine",
-        "VARNAME_1": "Madanīyīn|Madanīn|Medenin",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "NA",
-        "HASC_1": "TN.ME",
-        "ISO_1": "NA"
+        "Country": "Tunisia",
+        "Name_1": "Médenine",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -16485,17 +16373,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUN.15_1",
-        "GID_0": "TUN",
-        "COUNTRY": "Tunisia",
-        "NAME_1": "Monastir",
-        "VARNAME_1": "AlMunastīr",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "NA",
-        "HASC_1": "TN.MS",
-        "ISO_1": "TN-52"
+        "Country": "Tunisia",
+        "Name_1": "Monastir",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -17350,17 +17230,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUN.16_1",
-        "GID_0": "TUN",
-        "COUNTRY": "Tunisia",
-        "NAME_1": "Nabeul",
-        "VARNAME_1": "CapBon|Nabil|Nābol|Nābul",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "NA",
-        "HASC_1": "TN.NB",
-        "ISO_1": "TN-21"
+        "Country": "Tunisia",
+        "Name_1": "Nabeul",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -18987,17 +18859,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUN.17_1",
-        "GID_0": "TUN",
-        "COUNTRY": "Tunisia",
-        "NAME_1": "Sfax",
-        "VARNAME_1": "Safāqis|Ṣafāqis|Ṣfāqis",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "NA",
-        "HASC_1": "TN.SF",
-        "ISO_1": "TN-61"
+        "Country": "Tunisia",
+        "Name_1": "Sfax",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -22292,17 +22156,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUN.18_1",
-        "GID_0": "TUN",
-        "COUNTRY": "Tunisia",
-        "NAME_1": "SidiBouZid",
-        "VARNAME_1": "SīdīBūZayd|Qamudah|SidiBoûSa",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "NA",
-        "HASC_1": "TN.SZ",
-        "ISO_1": "NA"
+        "Country": "Tunisia",
+        "Name_1": "Sidi Bou Zid",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -23313,17 +23169,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUN.19_1",
-        "GID_0": "TUN",
-        "COUNTRY": "Tunisia",
-        "NAME_1": "Siliana",
-        "VARNAME_1": "Siliānah|Silyānah",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "NA",
-        "HASC_1": "TN.SL",
-        "ISO_1": "TN-34"
+        "Country": "Tunisia",
+        "Name_1": "Siliana",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -23636,7 +23484,7 @@
               ],
               [
                 9.139,
-                36.0
+                36
               ],
               [
                 9.1508,
@@ -24270,17 +24118,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUN.20_1",
-        "GID_0": "TUN",
-        "COUNTRY": "Tunisia",
-        "NAME_1": "Sousse",
-        "VARNAME_1": "Sousa|Sussa|Susse|Susa|Sūsah",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "NA",
-        "HASC_1": "TN.SS",
-        "ISO_1": "TN-51"
+        "Country": "Tunisia",
+        "Name_1": "Sousse",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -25151,17 +24991,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUN.21_1",
-        "GID_0": "TUN",
-        "COUNTRY": "Tunisia",
-        "NAME_1": "Tataouine",
-        "VARNAME_1": "FoumTataouine|Tatahouine|Tatuin",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "NA",
-        "HASC_1": "TN.TA",
-        "ISO_1": "TN-83"
+        "Country": "Tunisia",
+        "Name_1": "Tataouine",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -25778,7 +25610,7 @@
               ],
               [
                 10.7947,
-                32.0
+                32
               ],
               [
                 10.7678,
@@ -26312,17 +26144,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUN.22_1",
-        "GID_0": "TUN",
-        "COUNTRY": "Tunisia",
-        "NAME_1": "Tozeur",
-        "VARNAME_1": "Tawzar|Touzar|Tūzar",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "NA",
-        "HASC_1": "TN.TO",
-        "ISO_1": "TN-72"
+        "Country": "Tunisia",
+        "Name_1": "Tozeur",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -26873,17 +26697,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUN.23_1",
-        "GID_0": "TUN",
-        "COUNTRY": "Tunisia",
-        "NAME_1": "Tunis",
-        "VARNAME_1": "Tounis|TunisCity|Tūnus|Túnez|Tú",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "NA",
-        "HASC_1": "TN.TU",
-        "ISO_1": "TN-11"
+        "Country": "Tunisia",
+        "Name_1": "Tunis",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -26935,7 +26751,7 @@
                 36.7589
               ],
               [
-                10.0,
+                10,
                 36.792
               ],
               [
@@ -27534,17 +27350,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUN.24_1",
-        "GID_0": "TUN",
-        "COUNTRY": "Tunisia",
-        "NAME_1": "Zaghouan",
-        "VARNAME_1": "TunisSouth|Zachouan|Zaguan|Zagh",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "NA",
-        "HASC_1": "TN.ZA",
-        "ISO_1": "TN-22"
+        "Country": "Tunisia",
+        "Name_1": "Zaghouan",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",

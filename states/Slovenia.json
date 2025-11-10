@@ -11,8 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "SVN",
-        "COUNTRY": "Slovenia"
+        "Country": "Slovenia",
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3860,7 +3861,7 @@
                 45.4815
               ],
               [
-                14.0,
+                14,
                 45.4719
               ],
               [

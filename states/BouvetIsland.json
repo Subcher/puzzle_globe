@@ -11,9 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "BVT",
-        "COUNTRY": "BouvetIsland",
-        "AREA": 49
+        "Country": "BouvetIsland",
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",

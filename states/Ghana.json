@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GHA1_2",
-        "GID_0": "GHA",
-        "COUNTRY": "Ghana",
-        "NAME_1": "Ahafo",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "GH-AF"
+        "Country": "Ghana",
+        "Name_1": "Ahafo",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3756,17 +3748,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GHA2_2",
-        "GID_0": "GHA",
-        "COUNTRY": "Ghana",
-        "NAME_1": "Ashanti",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "GH-AH"
+        "Country": "Ghana",
+        "Name_1": "Ashanti",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -11681,17 +11665,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GHA3_2",
-        "GID_0": "GHA",
-        "COUNTRY": "Ghana",
-        "NAME_1": "Bono",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "GH-BO"
+        "Country": "Ghana",
+        "Name_1": "Bono",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -14090,17 +14066,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GHA4_2",
-        "GID_0": "GHA",
-        "COUNTRY": "Ghana",
-        "NAME_1": "BonoEast",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "GH-BE"
+        "Country": "Ghana",
+        "Name_1": "Bono East",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -18135,17 +18103,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GHA5_2",
-        "GID_0": "GHA",
-        "COUNTRY": "Ghana",
-        "NAME_1": "Central",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "GH-CP"
+        "Country": "Ghana",
+        "Name_1": "Central",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -21716,17 +21676,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GHA6_2",
-        "GID_0": "GHA",
-        "COUNTRY": "Ghana",
-        "NAME_1": "Eastern",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "GH-EP"
+        "Country": "Ghana",
+        "Name_1": "Eastern",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -25465,17 +25417,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GHA7_2",
-        "GID_0": "GHA",
-        "COUNTRY": "Ghana",
-        "NAME_1": "GreaterAccra",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "GH-AA"
+        "Country": "Ghana",
+        "Name_1": "Greater Accra",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -26946,17 +26890,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GHA8_2",
-        "GID_0": "GHA",
-        "COUNTRY": "Ghana",
-        "NAME_1": "NorthEast",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "GH-NE"
+        "Country": "Ghana",
+        "Name_1": "North East",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -31543,17 +31479,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GHA9_2",
-        "GID_0": "GHA",
-        "COUNTRY": "Ghana",
-        "NAME_1": "Northern",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "GH-NP"
+        "Country": "Ghana",
+        "Name_1": "Northern",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -39212,17 +39140,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GHA10_2",
-        "GID_0": "GHA",
-        "COUNTRY": "Ghana",
-        "NAME_1": "Oti",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "GH-OT"
+        "Country": "Ghana",
+        "Name_1": "Oti",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -42027,17 +41947,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GHA11_2",
-        "GID_0": "GHA",
-        "COUNTRY": "Ghana",
-        "NAME_1": "Savannah",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "GH-SV"
+        "Country": "Ghana",
+        "Name_1": "Savannah",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -48548,17 +48460,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GHA12_2",
-        "GID_0": "GHA",
-        "COUNTRY": "Ghana",
-        "NAME_1": "UpperEast",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "GH-UE"
+        "Country": "Ghana",
+        "Name_1": "Upper East",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -51201,17 +51105,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GHA13_2",
-        "GID_0": "GHA",
-        "COUNTRY": "Ghana",
-        "NAME_1": "UpperWest",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "GH-UW"
+        "Country": "Ghana",
+        "Name_1": "Upper West",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -52850,17 +52746,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GHA14_2",
-        "GID_0": "GHA",
-        "COUNTRY": "Ghana",
-        "NAME_1": "Volta",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "GH-TV"
+        "Country": "Ghana",
+        "Name_1": "Volta",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -55119,17 +55007,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GHA15_2",
-        "GID_0": "GHA",
-        "COUNTRY": "Ghana",
-        "NAME_1": "Western",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "GH-WP"
+        "Country": "Ghana",
+        "Name_1": "Western",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -58752,17 +58632,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GHA16_2",
-        "GID_0": "GHA",
-        "COUNTRY": "Ghana",
-        "NAME_1": "WesternNorth",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "GH-WN"
+        "Country": "Ghana",
+        "Name_1": "Western North",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",

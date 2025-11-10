@@ -11,18 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "AFG",
-        "COUNTRY": "Afghanistan",
-        "GID_1": "AFG.1_1",
-        "NAME_1": "Badakhshan",
-        "VARNAME_1": "Badahšan",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Velayat",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AF.BD",
-        "ISO_1": "NA",
-	"AREA": 44059
+        "Country": null,
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5273,18 +5264,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "AFG",
-        "COUNTRY": "Afghanistan",
-        "GID_1": "AFG.2_1",
-        "NAME_1": "Badghis",
-        "VARNAME_1": "Badghes|Badghisat|Badgis",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Velayat",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AF.BG",
-        "ISO_1": "AF-BDG",
-	"AREA": 20591
+        "Country": null,
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6691,18 +6673,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "AFG",
-        "COUNTRY": "Afghanistan",
-        "GID_1": "AFG.3_1",
-        "NAME_1": "Baghlan",
-        "VARNAME_1": "Baglan|Bughlan",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Velayat",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AF.BL",
-        "ISO_1": "AF-BGL",
-	"AREA": 21118
+        "Country": null,
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7054,7 +7027,7 @@
                 35.4567
               ],
               [
-                68.0,
+                68,
                 35.4619
               ],
               [
@@ -8305,18 +8278,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "AFG",
-        "COUNTRY": "Afghanistan",
-        "GID_1": "AFG.4_1",
-        "NAME_1": "Balkh",
-        "VARNAME_1": "Balh|Mazar-i-Sharif|Mazar",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Velayat",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AF.BK",
-        "ISO_1": "AF-BAL",
-	"AREA": 16840
+        "Country": null,
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9703,18 +9667,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "AFG",
-        "COUNTRY": "Afghanistan",
-        "GID_1": "AFG.5_1",
-        "NAME_1": "Bamyan",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Velayat",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AF.BM",
-        "ISO_1": "AF-BAM",
-	"AREA": 18029
+        "Country": null,
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -11077,18 +11032,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "AFG",
-        "COUNTRY": "Afghanistan",
-        "GID_1": "AFG.6_1",
-        "NAME_1": "Daykundi",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Velayat",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AF.DK",
-        "ISO_1": "AF-DAY",
-	"AREA": 18088
+        "Country": null,
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -12447,18 +12393,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "AFG",
-        "COUNTRY": "Afghanistan",
-        "GID_1": "AFG.7_1",
-        "NAME_1": "Farah",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Velayat",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AF.FH",
-        "ISO_1": "AF-FRA",
-	"AREA": 48471
+        "Country": null,
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -14085,18 +14022,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "AFG",
-        "COUNTRY": "Afghanistan",
-        "GID_1": "AFG.8_1",
-        "NAME_1": "Faryab",
-        "VARNAME_1": "Fariab|Maimana|Meymaneh",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Velayat",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AF.FB",
-        "ISO_1": "AF-FYB",
-	"AREA": 20797
+        "Country": null,
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -15435,18 +15363,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "AFG",
-        "COUNTRY": "Afghanistan",
-        "GID_1": "AFG.9_1",
-        "NAME_1": "Ghazni",
-        "VARNAME_1": "Gazni",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Velayat",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AF.GZ",
-        "ISO_1": "AF-GHA",
-	"AREA": 22915
+        "Country": null,
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -17137,18 +17056,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "AFG",
-        "COUNTRY": "Afghanistan",
-        "GID_1": "AFG.10_1",
-        "NAME_1": "Ghor",
-        "VARNAME_1": "Gawr|Ghore|Ghour|Ghur",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Velayat",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AF.GR",
-        "ISO_1": "AF-GHO",
-	"AREA": 36479
+        "Country": null,
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -19375,18 +19285,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "AFG",
-        "COUNTRY": "Afghanistan",
-        "GID_1": "AFG.11_1",
-        "NAME_1": "Hilmand",
-        "VARNAME_1": "Girishk|Hilmend",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Velayat",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AF.HM",
-        "ISO_1": "NA",
-	"AREA": 58584
+        "Country": null,
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -20809,18 +20710,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "AFG",
-        "COUNTRY": "Afghanistan",
-        "GID_1": "AFG.12_1",
-        "NAME_1": "Hirat",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Velayat",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AF.HR",
-        "ISO_1": "NA",
-	"AREA": 54778
+        "Country": null,
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -23243,18 +23135,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "AFG",
-        "COUNTRY": "Afghanistan",
-        "GID_1": "AFG.13_1",
-        "NAME_1": "Jawzjan",
-        "VARNAME_1": "Jaozjan|Jozjan|Juzjan|Jouzjan|Sh",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Velayat",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AF.JW",
-        "ISO_1": "NA",
-	"AREA": 11798
+        "Country": null,
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -24209,18 +24092,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "AFG",
-        "COUNTRY": "Afghanistan",
-        "GID_1": "AFG.14_1",
-        "NAME_1": "Kabul",
-        "VARNAME_1": "Cabul|Kabol|Kaboul",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Velayat",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AF.KB",
-        "ISO_1": "AF-KAB",
-	"AREA": 4462
+        "Country": null,
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -25111,18 +24985,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "AFG",
-        "COUNTRY": "Afghanistan",
-        "GID_1": "AFG.15_1",
-        "NAME_1": "Kandahar",
-        "VARNAME_1": "Qandahar",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Velayat",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AF.KD",
-        "ISO_1": "AF-KAN",
-	"AREA": 54022
+        "Country": null,
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -26973,18 +26838,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "AFG",
-        "COUNTRY": "Afghanistan",
-        "GID_1": "AFG.16_1",
-        "NAME_1": "Kapisa",
-        "VARNAME_1": "Kapesa",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Velayat",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AF.KP",
-        "ISO_1": "NA",
-	"AREA": 1842
+        "Country": null,
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -27645,18 +27501,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "AFG",
-        "COUNTRY": "Afghanistan",
-        "GID_1": "AFG.17_1",
-        "NAME_1": "Khost",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Velayat",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AF.KT",
-        "ISO_1": "AF-KHO",
-	"AREA": 4152
+        "Country": null,
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -28423,18 +28270,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "AFG",
-        "COUNTRY": "Afghanistan",
-        "GID_1": "AFG.18_1",
-        "NAME_1": "Kunar",
-        "VARNAME_1": "Konarha|Kunarha",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Velayat",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AF.KR",
-        "ISO_1": "AF-KNR",
-	"AREA": 4339
+        "Country": null,
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -29293,18 +29131,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "AFG",
-        "COUNTRY": "Afghanistan",
-        "GID_1": "AFG.19_1",
-        "NAME_1": "Kunduz",
-        "VARNAME_1": "Kondoz|Qonduz|Qunduz",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Velayat",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AF.KZ",
-        "ISO_1": "AF-KDZ",
-	"AREA": 8040
+        "Country": null,
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -30375,18 +30204,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "AFG",
-        "COUNTRY": "Afghanistan",
-        "GID_1": "AFG.20_1",
-        "NAME_1": "Laghman",
-        "VARNAME_1": "Lagman",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Velayat",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AF.LA",
-        "ISO_1": "AF-LAG",
-	"AREA": 3843
+        "Country": null,
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -31053,18 +30873,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "AFG",
-        "COUNTRY": "Afghanistan",
-        "GID_1": "AFG.21_1",
-        "NAME_1": "Logar",
-        "VARNAME_1": "Lawghar|Loghar",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Velayat",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AF.LW",
-        "ISO_1": "AF-LOG",
-	"AREA": 4562
+        "Country": null,
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -31643,18 +31454,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "AFG",
-        "COUNTRY": "Afghanistan",
-        "GID_1": "AFG.22_1",
-        "NAME_1": "Nangarhar",
-        "VARNAME_1": "Ningrahar|EasternProvince",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Velayat",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AF.NG",
-        "ISO_1": "AF-NAN",
-	"AREA": 7728
+        "Country": null,
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -32561,18 +32363,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "AFG",
-        "COUNTRY": "Afghanistan",
-        "GID_1": "AFG.23_1",
-        "NAME_1": "Nimroz",
-        "VARNAME_1": "Neemroze|Nimrod|Nimrooz|Nimroze|",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Velayat",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AF.NM",
-        "ISO_1": "AF-NIM",
-	"AREA": 41005
+        "Country": null,
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -33551,18 +33344,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "AFG",
-        "COUNTRY": "Afghanistan",
-        "GID_1": "AFG.24_1",
-        "NAME_1": "Nuristan",
-        "VARNAME_1": "Nooristan|Nuristão",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Velayat",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AF.NR",
-        "ISO_1": "NA",
-	"AREA": 9225
+        "Country": null,
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -34857,18 +34641,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "AFG",
-        "COUNTRY": "Afghanistan",
-        "GID_1": "AFG.25_1",
-        "NAME_1": "Paktika",
-        "VARNAME_1": "Paktiya|Paktya|SouthernProvince",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Velayat",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AF.PK",
-        "ISO_1": "NA",
-	"AREA": 6432
+        "Country": null,
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -36291,18 +36066,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "AFG",
-        "COUNTRY": "Afghanistan",
-        "GID_1": "AFG.26_1",
-        "NAME_1": "Paktya",
-        "VARNAME_1": "Paktiya|SouthernProvince",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Velayat",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AF.PT",
-        "ISO_1": "NA",
-	"AREA": 19482
+        "Country": null,
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -37245,18 +37011,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "AFG",
-        "COUNTRY": "Afghanistan",
-        "GID_1": "AFG.27_1",
-        "NAME_1": "Panjshir",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Velayat",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AF.PJ",
-        "ISO_1": "NA",
-	"AREA": 3610
+        "Country": null,
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -38087,18 +37844,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "AFG",
-        "COUNTRY": "Afghanistan",
-        "GID_1": "AFG.28_1",
-        "NAME_1": "Parwan",
-        "VARNAME_1": "Charikar",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Velayat",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AF.PV",
-        "ISO_1": "AF-PAR",
-	"AREA": 5974
+        "Country": null,
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -39345,18 +39093,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "AFG",
-        "COUNTRY": "Afghanistan",
-        "GID_1": "AFG.29_1",
-        "NAME_1": "Samangan",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Velayat",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AF.SM",
-        "ISO_1": "AF-SAM",
-	"AREA": 11218
+        "Country": null,
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -39420,7 +39159,7 @@
                 35.4906
               ],
               [
-                68.0,
+                68,
                 35.4619
               ],
               [
@@ -40295,18 +40034,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "AFG",
-        "COUNTRY": "Afghanistan",
-        "GID_1": "AFG.30_1",
-        "NAME_1": "SariPul",
-        "VARNAME_1": "Sar-ePul|Saripol",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Velayat",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AF.SP",
-        "ISO_1": "NA",
-	"AREA": 16360
+        "Country": null,
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -41661,18 +41391,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "AFG",
-        "COUNTRY": "Afghanistan",
-        "GID_1": "AFG.31_1",
-        "NAME_1": "Takhar",
-        "VARNAME_1": "Takar",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Velayat",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AF.TK",
-        "ISO_1": "AF-TAK",
-	"AREA": 12333
+        "Country": null,
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -43123,18 +42844,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "AFG",
-        "COUNTRY": "Afghanistan",
-        "GID_1": "AFG.32_1",
-        "NAME_1": "Uruzgan",
-        "VARNAME_1": "Urozgan",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Velayat",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AF.OZ",
-        "ISO_1": "AF-URU",
-	"AREA": 11662
+        "Country": null,
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -44333,18 +44045,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "AFG",
-        "COUNTRY": "Afghanistan",
-        "GID_1": "AFG.33_1",
-        "NAME_1": "Wardak",
-        "VARNAME_1": "Verdak|Wardag|Maiden",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Velayat",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AF.VR",
-        "ISO_1": "NA",
-	"AREA": 9934
+        "Country": null,
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -45323,18 +45026,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "AFG",
-        "COUNTRY": "Afghanistan",
-        "GID_1": "AFG.34_1",
-        "NAME_1": "Zabul",
-        "VARNAME_1": "Zubul|Zaboul",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Velayat",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "AF.ZB",
-        "ISO_1": "NA",
-	"AREA": 17343
+        "Country": null,
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",

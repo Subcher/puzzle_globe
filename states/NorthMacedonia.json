@@ -11,8 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "MKD",
-        "COUNTRY": "NorthMacedonia"
+        "Country": "NorthMacedonia",
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",

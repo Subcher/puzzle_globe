@@ -11,8 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "XSP",
-        "COUNTRY": "SpratlyIslands"
+        "Country": "SpratlyIslands",
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",

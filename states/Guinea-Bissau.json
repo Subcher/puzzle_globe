@@ -11,8 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "GNB",
-        "COUNTRY": "Guinea-Bissau"
+        "Country": "Guinea-Bissau",
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -24060,7 +24061,7 @@
                 11.645
               ],
               [
-                -14.0,
+                -14,
                 11.6449
               ],
               [

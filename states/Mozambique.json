@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MOZ.1_1",
-        "GID_0": "MOZ",
-        "COUNTRY": "Mozambique",
-        "NAME_1": "CaboDelgado",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "MZ.CD",
-        "ISO_1": "MZ-P"
+        "Country": "Mozambique",
+        "Name_1": "Cabo Delgado",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9136,17 +9128,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MOZ.2_1",
-        "GID_0": "MOZ",
-        "COUNTRY": "Mozambique",
-        "NAME_1": "Gaza",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "MZ.GA",
-        "ISO_1": "MZ-G"
+        "Country": "Mozambique",
+        "Name_1": "Gaza",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10218,7 +10202,7 @@
                 -21.5705
               ],
               [
-                33.0,
+                33,
                 -21.5679
               ],
               [
@@ -11493,17 +11477,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MOZ.3_1",
-        "GID_0": "MOZ",
-        "COUNTRY": "Mozambique",
-        "NAME_1": "Inhambane",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "MZ.IN",
-        "ISO_1": "MZ-I"
+        "Country": "Mozambique",
+        "Name_1": "Inhambane",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -18594,17 +18570,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MOZ.4_1",
-        "GID_0": "MOZ",
-        "COUNTRY": "Mozambique",
-        "NAME_1": "Manica",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "MZ.MN",
-        "ISO_1": "MZ-B"
+        "Country": "Mozambique",
+        "Name_1": "Manica",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -18912,7 +18880,7 @@
                 -21.5679
               ],
               [
-                33.0,
+                33,
                 -21.5679
               ],
               [
@@ -21543,17 +21511,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MOZ.6_1",
-        "GID_0": "MOZ",
-        "COUNTRY": "Mozambique",
-        "NAME_1": "Maputo",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "MZ.MP",
-        "ISO_1": "MZ-L"
+        "Country": "Mozambique",
+        "Name_1": "Maputo",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -23604,17 +23564,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MOZ.5_1",
-        "GID_0": "MOZ",
-        "COUNTRY": "Mozambique",
-        "NAME_1": "MaputoCity",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "MZ.MC",
-        "ISO_1": "NA"
+        "Country": "Mozambique",
+        "Name_1": "Maputo City",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -24541,17 +24493,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MOZ.7_1",
-        "GID_0": "MOZ",
-        "COUNTRY": "Mozambique",
-        "NAME_1": "Nampula",
-        "VARNAME_1": "Moçambique|Mozambique",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "MZ.NM",
-        "ISO_1": "MZ-N"
+        "Country": "Mozambique",
+        "Name_1": "Nampula",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -26699,7 +26643,7 @@
                 -16.6593
               ],
               [
-                39.0,
+                39,
                 -16.6495
               ],
               [
@@ -32199,7 +32143,7 @@
                 -15.4246
               ],
               [
-                40.560400883179447,
+                40.56040088317945,
                 -15.420401886792451
               ],
               [
@@ -33781,7 +33725,7 @@
             ],
             [
               [
-                40.560400883179447,
+                40.56040088317945,
                 -15.420401886792451
               ],
               [
@@ -33789,17 +33733,17 @@
                 -15.4204
               ],
               [
-                40.560399047206587,
+                40.56039904720659,
                 -15.420400736249459
               ],
               [
-                40.560400883179447,
+                40.56040088317945,
                 -15.420401886792451
               ]
             ],
             [
               [
-                40.560399047206587,
+                40.56039904720659,
                 -15.420400736249459
               ],
               [
@@ -33811,7 +33755,7 @@
                 -15.4238
               ],
               [
-                40.560399047206587,
+                40.56039904720659,
                 -15.420400736249459
               ]
             ]
@@ -35638,17 +35582,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MOZ.8_1",
-        "GID_0": "MOZ",
-        "COUNTRY": "Mozambique",
-        "NAME_1": "Nassa",
-        "VARNAME_1": "Niassa",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "MZ.NS",
-        "ISO_1": "NA"
+        "Country": "Mozambique",
+        "Name_1": "Nassa",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -39015,17 +38951,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MOZ.9_1",
-        "GID_0": "MOZ",
-        "COUNTRY": "Mozambique",
-        "NAME_1": "Sofala",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "MZ.SO",
-        "ISO_1": "MZ-S"
+        "Country": "Mozambique",
+        "Name_1": "Sofala",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -47192,17 +47120,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MOZ.10_1",
-        "GID_0": "MOZ",
-        "COUNTRY": "Mozambique",
-        "NAME_1": "Tete",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "MZ.TE",
-        "ISO_1": "MZ-T"
+        "Country": "Mozambique",
+        "Name_1": "Tete",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -47723,7 +47643,7 @@
               ],
               [
                 31.2447,
-                -16.0
+                -16
               ],
               [
                 31.2154,
@@ -47739,7 +47659,7 @@
               ],
               [
                 31.1845,
-                -16.0
+                -16
               ],
               [
                 31.1783,
@@ -47759,7 +47679,7 @@
               ],
               [
                 31.1032,
-                -16.0
+                -16
               ],
               [
                 31.0724,
@@ -47771,7 +47691,7 @@
               ],
               [
                 31.0643,
-                -16.0
+                -16
               ],
               [
                 31.0605,
@@ -47819,11 +47739,11 @@
               ],
               [
                 30.9225,
-                -16.0
+                -16
               ],
               [
                 30.4246,
-                -16.0
+                -16
               ],
               [
                 30.4237,
@@ -49831,7 +49751,7 @@
               ],
               [
                 34.3728,
-                -16.0
+                -16
               ],
               [
                 34.3842,
@@ -51425,17 +51345,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MOZ.11_1",
-        "GID_0": "MOZ",
-        "COUNTRY": "Mozambique",
-        "NAME_1": "Zambezia",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "MZ.ZA",
-        "ISO_1": "MZ-Q"
+        "Country": "Mozambique",
+        "Name_1": "Zambezia",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -54319,7 +54231,7 @@
                 -16.6361
               ],
               [
-                39.0,
+                39,
                 -16.6495
               ],
               [

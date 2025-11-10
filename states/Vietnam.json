@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.1_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "AnGiang",
-        "VARNAME_1": "AnGiang",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.AG",
-        "ISO_1": "VN-44"
+        "Country": "Vietnam",
+        "Name_1": "An Giang",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -664,17 +656,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.7_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "BàRịa-VũngTàu",
-        "VARNAME_1": "BaRia-VungTau",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.BV",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Bà Rịa- Vũng Tàu",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1965,17 +1949,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.3_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "BắcGiang",
-        "VARNAME_1": "BacGiang",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.BG",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Bắc Giang",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4502,17 +4478,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.4_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "BắcKạn",
-        "VARNAME_1": "BacKan",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.BK",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Bắc Kạn",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6911,17 +6879,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.2_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "BạcLiêu",
-        "VARNAME_1": "BacLieu",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.BL",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Bạc Liêu",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -8296,17 +8256,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.5_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "BắcNinh",
-        "VARNAME_1": "BacNinh",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.BN",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Bắc Ninh",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9313,17 +9265,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.6_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "BếnTre",
-        "VARNAME_1": "BenTre",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.BR",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Bến Tre",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9364,7 +9308,7 @@
               ],
               [
                 106.6668,
-                10.0
+                10
               ],
               [
                 106.6562,
@@ -9762,17 +9706,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.8_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "BìnhĐịnh",
-        "VARNAME_1": "BinhDinh",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.BD",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "BìnhĐịnh",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13071,17 +13007,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.9_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "BìnhDương",
-        "VARNAME_1": "BinhDuong",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.BI",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Bình Dương",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -15208,17 +15136,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.10_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "BìnhPhước",
-        "VARNAME_1": "BinhPhuoc",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.BP",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Bình Phước",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -18713,17 +18633,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.11_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "BìnhThuận",
-        "VARNAME_1": "BinhThuan",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.BU",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Bình Thuận",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -21139,7 +21051,7 @@
                 10.7222
               ],
               [
-                108.0,
+                108,
                 10.7125
               ],
               [
@@ -21646,17 +21558,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.13_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "CàMau",
-        "VARNAME_1": "CaMau",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.CM",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Cà Mau",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -22931,17 +22835,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.12_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "CầnThơ",
-        "VARNAME_1": "CanTho",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Thànhphố",
-        "ENGTYPE_1": "City",
-        "CC_1": "NA",
-        "HASC_1": "VN.CN",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Cần Thơ",
+        "Type": "City"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -23348,17 +23244,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.14_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "CaoBằng",
-        "VARNAME_1": "CaoBang",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.CB",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Cao Bằng",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -27185,17 +27073,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.19_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "ĐàNẵng",
-        "VARNAME_1": "DaNang",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Thànhphố",
-        "ENGTYPE_1": "City",
-        "CC_1": "NA",
-        "HASC_1": "VN.DA",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Đà Nẵng",
+        "Type": "City"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -28510,17 +28390,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.15_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "ĐắkLắk",
-        "VARNAME_1": "DakLak",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.DC",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Đắk Lắk",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -32139,17 +32011,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.16_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "ĐắkNông",
-        "VARNAME_1": "DakNong",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.DO",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Đắk Nông",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -35612,17 +35476,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.20_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "ĐiệnBiên",
-        "VARNAME_1": "DienBien",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.DB",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Điện Biên",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -40111,7 +39967,7 @@
               ],
               [
                 103.2849,
-                21.0
+                21
               ],
               [
                 103.2834,
@@ -40275,17 +40131,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.17_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "ĐồngNai",
-        "VARNAME_1": "DongNai",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.DN",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Đồng Nai",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -43624,17 +43472,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.18_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "ĐồngTháp",
-        "VARNAME_1": "DongThap",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.DT",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Đồng Tháp",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -44505,17 +44345,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.21_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "GiaLai",
-        "VARNAME_1": "GiaLai",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.GL",
-        "ISO_1": "VN-30"
+        "Country": "Vietnam",
+        "Name_1": "Gia Lai",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -47782,17 +47614,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.26_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "HàGiang",
-        "VARNAME_1": "HaGiang",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.HG",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Hà Giang",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -51371,17 +51195,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.28_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "HàNam",
-        "VARNAME_1": "HaNam",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.HM",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Hà Nam",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -52244,17 +52060,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.27_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "HàNội",
-        "VARNAME_1": "HaNoi",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Thànhphố",
-        "ENGTYPE_1": "City",
-        "CC_1": "NA",
-        "HASC_1": "VN.HI",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Hà Nội",
+        "Type": "City"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -54805,17 +54613,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.29_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "HàTĩnh",
-        "VARNAME_1": "HaTinh",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.HT",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Hà Tĩnh",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -57310,17 +57110,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.22_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "HảiDương",
-        "VARNAME_1": "HaiDuong",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.HD",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Hải Dương",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -59059,17 +58851,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.23_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "HảiPhòng",
-        "VARNAME_1": "HaiPhong",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Thànhphố",
-        "ENGTYPE_1": "City",
-        "CC_1": "NA",
-        "HASC_1": "VN.HP",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Hải Phòng",
+        "Type": "City"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -60117,7 +59901,7 @@
                 20.8231
               ],
               [
-                106.933166365688493,
+                106.93316636568849,
                 20.823095936794584
               ],
               [
@@ -60189,7 +59973,7 @@
                 20.8228
               ],
               [
-                106.933166365688493,
+                106.93316636568849,
                 20.823095936794584
               ],
               [
@@ -67444,17 +67228,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.24_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "HậuGiang",
-        "VARNAME_1": "HauGiang",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.HU",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Hậu Giang",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -68445,17 +68221,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.25_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "HồChíMinh",
-        "VARNAME_1": "HoChiMinh",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Thànhphố",
-        "ENGTYPE_1": "City",
-        "CC_1": "NA",
-        "HASC_1": "VN.HC",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Hồ Chí Minh",
+        "Type": "City"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -70030,17 +69798,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.30_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "HoàBình",
-        "VARNAME_1": "HoaBinh",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.HO",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Hoà Bình",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -72603,17 +72363,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.31_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "HưngYên",
-        "VARNAME_1": "HungYen",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.HY",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Hưng Yên",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -73552,17 +73304,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.32_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "KhánhHòa",
-        "VARNAME_1": "KhanhHoa",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.KH",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Khánh Hòa",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -79785,17 +79529,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.33_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "KiênGiang",
-        "VARNAME_1": "KienGiang",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.KG",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Kiên Giang",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -85702,17 +85438,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.34_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "KonTum",
-        "VARNAME_1": "KonTum",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.KT",
-        "ISO_1": "VN-28"
+        "Country": "Vietnam",
+        "Name_1": "Kon Tum",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -89131,17 +88859,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.36_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "LaiChâu",
-        "VARNAME_1": "LaiChau",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.LI",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Lai Châu",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -93112,17 +92832,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.37_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "LâmĐồng",
-        "VARNAME_1": "LamDong",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.LD",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "LâmĐồng",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -97129,17 +96841,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.35_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "LạngSơn",
-        "VARNAME_1": "LangSon",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.LS",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Lạng Sơn",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -99952,7 +99656,7 @@
               ],
               [
                 106.7373,
-                22.0
+                22
               ],
               [
                 106.7374,
@@ -101206,17 +100910,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.38_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "LàoCai",
-        "VARNAME_1": "LaoCai",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.LO",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Lào Cai",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -103823,17 +103519,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.39_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "LongAn",
-        "VARNAME_1": "LongAn",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.LA",
-        "ISO_1": "VN-41"
+        "Country": "Vietnam",
+        "Name_1": "Long An",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -105252,17 +104940,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.40_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "NamĐịnh",
-        "VARNAME_1": "NamDinh",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.ND",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "NamĐịnh",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -106265,17 +105945,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.41_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "NghệAn",
-        "VARNAME_1": "NgheAn",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.NA",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Nghệ An",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -110442,17 +110114,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.42_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "NinhBình",
-        "VARNAME_1": "NinhBinh",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.NB",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Ninh Bình",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -111571,17 +111235,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.43_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "NinhThuận",
-        "VARNAME_1": "NinhThuan",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.NT",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Ninh Thuận",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -113252,17 +112908,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.44_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "PhúThọ",
-        "VARNAME_1": "PhuTho",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.PT",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Phú Thọ",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -114813,17 +114461,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.45_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "PhúYên",
-        "VARNAME_1": "PhuYen",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.PY",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Phú Yên",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -118902,17 +118542,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.46_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "QuảngBình",
-        "VARNAME_1": "QuangBinh",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.QB",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Quảng Bình",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -120795,17 +120427,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.47_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "QuảngNam",
-        "VARNAME_1": "QuangNam",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.QM",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Quảng Nam",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -124196,17 +123820,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.48_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "QuảngNgãi",
-        "VARNAME_1": "QuangNgai",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.QG",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Quảng Ngãi",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -126589,17 +126205,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.49_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "QuảngNinh",
-        "VARNAME_1": "QuangNinh",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.QN",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Quảng Ninh",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -150220,17 +149828,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.50_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "QuảngTrị",
-        "VARNAME_1": "QuangTri",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.QT",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Quảng Trị",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -152157,17 +151757,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.51_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "SócTrăng",
-        "VARNAME_1": "SocTrang",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.ST",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Sóc Trăng",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -153290,17 +152882,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.52_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "SơnLa",
-        "VARNAME_1": "SonLa",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.SL",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Sơn La",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -154785,7 +154369,7 @@
               ],
               [
                 103.2849,
-                21.0
+                21
               ],
               [
                 103.281,
@@ -157639,17 +157223,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.53_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "TâyNinh",
-        "VARNAME_1": "TayNinh",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.TN",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Tây Ninh",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -159512,17 +159088,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.55_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "TháiBình",
-        "VARNAME_1": "ThaiBinh",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.TB",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Thái Bình",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -160389,17 +159957,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.56_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "TháiNguyên",
-        "VARNAME_1": "ThaiNguyen",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.TY",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Thái Nguyên",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -162386,17 +161946,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.57_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "ThanhHóa",
-        "VARNAME_1": "ThanhHoa",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.TH",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Thanh Hóa",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -166375,17 +165927,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.54_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "ThừaThiênHuế",
-        "VARNAME_1": "ThuaThienHue",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.TT",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Thừa Thiên Huế",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -168120,17 +167664,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.58_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "TiềnGiang",
-        "VARNAME_1": "TienGiang",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.TG",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Tiền Giang",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -169013,17 +168549,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.59_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "TràVinh",
-        "VARNAME_1": "TraVinh",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.TV",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Trà Vinh",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -169546,17 +169074,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.60_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "TuyênQuang",
-        "VARNAME_1": "TuyenQuang",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.TQ",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Tuyên Quang",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -172219,17 +171739,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.61_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "VĩnhLong",
-        "VARNAME_1": "VinhLong",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.VL",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Vĩnh Long",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -172856,17 +172368,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.62_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "VĩnhPhúc",
-        "VARNAME_1": "VinhPhuc",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.VC",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Vĩnh Phúc",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -173877,17 +173381,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VNM.63_1",
-        "GID_0": "VNM",
-        "COUNTRY": "Vietnam",
-        "NAME_1": "YênBái",
-        "VARNAME_1": "YenBai",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Tỉnh",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "VN.YB",
-        "ISO_1": "NA"
+        "Country": "Vietnam",
+        "Name_1": "Yên Bái",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",

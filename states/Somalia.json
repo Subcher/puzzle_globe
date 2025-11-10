@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SOM.1_1",
-        "GID_0": "SOM",
-        "COUNTRY": "Somalia",
-        "NAME_1": "Awdal",
-        "VARNAME_1": "Adal|Adel",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Gobolka",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "SO.AW",
-        "ISO_1": "SO-AW"
+        "Country": "Somalia",
+        "Name_1": "Awdal",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1392,17 +1384,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SOM.2_1",
-        "GID_0": "SOM",
-        "COUNTRY": "Somalia",
-        "NAME_1": "Bakool",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Gobolka",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "SO.BK",
-        "ISO_1": "NA"
+        "Country": "Somalia",
+        "Name_1": "Bakool",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1785,17 +1769,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SOM.3_1",
-        "GID_0": "SOM",
-        "COUNTRY": "Somalia",
-        "NAME_1": "Banaadir",
-        "VARNAME_1": "Benadir",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Gobolka",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "SO.BN",
-        "ISO_1": "SO-BN"
+        "Country": "Somalia",
+        "Name_1": "Banaadir",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2010,17 +1986,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SOM.4_1",
-        "GID_0": "SOM",
-        "COUNTRY": "Somalia",
-        "NAME_1": "Bari",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Gobolka",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "SO.BR",
-        "ISO_1": "SO-BR"
+        "Country": "Somalia",
+        "Name_1": "Bari",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5443,17 +5411,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SOM.5_1",
-        "GID_0": "SOM",
-        "COUNTRY": "Somalia",
-        "NAME_1": "Bay",
-        "VARNAME_1": "Baay",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Gobolka",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "SO.BY",
-        "ISO_1": "NA"
+        "Country": "Somalia",
+        "Name_1": "Bay",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5600,17 +5560,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SOM.6_1",
-        "GID_0": "SOM",
-        "COUNTRY": "Somalia",
-        "NAME_1": "Galguduud",
-        "VARNAME_1": "Galgudug",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Gobolka",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "SO.GA",
-        "ISO_1": "NA"
+        "Country": "Somalia",
+        "Name_1": "Galguduud",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5909,17 +5861,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SOM.7_1",
-        "GID_0": "SOM",
-        "COUNTRY": "Somalia",
-        "NAME_1": "Gedo",
-        "VARNAME_1": "Gado",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Gobolka",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "SO.GE",
-        "ISO_1": "SO-GE"
+        "Country": "Somalia",
+        "Name_1": "Gedo",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6230,17 +6174,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SOM.8_1",
-        "GID_0": "SOM",
-        "COUNTRY": "Somalia",
-        "NAME_1": "Hiiraan",
-        "VARNAME_1": "Hiiran",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Gobolka",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "SO.HI",
-        "ISO_1": "SO-HI"
+        "Country": "Somalia",
+        "Name_1": "Hiiraan",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6387,17 +6323,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SOM.9_1",
-        "GID_0": "SOM",
-        "COUNTRY": "Somalia",
-        "NAME_1": "JubbadaDhexe",
-        "VARNAME_1": "J.Dhexe|CentralJuba|MiddleJ",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Gobolka",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "SO.JD",
-        "ISO_1": "NA"
+        "Country": "Somalia",
+        "Name_1": "Jubbada Dhexe",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6496,17 +6424,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SOM.10_1",
-        "GID_0": "SOM",
-        "COUNTRY": "Somalia",
-        "NAME_1": "JubbadaHoose",
-        "VARNAME_1": "J.Hoose|LowerJuba",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Gobolka",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "SO.JH",
-        "ISO_1": "SO-JH"
+        "Country": "Somalia",
+        "Name_1": "Jubbada Hoose",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9050,7 +8970,7 @@
                 -0.6615
               ],
               [
-                41.0,
+                41,
                 -0.5719
               ],
               [
@@ -9066,7 +8986,7 @@
                 -0.4322
               ],
               [
-                41.0,
+                41,
                 -0.4221
               ],
               [
@@ -9087,7 +9007,7 @@
               ],
               [
                 41.0005,
-                0.0
+                0
               ],
               [
                 40.9886,
@@ -9469,17 +9389,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SOM.11_1",
-        "GID_0": "SOM",
-        "COUNTRY": "Somalia",
-        "NAME_1": "Mudug",
-        "VARNAME_1": "Madugh|Mudugh",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Gobolka",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "SO.MU",
-        "ISO_1": "SO-MU"
+        "Country": "Somalia",
+        "Name_1": "Mudug",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10278,17 +10190,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SOM.12_1",
-        "GID_0": "SOM",
-        "COUNTRY": "Somalia",
-        "NAME_1": "Nugaal",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Gobolka",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "SO.NU",
-        "ISO_1": "SO-NU"
+        "Country": "Somalia",
+        "Name_1": "Nugaal",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10297,7 +10201,7 @@
             [
               [
                 47.9462,
-                8.0
+                8
               ],
               [
                 47.9582,
@@ -10821,7 +10725,7 @@
               ],
               [
                 47.9462,
-                8.0
+                8
               ]
             ]
           ]
@@ -10831,17 +10735,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SOM.13_1",
-        "GID_0": "SOM",
-        "COUNTRY": "Somalia",
-        "NAME_1": "Sanaag",
-        "VARNAME_1": "Sanag",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Gobolka",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "SO.SA",
-        "ISO_1": "NA"
+        "Country": "Somalia",
+        "Name_1": "Sanaag",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -11792,17 +11688,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SOM.14_1",
-        "GID_0": "SOM",
-        "COUNTRY": "Somalia",
-        "NAME_1": "ShabeellahaDhexe",
-        "VARNAME_1": "Sh.Dhexe|CentralShabele",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Gobolka",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "SO.SD",
-        "ISO_1": "NA"
+        "Country": "Somalia",
+        "Name_1": "Shabeellaha Dhexe",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -12361,17 +12249,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SOM.15_1",
-        "GID_0": "SOM",
-        "COUNTRY": "Somalia",
-        "NAME_1": "ShabeellahaHoose",
-        "VARNAME_1": "Sh.Hoose|LowerShabele",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Gobolka",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "SO.SH",
-        "ISO_1": "SO-SH"
+        "Country": "Somalia",
+        "Name_1": "Shabeellaha Hoose",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13394,17 +13274,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SOM.16_1",
-        "GID_0": "SOM",
-        "COUNTRY": "Somalia",
-        "NAME_1": "Sool",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Gobolka",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "SO.SO",
-        "ISO_1": "SO-SO"
+        "Country": "Somalia",
+        "Name_1": "Sool",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13421,14 +13293,14 @@
               ],
               [
                 47.0124,
-                8.0
+                8
               ],
               [
                 47.1,
                 8.56
               ],
               [
-                47.0,
+                47,
                 8.75
               ],
               [
@@ -13503,17 +13375,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SOM.17_1",
-        "GID_0": "SOM",
-        "COUNTRY": "Somalia",
-        "NAME_1": "Togdheer",
-        "VARNAME_1": "Tog-Dheer|Togdheer|Togder",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Gobolka",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "SO.TO",
-        "ISO_1": "SO-TO"
+        "Country": "Somalia",
+        "Name_1": "Togdheer",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13569,7 +13433,7 @@
                 8.76
               ],
               [
-                47.0,
+                47,
                 8.75
               ],
               [
@@ -13578,7 +13442,7 @@
               ],
               [
                 47.0124,
-                8.0
+                8
               ],
               [
                 47.0088,
@@ -13600,17 +13464,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SOM.18_1",
-        "GID_0": "SOM",
-        "COUNTRY": "Somalia",
-        "NAME_1": "WoqooyiGalbeed",
-        "VARNAME_1": "North-West|W.Galbeed|WoqooyiG",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Gobolka",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "SO.WO",
-        "ISO_1": "SO-WO"
+        "Country": "Somalia",
+        "Name_1": "Woqooyi Galbeed",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",

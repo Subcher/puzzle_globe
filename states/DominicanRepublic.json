@@ -11,8 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "DOM",
-        "COUNTRY": "DominicanRepublic"
+        "Country": "DominicanRepublic",
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",

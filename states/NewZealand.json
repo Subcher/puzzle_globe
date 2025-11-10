@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NZL.1_1",
-        "GID_0": "NZL",
-        "COUNTRY": "NewZealand",
-        "NAME_1": "Auckland",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "02",
-        "HASC_1": "NZ.AU",
-        "ISO_1": "NZ-AUK"
+        "Country": "NewZealand",
+        "Name_1": "Auckland",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -24642,17 +24634,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NZL.2_1",
-        "GID_0": "NZL",
-        "COUNTRY": "NewZealand",
-        "NAME_1": "BayofPlenty",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "04",
-        "HASC_1": "NZ.BP",
-        "ISO_1": "NZ-BOP"
+        "Country": "NewZealand",
+        "Name_1": "Bayof Plenty",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -28385,7 +28369,7 @@
               ],
               [
                 177.1024,
-                -38.0
+                -38
               ],
               [
                 177.1042,
@@ -31687,17 +31671,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NZL.3_1",
-        "GID_0": "NZL",
-        "COUNTRY": "NewZealand",
-        "NAME_1": "Canterbury",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "13",
-        "HASC_1": "NZ.CA",
-        "ISO_1": "NZ-CAN"
+        "Country": "NewZealand",
+        "Name_1": "Canterbury",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -38497,8 +38473,8 @@
                 -43.6054
               ],
               [
-                172.722384210526315,
-                -43.605321052631581
+                172.72238421052631,
+                -43.60532105263158
               ],
               [
                 172.7224,
@@ -41013,8 +40989,8 @@
           [
             [
               [
-                172.722384210526315,
-                -43.605321052631581
+                172.72238421052631,
+                -43.60532105263158
               ],
               [
                 172.7221,
@@ -41029,8 +41005,8 @@
                 -43.60532
               ],
               [
-                172.722384210526315,
-                -43.605321052631581
+                172.72238421052631,
+                -43.60532105263158
               ]
             ]
           ],
@@ -41064,17 +41040,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NZL.4_1",
-        "GID_0": "NZL",
-        "COUNTRY": "NewZealand",
-        "NAME_1": "ChathamIslands",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Territory",
-        "CC_1": "99",
-        "HASC_1": "NZ.CI",
-        "ISO_1": "NA"
+        "Country": "NewZealand",
+        "Name_1": "Chatham Islands",
+        "Type": "Territory"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -43693,17 +43661,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NZL.5_1",
-        "GID_0": "NZL",
-        "COUNTRY": "NewZealand",
-        "NAME_1": "Gisborne",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "05",
-        "HASC_1": "NZ.GI",
-        "ISO_1": "NZ-GIS"
+        "Country": "NewZealand",
+        "Name_1": "Gisborne",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -46762,17 +46722,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NZL.6_1",
-        "GID_0": "NZL",
-        "COUNTRY": "NewZealand",
-        "NAME_1": "Hawke'sBay",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "06",
-        "HASC_1": "NZ.HB",
-        "ISO_1": "NZ-HKB"
+        "Country": "NewZealand",
+        "Name_1": "Hawke's Bay",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -50843,17 +50795,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NZL.7_1",
-        "GID_0": "NZL",
-        "COUNTRY": "NewZealand",
-        "NAME_1": "Manawatu-Wanganui",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "08",
-        "HASC_1": "NZ.MW",
-        "ISO_1": "NZ-MWT"
+        "Country": "NewZealand",
+        "Name_1": "Manawatu- Wanganui",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -56712,17 +56656,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NZL.8_1",
-        "GID_0": "NZL",
-        "COUNTRY": "NewZealand",
-        "NAME_1": "Marlborough",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "18",
-        "HASC_1": "NZ.MA",
-        "ISO_1": "NZ-MBH"
+        "Country": "NewZealand",
+        "Name_1": "Marlborough",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -63130,7 +63066,7 @@
           [
             [
               [
-                174.0,
+                174,
                 -40.6637
               ],
               [
@@ -63182,7 +63118,7 @@
                 -40.6641
               ],
               [
-                174.0,
+                174,
                 -40.6637
               ]
             ]
@@ -69514,7 +69450,7 @@
                 -41.0321
               ],
               [
-                174.0,
+                174,
                 -41.0358
               ],
               [
@@ -71902,7 +71838,7 @@
                 -41.2819
               ],
               [
-                174.0,
+                174,
                 -41.2798
               ],
               [
@@ -76312,7 +76248,7 @@
                 -40.8973
               ],
               [
-                174.070728571428504,
+                174.0707285714285,
                 -40.8976
               ],
               [
@@ -76328,7 +76264,7 @@
                 -40.8978
               ],
               [
-                174.070797607655493,
+                174.0707976076555,
                 -40.897604784688994
               ],
               [
@@ -76348,7 +76284,7 @@
           [
             [
               [
-                174.070728571428504,
+                174.0707285714285,
                 -40.8976
               ],
               [
@@ -76356,11 +76292,11 @@
                 -40.8976
               ],
               [
-                174.070797607655493,
+                174.0707976076555,
                 -40.897604784688994
               ],
               [
-                174.070728571428504,
+                174.0707285714285,
                 -40.8976
               ]
             ]
@@ -78079,17 +78015,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NZL.9_1",
-        "GID_0": "NZL",
-        "COUNTRY": "NewZealand",
-        "NAME_1": "Nelson",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "17",
-        "HASC_1": "NZ.NE",
-        "ISO_1": "NZ-NSN"
+        "Country": "NewZealand",
+        "Name_1": "Nelson",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -79136,17 +79064,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NZL.10_1",
-        "GID_0": "NZL",
-        "COUNTRY": "NewZealand",
-        "NAME_1": "NorthernIslands",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Groupofislands",
-        "ENGTYPE_1": "Groupofislands",
-        "CC_1": "NA",
-        "HASC_1": "NZ.01",
-        "ISO_1": "NA"
+        "Country": "NewZealand",
+        "Name_1": "Northern Islands",
+        "Type": "Groupofislands"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -79993,17 +79913,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NZL.11_1",
-        "GID_0": "NZL",
-        "COUNTRY": "NewZealand",
-        "NAME_1": "Northland",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "01",
-        "HASC_1": "NZ.NO",
-        "ISO_1": "NZ-NTL"
+        "Country": "NewZealand",
+        "Name_1": "Northland",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -81135,7 +81047,7 @@
           [
             [
               [
-                174.356233333333364,
+                174.35623333333336,
                 -35.3906
               ],
               [
@@ -81147,7 +81059,7 @@
                 -35.3906
               ],
               [
-                174.356233333333364,
+                174.35623333333336,
                 -35.3906
               ]
             ]
@@ -81159,7 +81071,7 @@
                 -35.3906
               ],
               [
-                174.356233333333364,
+                174.35623333333336,
                 -35.3906
               ],
               [
@@ -102971,16 +102883,16 @@
                 -35.2109
               ],
               [
-                174.014601639344278,
-                -35.210004918032787
+                174.01460163934428,
+                -35.21000491803279
               ],
               [
                 174.0146,
                 -35.21
               ],
               [
-                174.014599705014746,
-                -35.210003834808262
+                174.01459970501475,
+                -35.21000383480826
               ],
               [
                 174.0137,
@@ -106001,8 +105913,8 @@
           [
             [
               [
-                174.014601639344278,
-                -35.210004918032787
+                174.01460163934428,
+                -35.21000491803279
               ],
               [
                 174.0148,
@@ -106017,12 +105929,12 @@
                 -35.2113
               ],
               [
-                174.014599705014746,
-                -35.210003834808262
+                174.01459970501475,
+                -35.21000383480826
               ],
               [
-                174.014601639344278,
-                -35.210004918032787
+                174.01460163934428,
+                -35.21000491803279
               ]
             ]
           ],
@@ -108084,7 +107996,7 @@
               ],
               [
                 173.2686,
-                -35.0
+                -35
               ],
               [
                 173.2687,
@@ -109934,17 +109846,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NZL.12_1",
-        "GID_0": "NZL",
-        "COUNTRY": "NewZealand",
-        "NAME_1": "Otago",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "14",
-        "HASC_1": "NZ.OT",
-        "ISO_1": "NZ-OTA"
+        "Country": "NewZealand",
+        "Name_1": "Otago",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -117183,17 +117087,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NZL.13_1",
-        "GID_0": "NZL",
-        "COUNTRY": "NewZealand",
-        "NAME_1": "SouthernIslands",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Groupofislands",
-        "ENGTYPE_1": "Groupofislands",
-        "CC_1": "NA",
-        "HASC_1": "NZ.02",
-        "ISO_1": "NA"
+        "Country": "NewZealand",
+        "Name_1": "Southern Islands",
+        "Type": "Groupofislands"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -117445,7 +117341,7 @@
                 -50.8664
               ],
               [
-                166.0,
+                166,
                 -50.8622
               ],
               [
@@ -122388,17 +122284,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NZL.14_1",
-        "GID_0": "NZL",
-        "COUNTRY": "NewZealand",
-        "NAME_1": "Southland",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "15",
-        "HASC_1": "NZ.SO",
-        "ISO_1": "NZ-STL"
+        "Country": "NewZealand",
+        "Name_1": "Southland",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -127190,7 +127078,7 @@
                 -46.7796
               ],
               [
-                168.0,
+                168,
                 -46.7807
               ],
               [
@@ -128350,7 +128238,7 @@
                 -46.9824
               ],
               [
-                167.886406759098804,
+                167.8864067590988,
                 -46.982600173310225
               ],
               [
@@ -128664,8 +128552,8 @@
                 -46.89672
               ],
               [
-                167.953959615384605,
-                -46.896880769230769
+                167.9539596153846,
+                -46.89688076923077
               ],
               [
                 167.954,
@@ -128678,8 +128566,8 @@
             ],
             [
               [
-                167.953959615384605,
-                -46.896880769230769
+                167.9539596153846,
+                -46.89688076923077
               ],
               [
                 167.9519,
@@ -128698,13 +128586,13 @@
                 -46.897
               ],
               [
-                167.953959615384605,
-                -46.896880769230769
+                167.9539596153846,
+                -46.89688076923077
               ]
             ],
             [
               [
-                167.886406759098804,
+                167.8864067590988,
                 -46.982600173310225
               ],
               [
@@ -128716,7 +128604,7 @@
                 -46.9839
               ],
               [
-                167.886406759098804,
+                167.8864067590988,
                 -46.982600173310225
               ]
             ],
@@ -137658,12 +137546,12 @@
                 -46.5708
               ],
               [
-                168.395893448557757,
+                168.39589344855776,
                 -46.564404110708864
               ],
               [
-                168.395898684385401,
-                -46.564402923588041
+                168.3958986843854,
+                -46.56440292358804
               ],
               [
                 168.395,
@@ -137678,7 +137566,7 @@
           [
             [
               [
-                168.395893448557757,
+                168.39589344855776,
                 -46.564404110708864
               ],
               [
@@ -150834,15 +150722,15 @@
                 -46.5598
               ],
               [
-                168.395898684385401,
-                -46.564402923588041
+                168.3958986843854,
+                -46.56440292358804
               ],
               [
                 168.3959,
                 -46.5644
               ],
               [
-                168.395893448557757,
+                168.39589344855776,
                 -46.564404110708864
               ]
             ]
@@ -154929,17 +154817,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NZL.15_1",
-        "GID_0": "NZL",
-        "COUNTRY": "NewZealand",
-        "NAME_1": "Taranaki",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "07",
-        "HASC_1": "NZ.TK",
-        "ISO_1": "NZ-TKI"
+        "Country": "NewZealand",
+        "Name_1": "Taranaki",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -158442,17 +158322,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NZL.16_1",
-        "GID_0": "NZL",
-        "COUNTRY": "NewZealand",
-        "NAME_1": "Tasman",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "16",
-        "HASC_1": "NZ.TS",
-        "ISO_1": "NZ-TAS"
+        "Country": "NewZealand",
+        "Name_1": "Tasman",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -161788,15 +161660,15 @@
                 -40.5061
               ],
               [
-                172.664861290322563,
-                -40.506374193548389
+                172.66486129032256,
+                -40.50637419354839
               ],
               [
                 172.6649,
                 -40.5064
               ],
               [
-                172.664924242424235,
+                172.66492424242423,
                 -40.506387878787876
               ],
               [
@@ -164452,8 +164324,8 @@
           [
             [
               [
-                172.664861290322563,
-                -40.506374193548389
+                172.66486129032256,
+                -40.50637419354839
               ],
               [
                 172.6646,
@@ -164468,12 +164340,12 @@
                 -40.5063
               ],
               [
-                172.664924242424235,
+                172.66492424242423,
                 -40.506387878787876
               ],
               [
-                172.664861290322563,
-                -40.506374193548389
+                172.66486129032256,
+                -40.50637419354839
               ]
             ]
           ],
@@ -164923,17 +164795,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NZL.17_1",
-        "GID_0": "NZL",
-        "COUNTRY": "NewZealand",
-        "NAME_1": "Waikato",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "03",
-        "HASC_1": "NZ.WK",
-        "ISO_1": "NZ-WKO"
+        "Country": "NewZealand",
+        "Name_1": "Waikato",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -182216,17 +182080,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NZL.18_1",
-        "GID_0": "NZL",
-        "COUNTRY": "NewZealand",
-        "NAME_1": "Wellington",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "09",
-        "HASC_1": "NZ.WG",
-        "ISO_1": "NZ-WGN"
+        "Country": "NewZealand",
+        "Name_1": "Wellington",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -186021,17 +185877,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NZL.19_1",
-        "GID_0": "NZL",
-        "COUNTRY": "NewZealand",
-        "NAME_1": "WestCoast",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "12",
-        "HASC_1": "NZ.WC",
-        "ISO_1": "NZ-WTC"
+        "Country": "NewZealand",
+        "Name_1": "West Coast",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",

@@ -11,9 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "BHS",
-        "COUNTRY": "Bahamas",
-        "AREA": 13940
+        "Country": "Bahamas",
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",

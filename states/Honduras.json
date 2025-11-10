@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HND.1_1",
-        "GID_0": "HND",
-        "COUNTRY": "Honduras",
-        "NAME_1": "Atlántida",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "HN.AT",
-        "ISO_1": "NA"
+        "Country": "Honduras",
+        "Name_1": "Atlántida",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2120,17 +2112,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HND.2_1",
-        "GID_0": "HND",
-        "COUNTRY": "Honduras",
-        "NAME_1": "Choluteca",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "HN.CH",
-        "ISO_1": "HN-CH"
+        "Country": "Honduras",
+        "Name_1": "Choluteca",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4181,17 +4165,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HND.3_1",
-        "GID_0": "HND",
-        "COUNTRY": "Honduras",
-        "NAME_1": "Colón",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "HN.CL",
-        "ISO_1": "NA"
+        "Country": "Honduras",
+        "Name_1": "Colón",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6050,17 +6026,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HND.4_1",
-        "GID_0": "HND",
-        "COUNTRY": "Honduras",
-        "NAME_1": "Comayagua",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "HN.CM",
-        "ISO_1": "HN-CM"
+        "Country": "Honduras",
+        "Name_1": "Comayagua",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7871,17 +7839,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HND.5_1",
-        "GID_0": "HND",
-        "COUNTRY": "Honduras",
-        "NAME_1": "Copán",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "HN.CP",
-        "ISO_1": "NA"
+        "Country": "Honduras",
+        "Name_1": "Copán",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -8250,7 +8210,7 @@
               ],
               [
                 -89.1733,
-                15.0
+                15
               ],
               [
                 -89.1765,
@@ -8684,17 +8644,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HND.6_1",
-        "GID_0": "HND",
-        "COUNTRY": "Honduras",
-        "NAME_1": "Cortés",
-        "VARNAME_1": "Cortez",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "HN.CR",
-        "ISO_1": "NA"
+        "Country": "Honduras",
+        "Name_1": "Cortés",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10641,17 +10593,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HND.7_1",
-        "GID_0": "HND",
-        "COUNTRY": "Honduras",
-        "NAME_1": "ElParaíso",
-        "VARNAME_1": "Paraiso",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "HN.EP",
-        "ISO_1": "NA"
+        "Country": "Honduras",
+        "Name_1": "El Paraíso",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -12486,17 +12430,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HND.8_1",
-        "GID_0": "HND",
-        "COUNTRY": "Honduras",
-        "NAME_1": "FranciscoMorazán",
-        "VARNAME_1": "Tegucigalpa",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "HN.FM",
-        "ISO_1": "NA"
+        "Country": "Honduras",
+        "Name_1": "Francisco Morazán",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -14291,17 +14227,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HND.9_1",
-        "GID_0": "HND",
-        "COUNTRY": "Honduras",
-        "NAME_1": "GraciasaDios",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "HN.GD",
-        "ISO_1": "HN-GD"
+        "Country": "Honduras",
+        "Name_1": "Graciasa Dios",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -16070,7 +15998,7 @@
               ],
               [
                 -83.36,
-                15.0
+                15
               ],
               [
                 -83.3624,
@@ -16142,7 +16070,7 @@
               ],
               [
                 -83.4837,
-                15.0
+                15
               ],
               [
                 -83.4921,
@@ -18352,17 +18280,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HND.10_1",
-        "GID_0": "HND",
-        "COUNTRY": "Honduras",
-        "NAME_1": "Intibucá",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "HN.IN",
-        "ISO_1": "NA"
+        "Country": "Honduras",
+        "Name_1": "Intibucá",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -19513,17 +19433,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HND.11_1",
-        "GID_0": "HND",
-        "COUNTRY": "Honduras",
-        "NAME_1": "IslasdelaBahía",
-        "VARNAME_1": "IslasdeBahia",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "HN.IB",
-        "ISO_1": "NA"
+        "Country": "Honduras",
+        "Name_1": "Islasdela Bahía",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -21726,17 +21638,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HND.12_1",
-        "GID_0": "HND",
-        "COUNTRY": "Honduras",
-        "NAME_1": "LaPaz",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "HN.LP",
-        "ISO_1": "HN-LP"
+        "Country": "Honduras",
+        "Name_1": "La Paz",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -23015,17 +22919,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HND.13_1",
-        "GID_0": "HND",
-        "COUNTRY": "Honduras",
-        "NAME_1": "Lempira",
-        "VARNAME_1": "Gracias",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "HN.LE",
-        "ISO_1": "HN-LE"
+        "Country": "Honduras",
+        "Name_1": "Lempira",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -24316,17 +24212,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HND.14_1",
-        "GID_0": "HND",
-        "COUNTRY": "Honduras",
-        "NAME_1": "Ocotepeque",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "HN.OC",
-        "ISO_1": "HN-OC"
+        "Country": "Honduras",
+        "Name_1": "Ocotepeque",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -25069,17 +24957,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HND.15_1",
-        "GID_0": "HND",
-        "COUNTRY": "Honduras",
-        "NAME_1": "Olancho",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "HN.OL",
-        "ISO_1": "HN-OL"
+        "Country": "Honduras",
+        "Name_1": "Olancho",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -27230,17 +27110,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HND.16_1",
-        "GID_0": "HND",
-        "COUNTRY": "Honduras",
-        "NAME_1": "SantaBárbara",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "HN.CP",
-        "ISO_1": "NA"
+        "Country": "Honduras",
+        "Name_1": "Santa Bárbara",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -27995,17 +27867,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HND.17_1",
-        "GID_0": "HND",
-        "COUNTRY": "Honduras",
-        "NAME_1": "Valle",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "HN.VA",
-        "ISO_1": "HN-VA"
+        "Country": "Honduras",
+        "Name_1": "Valle",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -31076,17 +30940,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HND.18_1",
-        "GID_0": "HND",
-        "COUNTRY": "Honduras",
-        "NAME_1": "Yoro",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "HN.YO",
-        "ISO_1": "HN-YO"
+        "Country": "Honduras",
+        "Name_1": "Yoro",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",

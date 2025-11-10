@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MAR.1_1",
-        "GID_0": "MAR",
-        "COUNTRY": "Morocco",
-        "NAME_1": "Chaouia-Ouardigha",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "MA.CO",
-        "ISO_1": "NA"
+        "Country": "Morocco",
+        "Name_1": "Chaouia- Ouardigha",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1625,7 +1617,7 @@
                 33.6347
               ],
               [
-                -7.0,
+                -7,
                 33.6341
               ],
               [
@@ -2324,17 +2316,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MAR.2_1",
-        "GID_0": "MAR",
-        "COUNTRY": "Morocco",
-        "NAME_1": "Doukkala-Abda",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "MA.DA",
-        "ISO_1": "NA"
+        "Country": "Morocco",
+        "Name_1": "Doukkala- Abda",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4937,17 +4921,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MAR.3_1",
-        "GID_0": "MAR",
-        "COUNTRY": "Morocco",
-        "NAME_1": "Fès-Boulemane",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "MA.FB",
-        "ISO_1": "NA"
+        "Country": "Morocco",
+        "Name_1": "Fès- Boulemane",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6326,17 +6302,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MAR.4_1",
-        "GID_0": "MAR",
-        "COUNTRY": "Morocco",
-        "NAME_1": "Gharb-Chrarda-BéniHssen",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "MA.GB",
-        "ISO_1": "NA"
+        "Country": "Morocco",
+        "Name_1": "Gharb- Chrarda- Béni Hssen",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7415,17 +7383,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MAR.5_1",
-        "GID_0": "MAR",
-        "COUNTRY": "Morocco",
-        "NAME_1": "GrandCasablanca",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "MA.GC",
-        "ISO_1": "NA"
+        "Country": "Morocco",
+        "Name_1": "Grand Casablanca",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -8580,17 +8540,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MAR.6_1",
-        "GID_0": "MAR",
-        "COUNTRY": "Morocco",
-        "NAME_1": "Guelmim-Es-Semara",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "MA.GE",
-        "ISO_1": "NA"
+        "Country": "Morocco",
+        "Name_1": "Guelmim- Es- Semara",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10725,17 +10677,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MAR.7_1",
-        "GID_0": "MAR",
-        "COUNTRY": "Morocco",
-        "NAME_1": "Laâyoune-Boujdour-SakiaElH",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "MA.LB",
-        "ISO_1": "NA"
+        "Country": "Morocco",
+        "Name_1": "Laâyoune- Boujdour- Sakia El H",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -11278,17 +11222,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MAR.8_1",
-        "GID_0": "MAR",
-        "COUNTRY": "Morocco",
-        "NAME_1": "Marrakech-Tensift-AlHaouz",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "MA.MK",
-        "ISO_1": "NA"
+        "Country": "Morocco",
+        "Name_1": "Marrakech- Tensift- Al Haouz",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13627,17 +13563,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MAR.9_1",
-        "GID_0": "MAR",
-        "COUNTRY": "Morocco",
-        "NAME_1": "Meknès-Tafilalet",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "MA.MT",
-        "ISO_1": "NA"
+        "Country": "Morocco",
+        "Name_1": "Meknès- Tafilalet",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -16276,17 +16204,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MAR.10_1",
-        "GID_0": "MAR",
-        "COUNTRY": "Morocco",
-        "NAME_1": "Oriental",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "MA.OR",
-        "ISO_1": "NA"
+        "Country": "Morocco",
+        "Name_1": "Oriental",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -20269,17 +20189,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MAR.11_1",
-        "GID_0": "MAR",
-        "COUNTRY": "Morocco",
-        "NAME_1": "Rabat-Salé-Zemmour-Zaer",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "MA.RZ",
-        "ISO_1": "NA"
+        "Country": "Morocco",
+        "Name_1": "Rabat- Salé- Zemmour- Zaer",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -20619,7 +20531,7 @@
                 33.6429
               ],
               [
-                -7.0,
+                -7,
                 33.6341
               ],
               [
@@ -21462,17 +21374,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MAR.12_1",
-        "GID_0": "MAR",
-        "COUNTRY": "Morocco",
-        "NAME_1": "Souss-Massa-Draâ",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "MA.SM",
-        "ISO_1": "NA"
+        "Country": "Morocco",
+        "Name_1": "Souss- Massa- Draâ",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -25447,17 +25351,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MAR.13_1",
-        "GID_0": "MAR",
-        "COUNTRY": "Morocco",
-        "NAME_1": "Tadla-Azilal",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "MA.TD",
-        "ISO_1": "NA"
+        "Country": "Morocco",
+        "Name_1": "Tadla- Azilal",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -26532,17 +26428,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MAR.14_1",
-        "GID_0": "MAR",
-        "COUNTRY": "Morocco",
-        "NAME_1": "Tanger-Tétouan",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "MA.TO",
-        "ISO_1": "NA"
+        "Country": "Morocco",
+        "Name_1": "Tanger- Tétouan",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -28417,17 +28305,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MAR.15_1",
-        "GID_0": "MAR",
-        "COUNTRY": "Morocco",
-        "NAME_1": "Taza-AlHoceima-Taounate",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "MA.TH",
-        "ISO_1": "NA"
+        "Country": "Morocco",
+        "Name_1": "Taza- Al Hoceima- Taounate",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",

@@ -11,9 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "AIA",
-        "COUNTRY": "Anguilla",
-	"AREA": 96
+        "Country": "Anguilla",
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",

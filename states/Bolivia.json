@@ -11,18 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BOL.3_1",
-        "GID_0": "BOL",
-        "COUNTRY": "Bolivia",
-        "NAME_1": "Beni",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "BO.EB",
-        "ISO_1": "NA",
-        "AREA": 213564
+        "Country": "Bolivia",
+        "Name_1": "Beni",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10213,18 +10204,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BOL.1_1",
-        "GID_0": "BOL",
-        "COUNTRY": "Bolivia",
-        "NAME_1": "Chuquisaca",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "BO.CQ",
-        "ISO_1": "BO-H",
-        "AREA": 51524
+        "Country": "Bolivia",
+        "Name_1": "Chuquisaca",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -15813,7 +15795,7 @@
               ],
               [
                 -63.7269,
-                -20.0
+                -20
               ],
               [
                 -63.7295,
@@ -17979,18 +17961,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BOL.2_1",
-        "GID_0": "BOL",
-        "COUNTRY": "Bolivia",
-        "NAME_1": "Cochabamba",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "BO.CB",
-        "ISO_1": "BO-C",
-        "AREA": 55631
+        "Country": "Bolivia",
+        "Name_1": "Cochabamba",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -20438,7 +20411,7 @@
                 -16.9767
               ],
               [
-                -67.0,
+                -67,
                 -16.9684
               ],
               [
@@ -25613,18 +25586,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BOL.4_1",
-        "GID_0": "BOL",
-        "COUNTRY": "Bolivia",
-        "NAME_1": "LaPaz",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "BO.LP",
-        "ISO_1": "BO-L",
-        "AREA": 133985
+        "Country": "Bolivia",
+        "Name_1": "La Paz",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -34976,7 +34940,7 @@
                 -16.9616
               ],
               [
-                -67.0,
+                -67,
                 -16.9684
               ],
               [
@@ -36227,18 +36191,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BOL.5_1",
-        "GID_0": "BOL",
-        "COUNTRY": "Bolivia",
-        "NAME_1": "Oruro",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "BO.OR",
-        "ISO_1": "BO-O",
-        "AREA": 53588
+        "Country": "Bolivia",
+        "Name_1": "Oruro",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -40277,18 +40232,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BOL.6_1",
-        "GID_0": "BOL",
-        "COUNTRY": "Bolivia",
-        "NAME_1": "Pando",
-        "VARNAME_1": "colonialterritories|madrededi",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "BO.PA",
-        "ISO_1": "BO-N",
-        "AREA": 63827
+        "Country": "Bolivia",
+        "Name_1": "Pando",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -43873,7 +43819,7 @@
               ],
               [
                 -66.7608,
-                -10.0
+                -10
               ],
               [
                 -66.7538,
@@ -47035,18 +46981,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BOL.7_1",
-        "GID_0": "BOL",
-        "COUNTRY": "Bolivia",
-        "NAME_1": "Potosí",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "BO.PO",
-        "ISO_1": "NA",
-        "AREA": 118218
+        "Country": "Bolivia",
+        "Name_1": "Potosí",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -55331,18 +55268,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BOL.8_1",
-        "GID_0": "BOL",
-        "COUNTRY": "Bolivia",
-        "NAME_1": "SantaCruz",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "BO.SC",
-        "ISO_1": "BO-S",
-        "AREA": 370621
+        "Country": "Bolivia",
+        "Name_1": "Santa Cruz",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -55791,7 +55719,7 @@
               ],
               [
                 -63.7269,
-                -20.0
+                -20
               ],
               [
                 -63.7278,
@@ -64702,7 +64630,7 @@
                 -17.5064
               ],
               [
-                -58.0,
+                -58,
                 -17.5128
               ],
               [
@@ -65561,18 +65489,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BOL.9_1",
-        "GID_0": "BOL",
-        "COUNTRY": "Bolivia",
-        "NAME_1": "Tarija",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "BO.TR",
-        "ISO_1": "BO-T",
-        "AREA": 37623
+        "Country": "Bolivia",
+        "Name_1": "Tarija",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",

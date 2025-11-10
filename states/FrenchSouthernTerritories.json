@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ATF.1_1",
-        "GID_0": "ATF",
-        "COUNTRY": "FrenchSouthernTerritories",
-        "NAME_1": "ÎlesCrozet",
-        "VARNAME_1": "CrozetIslands",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "TF.CR",
-        "ISO_1": "NA"
+        "Country": "FrenchSouthernTerritories",
+        "Name_1": "Îles Crozet",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1468,17 +1460,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ATF.2_1",
-        "GID_0": "ATF",
-        "COUNTRY": "FrenchSouthernTerritories",
-        "NAME_1": "ÎlesÉparses",
-        "VARNAME_1": "GloriosoIslands",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "NA"
+        "Country": "FrenchSouthernTerritories",
+        "Name_1": "ÎlesÉparses",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1845,17 +1829,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ATF.3_1",
-        "GID_0": "ATF",
-        "COUNTRY": "FrenchSouthernTerritories",
-        "NAME_1": "ÎlesSaintPauletAmsterdam",
-        "VARNAME_1": "St.PaulandAmsterdamislands",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "TF.AS",
-        "ISO_1": "NA"
+        "Country": "FrenchSouthernTerritories",
+        "Name_1": "Îles Saint Paulet Amsterdam",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2122,17 +2098,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ATF.4_1",
-        "GID_0": "ATF",
-        "COUNTRY": "FrenchSouthernTerritories",
-        "NAME_1": "Kerguelen",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "TF.KG",
-        "ISO_1": "NA"
+        "Country": "FrenchSouthernTerritories",
+        "Name_1": "Kerguelen",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9288,7 +9256,7 @@
                 -48.9875
               ],
               [
-                69.0,
+                69,
                 -48.9908
               ],
               [
@@ -9673,7 +9641,7 @@
               ],
               [
                 69.0883,
-                -49.0
+                -49
               ],
               [
                 69.0974,
@@ -25061,7 +25029,7 @@
               ],
               [
                 69.4817,
-                -49.0
+                -49
               ],
               [
                 69.4833,

@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SLE.1_1",
-        "GID_0": "SLE",
-        "COUNTRY": "SierraLeone",
-        "NAME_1": "Eastern",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Province",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "SL.EA",
-        "ISO_1": "SL-E"
+        "Country": "SierraLeone",
+        "Name_1": "Eastern",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2028,17 +2020,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SLE.2_1",
-        "GID_0": "SLE",
-        "COUNTRY": "SierraLeone",
-        "NAME_1": "Northern",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Province",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "SL.NO",
-        "ISO_1": "SL-N"
+        "Country": "SierraLeone",
+        "Name_1": "Northern",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3719,7 +3703,7 @@
               ],
               [
                 -11.7348,
-                10.0
+                10
               ],
               [
                 -11.7255,
@@ -3727,7 +3711,7 @@
               ],
               [
                 -11.5014,
-                10.0
+                10
               ],
               [
                 -11.3139,
@@ -3735,7 +3719,7 @@
               ],
               [
                 -11.2059,
-                10.0
+                10
               ],
               [
                 -11.175,
@@ -7013,17 +6997,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SLE.3_1",
-        "GID_0": "SLE",
-        "COUNTRY": "SierraLeone",
-        "NAME_1": "Southern",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Province",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "SL.SO",
-        "ISO_1": "SL-S"
+        "Country": "SierraLeone",
+        "Name_1": "Southern",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -11718,17 +11694,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SLE.4_1",
-        "GID_0": "SLE",
-        "COUNTRY": "SierraLeone",
-        "NAME_1": "Western",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Province",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "SL.WE",
-        "ISO_1": "NA"
+        "Country": "SierraLeone",
+        "Name_1": "Western",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",

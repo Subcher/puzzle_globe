@@ -11,18 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BES.1_1",
-        "GID_0": "BES",
-        "COUNTRY": "Bonaire,SintEustatiusandSaba",
-        "NAME_1": "Bonaire",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Caribischopenbaarlichaam",
-        "ENGTYPE_1": "Municipality",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "BQ-BO",
-        "AREA": 288
+        "Country": "Bonaire,SintEustatiusandSaba",
+        "Name_1": "Bonaire",
+        "Type": "Municipality"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -473,18 +464,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BES.2_1",
-        "GID_0": "BES",
-        "COUNTRY": "Bonaire,SintEustatiusandSaba",
-        "NAME_1": "Saba",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Caribischopenbaarlichaam",
-        "ENGTYPE_1": "Municipality",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "BQ-SA",
-        "AREA": 13
+        "Country": "Bonaire,SintEustatiusandSaba",
+        "Name_1": "Saba",
+        "Type": "Municipality"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -603,18 +585,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BES.3_1",
-        "GID_0": "BES",
-        "COUNTRY": "Bonaire,SintEustatiusandSaba",
-        "NAME_1": "SintEustatius",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Caribischopenbaarlichaam",
-        "ENGTYPE_1": "Municipality",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "BQ-SE",
-        "AREA": 21
+        "Country": "Bonaire,SintEustatiusandSaba",
+        "Name_1": "Sint Eustatius",
+        "Type": "Municipality"
       },
       "geometry": {
         "type": "MultiPolygon",

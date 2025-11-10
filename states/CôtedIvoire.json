@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CIV.1_1",
-        "GID_0": "CIV",
-        "COUNTRY": "Côted'Ivoire",
-        "NAME_1": "Abidjan",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Districtautonome",
-        "ENGTYPE_1": "Autonomousdistrict",
-        "CC_1": "NA",
-        "HASC_1": "CI.AB",
-        "ISO_1": "CI-AB"
+        "Country": "Côted'Ivoire",
+        "Name_1": "Abidjan",
+        "Type": "Autonomousdistrict"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -480,17 +472,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CIV.2_1",
-        "GID_0": "CIV",
-        "COUNTRY": "Côted'Ivoire",
-        "NAME_1": "Bas-Sassandra",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "CI.BA",
-        "ISO_1": "CI-BS"
+        "Country": "Côted'Ivoire",
+        "Name_1": "Bas- Sassandra",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3409,17 +3393,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CIV.3_1",
-        "GID_0": "CIV",
-        "COUNTRY": "Côted'Ivoire",
-        "NAME_1": "Comoé",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "CI.CM",
-        "ISO_1": "NA"
+        "Country": "Côted'Ivoire",
+        "Name_1": "Comoé",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6478,17 +6454,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CIV.4_1",
-        "GID_0": "CIV",
-        "COUNTRY": "Côted'Ivoire",
-        "NAME_1": "Denguélé",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "CI.DE",
-        "ISO_1": "NA"
+        "Country": "Côted'Ivoire",
+        "Name_1": "Denguélé",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9231,17 +9199,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CIV.5_1",
-        "GID_0": "CIV",
-        "COUNTRY": "Côted'Ivoire",
-        "NAME_1": "Gôh-Djiboua",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "CI.GD",
-        "ISO_1": "NA"
+        "Country": "Côted'Ivoire",
+        "Name_1": "Gôh- Djiboua",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10216,17 +10176,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CIV.6_1",
-        "GID_0": "CIV",
-        "COUNTRY": "Côted'Ivoire",
-        "NAME_1": "Lacs",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "CI.LA",
-        "ISO_1": "CI-LC"
+        "Country": "Côted'Ivoire",
+        "Name_1": "Lacs",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13121,17 +13073,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CIV.7_1",
-        "GID_0": "CIV",
-        "COUNTRY": "Côted'Ivoire",
-        "NAME_1": "Lagunes",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "CI.LN",
-        "ISO_1": "CI-LG"
+        "Country": "Côted'Ivoire",
+        "Name_1": "Lagunes",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -15070,17 +15014,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CIV.8_1",
-        "GID_0": "CIV",
-        "COUNTRY": "Côted'Ivoire",
-        "NAME_1": "Montagnes",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "CI.MN",
-        "ISO_1": "CI-MG"
+        "Country": "Côted'Ivoire",
+        "Name_1": "Montagnes",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -15736,7 +15672,7 @@
                 6.3006
               ],
               [
-                -8.0,
+                -8,
                 6.3121
               ],
               [
@@ -17061,7 +16997,7 @@
               ],
               [
                 -8.0534,
-                8.0
+                8
               ],
               [
                 -8.0635,
@@ -18471,17 +18407,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CIV.9_1",
-        "GID_0": "CIV",
-        "COUNTRY": "Côted'Ivoire",
-        "NAME_1": "Sassandra-Marahoué",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "CI.SM",
-        "ISO_1": "NA"
+        "Country": "Côted'Ivoire",
+        "Name_1": "Sassandra- Marahoué",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -20220,17 +20148,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CIV.10_1",
-        "GID_0": "CIV",
-        "COUNTRY": "Côted'Ivoire",
-        "NAME_1": "Savanes",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "CI.SV",
-        "ISO_1": "CI-SV"
+        "Country": "Côted'Ivoire",
+        "Name_1": "Savanes",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -25497,17 +25417,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CIV.11_1",
-        "GID_0": "CIV",
-        "COUNTRY": "Côted'Ivoire",
-        "NAME_1": "ValléeduBandama",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "CI.VB",
-        "ISO_1": "NA"
+        "Country": "Côted'Ivoire",
+        "Name_1": "Valléedu Bandama",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -28335,7 +28247,7 @@
                 8.3021
               ],
               [
-                -4.0,
+                -4,
                 8.3047
               ],
               [
@@ -29082,17 +28994,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CIV.12_1",
-        "GID_0": "CIV",
-        "COUNTRY": "Côted'Ivoire",
-        "NAME_1": "Woroba",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "CI.WB",
-        "ISO_1": "CI-WR"
+        "Country": "Côted'Ivoire",
+        "Name_1": "Woroba",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -33163,17 +33067,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CIV.13_1",
-        "GID_0": "CIV",
-        "COUNTRY": "Côted'Ivoire",
-        "NAME_1": "Yamoussoukro",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Districtautonome",
-        "ENGTYPE_1": "Autonomousdistrict",
-        "CC_1": "NA",
-        "HASC_1": "CI.YM",
-        "ISO_1": "CI-YM"
+        "Country": "Côted'Ivoire",
+        "Name_1": "Yamoussoukro",
+        "Type": "Autonomousdistrict"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -33816,17 +33712,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CIV.14_1",
-        "GID_0": "CIV",
-        "COUNTRY": "Côted'Ivoire",
-        "NAME_1": "Zanzan",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "CI.ZA",
-        "ISO_1": "CI-ZZ"
+        "Country": "Côted'Ivoire",
+        "Name_1": "Zanzan",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -34782,7 +34670,7 @@
                 8.3082
               ],
               [
-                -4.0,
+                -4,
                 8.3047
               ],
               [

@@ -11,18 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BGR.1_1",
-        "GID_0": "BGR",
-        "COUNTRY": "Bulgaria",
-        "NAME_1": "Blagoevgrad",
-        "VARNAME_1": "GornaCumaya|Cuma-iBala|GornaD",
-        "NL_NAME_1": "Благоевград",
-        "TYPE_1": "Oblast",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "BG.BL",
-        "ISO_1": "BG-01",
-        "AREA": 6449
+        "Country": "Bulgaria",
+        "Name_1": "Blagoevgrad",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -726,7 +717,7 @@
                 41.3307
               ],
               [
-                23.0,
+                23,
                 41.3305
               ],
               [
@@ -1685,18 +1676,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BGR.2_1",
-        "GID_0": "BGR",
-        "COUNTRY": "Bulgaria",
-        "NAME_1": "Burgas",
-        "VARNAME_1": "Bourgas",
-        "NL_NAME_1": "Бургас",
-        "TYPE_1": "Oblast",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "BG.BR",
-        "ISO_1": "BG-02",
-        "AREA": 7748
+        "Country": "Bulgaria",
+        "Name_1": "Burgas",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5035,18 +5017,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BGR.3_1",
-        "GID_0": "BGR",
-        "COUNTRY": "Bulgaria",
-        "NAME_1": "Dobrich",
-        "VARNAME_1": "Tolbukhin",
-        "NL_NAME_1": "Добрич",
-        "TYPE_1": "Oblast",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "BG.DO",
-        "ISO_1": "BG-08",
-        "AREA": 4719
+        "Country": "Bulgaria",
+        "Name_1": "Dobrich",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6153,18 +6126,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BGR.4_1",
-        "GID_0": "BGR",
-        "COUNTRY": "Bulgaria",
-        "NAME_1": "Gabrovo",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "Габрово",
-        "TYPE_1": "Oblast",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "BG.GB",
-        "ISO_1": "BG-07",
-        "AREA": 2023
+        "Country": "Bulgaria",
+        "Name_1": "Gabrovo",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6859,18 +6823,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BGR.5_1",
-        "GID_0": "BGR",
-        "COUNTRY": "Bulgaria",
-        "NAME_1": "GradSofiya",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "София-град",
-        "TYPE_1": "Oblast",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "BG.SG",
-        "ISO_1": "NA",
-        "AREA": 1344
+        "Country": "Bulgaria",
+        "Name_1": "Grad Sofiya",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7493,18 +7448,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BGR.6_1",
-        "GID_0": "BGR",
-        "COUNTRY": "Bulgaria",
-        "NAME_1": "Haskovo",
-        "VARNAME_1": "Khaskovo",
-        "NL_NAME_1": "Хасково",
-        "TYPE_1": "Oblast",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "BG.KK",
-        "ISO_1": "BG-26",
-        "AREA": 5533
+        "Country": "Bulgaria",
+        "Name_1": "Haskovo",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9187,18 +9133,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BGR.7_1",
-        "GID_0": "BGR",
-        "COUNTRY": "Bulgaria",
-        "NAME_1": "Kardzhali",
-        "VARNAME_1": "Kurdjali|Kârdžali|Kirjali",
-        "NL_NAME_1": "Кърджалийска",
-        "TYPE_1": "Oblast",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "BG.KZ",
-        "ISO_1": "BG-09",
-        "AREA": 3209
+        "Country": "Bulgaria",
+        "Name_1": "Kardzhali",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10429,18 +10366,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BGR.8_1",
-        "GID_0": "BGR",
-        "COUNTRY": "Bulgaria",
-        "NAME_1": "Kyustendil",
-        "VARNAME_1": "Keustendil|Kjustendil",
-        "NL_NAME_1": "Кюстендил",
-        "TYPE_1": "Oblast",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "BG.KY",
-        "ISO_1": "BG-10",
-        "AREA": 3084
+        "Country": "Bulgaria",
+        "Name_1": "Kyustendil",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -11655,18 +11583,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BGR.9_1",
-        "GID_0": "BGR",
-        "COUNTRY": "Bulgaria",
-        "NAME_1": "Lovech",
-        "VARNAME_1": "Loveč",
-        "NL_NAME_1": "Ловеч",
-        "TYPE_1": "Oblast",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "BG.LV",
-        "ISO_1": "BG-11",
-        "AREA": 4128
+        "Country": "Bulgaria",
+        "Name_1": "Lovech",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -12673,18 +12592,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BGR.10_1",
-        "GID_0": "BGR",
-        "COUNTRY": "Bulgaria",
-        "NAME_1": "Montana",
-        "VARNAME_1": "Mikhaylovgrad|Mihailovgrad",
-        "NL_NAME_1": "Монтана",
-        "TYPE_1": "Oblast",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "BG.MT",
-        "ISO_1": "BG-12",
-        "AREA": 3635
+        "Country": "Bulgaria",
+        "Name_1": "Montana",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13511,18 +13421,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BGR.11_1",
-        "GID_0": "BGR",
-        "COUNTRY": "Bulgaria",
-        "NAME_1": "Pazardzhik",
-        "VARNAME_1": "Pazardjik|TatarPazardžik|Bazarg",
-        "NL_NAME_1": "Пазарджик",
-        "TYPE_1": "Oblast",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "BG.PZ",
-        "ISO_1": "BG-13",
-        "AREA": 4456
+        "Country": "Bulgaria",
+        "Name_1": "Pazardzhik",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -14517,18 +14418,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BGR.12_1",
-        "GID_0": "BGR",
-        "COUNTRY": "Bulgaria",
-        "NAME_1": "Pernik",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "Перник",
-        "TYPE_1": "Oblast",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "BG.PN",
-        "ISO_1": "BG-14",
-        "AREA": 2392
+        "Country": "Bulgaria",
+        "Name_1": "Pernik",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -15467,18 +15359,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BGR.13_1",
-        "GID_0": "BGR",
-        "COUNTRY": "Bulgaria",
-        "NAME_1": "Pleven",
-        "VARNAME_1": "Plevila|Plevna|Plyeven",
-        "NL_NAME_1": "Плевенска",
-        "TYPE_1": "Oblast",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "BG.PV",
-        "ISO_1": "BG-15",
-        "AREA": 4333
+        "Country": "Bulgaria",
+        "Name_1": "Pleven",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -16002,7 +15885,7 @@
                 43.7301
               ],
               [
-                25.0,
+                25,
                 43.7276
               ],
               [
@@ -16513,18 +16396,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BGR.14_1",
-        "GID_0": "BGR",
-        "COUNTRY": "Bulgaria",
-        "NAME_1": "Plovdiv",
-        "VARNAME_1": "Philippopolis",
-        "NL_NAME_1": "Пловдив",
-        "TYPE_1": "Oblast",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "BG.PD",
-        "ISO_1": "BG-16",
-        "AREA": 5972
+        "Country": "Bulgaria",
+        "Name_1": "Plovdiv",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -17747,18 +17621,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BGR.15_1",
-        "GID_0": "BGR",
-        "COUNTRY": "Bulgaria",
-        "NAME_1": "Razgrad",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "Разград",
-        "TYPE_1": "Oblast",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "BG.RG",
-        "ISO_1": "BG-17",
-        "AREA": 2639
+        "Country": "Bulgaria",
+        "Name_1": "Razgrad",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -19045,18 +18910,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BGR.16_1",
-        "GID_0": "BGR",
-        "COUNTRY": "Bulgaria",
-        "NAME_1": "Ruse",
-        "VARNAME_1": "Russe|Ruščuk|Rustchuk",
-        "NL_NAME_1": "Русенска",
-        "TYPE_1": "Oblast",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "BG.RS",
-        "ISO_1": "BG-18",
-        "AREA": 2803
+        "Country": "Bulgaria",
+        "Name_1": "Ruse",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -19963,18 +19819,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BGR.17_1",
-        "GID_0": "BGR",
-        "COUNTRY": "Bulgaria",
-        "NAME_1": "Shumen",
-        "VARNAME_1": "Kolarovgrad|Šumla|Šumen",
-        "NL_NAME_1": "Шумен",
-        "TYPE_1": "Oblast",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "BG.SH",
-        "ISO_1": "BG-27",
-        "AREA": 3389
+        "Country": "Bulgaria",
+        "Name_1": "Shumen",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -21085,18 +20932,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BGR.18_1",
-        "GID_0": "BGR",
-        "COUNTRY": "Bulgaria",
-        "NAME_1": "Silistra",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "Силистра",
-        "TYPE_1": "Oblast",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "BG.SI",
-        "ISO_1": "BG-19",
-        "AREA": 2846
+        "Country": "Bulgaria",
+        "Name_1": "Silistra",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -21879,18 +21717,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BGR.19_1",
-        "GID_0": "BGR",
-        "COUNTRY": "Bulgaria",
-        "NAME_1": "Sliven",
-        "VARNAME_1": "Slivno",
-        "NL_NAME_1": "Сливен",
-        "TYPE_1": "Oblast",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "BG.SL",
-        "ISO_1": "BG-20",
-        "AREA": 3544
+        "Country": "Bulgaria",
+        "Name_1": "Sliven",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -22857,18 +22686,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BGR.20_1",
-        "GID_0": "BGR",
-        "COUNTRY": "Bulgaria",
-        "NAME_1": "Smolyan",
-        "VARNAME_1": "Smoljan",
-        "NL_NAME_1": "Смолян",
-        "TYPE_1": "Oblast",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "BG.SM",
-        "ISO_1": "BG-21",
-        "AREA": 3192
+        "Country": "Bulgaria",
+        "Name_1": "Smolyan",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -24611,18 +24431,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BGR.21_1",
-        "GID_0": "BGR",
-        "COUNTRY": "Bulgaria",
-        "NAME_1": "Sofia",
-        "VARNAME_1": "Sofiya|Sofija",
-        "NL_NAME_1": "Sofija",
-        "TYPE_1": "Oblast",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "BG.SF",
-        "ISO_1": "BG-23",
-        "AREA": 7062
+        "Country": "Bulgaria",
+        "Name_1": "Sofia",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -26637,18 +26448,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BGR.22_1",
-        "GID_0": "BGR",
-        "COUNTRY": "Bulgaria",
-        "NAME_1": "StaraZagora",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "СтараЗагора",
-        "TYPE_1": "Oblast",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "BG.SZ",
-        "ISO_1": "BG-24",
-        "AREA": 5151
+        "Country": "Bulgaria",
+        "Name_1": "Stara Zagora",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -27835,18 +27637,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BGR.23_1",
-        "GID_0": "BGR",
-        "COUNTRY": "Bulgaria",
-        "NAME_1": "Targovishte",
-        "VARNAME_1": "Torgovishte|Tâgovište",
-        "NL_NAME_1": "Търговищка",
-        "TYPE_1": "Oblast",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "BG.TU",
-        "ISO_1": "BG-25",
-        "AREA": 2558
+        "Country": "Bulgaria",
+        "Name_1": "Targovishte",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -28949,18 +28742,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BGR.24_1",
-        "GID_0": "BGR",
-        "COUNTRY": "Bulgaria",
-        "NAME_1": "Varna",
-        "VARNAME_1": "Stalin",
-        "NL_NAME_1": "Варна",
-        "TYPE_1": "Oblast",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "BG.VN",
-        "ISO_1": "BG-03",
-        "AREA": 3820
+        "Country": "Bulgaria",
+        "Name_1": "Varna",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -30187,18 +29971,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BGR.25_1",
-        "GID_0": "BGR",
-        "COUNTRY": "Bulgaria",
-        "NAME_1": "VelikoTarnovo",
-        "VARNAME_1": "VelikoTurnovo|GornaOryahovitsa",
-        "NL_NAME_1": "ВеликоТърново",
-        "TYPE_1": "Oblast",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "BG.VT",
-        "ISO_1": "BG-04",
-        "AREA": 4662
+        "Country": "Bulgaria",
+        "Name_1": "Veliko Tarnovo",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -31349,18 +31124,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BGR.26_1",
-        "GID_0": "BGR",
-        "COUNTRY": "Bulgaria",
-        "NAME_1": "Vidin",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "Видин",
-        "TYPE_1": "Oblast",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "BG.VD",
-        "ISO_1": "BG-05",
-        "AREA": 3032
+        "Country": "Bulgaria",
+        "Name_1": "Vidin",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -32511,18 +32277,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BGR.27_1",
-        "GID_0": "BGR",
-        "COUNTRY": "Bulgaria",
-        "NAME_1": "Vratsa",
-        "VARNAME_1": "Vraca",
-        "NL_NAME_1": "Враца",
-        "TYPE_1": "Oblast",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "BG.VR",
-        "ISO_1": "BG-06",
-        "AREA": 3619
+        "Country": "Bulgaria",
+        "Name_1": "Vratsa",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -33489,18 +33246,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BGR.28_1",
-        "GID_0": "BGR",
-        "COUNTRY": "Bulgaria",
-        "NAME_1": "Yambol",
-        "VARNAME_1": "Jambol|Jamboli",
-        "NL_NAME_1": "Ямбол",
-        "TYPE_1": "Oblast",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "BG.YA",
-        "ISO_1": "BG-28",
-        "AREA": 3355
+        "Country": "Bulgaria",
+        "Name_1": "Yambol",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",

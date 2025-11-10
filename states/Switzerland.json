@@ -11,8 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "CHE",
-        "COUNTRY": "Switzerland"
+        "Country": "Switzerland",
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1088,7 +1089,7 @@
                 47.4516
               ],
               [
-                7.0,
+                7,
                 47.4643
               ],
               [

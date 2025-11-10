@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MMR.1_1",
-        "GID_0": "MMR",
-        "COUNTRY": "Myanmar",
-        "NAME_1": "Ayeyarwady",
-        "VARNAME_1": "Irrawaddy|Ayeyarwaddy|Ayeyawady|",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Yin",
-        "ENGTYPE_1": "Division",
-        "CC_1": "NA",
-        "HASC_1": "MM.AY",
-        "ISO_1": "MM-07"
+        "Country": "Myanmar",
+        "Name_1": "Ayeyarwady",
+        "Type": "Division"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3178,7 +3170,7 @@
               ],
               [
                 94.4556,
-                17.0
+                17
               ],
               [
                 94.4529,
@@ -5133,7 +5125,7 @@
                 16.2369
               ],
               [
-                96.0,
+                96,
                 16.2347
               ],
               [
@@ -6618,7 +6610,7 @@
               ],
               [
                 95.3597,
-                16.0
+                16
               ],
               [
                 95.3431,
@@ -6962,7 +6954,7 @@
               ],
               [
                 95.2186,
-                16.0
+                16
               ],
               [
                 95.22,
@@ -8010,7 +8002,7 @@
               ],
               [
                 95.06,
-                16.0
+                16
               ],
               [
                 95.0683,
@@ -9586,11 +9578,11 @@
               ],
               [
                 94.7056,
-                16.0
+                16
               ],
               [
                 94.6881,
-                16.0
+                16
               ],
               [
                 94.6859,
@@ -10345,7 +10337,7 @@
                 15.91
               ],
               [
-                95.0,
+                95,
                 15.9092
               ],
               [
@@ -11105,7 +11097,7 @@
                 15.8959
               ],
               [
-                95.0,
+                95,
                 15.9081
               ],
               [
@@ -12408,17 +12400,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MMR.2_1",
-        "GID_0": "MMR",
-        "COUNTRY": "Myanmar",
-        "NAME_1": "Bago",
-        "VARNAME_1": "Pégou|Pegu",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Yin",
-        "ENGTYPE_1": "Division",
-        "CC_1": "NA",
-        "HASC_1": "MM.BA",
-        "ISO_1": "MM-02"
+        "Country": "Myanmar",
+        "Name_1": "Bago",
+        "Type": "Division"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13095,7 +13079,7 @@
               ],
               [
                 96.8594,
-                17.0
+                17
               ],
               [
                 96.8619,
@@ -16422,7 +16406,7 @@
                 17.2986
               ],
               [
-                97.0,
+                97,
                 17.285
               ],
               [
@@ -16789,17 +16773,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MMR.3_1",
-        "GID_0": "MMR",
-        "COUNTRY": "Myanmar",
-        "NAME_1": "Chin",
-        "VARNAME_1": "ChinHills",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Pyine",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "MM.CH",
-        "ISO_1": "NA"
+        "Country": "Myanmar",
+        "Name_1": "Chin",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -17315,7 +17291,7 @@
                 22.0321
               ],
               [
-                93.0,
+                93,
                 22.0504
               ],
               [
@@ -19886,17 +19862,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MMR.4_1",
-        "GID_0": "MMR",
-        "COUNTRY": "Myanmar",
-        "NAME_1": "Kachin",
-        "VARNAME_1": "JingphawMungdaw",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Pyine",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "MM.KC",
-        "ISO_1": "MM-11"
+        "Country": "Myanmar",
+        "Name_1": "Kachin",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -23773,11 +23741,11 @@
               ],
               [
                 97.6326,
-                24.0
+                24
               ],
               [
                 97.6058,
-                24.0
+                24
               ],
               [
                 97.5922,
@@ -24047,17 +24015,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MMR.5_1",
-        "GID_0": "MMR",
-        "COUNTRY": "Myanmar",
-        "NAME_1": "Kayah",
-        "VARNAME_1": "Karenni",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Pyine",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "MM.KH",
-        "ISO_1": "MM-12"
+        "Country": "Myanmar",
+        "Name_1": "Kayah",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -26032,17 +25992,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MMR.6_1",
-        "GID_0": "MMR",
-        "COUNTRY": "Myanmar",
-        "NAME_1": "Kayin",
-        "VARNAME_1": "Kawthulei|Karen|Karin|Kawthoolei",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Pyine",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "MM.KN",
-        "ISO_1": "MM-13"
+        "Country": "Myanmar",
+        "Name_1": "Kayin",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -31885,17 +31837,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MMR.7_1",
-        "GID_0": "MMR",
-        "COUNTRY": "Myanmar",
-        "NAME_1": "Magway",
-        "VARNAME_1": "Magwe|Minbu",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Yin",
-        "ENGTYPE_1": "Division",
-        "CC_1": "NA",
-        "HASC_1": "MM.MG",
-        "ISO_1": "MM-03"
+        "Country": "Myanmar",
+        "Name_1": "Magway",
+        "Type": "Division"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -34406,17 +34350,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MMR.8_1",
-        "GID_0": "MMR",
-        "COUNTRY": "Myanmar",
-        "NAME_1": "Mandalay",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Yin",
-        "ENGTYPE_1": "Division",
-        "CC_1": "NA",
-        "HASC_1": "MM.MD",
-        "ISO_1": "MM-04"
+        "Country": "Myanmar",
+        "Name_1": "Mandalay",
+        "Type": "Division"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -38509,17 +38445,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MMR.9_1",
-        "GID_0": "MMR",
-        "COUNTRY": "Myanmar",
-        "NAME_1": "Mon",
-        "VARNAME_1": "Mun",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Pyine",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "MM.MO",
-        "ISO_1": "MM-15"
+        "Country": "Myanmar",
+        "Name_1": "Mon",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -38668,7 +38596,7 @@
               ],
               [
                 97.7936,
-                15.0
+                15
               ],
               [
                 97.7939,
@@ -42108,7 +42036,7 @@
               ],
               [
                 97.0264,
-                17.0
+                17
               ],
               [
                 97.0231,
@@ -42227,7 +42155,7 @@
                 17.1009
               ],
               [
-                97.0,
+                97,
                 17.1069
               ],
               [
@@ -46106,17 +46034,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MMR.10_1",
-        "GID_0": "MMR",
-        "COUNTRY": "Myanmar",
-        "NAME_1": "Naypyitaw",
-        "VARNAME_1": "Naypyidaw|NayPyiTaw",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Unionterritory",
-        "ENGTYPE_1": "Unionterritory",
-        "CC_1": "NA",
-        "HASC_1": "MM.NY",
-        "ISO_1": "NA"
+        "Country": "Myanmar",
+        "Name_1": "Naypyitaw",
+        "Type": "Unionterritory"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -46203,17 +46123,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MMR.11_1",
-        "GID_0": "MMR",
-        "COUNTRY": "Myanmar",
-        "NAME_1": "Rakhine",
-        "VARNAME_1": "Arakan",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Pyine",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "MM.RA",
-        "ISO_1": "MM-16"
+        "Country": "Myanmar",
+        "Name_1": "Rakhine",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -48822,7 +48734,7 @@
               ],
               [
                 94.0531,
-                19.0
+                19
               ],
               [
                 94.0481,
@@ -48854,7 +48766,7 @@
               ],
               [
                 94.0303,
-                19.0
+                19
               ],
               [
                 94.0421,
@@ -49657,15 +49569,15 @@
                 19.2981
               ],
               [
-                93.851978984238187,
-                19.298409194395798
+                93.85197898423819,
+                19.2984091943958
               ],
               [
                 93.852,
                 19.2984
               ],
               [
-                93.852050185873608,
+                93.85205018587361,
                 19.298414869888475
               ],
               [
@@ -49681,8 +49593,8 @@
           [
             [
               [
-                93.851978984238187,
-                19.298409194395798
+                93.85197898423819,
+                19.2984091943958
               ],
               [
                 93.8504,
@@ -49701,12 +49613,12 @@
                 19.3
               ],
               [
-                93.852050185873608,
+                93.85205018587361,
                 19.298414869888475
               ],
               [
-                93.851978984238187,
-                19.298409194395798
+                93.85197898423819,
+                19.2984091943958
               ]
             ]
           ],
@@ -54826,7 +54738,7 @@
               ],
               [
                 94.4289,
-                18.0
+                18
               ],
               [
                 94.4308,
@@ -57921,7 +57833,7 @@
                 19.3801
               ],
               [
-                94.0,
+                94,
                 19.3928
               ],
               [
@@ -61557,7 +61469,7 @@
                 20.2964
               ],
               [
-                93.0,
+                93,
                 20.2833
               ],
               [
@@ -70724,17 +70636,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MMR.12_1",
-        "GID_0": "MMR",
-        "COUNTRY": "Myanmar",
-        "NAME_1": "Sagaing",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Yin",
-        "ENGTYPE_1": "Division",
-        "CC_1": "NA",
-        "HASC_1": "MM.SA",
-        "ISO_1": "MM-01"
+        "Country": "Myanmar",
+        "Name_1": "Sagaing",
+        "Type": "Division"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -74423,7 +74327,7 @@
               ],
               [
                 96.5128,
-                24.0
+                24
               ],
               [
                 96.51,
@@ -75189,17 +75093,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MMR.13_1",
-        "GID_0": "MMR",
-        "COUNTRY": "Myanmar",
-        "NAME_1": "Shan",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Pyine",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "MM.SH",
-        "ISO_1": "MM-17"
+        "Country": "Myanmar",
+        "Name_1": "Shan",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -77776,7 +77672,7 @@
               ],
               [
                 96.5128,
-                24.0
+                24
               ],
               [
                 96.5116,
@@ -79875,7 +79771,7 @@
                 21.9925
               ],
               [
-                100.0,
+                100,
                 21.9756
               ],
               [
@@ -83778,17 +83674,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MMR.14_1",
-        "GID_0": "MMR",
-        "COUNTRY": "Myanmar",
-        "NAME_1": "Tanintharyi",
-        "VARNAME_1": "Tenasserim|Thanintharyi",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Yin",
-        "ENGTYPE_1": "Division",
-        "CC_1": "NA",
-        "HASC_1": "MM.TN",
-        "ISO_1": "MM-05"
+        "Country": "Myanmar",
+        "Name_1": "Tanintharyi",
+        "Type": "Division"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -86588,7 +86476,7 @@
                 10.8615
               ],
               [
-                98.0,
+                98,
                 10.8631
               ],
               [
@@ -86760,7 +86648,7 @@
                 11.3272
               ],
               [
-                98.0,
+                98,
                 11.3236
               ],
               [
@@ -86780,7 +86668,7 @@
                 11.3471
               ],
               [
-                98.0,
+                98,
                 11.3517
               ],
               [
@@ -88297,7 +88185,7 @@
               ],
               [
                 98.1725,
-                10.0
+                10
               ],
               [
                 98.1701,
@@ -93225,7 +93113,7 @@
               ],
               [
                 97.9228,
-                12.0
+                12
               ],
               [
                 97.9211,
@@ -99121,7 +99009,7 @@
               ],
               [
                 98.1461,
-                12.0
+                12
               ],
               [
                 98.1482,
@@ -106765,7 +106653,7 @@
               ],
               [
                 98.6006,
-                13.0
+                13
               ],
               [
                 98.5969,
@@ -128509,7 +128397,7 @@
             [
               [
                 98.7283,
-                12.0
+                12
               ],
               [
                 98.7333,
@@ -128573,7 +128461,7 @@
               ],
               [
                 98.7283,
-                12.0
+                12
               ]
             ]
           ],
@@ -135193,7 +135081,7 @@
               ],
               [
                 98.2925,
-                13.0
+                13
               ],
               [
                 98.2958,
@@ -140632,7 +140520,7 @@
                 12.3597
               ],
               [
-                98.0,
+                98,
                 12.3617
               ],
               [
@@ -140917,7 +140805,7 @@
               ],
               [
                 97.7544,
-                12.0
+                12
               ],
               [
                 97.7472,
@@ -144919,17 +144807,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MMR.15_1",
-        "GID_0": "MMR",
-        "COUNTRY": "Myanmar",
-        "NAME_1": "Yangon",
-        "VARNAME_1": "Rangoon|Rangum|Rangun|Rang£n",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Yin",
-        "ENGTYPE_1": "Division",
-        "CC_1": "NA",
-        "HASC_1": "MM.YA",
-        "ISO_1": "MM-06"
+        "Country": "Myanmar",
+        "Name_1": "Yangon",
+        "Type": "Division"
       },
       "geometry": {
         "type": "MultiPolygon",

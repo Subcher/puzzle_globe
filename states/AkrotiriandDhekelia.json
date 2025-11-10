@@ -11,18 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "XAD.1_1",
-        "GID_0": "XAD",
-        "COUNTRY": "AkrotiriandDhekelia",
-        "NAME_1": "Akrotiri",
-        "VARNAME_1": "WesternSovereignBaseArea",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "SovereignBaseArea",
-        "ENGTYPE_1": "SovereignBaseArea",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "NA",
-	    "AREA": 123
+        "Country": null,
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -273,18 +264,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "XAD.2_1",
-        "GID_0": "XAD",
-        "COUNTRY": "AkrotiriandDhekelia",
-        "NAME_1": "Dhekelia",
-        "VARNAME_1": "EasternSovereignBaseArea",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "SovereignBaseArea",
-        "ENGTYPE_1": "SovereignBaseArea",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "NA",
-	    "AREA": 131
+        "Country": null,
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",

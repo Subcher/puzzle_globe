@@ -11,18 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BWA.1_1",
-        "GID_0": "BWA",
-        "COUNTRY": "Botswana",
-        "NAME_1": "Central",
-        "VARNAME_1": "Centre|Ngwato|Serowe-Palapye",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "BW.CE",
-        "ISO_1": "BW-CE",
-        "AREA": 237950
+        "Country": "Botswana",
+        "Name_1": "Central",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -310,7 +301,7 @@
                 -21.7719
               ],
               [
-                29.0,
+                29,
                 -21.7756
               ],
               [
@@ -3219,7 +3210,7 @@
               ],
               [
                 26.9153,
-                -20.0
+                -20
               ],
               [
                 26.9221,
@@ -3901,18 +3892,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BWA.2_1",
-        "GID_0": "BWA",
-        "COUNTRY": "Botswana",
-        "NAME_1": "Chobe",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "BW.CH",
-        "ISO_1": "BW-CH",
-        "AREA": 48300
+        "Country": "Botswana",
+        "Name_1": "Chobe",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4632,7 +4614,7 @@
                 -17.8307
               ],
               [
-                25.0,
+                25,
                 -17.8203
               ],
               [
@@ -5067,18 +5049,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BWA.3_1",
-        "GID_0": "BWA",
-        "COUNTRY": "Botswana",
-        "NAME_1": "Francistown",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "City",
-        "ENGTYPE_1": "City",
-        "CC_1": "NA",
-        "HASC_1": "BW.FR",
-        "ISO_1": "NA",
-        "AREA": 2489
+        "Country": "Botswana",
+        "Name_1": "Francistown",
+        "Type": "City"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5157,18 +5130,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BWA.5_1",
-        "GID_0": "BWA",
-        "COUNTRY": "Botswana",
-        "NAME_1": "Ghanzi",
-        "VARNAME_1": "Ghantsi",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "BW.GH",
-        "ISO_1": "BW-GH",
-        "AREA": 112050
+        "Country": "Botswana",
+        "Name_1": "Ghanzi",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5288,11 +5252,11 @@
                 -23.3106
               ],
               [
-                20.0,
+                20,
                 -23.3089
               ],
               [
-                20.0,
+                20,
                 -22.0018
               ],
               [
@@ -5331,18 +5295,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BWA.7_1",
-        "GID_0": "BWA",
-        "COUNTRY": "Botswana",
-        "NAME_1": "Kgalagadi",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "BW.KG",
-        "ISO_1": "BW-KG",
-        "AREA": 87481
+        "Country": "Botswana",
+        "Name_1": "Kgalagadi",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9226,7 +9181,7 @@
                 -24.7669
               ],
               [
-                20.0,
+                20,
                 -23.3089
               ],
               [
@@ -9317,18 +9272,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BWA.8_1",
-        "GID_0": "BWA",
-        "COUNTRY": "Botswana",
-        "NAME_1": "Kgatleng",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "BW.KL",
-        "ISO_1": "BW-KL",
-        "AREA": 5341
+        "Country": "Botswana",
+        "Name_1": "Kgatleng",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10739,18 +10685,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BWA.9_1",
-        "GID_0": "BWA",
-        "COUNTRY": "Botswana",
-        "NAME_1": "Kweneng",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "BW.KW",
-        "ISO_1": "BW-KW",
-        "AREA": 39287
+        "Country": "Botswana",
+        "Name_1": "Kweneng",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10949,18 +10886,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BWA.11_1",
-        "GID_0": "BWA",
-        "COUNTRY": "Botswana",
-        "NAME_1": "North-East",
-        "VARNAME_1": "NorthEast|Bokone-Botlhaba",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "BW.NE",
-        "ISO_1": "NA",
-        "AREA": 19607
+        "Country": "Botswana",
+        "Name_1": "North- East",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -11941,18 +11869,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BWA.12_1",
-        "GID_0": "BWA",
-        "COUNTRY": "Botswana",
-        "NAME_1": "North-West",
-        "VARNAME_1": "NorthWest|Bokone-Bophirima",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "BW.NC",
-        "ISO_1": "NA",
-        "AREA": 82000
+        "Country": "Botswana",
+        "Name_1": "North- West",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -11961,7 +11880,7 @@
             [
               [
                 22.6428,
-                -21.0
+                -21
               ],
               [
                 21.8906,
@@ -12809,7 +12728,7 @@
               ],
               [
                 22.6428,
-                -21.0
+                -21
               ]
             ]
           ]
@@ -12819,18 +12738,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BWA.14_1",
-        "GID_0": "BWA",
-        "COUNTRY": "Botswana",
-        "NAME_1": "South-East",
-        "VARNAME_1": "Borwa-Botlhaba",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "BW.SR",
-        "ISO_1": "NA",
-        "AREA": 18400
+        "Country": "Botswana",
+        "Name_1": "South- East",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13171,18 +13081,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BWA.15_1",
-        "GID_0": "BWA",
-        "COUNTRY": "Botswana",
-        "NAME_1": "Southern",
-        "VARNAME_1": "Borwa|Ngwakets|Ngwaketse",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "BW.SO",
-        "ISO_1": "BW-SO",
-        "AREA": 45500
+        "Country": "Botswana",
+        "Name_1": "Southern",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13930,7 +13831,7 @@
               [
                 24.7536,
                 -24.6193
-                  ]
+              ]
             ]
           ]
         ]

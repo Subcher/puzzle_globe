@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SSD.1_1",
-        "GID_0": "SSD",
-        "COUNTRY": "SouthSudan",
-        "NAME_1": "CentralEquatoria",
-        "VARNAME_1": "BahrelGabel|Bahr-al-Jabal",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "SD.BG",
-        "ISO_1": "SS-EC"
+        "Country": "SouthSudan",
+        "Name_1": "Central Equatoria",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -329,7 +321,7 @@
                 3.7092
               ],
               [
-                31.0,
+                31,
                 3.7118
               ],
               [
@@ -797,7 +789,7 @@
                 4.1968
               ],
               [
-                30.0,
+                30,
                 4.2157
               ],
               [
@@ -1244,17 +1236,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SSD.2_1",
-        "GID_0": "SSD",
-        "COUNTRY": "SouthSudan",
-        "NAME_1": "EasternEquatoria",
-        "VARNAME_1": "AlIstiwā'īyahashSharqīyah|Sh",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "SD.EE",
-        "ISO_1": "SS-EE"
+        "Country": "SouthSudan",
+        "Name_1": "Eastern Equatoria",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2277,17 +2261,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SSD.3_1",
-        "GID_0": "SSD",
-        "COUNTRY": "SouthSudan",
-        "NAME_1": "Jungoli",
-        "VARNAME_1": "Jonglei|Jonglie|Jonqley|Jungl",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "SD.JG",
-        "ISO_1": "NA"
+        "Country": "SouthSudan",
+        "Name_1": "Jungoli",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2552,7 +2528,7 @@
               ],
               [
                 31.612,
-                6.0
+                6
               ],
               [
                 31.598,
@@ -4954,17 +4930,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SSD.4_1",
-        "GID_0": "SSD",
-        "COUNTRY": "SouthSudan",
-        "NAME_1": "Lakes",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "SD.EB",
-        "ISO_1": "NA"
+        "Country": "SouthSudan",
+        "Name_1": "Lakes",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5753,7 +5721,7 @@
               ],
               [
                 31.612,
-                6.0
+                6
               ],
               [
                 31.618,
@@ -5819,17 +5787,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SSD.5_1",
-        "GID_0": "SSD",
-        "COUNTRY": "SouthSudan",
-        "NAME_1": "NorthBahr-al-Ghazal",
-        "VARNAME_1": "NorthBahr-al-Gazal|NorthBahr",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "SD.NB",
-        "ISO_1": "NA"
+        "Country": "SouthSudan",
+        "Name_1": "North Bahr-al- Ghazal",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6600,17 +6560,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SSD.6_1",
-        "GID_0": "SSD",
-        "COUNTRY": "SouthSudan",
-        "NAME_1": "Unity",
-        "VARNAME_1": "Al-Wahdah|Wahda",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "SD.WH",
-        "ISO_1": "SS-UY"
+        "Country": "SouthSudan",
+        "Name_1": "Unity",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7969,17 +7921,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SSD.7_1",
-        "GID_0": "SSD",
-        "COUNTRY": "SouthSudan",
-        "NAME_1": "UpperNile",
-        "VARNAME_1": "UpperNile|Sobat|a`ĀlīanNīl|Ni",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "SD.UN",
-        "ISO_1": "SS-NU"
+        "Country": "SouthSudan",
+        "Name_1": "Upper Nile",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9130,17 +9074,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SSD.8_1",
-        "GID_0": "SSD",
-        "COUNTRY": "SouthSudan",
-        "NAME_1": "Warap",
-        "VARNAME_1": "Warab|Warrab",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "SD.WR",
-        "ISO_1": "NA"
+        "Country": "SouthSudan",
+        "Name_1": "Warap",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9991,17 +9927,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SSD.9_1",
-        "GID_0": "SSD",
-        "COUNTRY": "SouthSudan",
-        "NAME_1": "WestBahr-al-Ghazal",
-        "VARNAME_1": "Bahral-GhazālalGharbīyah|Ghar",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "SD.WB",
-        "ISO_1": "NA"
+        "Country": "SouthSudan",
+        "Name_1": "West Bahr-al- Ghazal",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10994,7 +10922,7 @@
               ],
               [
                 24.9658,
-                8.0
+                8
               ],
               [
                 24.9562,
@@ -12144,17 +12072,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SSD.10_1",
-        "GID_0": "SSD",
-        "COUNTRY": "SouthSudan",
-        "NAME_1": "WestEquatoria",
-        "VARNAME_1": "AlIstiwā'īyahalGharbīyah|Ghar",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "SD.WE",
-        "ISO_1": "NA"
+        "Country": "SouthSudan",
+        "Name_1": "West Equatoria",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",

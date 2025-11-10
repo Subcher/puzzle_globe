@@ -11,8 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "GTM",
-        "COUNTRY": "Guatemala"
+        "Country": "Guatemala",
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3801,7 +3802,7 @@
               ],
               [
                 -89.1733,
-                15.0
+                15
               ],
               [
                 -89.1732,

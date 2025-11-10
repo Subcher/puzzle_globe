@@ -11,18 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BRN.1_1",
-        "GID_0": "BRN",
-        "COUNTRY": "Brunei",
-        "NAME_1": "Belait",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Daerah-Daerah",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "BN.BE",
-        "ISO_1": "BN-BE",
-        "AREA": 2727
+        "Country": "Brunei",
+        "Name_1": "Belait",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -605,18 +596,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BRN.2_1",
-        "GID_0": "BRN",
-        "COUNTRY": "Brunei",
-        "NAME_1": "BruneiandMuara",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Daerah-Daerah",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "BN.BM",
-        "ISO_1": "NA",
-        "AREA": 571
+        "Country": "Brunei",
+        "Name_1": "Bruneiand Muara",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1555,18 +1537,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BRN.3_1",
-        "GID_0": "BRN",
-        "COUNTRY": "Brunei",
-        "NAME_1": "Temburong",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Daerah-Daerah",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "BN.TE",
-        "ISO_1": "BN-TE",
-        "AREA": 1288
+        "Country": "Brunei",
+        "Name_1": "Temburong",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2197,18 +2170,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BRN.4_1",
-        "GID_0": "BRN",
-        "COUNTRY": "Brunei",
-        "NAME_1": "Tutong",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Daerah-Daerah",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "BN.TU",
-        "ISO_1": "BN-TU",
-        "AREA": 1166
+        "Country": "Brunei",
+        "Name_1": "Tutong",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",

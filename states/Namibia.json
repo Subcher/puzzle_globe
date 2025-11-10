@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NAM.1_1",
-        "GID_0": "NAM",
-        "COUNTRY": "Namibia",
-        "NAME_1": "!Karas",
-        "VARNAME_1": "Karas",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "NA.KA",
-        "ISO_1": "NA"
+        "Country": "Namibia",
+        "Name_1": "! Karas",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5908,17 +5900,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NAM.2_1",
-        "GID_0": "NAM",
-        "COUNTRY": "Namibia",
-        "NAME_1": "Erongo",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "NA.ER",
-        "ISO_1": "NA-ER"
+        "Country": "Namibia",
+        "Name_1": "Erongo",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9357,17 +9341,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NAM.3_1",
-        "GID_0": "NAM",
-        "COUNTRY": "Namibia",
-        "NAME_1": "Hardap",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "NA.HA",
-        "ISO_1": "NA-HA"
+        "Country": "Namibia",
+        "Name_1": "Hardap",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -11139,7 +11115,7 @@
                 -23.8665
               ],
               [
-                20.0,
+                20,
                 -23.8629
               ],
               [
@@ -11266,17 +11242,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NAM.4_1",
-        "GID_0": "NAM",
-        "COUNTRY": "Namibia",
-        "NAME_1": "Kavango",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "NA.OK",
-        "ISO_1": "NA"
+        "Country": "Namibia",
+        "Name_1": "Kavango",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -12531,17 +12499,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NAM.5_1",
-        "GID_0": "NAM",
-        "COUNTRY": "Namibia",
-        "NAME_1": "Khomas",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "NA.KH",
-        "ISO_1": "NA-KH"
+        "Country": "Namibia",
+        "Name_1": "Khomas",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13884,17 +13844,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NAM.6_1",
-        "GID_0": "NAM",
-        "COUNTRY": "Namibia",
-        "NAME_1": "Kunene",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "NA.KU",
-        "ISO_1": "NA-KU"
+        "Country": "Namibia",
+        "Name_1": "Kunene",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -18001,17 +17953,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NAM.7_1",
-        "GID_0": "NAM",
-        "COUNTRY": "Namibia",
-        "NAME_1": "Ohangwena",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "NA.OW",
-        "ISO_1": "NA-OW"
+        "Country": "Namibia",
+        "Name_1": "Ohangwena",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -18019,7 +17963,7 @@
           [
             [
               [
-                17.0,
+                17,
                 -17.3959
               ],
               [
@@ -18231,7 +18175,7 @@
                 -17.3948
               ],
               [
-                17.0,
+                17,
                 -17.3959
               ]
             ]
@@ -18242,17 +18186,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NAM.8_1",
-        "GID_0": "NAM",
-        "COUNTRY": "Namibia",
-        "NAME_1": "Omaheke",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "NA.OH",
-        "ISO_1": "NA-OH"
+        "Country": "Namibia",
+        "Name_1": "Omaheke",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -18260,11 +18196,11 @@
           [
             [
               [
-                20.0,
+                20,
                 -23.0841
               ],
               [
-                20.0,
+                20,
                 -23.8629
               ],
               [
@@ -19408,11 +19344,11 @@
                 -22.0038
               ],
               [
-                20.0,
+                20,
                 -22.0018
               ],
               [
-                20.0,
+                20,
                 -23.0841
               ]
             ]
@@ -19423,17 +19359,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NAM.9_1",
-        "GID_0": "NAM",
-        "COUNTRY": "Namibia",
-        "NAME_1": "Omusati",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "NA.OS",
-        "ISO_1": "NA-OS"
+        "Country": "Namibia",
+        "Name_1": "Omusati",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -20264,17 +20192,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NAM.10_1",
-        "GID_0": "NAM",
-        "COUNTRY": "Namibia",
-        "NAME_1": "Oshana",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "NA.ON",
-        "ISO_1": "NA-ON"
+        "Country": "Namibia",
+        "Name_1": "Oshana",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -21281,17 +21201,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NAM.11_1",
-        "GID_0": "NAM",
-        "COUNTRY": "Namibia",
-        "NAME_1": "Oshikoto",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "NA.OT",
-        "ISO_1": "NA-OT"
+        "Country": "Namibia",
+        "Name_1": "Oshikoto",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -22166,17 +22078,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NAM.12_1",
-        "GID_0": "NAM",
-        "COUNTRY": "Namibia",
-        "NAME_1": "Otjozondjupa",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "NA.OD",
-        "ISO_1": "NA-OD"
+        "Country": "Namibia",
+        "Name_1": "Otjozondjupa",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -23915,17 +23819,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NAM.13_1",
-        "GID_0": "NAM",
-        "COUNTRY": "Namibia",
-        "NAME_1": "Zambezi",
-        "VARNAME_1": "Caprivi",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "NA.CA",
-        "ISO_1": "NA-CA"
+        "Country": "Namibia",
+        "Name_1": "Zambezi",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -25037,7 +24933,7 @@
                 -17.8183
               ],
               [
-                25.0,
+                25,
                 -17.8203
               ],
               [

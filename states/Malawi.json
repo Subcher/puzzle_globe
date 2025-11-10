@@ -11,8 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "MWI",
-        "COUNTRY": "Malawi"
+        "Country": "Malawi",
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -977,7 +978,7 @@
               ],
               [
                 34.3728,
-                -16.0
+                -16
               ],
               [
                 34.3627,

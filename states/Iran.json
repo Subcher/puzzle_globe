@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IRN.1_1",
-        "GID_0": "IRN",
-        "COUNTRY": "Iran",
-        "NAME_1": "Alborz",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "استانالبرز",
-        "TYPE_1": "Ostan",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "IR.AL",
-        "ISO_1": "IR-30"
+        "Country": "Iran",
+        "Name_1": "Alborz",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -704,17 +696,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IRN.2_1",
-        "GID_0": "IRN",
-        "COUNTRY": "Iran",
-        "NAME_1": "Ardebil",
-        "VARNAME_1": "Ardabil",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Ostan",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "IR.AR",
-        "ISO_1": "NA"
+        "Country": "Iran",
+        "Name_1": "Ardebil",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2161,17 +2145,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IRN.3_1",
-        "GID_0": "IRN",
-        "COUNTRY": "Iran",
-        "NAME_1": "Bushehr",
-        "VARNAME_1": "BanadervaJazayer-eKhalij-eFa",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Ostan",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "IR.BS",
-        "ISO_1": "IR-18"
+        "Country": "Iran",
+        "Name_1": "Bushehr",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -8190,17 +8166,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IRN.4_1",
-        "GID_0": "IRN",
-        "COUNTRY": "Iran",
-        "NAME_1": "ChaharMahallandBakhtiari",
-        "VARNAME_1": "Bakhtiari|ChaharmahalvaBakhtiy",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Ostan",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "IR.CM",
-        "ISO_1": "NA"
+        "Country": "Iran",
+        "Name_1": "Chahar Mahalland Bakhtiari",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9087,17 +9055,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IRN.5_1",
-        "GID_0": "IRN",
-        "COUNTRY": "Iran",
-        "NAME_1": "EastAzarbaijan",
-        "VARNAME_1": "Azarbayjan-eKhavari|Azarbaijan-",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Ostan",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "IR.EA",
-        "ISO_1": "NA"
+        "Country": "Iran",
+        "Name_1": "East Azarbaijan",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9721,11 +9681,11 @@
                 38.8865
               ],
               [
-                46.0,
+                46,
                 38.869
               ],
               [
-                46.0,
+                46,
                 38.8202
               ],
               [
@@ -10824,17 +10784,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IRN.6_1",
-        "GID_0": "IRN",
-        "COUNTRY": "Iran",
-        "NAME_1": "Esfahan",
-        "VARNAME_1": "Isfahan|Ispahan",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Ostan",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "IR.ES",
-        "ISO_1": "IR-10"
+        "Country": "Iran",
+        "Name_1": "Esfahan",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -12893,17 +12845,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IRN.7_1",
-        "GID_0": "IRN",
-        "COUNTRY": "Iran",
-        "NAME_1": "Fars",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Ostan",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "IR.FA",
-        "ISO_1": "IR-07"
+        "Country": "Iran",
+        "Name_1": "Fars",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -15118,17 +15062,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IRN.8_1",
-        "GID_0": "IRN",
-        "COUNTRY": "Iran",
-        "NAME_1": "Gilan",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Ostan",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "IR.GI",
-        "ISO_1": "IR-01"
+        "Country": "Iran",
+        "Name_1": "Gilan",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -16243,17 +16179,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IRN.9_1",
-        "GID_0": "IRN",
-        "COUNTRY": "Iran",
-        "NAME_1": "Golestan",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Ostan",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "IR.GO",
-        "ISO_1": "IR-27"
+        "Country": "Iran",
+        "Name_1": "Golestan",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -17428,17 +17356,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IRN.10_1",
-        "GID_0": "IRN",
-        "COUNTRY": "Iran",
-        "NAME_1": "Hamadan",
-        "VARNAME_1": "Hamedan",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Ostan",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "IR.HD",
-        "ISO_1": "IR-13"
+        "Country": "Iran",
+        "Name_1": "Hamadan",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -19013,17 +18933,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IRN.11_1",
-        "GID_0": "IRN",
-        "COUNTRY": "Iran",
-        "NAME_1": "Hormozgan",
-        "VARNAME_1": "BanadervaJazayer-eBahr-eOman",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Ostan",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "IR.HG",
-        "ISO_1": "IR-22"
+        "Country": "Iran",
+        "Name_1": "Hormozgan",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -33546,17 +33458,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IRN.12_1",
-        "GID_0": "IRN",
-        "COUNTRY": "Iran",
-        "NAME_1": "Ilam",
-        "VARNAME_1": "IlamandPoshtkuh",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Ostan",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "IR.IL",
-        "ISO_1": "IR-16"
+        "Country": "Iran",
+        "Name_1": "Ilam",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -35163,17 +35067,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IRN.13_1",
-        "GID_0": "IRN",
-        "COUNTRY": "Iran",
-        "NAME_1": "Kerman",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Ostan",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "IR.KE",
-        "ISO_1": "IR-08"
+        "Country": "Iran",
+        "Name_1": "Kerman",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -37800,17 +37696,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IRN.14_1",
-        "GID_0": "IRN",
-        "COUNTRY": "Iran",
-        "NAME_1": "Kermanshah",
-        "VARNAME_1": "Bakhtaran|Kermanshahan",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Ostan",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "IR.BK",
-        "ISO_1": "IR-05"
+        "Country": "Iran",
+        "Name_1": "Kermanshah",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -38518,7 +38406,7 @@
                 35.0625
               ],
               [
-                46.0,
+                46,
                 35.0632
               ],
               [
@@ -39753,17 +39641,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IRN.15_1",
-        "GID_0": "IRN",
-        "COUNTRY": "Iran",
-        "NAME_1": "Khuzestan",
-        "VARNAME_1": "Khuzistan|Kouzistan",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Ostan",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "IR.KZ",
-        "ISO_1": "IR-06"
+        "Country": "Iran",
+        "Name_1": "Khuzestan",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -47882,17 +47762,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IRN.16_1",
-        "GID_0": "IRN",
-        "COUNTRY": "Iran",
-        "NAME_1": "KohgiluyehandBuyerAhmad",
-        "VARNAME_1": "BovirAhmadiandKohkiluyeh|Boye",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Ostan",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "IR.KB",
-        "ISO_1": "NA"
+        "Country": "Iran",
+        "Name_1": "Kohgiluyehand Buyer Ahmad",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -48735,17 +48607,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IRN.17_1",
-        "GID_0": "IRN",
-        "COUNTRY": "Iran",
-        "NAME_1": "Kordestan",
-        "VARNAME_1": "Kurdistan",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Ostan",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "IR.KD",
-        "ISO_1": "IR-12"
+        "Country": "Iran",
+        "Name_1": "Kordestan",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -49077,7 +48941,7 @@
                 35.4464
               ],
               [
-                46.0,
+                46,
                 35.4804
               ],
               [
@@ -49101,7 +48965,7 @@
                 35.5222
               ],
               [
-                46.0,
+                46,
                 35.5472
               ],
               [
@@ -49121,7 +48985,7 @@
                 35.5771
               ],
               [
-                46.0,
+                46,
                 35.5741
               ],
               [
@@ -49157,11 +49021,11 @@
                 35.6254
               ],
               [
-                46.0,
+                46,
                 35.6346
               ],
               [
-                46.0,
+                46,
                 35.6378
               ],
               [
@@ -49413,7 +49277,7 @@
                 35.8331
               ],
               [
-                46.0,
+                46,
                 35.8375
               ],
               [
@@ -50644,17 +50508,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IRN.18_1",
-        "GID_0": "IRN",
-        "COUNTRY": "Iran",
-        "NAME_1": "Lorestan",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Ostan",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "IR.LO",
-        "ISO_1": "IR-15"
+        "Country": "Iran",
+        "Name_1": "Lorestan",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -52073,17 +51929,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IRN.19_1",
-        "GID_0": "IRN",
-        "COUNTRY": "Iran",
-        "NAME_1": "Markazi",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Ostan",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "IR.MK",
-        "ISO_1": "IR-00"
+        "Country": "Iran",
+        "Name_1": "Markazi",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -53818,17 +53666,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IRN.20_1",
-        "GID_0": "IRN",
-        "COUNTRY": "Iran",
-        "NAME_1": "Mazandaran",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Ostan",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "IR.MN",
-        "ISO_1": "IR-02"
+        "Country": "Iran",
+        "Name_1": "Mazandaran",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -55295,17 +55135,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IRN.21_1",
-        "GID_0": "IRN",
-        "COUNTRY": "Iran",
-        "NAME_1": "NorthKhorasan",
-        "VARNAME_1": "Khorasan-eShemali",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Ostan",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "IR.KS",
-        "ISO_1": "NA"
+        "Country": "Iran",
+        "Name_1": "North Khorasan",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -56564,17 +56396,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IRN.22_1",
-        "GID_0": "IRN",
-        "COUNTRY": "Iran",
-        "NAME_1": "Qazvin",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Ostan",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "IR.QZ",
-        "ISO_1": "IR-26"
+        "Country": "Iran",
+        "Name_1": "Qazvin",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -57529,17 +57353,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IRN.23_1",
-        "GID_0": "IRN",
-        "COUNTRY": "Iran",
-        "NAME_1": "Qom",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Ostan",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "IR.QM",
-        "ISO_1": "IR-25"
+        "Country": "Iran",
+        "Name_1": "Qom",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -58050,17 +57866,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IRN.24_1",
-        "GID_0": "IRN",
-        "COUNTRY": "Iran",
-        "NAME_1": "RazaviKhorasan",
-        "VARNAME_1": "Khorasan-eRazavi",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Ostan",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "IR.KV",
-        "ISO_1": "NA"
+        "Country": "Iran",
+        "Name_1": "Razavi Khorasan",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -59932,11 +59740,11 @@
                 37.0342
               ],
               [
-                60.0,
+                60,
                 37.0314
               ],
               [
-                60.0,
+                60,
                 37.0395
               ],
               [
@@ -61205,17 +61013,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IRN.25_1",
-        "GID_0": "IRN",
-        "COUNTRY": "Iran",
-        "NAME_1": "Semnan",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Ostan",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "IR.SM",
-        "ISO_1": "IR-20"
+        "Country": "Iran",
+        "Name_1": "Semnan",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -61395,7 +61195,7 @@
                 35.0991
               ],
               [
-                52.0,
+                52,
                 35.1193
               ],
               [
@@ -62878,17 +62678,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IRN.26_1",
-        "GID_0": "IRN",
-        "COUNTRY": "Iran",
-        "NAME_1": "SistanandBaluchestan",
-        "VARNAME_1": "BaluchestanvaSistan|Seistanan",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Ostan",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "IR.SB",
-        "ISO_1": "NA"
+        "Country": "Iran",
+        "Name_1": "Sistanand Baluchestan",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -66659,17 +66451,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IRN.27_1",
-        "GID_0": "IRN",
-        "COUNTRY": "Iran",
-        "NAME_1": "SouthKhorasan",
-        "VARNAME_1": "Khorasan-eJanubi",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Ostan",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "IR.KJ",
-        "ISO_1": "NA"
+        "Country": "Iran",
+        "Name_1": "South Khorasan",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -67876,17 +67660,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IRN.28_1",
-        "GID_0": "IRN",
-        "COUNTRY": "Iran",
-        "NAME_1": "Tehran",
-        "VARNAME_1": "Teheran",
-        "NL_NAME_1": "استانتهران",
-        "TYPE_1": "Ostan",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "IR.TH",
-        "ISO_1": "IR-23"
+        "Country": "Iran",
+        "Name_1": "Tehran",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -68706,7 +68482,7 @@
                 35.1291
               ],
               [
-                52.0,
+                52,
                 35.1193
               ],
               [
@@ -68757,17 +68533,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IRN.29_1",
-        "GID_0": "IRN",
-        "COUNTRY": "Iran",
-        "NAME_1": "WestAzarbaijan",
-        "VARNAME_1": "Azarbayjan-eBakhtari|Azarbaijan",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Ostan",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "IR.WA",
-        "ISO_1": "NA"
+        "Country": "Iran",
+        "Name_1": "West Azarbaijan",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -71938,17 +71706,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IRN.30_1",
-        "GID_0": "IRN",
-        "COUNTRY": "Iran",
-        "NAME_1": "Yazd",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Ostan",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "IR.YA",
-        "ISO_1": "IR-21"
+        "Country": "Iran",
+        "Name_1": "Yazd",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -73667,17 +73427,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IRN.31_1",
-        "GID_0": "IRN",
-        "COUNTRY": "Iran",
-        "NAME_1": "Zanjan",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Ostan",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "IR.ZA",
-        "ISO_1": "IR-19"
+        "Country": "Iran",
+        "Name_1": "Zanjan",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",

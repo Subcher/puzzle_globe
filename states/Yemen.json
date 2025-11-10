@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "YEM.1_1",
-        "GID_0": "YEM",
-        "COUNTRY": "Yemen",
-        "NAME_1": "`Adan",
-        "VARNAME_1": "Aden",
-        "NL_NAME_1": "عدن",
-        "TYPE_1": "Muhafazah",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "24",
-        "HASC_1": "YE.AD",
-        "ISO_1": "NA"
+        "Country": "Yemen",
+        "Name_1": "` Adan",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1568,17 +1560,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "YEM.2_1",
-        "GID_0": "YEM",
-        "COUNTRY": "Yemen",
-        "NAME_1": "Abyan",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "أبين",
-        "TYPE_1": "Muhafazah",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "12",
-        "HASC_1": "YE.AB",
-        "ISO_1": "YE-AB"
+        "Country": "Yemen",
+        "Name_1": "Abyan",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2817,17 +2801,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "YEM.3_1",
-        "GID_0": "YEM",
-        "COUNTRY": "Yemen",
-        "NAME_1": "AlBayda'",
-        "VARNAME_1": "Albaidah|AlBaidha|Al-Baydha|Al",
-        "NL_NAME_1": "البيضاء",
-        "TYPE_1": "Muhafazah",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "14",
-        "HASC_1": "YE.BA",
-        "ISO_1": "YE-BA"
+        "Country": "Yemen",
+        "Name_1": "Al Bayda'",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3682,17 +3658,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "YEM.4_1",
-        "GID_0": "YEM",
-        "COUNTRY": "Yemen",
-        "NAME_1": "AlDali'",
-        "VARNAME_1": "AlDhale'e",
-        "NL_NAME_1": "الضالع",
-        "TYPE_1": "Muhafazah",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "30",
-        "HASC_1": "YE.DL",
-        "ISO_1": "NA"
+        "Country": "Yemen",
+        "Name_1": "Al Dali'",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4495,17 +4463,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "YEM.5_1",
-        "GID_0": "YEM",
-        "COUNTRY": "Yemen",
-        "NAME_1": "AlHudaydah",
-        "VARNAME_1": "AlHodeida|Al-Hodeidah|AlHudaid",
-        "NL_NAME_1": "الحديده",
-        "TYPE_1": "Muhafazah",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "18",
-        "HASC_1": "YE.HU",
-        "ISO_1": "YE-HU"
+        "Country": "Yemen",
+        "Name_1": "Al Hudaydah",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13112,17 +13072,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "YEM.6_1",
-        "GID_0": "YEM",
-        "COUNTRY": "Yemen",
-        "NAME_1": "AlJawf",
-        "VARNAME_1": "AlJouf|Aljowf|Jawf",
-        "NL_NAME_1": "الجوف",
-        "TYPE_1": "Muhafazah",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "16",
-        "HASC_1": "YE.JA",
-        "ISO_1": "NA"
+        "Country": "Yemen",
+        "Name_1": "Al Jawf",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13378,7 +13330,7 @@
                 17.2833
               ],
               [
-                47.0,
+                47,
                 16.95
               ],
               [
@@ -13433,17 +13385,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "YEM.7_1",
-        "GID_0": "YEM",
-        "COUNTRY": "Yemen",
-        "NAME_1": "AlMahrah",
-        "VARNAME_1": "AlGhaydah|Al-Mahara|Almaharah|a",
-        "NL_NAME_1": "المهره",
-        "TYPE_1": "Muhafazah",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "28",
-        "HASC_1": "YE.MR",
-        "ISO_1": "YE-MR"
+        "Country": "Yemen",
+        "Name_1": "Al Mahrah",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -14031,8 +13975,8 @@
                 18.9078
               ],
               [
-                52.0,
-                19.0
+                52,
+                19
               ],
               [
                 52.7822,
@@ -14946,17 +14890,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "YEM.8_1",
-        "GID_0": "YEM",
-        "COUNTRY": "Yemen",
-        "NAME_1": "AlMahwit",
-        "VARNAME_1": "Almahweet|Mahweet",
-        "NL_NAME_1": "المحويت",
-        "TYPE_1": "Muhafazah",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "27",
-        "HASC_1": "YE.MW",
-        "ISO_1": "YE-MW"
+        "Country": "Yemen",
+        "Name_1": "Al Mahwit",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -15575,17 +15511,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "YEM.9_1",
-        "GID_0": "YEM",
-        "COUNTRY": "Yemen",
-        "NAME_1": "AmanatAlAsimah",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "أمانةالعاصمة",
-        "TYPE_1": "Muhafazah",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "13",
-        "HASC_1": "NA",
-        "ISO_1": "NA"
+        "Country": "Yemen",
+        "Name_1": "Amanat Al Asimah",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -15948,17 +15876,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "YEM.10_1",
-        "GID_0": "YEM",
-        "COUNTRY": "Yemen",
-        "NAME_1": "Amran",
-        "VARNAME_1": "'Amran",
-        "NL_NAME_1": "عمران",
-        "TYPE_1": "Muhafazah",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "29",
-        "HASC_1": "YE.AM",
-        "ISO_1": "NA"
+        "Country": "Yemen",
+        "Name_1": "Amran",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -16901,17 +16821,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "YEM.11_1",
-        "GID_0": "YEM",
-        "COUNTRY": "Yemen",
-        "NAME_1": "Dhamar",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "ذمار",
-        "TYPE_1": "Muhafazah",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "20",
-        "HASC_1": "YE.DH",
-        "ISO_1": "YE-DH"
+        "Country": "Yemen",
+        "Name_1": "Dhamar",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -18206,17 +18118,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "YEM.12_1",
-        "GID_0": "YEM",
-        "COUNTRY": "Yemen",
-        "NAME_1": "Hadramawt",
-        "VARNAME_1": "Hadhramaut|Hadhramawt|Hadhramout",
-        "NL_NAME_1": "حضرموت",
-        "TYPE_1": "Muhafazah",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "19",
-        "HASC_1": "YE.HD",
-        "ISO_1": "YE-HD"
+        "Country": "Yemen",
+        "Name_1": "Hadramawt",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -18848,7 +18752,7 @@
                 16.3699
               ],
               [
-                47.0,
+                47,
                 16.95
               ],
               [
@@ -18876,8 +18780,8 @@
                 18.7889
               ],
               [
-                52.0,
-                19.0
+                52,
+                19
               ],
               [
                 51.9103,
@@ -22287,17 +22191,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "YEM.13_1",
-        "GID_0": "YEM",
-        "COUNTRY": "Yemen",
-        "NAME_1": "Hajjah",
-        "VARNAME_1": "Hajja",
-        "NL_NAME_1": "حجه",
-        "TYPE_1": "Muhafazah",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "17",
-        "HASC_1": "YE.HJ",
-        "ISO_1": "YE-HJ"
+        "Country": "Yemen",
+        "Name_1": "Hajjah",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -23792,17 +23688,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "YEM.14_1",
-        "GID_0": "YEM",
-        "COUNTRY": "Yemen",
-        "NAME_1": "Ibb",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "إب",
-        "TYPE_1": "Muhafazah",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "11",
-        "HASC_1": "YE.IB",
-        "ISO_1": "YE-IB"
+        "Country": "Yemen",
+        "Name_1": "Ibb",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -25209,17 +25097,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "YEM.15_1",
-        "GID_0": "YEM",
-        "COUNTRY": "Yemen",
-        "NAME_1": "Lahij",
-        "VARNAME_1": "Laheg|Lahej|Lahj|Tuban",
-        "NL_NAME_1": "لحج",
-        "TYPE_1": "Muhafazah",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "25",
-        "HASC_1": "YE.LA",
-        "ISO_1": "YE-LA"
+        "Country": "Yemen",
+        "Name_1": "Lahij",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -27110,17 +26990,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "YEM.16_1",
-        "GID_0": "YEM",
-        "COUNTRY": "Yemen",
-        "NAME_1": "Ma'rib",
-        "VARNAME_1": "Mareb|Marib",
-        "NL_NAME_1": "مأرب",
-        "TYPE_1": "Muhafazah",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "26",
-        "HASC_1": "YE.MA",
-        "ISO_1": "YE-MA"
+        "Country": "Yemen",
+        "Name_1": "Ma'rib",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -27689,17 +27561,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "YEM.17_1",
-        "GID_0": "YEM",
-        "COUNTRY": "Yemen",
-        "NAME_1": "Raymah",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "ريمة",
-        "TYPE_1": "Muhafazah",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "31",
-        "HASC_1": "NA",
-        "ISO_1": "NA"
+        "Country": "Yemen",
+        "Name_1": "Raymah",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -28166,17 +28030,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "YEM.18_1",
-        "GID_0": "YEM",
-        "COUNTRY": "Yemen",
-        "NAME_1": "Sa`dah",
-        "VARNAME_1": "Sa'ada|Saadah|Sa'da|Saidah|Sa'ad",
-        "NL_NAME_1": "صعدة",
-        "TYPE_1": "Muhafazah",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "22",
-        "HASC_1": "YE.SD",
-        "ISO_1": "NA"
+        "Country": "Yemen",
+        "Name_1": "Sa`dah",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -29063,17 +28919,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "YEM.19_1",
-        "GID_0": "YEM",
-        "COUNTRY": "Yemen",
-        "NAME_1": "San`a'",
-        "VARNAME_1": "Sana'a",
-        "NL_NAME_1": "صنعاء",
-        "TYPE_1": "City",
-        "ENGTYPE_1": "City",
-        "CC_1": "23",
-        "HASC_1": "YE.SN",
-        "ISO_1": "NA"
+        "Country": "Yemen",
+        "Name_1": "San`a'",
+        "Type": "City"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -30522,17 +30370,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "YEM.20_1",
-        "GID_0": "YEM",
-        "COUNTRY": "Yemen",
-        "NAME_1": "Shabwah",
-        "VARNAME_1": "Shabwa|Shibwah|Ataq",
-        "NL_NAME_1": "شبوة",
-        "TYPE_1": "Muhafazah",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "21",
-        "HASC_1": "YE.SH",
-        "ISO_1": "YE-SH"
+        "Country": "Yemen",
+        "Name_1": "Shabwah",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -31995,17 +31835,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "YEM.21_1",
-        "GID_0": "YEM",
-        "COUNTRY": "Yemen",
-        "NAME_1": "Ta`izz",
-        "VARNAME_1": "Taez|Taiz|Taizz",
-        "NL_NAME_1": "تعز",
-        "TYPE_1": "Muhafazah",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "15",
-        "HASC_1": "YE.TA",
-        "ISO_1": "NA"
+        "Country": "Yemen",
+        "Name_1": "Ta`izz",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",

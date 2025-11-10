@@ -11,8 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "KNA",
-        "COUNTRY": "SaintKittsandNevis"
+        "Country": "SaintKittsandNevis",
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",

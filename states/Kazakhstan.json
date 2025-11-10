@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KAZ.1_1",
-        "GID_0": "KAZ",
-        "COUNTRY": "Kazakhstan",
-        "NAME_1": "Almaty",
-        "VARNAME_1": "Alma-Ata|Alma-AtinskayaOblast'|",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Oblasy",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "KZ.AA",
-        "ISO_1": "KZ-ALA"
+        "Country": "Kazakhstan",
+        "Name_1": "Almaty",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3496,17 +3488,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KAZ.2_1",
-        "GID_0": "KAZ",
-        "COUNTRY": "Kazakhstan",
-        "NAME_1": "Aqmola",
-        "VARNAME_1": "Akmolin|Akmolinsk|Tselinograd",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Oblasy",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "KZ.AM",
-        "ISO_1": "NA"
+        "Country": "Kazakhstan",
+        "Name_1": "Aqmola",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4913,17 +4897,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KAZ.3_1",
-        "GID_0": "KAZ",
-        "COUNTRY": "Kazakhstan",
-        "NAME_1": "Aqtöbe",
-        "VARNAME_1": "Aktyubinsk",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Oblasy",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "KZ.AT",
-        "ISO_1": "NA"
+        "Country": "Kazakhstan",
+        "Name_1": "Aqtöbe",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7294,17 +7270,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KAZ.4_1",
-        "GID_0": "KAZ",
-        "COUNTRY": "Kazakhstan",
-        "NAME_1": "Atyrau",
-        "VARNAME_1": "Ateransk|Gur'yev",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Oblasy",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "KZ.AR",
-        "ISO_1": "NA"
+        "Country": "Kazakhstan",
+        "Name_1": "Atyrau",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10681,7 +10649,7 @@
               ],
               [
                 47.0177,
-                48.0
+                48
               ],
               [
                 47.1394,
@@ -12799,17 +12767,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KAZ.5_1",
-        "GID_0": "KAZ",
-        "COUNTRY": "Kazakhstan",
-        "NAME_1": "EastKazakhstan",
-        "VARNAME_1": "ShyghysQazaqstan|Vostochno-Kaza",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Oblasy",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "KZ.EK",
-        "ISO_1": "NA"
+        "Country": "Kazakhstan",
+        "Name_1": "East Kazakhstan",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -12833,11 +12793,11 @@
                 47.0909
               ],
               [
-                83.0,
+                83,
                 47.09
               ],
               [
-                83.0,
+                83,
                 47.0758
               ],
               [
@@ -16736,17 +16696,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KAZ.6_1",
-        "GID_0": "KAZ",
-        "COUNTRY": "Kazakhstan",
-        "NAME_1": "Mangghystau",
-        "VARNAME_1": "Mangistau|Mangyshlak",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Oblasy",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "KZ.MG",
-        "ISO_1": "NA"
+        "Country": "Kazakhstan",
+        "Name_1": "Mangghystau",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -17522,7 +17474,7 @@
                 43.8392
               ],
               [
-                51.0,
+                51,
                 43.902
               ],
               [
@@ -18298,7 +18250,7 @@
                 44.8157
               ],
               [
-                51.0,
+                51,
                 44.8288
               ],
               [
@@ -18406,7 +18358,7 @@
                 44.9826
               ],
               [
-                51.0,
+                51,
                 44.9919
               ],
               [
@@ -19671,7 +19623,7 @@
               ],
               [
                 55.9981,
-                45.0
+                45
               ],
               [
                 56.0006,
@@ -19866,7 +19818,7 @@
                 41.7605
               ],
               [
-                55.0,
+                55,
                 41.7797
               ],
               [
@@ -20686,7 +20638,7 @@
                 44.9784
               ],
               [
-                50.0,
+                50,
                 44.9847
               ],
               [
@@ -21293,17 +21245,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KAZ.7_1",
-        "GID_0": "KAZ",
-        "COUNTRY": "Kazakhstan",
-        "NAME_1": "NorthKazakhstan",
-        "VARNAME_1": "Severo-Kazakhstan|SoltustikQaza",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Oblasy",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "KZ.NK",
-        "ISO_1": "NA"
+        "Country": "Kazakhstan",
+        "Name_1": "North Kazakhstan",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -22171,7 +22115,7 @@
                 55.1922
               ],
               [
-                70.0,
+                70,
                 55.1934
               ],
               [
@@ -24282,17 +24226,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KAZ.8_1",
-        "GID_0": "KAZ",
-        "COUNTRY": "Kazakhstan",
-        "NAME_1": "Pavlodar",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Oblasy",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "KZ.PA",
-        "ISO_1": "NA"
+        "Country": "Kazakhstan",
+        "Name_1": "Pavlodar",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -25815,17 +25751,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KAZ.9_1",
-        "GID_0": "KAZ",
-        "COUNTRY": "Kazakhstan",
-        "NAME_1": "Qaraghandy",
-        "VARNAME_1": "Karaganda|KaragandinskayaOblast",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Oblasy",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "KZ.QG",
-        "ISO_1": "NA"
+        "Country": "Kazakhstan",
+        "Name_1": "Qaraghandy",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -27284,17 +27212,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KAZ.10_1",
-        "GID_0": "KAZ",
-        "COUNTRY": "Kazakhstan",
-        "NAME_1": "Qostanay",
-        "VARNAME_1": "Kustanai|Kustanay",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Oblasy",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "KZ.QS",
-        "ISO_1": "NA"
+        "Country": "Kazakhstan",
+        "Name_1": "Qostanay",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -29826,7 +29746,7 @@
                 54.3112
               ],
               [
-                64.0,
+                64,
                 54.3097
               ],
               [
@@ -30917,17 +30837,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KAZ.11_1",
-        "GID_0": "KAZ",
-        "COUNTRY": "Kazakhstan",
-        "NAME_1": "Qyzylorda",
-        "VARNAME_1": "Kyzyl-Orda|Kzyl-Orda|Kzyl-Ordins",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Oblasy",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "KZ.QO",
-        "ISO_1": "NA"
+        "Country": "Kazakhstan",
+        "Name_1": "Qyzylorda",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -31570,17 +31482,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KAZ.12_1",
-        "GID_0": "KAZ",
-        "COUNTRY": "Kazakhstan",
-        "NAME_1": "SouthKazakhstan",
-        "VARNAME_1": "Chimkent",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Oblasy",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "KZ.SK",
-        "ISO_1": "NA"
+        "Country": "Kazakhstan",
+        "Name_1": "South Kazakhstan",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -32740,7 +32644,7 @@
                 41.2205
               ],
               [
-                67.0,
+                67,
                 41.2278
               ],
               [
@@ -33215,17 +33119,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KAZ.13_1",
-        "GID_0": "KAZ",
-        "COUNTRY": "Kazakhstan",
-        "NAME_1": "WestKazakhstan",
-        "VARNAME_1": "Ural'sk",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Oblasy",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "KZ.WK",
-        "ISO_1": "NA"
+        "Country": "Kazakhstan",
+        "Name_1": "West Kazakhstan",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -34709,7 +34605,7 @@
                 51.6737
               ],
               [
-                52.0,
+                52,
                 51.6616
               ],
               [
@@ -36240,17 +36136,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KAZ.14_1",
-        "GID_0": "KAZ",
-        "COUNTRY": "Kazakhstan",
-        "NAME_1": "Zhambyl",
-        "VARNAME_1": "Dzhambul",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Oblasy",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "KZ.ZM",
-        "ISO_1": "NA"
+        "Country": "Kazakhstan",
+        "Name_1": "Zhambyl",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",

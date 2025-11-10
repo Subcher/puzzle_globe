@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HUN.1_1",
-        "GID_0": "HUN",
-        "COUNTRY": "Hungary",
-        "NAME_1": "Bács-Kiskun",
-        "VARNAME_1": "Bacs-Bodrog-Kiskun",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Megye",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "HU.BK",
-        "ISO_1": "NA"
+        "Country": "Hungary",
+        "Name_1": "Bács- Kiskun",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1440,17 +1432,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HUN.2_1",
-        "GID_0": "HUN",
-        "COUNTRY": "Hungary",
-        "NAME_1": "Baranya",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Megye",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "HU.BA",
-        "ISO_1": "HU-BA"
+        "Country": "Hungary",
+        "Name_1": "Baranya",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2481,17 +2465,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HUN.3_1",
-        "GID_0": "HUN",
-        "COUNTRY": "Hungary",
-        "NAME_1": "Békés",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Megye",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "HU.BE",
-        "ISO_1": "NA"
+        "Country": "Hungary",
+        "Name_1": "Békés",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3958,17 +3934,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HUN.4_1",
-        "GID_0": "HUN",
-        "COUNTRY": "Hungary",
-        "NAME_1": "Borsod-Abaúj-Zemplén",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Megye",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "HU.BZ",
-        "ISO_1": "NA"
+        "Country": "Hungary",
+        "Name_1": "Borsod- Abaúj- Zemplén",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5999,17 +5967,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HUN.6_1",
-        "GID_0": "HUN",
-        "COUNTRY": "Hungary",
-        "NAME_1": "Csongrád",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Megye",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "HU.CS",
-        "ISO_1": "NA"
+        "Country": "Hungary",
+        "Name_1": "Csongrád",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7140,17 +7100,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HUN.7_1",
-        "GID_0": "HUN",
-        "COUNTRY": "Hungary",
-        "NAME_1": "Fejér",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Megye",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "HU.FE",
-        "ISO_1": "NA"
+        "Country": "Hungary",
+        "Name_1": "Fejér",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -8181,17 +8133,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HUN.8_1",
-        "GID_0": "HUN",
-        "COUNTRY": "Hungary",
-        "NAME_1": "Gyor-Moson-Sopron",
-        "VARNAME_1": "Gyor-Sopron",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Megye",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "HU.GS",
-        "ISO_1": "HU-GS"
+        "Country": "Hungary",
+        "Name_1": "Gyor- Moson- Sopron",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9730,17 +9674,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HUN.9_1",
-        "GID_0": "HUN",
-        "COUNTRY": "Hungary",
-        "NAME_1": "Hajdú-Bihar",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Megye",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "HU.HB",
-        "ISO_1": "NA"
+        "Country": "Hungary",
+        "Name_1": "Hajdú- Bihar",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -11251,17 +11187,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HUN.10_1",
-        "GID_0": "HUN",
-        "COUNTRY": "Hungary",
-        "NAME_1": "Heves",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Megye",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "HU.HE",
-        "ISO_1": "HU-HE"
+        "Country": "Hungary",
+        "Name_1": "Heves",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -12376,17 +12304,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HUN.11_1",
-        "GID_0": "HUN",
-        "COUNTRY": "Hungary",
-        "NAME_1": "Jász-Nagykun-Szolnok",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Megye",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "HU.JN",
-        "ISO_1": "NA"
+        "Country": "Hungary",
+        "Name_1": "Jász- Nagykun- Szolnok",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13729,17 +13649,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HUN.12_1",
-        "GID_0": "HUN",
-        "COUNTRY": "Hungary",
-        "NAME_1": "Komárom-Esztergom",
-        "VARNAME_1": "Komarom",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Megye",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "HU.KE",
-        "ISO_1": "NA"
+        "Country": "Hungary",
+        "Name_1": "Komárom- Esztergom",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -14546,17 +14458,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HUN.13_1",
-        "GID_0": "HUN",
-        "COUNTRY": "Hungary",
-        "NAME_1": "Nógrád",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Megye",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "HU.NO",
-        "ISO_1": "NA"
+        "Country": "Hungary",
+        "Name_1": "Nógrád",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -15715,17 +15619,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HUN.14_1",
-        "GID_0": "HUN",
-        "COUNTRY": "Hungary",
-        "NAME_1": "Pest",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Megye",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "HU.PE",
-        "ISO_1": "HU-PE"
+        "Country": "Hungary",
+        "Name_1": "Pest",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -17252,17 +17148,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HUN.15_1",
-        "GID_0": "HUN",
-        "COUNTRY": "Hungary",
-        "NAME_1": "Somogy",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Megye",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "HU.SO",
-        "ISO_1": "HU-SO"
+        "Country": "Hungary",
+        "Name_1": "Somogy",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -18625,17 +18513,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HUN.16_1",
-        "GID_0": "HUN",
-        "COUNTRY": "Hungary",
-        "NAME_1": "Szabolcs-Szatmár-Bereg",
-        "VARNAME_1": "Szabolcs-Szatmár",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Megye",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "HU.SZ",
-        "ISO_1": "NA"
+        "Country": "Hungary",
+        "Name_1": "Szabolcs- Szatmár- Bereg",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -20550,17 +20430,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HUN.17_1",
-        "GID_0": "HUN",
-        "COUNTRY": "Hungary",
-        "NAME_1": "Tolna",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Megye",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "HU.TO",
-        "ISO_1": "HU-TO"
+        "Country": "Hungary",
+        "Name_1": "Tolna",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -21707,17 +21579,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HUN.18_1",
-        "GID_0": "HUN",
-        "COUNTRY": "Hungary",
-        "NAME_1": "Vas",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Megye",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "HU.VA",
-        "ISO_1": "HU-VA"
+        "Country": "Hungary",
+        "Name_1": "Vas",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -23628,17 +23492,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HUN.19_1",
-        "GID_0": "HUN",
-        "COUNTRY": "Hungary",
-        "NAME_1": "Veszprém",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Megye",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "HU.VE",
-        "ISO_1": "NA"
+        "Country": "Hungary",
+        "Name_1": "Veszprém",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -24621,17 +24477,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HUN.20_1",
-        "GID_0": "HUN",
-        "COUNTRY": "Hungary",
-        "NAME_1": "Zala",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Megye",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "HU.ZA",
-        "ISO_1": "HU-ZA"
+        "Country": "Hungary",
+        "Name_1": "Zala",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",

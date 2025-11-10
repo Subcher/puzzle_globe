@@ -11,9 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "ATG",
-        "COUNTRY": "AntiguaandBarbuda",
-	"AREA": 442
+        "Country": "AntiguaandBarbuda",
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",

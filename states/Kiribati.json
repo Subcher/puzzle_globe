@@ -11,8 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "KIR",
-        "COUNTRY": "Kiribati"
+        "Country": "Kiribati",
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3065,7 +3066,7 @@
               ],
               [
                 -157.4267,
-                2.0
+                2
               ],
               [
                 -157.435,

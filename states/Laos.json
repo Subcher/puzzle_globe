@@ -11,8 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "LAO",
-        "COUNTRY": "Laos"
+        "Country": "Laos",
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9892,7 +9893,7 @@
                 22.4449
               ],
               [
-                102.0,
+                102,
                 22.4323
               ],
               [
@@ -10337,7 +10338,7 @@
               ],
               [
                 102.4909,
-                22.0
+                22
               ],
               [
                 102.4916,

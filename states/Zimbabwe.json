@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ZWE.1_1",
-        "GID_0": "ZWE",
-        "COUNTRY": "Zimbabwe",
-        "NAME_1": "Bulawayo",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "City",
-        "ENGTYPE_1": "City",
-        "CC_1": "NA",
-        "HASC_1": "ZW.BU",
-        "ISO_1": "ZW-BU"
+        "Country": "Zimbabwe",
+        "Name_1": "Bulawayo",
+        "Type": "City"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -404,17 +396,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ZWE.2_1",
-        "GID_0": "ZWE",
-        "COUNTRY": "Zimbabwe",
-        "NAME_1": "Harare",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "City",
-        "ENGTYPE_1": "City",
-        "CC_1": "NA",
-        "HASC_1": "ZW.HA",
-        "ISO_1": "ZW-HA"
+        "Country": "Zimbabwe",
+        "Name_1": "Harare",
+        "Type": "City"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -990,7 +974,7 @@
                 -18.0011
               ],
               [
-                31.0,
+                31,
                 -17.9994
               ],
               [
@@ -1113,17 +1097,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ZWE.3_1",
-        "GID_0": "ZWE",
-        "COUNTRY": "Zimbabwe",
-        "NAME_1": "Manicaland",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Province",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "ZW.MA",
-        "ISO_1": "ZW-MA"
+        "Country": "Zimbabwe",
+        "Name_1": "Manicaland",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1600,7 +1576,7 @@
               ],
               [
                 32.3406,
-                -20.0
+                -20
               ],
               [
                 32.335,
@@ -5418,17 +5394,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ZWE.4_1",
-        "GID_0": "ZWE",
-        "COUNTRY": "Zimbabwe",
-        "NAME_1": "MashonalandCentral",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Province",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "ZW.MC",
-        "ISO_1": "ZW-MC"
+        "Country": "Zimbabwe",
+        "Name_1": "Mashonaland Central",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6745,7 +6713,7 @@
               ],
               [
                 30.058,
-                -16.0
+                -16
               ],
               [
                 30.0553,
@@ -6869,11 +6837,11 @@
               ],
               [
                 30.6542,
-                -16.0
+                -16
               ],
               [
                 30.921,
-                -16.0
+                -16
               ],
               [
                 30.9499,
@@ -6941,7 +6909,7 @@
               ],
               [
                 31.0643,
-                -16.0
+                -16
               ],
               [
                 31.0665,
@@ -8595,17 +8563,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ZWE.5_1",
-        "GID_0": "ZWE",
-        "COUNTRY": "Zimbabwe",
-        "NAME_1": "MashonalandEast",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Province",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "ZW.ME",
-        "ISO_1": "ZW-ME"
+        "Country": "Zimbabwe",
+        "Name_1": "Mashonaland East",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9425,7 +9385,7 @@
                 -17.9977
               ],
               [
-                31.0,
+                31,
                 -17.9994
               ],
               [
@@ -12796,17 +12756,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ZWE.6_1",
-        "GID_0": "ZWE",
-        "COUNTRY": "Zimbabwe",
-        "NAME_1": "MashonalandWest",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Province",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "ZW.MW",
-        "ISO_1": "ZW-MW"
+        "Country": "Zimbabwe",
+        "Name_1": "Mashonaland West",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -15775,7 +15727,7 @@
               ],
               [
                 30.058,
-                -16.0
+                -16
               ],
               [
                 30.0612,
@@ -17621,17 +17573,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ZWE.7_1",
-        "GID_0": "ZWE",
-        "COUNTRY": "Zimbabwe",
-        "NAME_1": "Masvingo",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Province",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "ZW.MV",
-        "ISO_1": "ZW-MV"
+        "Country": "Zimbabwe",
+        "Name_1": "Masvingo",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -20484,7 +20428,7 @@
               ],
               [
                 32.3406,
-                -20.0
+                -20
               ],
               [
                 32.3401,
@@ -21046,17 +20990,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ZWE.8_1",
-        "GID_0": "ZWE",
-        "COUNTRY": "Zimbabwe",
-        "NAME_1": "MatabelelandNorth",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Province",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "ZW.MN",
-        "ISO_1": "ZW-MN"
+        "Country": "Zimbabwe",
+        "Name_1": "Matabeleland North",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -25287,17 +25223,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ZWE.9_1",
-        "GID_0": "ZWE",
-        "COUNTRY": "Zimbabwe",
-        "NAME_1": "MatabelelandSouth",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Province",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "ZW.MS",
-        "ISO_1": "ZW-MS"
+        "Country": "Zimbabwe",
+        "Name_1": "Matabeleland South",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -29644,17 +29572,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ZWE.10_1",
-        "GID_0": "ZWE",
-        "COUNTRY": "Zimbabwe",
-        "NAME_1": "Midlands",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Province",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "ZW.MI",
-        "ISO_1": "ZW-MI"
+        "Country": "Zimbabwe",
+        "Name_1": "Midlands",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",

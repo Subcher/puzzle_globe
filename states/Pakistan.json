@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "Z06.1_1",
-        "GID_0": "Z06",
-        "COUNTRY": "Pakistan",
-        "NAME_1": "AzadKashmir",
-        "VARNAME_1": "Kashmir",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "CentrallyAdministeredArea",
-        "ENGTYPE_1": "CentrallyAdministeredArea",
-        "CC_1": "NA",
-        "HASC_1": "PK.JK",
-        "ISO_1": "NA"
+        "Country": "Pakistan",
+        "Name_1": "Azad Kashmir",
+        "Type": "CentrallyAdministeredArea"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1141,7 +1133,7 @@
                 34.7099
               ],
               [
-                74.0,
+                74,
                 34.7082
               ],
               [
@@ -1265,7 +1257,7 @@
                 34.0328
               ],
               [
-                74.0,
+                74,
                 34.0302
               ],
               [
@@ -1385,7 +1377,7 @@
                 33.776
               ],
               [
-                74.0,
+                74,
                 33.7526
               ],
               [
@@ -1401,7 +1393,7 @@
                 33.6936
               ],
               [
-                74.0,
+                74,
                 33.6237
               ],
               [
@@ -1824,17 +1816,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PAK.2_1",
-        "GID_0": "PAK",
-        "COUNTRY": "Pakistan",
-        "NAME_1": "Balochistan",
-        "VARNAME_1": "Baluchistan|BéloutchistanBeluchi",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Province",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "PK.BA",
-        "ISO_1": "PK-BA"
+        "Country": "Pakistan",
+        "Name_1": "Balochistan",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10533,17 +10517,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PAK.3_1",
-        "GID_0": "PAK",
-        "COUNTRY": "Pakistan",
-        "NAME_1": "FederallyAdministeredTribalAr",
-        "VARNAME_1": "F.A.T.A.",
-        "NL_NAME_1": "F.A.T.A.",
-        "TYPE_1": "Territory",
-        "ENGTYPE_1": "Territory",
-        "CC_1": "NA",
-        "HASC_1": "PK.TA",
-        "ISO_1": "NA"
+        "Country": "Pakistan",
+        "Name_1": "Federally Administered Tribal Ar",
+        "Type": "Territory"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13070,17 +13046,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "Z06.6_1",
-        "GID_0": "Z06",
-        "COUNTRY": "Pakistan",
-        "NAME_1": "Gilgit-Baltistan",
-        "VARNAME_1": "NorthernAreas",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "CentrallyAdministeredArea",
-        "ENGTYPE_1": "CentrallyAdministeredArea",
-        "CC_1": "NA",
-        "HASC_1": "PK.NA",
-        "ISO_1": "NA"
+        "Country": "Pakistan",
+        "Name_1": "Gilgit- Baltistan",
+        "Type": "CentrallyAdministeredArea"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -14557,7 +14525,7 @@
               ],
               [
                 75.1637,
-                37.0
+                37
               ],
               [
                 75.1662,
@@ -15887,17 +15855,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PAK.4_1",
-        "GID_0": "PAK",
-        "COUNTRY": "Pakistan",
-        "NAME_1": "Islamabad",
-        "VARNAME_1": "F.C.T.|FederalCapitalTerritory",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "CapitalTerritory",
-        "ENGTYPE_1": "CapitalTerritory",
-        "CC_1": "NA",
-        "HASC_1": "PK.IS",
-        "ISO_1": "PK-IS"
+        "Country": "Pakistan",
+        "Name_1": "Islamabad",
+        "Type": "CapitalTerritory"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -16112,17 +16072,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PAK.5_1",
-        "GID_0": "PAK",
-        "COUNTRY": "Pakistan",
-        "NAME_1": "Khyber-Pakhtunkhwa",
-        "VARNAME_1": "N.W.F.P.|North-WestFrontierPro",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Province",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "PK.NW",
-        "ISO_1": "NA"
+        "Country": "Pakistan",
+        "Name_1": "Khyber- Pakhtunkhwa",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -20057,17 +20009,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PAK.7_1",
-        "GID_0": "PAK",
-        "COUNTRY": "Pakistan",
-        "NAME_1": "Punjab",
-        "VARNAME_1": "Pendjab|Penjab",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Province",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "PK.PB",
-        "ISO_1": "PK-PB"
+        "Country": "Pakistan",
+        "Name_1": "Punjab",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -22547,7 +22491,7 @@
                 32.4496
               ],
               [
-                75.0,
+                75,
                 32.4591
               ],
               [
@@ -24427,7 +24371,7 @@
                 29.1682
               ],
               [
-                73.0,
+                73,
                 29.1474
               ],
               [
@@ -24706,17 +24650,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PAK.8_1",
-        "GID_0": "PAK",
-        "COUNTRY": "Pakistan",
-        "NAME_1": "Sindh",
-        "VARNAME_1": "Sind",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Province",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "PK.SD",
-        "ISO_1": "PK-SD"
+        "Country": "Pakistan",
+        "Name_1": "Sindh",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -40685,7 +40621,7 @@
               ],
               [
                 68.7509,
-                24.0
+                24
               ],
               [
                 68.7492,

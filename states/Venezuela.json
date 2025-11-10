@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VEN.1_1",
-        "GID_0": "VEN",
-        "COUNTRY": "Venezuela",
-        "NAME_1": "Amazonas",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "VE-Z"
+        "Country": "Venezuela",
+        "Name_1": "Amazonas",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4740,17 +4732,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VEN.2_1",
-        "GID_0": "VEN",
-        "COUNTRY": "Venezuela",
-        "NAME_1": "Anzoátegui",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "NA"
+        "Country": "Venezuela",
+        "Name_1": "Anzoátegui",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -8613,17 +8597,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VEN.3_1",
-        "GID_0": "VEN",
-        "COUNTRY": "Venezuela",
-        "NAME_1": "Apure",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "VE-C"
+        "Country": "Venezuela",
+        "Name_1": "Apure",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9392,7 +9368,7 @@
               ],
               [
                 -70.9799,
-                7.0
+                7
               ],
               [
                 -70.9849,
@@ -12542,17 +12518,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VEN.4_1",
-        "GID_0": "VEN",
-        "COUNTRY": "Venezuela",
-        "NAME_1": "Aragua",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "VE-D"
+        "Country": "Venezuela",
+        "Name_1": "Aragua",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13807,17 +13775,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VEN.5_1",
-        "GID_0": "VEN",
-        "COUNTRY": "Venezuela",
-        "NAME_1": "Barinas",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "VE-E"
+        "Country": "Venezuela",
+        "Name_1": "Barinas",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -15916,17 +15876,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VEN.6_1",
-        "GID_0": "VEN",
-        "COUNTRY": "Venezuela",
-        "NAME_1": "Bolívar",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "NA"
+        "Country": "Venezuela",
+        "Name_1": "Bolívar",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -22361,17 +22313,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VEN.7_1",
-        "GID_0": "VEN",
-        "COUNTRY": "Venezuela",
-        "NAME_1": "Carabobo",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "VE-G"
+        "Country": "Venezuela",
+        "Name_1": "Carabobo",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -23734,17 +23678,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VEN.8_1",
-        "GID_0": "VEN",
-        "COUNTRY": "Venezuela",
-        "NAME_1": "Cojedes",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "VE-H"
+        "Country": "Venezuela",
+        "Name_1": "Cojedes",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -24659,17 +24595,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VEN.9_1",
-        "GID_0": "VEN",
-        "COUNTRY": "Venezuela",
-        "NAME_1": "DeltaAmacuro",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "VE-Y"
+        "Country": "Venezuela",
+        "Name_1": "Delta Amacuro",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -30332,17 +30260,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VEN.10_1",
-        "GID_0": "VEN",
-        "COUNTRY": "Venezuela",
-        "NAME_1": "DependenciasFederales",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "VE.DP",
-        "ISO_1": "NA"
+        "Country": "Venezuela",
+        "Name_1": "Dependencias Federales",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -34669,17 +34589,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VEN.11_1",
-        "GID_0": "VEN",
-        "COUNTRY": "Venezuela",
-        "NAME_1": "DistritoCapital",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "VE-A"
+        "Country": "Venezuela",
+        "Name_1": "Distrito Capital",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -34826,17 +34738,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VEN.12_1",
-        "GID_0": "VEN",
-        "COUNTRY": "Venezuela",
-        "NAME_1": "Falcón",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "NA"
+        "Country": "Venezuela",
+        "Name_1": "Falcón",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -42235,17 +42139,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VEN.13_1",
-        "GID_0": "VEN",
-        "COUNTRY": "Venezuela",
-        "NAME_1": "Guárico",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "NA"
+        "Country": "Venezuela",
+        "Name_1": "Guárico",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -43358,7 +43254,7 @@
               ],
               [
                 -66.5037,
-                10.0
+                10
               ],
               [
                 -66.4788,
@@ -44240,17 +44136,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VEN.14_1",
-        "GID_0": "VEN",
-        "COUNTRY": "Venezuela",
-        "NAME_1": "Lara",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "VE-K"
+        "Country": "Venezuela",
+        "Name_1": "Lara",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -45621,17 +45509,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VEN.15_1",
-        "GID_0": "VEN",
-        "COUNTRY": "Venezuela",
-        "NAME_1": "Mérida",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "NA"
+        "Country": "Venezuela",
+        "Name_1": "Mérida",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -46598,17 +46478,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VEN.16_1",
-        "GID_0": "VEN",
-        "COUNTRY": "Venezuela",
-        "NAME_1": "Miranda",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "VE-M"
+        "Country": "Venezuela",
+        "Name_1": "Miranda",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -47441,7 +47313,7 @@
               ],
               [
                 -66.5037,
-                10.0
+                10
               ],
               [
                 -66.5243,
@@ -47539,17 +47411,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VEN.17_1",
-        "GID_0": "VEN",
-        "COUNTRY": "Venezuela",
-        "NAME_1": "Monagas",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "VE-N"
+        "Country": "Venezuela",
+        "Name_1": "Monagas",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -49404,17 +49268,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VEN.18_1",
-        "GID_0": "VEN",
-        "COUNTRY": "Venezuela",
-        "NAME_1": "NuevaEsparta",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "VE-O"
+        "Country": "Venezuela",
+        "Name_1": "Nueva Esparta",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -51485,17 +51341,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VEN.19_1",
-        "GID_0": "VEN",
-        "COUNTRY": "Venezuela",
-        "NAME_1": "Portuguesa",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "VE-P"
+        "Country": "Venezuela",
+        "Name_1": "Portuguesa",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -52434,17 +52282,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VEN.20_1",
-        "GID_0": "VEN",
-        "COUNTRY": "Venezuela",
-        "NAME_1": "Sucre",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "VE-R"
+        "Country": "Venezuela",
+        "Name_1": "Sucre",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -59467,17 +59307,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VEN.21_1",
-        "GID_0": "VEN",
-        "COUNTRY": "Venezuela",
-        "NAME_1": "Táchira",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "NA"
+        "Country": "Venezuela",
+        "Name_1": "Táchira",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -61260,17 +61092,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VEN.22_1",
-        "GID_0": "VEN",
-        "COUNTRY": "Venezuela",
-        "NAME_1": "Trujillo",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "VE-T"
+        "Country": "Venezuela",
+        "Name_1": "Trujillo",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -62053,17 +61877,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VEN.23_1",
-        "GID_0": "VEN",
-        "COUNTRY": "Venezuela",
-        "NAME_1": "Vargas",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "NA"
+        "Country": "Venezuela",
+        "Name_1": "Vargas",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -63034,17 +62850,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VEN.24_1",
-        "GID_0": "VEN",
-        "COUNTRY": "Venezuela",
-        "NAME_1": "Yaracuy",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "VE-U"
+        "Country": "Venezuela",
+        "Name_1": "Yaracuy",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -63691,17 +63499,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VEN.25_1",
-        "GID_0": "VEN",
-        "COUNTRY": "Venezuela",
-        "NAME_1": "Zulia",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "VE-V"
+        "Country": "Venezuela",
+        "Name_1": "Zulia",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",

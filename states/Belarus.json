@@ -11,18 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BLR.1_1",
-        "GID_0": "BLR",
-        "COUNTRY": "Belarus",
-        "NAME_1": "Brest",
-        "VARNAME_1": "Брест|BrestskayaVoblasts'|Brèst",
-        "NL_NAME_1": "Брэсцкая",
-        "TYPE_1": "Oblast",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "BY.BR",
-        "ISO_1": "NA",
-        "AREA": 32800
+        "Country": "Belarus",
+        "Name_1": "Brest",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3526,7 +3517,7 @@
                 52.9279
               ],
               [
-                25.0,
+                25,
                 52.9202
               ],
               [
@@ -4977,18 +4968,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BLR.2_1",
-        "GID_0": "BLR",
-        "COUNTRY": "Belarus",
-        "NAME_1": "Gomel",
-        "VARNAME_1": "Гомель|Homyel'skayaVoblasts'|Ho",
-        "NL_NAME_1": "Гомельская",
-        "TYPE_1": "Oblast",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "BY.HO",
-        "ISO_1": "NA",
-        "AREA": 40400
+        "Country": "Belarus",
+        "Name_1": "Gomel",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9539,18 +9521,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BLR.3_1",
-        "GID_0": "BLR",
-        "COUNTRY": "Belarus",
-        "NAME_1": "Grodno",
-        "VARNAME_1": "Гродно|HrodzenskayaVoblasts'",
-        "NL_NAME_1": "Гродзенская",
-        "TYPE_1": "Oblast",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "BY.HR",
-        "ISO_1": "NA",
-        "AREA": 25100
+        "Country": "Belarus",
+        "Name_1": "Grodno",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -15370,7 +15343,7 @@
                 52.902
               ],
               [
-                25.0,
+                25,
                 52.9202
               ],
               [
@@ -15585,18 +15558,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BLR.5_1",
-        "GID_0": "BLR",
-        "COUNTRY": "Belarus",
-        "NAME_1": "Minsk",
-        "VARNAME_1": "Минск|МинскаяОбласть|MinskObla",
-        "NL_NAME_1": "Мінская",
-        "TYPE_1": "Oblast",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "BY.MI",
-        "ISO_1": "NA",
-        "AREA": 39900
+        "Country": "Belarus",
+        "Name_1": "Minsk",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -18592,7 +18556,7 @@
                 54.5854
               ],
               [
-                29.0,
+                29,
                 54.5771
               ],
               [
@@ -21535,18 +21499,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BLR.4_1",
-        "GID_0": "BLR",
-        "COUNTRY": "Belarus",
-        "NAME_1": "Mogilev",
-        "VARNAME_1": "Могилёв|Mahiljow|MahilyowskayaV",
-        "NL_NAME_1": "Магілёўская",
-        "TYPE_1": "Oblast",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "BY.MA",
-        "ISO_1": "NA",
-        "AREA": 29100
+        "Country": "Belarus",
+        "Name_1": "Mogilev",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -27293,18 +27248,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BLR.6_1",
-        "GID_0": "BLR",
-        "COUNTRY": "Belarus",
-        "NAME_1": "Vitebsk",
-        "VARNAME_1": "Витебск|Vitsyebsk|Vicebsk|Vitebs",
-        "NL_NAME_1": "Вiцебская",
-        "TYPE_1": "Oblast",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "BY.VI",
-        "ISO_1": "NA",
-        "AREA": 40100
+        "Country": "Belarus",
+        "Name_1": "Vitebsk",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -27888,7 +27834,7 @@
                 54.5742
               ],
               [
-                29.0,
+                29,
                 54.5771
               ],
               [

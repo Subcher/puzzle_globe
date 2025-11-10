@@ -11,9 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "BDI",
-        "COUNTRY": "Burundi",
-        "AREA": 27834
+        "Country": "Burundi",
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",

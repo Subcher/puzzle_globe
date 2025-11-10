@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ISL.1_1",
-        "GID_0": "ISL",
-        "COUNTRY": "Iceland",
-        "NAME_1": "Austurland",
-        "VARNAME_1": "Eastland",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Landsvæði",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "IS.AL",
-        "ISO_1": "IS-7"
+        "Country": "Iceland",
+        "Name_1": "Austurland",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4110,11 +4102,11 @@
               ],
               [
                 -16.3125,
-                64.0
+                64
               ],
               [
                 -16.3333,
-                64.0
+                64
               ],
               [
                 -16.3479,
@@ -10092,17 +10084,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ISL.3_1",
-        "GID_0": "ISL",
-        "COUNTRY": "Iceland",
-        "NAME_1": "Höfuðborgarsvæði",
-        "VARNAME_1": "Capital|ReykjavikandReykjane",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Landsvæði",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "IS.HO",
-        "ISO_1": "NA"
+        "Country": "Iceland",
+        "Name_1": "Höfuðborgarsvæði",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -12145,17 +12129,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ISL.2_1",
-        "GID_0": "ISL",
-        "COUNTRY": "Iceland",
-        "NAME_1": "Norðurlandeystra",
-        "VARNAME_1": "NorthlandEast|Hálshreppur",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Landsvæði",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "IS.NE",
-        "ISO_1": "NA"
+        "Country": "Iceland",
+        "Name_1": "Norðurlandeystra",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -17195,7 +17171,7 @@
                 66.5104
               ],
               [
-                -16.0,
+                -16,
                 66.5083
               ],
               [
@@ -20030,17 +20006,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ISL.4_1",
-        "GID_0": "ISL",
-        "COUNTRY": "Iceland",
-        "NAME_1": "Norðurlandvestra",
-        "VARNAME_1": "NorthlandWest",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Landsvæði",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "IS.NV",
-        "ISO_1": "NA"
+        "Country": "Iceland",
+        "Name_1": "Norðurlandvestra",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -25083,17 +25051,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ISL.5_1",
-        "GID_0": "ISL",
-        "COUNTRY": "Iceland",
-        "NAME_1": "Suðurland",
-        "VARNAME_1": "Southland|South",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Landsvæði",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "IS.SL",
-        "ISO_1": "NA"
+        "Country": "Iceland",
+        "Name_1": "Suðurland",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -25537,7 +25497,7 @@
                 63.4167
               ],
               [
-                -19.0,
+                -19,
                 63.4167
               ],
               [
@@ -28752,17 +28712,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ISL.6_1",
-        "GID_0": "ISL",
-        "COUNTRY": "Iceland",
-        "NAME_1": "Suðurnes",
-        "VARNAME_1": "SouthernPeninsula",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Kaupstadir",
-        "ENGTYPE_1": "IndependentTown",
-        "CC_1": "NA",
-        "HASC_1": "IS.SU",
-        "ISO_1": "NA"
+        "Country": "Iceland",
+        "Name_1": "Suðurnes",
+        "Type": "IndependentTown"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -29111,7 +29063,7 @@
               ],
               [
                 -22.7313,
-                64.0
+                64
               ],
               [
                 -22.7271,
@@ -29119,11 +29071,11 @@
               ],
               [
                 -22.7229,
-                64.0
+                64
               ],
               [
                 -22.7187,
-                64.0
+                64
               ],
               [
                 -22.7089,
@@ -30381,17 +30333,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ISL.7_1",
-        "GID_0": "ISL",
-        "COUNTRY": "Iceland",
-        "NAME_1": "Vestfirðir",
-        "VARNAME_1": "WesternFjords|WesternPeninsula",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Landsvæði",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "IS.VF",
-        "ISO_1": "NA"
+        "Country": "Iceland",
+        "Name_1": "Vestfirðir",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -34167,7 +34111,7 @@
                 65.4625
               ],
               [
-                -24.0,
+                -24,
                 65.4625
               ],
               [
@@ -34815,7 +34759,7 @@
                 65.5583
               ],
               [
-                -24.0,
+                -24,
                 65.5583
               ],
               [
@@ -35087,7 +35031,7 @@
                 65.5958
               ],
               [
-                -24.0,
+                -24,
                 65.5958
               ],
               [
@@ -38996,7 +38940,7 @@
               ],
               [
                 -23.0354,
-                66.0
+                66
               ],
               [
                 -23.0411,
@@ -39140,7 +39084,7 @@
               ],
               [
                 -22.9708,
-                66.0
+                66
               ],
               [
                 -22.9651,
@@ -39324,7 +39268,7 @@
               ],
               [
                 -22.8979,
-                66.0
+                66
               ],
               [
                 -22.8859,
@@ -39676,7 +39620,7 @@
               ],
               [
                 -22.8312,
-                66.0
+                66
               ],
               [
                 -22.8266,
@@ -42855,7 +42799,7 @@
                 66.3542
               ],
               [
-                -23.0,
+                -23,
                 66.3542
               ],
               [
@@ -42907,7 +42851,7 @@
                 66.3734
               ],
               [
-                -23.0,
+                -23,
                 66.375
               ],
               [
@@ -43127,7 +43071,7 @@
                 66.4313
               ],
               [
-                -23.0,
+                -23,
                 66.4313
               ],
               [
@@ -49642,17 +49586,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ISL.8_1",
-        "GID_0": "ISL",
-        "COUNTRY": "Iceland",
-        "NAME_1": "Vesturland",
-        "VARNAME_1": "Westland|West",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Landsvæði",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "IS.VL",
-        "ISO_1": "IS-3"
+        "Country": "Iceland",
+        "Name_1": "Vesturland",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -49788,7 +49724,7 @@
                 64.2979
               ],
               [
-                -22.0,
+                -22,
                 64.3021
               ],
               [
@@ -52588,7 +52524,7 @@
                 64.8812
               ],
               [
-                -24.0,
+                -24,
                 64.8812
               ],
               [
@@ -53301,7 +53237,7 @@
               ],
               [
                 -23.0937,
-                65.0
+                65
               ],
               [
                 -23.0995,

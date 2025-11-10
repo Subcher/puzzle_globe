@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HRV.1_1",
-        "GID_0": "HRV",
-        "COUNTRY": "Croatia",
-        "NAME_1": "Bjelovarska-Bilogorska",
-        "VARNAME_1": "Bjelovar-Bilagora",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Županija",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "HR.BB",
-        "ISO_1": "NA"
+        "Country": "Croatia",
+        "Name_1": "Bjelovarska- Bilogorska",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1160,17 +1152,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HRV.2_1",
-        "GID_0": "HRV",
-        "COUNTRY": "Croatia",
-        "NAME_1": "Brodsko-Posavska",
-        "VARNAME_1": "SlavonskiBrod-Posavina",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Županija",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "HR.SP",
-        "ISO_1": "NA"
+        "Country": "Croatia",
+        "Name_1": "Brodsko- Posavska",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2205,17 +2189,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HRV.3_1",
-        "GID_0": "HRV",
-        "COUNTRY": "Croatia",
-        "NAME_1": "Dubrovacko-Neretvanska",
-        "VARNAME_1": "Dubrovnik-Neretva",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Županija",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "HR.DN",
-        "ISO_1": "NA"
+        "Country": "Croatia",
+        "Name_1": "Dubrovacko- Neretvanska",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -11318,17 +11294,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HRV.4_1",
-        "GID_0": "HRV",
-        "COUNTRY": "Croatia",
-        "NAME_1": "GradZagreb",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Grad",
-        "ENGTYPE_1": "City",
-        "CC_1": "NA",
-        "HASC_1": "HR.GZ",
-        "ISO_1": "HR-21"
+        "Country": "Croatia",
+        "Name_1": "Grad Zagreb",
+        "Type": "City"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -12083,17 +12051,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HRV.5_1",
-        "GID_0": "HRV",
-        "COUNTRY": "Croatia",
-        "NAME_1": "Istarska",
-        "VARNAME_1": "Istra",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Županija",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "HR.IS",
-        "ISO_1": "NA"
+        "Country": "Croatia",
+        "Name_1": "Istarska",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13965,7 +13925,7 @@
                 45.464
               ],
               [
-                14.0,
+                14,
                 45.4719
               ],
               [
@@ -16704,17 +16664,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HRV.6_1",
-        "GID_0": "HRV",
-        "COUNTRY": "Croatia",
-        "NAME_1": "Karlovacka",
-        "VARNAME_1": "Karlovac",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Županija",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "HR.KA",
-        "ISO_1": "NA"
+        "Country": "Croatia",
+        "Name_1": "Karlovacka",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -17977,17 +17929,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HRV.7_1",
-        "GID_0": "HRV",
-        "COUNTRY": "Croatia",
-        "NAME_1": "Koprivničko-Križevačka",
-        "VARNAME_1": "Koprivnica-Križevci",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Županija",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "HR.KK",
-        "ISO_1": "NA"
+        "Country": "Croatia",
+        "Name_1": "Koprivničko- Križevačka",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -19142,17 +19086,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HRV.8_1",
-        "GID_0": "HRV",
-        "COUNTRY": "Croatia",
-        "NAME_1": "Krapinsko-Zagorska",
-        "VARNAME_1": "Krapina-Zagorje",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Županija",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "HR.KZ",
-        "ISO_1": "NA"
+        "Country": "Croatia",
+        "Name_1": "Krapinsko- Zagorska",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -19763,17 +19699,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HRV.9_1",
-        "GID_0": "HRV",
-        "COUNTRY": "Croatia",
-        "NAME_1": "Licko-Senjska",
-        "VARNAME_1": "Lika-Senj",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Županija",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "HR.LS",
-        "ISO_1": "NA"
+        "Country": "Croatia",
+        "Name_1": "Licko- Senjska",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -22188,17 +22116,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HRV.10_1",
-        "GID_0": "HRV",
-        "COUNTRY": "Croatia",
-        "NAME_1": "Medimurska",
-        "VARNAME_1": "Medimurje",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Županija",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "HR.ME",
-        "ISO_1": "NA"
+        "Country": "Croatia",
+        "Name_1": "Medimurska",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -22829,17 +22749,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HRV.11_1",
-        "GID_0": "HRV",
-        "COUNTRY": "Croatia",
-        "NAME_1": "Osjecko-Baranjska",
-        "VARNAME_1": "Osijek-Baranja",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Županija",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "HR.OB",
-        "ISO_1": "NA"
+        "Country": "Croatia",
+        "Name_1": "Osjecko- Baranjska",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -23982,17 +23894,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HRV.12_1",
-        "GID_0": "HRV",
-        "COUNTRY": "Croatia",
-        "NAME_1": "Požeško-Slavonska",
-        "VARNAME_1": "Požega-Slavonija",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Županija",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "HR.PS",
-        "ISO_1": "NA"
+        "Country": "Croatia",
+        "Name_1": "Požeško- Slavonska",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -24931,17 +24835,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HRV.13_1",
-        "GID_0": "HRV",
-        "COUNTRY": "Croatia",
-        "NAME_1": "Primorsko-Goranska",
-        "VARNAME_1": "Primorje-GorskiKotar",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Županija",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "HR.PG",
-        "ISO_1": "NA"
+        "Country": "Croatia",
+        "Name_1": "Primorsko- Goranska",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -33516,17 +33412,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HRV.14_1",
-        "GID_0": "HRV",
-        "COUNTRY": "Croatia",
-        "NAME_1": "Šibensko-Kninska",
-        "VARNAME_1": "Šibenik",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Županija",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "HR.SB",
-        "ISO_1": "NA"
+        "Country": "Croatia",
+        "Name_1": "Šibensko- Kninska",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -38985,17 +38873,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HRV.15_1",
-        "GID_0": "HRV",
-        "COUNTRY": "Croatia",
-        "NAME_1": "Sisacko-Moslavacka",
-        "VARNAME_1": "Sisak-Moslavina",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Županija",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "HR.SM",
-        "ISO_1": "NA"
+        "Country": "Croatia",
+        "Name_1": "Sisacko- Moslavacka",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -40410,17 +40290,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HRV.16_1",
-        "GID_0": "HRV",
-        "COUNTRY": "Croatia",
-        "NAME_1": "Splitsko-Dalmatinska",
-        "VARNAME_1": "Split-Dalmacia",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Županija",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "HR.SD",
-        "ISO_1": "NA"
+        "Country": "Croatia",
+        "Name_1": "Splitsko- Dalmatinska",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -48599,17 +48471,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HRV.17_1",
-        "GID_0": "HRV",
-        "COUNTRY": "Croatia",
-        "NAME_1": "Varaždinska",
-        "VARNAME_1": "Varaždin|Varasd",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Županija",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "HR.VA",
-        "ISO_1": "NA"
+        "Country": "Croatia",
+        "Name_1": "Varaždinska",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -49400,17 +49264,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HRV.18_1",
-        "GID_0": "HRV",
-        "COUNTRY": "Croatia",
-        "NAME_1": "Viroviticko-Podravska",
-        "VARNAME_1": "Virovitica-Podravina",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Županija",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "HR.VP",
-        "ISO_1": "NA"
+        "Country": "Croatia",
+        "Name_1": "Viroviticko- Podravska",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -50110,7 +49966,7 @@
                 45.7067
               ],
               [
-                18.0,
+                18,
                 45.686
               ],
               [
@@ -50189,17 +50045,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HRV.19_1",
-        "GID_0": "HRV",
-        "COUNTRY": "Croatia",
-        "NAME_1": "Vukovarsko-Srijemska",
-        "VARNAME_1": "Vukovar-Srijem",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Županija",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "HR.VS",
-        "ISO_1": "NA"
+        "Country": "Croatia",
+        "Name_1": "Vukovarsko- Srijemska",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -51082,17 +50930,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HRV.20_1",
-        "GID_0": "HRV",
-        "COUNTRY": "Croatia",
-        "NAME_1": "Zadarska",
-        "VARNAME_1": "Zadar-Knin",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Županija",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "HR.ZD",
-        "ISO_1": "NA"
+        "Country": "Croatia",
+        "Name_1": "Zadarska",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -65623,17 +65463,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "HRV.21_1",
-        "GID_0": "HRV",
-        "COUNTRY": "Croatia",
-        "NAME_1": "Zagrebačka",
-        "VARNAME_1": "Zagreb",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Županija",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "HR.ZG",
-        "ISO_1": "NA"
+        "Country": "Croatia",
+        "Name_1": "Zagrebačka",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",

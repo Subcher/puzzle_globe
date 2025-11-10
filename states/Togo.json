@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TGO.1_1",
-        "GID_0": "TGO",
-        "COUNTRY": "Togo",
-        "NAME_1": "Centre",
-        "VARNAME_1": "RégionCentrale,RégionduCentr",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "TG.CE",
-        "ISO_1": "NA"
+        "Country": "Togo",
+        "Name_1": "Centre",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2040,17 +2032,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TGO.2_1",
-        "GID_0": "TGO",
-        "COUNTRY": "Togo",
-        "NAME_1": "Kara",
-        "VARNAME_1": "RégiondelaKara",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "TG.KA",
-        "ISO_1": "TG-K"
+        "Country": "Togo",
+        "Name_1": "Kara",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3850,7 +3834,7 @@
                 10.2152
               ],
               [
-                1.0,
+                1,
                 10.22
               ],
               [
@@ -4285,17 +4269,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TGO.3_1",
-        "GID_0": "TGO",
-        "COUNTRY": "Togo",
-        "NAME_1": "Maritime",
-        "VARNAME_1": "RégionMaritime",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "TG.MA",
-        "ISO_1": "TG-M"
+        "Country": "Togo",
+        "Name_1": "Maritime",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5510,17 +5486,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TGO.4_1",
-        "GID_0": "TGO",
-        "COUNTRY": "Togo",
-        "NAME_1": "Plateaux",
-        "VARNAME_1": "RégiondesPlateaux",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "TG.PL",
-        "ISO_1": "TG-P"
+        "Country": "Togo",
+        "Name_1": "Plateaux",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7655,17 +7623,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TGO.5_1",
-        "GID_0": "TGO",
-        "COUNTRY": "Togo",
-        "NAME_1": "Savanes",
-        "VARNAME_1": "RégiondesSavanes",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "TG.SA",
-        "ISO_1": "TG-S"
+        "Country": "Togo",
+        "Name_1": "Savanes",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",

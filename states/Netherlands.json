@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NLD.1_1",
-        "GID_0": "NLD",
-        "COUNTRY": "Netherlands",
-        "NAME_1": "Drenthe",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincie",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "NL.DR",
-        "ISO_1": "NL-DR"
+        "Country": "Netherlands",
+        "Name_1": "Drenthe",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -828,17 +820,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NLD.2_1",
-        "GID_0": "NLD",
-        "COUNTRY": "Netherlands",
-        "NAME_1": "Flevoland",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincie",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "NL.FL",
-        "ISO_1": "NL-FL"
+        "Country": "Netherlands",
+        "Name_1": "Flevoland",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1601,17 +1585,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NLD.3_1",
-        "GID_0": "NLD",
-        "COUNTRY": "Netherlands",
-        "NAME_1": "Fryslân",
-        "VARNAME_1": "Friesland",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincie",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "NL.FR",
-        "ISO_1": "NL-FR"
+        "Country": "Netherlands",
+        "Name_1": "Fryslân",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2012,7 +1988,7 @@
               ],
               [
                 5.4018,
-                53.0
+                53
               ],
               [
                 5.4003,
@@ -3666,17 +3642,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NLD.4_1",
-        "GID_0": "NLD",
-        "COUNTRY": "Netherlands",
-        "NAME_1": "Gelderland",
-        "VARNAME_1": "Geldern|Gheldria|Guelders|Gueldr",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincie",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "NL.GE",
-        "ISO_1": "NL-GE"
+        "Country": "Netherlands",
+        "Name_1": "Gelderland",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6015,17 +5983,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NLD.5_1",
-        "GID_0": "NLD",
-        "COUNTRY": "Netherlands",
-        "NAME_1": "Groningen",
-        "VARNAME_1": "Groninga|Groningue",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincie",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "NL.GR",
-        "ISO_1": "NL-GR"
+        "Country": "Netherlands",
+        "Name_1": "Groningen",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7328,17 +7288,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NLD.6_1",
-        "GID_0": "NLD",
-        "COUNTRY": "Netherlands",
-        "NAME_1": "IJsselmeer",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Waterbody",
-        "ENGTYPE_1": "Waterbody",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "NA"
+        "Country": "Netherlands",
+        "Name_1": "I Jsselmeer",
+        "Type": "Waterbody"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -8903,7 +8855,7 @@
               ],
               [
                 5.4018,
-                53.0
+                53
               ],
               [
                 5.4033,
@@ -9653,17 +9605,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NLD.7_1",
-        "GID_0": "NLD",
-        "COUNTRY": "Netherlands",
-        "NAME_1": "Limburg",
-        "VARNAME_1": "Limbourg|Limburgo",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincie",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "NL.LI",
-        "ISO_1": "NL-LI"
+        "Country": "Netherlands",
+        "Name_1": "Limburg",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -11198,17 +11142,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NLD.8_1",
-        "GID_0": "NLD",
-        "COUNTRY": "Netherlands",
-        "NAME_1": "Noord-Brabant",
-        "VARNAME_1": "BrabantedelNorte|BrabantedoN",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincie",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "NL.NB",
-        "ISO_1": "NL-NB"
+        "Country": "Netherlands",
+        "Name_1": "Noord- Brabant",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -12485,17 +12421,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NLD.9_1",
-        "GID_0": "NLD",
-        "COUNTRY": "Netherlands",
-        "NAME_1": "Noord-Holland",
-        "VARNAME_1": "HolandadoNorte|Hollande-septen",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincie",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "NL.NH",
-        "ISO_1": "NL-NH"
+        "Country": "Netherlands",
+        "Name_1": "Noord- Holland",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -14822,17 +14750,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NLD.10_1",
-        "GID_0": "NLD",
-        "COUNTRY": "Netherlands",
-        "NAME_1": "Overijssel",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincie",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "NL.OV",
-        "ISO_1": "NL-OV"
+        "Country": "Netherlands",
+        "Name_1": "Overijssel",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -16423,17 +16343,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NLD.11_1",
-        "GID_0": "NLD",
-        "COUNTRY": "Netherlands",
-        "NAME_1": "Utrecht",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincie",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "NL.UT",
-        "ISO_1": "NL-UT"
+        "Country": "Netherlands",
+        "Name_1": "Utrecht",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -17604,17 +17516,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NLD.12_1",
-        "GID_0": "NLD",
-        "COUNTRY": "Netherlands",
-        "NAME_1": "Zeeland",
-        "VARNAME_1": "Zelanda|Zélande|Zelândia",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincie",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "NL.ZE",
-        "ISO_1": "NL-ZE"
+        "Country": "Netherlands",
+        "Name_1": "Zeeland",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -21139,17 +21043,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NLD.13_1",
-        "GID_0": "NLD",
-        "COUNTRY": "Netherlands",
-        "NAME_1": "Zeeuwsemeren",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Waterbody",
-        "ENGTYPE_1": "Waterbody",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "NA"
+        "Country": "Netherlands",
+        "Name_1": "Zeeuwsemeren",
+        "Type": "Waterbody"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -22952,17 +22848,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NLD.14_1",
-        "GID_0": "NLD",
-        "COUNTRY": "Netherlands",
-        "NAME_1": "NA",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "NA",
-        "ENGTYPE_1": "NA",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "NA"
+        "Country": "Netherlands",
+        "Name_1": "N A",
+        "Type": "NA"
       },
       "geometry": {
         "type": "MultiPolygon",

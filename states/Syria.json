@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SYR.1_1",
-        "GID_0": "SYR",
-        "COUNTRY": "Syria",
-        "NAME_1": "AlḤasakah",
-        "VARNAME_1": "Al-Haska|AlHassake|ElHaseke|Ha",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Muḥāfaẓah",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "NA",
-        "HASC_1": "SY.HA",
-        "ISO_1": "NA"
+        "Country": "Syria",
+        "Name_1": "AlḤasakah",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -860,17 +852,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SYR.2_1",
-        "GID_0": "SYR",
-        "COUNTRY": "Syria",
-        "NAME_1": "Aleppo",
-        "VARNAME_1": "Aleppo|Alep|Alepo|Haleb|Ḥalab",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Muḥāfaẓah",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "NA",
-        "HASC_1": "SY.HL",
-        "ISO_1": "NA"
+        "Country": "Syria",
+        "Name_1": "Aleppo",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2145,17 +2129,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SYR.3_1",
-        "GID_0": "SYR",
-        "COUNTRY": "Syria",
-        "NAME_1": "ArRaqqah",
-        "VARNAME_1": "AlRakka|Raqqa|AlRashid|Rashid",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Muḥāfaẓah",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "NA",
-        "HASC_1": "SY.RA",
-        "ISO_1": "SY-RA"
+        "Country": "Syria",
+        "Name_1": "Ar Raqqah",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2782,17 +2758,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SYR.4_1",
-        "GID_0": "SYR",
-        "COUNTRY": "Syria",
-        "NAME_1": "AsSuwayda'",
-        "VARNAME_1": "DjebelDruze|JabalDruze|JebelD",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Muḥāfaẓah",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "NA",
-        "HASC_1": "SY.SU",
-        "ISO_1": "SY-SU"
+        "Country": "Syria",
+        "Name_1": "As Suwayda'",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3191,17 +3159,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SYR.5_1",
-        "GID_0": "SYR",
-        "COUNTRY": "Syria",
-        "NAME_1": "Damascus",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Muḥāfaẓah",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "NA",
-        "HASC_1": "SY.DI",
-        "ISO_1": "NA"
+        "Country": "Syria",
+        "Name_1": "Damascus",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3256,17 +3216,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SYR.6_1",
-        "GID_0": "SYR",
-        "COUNTRY": "Syria",
-        "NAME_1": "Dar`a",
-        "VARNAME_1": "Dara'a|Dária|Dera`a|Derraa|Haura",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Muḥāfaẓah",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "NA",
-        "HASC_1": "SY.DR",
-        "ISO_1": "NA"
+        "Country": "Syria",
+        "Name_1": "Dar`a",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3993,17 +3945,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SYR.7_1",
-        "GID_0": "SYR",
-        "COUNTRY": "Syria",
-        "NAME_1": "DayrAzZawr",
-        "VARNAME_1": "Dair-Ezzor|DayrazZaur|DeirAl",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Muḥāfaẓah",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "NA",
-        "HASC_1": "SY.DY",
-        "ISO_1": "NA"
+        "Country": "Syria",
+        "Name_1": "Dayr Az Zawr",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4486,17 +4430,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SYR.8_1",
-        "GID_0": "SYR",
-        "COUNTRY": "Syria",
-        "NAME_1": "Hamah",
-        "VARNAME_1": "Hama|Ḥamāh",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Muḥāfaẓah",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "NA",
-        "HASC_1": "SY.HM",
-        "ISO_1": "SY-HM"
+        "Country": "Syria",
+        "Name_1": "Hamah",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5699,17 +5635,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SYR.9_1",
-        "GID_0": "SYR",
-        "COUNTRY": "Syria",
-        "NAME_1": "Hims",
-        "VARNAME_1": "Hims|Homs",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Muḥāfaẓah",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "NA",
-        "HASC_1": "SY.HI",
-        "ISO_1": "SY-HI"
+        "Country": "Syria",
+        "Name_1": "Hims",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7304,17 +7232,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SYR.10_1",
-        "GID_0": "SYR",
-        "COUNTRY": "Syria",
-        "NAME_1": "Idlib",
-        "VARNAME_1": "Adlib|Edleb|Idleb",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Muḥāfaẓah",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "NA",
-        "HASC_1": "SY.ID",
-        "ISO_1": "SY-ID"
+        "Country": "Syria",
+        "Name_1": "Idlib",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -8421,17 +8341,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SYR.11_1",
-        "GID_0": "SYR",
-        "COUNTRY": "Syria",
-        "NAME_1": "Lattakia",
-        "VARNAME_1": "Latakia|AlLadhiqiyah|ElLadhiqi",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Muḥāfaẓah",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "NA",
-        "HASC_1": "SY.LA",
-        "ISO_1": "NA"
+        "Country": "Syria",
+        "Name_1": "Lattakia",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9518,17 +9430,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SYR.12_1",
-        "GID_0": "SYR",
-        "COUNTRY": "Syria",
-        "NAME_1": "Quneitra",
-        "VARNAME_1": "AlQunatirah|AlQunaytirah|AlQu",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Muḥāfaẓah",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "NA",
-        "HASC_1": "SY.QU",
-        "ISO_1": "NA"
+        "Country": "Syria",
+        "Name_1": "Quneitra",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9743,17 +9647,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SYR.13_1",
-        "GID_0": "SYR",
-        "COUNTRY": "Syria",
-        "NAME_1": "RifDimashq",
-        "VARNAME_1": "DamasCampagne|DamascusCountrys",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Muḥāfaẓah",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "NA",
-        "HASC_1": "SY.RD",
-        "ISO_1": "SY-RD"
+        "Country": "Syria",
+        "Name_1": "Rif Dimashq",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -11098,17 +10994,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SYR.14_1",
-        "GID_0": "SYR",
-        "COUNTRY": "Syria",
-        "NAME_1": "Tartus",
-        "VARNAME_1": "Tartaus|Tartous",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Muḥāfaẓah",
-        "ENGTYPE_1": "Governorate",
-        "CC_1": "NA",
-        "HASC_1": "SY.TA",
-        "ISO_1": "SY-TA"
+        "Country": "Syria",
+        "Name_1": "Tartus",
+        "Type": "Governorate"
       },
       "geometry": {
         "type": "MultiPolygon",

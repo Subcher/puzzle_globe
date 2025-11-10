@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ETH.1_1",
-        "GID_0": "ETH",
-        "COUNTRY": "Ethiopia",
-        "NAME_1": "AddisAbeba",
-        "VARNAME_1": "ĀddīsĀbaba|AddisAbaba|Adis-Abe",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Astedader",
-        "ENGTYPE_1": "City",
-        "CC_1": "14",
-        "HASC_1": "ET.AA",
-        "ISO_1": "NA"
+        "Country": "Ethiopia",
+        "Name_1": "Addis Abeba",
+        "Type": "City"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -392,17 +384,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ETH.2_1",
-        "GID_0": "ETH",
-        "COUNTRY": "Ethiopia",
-        "NAME_1": "Afar",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Kilil",
-        "ENGTYPE_1": "State",
-        "CC_1": "02",
-        "HASC_1": "ET.AF",
-        "ISO_1": "ET-AF"
+        "Country": "Ethiopia",
+        "Name_1": "Afar",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2953,17 +2937,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ETH.3_1",
-        "GID_0": "ETH",
-        "COUNTRY": "Ethiopia",
-        "NAME_1": "Amhara",
-        "VARNAME_1": "Amara",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Kilil",
-        "ENGTYPE_1": "State",
-        "CC_1": "03",
-        "HASC_1": "ET.AM",
-        "ISO_1": "NA"
+        "Country": "Ethiopia",
+        "Name_1": "Amhara",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9562,17 +9538,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ETH.4_1",
-        "GID_0": "ETH",
-        "COUNTRY": "Ethiopia",
-        "NAME_1": "Benshangul-Gumaz",
-        "VARNAME_1": "BeneshangulGumu",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Kilil",
-        "ENGTYPE_1": "State",
-        "CC_1": "06",
-        "HASC_1": "ET.BE",
-        "ISO_1": "NA"
+        "Country": "Ethiopia",
+        "Name_1": "Benshangul- Gumaz",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -11987,17 +11955,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ETH.5_1",
-        "GID_0": "ETH",
-        "COUNTRY": "Ethiopia",
-        "NAME_1": "DireDawa",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Astedader",
-        "ENGTYPE_1": "City",
-        "CC_1": "15",
-        "HASC_1": "ET.DD",
-        "ISO_1": "ET-DD"
+        "Country": "Ethiopia",
+        "Name_1": "Dire Dawa",
+        "Type": "City"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -12236,17 +12196,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ETH.6_1",
-        "GID_0": "ETH",
-        "COUNTRY": "Ethiopia",
-        "NAME_1": "GambelaPeoples",
-        "VARNAME_1": "Gambela",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Kilil",
-        "ENGTYPE_1": "State",
-        "CC_1": "12",
-        "HASC_1": "ET.GA",
-        "ISO_1": "NA"
+        "Country": "Ethiopia",
+        "Name_1": "Gambela Peoples",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -14157,17 +14109,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ETH.7_1",
-        "GID_0": "ETH",
-        "COUNTRY": "Ethiopia",
-        "NAME_1": "HarariPeople",
-        "VARNAME_1": "Hareri",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Kilil",
-        "ENGTYPE_1": "State",
-        "CC_1": "13",
-        "HASC_1": "ET.HA",
-        "ISO_1": "NA"
+        "Country": "Ethiopia",
+        "Name_1": "Harari People",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -14326,17 +14270,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ETH.8_1",
-        "GID_0": "ETH",
-        "COUNTRY": "Ethiopia",
-        "NAME_1": "Oromia",
-        "VARNAME_1": "Oromiya",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Kilil",
-        "ENGTYPE_1": "State",
-        "CC_1": "04",
-        "HASC_1": "ET.OR",
-        "ISO_1": "NA"
+        "Country": "Ethiopia",
+        "Name_1": "Oromia",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -23051,17 +22987,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ETH.9_1",
-        "GID_0": "ETH",
-        "COUNTRY": "Ethiopia",
-        "NAME_1": "Somali",
-        "VARNAME_1": "Sumale",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Kilil",
-        "ENGTYPE_1": "State",
-        "CC_1": "05",
-        "HASC_1": "ET.SO",
-        "ISO_1": "NA"
+        "Country": "Ethiopia",
+        "Name_1": "Somali",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -25976,17 +25904,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ETH.10_1",
-        "GID_0": "ETH",
-        "COUNTRY": "Ethiopia",
-        "NAME_1": "SouthernNations,Nationalities",
-        "VARNAME_1": "SNNPR",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Kilil",
-        "ENGTYPE_1": "State",
-        "CC_1": "07",
-        "HASC_1": "ET.SN",
-        "ISO_1": "NA"
+        "Country": "Ethiopia",
+        "Name_1": "Southern Nations, Nationalities",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -29681,17 +29601,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ETH.11_1",
-        "GID_0": "ETH",
-        "COUNTRY": "Ethiopia",
-        "NAME_1": "Tigray",
-        "VARNAME_1": "Tegré|Tigrai|Tigre",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Kilil",
-        "ENGTYPE_1": "State",
-        "CC_1": "01",
-        "HASC_1": "ET.TI",
-        "ISO_1": "ET-TI"
+        "Country": "Ethiopia",
+        "Name_1": "Tigray",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",

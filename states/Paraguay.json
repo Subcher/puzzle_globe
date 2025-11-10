@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PRY.1_1",
-        "GID_0": "PRY",
-        "COUNTRY": "Paraguay",
-        "NAME_1": "AltoParaguay",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "PY.AG",
-        "ISO_1": "PY-16"
+        "Country": "Paraguay",
+        "Name_1": "Alto Paraguay",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1456,17 +1448,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PRY.2_1",
-        "GID_0": "PRY",
-        "COUNTRY": "Paraguay",
-        "NAME_1": "AltoParaná",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "PY.AA",
-        "ISO_1": "NA"
+        "Country": "Paraguay",
+        "Name_1": "Alto Paraná",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2982,7 +2966,7 @@
                 -25.3547
               ],
               [
-                -55.0,
+                -55,
                 -25.3568
               ],
               [
@@ -3190,7 +3174,7 @@
                 -25.2364
               ],
               [
-                -55.0,
+                -55,
                 -25.2328
               ],
               [
@@ -4529,17 +4513,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PRY.3_1",
-        "GID_0": "PRY",
-        "COUNTRY": "Paraguay",
-        "NAME_1": "Amambay",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "PY.AM",
-        "ISO_1": "PY-13"
+        "Country": "Paraguay",
+        "Name_1": "Amambay",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4963,7 +4939,7 @@
                 -23.6424
               ],
               [
-                -56.0,
+                -56,
                 -23.6328
               ],
               [
@@ -6626,17 +6602,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PRY.4_1",
-        "GID_0": "PRY",
-        "COUNTRY": "Paraguay",
-        "NAME_1": "Asunción",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "DistritoCapital",
-        "ENGTYPE_1": "CapitalDistrict",
-        "CC_1": "NA",
-        "HASC_1": "PY.AS",
-        "ISO_1": "NA"
+        "Country": "Paraguay",
+        "Name_1": "Asunción",
+        "Type": "CapitalDistrict"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6827,17 +6795,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PRY.5_1",
-        "GID_0": "PRY",
-        "COUNTRY": "Paraguay",
-        "NAME_1": "Boquerón",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "PY.BQ",
-        "ISO_1": "NA"
+        "Country": "Paraguay",
+        "Name_1": "Boquerón",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -8380,17 +8340,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PRY.6_1",
-        "GID_0": "PRY",
-        "COUNTRY": "Paraguay",
-        "NAME_1": "Caaguazú",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "PY.CG",
-        "ISO_1": "NA"
+        "Country": "Paraguay",
+        "Name_1": "Caaguazú",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9670,7 +9622,7 @@
                 -25.2339
               ],
               [
-                -55.0,
+                -55,
                 -25.2328
               ],
               [
@@ -9878,7 +9830,7 @@
                 -25.3636
               ],
               [
-                -55.0,
+                -55,
                 -25.3568
               ],
               [
@@ -10601,17 +10553,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PRY.7_1",
-        "GID_0": "PRY",
-        "COUNTRY": "Paraguay",
-        "NAME_1": "Caazapá",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "PY.CZ",
-        "ISO_1": "NA"
+        "Country": "Paraguay",
+        "Name_1": "Caazapá",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13178,17 +13122,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PRY.8_1",
-        "GID_0": "PRY",
-        "COUNTRY": "Paraguay",
-        "NAME_1": "Canindeyú",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "PY.CY",
-        "ISO_1": "NA"
+        "Country": "Paraguay",
+        "Name_1": "Canindeyú",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -15223,17 +15159,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PRY.9_1",
-        "GID_0": "PRY",
-        "COUNTRY": "Paraguay",
-        "NAME_1": "Central",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "PY.CE",
-        "ISO_1": "PY-11"
+        "Country": "Paraguay",
+        "Name_1": "Central",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -16696,17 +16624,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PRY.10_1",
-        "GID_0": "PRY",
-        "COUNTRY": "Paraguay",
-        "NAME_1": "Concepción",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "PY.CN",
-        "ISO_1": "NA"
+        "Country": "Paraguay",
+        "Name_1": "Concepción",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -19181,17 +19101,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PRY.11_1",
-        "GID_0": "PRY",
-        "COUNTRY": "Paraguay",
-        "NAME_1": "Cordillera",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "PY.CR",
-        "ISO_1": "PY-3"
+        "Country": "Paraguay",
+        "Name_1": "Cordillera",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -20570,17 +20482,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PRY.12_1",
-        "GID_0": "PRY",
-        "COUNTRY": "Paraguay",
-        "NAME_1": "Guairá",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "PY.GU",
-        "ISO_1": "NA"
+        "Country": "Paraguay",
+        "Name_1": "Guairá",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -21851,17 +21755,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PRY.13_1",
-        "GID_0": "PRY",
-        "COUNTRY": "Paraguay",
-        "NAME_1": "Itapúa",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "PY.IT",
-        "ISO_1": "NA"
+        "Country": "Paraguay",
+        "Name_1": "Itapúa",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -24220,17 +24116,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PRY.14_1",
-        "GID_0": "PRY",
-        "COUNTRY": "Paraguay",
-        "NAME_1": "Misiones",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "PY.MI",
-        "ISO_1": "PY-8"
+        "Country": "Paraguay",
+        "Name_1": "Misiones",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -25918,11 +25806,11 @@
                 -27.5158
               ],
               [
-                -57.0,
+                -57,
                 -27.5106
               ],
               [
-                -57.0,
+                -57,
                 -27.4648
               ],
               [
@@ -25985,17 +25873,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PRY.15_1",
-        "GID_0": "PRY",
-        "COUNTRY": "Paraguay",
-        "NAME_1": "Ñeembucú",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "PY.NE",
-        "ISO_1": "NA"
+        "Country": "Paraguay",
+        "Name_1": "Ñeembucú",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -27754,17 +27634,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PRY.16_1",
-        "GID_0": "PRY",
-        "COUNTRY": "Paraguay",
-        "NAME_1": "Paraguarí",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "PY.PG",
-        "ISO_1": "NA"
+        "Country": "Paraguay",
+        "Name_1": "Paraguarí",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -30259,17 +30131,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PRY.17_1",
-        "GID_0": "PRY",
-        "COUNTRY": "Paraguay",
-        "NAME_1": "PresidenteHayes",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "PY.PH",
-        "ISO_1": "PY-15"
+        "Country": "Paraguay",
+        "Name_1": "Presidente Hayes",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -30286,7 +30150,7 @@
               ],
               [
                 -60.3874,
-                -24.0
+                -24
               ],
               [
                 -60.3905,
@@ -33552,17 +33416,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PRY.18_1",
-        "GID_0": "PRY",
-        "COUNTRY": "Paraguay",
-        "NAME_1": "SanPedro",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Departamento",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "PY.SP",
-        "ISO_1": "PY-2"
+        "Country": "Paraguay",
+        "Name_1": "San Pedro",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",

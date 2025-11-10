@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PAN.1_1",
-        "GID_0": "PAN",
-        "COUNTRY": "Panama",
-        "NAME_1": "BocasdelToro",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "PA.BC",
-        "ISO_1": "PA-1"
+        "Country": "Panama",
+        "Name_1": "Bocasdel Toro",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -8100,17 +8092,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PAN.2_1",
-        "GID_0": "PAN",
-        "COUNTRY": "Panama",
-        "NAME_1": "Chiriquí",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "PA.CH",
-        "ISO_1": "NA"
+        "Country": "Panama",
+        "Name_1": "Chiriquí",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -16923,17 +16907,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PAN.3_1",
-        "GID_0": "PAN",
-        "COUNTRY": "Panama",
-        "NAME_1": "Coclé",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "PA.CC",
-        "ISO_1": "NA"
+        "Country": "Panama",
+        "Name_1": "Coclé",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -18516,17 +18492,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PAN.4_1",
-        "GID_0": "PAN",
-        "COUNTRY": "Panama",
-        "NAME_1": "Colón",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "PA.CL",
-        "ISO_1": "NA"
+        "Country": "Panama",
+        "Name_1": "Colón",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -23349,17 +23317,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PAN.5_1",
-        "GID_0": "PAN",
-        "COUNTRY": "Panama",
-        "NAME_1": "Darién",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "PA.DR",
-        "ISO_1": "NA"
+        "Country": "Panama",
+        "Name_1": "Darién",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -30396,17 +30356,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PAN.6_1",
-        "GID_0": "PAN",
-        "COUNTRY": "Panama",
-        "NAME_1": "Emberá",
-        "VARNAME_1": "Emberá-Wounaan",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "ComarcaIndígena",
-        "ENGTYPE_1": "IndigenousTerritory",
-        "CC_1": "NA",
-        "HASC_1": "PA.EM",
-        "ISO_1": "NA"
+        "Country": "Panama",
+        "Name_1": "Emberá",
+        "Type": "IndigenousTerritory"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -31781,17 +31733,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PAN.7_1",
-        "GID_0": "PAN",
-        "COUNTRY": "Panama",
-        "NAME_1": "Herrera",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "PA.HE",
-        "ISO_1": "PA-6"
+        "Country": "Panama",
+        "Name_1": "Herrera",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -32866,17 +32810,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PAN.8_1",
-        "GID_0": "PAN",
-        "COUNTRY": "Panama",
-        "NAME_1": "KunaYala",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "ComarcaIndígena",
-        "ENGTYPE_1": "IndigenousTerritory",
-        "CC_1": "NA",
-        "HASC_1": "PA.SB",
-        "ISO_1": "NA"
+        "Country": "Panama",
+        "Name_1": "Kuna Yala",
+        "Type": "IndigenousTerritory"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -40319,17 +40255,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PAN.9_1",
-        "GID_0": "PAN",
-        "COUNTRY": "Panama",
-        "NAME_1": "LosSantos",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "PA.LS",
-        "ISO_1": "PA-7"
+        "Country": "Panama",
+        "Name_1": "Los Santos",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -42012,17 +41940,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PAN.10_1",
-        "GID_0": "PAN",
-        "COUNTRY": "Panama",
-        "NAME_1": "NgöbeBuglé",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "ComarcaIndígena",
-        "ENGTYPE_1": "IndigenousTerritory",
-        "CC_1": "NA",
-        "HASC_1": "PA.NB",
-        "ISO_1": "NA"
+        "Country": "Panama",
+        "Name_1": "Ngöbe Buglé",
+        "Type": "IndigenousTerritory"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -46809,17 +46729,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PAN.12_1",
-        "GID_0": "PAN",
-        "COUNTRY": "Panama",
-        "NAME_1": "Panamá",
-        "VARNAME_1": "Panam ",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "PA.PN",
-        "ISO_1": "NA"
+        "Country": "Panama",
+        "Name_1": "Panamá",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -55034,17 +54946,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PAN.11_1",
-        "GID_0": "PAN",
-        "COUNTRY": "Panama",
-        "NAME_1": "PanamáOeste",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "PA.PO",
-        "ISO_1": "NA"
+        "Country": "Panama",
+        "Name_1": "Panamá Oeste",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -57463,17 +57367,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PAN.13_1",
-        "GID_0": "PAN",
-        "COUNTRY": "Panama",
-        "NAME_1": "Veraguas",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "PA.VR",
-        "ISO_1": "PA-9"
+        "Country": "Panama",
+        "Name_1": "Veraguas",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",

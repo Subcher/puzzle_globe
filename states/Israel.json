@@ -11,8 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "ISR",
-        "COUNTRY": "Israel"
+        "Country": "Israel",
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2033,7 +2034,7 @@
               ],
               [
                 34.9989,
-                32.0
+                32
               ],
               [
                 35.0032,

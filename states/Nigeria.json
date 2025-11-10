@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NGA.1_1",
-        "GID_0": "NGA",
-        "COUNTRY": "Nigeria",
-        "NAME_1": "Abia",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NG.AB",
-        "ISO_1": "NG-AB"
+        "Country": "Nigeria",
+        "Name_1": "Abia",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -768,17 +760,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NGA.2_1",
-        "GID_0": "NGA",
-        "COUNTRY": "Nigeria",
-        "NAME_1": "Adamawa",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NG.AD",
-        "ISO_1": "NG-AD"
+        "Country": "Nigeria",
+        "Name_1": "Adamawa",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3449,17 +3433,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NGA.3_1",
-        "GID_0": "NGA",
-        "COUNTRY": "Nigeria",
-        "NAME_1": "AkwaIbom",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NG.AK",
-        "ISO_1": "NG-AK"
+        "Country": "Nigeria",
+        "Name_1": "Akwa Ibom",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5214,17 +5190,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NGA.4_1",
-        "GID_0": "NGA",
-        "COUNTRY": "Nigeria",
-        "NAME_1": "Anambra",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NG.AN",
-        "ISO_1": "NG-AN"
+        "Country": "Nigeria",
+        "Name_1": "Anambra",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5935,17 +5903,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NGA.5_1",
-        "GID_0": "NGA",
-        "COUNTRY": "Nigeria",
-        "NAME_1": "Bauchi",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NG.BA",
-        "ISO_1": "NG-BA"
+        "Country": "Nigeria",
+        "Name_1": "Bauchi",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7244,17 +7204,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NGA.6_1",
-        "GID_0": "NGA",
-        "COUNTRY": "Nigeria",
-        "NAME_1": "Bayelsa",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NG.BY",
-        "ISO_1": "NG-BY"
+        "Country": "Nigeria",
+        "Name_1": "Bayelsa",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -19697,17 +19649,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NGA.7_1",
-        "GID_0": "NGA",
-        "COUNTRY": "Nigeria",
-        "NAME_1": "Benue",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NG.BE",
-        "ISO_1": "NG-BE"
+        "Country": "Nigeria",
+        "Name_1": "Benue",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -20878,17 +20822,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NGA.8_1",
-        "GID_0": "NGA",
-        "COUNTRY": "Nigeria",
-        "NAME_1": "Borno",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NG.BO",
-        "ISO_1": "NG-BO"
+        "Country": "Nigeria",
+        "Name_1": "Borno",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -24071,17 +24007,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NGA.9_1",
-        "GID_0": "NGA",
-        "COUNTRY": "Nigeria",
-        "NAME_1": "CrossRiver",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NG.CR",
-        "ISO_1": "NG-CR"
+        "Country": "Nigeria",
+        "Name_1": "Cross River",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -26092,17 +26020,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NGA.10_1",
-        "GID_0": "NGA",
-        "COUNTRY": "Nigeria",
-        "NAME_1": "Delta",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NG.DE",
-        "ISO_1": "NG-DE"
+        "Country": "Nigeria",
+        "Name_1": "Delta",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -35921,17 +35841,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NGA.11_1",
-        "GID_0": "NGA",
-        "COUNTRY": "Nigeria",
-        "NAME_1": "Ebonyi",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NG.EB",
-        "ISO_1": "NG-EB"
+        "Country": "Nigeria",
+        "Name_1": "Ebonyi",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -36722,17 +36634,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NGA.12_1",
-        "GID_0": "NGA",
-        "COUNTRY": "Nigeria",
-        "NAME_1": "Edo",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NG.ED",
-        "ISO_1": "NG-ED"
+        "Country": "Nigeria",
+        "Name_1": "Edo",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -38343,17 +38247,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NGA.13_1",
-        "GID_0": "NGA",
-        "COUNTRY": "Nigeria",
-        "NAME_1": "Ekiti",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NG.EK",
-        "ISO_1": "NG-EK"
+        "Country": "Nigeria",
+        "Name_1": "Ekiti",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -38956,17 +38852,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NGA.14_1",
-        "GID_0": "NGA",
-        "COUNTRY": "Nigeria",
-        "NAME_1": "Enugu",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NG.EN",
-        "ISO_1": "NG-EN"
+        "Country": "Nigeria",
+        "Name_1": "Enugu",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -39761,17 +39649,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NGA.15_1",
-        "GID_0": "NGA",
-        "COUNTRY": "Nigeria",
-        "NAME_1": "FederalCapitalTerritory",
-        "VARNAME_1": "Abuja",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NG.FC",
-        "ISO_1": "NA"
+        "Country": "Nigeria",
+        "Name_1": "Federal Capital Territory",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -40302,17 +40182,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NGA.16_1",
-        "GID_0": "NGA",
-        "COUNTRY": "Nigeria",
-        "NAME_1": "Gombe",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NG.GO",
-        "ISO_1": "NG-GO"
+        "Country": "Nigeria",
+        "Name_1": "Gombe",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -40795,17 +40667,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NGA.17_1",
-        "GID_0": "NGA",
-        "COUNTRY": "Nigeria",
-        "NAME_1": "Imo",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NG.IM",
-        "ISO_1": "NG-IM"
+        "Country": "Nigeria",
+        "Name_1": "Imo",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -41240,17 +41104,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NGA.18_1",
-        "GID_0": "NGA",
-        "COUNTRY": "Nigeria",
-        "NAME_1": "Jigawa",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NG.JI",
-        "ISO_1": "NG-JI"
+        "Country": "Nigeria",
+        "Name_1": "Jigawa",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -42557,17 +42413,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NGA.19_1",
-        "GID_0": "NGA",
-        "COUNTRY": "Nigeria",
-        "NAME_1": "Kaduna",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NG.KD",
-        "ISO_1": "NG-KD"
+        "Country": "Nigeria",
+        "Name_1": "Kaduna",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -44342,17 +44190,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NGA.20_1",
-        "GID_0": "NGA",
-        "COUNTRY": "Nigeria",
-        "NAME_1": "Kano",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NG.KN",
-        "ISO_1": "NG-KN"
+        "Country": "Nigeria",
+        "Name_1": "Kano",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -45431,17 +45271,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NGA.21_1",
-        "GID_0": "NGA",
-        "COUNTRY": "Nigeria",
-        "NAME_1": "Katsina",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NG.KT",
-        "ISO_1": "NG-KT"
+        "Country": "Nigeria",
+        "Name_1": "Katsina",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -46860,17 +46692,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NGA.22_1",
-        "GID_0": "NGA",
-        "COUNTRY": "Nigeria",
-        "NAME_1": "Kebbi",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NG.KE",
-        "ISO_1": "NG-KE"
+        "Country": "Nigeria",
+        "Name_1": "Kebbi",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -48529,17 +48353,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NGA.23_1",
-        "GID_0": "NGA",
-        "COUNTRY": "Nigeria",
-        "NAME_1": "Kogi",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NG.KO",
-        "ISO_1": "NG-KO"
+        "Country": "Nigeria",
+        "Name_1": "Kogi",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -50314,17 +50130,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NGA.24_1",
-        "GID_0": "NGA",
-        "COUNTRY": "Nigeria",
-        "NAME_1": "Kwara",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NG.KW",
-        "ISO_1": "NG-KW"
+        "Country": "Nigeria",
+        "Name_1": "Kwara",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -52555,17 +52363,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NGA.25_1",
-        "GID_0": "NGA",
-        "COUNTRY": "Nigeria",
-        "NAME_1": "Lagos",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NG.LA",
-        "ISO_1": "NG-LA"
+        "Country": "Nigeria",
+        "Name_1": "Lagos",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -53300,17 +53100,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NGA.26_1",
-        "GID_0": "NGA",
-        "COUNTRY": "Nigeria",
-        "NAME_1": "Nasarawa",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NG.NA",
-        "ISO_1": "NG-NA"
+        "Country": "Nigeria",
+        "Name_1": "Nasarawa",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -54761,17 +54553,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NGA.27_1",
-        "GID_0": "NGA",
-        "COUNTRY": "Nigeria",
-        "NAME_1": "Niger",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NG.NI",
-        "ISO_1": "NG-NI"
+        "Country": "Nigeria",
+        "Name_1": "Niger",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -57110,17 +56894,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NGA.28_1",
-        "GID_0": "NGA",
-        "COUNTRY": "Nigeria",
-        "NAME_1": "Ogun",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NG.OG",
-        "ISO_1": "NG-OG"
+        "Country": "Nigeria",
+        "Name_1": "Ogun",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -59003,17 +58779,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NGA.29_1",
-        "GID_0": "NGA",
-        "COUNTRY": "Nigeria",
-        "NAME_1": "Ondo",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NG.ON",
-        "ISO_1": "NG-ON"
+        "Country": "Nigeria",
+        "Name_1": "Ondo",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -60840,17 +60608,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NGA.30_1",
-        "GID_0": "NGA",
-        "COUNTRY": "Nigeria",
-        "NAME_1": "Osun",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NG.OS",
-        "ISO_1": "NG-OS"
+        "Country": "Nigeria",
+        "Name_1": "Osun",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -61677,17 +61437,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NGA.31_1",
-        "GID_0": "NGA",
-        "COUNTRY": "Nigeria",
-        "NAME_1": "Oyo",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NG.OY",
-        "ISO_1": "NG-OY"
+        "Country": "Nigeria",
+        "Name_1": "Oyo",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -62200,7 +61952,7 @@
               ],
               [
                 2.7073,
-                8.0
+                8
               ],
               [
                 2.7233,
@@ -63330,17 +63082,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NGA.32_1",
-        "GID_0": "NGA",
-        "COUNTRY": "Nigeria",
-        "NAME_1": "Plateau",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NG.PL",
-        "ISO_1": "NG-PL"
+        "Country": "Nigeria",
+        "Name_1": "Plateau",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -64303,17 +64047,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NGA.33_1",
-        "GID_0": "NGA",
-        "COUNTRY": "Nigeria",
-        "NAME_1": "Rivers",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NG.RI",
-        "ISO_1": "NG-RI"
+        "Country": "Nigeria",
+        "Name_1": "Rivers",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -80128,17 +79864,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NGA.34_1",
-        "GID_0": "NGA",
-        "COUNTRY": "Nigeria",
-        "NAME_1": "Sokoto",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NG.SO",
-        "ISO_1": "NG-SO"
+        "Country": "Nigeria",
+        "Name_1": "Sokoto",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -81249,17 +80977,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NGA.35_1",
-        "GID_0": "NGA",
-        "COUNTRY": "Nigeria",
-        "NAME_1": "Taraba",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NG.TA",
-        "ISO_1": "NG-TA"
+        "Country": "Nigeria",
+        "Name_1": "Taraba",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -84094,17 +83814,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NGA.36_1",
-        "GID_0": "NGA",
-        "COUNTRY": "Nigeria",
-        "NAME_1": "Yobe",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NG.YO",
-        "ISO_1": "NG-YO"
+        "Country": "Nigeria",
+        "Name_1": "Yobe",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -85235,17 +84947,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NGA.37_1",
-        "GID_0": "NGA",
-        "COUNTRY": "Nigeria",
-        "NAME_1": "Zamfara",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "NG.ZA",
-        "ISO_1": "NG-ZA"
+        "Country": "Nigeria",
+        "Name_1": "Zamfara",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",

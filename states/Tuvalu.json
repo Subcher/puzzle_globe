@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUV.1_1",
-        "GID_0": "TUV",
-        "COUNTRY": "Tuvalu",
-        "NAME_1": "Funafuti",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "TownCouncil",
-        "ENGTYPE_1": "TownCouncil",
-        "CC_1": "NA",
-        "HASC_1": "TV.FN",
-        "ISO_1": "TV-FUN"
+        "Country": "Tuvalu",
+        "Name_1": "Funafuti",
+        "Type": "TownCouncil"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -500,17 +492,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUV.2_1",
-        "GID_0": "TUV",
-        "COUNTRY": "Tuvalu",
-        "NAME_1": "Nanumanga",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "IslandCouncil",
-        "ENGTYPE_1": "IslandCouncil",
-        "CC_1": "NA",
-        "HASC_1": "TV.NG",
-        "ISO_1": "NA"
+        "Country": "Tuvalu",
+        "Name_1": "Nanumanga",
+        "Type": "IslandCouncil"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -565,17 +549,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUV.3_1",
-        "GID_0": "TUV",
-        "COUNTRY": "Tuvalu",
-        "NAME_1": "Nanumea",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "IslandCouncil",
-        "ENGTYPE_1": "IslandCouncil",
-        "CC_1": "NA",
-        "HASC_1": "TV.NA",
-        "ISO_1": "NA"
+        "Country": "Tuvalu",
+        "Name_1": "Nanumea",
+        "Type": "IslandCouncil"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -678,17 +654,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUV.4_1",
-        "GID_0": "TUV",
-        "COUNTRY": "Tuvalu",
-        "NAME_1": "Niulakita",
-        "VARNAME_1": "LaSolitaria",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "IslandCouncil",
-        "ENGTYPE_1": "IslandCouncil",
-        "CC_1": "NA",
-        "HASC_1": "TV.NK",
-        "ISO_1": "NA"
+        "Country": "Tuvalu",
+        "Name_1": "Niulakita",
+        "Type": "IslandCouncil"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -731,17 +699,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUV.5_1",
-        "GID_0": "TUV",
-        "COUNTRY": "Tuvalu",
-        "NAME_1": "Niutao",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "IslandCouncil",
-        "ENGTYPE_1": "IslandCouncil",
-        "CC_1": "NA",
-        "HASC_1": "TV.NT",
-        "ISO_1": "NA"
+        "Country": "Tuvalu",
+        "Name_1": "Niutao",
+        "Type": "IslandCouncil"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -792,17 +752,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUV.6_1",
-        "GID_0": "TUV",
-        "COUNTRY": "Tuvalu",
-        "NAME_1": "Nui",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "IslandCouncil",
-        "ENGTYPE_1": "IslandCouncil",
-        "CC_1": "NA",
-        "HASC_1": "TV.NU",
-        "ISO_1": "NA"
+        "Country": "Tuvalu",
+        "Name_1": "Nui",
+        "Type": "IslandCouncil"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -973,17 +925,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUV.7_1",
-        "GID_0": "TUV",
-        "COUNTRY": "Tuvalu",
-        "NAME_1": "Nukufetau",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "IslandCouncil",
-        "ENGTYPE_1": "IslandCouncil",
-        "CC_1": "NA",
-        "HASC_1": "TV.NF",
-        "ISO_1": "NA"
+        "Country": "Tuvalu",
+        "Name_1": "Nukufetau",
+        "Type": "IslandCouncil"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1386,17 +1330,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUV.8_1",
-        "GID_0": "TUV",
-        "COUNTRY": "Tuvalu",
-        "NAME_1": "Nukulaelae",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "IslandCouncil",
-        "ENGTYPE_1": "IslandCouncil",
-        "CC_1": "NA",
-        "HASC_1": "TV.NL",
-        "ISO_1": "NA"
+        "Country": "Tuvalu",
+        "Name_1": "Nukulaelae",
+        "Type": "IslandCouncil"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1831,17 +1767,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUV.9_1",
-        "GID_0": "TUV",
-        "COUNTRY": "Tuvalu",
-        "NAME_1": "Vaitupu",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "IslandCouncil",
-        "ENGTYPE_1": "IslandCouncil",
-        "CC_1": "NA",
-        "HASC_1": "TV.VI",
-        "ISO_1": "NA"
+        "Country": "Tuvalu",
+        "Name_1": "Vaitupu",
+        "Type": "IslandCouncil"
       },
       "geometry": {
         "type": "MultiPolygon",

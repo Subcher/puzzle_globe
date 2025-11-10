@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DEU.1_1",
-        "GID_0": "DEU",
-        "COUNTRY": "Germany",
-        "NAME_1": "Baden-Württemberg",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Land",
-        "ENGTYPE_1": "State",
-        "CC_1": "08",
-        "HASC_1": "DE.BW",
-        "ISO_1": "NA"
+        "Country": "Germany",
+        "Name_1": "Baden- Württemberg",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9704,17 +9696,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DEU.2_1",
-        "GID_0": "DEU",
-        "COUNTRY": "Germany",
-        "NAME_1": "Bayern",
-        "VARNAME_1": "Bavaria",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Freistaat",
-        "ENGTYPE_1": "FreeState",
-        "CC_1": "09",
-        "HASC_1": "DE.BY",
-        "ISO_1": "DE-BY"
+        "Country": "Germany",
+        "Name_1": "Bayern",
+        "Type": "FreeState"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -17803,7 +17787,7 @@
               ],
               [
                 9.0412,
-                50.0
+                50
               ],
               [
                 9.0353,
@@ -25178,7 +25162,7 @@
                 47.6258
               ],
               [
-                12.0,
+                12,
                 47.6221
               ],
               [
@@ -25527,17 +25511,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DEU.4_1",
-        "GID_0": "DEU",
-        "COUNTRY": "Germany",
-        "NAME_1": "Brandenburg",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Land",
-        "ENGTYPE_1": "State",
-        "CC_1": "12",
-        "HASC_1": "DE.BR",
-        "ISO_1": "DE-BB"
+        "Country": "Germany",
+        "Name_1": "Brandenburg",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -32684,17 +32660,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DEU.5_1",
-        "GID_0": "DEU",
-        "COUNTRY": "Germany",
-        "NAME_1": "Bremen",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "FreieHansestadt",
-        "ENGTYPE_1": "State",
-        "CC_1": "04",
-        "HASC_1": "DE.HB",
-        "ISO_1": "DE-HB"
+        "Country": "Germany",
+        "Name_1": "Bremen",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -33121,17 +33089,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DEU.6_1",
-        "GID_0": "DEU",
-        "COUNTRY": "Germany",
-        "NAME_1": "Hamburg",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "FreieundHansestadt",
-        "ENGTYPE_1": "State",
-        "CC_1": "02",
-        "HASC_1": "DE.HH",
-        "ISO_1": "DE-HH"
+        "Country": "Germany",
+        "Name_1": "Hamburg",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -34638,17 +34598,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DEU.7_1",
-        "GID_0": "DEU",
-        "COUNTRY": "Germany",
-        "NAME_1": "Hessen",
-        "VARNAME_1": "Hesse",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Land",
-        "ENGTYPE_1": "State",
-        "CC_1": "06",
-        "HASC_1": "DE.HE",
-        "ISO_1": "DE-HE"
+        "Country": "Germany",
+        "Name_1": "Hessen",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -36516,7 +36468,7 @@
                 50.4606
               ],
               [
-                8.0,
+                8,
                 50.4629
               ],
               [
@@ -40109,7 +40061,7 @@
               ],
               [
                 10.1286,
-                51.0
+                51
               ],
               [
                 10.1281,
@@ -42097,7 +42049,7 @@
               ],
               [
                 9.0412,
-                50.0
+                50
               ],
               [
                 9.0485,
@@ -42945,17 +42897,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DEU.8_1",
-        "GID_0": "DEU",
-        "COUNTRY": "Germany",
-        "NAME_1": "Mecklenburg-Vorpommern",
-        "VARNAME_1": "Mecklenburg-WestPomerania",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Land",
-        "ENGTYPE_1": "State",
-        "CC_1": "13",
-        "HASC_1": "DE.MV",
-        "ISO_1": "DE-MV"
+        "Country": "Germany",
+        "Name_1": "Mecklenburg- Vorpommern",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -57070,17 +57014,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DEU.9_1",
-        "GID_0": "DEU",
-        "COUNTRY": "Germany",
-        "NAME_1": "Niedersachsen",
-        "VARNAME_1": "LowerSaxony",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Land",
-        "ENGTYPE_1": "State",
-        "CC_1": "03",
-        "HASC_1": "DE.NI",
-        "ISO_1": "DE-NI"
+        "Country": "Germany",
+        "Name_1": "Niedersachsen",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -67280,7 +67216,7 @@
                 52.3307
               ],
               [
-                11.0,
+                11,
                 52.3297
               ],
               [
@@ -69203,17 +69139,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DEU.10_1",
-        "GID_0": "DEU",
-        "COUNTRY": "Germany",
-        "NAME_1": "Nordrhein-Westfalen",
-        "VARNAME_1": "NorthRhine-Westphalia",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Land",
-        "ENGTYPE_1": "State",
-        "CC_1": "05",
-        "HASC_1": "DE.NW",
-        "ISO_1": "DE-NW"
+        "Country": "Germany",
+        "Name_1": "Nordrhein- Westfalen",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -78080,17 +78008,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DEU.11_1",
-        "GID_0": "DEU",
-        "COUNTRY": "Germany",
-        "NAME_1": "Rheinland-Pfalz",
-        "VARNAME_1": "Rhineland-Palatinate",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Land",
-        "ENGTYPE_1": "State",
-        "CC_1": "07",
-        "HASC_1": "DE.RP",
-        "ISO_1": "DE-RP"
+        "Country": "Germany",
+        "Name_1": "Rheinland- Pfalz",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -82998,7 +82918,7 @@
                 50.4657
               ],
               [
-                8.0,
+                8,
                 50.4629
               ],
               [
@@ -84555,7 +84475,7 @@
               ],
               [
                 8.0649,
-                49.0
+                49
               ],
               [
                 8.0639,
@@ -84877,17 +84797,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DEU.12_1",
-        "GID_0": "DEU",
-        "COUNTRY": "Germany",
-        "NAME_1": "Saarland",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Land",
-        "ENGTYPE_1": "State",
-        "CC_1": "10",
-        "HASC_1": "DE.SL",
-        "ISO_1": "DE-SL"
+        "Country": "Germany",
+        "Name_1": "Saarland",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -87250,17 +87162,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DEU.14_1",
-        "GID_0": "DEU",
-        "COUNTRY": "Germany",
-        "NAME_1": "Sachsen",
-        "VARNAME_1": "Saxony",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Freistaat",
-        "ENGTYPE_1": "State",
-        "CC_1": "14",
-        "HASC_1": "DE.SN",
-        "ISO_1": "DE-SN"
+        "Country": "Germany",
+        "Name_1": "Sachsen",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -93981,7 +93885,7 @@
               ],
               [
                 14.2688,
-                51.0
+                51
               ],
               [
                 14.2585,
@@ -95463,17 +95367,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DEU.13_1",
-        "GID_0": "DEU",
-        "COUNTRY": "Germany",
-        "NAME_1": "Sachsen-Anhalt",
-        "VARNAME_1": "Saxony-Anhalt",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Land",
-        "ENGTYPE_1": "State",
-        "CC_1": "15",
-        "HASC_1": "DE.ST",
-        "ISO_1": "DE-ST"
+        "Country": "Germany",
+        "Name_1": "Sachsen- Anhalt",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -96905,7 +96801,7 @@
                 51.4179
               ],
               [
-                11.0,
+                11,
                 51.4232
               ],
               [
@@ -98081,7 +97977,7 @@
                 52.3275
               ],
               [
-                11.0,
+                11,
                 52.3297
               ],
               [
@@ -102542,17 +102438,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DEU.15_1",
-        "GID_0": "DEU",
-        "COUNTRY": "Germany",
-        "NAME_1": "Schleswig-Holstein",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Land",
-        "ENGTYPE_1": "State",
-        "CC_1": "01",
-        "HASC_1": "DE.SH",
-        "ISO_1": "DE-SH"
+        "Country": "Germany",
+        "Name_1": "Schleswig- Holstein",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -113295,17 +113183,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DEU.16_1",
-        "GID_0": "DEU",
-        "COUNTRY": "Germany",
-        "NAME_1": "Thüringen",
-        "VARNAME_1": "Thuringia",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Freistaat",
-        "ENGTYPE_1": "State",
-        "CC_1": "16",
-        "HASC_1": "DE.TH",
-        "ISO_1": "NA"
+        "Country": "Germany",
+        "Name_1": "Thüringen",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -116018,7 +115898,7 @@
               ],
               [
                 10.1286,
-                51.0
+                51
               ],
               [
                 10.1323,
@@ -117965,7 +117845,7 @@
                 51.424
               ],
               [
-                11.0,
+                11,
                 51.4232
               ],
               [

@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "FRA.1_1",
-        "GID_0": "FRA",
-        "COUNTRY": "France",
-        "NAME_1": "Auvergne-Rhône-Alpes",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "FR.AR",
-        "ISO_1": "NA"
+        "Country": "France",
+        "Name_1": "Auvergne- Rhône- Alpes",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6122,17 +6114,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "FRA.2_1",
-        "GID_0": "FRA",
-        "COUNTRY": "France",
-        "NAME_1": "Bourgogne-Franche-Comté",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "FR.BF",
-        "ISO_1": "NA"
+        "Country": "France",
+        "Name_1": "Bourgogne- Franche- Comté",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9720,7 +9704,7 @@
                 47.4664
               ],
               [
-                7.0,
+                7,
                 47.4643
               ],
               [
@@ -10419,17 +10403,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "FRA.3_1",
-        "GID_0": "FRA",
-        "COUNTRY": "France",
-        "NAME_1": "Bretagne",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "FR.BT",
-        "ISO_1": "FR-BRE"
+        "Country": "France",
+        "Name_1": "Bretagne",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -25506,7 +25482,7 @@
               ],
               [
                 -3.647842084942087,
-                48.667662741312739
+                48.66766274131274
               ],
               [
                 -3.6454,
@@ -33756,7 +33732,7 @@
             [
               [
                 -3.647842084942087,
-                48.667662741312739
+                48.66766274131274
               ],
               [
                 -3.6504,
@@ -33768,7 +33744,7 @@
               ],
               [
                 -3.647842084942087,
-                48.667662741312739
+                48.66766274131274
               ]
             ]
           ],
@@ -34883,7 +34859,7 @@
           [
             [
               [
-                -4.0,
+                -4,
                 48.749
               ],
               [
@@ -34899,7 +34875,7 @@
                 48.751
               ],
               [
-                -4.0,
+                -4,
                 48.749
               ]
             ]
@@ -37510,17 +37486,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "FRA.4_1",
-        "GID_0": "FRA",
-        "COUNTRY": "France",
-        "NAME_1": "Centre-ValdeLoire",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "FR.CN",
-        "ISO_1": "FR-CVL"
+        "Country": "France",
+        "Name_1": "Centre- Valde Loire",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -41275,17 +41243,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "FRA.5_1",
-        "GID_0": "FRA",
-        "COUNTRY": "France",
-        "NAME_1": "Corse",
-        "VARNAME_1": "Corsica",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "FR.CE",
-        "ISO_1": "FR-20R"
+        "Country": "France",
+        "Name_1": "Corse",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -48488,17 +48448,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "FRA.6_1",
-        "GID_0": "FRA",
-        "COUNTRY": "France",
-        "NAME_1": "GrandEst",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "FR.AO",
-        "ISO_1": "NA"
+        "Country": "France",
+        "Name_1": "Grand Est",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -53427,7 +53379,7 @@
               ],
               [
                 8.0649,
-                49.0
+                49
               ],
               [
                 8.0684,
@@ -54149,17 +54101,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "FRA.7_1",
-        "GID_0": "FRA",
-        "COUNTRY": "France",
-        "NAME_1": "Hauts-de-France",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "FR.NC",
-        "ISO_1": "FR-HDF"
+        "Country": "France",
+        "Name_1": "Hauts-de- France",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -56708,7 +56652,7 @@
               ],
               [
                 2.5783,
-                51.0
+                51
               ],
               [
                 2.6065,
@@ -58330,17 +58274,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "FRA.8_1",
-        "GID_0": "FRA",
-        "COUNTRY": "France",
-        "NAME_1": "Île-de-France",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "FR.IF",
-        "ISO_1": "NA"
+        "Country": "France",
+        "Name_1": "Île-de- France",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -60583,17 +60519,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "FRA.9_1",
-        "GID_0": "FRA",
-        "COUNTRY": "France",
-        "NAME_1": "Normandie",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "FR.ND",
-        "ISO_1": "FR-NOR"
+        "Country": "France",
+        "Name_1": "Normandie",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -66848,17 +66776,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "FRA.10_1",
-        "GID_0": "FRA",
-        "COUNTRY": "France",
-        "NAME_1": "Nouvelle-Aquitaine",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "FR.AC",
-        "ISO_1": "FR-NAQ"
+        "Country": "France",
+        "Name_1": "Nouvelle- Aquitaine",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -76877,17 +76797,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "FRA.11_1",
-        "GID_0": "FRA",
-        "COUNTRY": "France",
-        "NAME_1": "Occitanie",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "FR.LP",
-        "ISO_1": "FR-OCC"
+        "Country": "France",
+        "Name_1": "Occitanie",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -84880,17 +84792,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "FRA.12_1",
-        "GID_0": "FRA",
-        "COUNTRY": "France",
-        "NAME_1": "PaysdelaLoire",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "FR.PL",
-        "ISO_1": "NA"
+        "Country": "France",
+        "Name_1": "Paysdela Loire",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -91197,17 +91101,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "FRA.13_1",
-        "GID_0": "FRA",
-        "COUNTRY": "France",
-        "NAME_1": "Provence-Alpes-Côted'Azur",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "FR.PR",
-        "ISO_1": "NA"
+        "Country": "France",
+        "Name_1": "Provence- Alpes- Côted' Azur",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",

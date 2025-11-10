@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UMI.1_1",
-        "GID_0": "UMI",
-        "COUNTRY": "UnitedStatesMinorOutlyingIsl",
-        "NAME_1": "Baker",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Island",
-        "ENGTYPE_1": "Island",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "NA"
+        "Country": "UnitedStatesMinorOutlyingIsl",
+        "Name_1": "Baker",
+        "Type": "Island"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -72,17 +64,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UMI.2_1",
-        "GID_0": "UMI",
-        "COUNTRY": "UnitedStatesMinorOutlyingIsl",
-        "NAME_1": "Howland",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Island",
-        "ENGTYPE_1": "Island",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "NA"
+        "Country": "UnitedStatesMinorOutlyingIsl",
+        "Name_1": "Howland",
+        "Type": "Island"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -137,17 +121,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UMI.3_1",
-        "GID_0": "UMI",
-        "COUNTRY": "UnitedStatesMinorOutlyingIsl",
-        "NAME_1": "Jarvisisland",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Island",
-        "ENGTYPE_1": "Island",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "NA"
+        "Country": "UnitedStatesMinorOutlyingIsl",
+        "Name_1": "Jarvisisland",
+        "Type": "Island"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -202,17 +178,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UMI.4_1",
-        "GID_0": "UMI",
-        "COUNTRY": "UnitedStatesMinorOutlyingIsl",
-        "NAME_1": "Johnston",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Atoll",
-        "ENGTYPE_1": "Atoll",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "NA"
+        "Country": "UnitedStatesMinorOutlyingIsl",
+        "Name_1": "Johnston",
+        "Type": "Atoll"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -523,17 +491,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UMI.5_1",
-        "GID_0": "UMI",
-        "COUNTRY": "UnitedStatesMinorOutlyingIsl",
-        "NAME_1": "KingmanReef",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Reef",
-        "ENGTYPE_1": "Reef",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "NA"
+        "Country": "UnitedStatesMinorOutlyingIsl",
+        "Name_1": "Kingman Reef",
+        "Type": "Reef"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -660,17 +620,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UMI.6_1",
-        "GID_0": "UMI",
-        "COUNTRY": "UnitedStatesMinorOutlyingIsl",
-        "NAME_1": "Midway",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Island",
-        "ENGTYPE_1": "Island",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "NA"
+        "Country": "UnitedStatesMinorOutlyingIsl",
+        "Name_1": "Midway",
+        "Type": "Island"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1061,17 +1013,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UMI.7_1",
-        "GID_0": "UMI",
-        "COUNTRY": "UnitedStatesMinorOutlyingIsl",
-        "NAME_1": "Navassa",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Island",
-        "ENGTYPE_1": "Island",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "NA"
+        "Country": "UnitedStatesMinorOutlyingIsl",
+        "Name_1": "Navassa",
+        "Type": "Island"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1126,17 +1070,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UMI.8_1",
-        "GID_0": "UMI",
-        "COUNTRY": "UnitedStatesMinorOutlyingIsl",
-        "NAME_1": "Palmyra",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Atoll",
-        "ENGTYPE_1": "Atoll",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "NA"
+        "Country": "UnitedStatesMinorOutlyingIsl",
+        "Name_1": "Palmyra",
+        "Type": "Atoll"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1423,17 +1359,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UMI.9_1",
-        "GID_0": "UMI",
-        "COUNTRY": "UnitedStatesMinorOutlyingIsl",
-        "NAME_1": "Wake",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Island",
-        "ENGTYPE_1": "Island",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "NA"
+        "Country": "UnitedStatesMinorOutlyingIsl",
+        "Name_1": "Wake",
+        "Type": "Island"
       },
       "geometry": {
         "type": "MultiPolygon",

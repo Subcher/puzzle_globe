@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BRA.1_1",
-        "GID_0": "BRA",
-        "COUNTRY": "Brazil",
-        "NAME_1": "Acre",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "BR.AC",
-        "ISO_1": "BR-AC"
+        "Country": "Brazil",
+        "Name_1": "Acre",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5674,7 +5666,7 @@
               ],
               [
                 -66.7608,
-                -10.0
+                -10
               ],
               [
                 -66.7645,
@@ -6021,7 +6013,7 @@
                 -10.2319
               ],
               [
-                -67.0,
+                -67,
                 -10.2291
               ],
               [
@@ -7532,17 +7524,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BRA.2_1",
-        "GID_0": "BRA",
-        "COUNTRY": "Brazil",
-        "NAME_1": "Alagoas",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "BR.AL",
-        "ISO_1": "BR-AL"
+        "Country": "Brazil",
+        "Name_1": "Alagoas",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -11257,17 +11241,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BRA.3_1",
-        "GID_0": "BRA",
-        "COUNTRY": "Brazil",
-        "NAME_1": "Amapá",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "BR.AP",
-        "ISO_1": "NA"
+        "Country": "Brazil",
+        "Name_1": "Amapá",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -17814,17 +17790,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BRA.4_1",
-        "GID_0": "BRA",
-        "COUNTRY": "Brazil",
-        "NAME_1": "Amazonas",
-        "VARNAME_1": "Amazone",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "BR.AM",
-        "ISO_1": "BR-AM"
+        "Country": "Brazil",
+        "Name_1": "Amazonas",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -35281,7 +35249,7 @@
               ],
               [
                 -60.1673,
-                -0.0
+                0
               ],
               [
                 -60.1644,
@@ -42015,17 +41983,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BRA.5_1",
-        "GID_0": "BRA",
-        "COUNTRY": "Brazil",
-        "NAME_1": "Bahia",
-        "VARNAME_1": "Ba¡a",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "BR.BA",
-        "ISO_1": "BR-BA"
+        "Country": "Brazil",
+        "Name_1": "Bahia",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -44002,7 +43962,7 @@
               ],
               [
                 -39.9148,
-                -16.0
+                -16
               ],
               [
                 -39.924,
@@ -61445,7 +61405,7 @@
                 -9.8129
               ],
               [
-                -38.0,
+                -38,
                 -9.8143
               ],
               [
@@ -61549,7 +61509,7 @@
                 -9.9055
               ],
               [
-                -38.0,
+                -38,
                 -9.9087
               ],
               [
@@ -66860,17 +66820,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BRA.6_1",
-        "GID_0": "BRA",
-        "COUNTRY": "Brazil",
-        "NAME_1": "Ceará",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "BR.CE",
-        "ISO_1": "NA"
+        "Country": "Brazil",
+        "Name_1": "Ceará",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -73685,17 +73637,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BRA.7_1",
-        "GID_0": "BRA",
-        "COUNTRY": "Brazil",
-        "NAME_1": "DistritoFederal",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "DistritoFederal",
-        "ENGTYPE_1": "FederalDistrict",
-        "CC_1": "NA",
-        "HASC_1": "BR.DF",
-        "ISO_1": "BR-DF"
+        "Country": "Brazil",
+        "Name_1": "Distrito Federal",
+        "Type": "FederalDistrict"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -75474,17 +75418,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BRA.8_1",
-        "GID_0": "BRA",
-        "COUNTRY": "Brazil",
-        "NAME_1": "EspíritoSanto",
-        "VARNAME_1": "EspirituSanto",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "BR.ES",
-        "ISO_1": "NA"
+        "Country": "Brazil",
+        "Name_1": "Espírito Santo",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -84207,17 +84143,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BRA.9_1",
-        "GID_0": "BRA",
-        "COUNTRY": "Brazil",
-        "NAME_1": "Goiás",
-        "VARNAME_1": "Goiáz|Goyáz",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "BR.GO",
-        "ISO_1": "NA"
+        "Country": "Brazil",
+        "Name_1": "Goiás",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -108948,17 +108876,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BRA.10_1",
-        "GID_0": "BRA",
-        "COUNTRY": "Brazil",
-        "NAME_1": "Maranhão",
-        "VARNAME_1": "SãoLuízdeMaranhão",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "BR.MA",
-        "ISO_1": "NA"
+        "Country": "Brazil",
+        "Name_1": "Maranhão",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -131113,17 +131033,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BRA.12_1",
-        "GID_0": "BRA",
-        "COUNTRY": "Brazil",
-        "NAME_1": "MatoGrosso",
-        "VARNAME_1": "MattoGrosso",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "BR.MT",
-        "ISO_1": "BR-MT"
+        "Country": "Brazil",
+        "Name_1": "Mato Grosso",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -149830,17 +149742,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BRA.11_1",
-        "GID_0": "BRA",
-        "COUNTRY": "Brazil",
-        "NAME_1": "MatoGrossodoSul",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "BR.MS",
-        "ISO_1": "BR-MS"
+        "Country": "Brazil",
+        "Name_1": "Mato Grossodo Sul",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -162097,7 +162001,7 @@
               ],
               [
                 -52.328,
-                -22.0
+                -22
               ],
               [
                 -52.3264,
@@ -162607,17 +162511,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BRA.13_1",
-        "GID_0": "BRA",
-        "COUNTRY": "Brazil",
-        "NAME_1": "MinasGerais",
-        "VARNAME_1": "Minas|MinasGeraes",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "BR.MG",
-        "ISO_1": "BR-MG"
+        "Country": "Brazil",
+        "Name_1": "Minas Gerais",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -181470,7 +181366,7 @@
               ],
               [
                 -39.9148,
-                -16.0
+                -16
               ],
               [
                 -39.9183,
@@ -191216,17 +191112,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BRA.14_1",
-        "GID_0": "BRA",
-        "COUNTRY": "Brazil",
-        "NAME_1": "Pará",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "BR.PA",
-        "ISO_1": "NA"
+        "Country": "Brazil",
+        "Name_1": "Pará",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -211333,17 +211221,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BRA.15_1",
-        "GID_0": "BRA",
-        "COUNTRY": "Brazil",
-        "NAME_1": "Paraíba",
-        "VARNAME_1": "Parahyba",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "BR.PB",
-        "ISO_1": "NA"
+        "Country": "Brazil",
+        "Name_1": "Paraíba",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -218874,17 +218754,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BRA.16_1",
-        "GID_0": "BRA",
-        "COUNTRY": "Brazil",
-        "NAME_1": "Paraná",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "BR.PR",
-        "ISO_1": "NA"
+        "Country": "Brazil",
+        "Name_1": "Paraná",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -226453,7 +226325,7 @@
               ],
               [
                 -48.9825,
-                -26.0
+                -26
               ],
               [
                 -48.9867,
@@ -230871,17 +230743,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BRA.17_1",
-        "GID_0": "BRA",
-        "COUNTRY": "Brazil",
-        "NAME_1": "Pernambuco",
-        "VARNAME_1": "Pernambouc",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "BR.PE",
-        "ISO_1": "BR-PE"
+        "Country": "Brazil",
+        "Name_1": "Pernambuco",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -239257,7 +239121,7 @@
                 -8.4989
               ],
               [
-                -35.0,
+                -35,
                 -8.5085
               ],
               [
@@ -241352,17 +241216,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BRA.18_1",
-        "GID_0": "BRA",
-        "COUNTRY": "Brazil",
-        "NAME_1": "Piauí",
-        "VARNAME_1": "Piauhy",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "BR.PI",
-        "ISO_1": "NA"
+        "Country": "Brazil",
+        "Name_1": "Piauí",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -249598,7 +249454,7 @@
                 -8.3987
               ],
               [
-                -41.0,
+                -41,
                 -8.4003
               ],
               [
@@ -251797,17 +251653,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BRA.19_1",
-        "GID_0": "BRA",
-        "COUNTRY": "Brazil",
-        "NAME_1": "RiodeJaneiro",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "BR.RJ",
-        "ISO_1": "BR-RJ"
+        "Country": "Brazil",
+        "Name_1": "Riode Janeiro",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -263408,7 +263256,7 @@
               ],
               [
                 -43.6608,
-                -23.0
+                -23
               ],
               [
                 -43.661,
@@ -263432,7 +263280,7 @@
               ],
               [
                 -44.3661,
-                -23.0
+                -23
               ],
               [
                 -44.3663,
@@ -281598,17 +281446,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BRA.20_1",
-        "GID_0": "BRA",
-        "COUNTRY": "Brazil",
-        "NAME_1": "RioGrandedoNorte",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "BR.RN",
-        "ISO_1": "BR-RN"
+        "Country": "Brazil",
+        "Name_1": "Rio Grandedo Norte",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -286135,17 +285975,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BRA.21_1",
-        "GID_0": "BRA",
-        "COUNTRY": "Brazil",
-        "NAME_1": "RioGrandedoSul",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "BR.RS",
-        "ISO_1": "BR-RS"
+        "Country": "Brazil",
+        "Name_1": "Rio Grandedo Sul",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -289182,7 +289014,7 @@
               ],
               [
                 -55.774,
-                -31.0
+                -31
               ],
               [
                 -55.7675,
@@ -292057,7 +291889,7 @@
                 -27.7956
               ],
               [
-                -55.0,
+                -55,
                 -27.7901
               ],
               [
@@ -293209,7 +293041,7 @@
                 -27.1976
               ],
               [
-                -53.0,
+                -53,
                 -27.2067
               ],
               [
@@ -299244,17 +299076,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BRA.22_1",
-        "GID_0": "BRA",
-        "COUNTRY": "Brazil",
-        "NAME_1": "Rondônia",
-        "VARNAME_1": "Guaporé",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "BR.RO",
-        "ISO_1": "NA"
+        "Country": "Brazil",
+        "Name_1": "Rondônia",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -310501,17 +310325,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BRA.23_1",
-        "GID_0": "BRA",
-        "COUNTRY": "Brazil",
-        "NAME_1": "Roraima",
-        "VARNAME_1": "RioBranco",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "BR.RR",
-        "ISO_1": "BR-RR"
+        "Country": "Brazil",
+        "Name_1": "Roraima",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -317392,7 +317208,7 @@
               ],
               [
                 -60.1673,
-                -0.0
+                0
               ],
               [
                 -60.1687,
@@ -319646,17 +319462,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BRA.24_1",
-        "GID_0": "BRA",
-        "COUNTRY": "Brazil",
-        "NAME_1": "SantaCatarina",
-        "VARNAME_1": "SantaCatharina",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "BR.SC",
-        "ISO_1": "BR-SC"
+        "Country": "Brazil",
+        "Name_1": "Santa Catarina",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -326448,7 +326256,7 @@
                 -27.2132
               ],
               [
-                -53.0,
+                -53,
                 -27.2067
               ],
               [
@@ -326960,7 +326768,7 @@
                 -27.1726
               ],
               [
-                -53.835882051282049,
+                -53.83588205128205,
                 -27.16908205128205
               ],
               [
@@ -333033,7 +332841,7 @@
               ],
               [
                 -48.9825,
-                -26.0
+                -26
               ],
               [
                 -48.9811,
@@ -336048,7 +335856,7 @@
           [
             [
               [
-                -53.835882051282049,
+                -53.83588205128205,
                 -27.16908205128205
               ],
               [
@@ -336060,7 +335868,7 @@
                 -27.1684
               ],
               [
-                -53.835882051282049,
+                -53.83588205128205,
                 -27.16908205128205
               ]
             ]
@@ -336799,17 +336607,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BRA.25_1",
-        "GID_0": "BRA",
-        "COUNTRY": "Brazil",
-        "NAME_1": "SãoPaulo",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "BR.SP",
-        "ISO_1": "NA"
+        "Country": "Brazil",
+        "Name_1": "São Paulo",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -341974,7 +341774,7 @@
               ],
               [
                 -52.328,
-                -22.0
+                -22
               ],
               [
                 -52.3256,
@@ -352786,7 +352586,7 @@
               ],
               [
                 -46.3219,
-                -24.0
+                -24
               ],
               [
                 -46.3194,
@@ -353065,7 +352865,7 @@
                 -24.3445
               ],
               [
-                -47.0,
+                -47,
                 -24.3496
               ],
               [
@@ -357492,17 +357292,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BRA.26_1",
-        "GID_0": "BRA",
-        "COUNTRY": "Brazil",
-        "NAME_1": "Sergipe",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "BR.SE",
-        "ISO_1": "BR-SE"
+        "Country": "Brazil",
+        "Name_1": "Sergipe",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -360646,7 +360438,7 @@
                 -9.9187
               ],
               [
-                -38.0,
+                -38,
                 -9.9087
               ],
               [
@@ -360750,7 +360542,7 @@
                 -9.8225
               ],
               [
-                -38.0,
+                -38,
                 -9.8143
               ],
               [
@@ -361557,17 +361349,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BRA.27_1",
-        "GID_0": "BRA",
-        "COUNTRY": "Brazil",
-        "NAME_1": "Tocantins",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "BR.TO",
-        "ISO_1": "BR-TO"
+        "Country": "Brazil",
+        "Name_1": "Tocantins",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",

@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MRT.1_1",
-        "GID_0": "MRT",
-        "COUNTRY": "Mauritania",
-        "NAME_1": "Adrar",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat|Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "MR.AD",
-        "ISO_1": "MR-07"
+        "Country": "Mauritania",
+        "Name_1": "Adrar",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -106,7 +98,7 @@
               ],
               [
                 -6.4518,
-                24.0
+                24
               ],
               [
                 -6.4547,
@@ -320,17 +312,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MRT.2_1",
-        "GID_0": "MRT",
-        "COUNTRY": "Mauritania",
-        "NAME_1": "Assaba",
-        "VARNAME_1": "Açaba|el-`Açâba",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat|Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "MR.AS",
-        "ISO_1": "MR-03"
+        "Country": "Mauritania",
+        "Name_1": "Assaba",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3365,17 +3349,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MRT.3_1",
-        "GID_0": "MRT",
-        "COUNTRY": "Mauritania",
-        "NAME_1": "Brakna",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat|Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "MR.BR",
-        "ISO_1": "MR-05"
+        "Country": "Mauritania",
+        "Name_1": "Brakna",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3619,7 +3595,7 @@
                 16.3456
               ],
               [
-                -14.0,
+                -14,
                 16.3474
               ],
               [
@@ -4690,17 +4666,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MRT.4_1",
-        "GID_0": "MRT",
-        "COUNTRY": "Mauritania",
-        "NAME_1": "DakhletNouadhibou",
-        "VARNAME_1": "DakhletNouâdhibou|BaieduLévri",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat|Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "MR.DN",
-        "ISO_1": "MR-08"
+        "Country": "Mauritania",
+        "Name_1": "Dakhlet Nouadhibou",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -8747,17 +8715,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MRT.5_1",
-        "GID_0": "MRT",
-        "COUNTRY": "Mauritania",
-        "NAME_1": "Gorgol",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat|Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "MR.GO",
-        "ISO_1": "MR-04"
+        "Country": "Mauritania",
+        "Name_1": "Gorgol",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10184,17 +10144,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MRT.6_1",
-        "GID_0": "MRT",
-        "COUNTRY": "Mauritania",
-        "NAME_1": "Guidimaka",
-        "VARNAME_1": "Guidimagha|Guidimakha",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat|Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "MR.GD",
-        "ISO_1": "NA"
+        "Country": "Mauritania",
+        "Name_1": "Guidimaka",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -11237,17 +11189,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MRT.7_1",
-        "GID_0": "MRT",
-        "COUNTRY": "Mauritania",
-        "NAME_1": "HodhechChargui",
-        "VARNAME_1": "EasternHodh|HodhCharghi|HodhO",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat|Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "MR.HC",
-        "ISO_1": "MR-01"
+        "Country": "Mauritania",
+        "Name_1": "Hodhech Chargui",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -12016,7 +11960,7 @@
               ],
               [
                 -5.3975,
-                16.0
+                16
               ],
               [
                 -5.5064,
@@ -12066,17 +12010,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MRT.8_1",
-        "GID_0": "MRT",
-        "COUNTRY": "Mauritania",
-        "NAME_1": "HodhelGharbi",
-        "VARNAME_1": "HodhOccidental|WesternHodh",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat|Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "MR.HG",
-        "ISO_1": "MR-02"
+        "Country": "Mauritania",
+        "Name_1": "Hodhel Gharbi",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13035,17 +12971,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MRT.9_1",
-        "GID_0": "MRT",
-        "COUNTRY": "Mauritania",
-        "NAME_1": "Inchiri",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat|Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "MR.IN",
-        "ISO_1": "MR-12"
+        "Country": "Mauritania",
+        "Name_1": "Inchiri",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13452,17 +13380,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MRT.10_1",
-        "GID_0": "MRT",
-        "COUNTRY": "Mauritania",
-        "NAME_1": "Nouakchott",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "MR.NO",
-        "ISO_1": "NA"
+        "Country": "Mauritania",
+        "Name_1": "Nouakchott",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13625,17 +13545,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MRT.11_1",
-        "GID_0": "MRT",
-        "COUNTRY": "Mauritania",
-        "NAME_1": "Tagant",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat|Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "MR.TG",
-        "ISO_1": "MR-09"
+        "Country": "Mauritania",
+        "Name_1": "Tagant",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -14586,17 +14498,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MRT.12_1",
-        "GID_0": "MRT",
-        "COUNTRY": "Mauritania",
-        "NAME_1": "TirisZemmour",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat|Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "MR.TZ",
-        "ISO_1": "MR-11"
+        "Country": "Mauritania",
+        "Name_1": "Tiris Zemmour",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -14804,12 +14708,12 @@
                 23.4477
               ],
               [
-                -12.0,
+                -12,
                 23.4545
               ],
               [
-                -12.0,
-                24.0
+                -12,
+                24
               ],
               [
                 -12.0039,
@@ -14849,7 +14753,7 @@
               ],
               [
                 -10.6862,
-                26.0
+                26
               ],
               [
                 -10.3741,
@@ -14873,7 +14777,7 @@
               ],
               [
                 -9.5629,
-                26.0
+                26
               ],
               [
                 -9.4871,
@@ -14940,7 +14844,7 @@
                 26.344
               ],
               [
-                -7.0,
+                -7,
                 26.3414
               ],
               [
@@ -15128,16 +15032,16 @@
                 24.9945
               ],
               [
-                -5.0,
+                -5,
                 24.9959
               ],
               [
-                -5.0,
-                25.0
+                -5,
+                25
               ],
               [
                 -6.5644,
-                25.0
+                25
               ],
               [
                 -6.5579,
@@ -15151,17 +15055,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MRT.13_1",
-        "GID_0": "MRT",
-        "COUNTRY": "Mauritania",
-        "NAME_1": "Trarza",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat|Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "MR.TR",
-        "ISO_1": "MR-06"
+        "Country": "Mauritania",
+        "Name_1": "Trarza",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",

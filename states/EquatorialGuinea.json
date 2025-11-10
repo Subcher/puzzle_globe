@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GNQ.1_1",
-        "GID_0": "GNQ",
-        "COUNTRY": "EquatorialGuinea",
-        "NAME_1": "Annobón",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "GQ.AN",
-        "ISO_1": "NA"
+        "Country": "EquatorialGuinea",
+        "Name_1": "Annobón",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -248,17 +240,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GNQ.2_1",
-        "GID_0": "GNQ",
-        "COUNTRY": "EquatorialGuinea",
-        "NAME_1": "BiokoNorte",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "GQ.BN",
-        "ISO_1": "GQ-BN"
+        "Country": "EquatorialGuinea",
+        "Name_1": "Bioko Norte",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -873,17 +857,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GNQ.3_1",
-        "GID_0": "GNQ",
-        "COUNTRY": "EquatorialGuinea",
-        "NAME_1": "BiokoSur",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "GQ.BS",
-        "ISO_1": "NA"
+        "Country": "EquatorialGuinea",
+        "Name_1": "Bioko Sur",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1794,17 +1770,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GNQ.4_1",
-        "GID_0": "GNQ",
-        "COUNTRY": "EquatorialGuinea",
-        "NAME_1": "CentroSur",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "GQ.CS",
-        "ISO_1": "NA"
+        "Country": "EquatorialGuinea",
+        "Name_1": "Centro Sur",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2723,17 +2691,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GNQ.5_1",
-        "GID_0": "GNQ",
-        "COUNTRY": "EquatorialGuinea",
-        "NAME_1": "Kié-Ntem",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "GQ.KN",
-        "ISO_1": "NA"
+        "Country": "EquatorialGuinea",
+        "Name_1": "Kié- Ntem",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3024,17 +2984,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GNQ.6_1",
-        "GID_0": "GNQ",
-        "COUNTRY": "EquatorialGuinea",
-        "NAME_1": "Litoral",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "GQ.LI",
-        "ISO_1": "GQ-LI"
+        "Country": "EquatorialGuinea",
+        "Name_1": "Litoral",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5021,17 +4973,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GNQ.7_1",
-        "GID_0": "GNQ",
-        "COUNTRY": "EquatorialGuinea",
-        "NAME_1": "Wele-Nzas",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "GQ.WN",
-        "ISO_1": "GQ-WN"
+        "Country": "EquatorialGuinea",
+        "Name_1": "Wele- Nzas",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",

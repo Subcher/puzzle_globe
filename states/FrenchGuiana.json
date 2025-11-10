@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GUF.1_1",
-        "GID_0": "GUF",
-        "COUNTRY": "FrenchGuiana",
-        "NAME_1": "Cayenne",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Arrondissement",
-        "ENGTYPE_1": "Arrondissement",
-        "CC_1": "NA",
-        "HASC_1": "GF.CY",
-        "ISO_1": "NA"
+        "Country": "FrenchGuiana",
+        "Name_1": "Cayenne",
+        "Type": "Arrondissement"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4428,17 +4420,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GUF.2_1",
-        "GID_0": "GUF",
-        "COUNTRY": "FrenchGuiana",
-        "NAME_1": "Saint-Laurent-du-Maroni",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Arrondissement",
-        "ENGTYPE_1": "Arrondissement",
-        "CC_1": "NA",
-        "HASC_1": "GF.SL",
-        "ISO_1": "NA"
+        "Country": "FrenchGuiana",
+        "Name_1": "Saint- Laurent-du- Maroni",
+        "Type": "Arrondissement"
       },
       "geometry": {
         "type": "MultiPolygon",

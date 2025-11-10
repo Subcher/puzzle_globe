@@ -11,8 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "SGS",
-        "COUNTRY": "SouthGeorgiaandtheSouthSand"
+        "Country": "SouthGeorgiaandtheSouthSand",
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -8717,7 +8718,7 @@
               ],
               [
                 -38.0072,
-                -54.0
+                -54
               ],
               [
                 -38.0104,

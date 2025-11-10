@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "WLF.1_1",
-        "GID_0": "WLF",
-        "COUNTRY": "WallisandFutuna",
-        "NAME_1": "Alo",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Kingdom",
-        "ENGTYPE_1": "Kingdom",
-        "CC_1": "NA",
-        "HASC_1": "WF.AL",
-        "ISO_1": "NA"
+        "Country": "WallisandFutuna",
+        "Name_1": "Alo",
+        "Type": "Kingdom"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -53,7 +45,7 @@
                 -14.3339
               ],
               [
-                -178.0,
+                -178,
                 -14.3339
               ],
               [
@@ -324,17 +316,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "WLF.2_1",
-        "GID_0": "WLF",
-        "COUNTRY": "WallisandFutuna",
-        "NAME_1": "Singave",
-        "VARNAME_1": "Sigave",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Kingdom",
-        "ENGTYPE_1": "Kingdom",
-        "CC_1": "NA",
-        "HASC_1": "WF.SI",
-        "ISO_1": "NA"
+        "Country": "WallisandFutuna",
+        "Name_1": "Singave",
+        "Type": "Kingdom"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -461,17 +445,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "WLF.3_1",
-        "GID_0": "WLF",
-        "COUNTRY": "WallisandFutuna",
-        "NAME_1": "Uvéa",
-        "VARNAME_1": "MataUtu",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Kingdom",
-        "ENGTYPE_1": "Kingdom",
-        "CC_1": "NA",
-        "HASC_1": "WF.UV",
-        "ISO_1": "NA"
+        "Country": "WallisandFutuna",
+        "Name_1": "Uvéa",
+        "Type": "Kingdom"
       },
       "geometry": {
         "type": "MultiPolygon",

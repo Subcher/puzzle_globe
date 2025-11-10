@@ -11,9 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "ABW",
-        "COUNTRY": "Aruba",
-	"AREA": 180
+        "Country": "Aruba",
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",

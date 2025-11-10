@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PER.1_1",
-        "GID_0": "PER",
-        "COUNTRY": "Peru",
-        "NAME_1": "Amazonas",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Región",
-        "ENGTYPE_1": "Region",
-        "CC_1": "01",
-        "HASC_1": "PE.AM",
-        "ISO_1": "PE-AMA"
+        "Country": "Peru",
+        "Name_1": "Amazonas",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4756,17 +4748,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PER.2_1",
-        "GID_0": "PER",
-        "COUNTRY": "Peru",
-        "NAME_1": "Ancash",
-        "VARNAME_1": "Ancachs",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Región",
-        "ENGTYPE_1": "Region",
-        "CC_1": "02",
-        "HASC_1": "PE.AN",
-        "ISO_1": "PE-ANC"
+        "Country": "Peru",
+        "Name_1": "Ancash",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -11485,17 +11469,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PER.3_1",
-        "GID_0": "PER",
-        "COUNTRY": "Peru",
-        "NAME_1": "Apurímac",
-        "VARNAME_1": "Apuromac",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Región",
-        "ENGTYPE_1": "Region",
-        "CC_1": "03",
-        "HASC_1": "PE.AP",
-        "ISO_1": "NA"
+        "Country": "Peru",
+        "Name_1": "Apurímac",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -15130,17 +15106,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PER.4_1",
-        "GID_0": "PER",
-        "COUNTRY": "Peru",
-        "NAME_1": "Arequipa",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Región",
-        "ENGTYPE_1": "Region",
-        "CC_1": "04",
-        "HASC_1": "PE.AR",
-        "ISO_1": "PE-ARE"
+        "Country": "Peru",
+        "Name_1": "Arequipa",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -22923,17 +22891,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PER.5_1",
-        "GID_0": "PER",
-        "COUNTRY": "Peru",
-        "NAME_1": "Ayacucho",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Región",
-        "ENGTYPE_1": "Region",
-        "CC_1": "05",
-        "HASC_1": "PE.AY",
-        "ISO_1": "PE-AYA"
+        "Country": "Peru",
+        "Name_1": "Ayacucho",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -30252,17 +30212,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PER.6_1",
-        "GID_0": "PER",
-        "COUNTRY": "Peru",
-        "NAME_1": "Cajamarca",
-        "VARNAME_1": "Caxamarca",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Región",
-        "ENGTYPE_1": "Region",
-        "CC_1": "06",
-        "HASC_1": "PE.CJ",
-        "ISO_1": "PE-CAJ"
+        "Country": "Peru",
+        "Name_1": "Cajamarca",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -32791,7 +32743,7 @@
               ],
               [
                 -79.4084,
-                -6.0
+                -6
               ],
               [
                 -79.4165,
@@ -35477,17 +35429,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PER.7_1",
-        "GID_0": "PER",
-        "COUNTRY": "Peru",
-        "NAME_1": "Callao",
-        "VARNAME_1": "ElCallao",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "07",
-        "HASC_1": "PE.CL",
-        "ISO_1": "NA"
+        "Country": "Peru",
+        "Name_1": "Callao",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -36214,17 +36158,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PER.8_1",
-        "GID_0": "PER",
-        "COUNTRY": "Peru",
-        "NAME_1": "Cusco",
-        "VARNAME_1": "Cuzco|Qosqo",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Región",
-        "ENGTYPE_1": "Region",
-        "CC_1": "08",
-        "HASC_1": "PE.CS",
-        "ISO_1": "PE-CUS"
+        "Country": "Peru",
+        "Name_1": "Cusco",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -40481,7 +40417,7 @@
               ],
               [
                 -73.4274,
-                -12.0
+                -12
               ],
               [
                 -73.4348,
@@ -42892,7 +42828,7 @@
                 -12.5632
               ],
               [
-                -72.0,
+                -72,
                 -12.5688
               ],
               [
@@ -45491,17 +45427,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PER.9_1",
-        "GID_0": "PER",
-        "COUNTRY": "Peru",
-        "NAME_1": "Huancavelica",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Región",
-        "ENGTYPE_1": "Region",
-        "CC_1": "09",
-        "HASC_1": "PE.HV",
-        "ISO_1": "PE-HUV"
+        "Country": "Peru",
+        "Name_1": "Huancavelica",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -49764,17 +49692,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PER.10_1",
-        "GID_0": "PER",
-        "COUNTRY": "Peru",
-        "NAME_1": "Huánuco",
-        "VARNAME_1": "Huknuco",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Región",
-        "ENGTYPE_1": "Region",
-        "CC_1": "10",
-        "HASC_1": "PE.HC",
-        "ISO_1": "NA"
+        "Country": "Peru",
+        "Name_1": "Huánuco",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -54886,7 +54806,7 @@
                 -10.4806
               ],
               [
-                -76.0,
+                -76,
                 -10.4903
               ],
               [
@@ -55265,17 +55185,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PER.11_1",
-        "GID_0": "PER",
-        "COUNTRY": "Peru",
-        "NAME_1": "Ica",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Región",
-        "ENGTYPE_1": "Region",
-        "CC_1": "11",
-        "HASC_1": "PE.IC",
-        "ISO_1": "PE-ICA"
+        "Country": "Peru",
+        "Name_1": "Ica",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -59248,7 +59160,7 @@
               ],
               [
                 -75.2475,
-                -14.0
+                -14
               ],
               [
                 -75.2415,
@@ -61026,17 +60938,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PER.12_1",
-        "GID_0": "PER",
-        "COUNTRY": "Peru",
-        "NAME_1": "Junín",
-        "VARNAME_1": "Junnn",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Región",
-        "ENGTYPE_1": "Region",
-        "CC_1": "12",
-        "HASC_1": "PE.JU",
-        "ISO_1": "NA"
+        "Country": "Peru",
+        "Name_1": "Junín",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -65301,7 +65205,7 @@
               ],
               [
                 -73.4274,
-                -12.0
+                -12
               ],
               [
                 -73.4263,
@@ -67091,17 +66995,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PER.13_1",
-        "GID_0": "PER",
-        "COUNTRY": "Peru",
-        "NAME_1": "LaLibertad",
-        "VARNAME_1": "Libertad",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Región",
-        "ENGTYPE_1": "Region",
-        "CC_1": "13",
-        "HASC_1": "PE.LL",
-        "ISO_1": "PE-LAL"
+        "Country": "Peru",
+        "Name_1": "La Libertad",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -72760,17 +72656,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PER.14_1",
-        "GID_0": "PER",
-        "COUNTRY": "Peru",
-        "NAME_1": "Lambayeque",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Región",
-        "ENGTYPE_1": "Region",
-        "CC_1": "14",
-        "HASC_1": "PE.LB",
-        "ISO_1": "PE-LAM"
+        "Country": "Peru",
+        "Name_1": "Lambayeque",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -74311,7 +74199,7 @@
               ],
               [
                 -79.4177,
-                -6.0
+                -6
               ],
               [
                 -79.4165,
@@ -74319,7 +74207,7 @@
               ],
               [
                 -79.4084,
-                -6.0
+                -6
               ],
               [
                 -79.4038,
@@ -75529,17 +75417,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PER.16_1",
-        "GID_0": "PER",
-        "COUNTRY": "Peru",
-        "NAME_1": "Lima",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Región",
-        "ENGTYPE_1": "Region",
-        "CC_1": "15",
-        "HASC_1": "PE.LR",
-        "ISO_1": "PE-LIM"
+        "Country": "Peru",
+        "Name_1": "Lima",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -81194,17 +81074,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PER.15_1",
-        "GID_0": "PER",
-        "COUNTRY": "Peru",
-        "NAME_1": "LimaProvince",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "15",
-        "HASC_1": "PE.LP",
-        "ISO_1": "NA"
+        "Country": "Peru",
+        "Name_1": "Lima Province",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -83111,17 +82983,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PER.17_1",
-        "GID_0": "PER",
-        "COUNTRY": "Peru",
-        "NAME_1": "Loreto",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Región",
-        "ENGTYPE_1": "Region",
-        "CC_1": "16",
-        "HASC_1": "PE.LO",
-        "ISO_1": "PE-LOR"
+        "Country": "Peru",
+        "Name_1": "Loreto",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -100172,17 +100036,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PER.18_1",
-        "GID_0": "PER",
-        "COUNTRY": "Peru",
-        "NAME_1": "MadredeDios",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Región",
-        "ENGTYPE_1": "Region",
-        "CC_1": "17",
-        "HASC_1": "PE.MD",
-        "ISO_1": "PE-MDD"
+        "Country": "Peru",
+        "Name_1": "Madrede Dios",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -101150,7 +101006,7 @@
                 -12.5734
               ],
               [
-                -72.0,
+                -72,
                 -12.5688
               ],
               [
@@ -104001,17 +103857,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PER.19_1",
-        "GID_0": "PER",
-        "COUNTRY": "Peru",
-        "NAME_1": "Moquegua",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Región",
-        "ENGTYPE_1": "Region",
-        "CC_1": "18",
-        "HASC_1": "PE.MQ",
-        "ISO_1": "PE-MOQ"
+        "Country": "Peru",
+        "Name_1": "Moquegua",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -107406,17 +107254,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PER.20_1",
-        "GID_0": "PER",
-        "COUNTRY": "Peru",
-        "NAME_1": "Pasco",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Región",
-        "ENGTYPE_1": "Region",
-        "CC_1": "19",
-        "HASC_1": "PE.PA",
-        "ISO_1": "PE-PAS"
+        "Country": "Peru",
+        "Name_1": "Pasco",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -108628,7 +108468,7 @@
                 -10.4907
               ],
               [
-                -76.0,
+                -76,
                 -10.4903
               ],
               [
@@ -111323,17 +111163,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PER.21_1",
-        "GID_0": "PER",
-        "COUNTRY": "Peru",
-        "NAME_1": "Piura",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Región",
-        "ENGTYPE_1": "Region",
-        "CC_1": "20",
-        "HASC_1": "PE.PI",
-        "ISO_1": "PE-PIU"
+        "Country": "Peru",
+        "Name_1": "Piura",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -116664,17 +116496,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PER.22_1",
-        "GID_0": "PER",
-        "COUNTRY": "Peru",
-        "NAME_1": "Puno",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Región",
-        "ENGTYPE_1": "Region",
-        "CC_1": "21",
-        "HASC_1": "PE.PU",
-        "ISO_1": "PE-PUN"
+        "Country": "Peru",
+        "Name_1": "Puno",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -123081,17 +122905,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PER.23_1",
-        "GID_0": "PER",
-        "COUNTRY": "Peru",
-        "NAME_1": "SanMartín",
-        "VARNAME_1": "SanMart",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Región",
-        "ENGTYPE_1": "Region",
-        "CC_1": "22",
-        "HASC_1": "PE.SM",
-        "ISO_1": "NA"
+        "Country": "Peru",
+        "Name_1": "San Martín",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -129718,17 +129534,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PER.24_1",
-        "GID_0": "PER",
-        "COUNTRY": "Peru",
-        "NAME_1": "Tacna",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Región",
-        "ENGTYPE_1": "Region",
-        "CC_1": "23",
-        "HASC_1": "PE.TA",
-        "ISO_1": "PE-TAC"
+        "Country": "Peru",
+        "Name_1": "Tacna",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -131703,17 +131511,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PER.25_1",
-        "GID_0": "PER",
-        "COUNTRY": "Peru",
-        "NAME_1": "Tumbes",
-        "VARNAME_1": "Tumbez",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Región",
-        "ENGTYPE_1": "Region",
-        "CC_1": "24",
-        "HASC_1": "PE.TU",
-        "ISO_1": "PE-TUM"
+        "Country": "Peru",
+        "Name_1": "Tumbes",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -133422,7 +133222,7 @@
               ],
               [
                 -80.2628,
-                -4.0
+                -4
               ],
               [
                 -80.2671,
@@ -134020,17 +133820,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "PER.26_1",
-        "GID_0": "PER",
-        "COUNTRY": "Peru",
-        "NAME_1": "Ucayali",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Región",
-        "ENGTYPE_1": "Region",
-        "CC_1": "25",
-        "HASC_1": "PE.UC",
-        "ISO_1": "PE-UCA"
+        "Country": "Peru",
+        "Name_1": "Ucayali",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",

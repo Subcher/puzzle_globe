@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GUY.1_1",
-        "GID_0": "GUY",
-        "COUNTRY": "Guyana",
-        "NAME_1": "Barima-Waini",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "1",
-        "HASC_1": "GY.BA",
-        "ISO_1": "GY-BA"
+        "Country": "Guyana",
+        "Name_1": "Barima- Waini",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2516,17 +2508,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GUY.2_1",
-        "GID_0": "GUY",
-        "COUNTRY": "Guyana",
-        "NAME_1": "Cuyuni-Mazaruni",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "7",
-        "HASC_1": "GY.CU",
-        "ISO_1": "GY-CU"
+        "Country": "Guyana",
+        "Name_1": "Cuyuni- Mazaruni",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6474,7 +6458,7 @@
                 5.2587
               ],
               [
-                -60.0,
+                -60,
                 5.2471
               ],
               [
@@ -6653,17 +6637,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GUY.3_1",
-        "GID_0": "GUY",
-        "COUNTRY": "Guyana",
-        "NAME_1": "Demerara-Mahaica",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "4",
-        "HASC_1": "GY.DE",
-        "ISO_1": "GY-DE"
+        "Country": "Guyana",
+        "Name_1": "Demerara- Mahaica",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7578,17 +7554,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GUY.4_1",
-        "GID_0": "GUY",
-        "COUNTRY": "Guyana",
-        "NAME_1": "EastBerbice-Corentyne",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "6",
-        "HASC_1": "GY.EB",
-        "ISO_1": "GY-EB"
+        "Country": "Guyana",
+        "Name_1": "East Berbice- Corentyne",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -8888,7 +8856,7 @@
                 4.8276
               ],
               [
-                -58.0,
+                -58,
                 4.838
               ],
               [
@@ -10284,11 +10252,11 @@
                 4.3343
               ],
               [
-                -58.0,
+                -58,
                 4.3264
               ],
               [
-                -58.0,
+                -58,
                 4.2809
               ],
               [
@@ -10360,11 +10328,11 @@
                 3.9348
               ],
               [
-                -58.0,
+                -58,
                 3.9286
               ],
               [
-                -58.0,
+                -58,
                 3.8936
               ],
               [
@@ -11291,17 +11259,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GUY.5_1",
-        "GID_0": "GUY",
-        "COUNTRY": "Guyana",
-        "NAME_1": "EssequiboIslands-WestDemerara",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "3",
-        "HASC_1": "GY.ES",
-        "ISO_1": "GY-ES"
+        "Country": "Guyana",
+        "Name_1": "Essequibo Islands- West Demerara",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -14036,17 +13996,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GUY.6_1",
-        "GID_0": "GUY",
-        "COUNTRY": "Guyana",
-        "NAME_1": "Mahaica-Berbice",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "5",
-        "HASC_1": "GY.MA",
-        "ISO_1": "GY-MA"
+        "Country": "Guyana",
+        "Name_1": "Mahaica- Berbice",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -14434,7 +14386,7 @@
                 5.928
               ],
               [
-                -58.0,
+                -58,
                 5.9313
               ],
               [
@@ -15369,17 +15321,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GUY.7_1",
-        "GID_0": "GUY",
-        "COUNTRY": "Guyana",
-        "NAME_1": "Pomeroon-Supenaam",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "2",
-        "HASC_1": "GY.PM",
-        "ISO_1": "NA"
+        "Country": "Guyana",
+        "Name_1": "Pomeroon- Supenaam",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -16794,17 +16738,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GUY.8_1",
-        "GID_0": "GUY",
-        "COUNTRY": "Guyana",
-        "NAME_1": "Potaro-Siparuni",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "8",
-        "HASC_1": "GY.PT",
-        "ISO_1": "GY-PT"
+        "Country": "Guyana",
+        "Name_1": "Potaro- Siparuni",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -17360,7 +17296,7 @@
                 5.2226
               ],
               [
-                -60.0,
+                -60,
                 5.2471
               ],
               [
@@ -18791,17 +18727,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GUY.9_1",
-        "GID_0": "GUY",
-        "COUNTRY": "Guyana",
-        "NAME_1": "UpperDemerara-Berbice",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "10",
-        "HASC_1": "GY.UD",
-        "ISO_1": "GY-UD"
+        "Country": "Guyana",
+        "Name_1": "Upper Demerara- Berbice",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -19137,7 +19065,7 @@
                 4.8398
               ],
               [
-                -58.0,
+                -58,
                 4.838
               ],
               [
@@ -20529,7 +20457,7 @@
                 5.9244
               ],
               [
-                -58.0,
+                -58,
                 5.9313
               ],
               [
@@ -20872,17 +20800,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GUY.10_1",
-        "GID_0": "GUY",
-        "COUNTRY": "Guyana",
-        "NAME_1": "UpperTakutu-UpperEssequibo",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "9",
-        "HASC_1": "GY.UT",
-        "ISO_1": "NA"
+        "Country": "Guyana",
+        "Name_1": "Upper Takutu- Upper Essequibo",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",

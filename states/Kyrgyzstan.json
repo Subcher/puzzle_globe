@@ -11,8 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "KGZ",
-        "COUNTRY": "Kyrgyzstan"
+        "Country": "Kyrgyzstan",
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -8349,11 +8350,11 @@
               ],
               [
                 69.3535,
-                40.0
+                40
               ],
               [
                 69.3819,
-                40.0
+                40
               ],
               [
                 69.393,
@@ -8661,7 +8662,7 @@
               ],
               [
                 70.5445,
-                40.0
+                40
               ],
               [
                 70.513,

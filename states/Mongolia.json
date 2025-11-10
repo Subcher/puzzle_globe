@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MNG.1_1",
-        "GID_0": "MNG",
-        "COUNTRY": "Mongolia",
-        "NAME_1": "Arhangay",
-        "VARNAME_1": "Alahangai|AraHangay|Ara-Khangai",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Aimag",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "MN.AR",
-        "ISO_1": "NA"
+        "Country": "Mongolia",
+        "Name_1": "Arhangay",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1416,17 +1408,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MNG.2_1",
-        "GID_0": "MNG",
-        "COUNTRY": "Mongolia",
-        "NAME_1": "Bayan-Ölgiy",
-        "VARNAME_1": "Bajan-Ölgij|BayanÖlögey|Bayan-U",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Aimag",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "MN.BO",
-        "ISO_1": "NA"
+        "Country": "Mongolia",
+        "Name_1": "Bayan-Ölgiy",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1751,7 +1735,7 @@
               ],
               [
                 89.5782,
-                48.0
+                48
               ],
               [
                 89.598,
@@ -2258,7 +2242,7 @@
                 48.5842
               ],
               [
-                88.0,
+                88,
                 48.6241
               ],
               [
@@ -2334,7 +2318,7 @@
                 48.7433
               ],
               [
-                88.0,
+                88,
                 48.762
               ],
               [
@@ -2590,7 +2574,7 @@
                 49.1863
               ],
               [
-                88.0,
+                88,
                 49.2202
               ],
               [
@@ -4077,17 +4061,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MNG.3_1",
-        "GID_0": "MNG",
-        "COUNTRY": "Mongolia",
-        "NAME_1": "Bayanhongor",
-        "VARNAME_1": "Bajan-Chongor|BayanKhangor|Baya",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Aimag",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "MN.BH",
-        "ISO_1": "NA"
+        "Country": "Mongolia",
+        "Name_1": "Bayanhongor",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5594,17 +5570,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MNG.4_1",
-        "GID_0": "MNG",
-        "COUNTRY": "Mongolia",
-        "NAME_1": "Bulgan",
-        "VARNAME_1": "Bulagan",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Aimag",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "MN.BU",
-        "ISO_1": "NA"
+        "Country": "Mongolia",
+        "Name_1": "Bulgan",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6891,17 +6859,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MNG.5_1",
-        "GID_0": "MNG",
-        "COUNTRY": "Mongolia",
-        "NAME_1": "Darhan-Uul",
-        "VARNAME_1": "Darchan|Darhan|Darkhan|Darkhan-U",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Hot",
-        "ENGTYPE_1": "Municipality",
-        "CC_1": "NA",
-        "HASC_1": "MN.DA",
-        "ISO_1": "NA"
+        "Country": "Mongolia",
+        "Name_1": "Darhan- Uul",
+        "Type": "Municipality"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7216,17 +7176,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MNG.6_1",
-        "GID_0": "MNG",
-        "COUNTRY": "Mongolia",
-        "NAME_1": "Dornod",
-        "VARNAME_1": "Choibalsan|Choybalsan|Doronad|Do",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Aimag",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "MN.DD",
-        "ISO_1": "MN-061"
+        "Country": "Mongolia",
+        "Name_1": "Dornod",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7459,7 +7411,7 @@
               ],
               [
                 117.7819,
-                48.0
+                48
               ],
               [
                 117.8161,
@@ -10029,17 +9981,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MNG.7_1",
-        "GID_0": "MNG",
-        "COUNTRY": "Mongolia",
-        "NAME_1": "Dornogovi",
-        "VARNAME_1": "Dornogobi|Dornogov'|DoronoGobi|",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Aimag",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "MN.DG",
-        "ISO_1": "NA"
+        "Country": "Mongolia",
+        "Name_1": "Dornogovi",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -11450,17 +11394,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MNG.8_1",
-        "GID_0": "MNG",
-        "COUNTRY": "Mongolia",
-        "NAME_1": "Dundgovi",
-        "VARNAME_1": "CentralGobi|DundaGobi|Dundgobi",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Aimag",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "MN.DU",
-        "ISO_1": "NA"
+        "Country": "Mongolia",
+        "Name_1": "Dundgovi",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -12499,17 +12435,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MNG.9_1",
-        "GID_0": "MNG",
-        "COUNTRY": "Mongolia",
-        "NAME_1": "Dzavhan",
-        "VARNAME_1": "Dsawchan|Dzabhan|Dzabkhan|Dzavch",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Aimag",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "MN.DZ",
-        "ISO_1": "NA"
+        "Country": "Mongolia",
+        "Name_1": "Dzavhan",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -14276,17 +14204,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MNG.10_1",
-        "GID_0": "MNG",
-        "COUNTRY": "Mongolia",
-        "NAME_1": "Govi-Altay",
-        "VARNAME_1": "Gobi-Altai|GobiAltay|Gov'altaj|",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Aimag",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "MN.GA",
-        "ISO_1": "MN-065"
+        "Country": "Mongolia",
+        "Name_1": "Govi- Altay",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -16137,17 +16057,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MNG.11_1",
-        "GID_0": "MNG",
-        "COUNTRY": "Mongolia",
-        "NAME_1": "Govisümber",
-        "VARNAME_1": "Gobisumber",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Hot",
-        "ENGTYPE_1": "Municipality",
-        "CC_1": "NA",
-        "HASC_1": "MN.GS",
-        "ISO_1": "NA"
+        "Country": "Mongolia",
+        "Name_1": "Govisümber",
+        "Type": "Municipality"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -16482,17 +16394,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MNG.12_1",
-        "GID_0": "MNG",
-        "COUNTRY": "Mongolia",
-        "NAME_1": "Hentiy",
-        "VARNAME_1": "Chentii|Chentij|Hentey|Hentii|Ke",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Aimag",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "MN.HN",
-        "ISO_1": "NA"
+        "Country": "Mongolia",
+        "Name_1": "Hentiy",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -17927,17 +17831,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MNG.13_1",
-        "GID_0": "MNG",
-        "COUNTRY": "Mongolia",
-        "NAME_1": "Hovd",
-        "VARNAME_1": "Chovd|Hobdo|Khobdo|Khovd|Kobdo|C",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Aimag",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "MN.HD",
-        "ISO_1": "MN-043"
+        "Country": "Mongolia",
+        "Name_1": "Hovd",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -19716,17 +19612,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MNG.14_1",
-        "GID_0": "MNG",
-        "COUNTRY": "Mongolia",
-        "NAME_1": "Hövsgöl",
-        "VARNAME_1": "Chövsgöl|Chuwsgul|Hobsgol|Höbsög",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Aimag",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "MN.HG",
-        "ISO_1": "NA"
+        "Country": "Mongolia",
+        "Name_1": "Hövsgöl",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -20471,7 +20359,7 @@
               ],
               [
                 97.9226,
-                50.0
+                50
               ],
               [
                 97.9515,
@@ -22193,17 +22081,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MNG.15_1",
-        "GID_0": "MNG",
-        "COUNTRY": "Mongolia",
-        "NAME_1": "Ömnögovi",
-        "VARNAME_1": "GóbidoSul|Ömnögov'|ÖmönöGobi|",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Aimag",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "MN.OG",
-        "ISO_1": "NA"
+        "Country": "Mongolia",
+        "Name_1": "Ömnögovi",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -23506,17 +23386,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MNG.16_1",
-        "GID_0": "MNG",
-        "COUNTRY": "Mongolia",
-        "NAME_1": "Orhon",
-        "VARNAME_1": "Erdenet|Orkhon",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Hot",
-        "ENGTYPE_1": "Municipality",
-        "CC_1": "NA",
-        "HASC_1": "MN.ER",
-        "ISO_1": "MN-035"
+        "Country": "Mongolia",
+        "Name_1": "Orhon",
+        "Type": "Municipality"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -23639,17 +23511,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MNG.17_1",
-        "GID_0": "MNG",
-        "COUNTRY": "Mongolia",
-        "NAME_1": "Övörhangay",
-        "VARNAME_1": "ÖbörHangay|Övörchangaj|SouthHa",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Aimag",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "MN.OH",
-        "ISO_1": "NA"
+        "Country": "Mongolia",
+        "Name_1": "Övörhangay",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -24816,17 +24680,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MNG.18_1",
-        "GID_0": "MNG",
-        "COUNTRY": "Mongolia",
-        "NAME_1": "Selenge",
-        "VARNAME_1": "Selenga",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Aimag",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "MN.SL",
-        "ISO_1": "MN-049"
+        "Country": "Mongolia",
+        "Name_1": "Selenge",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -25182,7 +25038,7 @@
                 50.409
               ],
               [
-                106.0,
+                106,
                 50.4056
               ],
               [
@@ -26431,17 +26287,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MNG.19_1",
-        "GID_0": "MNG",
-        "COUNTRY": "Mongolia",
-        "NAME_1": "Sühbaatar",
-        "VARNAME_1": "SüheBaatar|Suhe-Bator|Sükhbaata",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Aimag",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "MN.SB",
-        "ISO_1": "NA"
+        "Country": "Mongolia",
+        "Name_1": "Sühbaatar",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -27553,7 +27401,7 @@
                 45.3652
               ],
               [
-                115.0,
+                115,
                 45.4017
               ],
               [
@@ -27686,17 +27534,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MNG.20_1",
-        "GID_0": "MNG",
-        "COUNTRY": "Mongolia",
-        "NAME_1": "Töv",
-        "VARNAME_1": "Central|Töb|Tub|Tuvaimag|Töw|Tuw",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Aimag",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "MN.TO",
-        "ISO_1": "NA"
+        "Country": "Mongolia",
+        "Name_1": "Töv",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -29313,17 +29153,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MNG.21_1",
-        "GID_0": "MNG",
-        "COUNTRY": "Mongolia",
-        "NAME_1": "Ulaanbaatar",
-        "VARNAME_1": "Oulan-Bator|UlanBator|UlanBato",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Hot",
-        "ENGTYPE_1": "Municipality",
-        "CC_1": "NA",
-        "HASC_1": "MN.UB",
-        "ISO_1": "MN-1"
+        "Country": "Mongolia",
+        "Name_1": "Ulaanbaatar",
+        "Type": "Municipality"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -29674,17 +29506,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MNG.22_1",
-        "GID_0": "MNG",
-        "COUNTRY": "Mongolia",
-        "NAME_1": "Uvs",
-        "VARNAME_1": "Ubs|UbsaNor|UbsaNur|UbsuHur|U",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Aimag",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "MN.UV",
-        "ISO_1": "NA"
+        "Country": "Mongolia",
+        "Name_1": "Uvs",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",

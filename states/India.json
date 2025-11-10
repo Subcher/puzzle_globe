@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IND.1_1",
-        "GID_0": "IND",
-        "COUNTRY": "India",
-        "NAME_1": "AndamanandNicobar",
-        "VARNAME_1": "Andaman&NicobarIslands|Andama",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "UnionTerritor",
-        "ENGTYPE_1": "UnionTerritory",
-        "CC_1": "NA",
-        "HASC_1": "IN.AN",
-        "ISO_1": "NA"
+        "Country": "India",
+        "Name_1": "Andamanand Nicobar",
+        "Type": "UnionTerritory"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -282,7 +274,7 @@
               ],
               [
                 93.9139,
-                7.0
+                7
               ],
               [
                 93.9144,
@@ -806,7 +798,7 @@
               ],
               [
                 93.7064,
-                7.0
+                7
               ],
               [
                 93.7011,
@@ -4066,7 +4058,7 @@
               ],
               [
                 93.5256,
-                8.0
+                8
               ],
               [
                 93.5275,
@@ -4114,7 +4106,7 @@
               ],
               [
                 93.5519,
-                8.0
+                8
               ],
               [
                 93.5506,
@@ -4434,7 +4426,7 @@
               ],
               [
                 93.4919,
-                8.0
+                8
               ],
               [
                 93.4856,
@@ -18822,7 +18814,7 @@
               ],
               [
                 92.9081,
-                13.0
+                13
               ],
               [
                 92.9118,
@@ -21796,17 +21788,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IND.2_1",
-        "GID_0": "IND",
-        "COUNTRY": "India",
-        "NAME_1": "AndhraPradesh",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "IN.AP",
-        "ISO_1": "IN-AP"
+        "Country": "India",
+        "Name_1": "Andhra Pradesh",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -25831,7 +25815,7 @@
               ],
               [
                 77.0788,
-                15.0
+                15
               ],
               [
                 77.0821,
@@ -30343,7 +30327,7 @@
               ],
               [
                 83.3888,
-                19.0
+                19
               ],
               [
                 83.393,
@@ -38833,17 +38817,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IND.3_1",
-        "GID_0": "IND",
-        "COUNTRY": "India",
-        "NAME_1": "ArunachalPradesh",
-        "VARNAME_1": "AgencedelaFrontièreduNord-E",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "IN.AR",
-        "ISO_1": "IN-AR"
+        "Country": "India",
+        "Name_1": "Arunachal Pradesh",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -41626,17 +41602,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "Z07.3_1",
-        "GID_0": "Z07",
-        "COUNTRY": "India",
-        "NAME_1": "ArunachalPradesh",
-        "VARNAME_1": "AgencedelaFrontièreduNord-E",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "IN.AR",
-        "ISO_1": "NA"
+        "Country": "India",
+        "Name_1": "Arunachal Pradesh",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -41708,7 +41676,7 @@
                 27.3477
               ],
               [
-                94.0,
+                94,
                 27.3347
               ],
               [
@@ -43832,7 +43800,7 @@
                 28.8068
               ],
               [
-                94.0,
+                94,
                 28.8198
               ],
               [
@@ -46423,17 +46391,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IND.4_1",
-        "GID_0": "IND",
-        "COUNTRY": "India",
-        "NAME_1": "Assam",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "IN.AS",
-        "ISO_1": "IN-AS"
+        "Country": "India",
+        "Name_1": "Assam",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -52453,7 +52413,7 @@
                 27.3301
               ],
               [
-                94.0,
+                94,
                 27.3347
               ],
               [
@@ -56962,17 +56922,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IND.5_1",
-        "GID_0": "IND",
-        "COUNTRY": "India",
-        "NAME_1": "Bihar",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "IN.BR",
-        "ISO_1": "IN-BR"
+        "Country": "India",
+        "Name_1": "Bihar",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -57008,7 +56960,7 @@
                 24.7657
               ],
               [
-                86.0,
+                86,
                 24.7514
               ],
               [
@@ -59508,7 +59460,7 @@
                 25.5673
               ],
               [
-                84.0,
+                84,
                 25.6077
               ],
               [
@@ -68595,17 +68547,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IND.6_1",
-        "GID_0": "IND",
-        "COUNTRY": "India",
-        "NAME_1": "Chandigarh",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "UnionTerritor",
-        "ENGTYPE_1": "UnionTerritory",
-        "CC_1": "NA",
-        "HASC_1": "IN.CH",
-        "ISO_1": "IN-CH"
+        "Country": "India",
+        "Name_1": "Chandigarh",
+        "Type": "UnionTerritory"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -68828,17 +68772,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IND.7_1",
-        "GID_0": "IND",
-        "COUNTRY": "India",
-        "NAME_1": "Chhattisgarh",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "IN.CT",
-        "ISO_1": "IN-CT"
+        "Country": "India",
+        "Name_1": "Chhattisgarh",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -78477,17 +78413,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IND.8_1",
-        "GID_0": "IND",
-        "COUNTRY": "India",
-        "NAME_1": "DadraandNagarHaveli",
-        "VARNAME_1": "DAdraetNagarHaveli|DadraeNa",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "UnionTerritor",
-        "ENGTYPE_1": "UnionTerritory",
-        "CC_1": "NA",
-        "HASC_1": "IN.DN",
-        "ISO_1": "IN-DN"
+        "Country": "India",
+        "Name_1": "Dadraand Nagar Haveli",
+        "Type": "UnionTerritory"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -79154,17 +79082,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IND.9_1",
-        "GID_0": "IND",
-        "COUNTRY": "India",
-        "NAME_1": "DamanandDiu",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "UnionTerritor",
-        "ENGTYPE_1": "UnionTerritory",
-        "CC_1": "NA",
-        "HASC_1": "IN.DD",
-        "ISO_1": "NA"
+        "Country": "India",
+        "Name_1": "Damanand Diu",
+        "Type": "UnionTerritory"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -79547,17 +79467,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IND.10_1",
-        "GID_0": "IND",
-        "COUNTRY": "India",
-        "NAME_1": "Goa",
-        "VARNAME_1": "Gôa",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "IN.GA",
-        "ISO_1": "IN-GA"
+        "Country": "India",
+        "Name_1": "Goa",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -81672,17 +81584,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IND.11_1",
-        "GID_0": "IND",
-        "COUNTRY": "India",
-        "NAME_1": "Gujarat",
-        "VARNAME_1": "Goudjerate|Gujerat|Gujerate",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "IN.GJ",
-        "ISO_1": "IN-GJ"
+        "Country": "India",
+        "Name_1": "Gujarat",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -96115,7 +96019,7 @@
               ],
               [
                 68.7509,
-                24.0
+                24
               ],
               [
                 68.7596,
@@ -113897,17 +113801,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IND.12_1",
-        "GID_0": "IND",
-        "COUNTRY": "India",
-        "NAME_1": "Haryana",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "IN.HR",
-        "ISO_1": "IN-HR"
+        "Country": "India",
+        "Name_1": "Haryana",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -117895,7 +117791,7 @@
                 30.8049
               ],
               [
-                77.0,
+                77,
                 30.789
               ],
               [
@@ -121038,17 +120934,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IND.13_1",
-        "GID_0": "IND",
-        "COUNTRY": "India",
-        "NAME_1": "HimachalPradesh",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "UnionTerritor",
-        "ENGTYPE_1": "UnionTerritory",
-        "CC_1": "NA",
-        "HASC_1": "IN.HP",
-        "ISO_1": "IN-HP"
+        "Country": "India",
+        "Name_1": "Himachal Pradesh",
+        "Type": "UnionTerritory"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -121408,7 +121296,7 @@
                 30.7771
               ],
               [
-                77.0,
+                77,
                 30.789
               ],
               [
@@ -125667,17 +125555,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "Z04.13_1",
-        "GID_0": "Z04",
-        "COUNTRY": "India",
-        "NAME_1": "HimachalPradesh",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "UnionTerritor",
-        "ENGTYPE_1": "UnionTerritory",
-        "CC_1": "NA",
-        "HASC_1": "IN.HP",
-        "ISO_1": "NA"
+        "Country": "India",
+        "Name_1": "Himachal Pradesh",
+        "Type": "UnionTerritory"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -125972,17 +125852,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "Z09.13_1",
-        "GID_0": "Z09",
-        "COUNTRY": "India",
-        "NAME_1": "HimachalPradesh",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "UnionTerritor",
-        "ENGTYPE_1": "UnionTerritory",
-        "CC_1": "NA",
-        "HASC_1": "IN.HP",
-        "ISO_1": "NA"
+        "Country": "India",
+        "Name_1": "Himachal Pradesh",
+        "Type": "UnionTerritory"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -126213,17 +126085,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "Z01.14_1",
-        "GID_0": "Z01",
-        "COUNTRY": "India",
-        "NAME_1": "JammuandKashmir",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "IN.JK",
-        "ISO_1": "NA"
+        "Country": "India",
+        "Name_1": "Jammuand Kashmir",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -126255,7 +126119,7 @@
                 32.4633
               ],
               [
-                75.0,
+                75,
                 32.4591
               ],
               [
@@ -126811,7 +126675,7 @@
                 33.5747
               ],
               [
-                74.0,
+                74,
                 33.6237
               ],
               [
@@ -126827,7 +126691,7 @@
                 33.7403
               ],
               [
-                74.0,
+                74,
                 33.7526
               ],
               [
@@ -126947,7 +126811,7 @@
                 34.0224
               ],
               [
-                74.0,
+                74,
                 34.0302
               ],
               [
@@ -127071,7 +126935,7 @@
                 34.6967
               ],
               [
-                74.0,
+                74,
                 34.7082
               ],
               [
@@ -130634,17 +130498,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IND.15_1",
-        "GID_0": "IND",
-        "COUNTRY": "India",
-        "NAME_1": "Jharkhand",
-        "VARNAME_1": "Vananchal",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "IN.JH",
-        "ISO_1": "IN-JH"
+        "Country": "India",
+        "Name_1": "Jharkhand",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -134248,7 +134104,7 @@
                 24.7476
               ],
               [
-                86.0,
+                86,
                 24.7514
               ],
               [
@@ -137041,7 +136897,7 @@
               ],
               [
                 87.4502,
-                24.0
+                24
               ],
               [
                 87.4584,
@@ -141139,17 +140995,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IND.16_1",
-        "GID_0": "IND",
-        "COUNTRY": "India",
-        "NAME_1": "Karnataka",
-        "VARNAME_1": "Maisur|Mysore",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "IN.KA",
-        "ISO_1": "IN-KA"
+        "Country": "India",
+        "Name_1": "Karnataka",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -150730,7 +150578,7 @@
               ],
               [
                 77.0788,
-                15.0
+                15
               ],
               [
                 77.041,
@@ -156752,17 +156600,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IND.17_1",
-        "GID_0": "IND",
-        "COUNTRY": "India",
-        "NAME_1": "Kerala",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "IN.KL",
-        "ISO_1": "IN-KL"
+        "Country": "India",
+        "Name_1": "Kerala",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -166755,7 +166595,7 @@
               ],
               [
                 77.1342,
-                9.0
+                9
               ],
               [
                 77.1373,
@@ -168569,17 +168409,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IND.18_1",
-        "GID_0": "IND",
-        "COUNTRY": "India",
-        "NAME_1": "Lakshadweep",
-        "VARNAME_1": "ÍlesLaquedives|Laccadive|Minico",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "UnionTerritor",
-        "ENGTYPE_1": "UnionTerritory",
-        "CC_1": "NA",
-        "HASC_1": "IN.LD",
-        "ISO_1": "IN-LD"
+        "Country": "India",
+        "Name_1": "Lakshadweep",
+        "Type": "UnionTerritory"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -169578,17 +169410,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IND.19_1",
-        "GID_0": "IND",
-        "COUNTRY": "India",
-        "NAME_1": "MadhyaPradesh",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "IN.MP",
-        "ISO_1": "IN-MP"
+        "Country": "India",
+        "Name_1": "Madhya Pradesh",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -184760,7 +184584,7 @@
                 24.9371
               ],
               [
-                81.0,
+                81,
                 24.9402
               ],
               [
@@ -190212,7 +190036,7 @@
                 21.6015
               ],
               [
-                79.0,
+                79,
                 21.6098
               ],
               [
@@ -191931,17 +191755,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IND.20_1",
-        "GID_0": "IND",
-        "COUNTRY": "India",
-        "NAME_1": "Maharashtra",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "IN.MH",
-        "ISO_1": "IN-MH"
+        "Country": "India",
+        "Name_1": "Maharashtra",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -204045,7 +203861,7 @@
                 21.6187
               ],
               [
-                79.0,
+                79,
                 21.6098
               ],
               [
@@ -212716,17 +212532,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IND.21_1",
-        "GID_0": "IND",
-        "COUNTRY": "India",
-        "NAME_1": "Manipur",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "IN.MN",
-        "ISO_1": "IN-MN"
+        "Country": "India",
+        "Name_1": "Manipur",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -215897,17 +215705,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IND.22_1",
-        "GID_0": "IND",
-        "COUNTRY": "India",
-        "NAME_1": "Meghalaya",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "IN.ML",
-        "ISO_1": "IN-ML"
+        "Country": "India",
+        "Name_1": "Meghalaya",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -221078,17 +220878,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IND.23_1",
-        "GID_0": "IND",
-        "COUNTRY": "India",
-        "NAME_1": "Mizoram",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "IN.MZ",
-        "ISO_1": "IN-MZ"
+        "Country": "India",
+        "Name_1": "Mizoram",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -222200,7 +221992,7 @@
                 22.0556
               ],
               [
-                93.0,
+                93,
                 22.0504
               ],
               [
@@ -226339,17 +226131,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IND.24_1",
-        "GID_0": "IND",
-        "COUNTRY": "India",
-        "NAME_1": "Nagaland",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "IN.NL",
-        "ISO_1": "IN-NL"
+        "Country": "India",
+        "Name_1": "Nagaland",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -229860,17 +229644,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IND.25_1",
-        "GID_0": "IND",
-        "COUNTRY": "India",
-        "NAME_1": "NCTofDelhi",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "UnionTerritor",
-        "ENGTYPE_1": "UnionTerritory",
-        "CC_1": "NA",
-        "HASC_1": "IN.DL",
-        "ISO_1": "NA"
+        "Country": "India",
+        "Name_1": "N C Tof Delhi",
+        "Type": "UnionTerritory"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -230609,17 +230385,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IND.26_1",
-        "GID_0": "IND",
-        "COUNTRY": "India",
-        "NAME_1": "Odisha",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "IN.OR",
-        "ISO_1": "IN-OR"
+        "Country": "India",
+        "Name_1": "Odisha",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -237915,7 +237683,7 @@
                 20.6985
               ],
               [
-                87.0,
+                87,
                 20.6967
               ],
               [
@@ -237927,7 +237695,7 @@
                 20.6982
               ],
               [
-                87.0,
+                87,
                 20.6953
               ],
               [
@@ -238996,7 +238764,7 @@
               ],
               [
                 86.4111,
-                20.0
+                20
               ],
               [
                 86.4075,
@@ -241488,7 +241256,7 @@
               ],
               [
                 83.3888,
-                19.0
+                19
               ],
               [
                 83.3772,
@@ -243896,7 +243664,7 @@
               ],
               [
                 86.3367,
-                20.0
+                20
               ],
               [
                 86.3356,
@@ -245698,17 +245466,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IND.27_1",
-        "GID_0": "IND",
-        "COUNTRY": "India",
-        "NAME_1": "Puducherry",
-        "VARNAME_1": "Pondicherry|Puduchcheri|Pondiché",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "UnionTerritor",
-        "ENGTYPE_1": "UnionTerritory",
-        "CC_1": "NA",
-        "HASC_1": "IN.PY",
-        "ISO_1": "IN-PY"
+        "Country": "India",
+        "Name_1": "Puducherry",
+        "Type": "UnionTerritory"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -247599,17 +247359,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IND.28_1",
-        "GID_0": "IND",
-        "COUNTRY": "India",
-        "NAME_1": "Punjab",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "IN.PB",
-        "ISO_1": "IN-PB"
+        "Country": "India",
+        "Name_1": "Punjab",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -252648,17 +252400,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IND.29_1",
-        "GID_0": "IND",
-        "COUNTRY": "India",
-        "NAME_1": "Rajasthan",
-        "VARNAME_1": "GreaterRajasthan|Rajputana",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "IN.RJ",
-        "ISO_1": "IN-RJ"
+        "Country": "India",
+        "Name_1": "Rajasthan",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -255490,7 +255234,7 @@
                 29.1163
               ],
               [
-                73.0,
+                73,
                 29.1474
               ],
               [
@@ -266757,17 +266501,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IND.30_1",
-        "GID_0": "IND",
-        "COUNTRY": "India",
-        "NAME_1": "Sikkim",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "IN.SK",
-        "ISO_1": "IN-SK"
+        "Country": "India",
+        "Name_1": "Sikkim",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -268398,17 +268134,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IND.31_1",
-        "GID_0": "IND",
-        "COUNTRY": "India",
-        "NAME_1": "TamilNadu",
-        "VARNAME_1": "Madras|Tamilnad",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "IN.TN",
-        "ISO_1": "IN-TN"
+        "Country": "India",
+        "Name_1": "Tamil Nadu",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -269197,7 +268925,7 @@
               ],
               [
                 77.1342,
-                9.0
+                9
               ],
               [
                 77.1351,
@@ -283211,17 +282939,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IND.32_1",
-        "GID_0": "IND",
-        "COUNTRY": "India",
-        "NAME_1": "Telangana",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "IN.TG",
-        "ISO_1": "IN-TG"
+        "Country": "India",
+        "Name_1": "Telangana",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -289808,17 +289528,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IND.33_1",
-        "GID_0": "IND",
-        "COUNTRY": "India",
-        "NAME_1": "Tripura",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "IN.TR",
-        "ISO_1": "IN-TR"
+        "Country": "India",
+        "Name_1": "Tripura",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -293126,7 +292838,7 @@
                 23.6709
               ],
               [
-                92.0,
+                92,
                 23.6713
               ],
               [
@@ -294921,17 +294633,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IND.34_1",
-        "GID_0": "IND",
-        "COUNTRY": "India",
-        "NAME_1": "UttarPradesh",
-        "VARNAME_1": "UnitedProvinces",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "IN.UP",
-        "ISO_1": "IN-UP"
+        "Country": "India",
+        "Name_1": "Uttar Pradesh",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -297275,7 +296979,7 @@
                 24.9325
               ],
               [
-                81.0,
+                81,
                 24.9402
               ],
               [
@@ -313207,7 +312911,7 @@
                 25.6161
               ],
               [
-                84.0,
+                84,
                 25.6077
               ],
               [
@@ -314454,17 +314158,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IND.35_1",
-        "GID_0": "IND",
-        "COUNTRY": "India",
-        "NAME_1": "Uttarakhand",
-        "VARNAME_1": "Uttarakhand",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "IN.UT",
-        "ISO_1": "IN-UT"
+        "Country": "India",
+        "Name_1": "Uttarakhand",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -318144,7 +317840,7 @@
                 30.2406
               ],
               [
-                81.0,
+                81,
                 30.2451
               ],
               [
@@ -319707,17 +319403,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "Z05.35_1",
-        "GID_0": "Z05",
-        "COUNTRY": "India",
-        "NAME_1": "Uttarakhand",
-        "VARNAME_1": "Uttarakhand",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "IN.UT",
-        "ISO_1": "NA"
+        "Country": "India",
+        "Name_1": "Uttarakhand",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -320084,17 +319772,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "Z09.35_1",
-        "GID_0": "Z09",
-        "COUNTRY": "India",
-        "NAME_1": "Uttarakhand",
-        "VARNAME_1": "Uttarakhand",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "IN.UT",
-        "ISO_1": "NA"
+        "Country": "India",
+        "Name_1": "Uttarakhand",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -320513,17 +320193,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "IND.36_1",
-        "GID_0": "IND",
-        "COUNTRY": "India",
-        "NAME_1": "WestBengal",
-        "VARNAME_1": "Bangla|BengalaOccidentale|Benga",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "State",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "IN.WB",
-        "ISO_1": "IN-WB"
+        "Country": "India",
+        "Name_1": "West Bengal",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -322683,7 +322355,7 @@
                 21.6034
               ],
               [
-                89.0,
+                89,
                 21.6017
               ],
               [
@@ -323335,7 +323007,7 @@
                 21.7161
               ],
               [
-                89.0,
+                89,
                 21.7172
               ],
               [
@@ -323443,7 +323115,7 @@
                 21.7658
               ],
               [
-                89.0,
+                89,
                 21.7658
               ],
               [
@@ -325092,11 +324764,11 @@
               ],
               [
                 88.9311,
-                22.0
+                22
               ],
               [
                 88.9461,
-                22.0
+                22
               ],
               [
                 88.9464,
@@ -326748,7 +326420,7 @@
               ],
               [
                 88.6411,
-                22.0
+                22
               ],
               [
                 88.641,
@@ -333860,7 +333532,7 @@
               ],
               [
                 87.4502,
-                24.0
+                24
               ],
               [
                 87.4433,
@@ -341911,7 +341583,7 @@
                 26.3247
               ],
               [
-                89.0,
+                89,
                 26.3248
               ],
               [
@@ -359547,7 +359219,7 @@
                 22.3211
               ],
               [
-                89.0,
+                89,
                 22.3233
               ],
               [
@@ -359575,7 +359247,7 @@
                 22.2989
               ],
               [
-                89.0,
+                89,
                 22.2981
               ],
               [
@@ -359711,7 +359383,7 @@
                 22.2107
               ],
               [
-                89.0,
+                89,
                 22.2119
               ],
               [

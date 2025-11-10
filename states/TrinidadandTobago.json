@@ -11,8 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "TTO",
-        "COUNTRY": "TrinidadandTobago"
+        "Country": "TrinidadandTobago",
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",

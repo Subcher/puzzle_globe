@@ -11,8 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "FRO",
-        "COUNTRY": "FaroeIslands"
+        "Country": "FaroeIslands",
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4176,7 +4177,7 @@
                 62.1896
               ],
               [
-                -7.0,
+                -7,
                 62.1917
               ],
               [

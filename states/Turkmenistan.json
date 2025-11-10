@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TKM.1_1",
-        "GID_0": "TKM",
-        "COUNTRY": "Turkmenistan",
-        "NAME_1": "Ahal",
-        "VARNAME_1": "Akhal|Ashkhabad|AshkhabadskayaO",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Welayat",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TM.AL",
-        "ISO_1": "TM-A"
+        "Country": "Turkmenistan",
+        "Name_1": "Ahal",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -457,11 +449,11 @@
                 37.0397
               ],
               [
-                60.0,
+                60,
                 37.0395
               ],
               [
-                60.0,
+                60,
                 37.0314
               ],
               [
@@ -2150,17 +2142,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TKM.2_1",
-        "GID_0": "TKM",
-        "COUNTRY": "Turkmenistan",
-        "NAME_1": "Aşgabat",
-        "VARNAME_1": "Ashgabat",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "CaptialCityDistrict",
-        "ENGTYPE_1": "CaptialCityDistrict",
-        "CC_1": "NA",
-        "HASC_1": "TM.AB",
-        "ISO_1": "NA"
+        "Country": "Turkmenistan",
+        "Name_1": "Aşgabat",
+        "Type": "CaptialCityDistrict"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2375,17 +2359,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TKM.3_1",
-        "GID_0": "TKM",
-        "COUNTRY": "Turkmenistan",
-        "NAME_1": "Balkan",
-        "VARNAME_1": "Krasnovodsk,KrasnovodskayaObla",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Welayat",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TM.BA",
-        "ISO_1": "TM-B"
+        "Country": "Turkmenistan",
+        "Name_1": "Balkan",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3218,7 +3194,7 @@
               ],
               [
                 53.1918,
-                40.0
+                40
               ],
               [
                 53.1745,
@@ -3242,7 +3218,7 @@
               ],
               [
                 53.131,
-                40.0
+                40
               ],
               [
                 53.1328,
@@ -3278,11 +3254,11 @@
               ],
               [
                 53.0685,
-                40.0
+                40
               ],
               [
                 52.9036,
-                40.0
+                40
               ],
               [
                 52.9082,
@@ -3426,7 +3402,7 @@
               ],
               [
                 52.7974,
-                40.0
+                40
               ],
               [
                 52.7911,
@@ -3434,7 +3410,7 @@
               ],
               [
                 52.772,
-                40.0
+                40
               ],
               [
                 52.7674,
@@ -4245,7 +4221,7 @@
                 41.8014
               ],
               [
-                55.0,
+                55,
                 41.7797
               ],
               [
@@ -7660,17 +7636,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TKM.6_1",
-        "GID_0": "TKM",
-        "COUNTRY": "Turkmenistan",
-        "NAME_1": "Daşoguz",
-        "VARNAME_1": "Dashoguz|Tashauz|Dashhowuz|Dashk",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Welayat",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TM.DA",
-        "ISO_1": "NA"
+        "Country": "Turkmenistan",
+        "Name_1": "Daşoguz",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9421,17 +9389,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TKM.4_1",
-        "GID_0": "TKM",
-        "COUNTRY": "Turkmenistan",
-        "NAME_1": "Lebap",
-        "VARNAME_1": "ChardzhouskayaOblast",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Welayat",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TM.LE",
-        "ISO_1": "TM-L"
+        "Country": "Turkmenistan",
+        "Name_1": "Lebap",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10954,17 +10914,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TKM.5_1",
-        "GID_0": "TKM",
-        "COUNTRY": "Turkmenistan",
-        "NAME_1": "Mary",
-        "VARNAME_1": "Maruy|Marysk|MaryyskayaOblast",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Welayat",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TM.MA",
-        "ISO_1": "TM-M"
+        "Country": "Turkmenistan",
+        "Name_1": "Mary",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",

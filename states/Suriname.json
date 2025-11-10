@@ -11,8 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "SUR",
-        "COUNTRY": "Suriname"
+        "Country": "Suriname",
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1192,11 +1193,11 @@
                 3.8893
               ],
               [
-                -58.0,
+                -58,
                 3.8936
               ],
               [
-                -58.0,
+                -58,
                 3.9286
               ],
               [
@@ -1264,11 +1265,11 @@
                 4.2686
               ],
               [
-                -58.0,
+                -58,
                 4.2809
               ],
               [
-                -58.0,
+                -58,
                 4.3264
               ],
               [

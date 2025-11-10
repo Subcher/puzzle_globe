@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SYC.1_1",
-        "GID_0": "SYC",
-        "COUNTRY": "Seychelles",
-        "NAME_1": "AnseauxPins",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "SC.PI",
-        "ISO_1": "SC-01"
+        "Country": "Seychelles",
+        "Name_1": "Anseaux Pins",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -80,17 +72,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SYC.2_1",
-        "GID_0": "SYC",
-        "COUNTRY": "Seychelles",
-        "NAME_1": "AnseBoileau",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "SC.AB",
-        "ISO_1": "SC-02"
+        "Country": "Seychelles",
+        "Name_1": "Anse Boileau",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -205,17 +189,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SYC.3_1",
-        "GID_0": "SYC",
-        "COUNTRY": "Seychelles",
-        "NAME_1": "AnseÉtoile",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "SC.ET",
-        "ISO_1": "NA"
+        "Country": "Seychelles",
+        "Name_1": "AnseÉtoile",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -334,17 +310,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SYC.4_1",
-        "GID_0": "SYC",
-        "COUNTRY": "Seychelles",
-        "NAME_1": "AnseRoyale",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "SC.RO",
-        "ISO_1": "SC-05"
+        "Country": "Seychelles",
+        "Name_1": "Anse Royale",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -443,17 +411,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SYC.5_1",
-        "GID_0": "SYC",
-        "COUNTRY": "Seychelles",
-        "NAME_1": "AuCap",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "SC.LO",
-        "ISO_1": "NA"
+        "Country": "Seychelles",
+        "Name_1": "Au Cap",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -532,17 +492,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SYC.6_1",
-        "GID_0": "SYC",
-        "COUNTRY": "Seychelles",
-        "NAME_1": "BaieLazare",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "SC.BL",
-        "ISO_1": "SC-06"
+        "Country": "Seychelles",
+        "Name_1": "Baie Lazare",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -693,17 +645,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SYC.7_1",
-        "GID_0": "SYC",
-        "COUNTRY": "Seychelles",
-        "NAME_1": "BaieSainteAnne",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "SC.BS",
-        "ISO_1": "SC-07"
+        "Country": "Seychelles",
+        "Name_1": "Baie Sainte Anne",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1070,17 +1014,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SYC.8_1",
-        "GID_0": "SYC",
-        "COUNTRY": "Seychelles",
-        "NAME_1": "BeauVallon",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "SC.BV",
-        "ISO_1": "SC-08"
+        "Country": "Seychelles",
+        "Name_1": "Beau Vallon",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1171,17 +1107,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SYC.9_1",
-        "GID_0": "SYC",
-        "COUNTRY": "Seychelles",
-        "NAME_1": "BelAir",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "SC.BA",
-        "ISO_1": "NA"
+        "Country": "Seychelles",
+        "Name_1": "Bel Air",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1304,17 +1232,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SYC.10_1",
-        "GID_0": "SYC",
-        "COUNTRY": "Seychelles",
-        "NAME_1": "Belombre",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "SC.BO",
-        "ISO_1": "NA"
+        "Country": "Seychelles",
+        "Name_1": "Belombre",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1433,17 +1353,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SYC.11_1",
-        "GID_0": "SYC",
-        "COUNTRY": "Seychelles",
-        "NAME_1": "Cascade",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "SC.CA",
-        "ISO_1": "SC-11"
+        "Country": "Seychelles",
+        "Name_1": "Cascade",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1546,17 +1458,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SYC.12_1",
-        "GID_0": "SYC",
-        "COUNTRY": "Seychelles",
-        "NAME_1": "EnglishRiver",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "SC.RA",
-        "ISO_1": "SC-16"
+        "Country": "Seychelles",
+        "Name_1": "English River",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1619,17 +1523,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SYC.13_1",
-        "GID_0": "SYC",
-        "COUNTRY": "Seychelles",
-        "NAME_1": "Glacis",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "SC.GL",
-        "ISO_1": "NA"
+        "Country": "Seychelles",
+        "Name_1": "Glacis",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1744,17 +1640,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SYC.14_1",
-        "GID_0": "SYC",
-        "COUNTRY": "Seychelles",
-        "NAME_1": "Grand'Anse",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "SC.GM",
-        "ISO_1": "NA"
+        "Country": "Seychelles",
+        "Name_1": "Grand' Anse",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1885,17 +1773,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SYC.15_1",
-        "GID_0": "SYC",
-        "COUNTRY": "Seychelles",
-        "NAME_1": "Grand'AnsePraslin",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "SC.GP",
-        "ISO_1": "NA"
+        "Country": "Seychelles",
+        "Name_1": "Grand' Anse Praslin",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2094,17 +1974,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SYC.16_1",
-        "GID_0": "SYC",
-        "COUNTRY": "Seychelles",
-        "NAME_1": "LaDigueandInnerIslands",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "SC.DI",
-        "ISO_1": "NA"
+        "Country": "Seychelles",
+        "Name_1": "La Digueand Inner Islands",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2851,17 +2723,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SYC.17_1",
-        "GID_0": "SYC",
-        "COUNTRY": "Seychelles",
-        "NAME_1": "LesMamelles",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "SC.LM",
-        "ISO_1": "NA"
+        "Country": "Seychelles",
+        "Name_1": "Les Mamelles",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2916,17 +2780,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SYC.18_1",
-        "GID_0": "SYC",
-        "COUNTRY": "Seychelles",
-        "NAME_1": "MontBuxton",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "SC.MB",
-        "ISO_1": "NA"
+        "Country": "Seychelles",
+        "Name_1": "Mont Buxton",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2969,17 +2825,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SYC.19_1",
-        "GID_0": "SYC",
-        "COUNTRY": "Seychelles",
-        "NAME_1": "MontFleuri",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "SC.MF",
-        "ISO_1": "NA"
+        "Country": "Seychelles",
+        "Name_1": "Mont Fleuri",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3254,17 +3102,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SYC.20_1",
-        "GID_0": "SYC",
-        "COUNTRY": "Seychelles",
-        "NAME_1": "OuterIslands",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "OuterIslands",
-        "ENGTYPE_1": "OuterIslands",
-        "CC_1": "NA",
-        "HASC_1": "SC.OI",
-        "ISO_1": "NA"
+        "Country": "Seychelles",
+        "Name_1": "Outer Islands",
+        "Type": "OuterIslands"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6903,17 +6743,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SYC.21_1",
-        "GID_0": "SYC",
-        "COUNTRY": "Seychelles",
-        "NAME_1": "Plaisance",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "SC.PL",
-        "ISO_1": "NA"
+        "Country": "Seychelles",
+        "Name_1": "Plaisance",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6980,17 +6812,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SYC.22_1",
-        "GID_0": "SYC",
-        "COUNTRY": "Seychelles",
-        "NAME_1": "PointeLaRue",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "SC.PR",
-        "ISO_1": "NA"
+        "Country": "Seychelles",
+        "Name_1": "Pointe La Rue",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7121,17 +6945,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SYC.23_1",
-        "GID_0": "SYC",
-        "COUNTRY": "Seychelles",
-        "NAME_1": "PortGlaud",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "SC.PG",
-        "ISO_1": "NA"
+        "Country": "Seychelles",
+        "Name_1": "Port Glaud",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7538,17 +7354,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SYC.24_1",
-        "GID_0": "SYC",
-        "COUNTRY": "Seychelles",
-        "NAME_1": "RocheCaïman",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "SC.RC",
-        "ISO_1": "NA"
+        "Country": "Seychelles",
+        "Name_1": "Roche Caïman",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7671,17 +7479,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SYC.25_1",
-        "GID_0": "SYC",
-        "COUNTRY": "Seychelles",
-        "NAME_1": "SaintLouis",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "SC.SL",
-        "ISO_1": "NA"
+        "Country": "Seychelles",
+        "Name_1": "Saint Louis",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7736,17 +7536,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SYC.26_1",
-        "GID_0": "SYC",
-        "COUNTRY": "Seychelles",
-        "NAME_1": "Takamaka",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "SC.TA",
-        "ISO_1": "SC-23"
+        "Country": "Seychelles",
+        "Name_1": "Takamaka",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",

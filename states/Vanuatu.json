@@ -11,8 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "VUT",
-        "COUNTRY": "Vanuatu"
+        "Country": "Vanuatu",
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1600,7 +1601,7 @@
                 -18.8381
               ],
               [
-                169.0,
+                169,
                 -18.8361
               ],
               [
@@ -6917,7 +6918,7 @@
               ],
               [
                 168.2025,
-                -16.0
+                -16
               ],
               [
                 168.1892,

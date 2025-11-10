@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SWE.1_1",
-        "GID_0": "SWE",
-        "COUNTRY": "Sweden",
-        "NAME_1": "Blekinge",
-        "VARNAME_1": "Blekingelän",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Län",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "SE.BL",
-        "ISO_1": "NA"
+        "Country": "Sweden",
+        "Name_1": "Blekinge",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10808,17 +10800,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SWE.2_1",
-        "GID_0": "SWE",
-        "COUNTRY": "Sweden",
-        "NAME_1": "Dalarna",
-        "VARNAME_1": "Dalecarlia|Kopparberg",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Län",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "SE.KO",
-        "ISO_1": "NA"
+        "Country": "Sweden",
+        "Name_1": "Dalarna",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -16933,17 +16917,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SWE.3_1",
-        "GID_0": "SWE",
-        "COUNTRY": "Sweden",
-        "NAME_1": "Gävleborg",
-        "VARNAME_1": "Gävleborgslän",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Län",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "SE.GV",
-        "ISO_1": "NA"
+        "Country": "Sweden",
+        "Name_1": "Gävleborg",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -23260,11 +23236,11 @@
               ],
               [
                 17.225,
-                61.0
+                61
               ],
               [
                 17.2208,
-                61.0
+                61
               ],
               [
                 17.2161,
@@ -26898,17 +26874,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SWE.4_1",
-        "GID_0": "SWE",
-        "COUNTRY": "Sweden",
-        "NAME_1": "Gotland",
-        "VARNAME_1": "Gotlandslän|Gothland|Gottland",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Län",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "SE.GT",
-        "ISO_1": "NA"
+        "Country": "Sweden",
+        "Name_1": "Gotland",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -33335,17 +33303,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SWE.5_1",
-        "GID_0": "SWE",
-        "COUNTRY": "Sweden",
-        "NAME_1": "Halland",
-        "VARNAME_1": "Hallandslän",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Län",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "SE.HA",
-        "ISO_1": "NA"
+        "Country": "Sweden",
+        "Name_1": "Halland",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -40336,17 +40296,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SWE.6_1",
-        "GID_0": "SWE",
-        "COUNTRY": "Sweden",
-        "NAME_1": "Jämtland",
-        "VARNAME_1": "Jämtlandslän",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Län",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "SE.JA",
-        "ISO_1": "NA"
+        "Country": "Sweden",
+        "Name_1": "Jämtland",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -45018,7 +44970,7 @@
                 63.5482
               ],
               [
-                16.0,
+                16,
                 63.5213
               ],
               [
@@ -48997,17 +48949,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SWE.7_1",
-        "GID_0": "SWE",
-        "COUNTRY": "Sweden",
-        "NAME_1": "Jönköping",
-        "VARNAME_1": "Jönköpingslän",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Län",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "SE.JO",
-        "ISO_1": "NA"
+        "Country": "Sweden",
+        "Name_1": "Jönköping",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -53046,17 +52990,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SWE.8_1",
-        "GID_0": "SWE",
-        "COUNTRY": "Sweden",
-        "NAME_1": "Kalmar",
-        "VARNAME_1": "Kalmarlän",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Län",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "SE.KA",
-        "ISO_1": "NA"
+        "Country": "Sweden",
+        "Name_1": "Kalmar",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -81791,17 +81727,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SWE.9_1",
-        "GID_0": "SWE",
-        "COUNTRY": "Sweden",
-        "NAME_1": "Kronoberg",
-        "VARNAME_1": "Kronobergslän",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Län",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "SE.KR",
-        "ISO_1": "NA"
+        "Country": "Sweden",
+        "Name_1": "Kronoberg",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -85016,17 +84944,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SWE.10_1",
-        "GID_0": "SWE",
-        "COUNTRY": "Sweden",
-        "NAME_1": "Norrbotten",
-        "VARNAME_1": "Norrbottenslän",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Län",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "SE.NB",
-        "ISO_1": "NA"
+        "Country": "Sweden",
+        "Name_1": "Norrbotten",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -86686,7 +86606,7 @@
                 65.4708
               ],
               [
-                22.0,
+                22,
                 65.4688
               ],
               [
@@ -89078,11 +88998,11 @@
                 65.3512
               ],
               [
-                20.0,
+                20,
                 65.3512
               ],
               [
-                20.0,
+                20,
                 65.3557
               ],
               [
@@ -92115,7 +92035,7 @@
               ],
               [
                 16.2459,
-                67.0
+                67
               ],
               [
                 16.2574,
@@ -94078,11 +93998,11 @@
                 68.3929
               ],
               [
-                20.0,
+                20,
                 68.3929
               ],
               [
-                20.0,
+                20,
                 68.3974
               ],
               [
@@ -94310,11 +94230,11 @@
                 68.5371
               ],
               [
-                20.0,
+                20,
                 68.5371
               ],
               [
-                20.0,
+                20,
                 68.5416
               ],
               [
@@ -94374,11 +94294,11 @@
                 68.5731
               ],
               [
-                20.0,
+                20,
                 68.5731
               ],
               [
-                20.0,
+                20,
                 68.5776
               ],
               [
@@ -97566,7 +97486,7 @@
                 66.0345
               ],
               [
-                24.0,
+                24,
                 66.0342
               ],
               [
@@ -102118,7 +102038,7 @@
                 65.3662
               ],
               [
-                22.0,
+                22,
                 65.3667
               ],
               [
@@ -102126,7 +102046,7 @@
                 65.3641
               ],
               [
-                22.0,
+                22,
                 65.3604
               ],
               [
@@ -106690,7 +106610,7 @@
                 65.6745
               ],
               [
-                23.0,
+                23,
                 65.675
               ],
               [
@@ -110989,17 +110909,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SWE.11_1",
-        "GID_0": "SWE",
-        "COUNTRY": "Sweden",
-        "NAME_1": "Orebro",
-        "VARNAME_1": "Örebro|Örebrolän",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Län",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "SE.OR",
-        "ISO_1": "NA"
+        "Country": "Sweden",
+        "Name_1": "Orebro",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -113694,17 +113606,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SWE.12_1",
-        "GID_0": "SWE",
-        "COUNTRY": "Sweden",
-        "NAME_1": "Östergötland",
-        "VARNAME_1": "Östergötlandslän",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Län",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "SE.OG",
-        "ISO_1": "NA"
+        "Country": "Sweden",
+        "Name_1": "Östergötland",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -135871,17 +135775,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SWE.13_1",
-        "GID_0": "SWE",
-        "COUNTRY": "Sweden",
-        "NAME_1": "Skåne",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Län",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "SE.SN",
-        "ISO_1": "NA"
+        "Country": "Sweden",
+        "Name_1": "Skåne",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -140780,17 +140676,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SWE.14_1",
-        "GID_0": "SWE",
-        "COUNTRY": "Sweden",
-        "NAME_1": "Södermanland",
-        "VARNAME_1": "Södermanlandslän|Sörmland",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Län",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "SE.SD",
-        "ISO_1": "NA"
+        "Country": "Sweden",
+        "Name_1": "Södermanland",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -152797,17 +152685,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SWE.15_1",
-        "GID_0": "SWE",
-        "COUNTRY": "Sweden",
-        "NAME_1": "Stockholm",
-        "VARNAME_1": "Stockholmslän|Estocolmo|Stoccol",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Län",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "SE.ST",
-        "ISO_1": "NA"
+        "Country": "Sweden",
+        "Name_1": "Stockholm",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -218542,17 +218422,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SWE.16_1",
-        "GID_0": "SWE",
-        "COUNTRY": "Sweden",
-        "NAME_1": "Uppsala",
-        "VARNAME_1": "Uppsalalän",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Län",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "SE.UP",
-        "ISO_1": "NA"
+        "Country": "Sweden",
+        "Name_1": "Uppsala",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -225727,17 +225599,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SWE.17_1",
-        "GID_0": "SWE",
-        "COUNTRY": "Sweden",
-        "NAME_1": "Värmland",
-        "VARNAME_1": "Värmlandslän",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Län",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "SE.VR",
-        "ISO_1": "NA"
+        "Country": "Sweden",
+        "Name_1": "Värmland",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -230172,17 +230036,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SWE.18_1",
-        "GID_0": "SWE",
-        "COUNTRY": "Sweden",
-        "NAME_1": "Västerbotten",
-        "VARNAME_1": "Västerbottenslän",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Län",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "SE.VB",
-        "ISO_1": "NA"
+        "Country": "Sweden",
+        "Name_1": "Västerbotten",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -240322,11 +240178,11 @@
                 65.3557
               ],
               [
-                20.0,
+                20,
                 65.3557
               ],
               [
-                20.0,
+                20,
                 65.3512
               ],
               [
@@ -244993,17 +244849,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SWE.19_1",
-        "GID_0": "SWE",
-        "COUNTRY": "Sweden",
-        "NAME_1": "Västernorrland",
-        "VARNAME_1": "Västernorrlandslän",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Län",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "SE.VN",
-        "ISO_1": "NA"
+        "Country": "Sweden",
+        "Name_1": "Västernorrland",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -247951,7 +247799,7 @@
                 63.521
               ],
               [
-                16.0,
+                16,
                 63.5213
               ],
               [
@@ -251776,7 +251624,7 @@
               ],
               [
                 18.2292,
-                63.0
+                63
               ],
               [
                 18.2333,
@@ -251840,11 +251688,11 @@
               ],
               [
                 18.3563,
-                63.0
+                63
               ],
               [
                 18.3688,
-                63.0
+                63
               ],
               [
                 18.3729,
@@ -251856,7 +251704,7 @@
               ],
               [
                 18.3917,
-                63.0
+                63
               ],
               [
                 18.3943,
@@ -251896,11 +251744,11 @@
               ],
               [
                 18.45,
-                63.0
+                63
               ],
               [
                 18.4771,
-                63.0
+                63
               ],
               [
                 18.4813,
@@ -253660,7 +253508,7 @@
               ],
               [
                 17.8125,
-                63.0
+                63
               ],
               [
                 17.8167,
@@ -259542,17 +259390,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SWE.20_1",
-        "GID_0": "SWE",
-        "COUNTRY": "Sweden",
-        "NAME_1": "Västmanland",
-        "VARNAME_1": "Västmanlandslän",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Län",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "SE.VM",
-        "ISO_1": "NA"
+        "Country": "Sweden",
+        "Name_1": "Västmanland",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -262423,17 +262263,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SWE.21_1",
-        "GID_0": "SWE",
-        "COUNTRY": "Sweden",
-        "NAME_1": "VästraGötaland",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Län",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "SE.VG",
-        "ISO_1": "NA"
+        "Country": "Sweden",
+        "Name_1": "Västra Götaland",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",

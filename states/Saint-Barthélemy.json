@@ -11,8 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "BLM",
-        "COUNTRY": "Saint-Barthélemy"
+        "Country": "Saint-Barthélemy",
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",

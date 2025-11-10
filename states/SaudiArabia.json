@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SAU.1_1",
-        "GID_0": "SAU",
-        "COUNTRY": "SaudiArabia",
-        "NAME_1": "'Asir",
-        "VARNAME_1": "Asir|Aseer|Assyear",
-        "NL_NAME_1": "عَسِيرٌ",
-        "TYPE_1": "Minṭaqah",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "SA.AS",
-        "ISO_1": "SA-14"
+        "Country": "SaudiArabia",
+        "Name_1": "' Asir",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7156,17 +7148,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SAU.2_1",
-        "GID_0": "SAU",
-        "COUNTRY": "SaudiArabia",
-        "NAME_1": "AlBahah",
-        "VARNAME_1": "Baha|Bahah",
-        "NL_NAME_1": "ٱلْبَاحَة‎",
-        "TYPE_1": "Minṭaqah",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "SA.BA",
-        "ISO_1": "SA-11"
+        "Country": "SaudiArabia",
+        "Name_1": "Al Bahah",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -8945,17 +8929,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SAU.3_1",
-        "GID_0": "SAU",
-        "COUNTRY": "SaudiArabia",
-        "NAME_1": "AlHududashShamaliyah",
-        "VARNAME_1": "NorthernBorders",
-        "NL_NAME_1": "الحدودالشمالية",
-        "TYPE_1": "Minṭaqah",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "SA.HS",
-        "ISO_1": "SA-08"
+        "Country": "SaudiArabia",
+        "Name_1": "Al Hududash Shamaliyah",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -12006,17 +11982,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SAU.4_1",
-        "GID_0": "SAU",
-        "COUNTRY": "SaudiArabia",
-        "NAME_1": "AlJawf",
-        "VARNAME_1": "Jawf|AlJoaf|Al-Jouf|Jowf",
-        "NL_NAME_1": "منطقةالجوف",
-        "TYPE_1": "Minṭaqah",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "SA.JF",
-        "ISO_1": "SA-12"
+        "Country": "SaudiArabia",
+        "Name_1": "Al Jawf",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -15267,17 +15235,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SAU.5_1",
-        "GID_0": "SAU",
-        "COUNTRY": "SaudiArabia",
-        "NAME_1": "AlMadinah",
-        "VARNAME_1": "Madinah|AlMadinahalMunawwarah",
-        "NL_NAME_1": "المدينة",
-        "TYPE_1": "Minṭaqah",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "SA.MD",
-        "ISO_1": "NA"
+        "Country": "SaudiArabia",
+        "Name_1": "Al Madinah",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -24856,17 +24816,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SAU.6_1",
-        "GID_0": "SAU",
-        "COUNTRY": "SaudiArabia",
-        "NAME_1": "AlQassim",
-        "VARNAME_1": "AlQuassim|Qassim|Qasim|AlGassi",
-        "NL_NAME_1": "القصيم‎",
-        "TYPE_1": "Minṭaqah",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "SA.QS",
-        "ISO_1": "NA"
+        "Country": "SaudiArabia",
+        "Name_1": "Al Qassim",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -25965,17 +25917,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SAU.7_1",
-        "GID_0": "SAU",
-        "COUNTRY": "SaudiArabia",
-        "NAME_1": "ArRiyad",
-        "VARNAME_1": "Riyad|Riad|Riyadh",
-        "NL_NAME_1": "الرياض‎",
-        "TYPE_1": "Minṭaqah",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "SA.RI",
-        "ISO_1": "SA-01"
+        "Country": "SaudiArabia",
+        "Name_1": "Ar Riyad",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -28900,7 +28844,7 @@
               ],
               [
                 45.7838,
-                27.0
+                27
               ],
               [
                 45.7905,
@@ -30468,7 +30412,7 @@
               ],
               [
                 47.8063,
-                22.0
+                22
               ],
               [
                 47.8147,
@@ -30778,17 +30722,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SAU.8_1",
-        "GID_0": "SAU",
-        "COUNTRY": "SaudiArabia",
-        "NAME_1": "Ash-Sharqīyah",
-        "VARNAME_1": "Eastern|AshSharqiyah",
-        "NL_NAME_1": "الشرقية‎",
-        "TYPE_1": "Minṭaqah",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "SA.SH",
-        "ISO_1": "NA"
+        "Country": "SaudiArabia",
+        "Name_1": "Ash- Sharqīyah",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -32621,7 +32557,7 @@
               ],
               [
                 55.6667,
-                22.0
+                22
               ],
               [
                 55.5502,
@@ -32676,8 +32612,8 @@
                 20.4531
               ],
               [
-                55.0,
-                20.0
+                55,
+                20
               ],
               [
                 52.0015,
@@ -32993,7 +32929,7 @@
               ],
               [
                 47.8063,
-                22.0
+                22
               ],
               [
                 47.8121,
@@ -34569,7 +34505,7 @@
               ],
               [
                 45.7838,
-                27.0
+                27
               ],
               [
                 45.7502,
@@ -35768,8 +35704,8 @@
                 27.9764
               ],
               [
-                48.768133800943282,
-                27.975733280928772
+                48.76813380094328,
+                27.97573328092877
               ],
               [
                 48.7746,
@@ -44244,7 +44180,7 @@
           [
             [
               [
-                48.812027272727271,
+                48.81202727272727,
                 27.776781818181817
               ],
               [
@@ -44256,7 +44192,7 @@
                 27.7766
               ],
               [
-                48.812027272727271,
+                48.81202727272727,
                 27.776781818181817
               ]
             ]
@@ -44264,7 +44200,7 @@
           [
             [
               [
-                48.812027272727271,
+                48.81202727272727,
                 27.776781818181817
               ],
               [
@@ -44276,7 +44212,7 @@
                 27.776856969696976
               ],
               [
-                48.812027272727271,
+                48.81202727272727,
                 27.776781818181817
               ]
             ]
@@ -44284,7 +44220,7 @@
           [
             [
               [
-                48.767805650126753,
+                48.76780565012675,
                 27.975640818544004
               ],
               [
@@ -44296,7 +44232,7 @@
                 27.9719
               ],
               [
-                48.767805650126753,
+                48.76780565012675,
                 27.975640818544004
               ]
             ]
@@ -44304,19 +44240,19 @@
           [
             [
               [
-                48.767805650126753,
+                48.76780565012675,
                 27.975640818544004
               ],
               [
-                48.768133800943282,
-                27.975733280928772
+                48.76813380094328,
+                27.97573328092877
               ],
               [
                 48.7681,
                 27.9757
               ],
               [
-                48.767805650126753,
+                48.76780565012675,
                 27.975640818544004
               ]
             ]
@@ -44491,17 +44427,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SAU.9_1",
-        "GID_0": "SAU",
-        "COUNTRY": "SaudiArabia",
-        "NAME_1": "Ḥaʼil",
-        "VARNAME_1": "Hai'il",
-        "NL_NAME_1": "حَائِل‎",
-        "TYPE_1": "Minṭaqah",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "SA.HA",
-        "ISO_1": "NA"
+        "Country": "SaudiArabia",
+        "Name_1": "Ḥaʼil",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -47480,17 +47408,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SAU.10_1",
-        "GID_0": "SAU",
-        "COUNTRY": "SaudiArabia",
-        "NAME_1": "Jizan",
-        "VARNAME_1": "Jazan|Qizan",
-        "NL_NAME_1": "جيزان‎",
-        "TYPE_1": "Minṭaqah",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "SA.JZ",
-        "ISO_1": "NA"
+        "Country": "SaudiArabia",
+        "Name_1": "Jizan",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -48399,7 +48319,7 @@
             [
               [
                 42.4085,
-                17.0
+                17
               ],
               [
                 42.4156,
@@ -48431,7 +48351,7 @@
               ],
               [
                 42.4085,
-                17.0
+                17
               ]
             ]
           ],
@@ -49650,7 +49570,7 @@
                 16.8104
               ],
               [
-                42.093189113924048,
+                42.09318911392405,
                 16.810001012658226
               ],
               [
@@ -50364,7 +50284,7 @@
             ],
             [
               [
-                42.093189113924048,
+                42.09318911392405,
                 16.810001012658226
               ],
               [
@@ -50376,7 +50296,7 @@
                 16.81
               ],
               [
-                42.093189113924048,
+                42.09318911392405,
                 16.810001012658226
               ]
             ]
@@ -57939,17 +57859,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SAU.11_1",
-        "GID_0": "SAU",
-        "COUNTRY": "SaudiArabia",
-        "NAME_1": "Makkah",
-        "VARNAME_1": "Makka|Makkahal-Mukarramah|Mecca",
-        "NL_NAME_1": "مَكَّة‎",
-        "TYPE_1": "Minṭaqah",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "SA.MK",
-        "ISO_1": "NA"
+        "Country": "SaudiArabia",
+        "Name_1": "Makkah",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -65517,7 +65429,7 @@
                 20.2432
               ],
               [
-                40.0,
+                40,
                 20.2524
               ],
               [
@@ -73850,7 +73762,7 @@
               ],
               [
                 38.9764,
-                22.0
+                22
               ],
               [
                 38.9767,
@@ -81558,17 +81470,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SAU.12_1",
-        "GID_0": "SAU",
-        "COUNTRY": "SaudiArabia",
-        "NAME_1": "Najran",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "نجران‎",
-        "TYPE_1": "Minṭaqah",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "SA.NJ",
-        "ISO_1": "SA-10"
+        "Country": "SaudiArabia",
+        "Name_1": "Najran",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -82884,8 +82788,8 @@
                 19.0005
               ],
               [
-                52.0,
-                19.0
+                52,
+                19
               ],
               [
                 50.7833,
@@ -82912,7 +82816,7 @@
                 16.95
               ],
               [
-                47.0,
+                47,
                 16.95
               ],
               [
@@ -83031,17 +82935,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SAU.13_1",
-        "GID_0": "SAU",
-        "COUNTRY": "SaudiArabia",
-        "NAME_1": "Tabuk",
-        "VARNAME_1": "Tabouk",
-        "NL_NAME_1": "تَبُوْك‎",
-        "TYPE_1": "Minṭaqah",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "SA.TB",
-        "ISO_1": "SA-07"
+        "Country": "SaudiArabia",
+        "Name_1": "Tabuk",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -88638,7 +88534,7 @@
               ],
               [
                 37.2792,
-                25.0
+                25
               ],
               [
                 37.2741,
@@ -89089,7 +88985,7 @@
                 25.5309
               ],
               [
-                37.0,
+                37,
                 25.5345
               ],
               [
@@ -101273,7 +101169,7 @@
                 25.465
               ],
               [
-                37.0,
+                37,
                 25.465
               ],
               [

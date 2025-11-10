@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CUB.1_1",
-        "GID_0": "CUB",
-        "COUNTRY": "Cuba",
-        "NAME_1": "Camagüey",
-        "VARNAME_1": "PuertoPrincipe",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "CU.CM",
-        "ISO_1": "NA"
+        "Country": "Cuba",
+        "Name_1": "Camagüey",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -27976,17 +27968,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CUB.2_1",
-        "GID_0": "CUB",
-        "COUNTRY": "Cuba",
-        "NAME_1": "CiegodeÁvila",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "CU.CA",
-        "ISO_1": "NA"
+        "Country": "Cuba",
+        "Name_1": "CiegodeÁvila",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -41625,17 +41609,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CUB.3_1",
-        "GID_0": "CUB",
-        "COUNTRY": "Cuba",
-        "NAME_1": "Cienfuegos",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "CU.CF",
-        "ISO_1": "CU-06"
+        "Country": "Cuba",
+        "Name_1": "Cienfuegos",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -43330,17 +43306,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CUB.4_1",
-        "GID_0": "CUB",
-        "COUNTRY": "Cuba",
-        "NAME_1": "CiudaddelaHabana",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "CU.CH",
-        "ISO_1": "NA"
+        "Country": "Cuba",
+        "Name_1": "Ciudaddela Habana",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -44019,17 +43987,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CUB.5_1",
-        "GID_0": "CUB",
-        "COUNTRY": "Cuba",
-        "NAME_1": "Granma",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "CU.GR",
-        "ISO_1": "CU-12"
+        "Country": "Cuba",
+        "Name_1": "Granma",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -47928,17 +47888,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CUB.6_1",
-        "GID_0": "CUB",
-        "COUNTRY": "Cuba",
-        "NAME_1": "Guantánamo",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "CU.GU",
-        "ISO_1": "NA"
+        "Country": "Cuba",
+        "Name_1": "Guantánamo",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -50749,17 +50701,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CUB.7_1",
-        "GID_0": "CUB",
-        "COUNTRY": "Cuba",
-        "NAME_1": "Holguín",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "CU.HO",
-        "ISO_1": "NA"
+        "Country": "Cuba",
+        "Name_1": "Holguín",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -57178,17 +57122,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CUB.8_1",
-        "GID_0": "CUB",
-        "COUNTRY": "Cuba",
-        "NAME_1": "IsladelaJuventud",
-        "VARNAME_1": "PuertoPrincipe",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "CU.IJ",
-        "ISO_1": "NA"
+        "Country": "Cuba",
+        "Name_1": "Isladela Juventud",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -67975,17 +67911,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CUB.9_1",
-        "GID_0": "CUB",
-        "COUNTRY": "Cuba",
-        "NAME_1": "LaHabana",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "CU.LH",
-        "ISO_1": "CU-03"
+        "Country": "Cuba",
+        "Name_1": "La Habana",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -70194,17 +70122,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CUB.10_1",
-        "GID_0": "CUB",
-        "COUNTRY": "Cuba",
-        "NAME_1": "LasTunas",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "CU.LT",
-        "ISO_1": "CU-10"
+        "Country": "Cuba",
+        "Name_1": "Las Tunas",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -74251,17 +74171,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CUB.11_1",
-        "GID_0": "CUB",
-        "COUNTRY": "Cuba",
-        "NAME_1": "Matanzas",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "CU.MA",
-        "ISO_1": "CU-04"
+        "Country": "Cuba",
+        "Name_1": "Matanzas",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -92540,17 +92452,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CUB.12_1",
-        "GID_0": "CUB",
-        "COUNTRY": "Cuba",
-        "NAME_1": "Mayabeque",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "CU.MQ",
-        "ISO_1": "CU-16"
+        "Country": "Cuba",
+        "Name_1": "Mayabeque",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -93785,17 +93689,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CUB.13_1",
-        "GID_0": "CUB",
-        "COUNTRY": "Cuba",
-        "NAME_1": "PinardelRío",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "CU.PR",
-        "ISO_1": "NA"
+        "Country": "Cuba",
+        "Name_1": "Pinardel Río",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -101830,17 +101726,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CUB.14_1",
-        "GID_0": "CUB",
-        "COUNTRY": "Cuba",
-        "NAME_1": "SanctiSpíritus",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "CU.SS",
-        "ISO_1": "NA"
+        "Country": "Cuba",
+        "Name_1": "Sancti Spíritus",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -105451,17 +105339,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CUB.15_1",
-        "GID_0": "CUB",
-        "COUNTRY": "Cuba",
-        "NAME_1": "SantiagodeCuba",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "CU.SC",
-        "ISO_1": "CU-13"
+        "Country": "Cuba",
+        "Name_1": "Santiagode Cuba",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -107876,17 +107756,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CUB.16_1",
-        "GID_0": "CUB",
-        "COUNTRY": "Cuba",
-        "NAME_1": "VillaClara",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "CU.VC",
-        "ISO_1": "CU-05"
+        "Country": "Cuba",
+        "Name_1": "Villa Clara",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",

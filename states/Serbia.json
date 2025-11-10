@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SRB.1_1",
-        "GID_0": "SRB",
-        "COUNTRY": "Serbia",
-        "NAME_1": "Borski",
-        "VARNAME_1": "Bor",
-        "NL_NAME_1": "Борски",
-        "TYPE_1": "Okrug",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "RS.BO",
-        "ISO_1": "NA"
+        "Country": "Serbia",
+        "Name_1": "Borski",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1428,17 +1420,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SRB.2_1",
-        "GID_0": "SRB",
-        "COUNTRY": "Serbia",
-        "NAME_1": "Braničevski",
-        "VARNAME_1": "Braničevo",
-        "NL_NAME_1": "Браничевски",
-        "TYPE_1": "Okrug",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "RS.BR",
-        "ISO_1": "NA"
+        "Country": "Serbia",
+        "Name_1": "Braničevski",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2429,17 +2413,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SRB.3_1",
-        "GID_0": "SRB",
-        "COUNTRY": "Serbia",
-        "NAME_1": "GradBeograd",
-        "VARNAME_1": "Belgrade",
-        "NL_NAME_1": "Београд",
-        "TYPE_1": "Grad",
-        "ENGTYPE_1": "City",
-        "CC_1": "NA",
-        "HASC_1": "RS.BG",
-        "ISO_1": "NA"
+        "Country": "Serbia",
+        "Name_1": "Grad Beograd",
+        "Type": "City"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3534,17 +3510,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SRB.4_1",
-        "GID_0": "SRB",
-        "COUNTRY": "Serbia",
-        "NAME_1": "Jablanički",
-        "VARNAME_1": "Jablanica",
-        "NL_NAME_1": "Јабланички",
-        "TYPE_1": "Okrug",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "RS.JA",
-        "ISO_1": "NA"
+        "Country": "Serbia",
+        "Name_1": "Jablanički",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4399,17 +4367,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SRB.5_1",
-        "GID_0": "SRB",
-        "COUNTRY": "Serbia",
-        "NAME_1": "Južno-Bački",
-        "VARNAME_1": "SouthBačka",
-        "NL_NAME_1": "Јужнобачки",
-        "TYPE_1": "Okrug",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "RS.JC",
-        "ISO_1": "NA"
+        "Country": "Serbia",
+        "Name_1": "Južno- Bački",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5636,17 +5596,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SRB.6_1",
-        "GID_0": "SRB",
-        "COUNTRY": "Serbia",
-        "NAME_1": "Južno-Banatski",
-        "VARNAME_1": "SouthBanat",
-        "NL_NAME_1": "Јужнобанатски",
-        "TYPE_1": "Okrug",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "RS.JN",
-        "ISO_1": "NA"
+        "Country": "Serbia",
+        "Name_1": "Južno- Banatski",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6981,17 +6933,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SRB.7_1",
-        "GID_0": "SRB",
-        "COUNTRY": "Serbia",
-        "NAME_1": "Kolubarski",
-        "VARNAME_1": "Kolubara",
-        "NL_NAME_1": "Колубарски",
-        "TYPE_1": "Okrug",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "RS.KB",
-        "ISO_1": "NA"
+        "Country": "Serbia",
+        "Name_1": "Kolubarski",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7970,17 +7914,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SRB.8_1",
-        "GID_0": "SRB",
-        "COUNTRY": "Serbia",
-        "NAME_1": "Mačvanski",
-        "VARNAME_1": "Mačva",
-        "NL_NAME_1": "Мачвански",
-        "TYPE_1": "Okrug",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "RS.MA",
-        "ISO_1": "NA"
+        "Country": "Serbia",
+        "Name_1": "Mačvanski",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9103,17 +9039,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SRB.9_1",
-        "GID_0": "SRB",
-        "COUNTRY": "Serbia",
-        "NAME_1": "Moravički",
-        "VARNAME_1": "Moravica|Morava",
-        "NL_NAME_1": "Моравички",
-        "TYPE_1": "Okrug",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "RS.MR",
-        "ISO_1": "NA"
+        "Country": "Serbia",
+        "Name_1": "Moravički",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10316,17 +10244,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SRB.10_1",
-        "GID_0": "SRB",
-        "COUNTRY": "Serbia",
-        "NAME_1": "Nišavski",
-        "VARNAME_1": "Nišava",
-        "NL_NAME_1": "Нишавски",
-        "TYPE_1": "Okrug",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "RS.NS",
-        "ISO_1": "NA"
+        "Country": "Serbia",
+        "Name_1": "Nišavski",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -11401,17 +11321,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SRB.11_1",
-        "GID_0": "SRB",
-        "COUNTRY": "Serbia",
-        "NAME_1": "Pčinjski",
-        "VARNAME_1": "Pčinja",
-        "NL_NAME_1": "Пчињски",
-        "TYPE_1": "Okrug",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "RS.PC",
-        "ISO_1": "NA"
+        "Country": "Serbia",
+        "Name_1": "Pčinjski",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -12434,17 +12346,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SRB.12_1",
-        "GID_0": "SRB",
-        "COUNTRY": "Serbia",
-        "NAME_1": "Pirotski",
-        "VARNAME_1": "Pirot",
-        "NL_NAME_1": "Пиротски",
-        "TYPE_1": "Okrug",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "RS.PI",
-        "ISO_1": "NA"
+        "Country": "Serbia",
+        "Name_1": "Pirotski",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13231,17 +13135,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SRB.13_1",
-        "GID_0": "SRB",
-        "COUNTRY": "Serbia",
-        "NAME_1": "Podunavski",
-        "VARNAME_1": "Podunavlje|Danube",
-        "NL_NAME_1": "Подунавски",
-        "TYPE_1": "Okrug",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "RS.PD",
-        "ISO_1": "NA"
+        "Country": "Serbia",
+        "Name_1": "Podunavski",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13896,17 +13792,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SRB.14_1",
-        "GID_0": "SRB",
-        "COUNTRY": "Serbia",
-        "NAME_1": "Pomoravski",
-        "VARNAME_1": "Pomoravlje",
-        "NL_NAME_1": "Поморавски",
-        "TYPE_1": "Okrug",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "RS.PM",
-        "ISO_1": "NA"
+        "Country": "Serbia",
+        "Name_1": "Pomoravski",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -14286,7 +14174,7 @@
                 43.8847
               ],
               [
-                21.0,
+                21,
                 43.8939
               ],
               [
@@ -14857,17 +14745,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SRB.15_1",
-        "GID_0": "SRB",
-        "COUNTRY": "Serbia",
-        "NAME_1": "Rasinski",
-        "VARNAME_1": "Rasina",
-        "NL_NAME_1": "Расински",
-        "TYPE_1": "Okrug",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "RS.RN",
-        "ISO_1": "NA"
+        "Country": "Serbia",
+        "Name_1": "Rasinski",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -15978,17 +15858,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SRB.16_1",
-        "GID_0": "SRB",
-        "COUNTRY": "Serbia",
-        "NAME_1": "Raški",
-        "VARNAME_1": "Raška",
-        "NL_NAME_1": "Рашки",
-        "TYPE_1": "Okrug",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "RS.RS",
-        "ISO_1": "NA"
+        "Country": "Serbia",
+        "Name_1": "Raški",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -17315,17 +17187,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SRB.17_1",
-        "GID_0": "SRB",
-        "COUNTRY": "Serbia",
-        "NAME_1": "Severno-Bački",
-        "VARNAME_1": "NorthBačka",
-        "NL_NAME_1": "Севернобачки",
-        "TYPE_1": "Okrug",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "RS.SC",
-        "ISO_1": "NA"
+        "Country": "Serbia",
+        "Name_1": "Severno- Bački",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -17920,17 +17784,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SRB.18_1",
-        "GID_0": "SRB",
-        "COUNTRY": "Serbia",
-        "NAME_1": "Severno-Banatski",
-        "VARNAME_1": "NorthBanat",
-        "NL_NAME_1": "Севернобанатски",
-        "TYPE_1": "Okrug",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "RS.SN",
-        "ISO_1": "NA"
+        "Country": "Serbia",
+        "Name_1": "Severno- Banatski",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -18755,11 +18611,11 @@
               ],
               [
                 20.3549,
-                46.0
+                46
               ],
               [
                 20.3499,
-                46.0
+                46
               ],
               [
                 20.407,
@@ -18801,17 +18657,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SRB.19_1",
-        "GID_0": "SRB",
-        "COUNTRY": "Serbia",
-        "NAME_1": "Srednje-Banatski",
-        "VARNAME_1": "CentralBanat",
-        "NL_NAME_1": "Средњебанатски",
-        "TYPE_1": "Okrug",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "RS.SD",
-        "ISO_1": "NA"
+        "Country": "Serbia",
+        "Name_1": "Srednje- Banatski",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -20298,17 +20146,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SRB.20_1",
-        "GID_0": "SRB",
-        "COUNTRY": "Serbia",
-        "NAME_1": "Sremski",
-        "VARNAME_1": "Srem",
-        "NL_NAME_1": "Сремски",
-        "TYPE_1": "Okrug",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "RS.SM",
-        "ISO_1": "NA"
+        "Country": "Serbia",
+        "Name_1": "Sremski",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -21287,17 +21127,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SRB.21_1",
-        "GID_0": "SRB",
-        "COUNTRY": "Serbia",
-        "NAME_1": "Šumadijski",
-        "VARNAME_1": "Šumadija",
-        "NL_NAME_1": "Шумадијски",
-        "TYPE_1": "Okrug",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "RS.SU",
-        "ISO_1": "NA"
+        "Country": "Serbia",
+        "Name_1": "Šumadijski",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -22096,17 +21928,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SRB.22_1",
-        "GID_0": "SRB",
-        "COUNTRY": "Serbia",
-        "NAME_1": "Toplički",
-        "VARNAME_1": "Toplica",
-        "NL_NAME_1": "Топлички",
-        "TYPE_1": "Okrug",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "RS.TO",
-        "ISO_1": "NA"
+        "Country": "Serbia",
+        "Name_1": "Toplički",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -22909,17 +22733,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SRB.23_1",
-        "GID_0": "SRB",
-        "COUNTRY": "Serbia",
-        "NAME_1": "Zaječarski",
-        "VARNAME_1": "Zaječar",
-        "NL_NAME_1": "Зајечарски",
-        "TYPE_1": "Okrug",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "RS.ZJ",
-        "ISO_1": "NA"
+        "Country": "Serbia",
+        "Name_1": "Zaječarski",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -24182,17 +23998,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SRB.24_1",
-        "GID_0": "SRB",
-        "COUNTRY": "Serbia",
-        "NAME_1": "Zapadno-Bački",
-        "VARNAME_1": "WestBačka",
-        "NL_NAME_1": "Западнобачки",
-        "TYPE_1": "Okrug",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "RS.ZC",
-        "ISO_1": "NA"
+        "Country": "Serbia",
+        "Name_1": "Zapadno- Bački",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -24955,17 +24763,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SRB.25_1",
-        "GID_0": "SRB",
-        "COUNTRY": "Serbia",
-        "NAME_1": "Zlatiborski",
-        "VARNAME_1": "Zlatibor",
-        "NL_NAME_1": "Златиборски",
-        "TYPE_1": "Okrug",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "RS.ZL",
-        "ISO_1": "NA"
+        "Country": "Serbia",
+        "Name_1": "Zlatiborski",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",

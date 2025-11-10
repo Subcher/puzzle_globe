@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GRC.1_1",
-        "GID_0": "GRC",
-        "COUNTRY": "Greece",
-        "NAME_1": "Aegean",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "Αιγαίο",
-        "TYPE_1": "Apokentroménesdioikíseis",
-        "ENGTYPE_1": "Decentralizedadministration",
-        "CC_1": "NA",
-        "HASC_1": "GR.AI",
-        "ISO_1": "NA"
+        "Country": "Greece",
+        "Name_1": "Aegean",
+        "Type": "Decentralizedadministration"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -46772,17 +46764,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GRC.2_1",
-        "GID_0": "GRC",
-        "COUNTRY": "Greece",
-        "NAME_1": "Athos",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "Άθως",
-        "TYPE_1": "Apokentroménesdioikíseis",
-        "ENGTYPE_1": "Decentralizedadministration",
-        "CC_1": "NA",
-        "HASC_1": "GR.MA",
-        "ISO_1": "NA"
+        "Country": "Greece",
+        "Name_1": "Athos",
+        "Type": "Decentralizedadministration"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -47773,17 +47757,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GRC.3_1",
-        "GID_0": "GRC",
-        "COUNTRY": "Greece",
-        "NAME_1": "Attica",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "Αττική",
-        "TYPE_1": "Apokentroménesdioikíseis",
-        "ENGTYPE_1": "Decentralizedadministration",
-        "CC_1": "NA",
-        "HASC_1": "GR.AT",
-        "ISO_1": "NA"
+        "Country": "Greece",
+        "Name_1": "Attica",
+        "Type": "Decentralizedadministration"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -57842,17 +57818,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GRC.4_1",
-        "GID_0": "GRC",
-        "COUNTRY": "Greece",
-        "NAME_1": "Crete",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "Κρήτη",
-        "TYPE_1": "Apokentroménesdioikíseis",
-        "ENGTYPE_1": "Decentralizedadministration",
-        "CC_1": "NA",
-        "HASC_1": "GR.CR",
-        "ISO_1": "NA"
+        "Country": "Greece",
+        "Name_1": "Crete",
+        "Type": "Decentralizedadministration"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -66767,17 +66735,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GRC.5_1",
-        "GID_0": "GRC",
-        "COUNTRY": "Greece",
-        "NAME_1": "EpirusandWesternMacedonia",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "ΉπειροςκαιΔυτικήΜακεδονία",
-        "TYPE_1": "Apokentroménesdioikíseis",
-        "ENGTYPE_1": "Decentralizedadministration",
-        "CC_1": "NA",
-        "HASC_1": "GR.EM",
-        "ISO_1": "NA"
+        "Country": "Greece",
+        "Name_1": "Epirusand Western Macedonia",
+        "Type": "Decentralizedadministration"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -72360,17 +72320,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GRC.6_1",
-        "GID_0": "GRC",
-        "COUNTRY": "Greece",
-        "NAME_1": "MacedoniaandThrace",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "ΜακεδονίακαιΘράκη",
-        "TYPE_1": "Apokentroménesdioikíseis",
-        "ENGTYPE_1": "Decentralizedadministration",
-        "CC_1": "NA",
-        "HASC_1": "GR.MH",
-        "ISO_1": "NA"
+        "Country": "Greece",
+        "Name_1": "Macedoniaand Thrace",
+        "Type": "Decentralizedadministration"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -73786,7 +73738,7 @@
                 41.332
               ],
               [
-                23.0,
+                23,
                 41.3305
               ],
               [
@@ -84921,17 +84873,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GRC.7_1",
-        "GID_0": "GRC",
-        "COUNTRY": "Greece",
-        "NAME_1": "Peloponnese,WesternGreeceand",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "Πελοπόννησος,ΔυτικήΕλλάδακαι",
-        "TYPE_1": "Apokentroménesdioikíseis",
-        "ENGTYPE_1": "Decentralizedadministration",
-        "CC_1": "NA",
-        "HASC_1": "GR.PW",
-        "ISO_1": "NA"
+        "Country": "Greece",
+        "Name_1": "Peloponnese, Western Greeceand",
+        "Type": "Decentralizedadministration"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -102484,11 +102428,11 @@
             [
               [
                 21.42195725190841,
-                38.325434605597962
+                38.32543460559796
               ],
               [
                 21.422228975780552,
-                38.325402976364167
+                38.32540297636417
               ],
               [
                 21.4221,
@@ -102496,7 +102440,7 @@
               ],
               [
                 21.42195725190841,
-                38.325434605597962
+                38.32543460559796
               ]
             ]
           ],
@@ -102556,7 +102500,7 @@
             [
               [
                 21.42195725190841,
-                38.325434605597962
+                38.32543460559796
               ],
               [
                 21.4171,
@@ -102576,7 +102520,7 @@
               ],
               [
                 21.42195725190841,
-                38.325434605597962
+                38.32543460559796
               ]
             ]
           ],
@@ -104864,7 +104808,7 @@
               ],
               [
                 21.422228975780552,
-                38.325402976364167
+                38.32540297636417
               ],
               [
                 21.4351,
@@ -109354,17 +109298,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GRC.8_1",
-        "GID_0": "GRC",
-        "COUNTRY": "Greece",
-        "NAME_1": "ThessalyandCentralGreece",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "ΘεσσαλίακαιΣτερεάΕλλάδα",
-        "TYPE_1": "Apokentroménesdioikíseis",
-        "ENGTYPE_1": "Decentralizedadministration",
-        "CC_1": "NA",
-        "HASC_1": "GR.TC",
-        "ISO_1": "NA"
+        "Country": "Greece",
+        "Name_1": "Thessalyand Central Greece",
+        "Type": "Decentralizedadministration"
       },
       "geometry": {
         "type": "MultiPolygon",

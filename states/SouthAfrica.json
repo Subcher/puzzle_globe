@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ZAF.1_1",
-        "GID_0": "ZAF",
-        "COUNTRY": "SouthAfrica",
-        "NAME_1": "EasternCape",
-        "VARNAME_1": "Oos-Kaap",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provinsie",
-        "ENGTYPE_1": "Province",
-        "CC_1": "EC",
-        "HASC_1": "ZA.EC",
-        "ISO_1": "ZA-EC"
+        "Country": "SouthAfrica",
+        "Name_1": "Eastern Cape",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -11100,17 +11092,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ZAF.2_1",
-        "GID_0": "ZAF",
-        "COUNTRY": "SouthAfrica",
-        "NAME_1": "FreeState",
-        "VARNAME_1": "OrangeFreeState|Vrystaat",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provinsie",
-        "ENGTYPE_1": "Province",
-        "CC_1": "FS",
-        "HASC_1": "ZA.FS",
-        "ISO_1": "ZA-FS"
+        "Country": "SouthAfrica",
+        "Name_1": "Free State",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -20757,17 +20741,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ZAF.3_1",
-        "GID_0": "ZAF",
-        "COUNTRY": "SouthAfrica",
-        "NAME_1": "Gauteng",
-        "VARNAME_1": "Pretoria\/Witwatersrand\/Vaal",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provinsie",
-        "ENGTYPE_1": "Province",
-        "CC_1": "GT",
-        "HASC_1": "ZA.GT",
-        "ISO_1": "ZA-GP"
+        "Country": "SouthAfrica",
+        "Name_1": "Gauteng",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -23070,17 +23046,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ZAF.4_1",
-        "GID_0": "ZAF",
-        "COUNTRY": "SouthAfrica",
-        "NAME_1": "KwaZulu-Natal",
-        "VARNAME_1": "NatalandZululand",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provinsie",
-        "ENGTYPE_1": "Province",
-        "CC_1": "KZN",
-        "HASC_1": "ZA.NL",
-        "ISO_1": "NA"
+        "Country": "SouthAfrica",
+        "Name_1": "Kwa Zulu- Natal",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -30667,17 +30635,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ZAF.5_1",
-        "GID_0": "ZAF",
-        "COUNTRY": "SouthAfrica",
-        "NAME_1": "Limpopo",
-        "VARNAME_1": "NoordelikeProvinsie|NorthernTr",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provinsie",
-        "ENGTYPE_1": "Province",
-        "CC_1": "LIM",
-        "HASC_1": "ZA.NP",
-        "ISO_1": "ZA-LP"
+        "Country": "SouthAfrica",
+        "Name_1": "Limpopo",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -30914,7 +30874,7 @@
               ],
               [
                 28.9349,
-                -25.0
+                -25
               ],
               [
                 28.9103,
@@ -36040,17 +36000,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ZAF.6_1",
-        "GID_0": "ZAF",
-        "COUNTRY": "SouthAfrica",
-        "NAME_1": "Mpumalanga",
-        "VARNAME_1": "EasternTransvaal",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provinsie",
-        "ENGTYPE_1": "Province",
-        "CC_1": "MP",
-        "HASC_1": "ZA.MP",
-        "ISO_1": "ZA-MP"
+        "Country": "SouthAfrica",
+        "Name_1": "Mpumalanga",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -39271,7 +39223,7 @@
               ],
               [
                 28.9349,
-                -25.0
+                -25
               ],
               [
                 28.9462,
@@ -41213,17 +41165,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ZAF.7_1",
-        "GID_0": "ZAF",
-        "COUNTRY": "SouthAfrica",
-        "NAME_1": "NorthWest",
-        "VARNAME_1": "North-West|Noordwes",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provinsie",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NW",
-        "HASC_1": "ZA.NW",
-        "ISO_1": "NA"
+        "Country": "SouthAfrica",
+        "Name_1": "North West",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -47358,17 +47302,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ZAF.8_1",
-        "GID_0": "ZAF",
-        "COUNTRY": "SouthAfrica",
-        "NAME_1": "NorthernCape",
-        "VARNAME_1": "Noord-Kaap",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provinsie",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NC",
-        "HASC_1": "ZA.NC",
-        "ISO_1": "ZA-NC"
+        "Country": "SouthAfrica",
+        "Name_1": "Northern Cape",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -57953,17 +57889,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ZAF.9_1",
-        "GID_0": "ZAF",
-        "COUNTRY": "SouthAfrica",
-        "NAME_1": "WesternCape",
-        "VARNAME_1": "Wes-Kaap",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provinsie",
-        "ENGTYPE_1": "Province",
-        "CC_1": "WC",
-        "HASC_1": "ZA.WC",
-        "ISO_1": "ZA-WC"
+        "Country": "SouthAfrica",
+        "Name_1": "Western Cape",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",

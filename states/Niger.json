@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NER.1_1",
-        "GID_0": "NER",
-        "COUNTRY": "Niger",
-        "NAME_1": "Agadez",
-        "VARNAME_1": "Agadès",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Département",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "NE.AG",
-        "ISO_1": "NE-1"
+        "Country": "Niger",
+        "Name_1": "Agadez",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -161,7 +153,7 @@
                 23.525
               ],
               [
-                12.0,
+                12,
                 23.5152
               ],
               [
@@ -909,7 +901,7 @@
                 17.1175
               ],
               [
-                11.0,
+                11,
                 17.0706
               ],
               [
@@ -1428,17 +1420,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NER.2_1",
-        "GID_0": "NER",
-        "COUNTRY": "Niger",
-        "NAME_1": "Diffa",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Département",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "NE.DF",
-        "ISO_1": "NE-2"
+        "Country": "Niger",
+        "Name_1": "Diffa",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3665,17 +3649,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NER.3_1",
-        "GID_0": "NER",
-        "COUNTRY": "Niger",
-        "NAME_1": "Dosso",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Département",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "NE.DS",
-        "ISO_1": "NA"
+        "Country": "Niger",
+        "Name_1": "Dosso",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5018,17 +4994,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NER.4_1",
-        "GID_0": "NER",
-        "COUNTRY": "Niger",
-        "NAME_1": "Maradi",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Département",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "NE.MA",
-        "ISO_1": "NE-4"
+        "Country": "Niger",
+        "Name_1": "Maradi",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5863,17 +5831,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NER.5_1",
-        "GID_0": "NER",
-        "COUNTRY": "Niger",
-        "NAME_1": "Niamey",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "CommunautéUrbaine",
-        "ENGTYPE_1": "CapitalDistrict",
-        "CC_1": "NA",
-        "HASC_1": "NE.NI",
-        "ISO_1": "NE-8"
+        "Country": "Niger",
+        "Name_1": "Niamey",
+        "Type": "CapitalDistrict"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6216,17 +6176,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NER.6_1",
-        "GID_0": "NER",
-        "COUNTRY": "Niger",
-        "NAME_1": "Tahoua",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Département",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "NE.TH",
-        "ISO_1": "NE-5"
+        "Country": "Niger",
+        "Name_1": "Tahoua",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7125,17 +7077,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NER.7_1",
-        "GID_0": "NER",
-        "COUNTRY": "Niger",
-        "NAME_1": "Tillabéry",
-        "VARNAME_1": "Tillabéri",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Département",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "NE.TL",
-        "ISO_1": "NA"
+        "Country": "Niger",
+        "Name_1": "Tillabéry",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7860,7 +7804,7 @@
               ],
               [
                 0.5043,
-                15.0
+                15
               ],
               [
                 0.5121,
@@ -9796,17 +9740,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "NER.8_1",
-        "GID_0": "NER",
-        "COUNTRY": "Niger",
-        "NAME_1": "Zinder",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Département",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "NE.ZI",
-        "ISO_1": "NE-7"
+        "Country": "Niger",
+        "Name_1": "Zinder",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10754,7 +10690,7 @@
                 16.9049
               ],
               [
-                11.0,
+                11,
                 17.0706
               ],
               [

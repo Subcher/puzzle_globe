@@ -11,18 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VGB.1_1",
-        "GID_0": "VGB",
-        "COUNTRY": "BritishVirginIslands",
-        "NAME_1": "Anegada",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "NA",
-        "AREA": 39
+        "Country": "BritishVirginIslands",
+        "Name_1": "Anegada",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -249,18 +240,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VGB.2_1",
-        "GID_0": "VGB",
-        "COUNTRY": "BritishVirginIslands",
-        "NAME_1": "JostVanDyke",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "NA",
-        "AREA": 9
+        "Country": "BritishVirginIslands",
+        "Name_1": "Jost Van Dyke",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -583,18 +565,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VGB.3_1",
-        "GID_0": "VGB",
-        "COUNTRY": "BritishVirginIslands",
-        "NAME_1": "OtherIslands",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "NA",
-        "AREA": 29
+        "Country": "BritishVirginIslands",
+        "Name_1": "Other Islands",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1205,18 +1178,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VGB.4_1",
-        "GID_0": "VGB",
-        "COUNTRY": "BritishVirginIslands",
-        "NAME_1": "Tortola",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "NA",
-        "AREA": 56
+        "Country": "BritishVirginIslands",
+        "Name_1": "Tortola",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2231,18 +2195,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "VGB.5_1",
-        "GID_0": "VGB",
-        "COUNTRY": "BritishVirginIslands",
-        "NAME_1": "VirginGorda",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "NA",
-        "AREA": 22
+        "Country": "BritishVirginIslands",
+        "Name_1": "Virgin Gorda",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",

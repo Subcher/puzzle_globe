@@ -11,18 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CAF.1_1",
-        "GID_0": "CAF",
-        "COUNTRY": "CentralAfricanRepublic",
-        "NAME_1": "Bamingui-Bangoran",
-        "VARNAME_1": "Bamingui-Bangora|N'Délé|Ndélé",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Préfecture",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "CF.BB",
-        "ISO_1": "CF-BB",
-        "AREA": 69265
+        "Country": "CentralAfricanRepublic",
+        "Name_1": "Bamingui- Bangoran",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1442,7 +1433,7 @@
                 8.7657
               ],
               [
-                19.0,
+                19,
                 8.7704
               ],
               [
@@ -3521,18 +3512,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CAF.2_1",
-        "GID_0": "CAF",
-        "COUNTRY": "CentralAfricanRepublic",
-        "NAME_1": "Bangui",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "CommuneAutonome",
-        "ENGTYPE_1": "AutonomousCommune",
-        "CC_1": "NA",
-        "HASC_1": "CF.BG",
-        "ISO_1": "CF-BGF",
-        "AREA": 657
+        "Country": "CentralAfricanRepublic",
+        "Name_1": "Bangui",
+        "Type": "AutonomousCommune"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3611,18 +3593,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CAF.3_1",
-        "GID_0": "CAF",
-        "COUNTRY": "CentralAfricanRepublic",
-        "NAME_1": "Basse-Kotto",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Préfecture",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "CF.BK",
-        "ISO_1": "NA",
-        "AREA": 67640
+        "Country": "CentralAfricanRepublic",
+        "Name_1": "Basse- Kotto",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5169,18 +5142,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CAF.4_1",
-        "GID_0": "CAF",
-        "COUNTRY": "CentralAfricanRepublic",
-        "NAME_1": "Haut-Mbomou",
-        "VARNAME_1": "Haut-M'bomou|Obo-Zemio",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Préfecture",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "CF.HM",
-        "ISO_1": "NA",
-        "AREA": 66980
+        "Country": "CentralAfricanRepublic",
+        "Name_1": "Haut- Mbomou",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5541,11 +5505,11 @@
               ],
               [
                 25.1364,
-                5.0
+                5
               ],
               [
-                25.0,
-                5.0
+                25,
+                5
               ],
               [
                 25.0003,
@@ -7629,7 +7593,7 @@
               ],
               [
                 24.9658,
-                8.0
+                8
               ],
               [
                 24.966,
@@ -11187,18 +11151,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CAF.5_1",
-        "GID_0": "CAF",
-        "COUNTRY": "CentralAfricanRepublic",
-        "NAME_1": "Haute-Kotto",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Préfecture",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "CF.HK",
-        "ISO_1": "NA",
-        "AREA": 55400
+        "Country": "CentralAfricanRepublic",
+        "Name_1": "Haute- Kotto",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -14041,18 +13996,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CAF.6_1",
-        "GID_0": "CAF",
-        "COUNTRY": "CentralAfricanRepublic",
-        "NAME_1": "Kémo",
-        "VARNAME_1": "Kémo-Gribingui|Kémo-Ibingui",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Préfecture",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "CF.KG",
-        "ISO_1": "NA",
-        "AREA": 34974
+        "Country": "CentralAfricanRepublic",
+        "Name_1": "Kémo",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -15131,18 +15077,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CAF.7_1",
-        "GID_0": "CAF",
-        "COUNTRY": "CentralAfricanRepublic",
-        "NAME_1": "Lobaye",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Préfecture",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "CF.LB",
-        "ISO_1": "NA",
-        "AREA": 19641
+        "Country": "CentralAfricanRepublic",
+        "Name_1": "Lobaye",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -15506,7 +15443,7 @@
                 3.5774
               ],
               [
-                18.0,
+                18,
                 3.5789
               ],
               [
@@ -16561,18 +16498,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CAF.8_1",
-        "GID_0": "CAF",
-        "COUNTRY": "CentralAfricanRepublic",
-        "NAME_1": "Mambéré-Kadéï",
-        "VARNAME_1": "Haute-Sangha|MambéréKadéi",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Préfecture",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "CF.HS",
-        "ISO_1": "NA",
-        "AREA": 44440
+        "Country": "CentralAfricanRepublic",
+        "Name_1": "Mambéré- Kadéï",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -17553,7 +17481,7 @@
               ],
               [
                 15.3136,
-                5.0
+                5
               ],
               [
                 15.3256,
@@ -18391,18 +18319,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CAF.9_1",
-        "GID_0": "CAF",
-        "COUNTRY": "CentralAfricanRepublic",
-        "NAME_1": "Mbomou",
-        "VARNAME_1": "M'Bomou",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Préfecture",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "CF.MB",
-        "ISO_1": "NA",
-        "AREA": 39115
+        "Country": "CentralAfricanRepublic",
+        "Name_1": "Mbomou",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -21397,18 +21316,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CAF.10_1",
-        "GID_0": "CAF",
-        "COUNTRY": "CentralAfricanRepublic",
-        "NAME_1": "Nana-Grébizi",
-        "VARNAME_1": "Nana-Gribingui|Gribingui|Gribing",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Préfecture",
-        "ENGTYPE_1": "EconomicPrefecture",
-        "CC_1": "NA",
-        "HASC_1": "CF.KB",
-        "ISO_1": "NA",
-        "AREA": 65046
+        "Country": "CentralAfricanRepublic",
+        "Name_1": "Nana- Grébizi",
+        "Type": "EconomicPrefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -23423,18 +23333,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CAF.11_1",
-        "GID_0": "CAF",
-        "COUNTRY": "CentralAfricanRepublic",
-        "NAME_1": "Nana-Mambéré",
-        "VARNAME_1": "Bouar-Baboua|Buar-Baboua|NanaNa",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Préfecture",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "CF.NM",
-        "ISO_1": "NA",
-        "AREA": 44000
+        "Country": "CentralAfricanRepublic",
+        "Name_1": "Nana- Mambéré",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -23719,7 +23620,7 @@
               ],
               [
                 15.3136,
-                5.0
+                5
               ],
               [
                 15.0789,
@@ -25105,18 +25006,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CAF.12_1",
-        "GID_0": "CAF",
-        "COUNTRY": "CentralAfricanRepublic",
-        "NAME_1": "Ombella-M'Poko",
-        "VARNAME_1": "Ombella-Mpoko|Ombella-Mpoko|Ombe",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Préfecture",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "CF.MP",
-        "ISO_1": "NA",
-        "AREA": 14155
+        "Country": "CentralAfricanRepublic",
+        "Name_1": "Ombella- M' Poko",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -26699,18 +26591,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CAF.13_1",
-        "GID_0": "CAF",
-        "COUNTRY": "CentralAfricanRepublic",
-        "NAME_1": "Ouaka",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Préfecture",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "CF.UK",
-        "ISO_1": "CF-UK",
-        "AREA": 60000
+        "Country": "CentralAfricanRepublic",
+        "Name_1": "Ouaka",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -28981,18 +28864,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CAF.15_1",
-        "GID_0": "CAF",
-        "COUNTRY": "CentralAfricanRepublic",
-        "NAME_1": "Ouham",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Préfecture",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "CF.AC",
-        "ISO_1": "CF-AC",
-        "AREA": 59272
+        "Country": "CentralAfricanRepublic",
+        "Name_1": "Ouham",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -30544,7 +30418,7 @@
                 7.9928
               ],
               [
-                18.0,
+                18,
                 7.9859
               ],
               [
@@ -30916,7 +30790,7 @@
                 8.5148
               ],
               [
-                19.0,
+                19,
                 8.5158
               ],
               [
@@ -32203,18 +32077,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CAF.14_1",
-        "GID_0": "CAF",
-        "COUNTRY": "CentralAfricanRepublic",
-        "NAME_1": "Ouham-Pendé",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Préfecture",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "CF.OP",
-        "ISO_1": "NA",
-        "AREA": 58200
+        "Country": "CentralAfricanRepublic",
+        "Name_1": "Ouham- Pendé",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -34753,18 +34618,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CAF.16_1",
-        "GID_0": "CAF",
-        "COUNTRY": "CentralAfricanRepublic",
-        "NAME_1": "Sangha-Mbaéré",
-        "VARNAME_1": "Sangha|Sangha-Économique|Sangha",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Préfecture",
-        "ENGTYPE_1": "EconomicPrefecture",
-        "CC_1": "NA",
-        "HASC_1": "CF.SE",
-        "ISO_1": "NA",
-        "AREA": 33167
+        "Country": "CentralAfricanRepublic",
+        "Name_1": "Sangha- Mbaéré",
+        "Type": "EconomicPrefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -36219,18 +36075,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CAF.17_1",
-        "GID_0": "CAF",
-        "COUNTRY": "CentralAfricanRepublic",
-        "NAME_1": "Vakaga",
-        "VARNAME_1": "Birao",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Préfecture",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "CF.VK",
-        "ISO_1": "CF-VK",
-        "AREA": 64000
+        "Country": "CentralAfricanRepublic",
+        "Name_1": "Vakaga",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",

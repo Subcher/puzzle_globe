@@ -11,9 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "CYM",
-        "COUNTRY": "CaymanIslands",
-        "AREA": 263
+        "Country": "CaymanIslands",
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",

@@ -11,18 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "AUT.1_1",
-        "GID_0": "AUT",
-        "COUNTRY": "Austria",
-        "NAME_1": "Burgenland",
-        "VARNAME_1": "Burgenlândia",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Bundesländ",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "AT.BU",
-        "ISO_1": "AT-1",
-	    "AREA": 3962
+        "Country": "Austria",
+        "Name_1": "Burgenland",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4797,18 +4788,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "AUT.2_1",
-        "GID_0": "AUT",
-        "COUNTRY": "Austria",
-        "NAME_1": "Kärnten",
-        "VARNAME_1": "Carinthia|Caríntia|Carintia",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Bundesländ",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "AT.KA",
-        "ISO_1": "AT-2",
-	"AREA": 9536
+        "Country": "Austria",
+        "Name_1": "Kärnten",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6709,7 +6691,7 @@
               ],
               [
                 13.7027,
-                47.0
+                47
               ],
               [
                 13.7068,
@@ -7273,7 +7255,7 @@
               ],
               [
                 14.4296,
-                47.0
+                47
               ],
               [
                 14.4311,
@@ -8487,18 +8469,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "AUT.3_1",
-        "GID_0": "AUT",
-        "COUNTRY": "Austria",
-        "NAME_1": "Niederösterreich",
-        "VARNAME_1": "LowerAustria|Baixa-Áustria|BajaAustria|Niederdonau|ÖsterreichunterderEnns",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Bundesländ",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "AT.NO",
-        "ISO_1": "AT-3",
-	    "AREA": 19174
+        "Country": "Austria",
+        "Name_1": "Niederösterreich",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -11347,7 +11320,7 @@
               ],
               [
                 15.1153,
-                49.0
+                49
               ],
               [
                 15.123,
@@ -14373,18 +14346,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "AUT.4_1",
-        "GID_0": "AUT",
-        "COUNTRY": "Austria",
-        "NAME_1": "Oberösterreich",
-        "VARNAME_1": "UpperAustria|Alta-Áustria|AltaAustria|ÖsterreichoberderEnns|Oberösterreich",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Bundesländ",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "AT.OO",
-        "ISO_1": "AT-4",
-	"AREA": 11982
+        "Country": "Austria",
+        "Name_1": "Oberösterreich",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -19075,18 +19039,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "AUT.5_1",
-        "GID_0": "AUT",
-        "COUNTRY": "Austria",
-        "NAME_1": "Salzburg",
-        "VARNAME_1": "Salzburgo",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Bundesländ",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "AT.SZ",
-        "ISO_1": "AT-5",
-	"AREA": 7156
+        "Country": "Austria",
+        "Name_1": "Salzburg",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -23259,7 +23214,7 @@
               ],
               [
                 13.7027,
-                47.0
+                47
               ],
               [
                 13.7029,
@@ -23277,18 +23232,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "AUT.6_1",
-        "GID_0": "AUT",
-        "COUNTRY": "Austria",
-        "NAME_1": "Steiermark",
-        "VARNAME_1": "Styria|Est¡ria|Estiria",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Bundesländ",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "AT.ST",
-        "ISO_1": "AT-6",
-	"AREA": 16398
+        "Country": "Austria",
+        "Name_1": "Steiermark",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -24213,7 +24159,7 @@
               ],
               [
                 14.4296,
-                47.0
+                47
               ],
               [
                 14.4317,
@@ -28955,18 +28901,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "AUT.7_1",
-        "GID_0": "AUT",
-        "COUNTRY": "Austria",
-        "NAME_1": "Tirol",
-        "VARNAME_1": "Tyrol",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Bundesländ",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "AT.TR",
-        "ISO_1": "AT-7",
-	"AREA": 12647
+        "Country": "Austria",
+        "Name_1": "Tirol",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -31014,7 +30951,7 @@
                 47.6194
               ],
               [
-                12.0,
+                12,
                 47.6221
               ],
               [
@@ -34277,18 +34214,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "AUT.8_1",
-        "GID_0": "AUT",
-        "COUNTRY": "Austria",
-        "NAME_1": "Vorarlberg",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Bundesländ",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "AT.VO",
-        "ISO_1": "AT-8",
-	"AREA": 2601
+        "Country": "Austria",
+        "Name_1": "Vorarlberg",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",

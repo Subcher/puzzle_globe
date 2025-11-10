@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.1_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Adana",
-        "VARNAME_1": "Seyhan",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.AA",
-        "ISO_1": "TR-01"
+        "Country": "Turkey",
+        "Name_1": "Adana",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2696,17 +2688,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.2_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Adiyaman",
-        "VARNAME_1": "Adıyaman",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.AD",
-        "ISO_1": "TR-02"
+        "Country": "Turkey",
+        "Name_1": "Adiyaman",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3413,17 +3397,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.3_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Afyon",
-        "VARNAME_1": "Afyonkarahisar",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.AF",
-        "ISO_1": "NA"
+        "Country": "Turkey",
+        "Name_1": "Afyon",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3467,7 +3443,7 @@
                 37.7723
               ],
               [
-                30.0,
+                30,
                 37.7788
               ],
               [
@@ -4342,17 +4318,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.4_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Agri",
-        "VARNAME_1": "Ağri|Karaköse",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.AG",
-        "ISO_1": "TR-04"
+        "Country": "Turkey",
+        "Name_1": "Agri",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5339,17 +5307,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.5_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Aksaray",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.AK",
-        "ISO_1": "TR-68"
+        "Country": "Turkey",
+        "Name_1": "Aksaray",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5960,17 +5920,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.6_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Amasya",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.AM",
-        "ISO_1": "TR-05"
+        "Country": "Turkey",
+        "Name_1": "Amasya",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6657,17 +6609,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.7_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Ankara",
-        "VARNAME_1": "Ancara|Angora",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.AN",
-        "ISO_1": "TR-06"
+        "Country": "Turkey",
+        "Name_1": "Ankara",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -8206,17 +8150,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.8_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Antalya",
-        "VARNAME_1": "Adalia|Anatolia",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.AL",
-        "ISO_1": "TR-07"
+        "Country": "Turkey",
+        "Name_1": "Antalya",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13051,17 +12987,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.9_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Ardahan",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.AR",
-        "ISO_1": "TR-75"
+        "Country": "Turkey",
+        "Name_1": "Ardahan",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13784,17 +13712,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.10_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Artvin",
-        "VARNAME_1": "Çoruh",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.AV",
-        "ISO_1": "TR-08"
+        "Country": "Turkey",
+        "Name_1": "Artvin",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -14701,17 +14621,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.11_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Aydin",
-        "VARNAME_1": "Aydın",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.AY",
-        "ISO_1": "TR-09"
+        "Country": "Turkey",
+        "Name_1": "Aydin",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -17114,17 +17026,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.12_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Balikesir",
-        "VARNAME_1": "Balıkesir|Balikisri",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.BK",
-        "ISO_1": "TR-10"
+        "Country": "Turkey",
+        "Name_1": "Balikesir",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -22735,17 +22639,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.13_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Bartın",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.BR",
-        "ISO_1": "NA"
+        "Country": "Turkey",
+        "Name_1": "Bartın",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -23664,17 +23560,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.14_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Batman",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.BM",
-        "ISO_1": "TR-72"
+        "Country": "Turkey",
+        "Name_1": "Batman",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -24221,17 +24109,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.15_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Bayburt",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.BB",
-        "ISO_1": "TR-69"
+        "Country": "Turkey",
+        "Name_1": "Bayburt",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -24710,17 +24590,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.16_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Bilecik",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.BC",
-        "ISO_1": "TR-11"
+        "Country": "Turkey",
+        "Name_1": "Bilecik",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -25279,17 +25151,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.17_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Bingöl",
-        "VARNAME_1": "Çapakçur",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.BG",
-        "ISO_1": "NA"
+        "Country": "Turkey",
+        "Name_1": "Bingöl",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -26084,17 +25948,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.18_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Bitlis",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.BT",
-        "ISO_1": "TR-13"
+        "Country": "Turkey",
+        "Name_1": "Bitlis",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -26845,17 +26701,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.19_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Bolu",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.BL",
-        "ISO_1": "TR-14"
+        "Country": "Turkey",
+        "Name_1": "Bolu",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -27614,17 +27462,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.20_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Burdur",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.BD",
-        "ISO_1": "TR-15"
+        "Country": "Turkey",
+        "Name_1": "Burdur",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -28339,17 +28179,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.21_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Bursa",
-        "VARNAME_1": "Burssa|Brusa|Brussa|Brousse",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.BU",
-        "ISO_1": "TR-16"
+        "Country": "Turkey",
+        "Name_1": "Bursa",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -29608,17 +29440,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.22_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Çanakkale",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.CK",
-        "ISO_1": "NA"
+        "Country": "Turkey",
+        "Name_1": "Çanakkale",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -34149,17 +33973,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.23_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Çankiri",
-        "VARNAME_1": "Çankırı|Changra",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.CI",
-        "ISO_1": "NA"
+        "Country": "Turkey",
+        "Name_1": "Çankiri",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -34838,17 +34654,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.24_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Çorum",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.CM",
-        "ISO_1": "NA"
+        "Country": "Turkey",
+        "Name_1": "Çorum",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -35695,17 +35503,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.25_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Denizli",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.DN",
-        "ISO_1": "TR-20"
+        "Country": "Turkey",
+        "Name_1": "Denizli",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -36684,17 +36484,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.26_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Diyarbakir",
-        "VARNAME_1": "Diyarbakır",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.DY",
-        "ISO_1": "TR-21"
+        "Country": "Turkey",
+        "Name_1": "Diyarbakir",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -37593,17 +37385,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.27_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Düzce",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.DU",
-        "ISO_1": "NA"
+        "Country": "Turkey",
+        "Name_1": "Düzce",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -38022,17 +37806,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.28_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Edirne",
-        "VARNAME_1": "Adrianople|Adrianopel",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.ED",
-        "ISO_1": "TR-22"
+        "Country": "Turkey",
+        "Name_1": "Edirne",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -39703,17 +39479,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.29_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Elazığ",
-        "VARNAME_1": "Elazig",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.EG",
-        "ISO_1": "NA"
+        "Country": "Turkey",
+        "Name_1": "Elazığ",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -40612,17 +40380,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.30_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Erzincan",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.EN",
-        "ISO_1": "TR-24"
+        "Country": "Turkey",
+        "Name_1": "Erzincan",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -41665,17 +41425,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.31_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Erzurum",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.EM",
-        "ISO_1": "TR-25"
+        "Country": "Turkey",
+        "Name_1": "Erzurum",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -43050,17 +42802,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.32_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Eskisehir",
-        "VARNAME_1": "Eskişehir",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.ES",
-        "ISO_1": "TR-26"
+        "Country": "Turkey",
+        "Name_1": "Eskisehir",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -43879,17 +43623,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.33_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Gaziantep",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.GA",
-        "ISO_1": "TR-27"
+        "Country": "Turkey",
+        "Name_1": "Gaziantep",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -44652,17 +44388,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.34_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Giresun",
-        "VARNAME_1": "Kerasund",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.GI",
-        "ISO_1": "TR-28"
+        "Country": "Turkey",
+        "Name_1": "Giresun",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -45797,17 +45525,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.35_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Gümüshane",
-        "VARNAME_1": "Gümüşhane",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.GU",
-        "ISO_1": "NA"
+        "Country": "Turkey",
+        "Name_1": "Gümüshane",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -46538,17 +46258,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.36_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Hakkari",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.HK",
-        "ISO_1": "TR-30"
+        "Country": "Turkey",
+        "Name_1": "Hakkari",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -47495,17 +47207,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.37_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Hatay",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.HT",
-        "ISO_1": "TR-31"
+        "Country": "Turkey",
+        "Name_1": "Hatay",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -49320,17 +49024,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.38_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Iğdır",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.IG",
-        "ISO_1": "NA"
+        "Country": "Turkey",
+        "Name_1": "Iğdır",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -49351,11 +49047,11 @@
               ],
               [
                 44.3973,
-                40.0
+                40
               ],
               [
                 44.4192,
-                40.0
+                40
               ],
               [
                 44.4552,
@@ -50113,17 +49809,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.39_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Isparta",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.IP",
-        "ISO_1": "TR-32"
+        "Country": "Turkey",
+        "Name_1": "Isparta",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -50858,17 +50546,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.40_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Istanbul",
-        "VARNAME_1": "İstanbul|Constantinople|Estambul",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.IB",
-        "ISO_1": "TR-34"
+        "Country": "Turkey",
+        "Name_1": "Istanbul",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -53903,17 +53583,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.41_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Izmir",
-        "VARNAME_1": "İzmir|Esmirna|Smirne|Smyrna",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.IZ",
-        "ISO_1": "TR-35"
+        "Country": "Turkey",
+        "Name_1": "Izmir",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -62920,17 +62592,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.42_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "K.Maras",
-        "VARNAME_1": "Kahramanmaraş",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.KM",
-        "ISO_1": "NA"
+        "Country": "Turkey",
+        "Name_1": "K. Maras",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -63809,17 +63473,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.43_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Karabük",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.KB",
-        "ISO_1": "NA"
+        "Country": "Turkey",
+        "Name_1": "Karabük",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -64246,17 +63902,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.44_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Karaman",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.KR",
-        "ISO_1": "TR-70"
+        "Country": "Turkey",
+        "Name_1": "Karaman",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -65131,17 +64779,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.45_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Kars",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.KA",
-        "ISO_1": "TR-36"
+        "Country": "Turkey",
+        "Name_1": "Kars",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -66108,17 +65748,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.46_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Kastamonu",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.KS",
-        "ISO_1": "TR-37"
+        "Country": "Turkey",
+        "Name_1": "Kastamonu",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -67661,17 +67293,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.47_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Kayseri",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.KY",
-        "ISO_1": "TR-38"
+        "Country": "Turkey",
+        "Name_1": "Kayseri",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -68554,17 +68178,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.48_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Kilis",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.KI",
-        "ISO_1": "TR-79"
+        "Country": "Turkey",
+        "Name_1": "Kilis",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -68919,17 +68535,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.49_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Kinkkale",
-        "VARNAME_1": "Kırıkkale",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.KK",
-        "ISO_1": "NA"
+        "Country": "Turkey",
+        "Name_1": "Kinkkale",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -69500,17 +69108,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.50_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Kirklareli",
-        "VARNAME_1": "Kırklareli",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.KL",
-        "ISO_1": "TR-39"
+        "Country": "Turkey",
+        "Name_1": "Kirklareli",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -71065,17 +70665,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.51_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Kirsehir",
-        "VARNAME_1": "Kırşehir",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.KH",
-        "ISO_1": "TR-40"
+        "Country": "Turkey",
+        "Name_1": "Kirsehir",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -71794,17 +71386,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.52_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Kocaeli",
-        "VARNAME_1": "İzmit",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.KC",
-        "ISO_1": "TR-41"
+        "Country": "Turkey",
+        "Name_1": "Kocaeli",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -73859,17 +73443,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.53_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Konya",
-        "VARNAME_1": "Konieh|Kunja",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.KO",
-        "ISO_1": "TR-42"
+        "Country": "Turkey",
+        "Name_1": "Konya",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -75676,17 +75252,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.54_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Kütahya",
-        "VARNAME_1": "Kütanya",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.KU",
-        "ISO_1": "NA"
+        "Country": "Turkey",
+        "Name_1": "Kütahya",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -76473,17 +76041,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.55_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Malatya",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.ML",
-        "ISO_1": "TR-44"
+        "Country": "Turkey",
+        "Name_1": "Malatya",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -77458,17 +77018,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.56_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Manisa",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.MN",
-        "ISO_1": "TR-45"
+        "Country": "Turkey",
+        "Name_1": "Manisa",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -78419,17 +77971,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.57_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Mardin",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.MR",
-        "ISO_1": "TR-47"
+        "Country": "Turkey",
+        "Name_1": "Mardin",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -79204,17 +78748,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.58_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Mersin",
-        "VARNAME_1": "İçel",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.IC",
-        "ISO_1": "TR-33"
+        "Country": "Turkey",
+        "Name_1": "Mersin",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -82069,17 +81605,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.59_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Mugla",
-        "VARNAME_1": "Muğla",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.MG",
-        "ISO_1": "TR-48"
+        "Country": "Turkey",
+        "Name_1": "Mugla",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -96562,17 +96090,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.60_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Mus",
-        "VARNAME_1": "Muş",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.MS",
-        "ISO_1": "TR-49"
+        "Country": "Turkey",
+        "Name_1": "Mus",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -97323,17 +96843,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.61_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Nevsehir",
-        "VARNAME_1": "Nevşehir",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.NV",
-        "ISO_1": "TR-50"
+        "Country": "Turkey",
+        "Name_1": "Nevsehir",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -98112,17 +97624,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.62_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Nigde",
-        "VARNAME_1": "Niğde",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.NG",
-        "ISO_1": "TR-51"
+        "Country": "Turkey",
+        "Name_1": "Nigde",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -98809,17 +98313,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.63_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Ordu",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.OR",
-        "ISO_1": "TR-52"
+        "Country": "Turkey",
+        "Name_1": "Ordu",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -100002,17 +99498,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.64_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Osmaniye",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.OS",
-        "ISO_1": "TR-80"
+        "Country": "Turkey",
+        "Name_1": "Osmaniye",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -100431,17 +99919,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.65_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Rize",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.RI",
-        "ISO_1": "TR-53"
+        "Country": "Turkey",
+        "Name_1": "Rize",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -101112,17 +100592,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.66_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Sakarya",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.SK",
-        "ISO_1": "TR-54"
+        "Country": "Turkey",
+        "Name_1": "Sakarya",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -101753,17 +101225,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.67_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Samsun",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.SS",
-        "ISO_1": "TR-55"
+        "Country": "Turkey",
+        "Name_1": "Samsun",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -103054,17 +102518,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.68_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Sanliurfa",
-        "VARNAME_1": "Şanlıurfa|Urfa",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.SU",
-        "ISO_1": "TR-63"
+        "Country": "Turkey",
+        "Name_1": "Sanliurfa",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -103875,17 +103331,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.69_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Siirt",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.SI",
-        "ISO_1": "TR-56"
+        "Country": "Turkey",
+        "Name_1": "Siirt",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -104472,17 +103920,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.70_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Sinop",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.SP",
-        "ISO_1": "TR-57"
+        "Country": "Turkey",
+        "Name_1": "Sinop",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -105893,17 +105333,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.71_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Sirnak",
-        "VARNAME_1": "Şırnak",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.SR",
-        "ISO_1": "TR-73"
+        "Country": "Turkey",
+        "Name_1": "Sirnak",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -106886,17 +106318,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.72_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Sivas",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.SV",
-        "ISO_1": "TR-58"
+        "Country": "Turkey",
+        "Name_1": "Sivas",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -108379,17 +107803,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.73_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Tekirdag",
-        "VARNAME_1": "Tekirdağ",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.TG",
-        "ISO_1": "TR-59"
+        "Country": "Turkey",
+        "Name_1": "Tekirdag",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -109564,17 +108980,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.74_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Tokat",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.TT",
-        "ISO_1": "TR-60"
+        "Country": "Turkey",
+        "Name_1": "Tokat",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -110417,17 +109825,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.75_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Trabzon",
-        "VARNAME_1": "Trapezunt|Trebizond|Trebizonda|T",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.TB",
-        "ISO_1": "TR-61"
+        "Country": "Turkey",
+        "Name_1": "Trabzon",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -111582,17 +110982,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.76_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Tunceli",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.TC",
-        "ISO_1": "TR-62"
+        "Country": "Turkey",
+        "Name_1": "Tunceli",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -112323,17 +111715,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.77_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Usak",
-        "VARNAME_1": "Uşak",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.US",
-        "ISO_1": "TR-64"
+        "Country": "Turkey",
+        "Name_1": "Usak",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -112828,17 +112212,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.78_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Van",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.VA",
-        "ISO_1": "TR-65"
+        "Country": "Turkey",
+        "Name_1": "Van",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -114421,17 +113797,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.79_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Yalova",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.YL",
-        "ISO_1": "TR-77"
+        "Country": "Turkey",
+        "Name_1": "Yalova",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -114978,17 +114346,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.80_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Yozgat",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.YZ",
-        "ISO_1": "TR-66"
+        "Country": "Turkey",
+        "Name_1": "Yozgat",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -115843,17 +115203,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TUR.81_1",
-        "GID_0": "TUR",
-        "COUNTRY": "Turkey",
-        "NAME_1": "Zinguldak",
-        "VARNAME_1": "Zonguldak",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Il",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "TR.ZO",
-        "ISO_1": "NA"
+        "Country": "Turkey",
+        "Name_1": "Zinguldak",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",

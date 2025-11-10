@@ -11,8 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "KHM",
-        "COUNTRY": "Cambodia"
+        "Country": "Cambodia",
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -15444,7 +15445,7 @@
                 11.2474
               ],
               [
-                103.0,
+                103,
                 11.2517
               ],
               [

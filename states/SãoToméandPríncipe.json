@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "STP.1_1",
-        "GID_0": "STP",
-        "COUNTRY": "SãoToméandPríncipe",
-        "NAME_1": "Príncipe",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Concelho",
-        "ENGTYPE_1": "Municipality",
-        "CC_1": "NA",
-        "HASC_1": "ST.PR",
-        "ISO_1": "NA"
+        "Country": "SãoToméandPríncipe",
+        "Name_1": "Príncipe",
+        "Type": "Municipality"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -760,17 +752,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "STP.2_1",
-        "GID_0": "STP",
-        "COUNTRY": "SãoToméandPríncipe",
-        "NAME_1": "SãoTomé",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Concelho",
-        "ENGTYPE_1": "Municipality",
-        "CC_1": "NA",
-        "HASC_1": "ST.ST",
-        "ISO_1": "NA"
+        "Country": "SãoToméandPríncipe",
+        "Name_1": "São Tomé",
+        "Type": "Municipality"
       },
       "geometry": {
         "type": "MultiPolygon",

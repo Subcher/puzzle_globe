@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ITA.1_1",
-        "GID_0": "ITA",
-        "COUNTRY": "Italy",
-        "NAME_1": "Abruzzo",
-        "VARNAME_1": "Abruzos|Abruzzen|Abruzzes|Abruzz",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Regione",
-        "ENGTYPE_1": "Region",
-        "CC_1": "13",
-        "HASC_1": "NA",
-        "ISO_1": "IT-65"
+        "Country": "Italy",
+        "Name_1": "Abruzzo",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2096,17 +2088,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ITA.2_1",
-        "GID_0": "ITA",
-        "COUNTRY": "Italy",
-        "NAME_1": "Apulia",
-        "VARNAME_1": "Apulien|Pouilles|Pouille|Puglia|",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Regione",
-        "ENGTYPE_1": "Region",
-        "CC_1": "16",
-        "HASC_1": "NA",
-        "ISO_1": "NA"
+        "Country": "Italy",
+        "Name_1": "Apulia",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9223,17 +9207,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ITA.3_1",
-        "GID_0": "ITA",
-        "COUNTRY": "Italy",
-        "NAME_1": "Basilicata",
-        "VARNAME_1": "Basilicate|Lucania",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Regione",
-        "ENGTYPE_1": "Region",
-        "CC_1": "17",
-        "HASC_1": "NA",
-        "ISO_1": "IT-77"
+        "Country": "Italy",
+        "Name_1": "Basilicata",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -11632,17 +11608,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ITA.4_1",
-        "GID_0": "ITA",
-        "COUNTRY": "Italy",
-        "NAME_1": "Calabria",
-        "VARNAME_1": "Calabre|Calabrie|Kalabrien",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Regione",
-        "ENGTYPE_1": "Region",
-        "CC_1": "18",
-        "HASC_1": "NA",
-        "ISO_1": "IT-78"
+        "Country": "Italy",
+        "Name_1": "Calabria",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -14753,17 +14721,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ITA.5_1",
-        "GID_0": "ITA",
-        "COUNTRY": "Italy",
-        "NAME_1": "Campania",
-        "VARNAME_1": "Campanha|Campanie|Kampanien",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Regione",
-        "ENGTYPE_1": "Region",
-        "CC_1": "15",
-        "HASC_1": "NA",
-        "ISO_1": "IT-72"
+        "Country": "Italy",
+        "Name_1": "Campania",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -19566,17 +19526,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ITA.6_1",
-        "GID_0": "ITA",
-        "COUNTRY": "Italy",
-        "NAME_1": "Emilia-Romagna",
-        "VARNAME_1": "EmiliaRomagna|Emilia|Emilia-Rom",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Regione",
-        "ENGTYPE_1": "Region",
-        "CC_1": "8",
-        "HASC_1": "NA",
-        "ISO_1": "IT-45"
+        "Country": "Italy",
+        "Name_1": "Emilia- Romagna",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -22457,7 +22409,7 @@
               ],
               [
                 10.3057,
-                45.0
+                45
               ],
               [
                 10.311,
@@ -23943,17 +23895,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ITA.7_1",
-        "GID_0": "ITA",
-        "COUNTRY": "Italy",
-        "NAME_1": "Friuli-VeneziaGiulia",
-        "VARNAME_1": "FriuliVeneziaGiulia|Friuli-Ven",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Regione",
-        "ENGTYPE_1": "AutonomousRegion",
-        "CC_1": "6",
-        "HASC_1": "NA",
-        "ISO_1": "IT-36"
+        "Country": "Italy",
+        "Name_1": "Friuli- Venezia Giulia",
+        "Type": "AutonomousRegion"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -28120,17 +28064,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ITA.8_1",
-        "GID_0": "ITA",
-        "COUNTRY": "Italy",
-        "NAME_1": "Lazio",
-        "VARNAME_1": "Lacio|Latium",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Regione",
-        "ENGTYPE_1": "Region",
-        "CC_1": "12",
-        "HASC_1": "NA",
-        "ISO_1": "IT-62"
+        "Country": "Italy",
+        "Name_1": "Lazio",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -32089,7 +32025,7 @@
               ],
               [
                 12.301870588235282,
-                42.489817647058807
+                42.48981764705881
               ],
               [
                 12.3008,
@@ -32105,7 +32041,7 @@
               ],
               [
                 12.301870588235282,
-                42.489817647058807
+                42.48981764705881
               ],
               [
                 12.3021,
@@ -32391,17 +32327,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ITA.9_1",
-        "GID_0": "ITA",
-        "COUNTRY": "Italy",
-        "NAME_1": "Liguria",
-        "VARNAME_1": "Ligurie|Ligurien",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Regione",
-        "ENGTYPE_1": "Region",
-        "CC_1": "7",
-        "HASC_1": "NA",
-        "ISO_1": "IT-42"
+        "Country": "Italy",
+        "Name_1": "Liguria",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -36696,17 +36624,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ITA.10_1",
-        "GID_0": "ITA",
-        "COUNTRY": "Italy",
-        "NAME_1": "Lombardia",
-        "VARNAME_1": "Lombardy|Lombardei|Lombardie",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Regione",
-        "ENGTYPE_1": "Region",
-        "CC_1": "3",
-        "HASC_1": "NA",
-        "ISO_1": "IT-25"
+        "Country": "Italy",
+        "Name_1": "Lombardia",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -41311,7 +41231,7 @@
               ],
               [
                 10.3057,
-                45.0
+                45
               ],
               [
                 10.2954,
@@ -42157,17 +42077,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ITA.11_1",
-        "GID_0": "ITA",
-        "COUNTRY": "Italy",
-        "NAME_1": "Marche",
-        "VARNAME_1": "Marches|Marca",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Regione",
-        "ENGTYPE_1": "Region",
-        "CC_1": "11",
-        "HASC_1": "NA",
-        "ISO_1": "IT-57"
+        "Country": "Italy",
+        "Name_1": "Marche",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -44598,17 +44510,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ITA.12_1",
-        "GID_0": "ITA",
-        "COUNTRY": "Italy",
-        "NAME_1": "Molise",
-        "VARNAME_1": "Molisa",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Regione",
-        "ENGTYPE_1": "Region",
-        "CC_1": "14",
-        "HASC_1": "NA",
-        "ISO_1": "IT-67"
+        "Country": "Italy",
+        "Name_1": "Molise",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -46187,17 +46091,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ITA.13_1",
-        "GID_0": "ITA",
-        "COUNTRY": "Italy",
-        "NAME_1": "Piemonte",
-        "VARNAME_1": "Piemont|Piémont|Piemonte|Piedmon",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Regione",
-        "ENGTYPE_1": "Region",
-        "CC_1": "1",
-        "HASC_1": "NA",
-        "ISO_1": "IT-21"
+        "Country": "Italy",
+        "Name_1": "Piemonte",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -50344,17 +50240,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ITA.14_1",
-        "GID_0": "ITA",
-        "COUNTRY": "Italy",
-        "NAME_1": "Sardegna",
-        "VARNAME_1": "Cerdeña|Sardenha",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Regione",
-        "ENGTYPE_1": "AutonomousRegion",
-        "CC_1": "20",
-        "HASC_1": "NA",
-        "ISO_1": "IT-88"
+        "Country": "Italy",
+        "Name_1": "Sardegna",
+        "Type": "AutonomousRegion"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -65473,17 +65361,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ITA.15_1",
-        "GID_0": "ITA",
-        "COUNTRY": "Italy",
-        "NAME_1": "Sicily",
-        "VARNAME_1": "Sicilia",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Regione",
-        "ENGTYPE_1": "AutonomousRegion",
-        "CC_1": "19",
-        "HASC_1": "NA",
-        "ISO_1": "NA"
+        "Country": "Italy",
+        "Name_1": "Sicily",
+        "Type": "AutonomousRegion"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -75014,17 +74894,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ITA.16_1",
-        "GID_0": "ITA",
-        "COUNTRY": "Italy",
-        "NAME_1": "Toscana",
-        "VARNAME_1": "Tuscany|Toscane|Toskana",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Regione",
-        "ENGTYPE_1": "Region",
-        "CC_1": "9",
-        "HASC_1": "NA",
-        "ISO_1": "IT-52"
+        "Country": "Italy",
+        "Name_1": "Toscana",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -81625,17 +81497,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ITA.17_1",
-        "GID_0": "ITA",
-        "COUNTRY": "Italy",
-        "NAME_1": "Trentino-AltoAdige",
-        "VARNAME_1": "Trentino-AltoAdige|Trentino-A",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Regione",
-        "ENGTYPE_1": "AutonomousRegion",
-        "CC_1": "4",
-        "HASC_1": "NA",
-        "ISO_1": "IT-32"
+        "Country": "Italy",
+        "Name_1": "Trentino- Alto Adige",
+        "Type": "AutonomousRegion"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -85063,7 +84927,7 @@
                 45.7158
               ],
               [
-                11.0,
+                11,
                 45.7085
               ],
               [
@@ -85214,17 +85078,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ITA.18_1",
-        "GID_0": "ITA",
-        "COUNTRY": "Italy",
-        "NAME_1": "Umbria",
-        "VARNAME_1": "Ombrie|Umbrien",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Regione",
-        "ENGTYPE_1": "Region",
-        "CC_1": "10",
-        "HASC_1": "NA",
-        "ISO_1": "IT-55"
+        "Country": "Italy",
+        "Name_1": "Umbria",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -87333,17 +87189,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ITA.19_1",
-        "GID_0": "ITA",
-        "COUNTRY": "Italy",
-        "NAME_1": "Valled'Aosta",
-        "VARNAME_1": "AostaValley|Vald'Aoste|Vallée",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Regione",
-        "ENGTYPE_1": "AutonomousRegion",
-        "CC_1": "2",
-        "HASC_1": "NA",
-        "ISO_1": "IT-23"
+        "Country": "Italy",
+        "Name_1": "Valled' Aosta",
+        "Type": "AutonomousRegion"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -88386,17 +88234,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ITA.20_1",
-        "GID_0": "ITA",
-        "COUNTRY": "Italy",
-        "NAME_1": "Veneto",
-        "VARNAME_1": "Venecia|Venetia|VeneziaEuganea",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Regione",
-        "ENGTYPE_1": "Region",
-        "CC_1": "5",
-        "HASC_1": "NA",
-        "ISO_1": "IT-34"
+        "Country": "Italy",
+        "Name_1": "Veneto",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -93301,7 +93141,7 @@
               ],
               [
                 12.216068194842405,
-                45.280578223495702
+                45.2805782234957
               ],
               [
                 12.2174,
@@ -93373,7 +93213,7 @@
               ],
               [
                 12.216068194842405,
-                45.280578223495702
+                45.2805782234957
               ],
               [
                 12.216,
@@ -94952,7 +94792,7 @@
                 45.6979
               ],
               [
-                11.0,
+                11,
                 45.7085
               ],
               [

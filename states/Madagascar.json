@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MDG.1_1",
-        "GID_0": "MDG",
-        "COUNTRY": "Madagascar",
-        "NAME_1": "Antananarivo",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "NA",
-        "ENGTYPE_1": "NA",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "MG-T"
+        "Country": "Madagascar",
+        "Name_1": "Antananarivo",
+        "Type": "NA"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3753,7 +3745,7 @@
                 -17.8083
               ],
               [
-                46.0,
+                46,
                 -17.8101
               ],
               [
@@ -5477,7 +5469,7 @@
                 -18.1693
               ],
               [
-                48.0,
+                48,
                 -18.1693
               ],
               [
@@ -7548,17 +7540,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MDG.2_1",
-        "GID_0": "MDG",
-        "COUNTRY": "Madagascar",
-        "NAME_1": "Antsiranana",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "NA",
-        "ENGTYPE_1": "NA",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "MG-D"
+        "Country": "Madagascar",
+        "Name_1": "Antsiranana",
+        "Type": "NA"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -27881,17 +27865,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MDG.3_1",
-        "GID_0": "MDG",
-        "COUNTRY": "Madagascar",
-        "NAME_1": "Fianarantsoa",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "NA",
-        "ENGTYPE_1": "NA",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "MG-F"
+        "Country": "Madagascar",
+        "Name_1": "Fianarantsoa",
+        "Type": "NA"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -38104,7 +38080,7 @@
               ],
               [
                 47.2086,
-                -24.0
+                -24
               ],
               [
                 47.2061,
@@ -38630,17 +38606,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MDG.4_1",
-        "GID_0": "MDG",
-        "COUNTRY": "Madagascar",
-        "NAME_1": "Mahajanga",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "NA",
-        "ENGTYPE_1": "NA",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "MG-M"
+        "Country": "Madagascar",
+        "Name_1": "Mahajanga",
+        "Type": "NA"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -57092,7 +57060,7 @@
                 -17.7154
               ],
               [
-                48.0,
+                48,
                 -17.7188
               ],
               [
@@ -58696,7 +58664,7 @@
                 -17.8123
               ],
               [
-                46.0,
+                46,
                 -17.8101
               ],
               [
@@ -65735,17 +65703,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MDG.5_1",
-        "GID_0": "MDG",
-        "COUNTRY": "Madagascar",
-        "NAME_1": "Toamasina",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "NA",
-        "ENGTYPE_1": "NA",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "MG-A"
+        "Country": "Madagascar",
+        "Name_1": "Toamasina",
+        "Type": "NA"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -67341,7 +67301,7 @@
                 -18.1754
               ],
               [
-                48.0,
+                48,
                 -18.1693
               ],
               [
@@ -67597,7 +67557,7 @@
                 -17.7235
               ],
               [
-                48.0,
+                48,
                 -17.7188
               ],
               [
@@ -79116,17 +79076,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MDG.6_1",
-        "GID_0": "MDG",
-        "COUNTRY": "Madagascar",
-        "NAME_1": "Toliary",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "NA",
-        "ENGTYPE_1": "NA",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "NA"
+        "Country": "Madagascar",
+        "Name_1": "Toliary",
+        "Type": "NA"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -95051,7 +95003,7 @@
               ],
               [
                 47.2086,
-                -24.0
+                -24
               ],
               [
                 47.2112,

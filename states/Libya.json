@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "LBY.1_1",
-        "GID_0": "LBY",
-        "COUNTRY": "Libya",
-        "NAME_1": "AlButnan",
-        "VARNAME_1": "Tobruk|Tubruq|Butnan",
-        "NL_NAME_1": "لبطنان",
-        "TYPE_1": "Shabiyah",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "LY.BN",
-        "ISO_1": "LY-BU"
+        "Country": "Libya",
+        "Name_1": "Al Butnan",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -297,7 +289,7 @@
                 29.2502
               ],
               [
-                25.0,
+                25,
                 28.0267
               ],
               [
@@ -2836,17 +2828,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "LBY.2_1",
-        "GID_0": "LBY",
-        "COUNTRY": "Libya",
-        "NAME_1": "AlJabalalAkhdar",
-        "VARNAME_1": "JabalalAkhdar|Jabalal-Akhḍar|",
-        "NL_NAME_1": "لجبلالأخضر",
-        "TYPE_1": "Shabiyah",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "LY.JK",
-        "ISO_1": "LY-JA"
+        "Country": "Libya",
+        "Name_1": "Al Jabalal Akhdar",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3669,17 +3653,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "LBY.3_1",
-        "GID_0": "LBY",
-        "COUNTRY": "Libya",
-        "NAME_1": "AlJabalalGharbi",
-        "VARNAME_1": "AlǦabalalGharbi",
-        "NL_NAME_1": "لجبلالغربي",
-        "TYPE_1": "Shabiyah",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "LY.JG",
-        "ISO_1": "LY-JG"
+        "Country": "Libya",
+        "Name_1": "Al Jabalal Gharbi",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4202,17 +4178,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "LBY.4_1",
-        "GID_0": "LBY",
-        "COUNTRY": "Libya",
-        "NAME_1": "AlJifarah",
-        "VARNAME_1": "Jafara|AlJfara|AlJfara|Al`Azi",
-        "NL_NAME_1": "لجفارة",
-        "TYPE_1": "Shabiyah",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "LY.JR",
-        "ISO_1": "NA"
+        "Country": "Libya",
+        "Name_1": "Al Jifarah",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4339,17 +4307,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "LBY.5_1",
-        "GID_0": "LBY",
-        "COUNTRY": "Libya",
-        "NAME_1": "AlJufrah",
-        "VARNAME_1": "Jufra|Jofra|",
-        "NL_NAME_1": "لجفرة",
-        "TYPE_1": "Shabiyah",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "LY.JF",
-        "ISO_1": "LY-JU"
+        "Country": "Libya",
+        "Name_1": "Al Jufrah",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5316,17 +5276,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "LBY.6_1",
-        "GID_0": "LBY",
-        "COUNTRY": "Libya",
-        "NAME_1": "AlKufrah",
-        "VARNAME_1": "al-Kufra|Kufra|Kofra|Cufra",
-        "NL_NAME_1": "لكفرة",
-        "TYPE_1": "Shabiyah",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "LY.KU",
-        "ISO_1": "LY-KF"
+        "Country": "Libya",
+        "Name_1": "Al Kufrah",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5362,19 +5314,19 @@
                 27.0175
               ],
               [
-                25.0,
+                25,
                 27.0077
               ],
               [
-                25.0,
-                20.0
+                25,
+                20
               ],
               [
-                24.0,
-                20.0
+                24,
+                20
               ],
               [
-                24.0,
+                24,
                 19.5082
               ],
               [
@@ -5435,7 +5387,7 @@
               ],
               [
                 23.0469,
-                20.0
+                20
               ],
               [
                 22.8029,
@@ -5661,17 +5613,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "LBY.7_1",
-        "GID_0": "LBY",
-        "COUNTRY": "Libya",
-        "NAME_1": "AlMarj",
-        "VARNAME_1": "Marj|AlMarǧ",
-        "NL_NAME_1": "لمرج",
-        "TYPE_1": "Shabiyah",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "LY.MA",
-        "ISO_1": "LY-MJ"
+        "Country": "Libya",
+        "Name_1": "Al Marj",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6238,17 +6182,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "LBY.8_1",
-        "GID_0": "LBY",
-        "COUNTRY": "Libya",
-        "NAME_1": "AlMarqab",
-        "VARNAME_1": "Murqub|AlMurgub|al-Morqib",
-        "NL_NAME_1": "لمرقب",
-        "TYPE_1": "Shabiyah",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "LY.MR",
-        "ISO_1": "LY-MB"
+        "Country": "Libya",
+        "Name_1": "Al Marqab",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7343,17 +7279,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "LBY.9_1",
-        "GID_0": "LBY",
-        "COUNTRY": "Libya",
-        "NAME_1": "AlWahat",
-        "VARNAME_1": "AlWahat|AlWahad|AlWahah|AlWā",
-        "NL_NAME_1": "لواحات",
-        "TYPE_1": "Shabiyah",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "LY.AW",
-        "ISO_1": "LY-WA"
+        "Country": "Libya",
+        "Name_1": "Al Wahat",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -8241,7 +8169,7 @@
                 28.0322
               ],
               [
-                25.0,
+                25,
                 28.0267
               ],
               [
@@ -8304,17 +8232,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "LBY.10_1",
-        "GID_0": "LBY",
-        "COUNTRY": "Libya",
-        "NAME_1": "AnNuqatalKhams",
-        "VARNAME_1": "an-Niqatal-Hams|NigatalKhums",
-        "NL_NAME_1": "لنقاطالخمس",
-        "TYPE_1": "Shabiyah",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "LY.NK",
-        "ISO_1": "LY-NQ"
+        "Country": "Libya",
+        "Name_1": "An Nuqatal Khams",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9193,17 +9113,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "LBY.11_1",
-        "GID_0": "LBY",
-        "COUNTRY": "Libya",
-        "NAME_1": "AzZawiyah",
-        "VARNAME_1": "AzZāwiya|Zawiya",
-        "NL_NAME_1": "لزاوية",
-        "TYPE_1": "Shabiyah",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "LY.ZW",
-        "ISO_1": "LY-ZA"
+        "Country": "Libya",
+        "Name_1": "Az Zawiyah",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9414,17 +9326,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "LBY.12_1",
-        "GID_0": "LBY",
-        "COUNTRY": "Libya",
-        "NAME_1": "Benghazi",
-        "VARNAME_1": "Banghāzī",
-        "NL_NAME_1": "بنغازي‎",
-        "TYPE_1": "Shabiyah",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "LY.BG",
-        "ISO_1": "NA"
+        "Country": "Libya",
+        "Name_1": "Benghazi",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10535,17 +10439,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "LBY.13_1",
-        "GID_0": "LBY",
-        "COUNTRY": "Libya",
-        "NAME_1": "Darnah",
-        "VARNAME_1": "Darana|Darna|Derna",
-        "NL_NAME_1": "درنة",
-        "TYPE_1": "Shabiyah",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "LY.DA",
-        "ISO_1": "LY-DR"
+        "Country": "Libya",
+        "Name_1": "Darnah",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -12424,17 +12320,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "LBY.14_1",
-        "GID_0": "LBY",
-        "COUNTRY": "Libya",
-        "NAME_1": "Ghat",
-        "VARNAME_1": "Gat",
-        "NL_NAME_1": "غات‎",
-        "TYPE_1": "Shabiyah",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "LY.GH",
-        "ISO_1": "NA"
+        "Country": "Libya",
+        "Name_1": "Ghat",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13285,17 +13173,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "LBY.15_1",
-        "GID_0": "LBY",
-        "COUNTRY": "Libya",
-        "NAME_1": "Misratah",
-        "VARNAME_1": "Misrata|Miṣrātah|Məṣrātah",
-        "NL_NAME_1": "مصراته",
-        "TYPE_1": "Shabiyah",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "LY.MS",
-        "ISO_1": "LY-MI"
+        "Country": "Libya",
+        "Name_1": "Misratah",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -14186,17 +14066,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "LBY.16_1",
-        "GID_0": "LBY",
-        "COUNTRY": "Libya",
-        "NAME_1": "Murzuq",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "مرزق‎",
-        "TYPE_1": "Shabiyah",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "LY.MU",
-        "ISO_1": "NA"
+        "Country": "Libya",
+        "Name_1": "Murzuq",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -15368,7 +15240,7 @@
                 23.4991
               ],
               [
-                12.0,
+                12,
                 23.5152
               ],
               [
@@ -15383,17 +15255,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "LBY.17_1",
-        "GID_0": "LBY",
-        "COUNTRY": "Libya",
-        "NAME_1": "Nalut",
-        "VARNAME_1": "Nālūt|NalutLalūt",
-        "NL_NAME_1": "نالوت‎",
-        "TYPE_1": "Shabiyah",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "LY.NT",
-        "ISO_1": "LY-NL"
+        "Country": "Libya",
+        "Name_1": "Nalut",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -15962,7 +15826,7 @@
               ],
               [
                 10.7947,
-                32.0
+                32
               ],
               [
                 10.8377,
@@ -16352,17 +16216,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "LBY.18_1",
-        "GID_0": "LBY",
-        "COUNTRY": "Libya",
-        "NAME_1": "Sabha",
-        "VARNAME_1": "Sabhah|Sebha|Sabhā",
-        "NL_NAME_1": "سبها‎",
-        "TYPE_1": "Shabiyah",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "LY.SA",
-        "ISO_1": "LY-SB"
+        "Country": "Libya",
+        "Name_1": "Sabha",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -16701,17 +16557,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "LBY.19_1",
-        "GID_0": "LBY",
-        "COUNTRY": "Libya",
-        "NAME_1": "Surt",
-        "VARNAME_1": "Sirte|Sirt",
-        "NL_NAME_1": "سرت",
-        "TYPE_1": "Shabiyah",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "LY.ST",
-        "ISO_1": "LY-SR"
+        "Country": "Libya",
+        "Name_1": "Surt",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -18974,17 +18822,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "LBY.20_1",
-        "GID_0": "LBY",
-        "COUNTRY": "Libya",
-        "NAME_1": "Tripoli",
-        "VARNAME_1": "Tripoli|Shab'iyaẗṬarābulus",
-        "NL_NAME_1": "شعبيةطرابلس‎",
-        "TYPE_1": "Shabiyah",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "LY.TR",
-        "ISO_1": "NA"
+        "Country": "Libya",
+        "Name_1": "Tripoli",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -19691,17 +19531,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "LBY.21_1",
-        "GID_0": "LBY",
-        "COUNTRY": "Libya",
-        "NAME_1": "WadialHayat",
-        "VARNAME_1": "WadiAlHayaa|WādīalḤayāh",
-        "NL_NAME_1": "واديالحياة‎",
-        "TYPE_1": "Shabiyah",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "LY.WH",
-        "ISO_1": "NA"
+        "Country": "Libya",
+        "Name_1": "Wadial Hayat",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -20068,17 +19900,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "LBY.22_1",
-        "GID_0": "LBY",
-        "COUNTRY": "Libya",
-        "NAME_1": "WadiashShati'",
-        "VARNAME_1": "WadiAlShatii|Shati|Wadiash-Sh",
-        "NL_NAME_1": "واديالشاطئ‎",
-        "TYPE_1": "Shabiyah",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "LY.WS",
-        "ISO_1": "LY-WS"
+        "Country": "Libya",
+        "Name_1": "Wadiash Shati'",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",

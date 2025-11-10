@@ -11,18 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BEN.1_1",
-        "GID_0": "BEN",
-        "COUNTRY": "Benin",
-        "NAME_1": "Alibori",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Département",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "BJ.AL",
-        "ISO_1": "BJ-AL",
-        "AREA": 25683
+        "Country": "Benin",
+        "Name_1": "Alibori",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2061,18 +2052,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BEN.2_1",
-        "GID_0": "BEN",
-        "COUNTRY": "Benin",
-        "NAME_1": "Atakora",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Département",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "BJ.AK",
-        "ISO_1": "BJ-AK",
-        "AREA": 20499
+        "Country": "Benin",
+        "Name_1": "Atakora",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2088,7 +2070,7 @@
                 10.0121
               ],
               [
-                1.0,
+                1,
                 10.22
               ],
               [
@@ -4157,18 +4139,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BEN.3_1",
-        "GID_0": "BEN",
-        "COUNTRY": "Benin",
-        "NAME_1": "Atlantique",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Département",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "BJ.AQ",
-        "ISO_1": "BJ-AQ",
-        "AREA": 3233
+        "Country": "Benin",
+        "Name_1": "Atlantique",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4857,18 +4830,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BEN.4_1",
-        "GID_0": "BEN",
-        "COUNTRY": "Benin",
-        "NAME_1": "Borgou",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Département",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "BJ.BO",
-        "ISO_1": "BJ-BO",
-        "AREA": 25310
+        "Country": "Benin",
+        "Name_1": "Borgou",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7053,18 +7017,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BEN.5_1",
-        "GID_0": "BEN",
-        "COUNTRY": "Benin",
-        "NAME_1": "Collines",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Département",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "BJ.CL",
-        "ISO_1": "BJ-CO",
-        "AREA": 13561
+        "Country": "Benin",
+        "Name_1": "Collines",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7773,7 +7728,7 @@
               ],
               [
                 2.7073,
-                8.0
+                8
               ],
               [
                 2.7045,
@@ -8221,18 +8176,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BEN.6_1",
-        "GID_0": "BEN",
-        "COUNTRY": "Benin",
-        "NAME_1": "Donga",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Département",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "BJ.DO",
-        "ISO_1": "BJ-DO",
-        "AREA": 10691
+        "Country": "Benin",
+        "Name_1": "Donga",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9541,18 +9487,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BEN.7_1",
-        "GID_0": "BEN",
-        "COUNTRY": "Benin",
-        "NAME_1": "Kouffo",
-        "VARNAME_1": "Couffo",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Département",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "BJ.CF",
-        "ISO_1": "BJ-KO",
-        "AREA": 2404
+        "Country": "Benin",
+        "Name_1": "Kouffo",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10205,18 +10142,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BEN.9_1",
-        "GID_0": "BEN",
-        "COUNTRY": "Benin",
-        "NAME_1": "Mono",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Département",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "BJ.MO",
-        "ISO_1": "BJ-MO",
-        "AREA": 1396
+        "Country": "Benin",
+        "Name_1": "Mono",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -11873,18 +11801,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BEN.10_1",
-        "GID_0": "BEN",
-        "COUNTRY": "Benin",
-        "NAME_1": "Ouémé",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Département",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "BJ.OU",
-        "ISO_1": "BJ-OU",
-        "AREA": 1865
+        "Country": "Benin",
+        "Name_1": "Ouémé",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -12457,18 +12376,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BEN.11_1",
-        "GID_0": "BEN",
-        "COUNTRY": "Benin",
-        "NAME_1": "Plateau",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Département",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "BJ.PL",
-        "ISO_1": "BJ-PL",
-        "AREA": 2835
+        "Country": "Benin",
+        "Name_1": "Plateau",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13389,18 +13299,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BEN.12_1",
-        "GID_0": "BEN",
-        "COUNTRY": "Benin",
-        "NAME_1": "Zou",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Département",
-        "ENGTYPE_1": "Department",
-        "CC_1": "NA",
-        "HASC_1": "BJ.ZO",
-        "ISO_1": "BJ-ZO",
-        "AREA": 5243
+        "Country": "Benin",
+        "Name_1": "Zou",
+        "Type": "Department"
       },
       "geometry": {
         "type": "MultiPolygon",

@@ -11,8 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "URY",
-        "COUNTRY": "Uruguay"
+        "Country": "Uruguay",
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4277,7 +4278,7 @@
               ],
               [
                 -55.774,
-                -31.0
+                -31
               ],
               [
                 -55.773,

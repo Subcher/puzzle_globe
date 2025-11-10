@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ROU.1_1",
-        "GID_0": "ROU",
-        "COUNTRY": "Romania",
-        "NAME_1": "Alba",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Judet",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "RO.AB",
-        "ISO_1": "RO-AB"
+        "Country": "Romania",
+        "Name_1": "Alba",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3952,17 +3944,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ROU.2_1",
-        "GID_0": "ROU",
-        "COUNTRY": "Romania",
-        "NAME_1": "Arad",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Judet",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "RO.AR",
-        "ISO_1": "RO-AR"
+        "Country": "Romania",
+        "Name_1": "Arad",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6925,17 +6909,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ROU.3_1",
-        "GID_0": "ROU",
-        "COUNTRY": "Romania",
-        "NAME_1": "Argeș",
-        "VARNAME_1": "Arges",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Judet",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "RO.AG",
-        "ISO_1": "NA"
+        "Country": "Romania",
+        "Name_1": "Argeș",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10334,17 +10310,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ROU.4_1",
-        "GID_0": "ROU",
-        "COUNTRY": "Romania",
-        "NAME_1": "Bacău",
-        "VARNAME_1": "Bacau",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Judet",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "RO.BC",
-        "ISO_1": "NA"
+        "Country": "Romania",
+        "Name_1": "Bacău",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13659,17 +13627,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ROU.5_1",
-        "GID_0": "ROU",
-        "COUNTRY": "Romania",
-        "NAME_1": "Bihor",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Judet",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "RO.BH",
-        "ISO_1": "RO-BH"
+        "Country": "Romania",
+        "Name_1": "Bihor",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -16888,17 +16848,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ROU.6_1",
-        "GID_0": "ROU",
-        "COUNTRY": "Romania",
-        "NAME_1": "Bistrița-Năsăud",
-        "VARNAME_1": "Bistrita-nasaud",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Judet",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "RO.BN",
-        "ISO_1": "NA"
+        "Country": "Romania",
+        "Name_1": "Bistrița- Năsăud",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -17435,7 +17387,7 @@
               ],
               [
                 24.1056,
-                47.0
+                47
               ],
               [
                 24.1061,
@@ -19338,7 +19290,7 @@
                 47.1125
               ],
               [
-                25.0,
+                25,
                 47.1113
               ],
               [
@@ -19917,17 +19869,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ROU.7_1",
-        "GID_0": "ROU",
-        "COUNTRY": "Romania",
-        "NAME_1": "Botoșani",
-        "VARNAME_1": "Botosani",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Judet",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "RO.BT",
-        "ISO_1": "NA"
+        "Country": "Romania",
+        "Name_1": "Botoșani",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -22710,17 +22654,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ROU.9_1",
-        "GID_0": "ROU",
-        "COUNTRY": "Romania",
-        "NAME_1": "Brăila",
-        "VARNAME_1": "Braila",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Judet",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "RO.BR",
-        "ISO_1": "NA"
+        "Country": "Romania",
+        "Name_1": "Brăila",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -24171,17 +24107,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ROU.8_1",
-        "GID_0": "ROU",
-        "COUNTRY": "Romania",
-        "NAME_1": "Brașov",
-        "VARNAME_1": "Brasov",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Judet",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "RO.BV",
-        "ISO_1": "NA"
+        "Country": "Romania",
+        "Name_1": "Brașov",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -27436,17 +27364,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ROU.10_1",
-        "GID_0": "ROU",
-        "COUNTRY": "Romania",
-        "NAME_1": "Bucharest",
-        "VARNAME_1": "Bucuresti",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Municipiu",
-        "ENGTYPE_1": "Municipality",
-        "CC_1": "NA",
-        "HASC_1": "RO.BI",
-        "ISO_1": "NA"
+        "Country": "Romania",
+        "Name_1": "Bucharest",
+        "Type": "Municipality"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -28045,17 +27965,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ROU.11_1",
-        "GID_0": "ROU",
-        "COUNTRY": "Romania",
-        "NAME_1": "Buzău",
-        "VARNAME_1": "Buzau",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Judet",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "RO.BZ",
-        "ISO_1": "NA"
+        "Country": "Romania",
+        "Name_1": "Buzău",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -30682,17 +30594,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ROU.12_1",
-        "GID_0": "ROU",
-        "COUNTRY": "Romania",
-        "NAME_1": "Călărași",
-        "VARNAME_1": "Calarasi",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Judet",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "RO.CL",
-        "ISO_1": "NA"
+        "Country": "Romania",
+        "Name_1": "Călărași",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -32175,17 +32079,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ROU.13_1",
-        "GID_0": "ROU",
-        "COUNTRY": "Romania",
-        "NAME_1": "Caraș-Severin",
-        "VARNAME_1": "Caras-severin",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Judet",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "RO.CS",
-        "ISO_1": "NA"
+        "Country": "Romania",
+        "Name_1": "Caraș- Severin",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -35360,17 +35256,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ROU.14_1",
-        "GID_0": "ROU",
-        "COUNTRY": "Romania",
-        "NAME_1": "Cluj",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Judet",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "RO.CJ",
-        "ISO_1": "RO-CJ"
+        "Country": "Romania",
+        "Name_1": "Cluj",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -37691,7 +37579,7 @@
               ],
               [
                 23.4604,
-                47.0
+                47
               ],
               [
                 23.465,
@@ -39203,7 +39091,7 @@
               ],
               [
                 24.1056,
-                47.0
+                47
               ],
               [
                 24.108,
@@ -40005,17 +39893,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ROU.15_1",
-        "GID_0": "ROU",
-        "COUNTRY": "Romania",
-        "NAME_1": "Constanța",
-        "VARNAME_1": "Constanta",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Judet",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "RO.CT",
-        "ISO_1": "NA"
+        "Country": "Romania",
+        "Name_1": "Constanța",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -40299,7 +40179,7 @@
                 44.2936
               ],
               [
-                28.0,
+                28,
                 44.3047
               ],
               [
@@ -42482,17 +42362,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ROU.16_1",
-        "GID_0": "ROU",
-        "COUNTRY": "Romania",
-        "NAME_1": "Covasna",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Judet",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "RO.CV",
-        "ISO_1": "RO-CV"
+        "Country": "Romania",
+        "Name_1": "Covasna",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -45319,17 +45191,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ROU.17_1",
-        "GID_0": "ROU",
-        "COUNTRY": "Romania",
-        "NAME_1": "Dâmbovița",
-        "VARNAME_1": "Dambovita",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Judet",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "RO.DB",
-        "ISO_1": "NA"
+        "Country": "Romania",
+        "Name_1": "Dâmbovița",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -48128,17 +47992,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ROU.18_1",
-        "GID_0": "ROU",
-        "COUNTRY": "Romania",
-        "NAME_1": "Dolj",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Judet",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "RO.DJ",
-        "ISO_1": "RO-DJ"
+        "Country": "Romania",
+        "Name_1": "Dolj",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -50045,17 +49901,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ROU.19_1",
-        "GID_0": "ROU",
-        "COUNTRY": "Romania",
-        "NAME_1": "Galați",
-        "VARNAME_1": "Galati",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Judet",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "RO.GL",
-        "ISO_1": "NA"
+        "Country": "Romania",
+        "Name_1": "Galați",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -52542,17 +52390,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ROU.20_1",
-        "GID_0": "ROU",
-        "COUNTRY": "Romania",
-        "NAME_1": "Giurgiu",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Judet",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "RO.GR",
-        "ISO_1": "RO-GR"
+        "Country": "Romania",
+        "Name_1": "Giurgiu",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -53996,7 +53836,7 @@
                 44.3162
               ],
               [
-                26.0,
+                26,
                 44.3067
               ],
               [
@@ -54483,17 +54323,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ROU.21_1",
-        "GID_0": "ROU",
-        "COUNTRY": "Romania",
-        "NAME_1": "Gorj",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Judet",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "RO.GJ",
-        "ISO_1": "RO-GJ"
+        "Country": "Romania",
+        "Name_1": "Gorj",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -56992,17 +56824,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ROU.22_1",
-        "GID_0": "ROU",
-        "COUNTRY": "Romania",
-        "NAME_1": "Harghita",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Judet",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "RO.HR",
-        "ISO_1": "RO-HR"
+        "Country": "Romania",
+        "Name_1": "Harghita",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -60617,17 +60441,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ROU.23_1",
-        "GID_0": "ROU",
-        "COUNTRY": "Romania",
-        "NAME_1": "Hunedoara",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Judet",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "RO.HD",
-        "ISO_1": "RO-HD"
+        "Country": "Romania",
+        "Name_1": "Hunedoara",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -63498,17 +63314,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ROU.25_1",
-        "GID_0": "ROU",
-        "COUNTRY": "Romania",
-        "NAME_1": "Ialomița",
-        "VARNAME_1": "Ialomita",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Judet",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "RO.IL",
-        "ISO_1": "NA"
+        "Country": "Romania",
+        "Name_1": "Ialomița",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -65095,17 +64903,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ROU.24_1",
-        "GID_0": "ROU",
-        "COUNTRY": "Romania",
-        "NAME_1": "Iași",
-        "VARNAME_1": "Iasi",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Judet",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "RO.IS",
-        "ISO_1": "NA"
+        "Country": "Romania",
+        "Name_1": "Iași",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -67910,7 +67710,7 @@
               ],
               [
                 28.0558,
-                47.0
+                47
               ],
               [
                 28.0827,
@@ -69252,17 +69052,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ROU.26_1",
-        "GID_0": "ROU",
-        "COUNTRY": "Romania",
-        "NAME_1": "Ilfov",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Judet",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "RO.IF",
-        "ISO_1": "RO-IF"
+        "Country": "Romania",
+        "Name_1": "Ilfov",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -69922,7 +69714,7 @@
                 44.3059
               ],
               [
-                26.0,
+                26,
                 44.3067
               ],
               [
@@ -71371,17 +71163,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ROU.27_1",
-        "GID_0": "ROU",
-        "COUNTRY": "Romania",
-        "NAME_1": "Maramureș",
-        "VARNAME_1": "Maramures",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Judet",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "RO.MM",
-        "ISO_1": "NA"
+        "Country": "Romania",
+        "Name_1": "Maramureș",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -72902,7 +72686,7 @@
               ],
               [
                 23.5231,
-                48.0
+                48
               ],
               [
                 23.5273,
@@ -72970,7 +72754,7 @@
               ],
               [
                 23.6438,
-                48.0
+                48
               ],
               [
                 23.648,
@@ -73189,7 +72973,7 @@
                 47.9634
               ],
               [
-                24.0,
+                24,
                 47.9626
               ],
               [
@@ -74972,17 +74756,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ROU.28_1",
-        "GID_0": "ROU",
-        "COUNTRY": "Romania",
-        "NAME_1": "Mehedinți",
-        "VARNAME_1": "Mehedinti",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Judet",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "RO.MH",
-        "ISO_1": "NA"
+        "Country": "Romania",
+        "Name_1": "Mehedinți",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -77521,17 +77297,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ROU.29_1",
-        "GID_0": "ROU",
-        "COUNTRY": "Romania",
-        "NAME_1": "Mureș",
-        "VARNAME_1": "Mures",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Judet",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "RO.MS",
-        "ISO_1": "NA"
+        "Country": "Romania",
+        "Name_1": "Mureș",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -80519,7 +80287,7 @@
                 47.1128
               ],
               [
-                25.0,
+                25,
                 47.1113
               ],
               [
@@ -81494,17 +81262,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ROU.30_1",
-        "GID_0": "ROU",
-        "COUNTRY": "Romania",
-        "NAME_1": "Neamț",
-        "VARNAME_1": "Neamt",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Judet",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "RO.NT",
-        "ISO_1": "NA"
+        "Country": "Romania",
+        "Name_1": "Neamț",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -84611,17 +84371,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ROU.31_1",
-        "GID_0": "ROU",
-        "COUNTRY": "Romania",
-        "NAME_1": "Olt",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Judet",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "RO.OT",
-        "ISO_1": "RO-OT"
+        "Country": "Romania",
+        "Name_1": "Olt",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -87160,17 +86912,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ROU.32_1",
-        "GID_0": "ROU",
-        "COUNTRY": "Romania",
-        "NAME_1": "Prahova",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Judet",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "RO.PH",
-        "ISO_1": "RO-PH"
+        "Country": "Romania",
+        "Name_1": "Prahova",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -89741,17 +89485,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ROU.33_1",
-        "GID_0": "ROU",
-        "COUNTRY": "Romania",
-        "NAME_1": "Sălaj",
-        "VARNAME_1": "Salaj",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Judet",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "RO.SJ",
-        "ISO_1": "NA"
+        "Country": "Romania",
+        "Name_1": "Sălaj",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -92488,7 +92224,7 @@
               ],
               [
                 23.4604,
-                47.0
+                47
               ],
               [
                 23.4604,
@@ -92958,17 +92694,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ROU.34_1",
-        "GID_0": "ROU",
-        "COUNTRY": "Romania",
-        "NAME_1": "SatuMare",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Judet",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "RO.SM",
-        "ISO_1": "RO-SM"
+        "Country": "Romania",
+        "Name_1": "Satu Mare",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -93957,7 +93685,7 @@
               ],
               [
                 22.9982,
-                48.0
+                48
               ],
               [
                 22.9984,
@@ -95971,17 +95699,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ROU.35_1",
-        "GID_0": "ROU",
-        "COUNTRY": "Romania",
-        "NAME_1": "Sibiu",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Judet",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "RO.SB",
-        "ISO_1": "RO-SB"
+        "Country": "Romania",
+        "Name_1": "Sibiu",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -98956,17 +98676,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ROU.36_1",
-        "GID_0": "ROU",
-        "COUNTRY": "Romania",
-        "NAME_1": "Suceava",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Judet",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "RO.SV",
-        "ISO_1": "RO-SV"
+        "Country": "Romania",
+        "Name_1": "Suceava",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -102149,17 +101861,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ROU.37_1",
-        "GID_0": "ROU",
-        "COUNTRY": "Romania",
-        "NAME_1": "Teleorman",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Judet",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "RO.TR",
-        "ISO_1": "RO-TR"
+        "Country": "Romania",
+        "Name_1": "Teleorman",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -102295,7 +101999,7 @@
                 43.7249
               ],
               [
-                25.0,
+                25,
                 43.7276
               ],
               [
@@ -103962,17 +103666,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ROU.38_1",
-        "GID_0": "ROU",
-        "COUNTRY": "Romania",
-        "NAME_1": "Timiș",
-        "VARNAME_1": "Timis",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Judet",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "RO.TM",
-        "ISO_1": "NA"
+        "Country": "Romania",
+        "Name_1": "Timiș",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -104813,11 +104509,11 @@
               ],
               [
                 20.3499,
-                46.0
+                46
               ],
               [
                 20.3549,
-                46.0
+                46
               ],
               [
                 20.3537,
@@ -107535,17 +107231,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ROU.39_1",
-        "GID_0": "ROU",
-        "COUNTRY": "Romania",
-        "NAME_1": "Tulcea",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Judet",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "RO.TL",
-        "ISO_1": "RO-TL"
+        "Country": "Romania",
+        "Name_1": "Tulcea",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -109576,17 +109264,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ROU.40_1",
-        "GID_0": "ROU",
-        "COUNTRY": "Romania",
-        "NAME_1": "Vâlcea",
-        "VARNAME_1": "Valcea",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Judet",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "RO.VL",
-        "ISO_1": "NA"
+        "Country": "Romania",
+        "Name_1": "Vâlcea",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -112549,17 +112229,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ROU.41_1",
-        "GID_0": "ROU",
-        "COUNTRY": "Romania",
-        "NAME_1": "Vaslui",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Judet",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "RO.VS",
-        "ISO_1": "RO-VS"
+        "Country": "Romania",
+        "Name_1": "Vaslui",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -116130,17 +115802,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ROU.42_1",
-        "GID_0": "ROU",
-        "COUNTRY": "Romania",
-        "NAME_1": "Vrancea",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Judet",
-        "ENGTYPE_1": "County",
-        "CC_1": "NA",
-        "HASC_1": "RO.VN",
-        "ISO_1": "RO-VN"
+        "Country": "Romania",
+        "Name_1": "Vrancea",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",

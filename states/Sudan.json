@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SDN.1_1",
-        "GID_0": "SDN",
-        "COUNTRY": "Sudan",
-        "NAME_1": "AlJazirah",
-        "VARNAME_1": "Gezira",
-        "NL_NAME_1": "ولايةالجزيرة",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "SD.GZ",
-        "ISO_1": "NA"
+        "Country": "Sudan",
+        "Name_1": "Al Jazirah",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -764,17 +756,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SDN.2_1",
-        "GID_0": "SDN",
-        "COUNTRY": "Sudan",
-        "NAME_1": "AlQadarif",
-        "VARNAME_1": "Gedarif|Gadarif|Gedaref|Gederaf",
-        "NL_NAME_1": "القضارف",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "SD.GD",
-        "ISO_1": "NA"
+        "Country": "Sudan",
+        "Name_1": "Al Qadarif",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1949,17 +1933,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SDN.3_1",
-        "GID_0": "SDN",
-        "COUNTRY": "Sudan",
-        "NAME_1": "BlueNile",
-        "VARNAME_1": "AnNīlalAzraq|NilBleu|NiloAz",
-        "NL_NAME_1": "النيلالأزرق‎",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "SD.BN",
-        "ISO_1": "SD-NB"
+        "Country": "Sudan",
+        "Name_1": "Blue Nile",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2462,17 +2438,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SDN.4_1",
-        "GID_0": "SDN",
-        "COUNTRY": "Sudan",
-        "NAME_1": "CentralDarfur",
-        "VARNAME_1": "Zalingei",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "SD.CD",
-        "ISO_1": "SD-DC"
+        "Country": "Sudan",
+        "Name_1": "Central Darfur",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3275,17 +3243,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SDN.5_1",
-        "GID_0": "SDN",
-        "COUNTRY": "Sudan",
-        "NAME_1": "EastDarfur",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "SD.ED",
-        "ISO_1": "NA"
+        "Country": "Sudan",
+        "Name_1": "East Darfur",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3772,17 +3732,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SDN.6_1",
-        "GID_0": "SDN",
-        "COUNTRY": "Sudan",
-        "NAME_1": "Kassala",
-        "VARNAME_1": "Cassala|Kessala",
-        "NL_NAME_1": "كسلا,",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "SD.KA",
-        "ISO_1": "SD-KA"
+        "Country": "Sudan",
+        "Name_1": "Kassala",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4475,7 +4427,7 @@
               ],
               [
                 36.8279,
-                16.0
+                16
               ],
               [
                 36.8202,
@@ -4645,17 +4597,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SDN.7_1",
-        "GID_0": "SDN",
-        "COUNTRY": "Sudan",
-        "NAME_1": "Khartoum",
-        "VARNAME_1": "AlKharţūm|AlKhurţūm|Cartum|J",
-        "NL_NAME_1": "الخرطوم",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "SD.KH",
-        "ISO_1": "SD-KH"
+        "Country": "Sudan",
+        "Name_1": "Khartoum",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4858,17 +4802,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SDN.8_1",
-        "GID_0": "SDN",
-        "COUNTRY": "Sudan",
-        "NAME_1": "NorthDarfur",
-        "VARNAME_1": "DārfūrashShamālīyah|ShamālDā",
-        "NL_NAME_1": "شمالدارفور‎",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "SD.ND",
-        "ISO_1": "SD-DN"
+        "Country": "Sudan",
+        "Name_1": "North Darfur",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5916,15 +5852,15 @@
                 16.0001
               ],
               [
-                24.0,
-                20.0
+                24,
+                20
               ],
               [
-                25.0,
-                20.0
+                25,
+                20
               ],
               [
-                25.0,
+                25,
                 20.0036
               ],
               [
@@ -5933,7 +5869,7 @@
               ],
               [
                 27.5,
-                20.0
+                20
               ],
               [
                 27.5,
@@ -6143,17 +6079,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SDN.9_1",
-        "GID_0": "SDN",
-        "COUNTRY": "Sudan",
-        "NAME_1": "NorthKurdufan",
-        "VARNAME_1": "KurdufānashShamālīyah|ShamālK",
-        "NL_NAME_1": "شمالكردفان‎",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "SD.KN",
-        "ISO_1": "NA"
+        "Country": "Sudan",
+        "Name_1": "North Kurdufan",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6760,17 +6688,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SDN.10_1",
-        "GID_0": "SDN",
-        "COUNTRY": "Sudan",
-        "NAME_1": "Northern",
-        "VARNAME_1": "AshShamālī|AshShamālīyah|Nord",
-        "NL_NAME_1": "الشمالية",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "SD.NO",
-        "ISO_1": "SD-NO"
+        "Country": "Sudan",
+        "Name_1": "Northern",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6803,18 +6723,18 @@
               ],
               [
                 27.5,
-                20.0
+                20
               ],
               [
                 27.4714,
                 19.9982
               ],
               [
-                25.0,
+                25,
                 20.0036
               ],
               [
-                25.0,
+                25,
                 21.9992
               ],
               [
@@ -6898,11 +6818,11 @@
                 22.0047
               ],
               [
-                30.0,
+                30,
                 21.9992
               ],
               [
-                30.0,
+                30,
                 22.0052
               ],
               [
@@ -7105,17 +7025,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SDN.11_1",
-        "GID_0": "SDN",
-        "COUNTRY": "Sudan",
-        "NAME_1": "RedSea",
-        "VARNAME_1": "BaḥralAḥmar|MarRojo|MarRosso",
-        "NL_NAME_1": "البحرالأحمر‎",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "SD.RS",
-        "ISO_1": "SD-RS"
+        "Country": "Sudan",
+        "Name_1": "Red Sea",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -21206,17 +21118,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SDN.12_1",
-        "GID_0": "SDN",
-        "COUNTRY": "Sudan",
-        "NAME_1": "RiverNile",
-        "VARNAME_1": "anNīl,NahranNīl|Nil|Nile|",
-        "NL_NAME_1": "ولايةنهرالنيل‎",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "SD.RN",
-        "ISO_1": "SD-NR"
+        "Country": "Sudan",
+        "Name_1": "River Nile",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -21715,17 +21619,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SDN.13_1",
-        "GID_0": "SDN",
-        "COUNTRY": "Sudan",
-        "NAME_1": "Sennar",
-        "VARNAME_1": "Sinnar",
-        "NL_NAME_1": "سنار",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "SD.SI",
-        "ISO_1": "SD-SI"
+        "Country": "Sudan",
+        "Name_1": "Sennar",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -22588,17 +22484,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SDN.14_1",
-        "GID_0": "SDN",
-        "COUNTRY": "Sudan",
-        "NAME_1": "SouthDarfur",
-        "VARNAME_1": "DārfūralJanūbīyah|JanūbDārfū",
-        "NL_NAME_1": "جنوبدارفور‎",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "SD.SD",
-        "ISO_1": "SD-DS"
+        "Country": "Sudan",
+        "Name_1": "South Darfur",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -24037,17 +23925,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SDN.15_1",
-        "GID_0": "SDN",
-        "COUNTRY": "Sudan",
-        "NAME_1": "SouthKurdufan",
-        "VARNAME_1": "SouthernKordofan|SouthKordufan",
-        "NL_NAME_1": "جنوبكردفان‎",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "SD.KS",
-        "ISO_1": "NA"
+        "Country": "Sudan",
+        "Name_1": "South Kurdufan",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -24578,17 +24458,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SDN.16_1",
-        "GID_0": "SDN",
-        "COUNTRY": "Sudan",
-        "NAME_1": "WestDarfur",
-        "VARNAME_1": "DārfūralGharbīyah|GharbDārfūr",
-        "NL_NAME_1": "غربدارفور‎",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "SD.WD",
-        "ISO_1": "SD-DW"
+        "Country": "Sudan",
+        "Name_1": "West Darfur",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -25879,17 +25751,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SDN.17_1",
-        "GID_0": "SDN",
-        "COUNTRY": "Sudan",
-        "NAME_1": "WestKurdufan",
-        "VARNAME_1": "GharbKurdufān|GharbKurdufun|",
-        "NL_NAME_1": "غربكردفان‎",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "SD.KN",
-        "ISO_1": "NA"
+        "Country": "Sudan",
+        "Name_1": "West Kurdufan",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -26332,17 +26196,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SDN.18_1",
-        "GID_0": "SDN",
-        "COUNTRY": "Sudan",
-        "NAME_1": "WhiteNile",
-        "VARNAME_1": "AnBaḥralAbyad|AnNīlal-Abyad",
-        "NL_NAME_1": "النيلالأبيض‎",
-        "TYPE_1": "Wilayat",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "SD.WN",
-        "ISO_1": "SD-NW"
+        "Country": "Sudan",
+        "Name_1": "White Nile",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",

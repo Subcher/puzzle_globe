@@ -11,9 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "BMU",
-        "COUNTRY": "Bermuda",
-        "AREA": 54
+        "Country": "Bermuda",
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",

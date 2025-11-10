@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.1_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "Baringo",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "30",
-        "HASC_1": "KE.BA",
-        "ISO_1": "KE-01"
+        "Country": "Kenya",
+        "Name_1": "Baringo",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2569,7 +2561,7 @@
                 0.036
               ],
               [
-                36.0,
+                36,
                 0.0656
               ],
               [
@@ -2804,17 +2796,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.2_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "Bomet",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "36",
-        "HASC_1": "KE.BO",
-        "ISO_1": "KE-02"
+        "Country": "Kenya",
+        "Name_1": "Bomet",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4417,17 +4401,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.3_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "Bungoma",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "39",
-        "HASC_1": "KE.BN",
-        "ISO_1": "KE-03"
+        "Country": "Kenya",
+        "Name_1": "Bungoma",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4787,7 +4763,7 @@
                 0.6184
               ],
               [
-                35.0,
+                35,
                 0.6432
               ],
               [
@@ -5950,17 +5926,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.4_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "Busia",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "40",
-        "HASC_1": "KE.BS",
-        "ISO_1": "KE-04"
+        "Country": "Kenya",
+        "Name_1": "Busia",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7347,17 +7315,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.5_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "Elgeyo-Marakwet",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "28",
-        "HASC_1": "KE.EM",
-        "ISO_1": "NA"
+        "Country": "Kenya",
+        "Name_1": "Elgeyo- Marakwet",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9946,17 +9906,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.6_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "Embu",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "14",
-        "HASC_1": "KE.EB",
-        "ISO_1": "KE-06"
+        "Country": "Kenya",
+        "Name_1": "Embu",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -11667,17 +11619,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.7_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "Garissa",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "7",
-        "HASC_1": "KE.GA",
-        "ISO_1": "KE-07"
+        "Country": "Kenya",
+        "Name_1": "Garissa",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13430,7 +13374,7 @@
               ],
               [
                 41.0005,
-                0.0
+                0
               ],
               [
                 41.0005,
@@ -13449,7 +13393,7 @@
                 -0.3401
               ],
               [
-                41.0,
+                41,
                 -0.4221
               ],
               [
@@ -13488,17 +13432,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.8_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "HomaBay",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "43",
-        "HASC_1": "KE.HB",
-        "ISO_1": "KE-08"
+        "Country": "Kenya",
+        "Name_1": "Homa Bay",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -14477,17 +14413,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.9_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "Isiolo",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "11",
-        "HASC_1": "KE.IS",
-        "ISO_1": "KE-09"
+        "Country": "Kenya",
+        "Name_1": "Isiolo",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -17066,17 +16994,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.10_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "Kajiado",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "34",
-        "HASC_1": "KE.KJ",
-        "ISO_1": "KE-10"
+        "Country": "Kenya",
+        "Name_1": "Kajiado",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -18739,17 +18659,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.11_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "Kakamega",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "37",
-        "HASC_1": "KE.KK",
-        "ISO_1": "KE-11"
+        "Country": "Kenya",
+        "Name_1": "Kakamega",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -20228,17 +20140,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.12_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "Kericho",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "35",
-        "HASC_1": "KE.KR",
-        "ISO_1": "KE-12"
+        "Country": "Kenya",
+        "Name_1": "Kericho",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -21989,17 +21893,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.13_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "Kiambu",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "22",
-        "HASC_1": "KE.KB",
-        "ISO_1": "KE-13"
+        "Country": "Kenya",
+        "Name_1": "Kiambu",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -23438,17 +23334,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.14_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "Kilifi",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "3",
-        "HASC_1": "KE.KF",
-        "ISO_1": "KE-14"
+        "Country": "Kenya",
+        "Name_1": "Kilifi",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -25439,17 +25327,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.15_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "Kirinyaga",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "20",
-        "HASC_1": "KE.KY",
-        "ISO_1": "KE-15"
+        "Country": "Kenya",
+        "Name_1": "Kirinyaga",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -26832,17 +26712,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.16_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "Kisii",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "45",
-        "HASC_1": "KE.KI",
-        "ISO_1": "KE-16"
+        "Country": "Kenya",
+        "Name_1": "Kisii",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -27417,17 +27289,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.17_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "Kisumu",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "42",
-        "HASC_1": "KE.KU",
-        "ISO_1": "KE-17"
+        "Country": "Kenya",
+        "Name_1": "Kisumu",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -28116,7 +27980,7 @@
               ],
               [
                 34.8101,
-                -0.0
+                0
               ],
               [
                 34.808,
@@ -28850,17 +28714,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.18_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "Kitui",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "15",
-        "HASC_1": "KE.KT",
-        "ISO_1": "KE-18"
+        "Country": "Kenya",
+        "Name_1": "Kitui",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -31743,17 +31599,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.19_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "Kwale",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "2",
-        "HASC_1": "KE.KW",
-        "ISO_1": "KE-19"
+        "Country": "Kenya",
+        "Name_1": "Kwale",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -33928,17 +33776,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.20_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "Laikipia",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "31",
-        "HASC_1": "KE.LK",
-        "ISO_1": "KE-20"
+        "Country": "Kenya",
+        "Name_1": "Laikipia",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -35369,17 +35209,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.21_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "Lamu",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "5",
-        "HASC_1": "KE.LM",
-        "ISO_1": "KE-21"
+        "Country": "Kenya",
+        "Name_1": "Lamu",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -41094,17 +40926,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.22_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "Machakos",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "16",
-        "HASC_1": "KE.MC",
-        "ISO_1": "KE-22"
+        "Country": "Kenya",
+        "Name_1": "Machakos",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -44031,17 +43855,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.23_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "Makueni",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "17",
-        "HASC_1": "KE.MK",
-        "ISO_1": "KE-23"
+        "Country": "Kenya",
+        "Name_1": "Makueni",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -46464,17 +46280,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.24_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "Mandera",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "9",
-        "HASC_1": "KE.MD",
-        "ISO_1": "KE-24"
+        "Country": "Kenya",
+        "Name_1": "Mandera",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -47225,17 +47033,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.25_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "Marsabit",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "10",
-        "HASC_1": "KE.MB",
-        "ISO_1": "KE-25"
+        "Country": "Kenya",
+        "Name_1": "Marsabit",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -49014,17 +48814,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.26_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "Meru",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "12",
-        "HASC_1": "KE.ME",
-        "ISO_1": "KE-26"
+        "Country": "Kenya",
+        "Name_1": "Meru",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -50531,17 +50323,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.27_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "Migori",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "44",
-        "HASC_1": "KE.MG",
-        "ISO_1": "KE-27"
+        "Country": "Kenya",
+        "Name_1": "Migori",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -51320,17 +51104,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.28_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "Mombasa",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "1",
-        "HASC_1": "KE.MM",
-        "ISO_1": "KE-28"
+        "Country": "Kenya",
+        "Name_1": "Mombasa",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -52165,17 +51941,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.29_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "Murang'a",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "21",
-        "HASC_1": "KE.MU",
-        "ISO_1": "KE-29"
+        "Country": "Kenya",
+        "Name_1": "Murang'a",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -53546,17 +53314,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.30_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "Nairobi",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "47",
-        "HASC_1": "KE.NB",
-        "ISO_1": "NA"
+        "Country": "Kenya",
+        "Name_1": "Nairobi",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -54303,17 +54063,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.31_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "Nakuru",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "32",
-        "HASC_1": "KE.NK",
-        "ISO_1": "KE-31"
+        "Country": "Kenya",
+        "Name_1": "Nakuru",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -55293,7 +55045,7 @@
                 0.0621
               ],
               [
-                36.0,
+                36,
                 0.0656
               ],
               [
@@ -55972,17 +55724,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.32_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "Nandi",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "29",
-        "HASC_1": "KE.ND",
-        "ISO_1": "KE-32"
+        "Country": "Kenya",
+        "Name_1": "Nandi",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -56327,7 +56071,7 @@
               ],
               [
                 34.8101,
-                -0.0
+                0
               ],
               [
                 34.8314,
@@ -56993,17 +56737,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.33_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "Narok",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "33",
-        "HASC_1": "KE.NR",
-        "ISO_1": "KE-33"
+        "Country": "Kenya",
+        "Name_1": "Narok",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -58902,17 +58638,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.34_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "Nyamira",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "46",
-        "HASC_1": "KE.NM",
-        "ISO_1": "KE-34"
+        "Country": "Kenya",
+        "Name_1": "Nyamira",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -59519,17 +59247,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.35_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "Nyandarua",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "18",
-        "HASC_1": "KE.NN",
-        "ISO_1": "KE-35"
+        "Country": "Kenya",
+        "Name_1": "Nyandarua",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -60552,17 +60272,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.36_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "Nyeri",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "19",
-        "HASC_1": "KE.NI",
-        "ISO_1": "KE-36"
+        "Country": "Kenya",
+        "Name_1": "Nyeri",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -61609,17 +61321,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.37_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "Samburu",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "25",
-        "HASC_1": "KE.SA",
-        "ISO_1": "KE-37"
+        "Country": "Kenya",
+        "Name_1": "Samburu",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -64270,17 +63974,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.38_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "Siaya",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "41",
-        "HASC_1": "KE.SI",
-        "ISO_1": "KE-38"
+        "Country": "Kenya",
+        "Name_1": "Siaya",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -65123,17 +64819,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.39_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "TaitaTaveta",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "6",
-        "HASC_1": "KE.TT",
-        "ISO_1": "NA"
+        "Country": "Kenya",
+        "Name_1": "Taita Taveta",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -65956,17 +65644,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.40_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "TanaRiver",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "4",
-        "HASC_1": "KE.TR",
-        "ISO_1": "KE-40"
+        "Country": "Kenya",
+        "Name_1": "Tana River",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -67537,17 +67217,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.41_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "Tharaka-Nithi",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "13",
-        "HASC_1": "KE.NT",
-        "ISO_1": "KE-41"
+        "Country": "Kenya",
+        "Name_1": "Tharaka- Nithi",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -69054,17 +68726,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.42_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "TransNzoia",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "26",
-        "HASC_1": "KE.TN",
-        "ISO_1": "KE-42"
+        "Country": "Kenya",
+        "Name_1": "Trans Nzoia",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -69923,17 +69587,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.43_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "Turkana",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "23",
-        "HASC_1": "KE.TU",
-        "ISO_1": "KE-43"
+        "Country": "Kenya",
+        "Name_1": "Turkana",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -72860,17 +72516,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.44_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "UasinGishu",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "27",
-        "HASC_1": "KE.UG",
-        "ISO_1": "KE-44"
+        "Country": "Kenya",
+        "Name_1": "Uasin Gishu",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -73294,7 +72942,7 @@
                 0.6349
               ],
               [
-                35.0,
+                35,
                 0.6432
               ],
               [
@@ -74161,17 +73809,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.45_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "Vihiga",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "38",
-        "HASC_1": "KE.VI",
-        "ISO_1": "KE-45"
+        "Country": "Kenya",
+        "Name_1": "Vihiga",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -75058,17 +74698,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.46_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "Wajir",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "8",
-        "HASC_1": "KE.WJ",
-        "ISO_1": "KE-46"
+        "Country": "Kenya",
+        "Name_1": "Wajir",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -76671,17 +76303,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "KEN.47_1",
-        "GID_0": "KEN",
-        "COUNTRY": "Kenya",
-        "NAME_1": "WestPokot",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "24",
-        "HASC_1": "KE.WP",
-        "ISO_1": "KE-47"
+        "Country": "Kenya",
+        "Name_1": "West Pokot",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",

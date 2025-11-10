@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TKL.1_1",
-        "GID_0": "TKL",
-        "COUNTRY": "Tokelau",
-        "NAME_1": "Anafu",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Atoll",
-        "ENGTYPE_1": "Atoll",
-        "CC_1": "NA",
-        "HASC_1": "TK.AT",
-        "ISO_1": "NA"
+        "Country": "Tokelau",
+        "Name_1": "Anafu",
+        "Type": "Atoll"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -320,17 +312,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TKL.2_1",
-        "GID_0": "TKL",
-        "COUNTRY": "Tokelau",
-        "NAME_1": "Fakaofo",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Atoll",
-        "ENGTYPE_1": "Atoll",
-        "CC_1": "NA",
-        "HASC_1": "TK.FA",
-        "ISO_1": "NA"
+        "Country": "Tokelau",
+        "Name_1": "Fakaofo",
+        "Type": "Atoll"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -841,17 +825,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TKL.3_1",
-        "GID_0": "TKL",
-        "COUNTRY": "Tokelau",
-        "NAME_1": "Nukunonu",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Atoll",
-        "ENGTYPE_1": "Atoll",
-        "CC_1": "NA",
-        "HASC_1": "TK.NU",
-        "ISO_1": "NA"
+        "Country": "Tokelau",
+        "Name_1": "Nukunonu",
+        "Type": "Atoll"
       },
       "geometry": {
         "type": "MultiPolygon",

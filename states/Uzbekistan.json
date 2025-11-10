@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UZB.1_1",
-        "GID_0": "UZB",
-        "COUNTRY": "Uzbekistan",
-        "NAME_1": "Andijon",
-        "VARNAME_1": "Andijan|Andizhan",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wiloyat",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "UZ.AN",
-        "ISO_1": "UZ-AN"
+        "Country": "Uzbekistan",
+        "Name_1": "Andijon",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1156,17 +1148,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UZB.2_1",
-        "GID_0": "UZB",
-        "COUNTRY": "Uzbekistan",
-        "NAME_1": "Buxoro",
-        "VARNAME_1": "Bukhoro|Bukhara|Mawarranahr|Tran",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wiloyat",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "UZ.BU",
-        "ISO_1": "UZ-BU"
+        "Country": "Uzbekistan",
+        "Name_1": "Buxoro",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2477,17 +2461,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UZB.3_1",
-        "GID_0": "UZB",
-        "COUNTRY": "Uzbekistan",
-        "NAME_1": "Farg'ona",
-        "VARNAME_1": "Farghona|Fergana|Ferghana",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wiloyat",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "UZ.FA",
-        "ISO_1": "UZ-FA"
+        "Country": "Uzbekistan",
+        "Name_1": "Farg'ona",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3998,17 +3974,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UZB.4_1",
-        "GID_0": "UZB",
-        "COUNTRY": "Uzbekistan",
-        "NAME_1": "Jizzax",
-        "VARNAME_1": "Dzhizak|Jizzakh",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wiloyat",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "UZ.JI",
-        "ISO_1": "UZ-JI"
+        "Country": "Uzbekistan",
+        "Name_1": "Jizzax",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4568,7 +4536,7 @@
                 41.2341
               ],
               [
-                67.0,
+                67,
                 41.2278
               ],
               [
@@ -5061,7 +5029,7 @@
               ],
               [
                 68.8124,
-                40.0
+                40
               ],
               [
                 68.8447,
@@ -5419,17 +5387,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UZB.8_1",
-        "GID_0": "UZB",
-        "COUNTRY": "Uzbekistan",
-        "NAME_1": "Namangan",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wiloyat",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "UZ.NG",
-        "ISO_1": "UZ-NG"
+        "Country": "Uzbekistan",
+        "Name_1": "Namangan",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7022,17 +6982,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UZB.9_1",
-        "GID_0": "UZB",
-        "COUNTRY": "Uzbekistan",
-        "NAME_1": "Navoiy",
-        "VARNAME_1": "Navoi",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wiloyat",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "UZ.NW",
-        "ISO_1": "UZ-NW"
+        "Country": "Uzbekistan",
+        "Name_1": "Navoiy",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -8983,17 +8935,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UZB.5_1",
-        "GID_0": "UZB",
-        "COUNTRY": "Uzbekistan",
-        "NAME_1": "Qaraqalpaqstan",
-        "VARNAME_1": "Karakalpakstan|Qoraqalpog`iston",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Repuplikasi",
-        "ENGTYPE_1": "AutononousRegion",
-        "CC_1": "NA",
-        "HASC_1": "UZ.QR",
-        "ISO_1": "NA"
+        "Country": "Uzbekistan",
+        "Name_1": "Qaraqalpaqstan",
+        "Type": "AutononousRegion"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10566,7 +10510,7 @@
               ],
               [
                 55.9981,
-                45.0
+                45
               ],
               [
                 56.0309,
@@ -11232,17 +11176,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UZB.6_1",
-        "GID_0": "UZB",
-        "COUNTRY": "Uzbekistan",
-        "NAME_1": "Qashqadaryo",
-        "VARNAME_1": "Kashkadarya|Kashka-Dar'ya|Kashka",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wiloyat",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "UZ.QA",
-        "ISO_1": "UZ-QA"
+        "Country": "Uzbekistan",
+        "Name_1": "Qashqadaryo",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -12421,17 +12357,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UZB.10_1",
-        "GID_0": "UZB",
-        "COUNTRY": "Uzbekistan",
-        "NAME_1": "Samarqand'",
-        "VARNAME_1": "Samarkand",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wiloyat",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "UZ.SA",
-        "ISO_1": "NA"
+        "Country": "Uzbekistan",
+        "Name_1": "Samarqand'",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13678,17 +13606,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UZB.11_1",
-        "GID_0": "UZB",
-        "COUNTRY": "Uzbekistan",
-        "NAME_1": "Sirdaryo",
-        "VARNAME_1": "Syr-Dar'ya",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wiloyat",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "UZ.SI",
-        "ISO_1": "UZ-SI"
+        "Country": "Uzbekistan",
+        "Name_1": "Sirdaryo",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -14339,17 +14259,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UZB.12_1",
-        "GID_0": "UZB",
-        "COUNTRY": "Uzbekistan",
-        "NAME_1": "Surxondaryo",
-        "VARNAME_1": "Surkhandarya|Sukhan-Dar'ya|Surxo",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wiloyat",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "UZ.SU",
-        "ISO_1": "UZ-SU"
+        "Country": "Uzbekistan",
+        "Name_1": "Surxondaryo",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -15484,17 +15396,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UZB.14_1",
-        "GID_0": "UZB",
-        "COUNTRY": "Uzbekistan",
-        "NAME_1": "Toshkent",
-        "VARNAME_1": "Taschkent|Tashkent",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wiloyat",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "UZ.TA",
-        "ISO_1": "UZ-TK"
+        "Country": "Uzbekistan",
+        "Name_1": "Toshkent",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -17867,17 +17771,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UZB.13_1",
-        "GID_0": "UZB",
-        "COUNTRY": "Uzbekistan",
-        "NAME_1": "ToshkentShahri",
-        "VARNAME_1": "TashkentCity|ToshkentCity",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Shahar",
-        "ENGTYPE_1": "City",
-        "CC_1": "NA",
-        "HASC_1": "UZ.TK",
-        "ISO_1": "NA"
+        "Country": "Uzbekistan",
+        "Name_1": "Toshkent Shahri",
+        "Type": "City"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -18020,17 +17916,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UZB.7_1",
-        "GID_0": "UZB",
-        "COUNTRY": "Uzbekistan",
-        "NAME_1": "Xorazm",
-        "VARNAME_1": "Khorezm|Khiva|Khwarazm|Khorazm",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Wiloyat",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "UZ.KH",
-        "ISO_1": "UZ-XO"
+        "Country": "Uzbekistan",
+        "Name_1": "Xorazm",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",

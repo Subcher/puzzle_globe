@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SLB.1_1",
-        "GID_0": "SLB",
-        "COUNTRY": "SolomonIslands",
-        "NAME_1": "Central",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Province",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "SB.CN",
-        "ISO_1": "NA"
+        "Country": "SolomonIslands",
+        "Name_1": "Central",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2522,7 +2514,7 @@
               ],
               [
                 160.078,
-                -9.0
+                -9
               ],
               [
                 160.0799,
@@ -2809,7 +2801,7 @@
                 -8.8817
               ],
               [
-                160.0,
+                160,
                 -8.88
               ],
               [
@@ -3950,7 +3942,7 @@
               ],
               [
                 159.1361,
-                -9.0
+                -9
               ],
               [
                 159.1369,
@@ -4514,7 +4506,7 @@
             [
               [
                 159.1128,
-                -9.0
+                -9
               ],
               [
                 159.1114,
@@ -4530,7 +4522,7 @@
               ],
               [
                 159.1128,
-                -9.0
+                -9
               ]
             ]
           ],
@@ -5548,17 +5540,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SLB.2_1",
-        "GID_0": "SLB",
-        "COUNTRY": "SolomonIslands",
-        "NAME_1": "Choiseul",
-        "VARNAME_1": "Lauru",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Province",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "SB.CH",
-        "ISO_1": "SB-CH"
+        "Country": "SolomonIslands",
+        "Name_1": "Choiseul",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -11138,7 +11122,7 @@
                 -7.2458
               ],
               [
-                157.0,
+                157,
                 -7.2417
               ],
               [
@@ -14117,17 +14101,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SLB.3_1",
-        "GID_0": "SLB",
-        "COUNTRY": "SolomonIslands",
-        "NAME_1": "Guadalcanal",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Province",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "SB.GU",
-        "ISO_1": "SB-GU"
+        "Country": "SolomonIslands",
+        "Name_1": "Guadalcanal",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -16674,17 +16650,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SLB.4_1",
-        "GID_0": "SLB",
-        "COUNTRY": "SolomonIslands",
-        "NAME_1": "Honiara",
-        "VARNAME_1": "CapitalTerritory",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "CapitalTerritory",
-        "ENGTYPE_1": "CapitalTerritory",
-        "CC_1": "NA",
-        "HASC_1": "SB.CT",
-        "ISO_1": "NA"
+        "Country": "SolomonIslands",
+        "Name_1": "Honiara",
+        "Type": "CapitalTerritory"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -16827,17 +16795,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SLB.5_1",
-        "GID_0": "SLB",
-        "COUNTRY": "SolomonIslands",
-        "NAME_1": "Isabel",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Province",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "SB.IS",
-        "ISO_1": "NA"
+        "Country": "SolomonIslands",
+        "Name_1": "Isabel",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -18477,7 +18437,7 @@
                 -8.065
               ],
               [
-                159.0,
+                159,
                 -8.06
               ],
               [
@@ -18570,7 +18530,7 @@
               ],
               [
                 158.9186,
-                -8.0
+                -8
               ],
               [
                 158.9094,
@@ -21346,7 +21306,7 @@
               ],
               [
                 159.3678,
-                -8.0
+                -8
               ],
               [
                 159.3636,
@@ -29696,17 +29656,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SLB.6_1",
-        "GID_0": "SLB",
-        "COUNTRY": "SolomonIslands",
-        "NAME_1": "MakiraUlawa",
-        "VARNAME_1": "MakiraandUlawa",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Province",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "SB.MK",
-        "ISO_1": "NA"
+        "Country": "SolomonIslands",
+        "Name_1": "Makira Ulawa",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -32482,7 +32434,7 @@
                 -10.4928
               ],
               [
-                162.0,
+                162,
                 -10.4989
               ],
               [
@@ -34621,17 +34573,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SLB.7_1",
-        "GID_0": "SLB",
-        "COUNTRY": "SolomonIslands",
-        "NAME_1": "Malaita",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Province",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "SB.ML",
-        "ISO_1": "NA"
+        "Country": "SolomonIslands",
+        "Name_1": "Malaita",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -36928,7 +36872,7 @@
               ],
               [
                 160.7722,
-                -9.0
+                -9
               ],
               [
                 160.7681,
@@ -38131,7 +38075,7 @@
                 -8.6672
               ],
               [
-                161.0,
+                161,
                 -8.6731
               ],
               [
@@ -44126,17 +44070,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SLB.8_1",
-        "GID_0": "SLB",
-        "COUNTRY": "SolomonIslands",
-        "NAME_1": "RennellandBellona",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Province",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "SB.RB",
-        "ISO_1": "NA"
+        "Country": "SolomonIslands",
+        "Name_1": "Rennelland Bellona",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -44632,7 +44568,7 @@
                 -11.5983
               ],
               [
-                160.0,
+                160,
                 -11.5883
               ],
               [
@@ -44935,17 +44871,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SLB.9_1",
-        "GID_0": "SLB",
-        "COUNTRY": "SolomonIslands",
-        "NAME_1": "Temotu",
-        "VARNAME_1": "EasternIslands",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Province",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "SB.TE",
-        "ISO_1": "NA"
+        "Country": "SolomonIslands",
+        "Name_1": "Temotu",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -46477,7 +46405,7 @@
                 -10.6606
               ],
               [
-                166.0,
+                166,
                 -10.6581
               ],
               [
@@ -46873,7 +46801,7 @@
                 -10.7814
               ],
               [
-                166.0,
+                166,
                 -10.7786
               ],
               [
@@ -48472,17 +48400,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "SLB.10_1",
-        "GID_0": "SLB",
-        "COUNTRY": "SolomonIslands",
-        "NAME_1": "Western",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Province",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "SB.WE",
-        "ISO_1": "SB-WE"
+        "Country": "SolomonIslands",
+        "Name_1": "Western",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -54506,7 +54426,7 @@
                 -8.505
               ],
               [
-                158.0,
+                158,
                 -8.4997
               ],
               [
@@ -60439,7 +60359,7 @@
               ],
               [
                 155.8114,
-                -7.0
+                -7
               ],
               [
                 155.8097,
@@ -60667,7 +60587,7 @@
               ],
               [
                 156.0511,
-                -7.0
+                -7
               ],
               [
                 156.0517,
@@ -60863,7 +60783,7 @@
               ],
               [
                 155.8875,
-                -7.0
+                -7
               ],
               [
                 155.8847,
@@ -68787,7 +68707,7 @@
               ],
               [
                 156.9444,
-                -8.0
+                -8
               ],
               [
                 156.9481,
@@ -68954,7 +68874,7 @@
                 -7.8694
               ],
               [
-                157.0,
+                157,
                 -7.8703
               ],
               [
@@ -69658,7 +69578,7 @@
           [
             [
               [
-                157.552048808030122,
+                157.55204880803012,
                 -8.409955457967403
               ],
               [
@@ -69666,11 +69586,11 @@
                 -8.4101
               ],
               [
-                157.552065038560414,
+                157.55206503856041,
                 -8.41015347043701
               ],
               [
-                157.552048808030122,
+                157.55204880803012,
                 -8.409955457967403
               ]
             ]
@@ -69914,7 +69834,7 @@
           [
             [
               [
-                157.552048808030122,
+                157.55204880803012,
                 -8.409955457967403
               ],
               [
@@ -69926,7 +69846,7 @@
                 -8.4057
               ],
               [
-                157.552048808030122,
+                157.55204880803012,
                 -8.409955457967403
               ]
             ]
@@ -70074,7 +69994,7 @@
                 -8.4127
               ],
               [
-                157.552065038560414,
+                157.55206503856041,
                 -8.41015347043701
               ],
               [

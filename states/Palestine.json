@@ -11,8 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "PSE",
-        "COUNTRY": "Palestine"
+        "Country": "Palestine",
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -213,7 +214,7 @@
               ],
               [
                 34.9989,
-                32.0
+                32
               ],
               [
                 35.0033,
@@ -573,7 +574,7 @@
               ],
               [
                 35.5311,
-                32.0
+                32
               ],
               [
                 35.5478,

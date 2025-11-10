@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GEO.1_1",
-        "GID_0": "GEO",
-        "COUNTRY": "Georgia",
-        "NAME_1": "Abkhazia",
-        "VARNAME_1": "Sokhumi",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "AvtonomiuriRespublika",
-        "ENGTYPE_1": "AutonomousRepublic",
-        "CC_1": "NA",
-        "HASC_1": "GE.AB",
-        "ISO_1": "GE-AB"
+        "Country": "Georgia",
+        "Name_1": "Abkhazia",
+        "Type": "AutonomousRepublic"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1608,17 +1600,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GEO.2_1",
-        "GID_0": "GEO",
-        "COUNTRY": "Georgia",
-        "NAME_1": "Ajaria",
-        "VARNAME_1": "Batumi",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "AvtonomiuriRespublika",
-        "ENGTYPE_1": "AutonomousRepublic",
-        "CC_1": "NA",
-        "HASC_1": "GE.AJ",
-        "ISO_1": "GE-AJ"
+        "Country": "Georgia",
+        "Name_1": "Ajaria",
+        "Type": "AutonomousRepublic"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2417,17 +2401,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GEO.3_1",
-        "GID_0": "GEO",
-        "COUNTRY": "Georgia",
-        "NAME_1": "Guria",
-        "VARNAME_1": "Ozurgeti",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "GE.GU",
-        "ISO_1": "GE-GU"
+        "Country": "Georgia",
+        "Name_1": "Guria",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3270,17 +3246,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GEO.4_1",
-        "GID_0": "GEO",
-        "COUNTRY": "Georgia",
-        "NAME_1": "Imereti",
-        "VARNAME_1": "Kutaisi",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "GE.IM",
-        "ISO_1": "GE-IM"
+        "Country": "Georgia",
+        "Name_1": "Imereti",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4183,17 +4151,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GEO.5_1",
-        "GID_0": "GEO",
-        "COUNTRY": "Georgia",
-        "NAME_1": "Kakheti",
-        "VARNAME_1": "Telavi",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "GE.KA",
-        "ISO_1": "NA"
+        "Country": "Georgia",
+        "Name_1": "Kakheti",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5900,17 +5860,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GEO.6_1",
-        "GID_0": "GEO",
-        "COUNTRY": "Georgia",
-        "NAME_1": "KvemoKartli",
-        "VARNAME_1": "Rustavi",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "GE.KK",
-        "ISO_1": "GE-KK"
+        "Country": "Georgia",
+        "Name_1": "Kvemo Kartli",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7133,17 +7085,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GEO.7_1",
-        "GID_0": "GEO",
-        "COUNTRY": "Georgia",
-        "NAME_1": "Mtskheta-Mtianeti",
-        "VARNAME_1": "Mtskheta",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "GE.MM",
-        "ISO_1": "GE-MM"
+        "Country": "Georgia",
+        "Name_1": "Mtskheta- Mtianeti",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -8190,17 +8134,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GEO.8_1",
-        "GID_0": "GEO",
-        "COUNTRY": "Georgia",
-        "NAME_1": "Racha-Lechkhumi-KvemoSvaneti",
-        "VARNAME_1": "Ambrolauri",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "GE.RK",
-        "ISO_1": "NA"
+        "Country": "Georgia",
+        "Name_1": "Racha- Lechkhumi- Kvemo Svaneti",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9039,17 +8975,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GEO.9_1",
-        "GID_0": "GEO",
-        "COUNTRY": "Georgia",
-        "NAME_1": "Samegrelo-ZemoSvaneti",
-        "VARNAME_1": "Zugdidi",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "GE.SZ",
-        "ISO_1": "GE-SZ"
+        "Country": "Georgia",
+        "Name_1": "Samegrelo- Zemo Svaneti",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10504,17 +10432,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GEO.10_1",
-        "GID_0": "GEO",
-        "COUNTRY": "Georgia",
-        "NAME_1": "Samtskhe-Javakheti",
-        "VARNAME_1": "Akhaltsikhe",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "GE.SJ",
-        "ISO_1": "GE-SJ"
+        "Country": "Georgia",
+        "Name_1": "Samtskhe- Javakheti",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -11573,17 +11493,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GEO.11_1",
-        "GID_0": "GEO",
-        "COUNTRY": "Georgia",
-        "NAME_1": "ShidaKartli",
-        "VARNAME_1": "Gori",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "GE.SD",
-        "ISO_1": "GE-SK"
+        "Country": "Georgia",
+        "Name_1": "Shida Kartli",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -12598,17 +12510,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GEO.12_1",
-        "GID_0": "GEO",
-        "COUNTRY": "Georgia",
-        "NAME_1": "Tbilisi",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "K'alak'i",
-        "ENGTYPE_1": "IndependentCity",
-        "CC_1": "NA",
-        "HASC_1": "GE.TB",
-        "ISO_1": "GE-TB"
+        "Country": "Georgia",
+        "Name_1": "Tbilisi",
+        "Type": "IndependentCity"
       },
       "geometry": {
         "type": "MultiPolygon",

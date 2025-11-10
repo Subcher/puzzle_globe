@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TON.1_1",
-        "GID_0": "TON",
-        "COUNTRY": "Tonga",
-        "NAME_1": "'Eua",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "IslandGroup",
-        "ENGTYPE_1": "IslandGroup",
-        "CC_1": "NA",
-        "HASC_1": "TO.EU",
-        "ISO_1": "NA"
+        "Country": "Tonga",
+        "Name_1": "' Eua",
+        "Type": "IslandGroup"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -280,17 +272,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TON.2_1",
-        "GID_0": "TON",
-        "COUNTRY": "Tonga",
-        "NAME_1": "Ha'apai",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "IslandGroup",
-        "ENGTYPE_1": "IslandGroup",
-        "CC_1": "NA",
-        "HASC_1": "TO.HA",
-        "ISO_1": "TO-02"
+        "Country": "Tonga",
+        "Name_1": "Ha'apai",
+        "Type": "IslandGroup"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1786,7 +1770,7 @@
                 -19.6561
               ],
               [
-                -175.0,
+                -175,
                 -19.6619
               ],
               [
@@ -2381,17 +2365,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TON.3_1",
-        "GID_0": "TON",
-        "COUNTRY": "Tonga",
-        "NAME_1": "Niuas",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "IslandGroup",
-        "ENGTYPE_1": "IslandGroup",
-        "CC_1": "NA",
-        "HASC_1": "TO.NI",
-        "ISO_1": "NA"
+        "Country": "Tonga",
+        "Name_1": "Niuas",
+        "Type": "IslandGroup"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2598,17 +2574,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TON.4_1",
-        "GID_0": "TON",
-        "COUNTRY": "Tonga",
-        "NAME_1": "Tongatapu",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "IslandGroup",
-        "ENGTYPE_1": "IslandGroup",
-        "CC_1": "NA",
-        "HASC_1": "TO.TT",
-        "ISO_1": "TO-04"
+        "Country": "Tonga",
+        "Name_1": "Tongatapu",
+        "Type": "IslandGroup"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3667,17 +3635,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TON.5_1",
-        "GID_0": "TON",
-        "COUNTRY": "Tonga",
-        "NAME_1": "Vava'u",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "IslandGroup",
-        "ENGTYPE_1": "IslandGroup",
-        "CC_1": "NA",
-        "HASC_1": "TO.VA",
-        "ISO_1": "NA"
+        "Country": "Tonga",
+        "Name_1": "Vava'u",
+        "Type": "IslandGroup"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4585,7 +4545,7 @@
                 -18.7444
               ],
               [
-                -174.0,
+                -174,
                 -18.7436
               ],
               [
@@ -5673,7 +5633,7 @@
                 -18.703
               ],
               [
-                -174.0,
+                -174,
                 -18.7025
               ],
               [
@@ -5773,7 +5733,7 @@
                 -18.649
               ],
               [
-                -174.0,
+                -174,
                 -18.6525
               ],
               [
@@ -6045,7 +6005,7 @@
                 -18.5739
               ],
               [
-                -174.0,
+                -174,
                 -18.5772
               ],
               [

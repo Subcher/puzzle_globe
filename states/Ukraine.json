@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "?",
-        "GID_0": "UKR",
-        "COUNTRY": "Ukraine",
-        "NAME_1": "?",
-        "VARNAME_1": "?",
-        "NL_NAME_1": "?",
-        "TYPE_1": "?",
-        "ENGTYPE_1": "?",
-        "CC_1": "NA",
-        "HASC_1": "?",
-        "ISO_1": "NA"
+        "Country": "Ukraine",
+        "Name_1": "?",
+        "Type": "?"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -180,17 +172,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UKR.1_1",
-        "GID_0": "UKR",
-        "COUNTRY": "Ukraine",
-        "NAME_1": "Cherkasy",
-        "VARNAME_1": "Cherkas'kaOblast'|Cherkasskaya",
-        "NL_NAME_1": "Черкаська",
-        "TYPE_1": "Oblast'",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "UA.CK",
-        "ISO_1": "NA"
+        "Country": "Ukraine",
+        "Name_1": "Cherkasy",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3441,17 +3425,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UKR.2_1",
-        "GID_0": "UKR",
-        "COUNTRY": "Ukraine",
-        "NAME_1": "Chernihiv",
-        "VARNAME_1": "Chernigov|Tschernigow",
-        "NL_NAME_1": "Чернігівська",
-        "TYPE_1": "Oblast'",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "UA.CH",
-        "ISO_1": "NA"
+        "Country": "Ukraine",
+        "Name_1": "Chernihiv",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5895,7 +5871,7 @@
                 51.1752
               ],
               [
-                33.0,
+                33,
                 51.1634
               ],
               [
@@ -6910,17 +6886,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UKR.3_1",
-        "GID_0": "UKR",
-        "COUNTRY": "Ukraine",
-        "NAME_1": "Chernivtsi",
-        "VARNAME_1": "Chernivets'kaOblast'|Chernovits",
-        "NL_NAME_1": "Чернівецька",
-        "TYPE_1": "Oblast'",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "UA.CV",
-        "ISO_1": "NA"
+        "Country": "Ukraine",
+        "Name_1": "Chernivtsi",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9143,17 +9111,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UKR.4_1",
-        "GID_0": "UKR",
-        "COUNTRY": "Ukraine",
-        "NAME_1": "Crimea",
-        "VARNAME_1": "Crimée|Criméia|Krim|KrymskayaRe",
-        "NL_NAME_1": "Крим",
-        "TYPE_1": "AutonomousRepublic",
-        "ENGTYPE_1": "AutonomousRepublic",
-        "CC_1": "NA",
-        "HASC_1": "UA.KR",
-        "ISO_1": "NA"
+        "Country": "Ukraine",
+        "Name_1": "Crimea",
+        "Type": "AutonomousRepublic"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -15422,17 +15382,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UKR.5_1",
-        "GID_0": "UKR",
-        "COUNTRY": "Ukraine",
-        "NAME_1": "Dnipropetrovs'k",
-        "VARNAME_1": "Dnipropetrovsk|Dniepropietrovsk|",
-        "NL_NAME_1": "Дніпропетро́вська",
-        "TYPE_1": "Oblast'",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "UA.DP",
-        "ISO_1": "NA"
+        "Country": "Ukraine",
+        "Name_1": "Dnipropetrovs'k",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -19291,17 +19243,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UKR.6_1",
-        "GID_0": "UKR",
-        "COUNTRY": "Ukraine",
-        "NAME_1": "Donets'k",
-        "VARNAME_1": "Donetsk|DonetskayaOblast'|Donez",
-        "NL_NAME_1": "Доне́цька",
-        "TYPE_1": "Oblast'",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "UA.DT",
-        "ISO_1": "NA"
+        "Country": "Ukraine",
+        "Name_1": "Donets'k",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -21561,7 +21505,7 @@
                 48.9658
               ],
               [
-                38.0,
+                38,
                 48.9663
               ],
               [
@@ -23144,17 +23088,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UKR.7_1",
-        "GID_0": "UKR",
-        "COUNTRY": "Ukraine",
-        "NAME_1": "Ivano-Frankivs'k",
-        "VARNAME_1": "Ivano-Frankovsk|Ivano-Frankovska",
-        "NL_NAME_1": "Івано-Франківська",
-        "TYPE_1": "Oblast'",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "UA.IF",
-        "ISO_1": "NA"
+        "Country": "Ukraine",
+        "Name_1": "Ivano- Frankivs'k",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -25357,17 +25293,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UKR.8_1",
-        "GID_0": "UKR",
-        "COUNTRY": "Ukraine",
-        "NAME_1": "Kharkiv",
-        "VARNAME_1": "Charkow|Jarkov|Karkov|Khar'kov",
-        "NL_NAME_1": "Харківська",
-        "TYPE_1": "Oblast'",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "UA.KK",
-        "ISO_1": "NA"
+        "Country": "Ukraine",
+        "Name_1": "Kharkiv",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -28830,17 +28758,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UKR.9_1",
-        "GID_0": "UKR",
-        "COUNTRY": "Ukraine",
-        "NAME_1": "Kherson",
-        "VARNAME_1": "Cherson|Khersons'kaOblast'",
-        "NL_NAME_1": "Херсонська",
-        "TYPE_1": "Oblast'",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "UA.KS",
-        "ISO_1": "NA"
+        "Country": "Ukraine",
+        "Name_1": "Kherson",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -37447,17 +37367,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UKR.10_1",
-        "GID_0": "UKR",
-        "COUNTRY": "Ukraine",
-        "NAME_1": "Khmel'nyts'kyy",
-        "VARNAME_1": "Khmelnitsky|Khmelnytskyi|Chmelni",
-        "NL_NAME_1": "Хмельницька",
-        "TYPE_1": "Oblast'",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "UA.KM",
-        "ISO_1": "NA"
+        "Country": "Ukraine",
+        "Name_1": "Khmel'nyts'kyy",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -40180,17 +40092,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UKR.12_1",
-        "GID_0": "UKR",
-        "COUNTRY": "Ukraine",
-        "NAME_1": "Kiev",
-        "VARNAME_1": "KievOblast|Kiew|Kijew|Kiiv|Kije",
-        "NL_NAME_1": "Київська",
-        "TYPE_1": "Oblast'",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "UA.KV",
-        "ISO_1": "NA"
+        "Country": "Ukraine",
+        "Name_1": "Kiev",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -44407,17 +44311,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UKR.11_1",
-        "GID_0": "UKR",
-        "COUNTRY": "Ukraine",
-        "NAME_1": "KievCity",
-        "VARNAME_1": "Kyiv",
-        "NL_NAME_1": "Київ",
-        "TYPE_1": "IndependentCity",
-        "ENGTYPE_1": "IndependentCity",
-        "CC_1": "NA",
-        "HASC_1": "UA.KC",
-        "ISO_1": "NA"
+        "Country": "Ukraine",
+        "Name_1": "Kiev City",
+        "Type": "IndependentCity"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -45008,17 +44904,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UKR.13_1",
-        "GID_0": "UKR",
-        "COUNTRY": "Ukraine",
-        "NAME_1": "Kirovohrad",
-        "VARNAME_1": "Kirovograd|KirovogradskayaOblas",
-        "NL_NAME_1": "Кіровоградська",
-        "TYPE_1": "Oblast'",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "UA.KH",
-        "ISO_1": "NA"
+        "Country": "Ukraine",
+        "Name_1": "Kirovohrad",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -48461,17 +48349,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UKR.14_1",
-        "GID_0": "UKR",
-        "COUNTRY": "Ukraine",
-        "NAME_1": "L'viv",
-        "VARNAME_1": "Lemberg|Llvov|L'vov|Lwow|L'vivs'",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Oblast'",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "UA.LV",
-        "ISO_1": "NA"
+        "Country": "Ukraine",
+        "Name_1": "L'viv",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -51362,17 +51242,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UKR.15_1",
-        "GID_0": "UKR",
-        "COUNTRY": "Ukraine",
-        "NAME_1": "Luhans'k",
-        "VARNAME_1": "Luhansk|Lugansk|Luhans'kaOblast",
-        "NL_NAME_1": "Луганська",
-        "TYPE_1": "Oblast'",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "UA.LH",
-        "ISO_1": "NA"
+        "Country": "Ukraine",
+        "Name_1": "Luhans'k",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -52088,7 +51960,7 @@
                 48.9604
               ],
               [
-                38.0,
+                38,
                 48.9663
               ],
               [
@@ -54675,17 +54547,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UKR.16_1",
-        "GID_0": "UKR",
-        "COUNTRY": "Ukraine",
-        "NAME_1": "Mykolayiv",
-        "VARNAME_1": "Mykolaiv|Nikolajew|Nikolayev",
-        "NL_NAME_1": "Миколаївська",
-        "TYPE_1": "Oblast'",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "UA.MY",
-        "ISO_1": "NA"
+        "Country": "Ukraine",
+        "Name_1": "Mykolayiv",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -58408,17 +58272,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UKR.17_1",
-        "GID_0": "UKR",
-        "COUNTRY": "Ukraine",
-        "NAME_1": "Odessa",
-        "VARNAME_1": "Odesa|Odes'kaOblast'|Odesskaya",
-        "NL_NAME_1": "Одеська",
-        "TYPE_1": "Oblast'",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "UA.OD",
-        "ISO_1": "NA"
+        "Country": "Ukraine",
+        "Name_1": "Odessa",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -61970,7 +61826,7 @@
                 46.4896
               ],
               [
-                30.0,
+                30,
                 46.4966
               ],
               [
@@ -65657,17 +65513,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UKR.18_1",
-        "GID_0": "UKR",
-        "COUNTRY": "Ukraine",
-        "NAME_1": "Poltava",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "Полтавська",
-        "TYPE_1": "Oblast'",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "UA.PL",
-        "ISO_1": "NA"
+        "Country": "Ukraine",
+        "Name_1": "Poltava",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -68582,17 +68430,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UKR.19_1",
-        "GID_0": "UKR",
-        "COUNTRY": "Ukraine",
-        "NAME_1": "Rivne",
-        "VARNAME_1": "Rovno|Rivnens'kaOblast'|Rovensk",
-        "NL_NAME_1": "Рівненська",
-        "TYPE_1": "Oblast'",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "UA.RV",
-        "ISO_1": "NA"
+        "Country": "Ukraine",
+        "Name_1": "Rivne",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -71471,17 +71311,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UKR.20_1",
-        "GID_0": "UKR",
-        "COUNTRY": "Ukraine",
-        "NAME_1": "Sevastopol'",
-        "VARNAME_1": "Sebastopol|Aqyar",
-        "NL_NAME_1": "Севастополь",
-        "TYPE_1": "AutonomousRepublic",
-        "ENGTYPE_1": "AutonomousRepublic",
-        "CC_1": "NA",
-        "HASC_1": "UA.SC",
-        "ISO_1": "NA"
+        "Country": "Ukraine",
+        "Name_1": "Sevastopol'",
+        "Type": "AutonomousRepublic"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -72768,17 +72600,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UKR.21_1",
-        "GID_0": "UKR",
-        "COUNTRY": "Ukraine",
-        "NAME_1": "Sumy",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "Сумська",
-        "TYPE_1": "Oblast'",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "UA.SM",
-        "ISO_1": "NA"
+        "Country": "Ukraine",
+        "Name_1": "Sumy",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -73858,7 +73682,7 @@
                 51.1635
               ],
               [
-                33.0,
+                33,
                 51.1634
               ],
               [
@@ -76317,17 +76141,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UKR.22_1",
-        "GID_0": "UKR",
-        "COUNTRY": "Ukraine",
-        "NAME_1": "Ternopil'",
-        "VARNAME_1": "Ternopol|Ternopol'",
-        "NL_NAME_1": "Тернопільська",
-        "TYPE_1": "Oblast'",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "UA.TP",
-        "ISO_1": "NA"
+        "Country": "Ukraine",
+        "Name_1": "Ternopil'",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -78626,17 +78442,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UKR.24_1",
-        "GID_0": "UKR",
-        "COUNTRY": "Ukraine",
-        "NAME_1": "Vinnytsya",
-        "VARNAME_1": "Vinnytsia|VinnitskayaOblast'|Vi",
-        "NL_NAME_1": "Вінницька",
-        "TYPE_1": "Oblast'",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "UA.VI",
-        "ISO_1": "NA"
+        "Country": "Ukraine",
+        "Name_1": "Vinnytsya",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -81391,17 +81199,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UKR.25_1",
-        "GID_0": "UKR",
-        "COUNTRY": "Ukraine",
-        "NAME_1": "Volyn",
-        "VARNAME_1": "Volhynia|Volyns'kaOblast'|Volyn",
-        "NL_NAME_1": "Волинська",
-        "TYPE_1": "Oblast'",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "UA.VO",
-        "ISO_1": "NA"
+        "Country": "Ukraine",
+        "Name_1": "Volyn",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -85198,17 +84998,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UKR.23_1",
-        "GID_0": "UKR",
-        "COUNTRY": "Ukraine",
-        "NAME_1": "Zakarpattia",
-        "VARNAME_1": "Transcarpathia|Ruthenia|Zakarpat",
-        "NL_NAME_1": "Закарпатська",
-        "TYPE_1": "Oblast'",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "UA.ZK",
-        "ISO_1": "NA"
+        "Country": "Ukraine",
+        "Name_1": "Zakarpattia",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -85357,7 +85149,7 @@
               ],
               [
                 23.6438,
-                48.0
+                48
               ],
               [
                 23.6364,
@@ -85425,7 +85217,7 @@
               ],
               [
                 23.5231,
-                48.0
+                48
               ],
               [
                 23.5228,
@@ -85917,7 +85709,7 @@
               ],
               [
                 22.9982,
-                48.0
+                48
               ],
               [
                 22.9941,
@@ -88351,17 +88143,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UKR.26_1",
-        "GID_0": "UKR",
-        "COUNTRY": "Ukraine",
-        "NAME_1": "Zaporizhia",
-        "VARNAME_1": "Zaporizhzhya|Saporoshje|Zaporizh",
-        "NL_NAME_1": "Запорізька",
-        "TYPE_1": "Oblast'",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "UA.ZP",
-        "ISO_1": "NA"
+        "Country": "Ukraine",
+        "Name_1": "Zaporizhia",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -92388,17 +92172,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "UKR.27_1",
-        "GID_0": "UKR",
-        "COUNTRY": "Ukraine",
-        "NAME_1": "Zhytomyr",
-        "VARNAME_1": "Zhitomir|Jitomir|Shitomir|Zhitom",
-        "NL_NAME_1": "Житомирська",
-        "TYPE_1": "Oblast'",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "UA.ZT",
-        "ISO_1": "NA"
+        "Country": "Ukraine",
+        "Name_1": "Zhytomyr",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",

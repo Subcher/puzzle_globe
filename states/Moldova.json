@@ -11,8 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "MDA",
-        "COUNTRY": "Moldova"
+        "Country": "Moldova",
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2561,7 +2562,7 @@
               ],
               [
                 28.0558,
-                47.0
+                47
               ],
               [
                 28.0575,
@@ -6720,7 +6721,7 @@
                 46.5047
               ],
               [
-                30.0,
+                30,
                 46.4966
               ],
               [

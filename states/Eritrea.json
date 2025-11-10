@@ -11,8 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "ERI",
-        "COUNTRY": "Eritrea"
+        "Country": "Eritrea",
+        "Name_1": null,
+        "Type": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4341,7 +4342,7 @@
               ],
               [
                 36.8279,
-                16.0
+                16
               ],
               [
                 36.8637,

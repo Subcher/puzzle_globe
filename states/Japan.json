@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.1_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Aichi",
-        "VARNAME_1": "Aiti",
-        "NL_NAME_1": "愛知県",
-        "TYPE_1": "Ken",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "JP.AI",
-        "ISO_1": "JP-23"
+        "Country": "Japan",
+        "Name_1": "Aichi",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1169,7 +1161,7 @@
                 34.8758
               ],
               [
-                137.0,
+                137,
                 34.8694
               ],
               [
@@ -1938,7 +1930,7 @@
               ],
               [
                 136.8517,
-                35.0
+                35
               ],
               [
                 136.8547,
@@ -3082,7 +3074,7 @@
               ],
               [
                 137.704,
-                35.0
+                35
               ],
               [
                 137.7083,
@@ -3896,17 +3888,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.2_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Akita",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "秋田県",
-        "TYPE_1": "Ken",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "JP.AK",
-        "ISO_1": "JP-05"
+        "Country": "Japan",
+        "Name_1": "Akita",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4882,7 +4866,7 @@
                 40.0889
               ],
               [
-                140.0,
+                140,
                 40.0942
               ],
               [
@@ -5818,7 +5802,7 @@
                 40.4254
               ],
               [
-                140.0,
+                140,
                 40.4315
               ],
               [
@@ -7085,17 +7069,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.3_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Aomori",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "青森県",
-        "TYPE_1": "Ken",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "JP.AO",
-        "ISO_1": "JP-02"
+        "Country": "Japan",
+        "Name_1": "Aomori",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7495,7 +7471,7 @@
                 40.4186
               ],
               [
-                140.0,
+                140,
                 40.4315
               ],
               [
@@ -9747,7 +9723,7 @@
                 41.4926
               ],
               [
-                141.0,
+                141,
                 41.4864
               ],
               [
@@ -11578,17 +11554,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.4_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Chiba",
-        "VARNAME_1": "Tiba|Tsiba",
-        "NL_NAME_1": "千葉県",
-        "TYPE_1": "Ken",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "JP.CH",
-        "ISO_1": "JP-12"
+        "Country": "Japan",
+        "Name_1": "Chiba",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -12460,7 +12428,7 @@
                 35.4723
               ],
               [
-                140.0,
+                140,
                 35.4664
               ],
               [
@@ -12920,7 +12888,7 @@
                 35.6591
               ],
               [
-                140.0,
+                140,
                 35.6597
               ],
               [
@@ -13153,7 +13121,7 @@
               ],
               [
                 139.8827,
-                36.0
+                36
               ],
               [
                 139.892,
@@ -14659,17 +14627,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.5_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Ehime",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "愛媛県",
-        "TYPE_1": "Ken",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "JP.EH",
-        "ISO_1": "JP-38"
+        "Country": "Japan",
+        "Name_1": "Ehime",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -18770,7 +18730,7 @@
               ],
               [
                 132.7744,
-                34.0
+                34
               ],
               [
                 132.7858,
@@ -20574,7 +20534,7 @@
               ],
               [
                 132.6861,
-                33.0
+                33
               ],
               [
                 132.6864,
@@ -25398,7 +25358,7 @@
               ],
               [
                 132.6425,
-                34.0
+                34
               ],
               [
                 132.6402,
@@ -25554,7 +25514,7 @@
               ],
               [
                 132.6311,
-                34.0
+                34
               ],
               [
                 132.6331,
@@ -25796,17 +25756,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.6_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Fukui",
-        "VARNAME_1": "Hukui",
-        "NL_NAME_1": "福井県",
-        "TYPE_1": "Ken",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "JP.FI",
-        "ISO_1": "JP-18"
+        "Country": "Japan",
+        "Name_1": "Fukui",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -27943,7 +27895,7 @@
               ],
               [
                 135.9683,
-                36.0
+                36
               ],
               [
                 135.9673,
@@ -28993,17 +28945,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.7_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Fukuoka",
-        "VARNAME_1": "Hukuoka",
-        "NL_NAME_1": "福岡県",
-        "TYPE_1": "Ken",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "JP.FO",
-        "ISO_1": "JP-40"
+        "Country": "Japan",
+        "Name_1": "Fukuoka",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -31787,7 +31731,7 @@
                 33.8067
               ],
               [
-                131.0,
+                131,
                 33.8064
               ],
               [
@@ -31867,7 +31811,7 @@
                 33.7714
               ],
               [
-                131.0,
+                131,
                 33.7697
               ],
               [
@@ -33182,17 +33126,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.8_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Fukushima",
-        "VARNAME_1": "Hukusima",
-        "NL_NAME_1": "福島県",
-        "TYPE_1": "Ken",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "JP.FS",
-        "ISO_1": "JP-07"
+        "Country": "Japan",
+        "Name_1": "Fukushima",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -34724,7 +34660,7 @@
                 37.7631
               ],
               [
-                141.0,
+                141,
                 37.7581
               ],
               [
@@ -35947,17 +35883,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.9_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Gifu",
-        "VARNAME_1": "Gihu",
-        "NL_NAME_1": "岐阜県",
-        "TYPE_1": "Ken",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "JP.GF",
-        "ISO_1": "JP-21"
+        "Country": "Japan",
+        "Name_1": "Gifu",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -36689,7 +36617,7 @@
                 36.2778
               ],
               [
-                137.0,
+                137,
                 36.2847
               ],
               [
@@ -37692,17 +37620,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.10_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Gunma",
-        "VARNAME_1": "GunmaGumma",
-        "NL_NAME_1": "群馬県",
-        "TYPE_1": "Ken",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "JP.GM",
-        "ISO_1": "JP-10"
+        "Country": "Japan",
+        "Name_1": "Gunma",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -38343,7 +38263,7 @@
               ],
               [
                 139.1686,
-                37.0
+                37
               ],
               [
                 139.178,
@@ -38902,7 +38822,7 @@
                 36.129
               ],
               [
-                139.0,
+                139,
                 36.1225
               ],
               [
@@ -38925,17 +38845,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.11_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Hiroshima",
-        "VARNAME_1": "Hirosima",
-        "NL_NAME_1": "広島県",
-        "TYPE_1": "Ken",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "JP.HS",
-        "ISO_1": "JP-34"
+        "Country": "Japan",
+        "Name_1": "Hiroshima",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -42408,7 +42320,7 @@
               ],
               [
                 132.7839,
-                35.0
+                35
               ],
               [
                 132.7896,
@@ -46952,17 +46864,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.12_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Hokkaido",
-        "VARNAME_1": "Ezo|Yeso|Yezo",
-        "NL_NAME_1": "北海道",
-        "TYPE_1": "Do",
-        "ENGTYPE_1": "Circuit",
-        "CC_1": "NA",
-        "HASC_1": "JP.HK",
-        "ISO_1": "JP-01"
+        "Country": "Japan",
+        "Name_1": "Hokkaido",
+        "Type": "Circuit"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -52879,7 +52783,7 @@
               ],
               [
                 144.2914,
-                44.0
+                44
               ],
               [
                 144.2928,
@@ -55878,7 +55782,7 @@
                 43.0567
               ],
               [
-                145.0,
+                145,
                 43.0525
               ],
               [
@@ -56926,7 +56830,7 @@
                 42.9206
               ],
               [
-                144.0,
+                144,
                 42.9253
               ],
               [
@@ -56966,7 +56870,7 @@
                 42.9197
               ],
               [
-                144.0,
+                144,
                 42.9189
               ],
               [
@@ -59142,7 +59046,7 @@
                 42.3443
               ],
               [
-                141.0,
+                141,
                 42.3458
               ],
               [
@@ -62238,7 +62142,7 @@
                 45.4372
               ],
               [
-                141.0,
+                141,
                 45.4344
               ],
               [
@@ -63217,17 +63121,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.13_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Hyōgo",
-        "VARNAME_1": "Hiogo",
-        "NL_NAME_1": "兵庫県",
-        "TYPE_1": "Ken",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "JP.HG",
-        "ISO_1": "NA"
+        "Country": "Japan",
+        "Name_1": "Hyōgo",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -65124,7 +65020,7 @@
               ],
               [
                 134.2743,
-                35.0
+                35
               ],
               [
                 134.2687,
@@ -66303,7 +66199,7 @@
                 35.388
               ],
               [
-                135.0,
+                135,
                 35.3838
               ],
               [
@@ -66379,7 +66275,7 @@
                 35.2956
               ],
               [
-                135.0,
+                135,
                 35.2873
               ],
               [
@@ -66584,7 +66480,7 @@
               ],
               [
                 135.3553,
-                35.0
+                35
               ],
               [
                 135.3559,
@@ -68742,17 +68638,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.14_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Ibaraki",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "茨城県",
-        "TYPE_1": "Ken",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "JP.IB",
-        "ISO_1": "JP-08"
+        "Country": "Japan",
+        "Name_1": "Ibaraki",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -68825,7 +68713,7 @@
               ],
               [
                 139.8827,
-                36.0
+                36
               ],
               [
                 139.8733,
@@ -70467,17 +70355,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.15_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Ishikawa",
-        "VARNAME_1": "Isikawa",
-        "NL_NAME_1": "石川県",
-        "TYPE_1": "Ken",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "JP.IS",
-        "ISO_1": "JP-17"
+        "Country": "Japan",
+        "Name_1": "Ishikawa",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -72701,7 +72581,7 @@
                 37.0575
               ],
               [
-                137.0,
+                137,
                 37.0592
               ],
               [
@@ -72905,7 +72785,7 @@
                 36.9589
               ],
               [
-                137.0,
+                137,
                 36.9638
               ],
               [
@@ -74104,17 +73984,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.16_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Iwate",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "岩手県",
-        "TYPE_1": "Ken",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "JP.IW",
-        "ISO_1": "JP-03"
+        "Country": "Japan",
+        "Name_1": "Iwate",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -76178,7 +76050,7 @@
                 39.6341
               ],
               [
-                142.0,
+                142,
                 39.6367
               ],
               [
@@ -78631,7 +78503,7 @@
               ],
               [
                 141.6786,
-                39.0
+                39
               ],
               [
                 141.6702,
@@ -78962,7 +78834,7 @@
                 38.8763
               ],
               [
-                141.0,
+                141,
                 38.8778
               ],
               [
@@ -79349,17 +79221,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.17_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Kagawa",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "香川県",
-        "TYPE_1": "Ken",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "JP.KG",
-        "ISO_1": "JP-37"
+        "Country": "Japan",
+        "Name_1": "Kagawa",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -80535,7 +80399,7 @@
                 34.3551
               ],
               [
-                134.0,
+                134,
                 34.3531
               ],
               [
@@ -82850,17 +82714,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.18_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Kagoshima",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "鹿児島県",
-        "TYPE_1": "Ken",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "JP.KS",
-        "ISO_1": "JP-46"
+        "Country": "Japan",
+        "Name_1": "Kagoshima",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -88036,7 +87892,7 @@
           [
             [
               [
-                129.0,
+                129,
                 28.8044
               ],
               [
@@ -88092,7 +87948,7 @@
                 28.8069
               ],
               [
-                129.0,
+                129,
                 28.8044
               ]
             ]
@@ -88933,7 +88789,7 @@
               ],
               [
                 129.9211,
-                30.0
+                30
               ],
               [
                 129.9203,
@@ -91233,7 +91089,7 @@
               ],
               [
                 130.7809,
-                32.0
+                32
               ],
               [
                 130.7851,
@@ -91324,7 +91180,7 @@
                 31.75
               ],
               [
-                131.0,
+                131,
                 31.7426
               ],
               [
@@ -99891,17 +99747,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.19_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Kanagawa",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "神奈川県",
-        "TYPE_1": "Ken",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "JP.KN",
-        "ISO_1": "JP-14"
+        "Country": "Japan",
+        "Name_1": "Kanagawa",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -102584,17 +102432,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.20_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Kochi",
-        "VARNAME_1": "Koti",
-        "NL_NAME_1": "高知県",
-        "TYPE_1": "Ken",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "JP.KC",
-        "ISO_1": "JP-39"
+        "Country": "Japan",
+        "Name_1": "Kochi",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -104267,7 +104107,7 @@
               ],
               [
                 132.6861,
-                33.0
+                33
               ],
               [
                 132.6793,
@@ -104942,7 +104782,7 @@
                 33.8262
               ],
               [
-                134.0,
+                134,
                 33.8179
               ],
               [
@@ -107534,7 +107374,7 @@
                 32.9325
               ],
               [
-                133.0,
+                133,
                 32.9311
               ],
               [
@@ -108005,17 +107845,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.21_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Kumamoto",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "熊本県",
-        "TYPE_1": "Ken",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "JP.KM",
-        "ISO_1": "JP-43"
+        "Country": "Japan",
+        "Name_1": "Kumamoto",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -110739,7 +110571,7 @@
                 33.1051
               ],
               [
-                131.0,
+                131,
                 33.1134
               ],
               [
@@ -113259,7 +113091,7 @@
                 32.1889
               ],
               [
-                130.0,
+                130,
                 32.19
               ],
               [
@@ -113759,7 +113591,7 @@
                 32.305
               ],
               [
-                130.0,
+                130,
                 32.3058
               ],
               [
@@ -116718,17 +116550,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.22_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Kyoto",
-        "VARNAME_1": "Kioto",
-        "NL_NAME_1": "京都府",
-        "TYPE_1": "Fu",
-        "ENGTYPE_1": "UrbanPrefecture",
-        "CC_1": "NA",
-        "HASC_1": "JP.KY",
-        "ISO_1": "JP-26"
+        "Country": "Japan",
+        "Name_1": "Kyoto",
+        "Type": "UrbanPrefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -116752,7 +116576,7 @@
                 34.8352
               ],
               [
-                136.0,
+                136,
                 34.8412
               ],
               [
@@ -117093,7 +116917,7 @@
               ],
               [
                 135.4531,
-                35.0
+                35
               ],
               [
                 135.4433,
@@ -117101,7 +116925,7 @@
               ],
               [
                 135.4208,
-                35.0
+                35
               ],
               [
                 135.4128,
@@ -117308,7 +117132,7 @@
                 35.2812
               ],
               [
-                135.0,
+                135,
                 35.2873
               ],
               [
@@ -117384,7 +117208,7 @@
                 35.3863
               ],
               [
-                135.0,
+                135,
                 35.3838
               ],
               [
@@ -119403,17 +119227,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.23_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Mie",
-        "VARNAME_1": "Miye",
-        "NL_NAME_1": "三重県",
-        "TYPE_1": "Ken",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "JP.ME",
-        "ISO_1": "JP-24"
+        "Country": "Japan",
+        "Name_1": "Mie",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -119574,7 +119390,7 @@
               ],
               [
                 135.9934,
-                34.0
+                34
               ],
               [
                 136.0061,
@@ -120114,7 +119930,7 @@
               ],
               [
                 136.4229,
-                35.0
+                35
               ],
               [
                 136.421,
@@ -125122,7 +124938,7 @@
               ],
               [
                 136.2672,
-                34.0
+                34
               ],
               [
                 136.2664,
@@ -125274,7 +125090,7 @@
               ],
               [
                 136.2117,
-                34.0
+                34
               ],
               [
                 136.2106,
@@ -126948,17 +126764,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.24_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Miyagi",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "宮城県",
-        "TYPE_1": "Ken",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "JP.MG",
-        "ISO_1": "JP-04"
+        "Country": "Japan",
+        "Name_1": "Miyagi",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -127630,7 +127438,7 @@
                 38.8732
               ],
               [
-                141.0,
+                141,
                 38.8778
               ],
               [
@@ -133705,17 +133513,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.25_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Miyazaki",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "宮崎県",
-        "TYPE_1": "Ken",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "JP.MZ",
-        "ISO_1": "JP-45"
+        "Country": "Japan",
+        "Name_1": "Miyazaki",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -134663,7 +134463,7 @@
                 31.7449
               ],
               [
-                131.0,
+                131,
                 31.7426
               ],
               [
@@ -134756,7 +134556,7 @@
               ],
               [
                 130.7809,
-                32.0
+                32
               ],
               [
                 130.7805,
@@ -137498,17 +137298,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.26_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Nagano",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "長野県",
-        "TYPE_1": "Ken",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "JP.NN",
-        "ISO_1": "JP-20"
+        "Country": "Japan",
+        "Name_1": "Nagano",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -137828,7 +137620,7 @@
                 35.3006
               ],
               [
-                138.0,
+                138,
                 35.2993
               ],
               [
@@ -138929,7 +138721,7 @@
               ],
               [
                 138.5768,
-                37.0
+                37
               ],
               [
                 138.5906,
@@ -139563,17 +139355,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.27_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Naoasaki",
-        "VARNAME_1": "Nagasaki",
-        "NL_NAME_1": "長崎県",
-        "TYPE_1": "Ken",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "JP.NS",
-        "ISO_1": "NA"
+        "Country": "Japan",
+        "Name_1": "Naoasaki",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -139962,7 +139746,7 @@
               ],
               [
                 129.6464,
-                33.0
+                33
               ],
               [
                 129.6495,
@@ -139982,7 +139766,7 @@
               ],
               [
                 129.6483,
-                33.0
+                33
               ],
               [
                 129.6511,
@@ -140390,7 +140174,7 @@
               ],
               [
                 129.7325,
-                33.0
+                33
               ],
               [
                 129.733,
@@ -141385,7 +141169,7 @@
                 32.8372
               ],
               [
-                130.0,
+                130,
                 32.8367
               ],
               [
@@ -141590,7 +141374,7 @@
               ],
               [
                 129.9439,
-                33.0
+                33
               ],
               [
                 129.9464,
@@ -144001,7 +143785,7 @@
                 33.0409
               ],
               [
-                130.0,
+                130,
                 33.0309
               ],
               [
@@ -154953,7 +154737,7 @@
                 32.7888
               ],
               [
-                129.0,
+                129,
                 32.7856
               ],
               [
@@ -158713,7 +158497,7 @@
                 32.94
               ],
               [
-                129.0,
+                129,
                 32.94
               ],
               [
@@ -158729,7 +158513,7 @@
                 32.9463
               ],
               [
-                129.0,
+                129,
                 32.9442
               ],
               [
@@ -160066,7 +159850,7 @@
               ],
               [
                 129.3533,
-                33.0
+                33
               ],
               [
                 129.3517,
@@ -168456,17 +168240,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.28_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Nara",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "奈良県",
-        "TYPE_1": "Ken",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "JP.NR",
-        "ISO_1": "JP-29"
+        "Country": "Japan",
+        "Name_1": "Nara",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -168611,7 +168387,7 @@
               ],
               [
                 135.6272,
-                34.0
+                34
               ],
               [
                 135.6181,
@@ -169395,7 +169171,7 @@
               ],
               [
                 135.9934,
-                34.0
+                34
               ],
               [
                 135.9797,
@@ -169433,17 +169209,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.29_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Niigata",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "新潟県",
-        "TYPE_1": "Ken",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "JP.NI",
-        "ISO_1": "JP-15"
+        "Country": "Japan",
+        "Name_1": "Niigata",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -170652,7 +170420,7 @@
               ],
               [
                 139.2283,
-                38.0
+                38
               ],
               [
                 139.2412,
@@ -171252,7 +171020,7 @@
               ],
               [
                 139.6559,
-                38.0
+                38
               ],
               [
                 139.6481,
@@ -171760,7 +171528,7 @@
               ],
               [
                 139.1686,
-                37.0
+                37
               ],
               [
                 139.1573,
@@ -172044,7 +171812,7 @@
               ],
               [
                 138.5768,
-                37.0
+                37
               ],
               [
                 138.5691,
@@ -173614,17 +173382,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.30_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Oita",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "大分県",
-        "TYPE_1": "Ken",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "JP.OT",
-        "ISO_1": "JP-44"
+        "Country": "Japan",
+        "Name_1": "Oita",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -174065,7 +173825,7 @@
               ],
               [
                 131.9242,
-                33.0
+                33
               ],
               [
                 131.924,
@@ -175372,7 +175132,7 @@
                 32.8995
               ],
               [
-                132.0,
+                132,
                 32.8933
               ],
               [
@@ -175392,7 +175152,7 @@
                 32.8899
               ],
               [
-                132.0,
+                132,
                 32.8856
               ],
               [
@@ -176296,7 +176056,7 @@
                 33.1241
               ],
               [
-                131.0,
+                131,
                 33.1134
               ],
               [
@@ -179219,17 +178979,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.31_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Okayama",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "岡山県",
-        "TYPE_1": "Ken",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "JP.OY",
-        "ISO_1": "JP-33"
+        "Country": "Japan",
+        "Name_1": "Okayama",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -181653,7 +181405,7 @@
                 35.3409
               ],
               [
-                134.0,
+                134,
                 35.3498
               ],
               [
@@ -181942,7 +181694,7 @@
               ],
               [
                 134.2743,
-                35.0
+                35
               ],
               [
                 134.2832,
@@ -183193,7 +182945,7 @@
                 34.5221
               ],
               [
-                134.0,
+                134,
                 34.5189
               ],
               [
@@ -183213,7 +182965,7 @@
                 34.5117
               ],
               [
-                134.0,
+                134,
                 34.5161
               ],
               [
@@ -186160,17 +185912,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.32_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Okinawa",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "沖縄県",
-        "TYPE_1": "Ken",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "JP.ON",
-        "ISO_1": "JP-47"
+        "Country": "Japan",
+        "Name_1": "Okinawa",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -193826,7 +193570,7 @@
                 26.505
               ],
               [
-                128.0,
+                128,
                 26.5103
               ],
               [
@@ -196494,7 +196238,7 @@
                 26.4001
               ],
               [
-                128.0,
+                128,
                 26.4019
               ],
               [
@@ -197909,17 +197653,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.33_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Osaka",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "大阪府",
-        "TYPE_1": "Fu",
-        "ENGTYPE_1": "UrbanPrefecture",
-        "CC_1": "NA",
-        "HASC_1": "JP.OS",
-        "ISO_1": "JP-27"
+        "Country": "Japan",
+        "Name_1": "Osaka",
+        "Type": "UrbanPrefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -199332,7 +199068,7 @@
               ],
               [
                 135.3553,
-                35.0
+                35
               ],
               [
                 135.3572,
@@ -199380,7 +199116,7 @@
               ],
               [
                 135.4208,
-                35.0
+                35
               ],
               [
                 135.4433,
@@ -199388,7 +199124,7 @@
               ],
               [
                 135.4531,
-                35.0
+                35
               ],
               [
                 135.4642,
@@ -200194,17 +199930,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.34_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Saga",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "佐賀県",
-        "TYPE_1": "Ken",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "JP.SG",
-        "ISO_1": "JP-41"
+        "Country": "Japan",
+        "Name_1": "Saga",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -200232,7 +199960,7 @@
                 33.0218
               ],
               [
-                130.0,
+                130,
                 33.0309
               ],
               [
@@ -202221,7 +201949,7 @@
               ],
               [
                 130.1864,
-                33.0
+                33
               ],
               [
                 130.1919,
@@ -202967,17 +202695,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.35_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Saitama",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "埼玉県",
-        "TYPE_1": "Ken",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "JP.ST",
-        "ISO_1": "JP-11"
+        "Country": "Japan",
+        "Name_1": "Saitama",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -203225,7 +202945,7 @@
                 35.8939
               ],
               [
-                139.0,
+                139,
                 35.8812
               ],
               [
@@ -203401,7 +203121,7 @@
                 36.1226
               ],
               [
-                139.0,
+                139,
                 36.1225
               ],
               [
@@ -203728,17 +203448,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.36_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Shiga",
-        "VARNAME_1": "Siga",
-        "NL_NAME_1": "滋賀県",
-        "TYPE_1": "Ken",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "JP.SH",
-        "ISO_1": "JP-25"
+        "Country": "Japan",
+        "Name_1": "Shiga",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -203770,7 +203482,7 @@
                 34.8303
               ],
               [
-                136.0,
+                136,
                 34.8412
               ],
               [
@@ -204483,7 +204195,7 @@
               ],
               [
                 136.4229,
-                35.0
+                35
               ],
               [
                 136.4189,
@@ -204673,17 +204385,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.37_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Shimane",
-        "VARNAME_1": "Simane",
-        "NL_NAME_1": "島根県",
-        "TYPE_1": "Ken",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "JP.SM",
-        "ISO_1": "JP-32"
+        "Country": "Japan",
+        "Name_1": "Shimane",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -204711,7 +204415,7 @@
                 34.4284
               ],
               [
-                132.0,
+                132,
                 34.4248
               ],
               [
@@ -204719,7 +204423,7 @@
                 34.4115
               ],
               [
-                132.0,
+                132,
                 34.4038
               ],
               [
@@ -207708,7 +207412,7 @@
               ],
               [
                 132.7839,
-                35.0
+                35
               ],
               [
                 132.7744,
@@ -208388,7 +208092,7 @@
               ],
               [
                 133.065,
-                36.0
+                36
               ],
               [
                 133.0661,
@@ -208991,7 +208695,7 @@
                 36.1136
               ],
               [
-                133.0,
+                133,
                 36.1144
               ],
               [
@@ -210978,17 +210682,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.38_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Shizuoka",
-        "VARNAME_1": "Sizuoka",
-        "NL_NAME_1": "静岡県",
-        "TYPE_1": "Ken",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "JP.SZ",
-        "ISO_1": "JP-22"
+        "Country": "Japan",
+        "Name_1": "Shizuoka",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -211169,7 +210865,7 @@
               ],
               [
                 137.704,
-                35.0
+                35
               ],
               [
                 137.708,
@@ -211312,7 +211008,7 @@
                 35.2892
               ],
               [
-                138.0,
+                138,
                 35.2993
               ],
               [
@@ -213917,7 +213613,7 @@
               ],
               [
                 138.5061,
-                35.0
+                35
               ],
               [
                 138.5003,
@@ -215511,17 +215207,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.39_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Tochigi",
-        "VARNAME_1": "Totigi",
-        "NL_NAME_1": "栃木県",
-        "TYPE_1": "Ken",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "JP.TC",
-        "ISO_1": "JP-09"
+        "Country": "Japan",
+        "Name_1": "Tochigi",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -216492,17 +216180,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.40_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Tokushima",
-        "VARNAME_1": "Tokusima",
-        "NL_NAME_1": "徳島県",
-        "TYPE_1": "Ken",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "JP.TS",
-        "ISO_1": "JP-36"
+        "Country": "Japan",
+        "Name_1": "Tokushima",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -216846,7 +216526,7 @@
                 33.8187
               ],
               [
-                134.0,
+                134,
                 33.8179
               ],
               [
@@ -219837,17 +219517,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.41_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Tokyo",
-        "VARNAME_1": "Edo|Yedo|Tokio|T¢quio",
-        "NL_NAME_1": "東京都",
-        "TYPE_1": "To",
-        "ENGTYPE_1": "Metropolis",
-        "CC_1": "NA",
-        "HASC_1": "JP.TK",
-        "ISO_1": "JP-13"
+        "Country": "Japan",
+        "Name_1": "Tokyo",
+        "Type": "Metropolis"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -222163,7 +221835,7 @@
                 35.743
               ],
               [
-                139.0,
+                139,
                 35.749
               ],
               [
@@ -222215,7 +221887,7 @@
                 35.8786
               ],
               [
-                139.0,
+                139,
                 35.8812
               ],
               [
@@ -224538,17 +224210,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.42_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Tottori",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "鳥取県",
-        "TYPE_1": "Ken",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "JP.TT",
-        "ISO_1": "JP-31"
+        "Country": "Japan",
+        "Name_1": "Tottori",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -225664,7 +225328,7 @@
                 35.3481
               ],
               [
-                134.0,
+                134,
                 35.3498
               ],
               [
@@ -225987,17 +225651,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.43_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Toyama",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "富山県",
-        "TYPE_1": "Ken",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "JP.TY",
-        "ISO_1": "JP-16"
+        "Country": "Japan",
+        "Name_1": "Toyama",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -226033,7 +225689,7 @@
                 36.2873
               ],
               [
-                137.0,
+                137,
                 36.2847
               ],
               [
@@ -226321,7 +225977,7 @@
                 36.9631
               ],
               [
-                137.0,
+                137,
                 36.9638
               ],
               [
@@ -226369,7 +226025,7 @@
                 36.8881
               ],
               [
-                137.0,
+                137,
                 36.8892
               ],
               [
@@ -227340,17 +226996,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.44_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Wakayama",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "和歌山県",
-        "TYPE_1": "Ken",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "JP.WK",
-        "ISO_1": "JP-30"
+        "Country": "Japan",
+        "Name_1": "Wakayama",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -230491,7 +230139,7 @@
               ],
               [
                 135.6272,
-                34.0
+                34
               ],
               [
                 135.6379,
@@ -231709,17 +231357,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.45_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Yamagata",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "山形県",
-        "TYPE_1": "Ken",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "JP.YT",
-        "ISO_1": "JP-06"
+        "Country": "Japan",
+        "Name_1": "Yamagata",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -232040,7 +231680,7 @@
               ],
               [
                 139.6559,
-                38.0
+                38
               ],
               [
                 139.6576,
@@ -233518,17 +233158,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.46_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Yamaguchi",
-        "VARNAME_1": "Yamaguti",
-        "NL_NAME_1": "山口県",
-        "TYPE_1": "Ken",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "JP.YC",
-        "ISO_1": "JP-35"
+        "Country": "Japan",
+        "Name_1": "Yamaguchi",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -235293,7 +234925,7 @@
               ],
               [
                 131.8681,
-                34.0
+                34
               ],
               [
                 131.8642,
@@ -235357,7 +234989,7 @@
               ],
               [
                 131.8239,
-                34.0
+                34
               ],
               [
                 131.8188,
@@ -236273,7 +235905,7 @@
               ],
               [
                 131.4336,
-                34.0
+                34
               ],
               [
                 131.4308,
@@ -236577,7 +236209,7 @@
               ],
               [
                 131.3656,
-                34.0
+                34
               ],
               [
                 131.3612,
@@ -237337,7 +236969,7 @@
               ],
               [
                 130.9983,
-                34.0
+                34
               ],
               [
                 130.9985,
@@ -239736,7 +239368,7 @@
                 34.3922
               ],
               [
-                132.0,
+                132,
                 34.4038
               ],
               [
@@ -239744,7 +239376,7 @@
                 34.4115
               ],
               [
-                132.0,
+                132,
                 34.4248
               ],
               [
@@ -241529,7 +241161,7 @@
               ],
               [
                 132.2658,
-                34.0
+                34
               ],
               [
                 132.2592,
@@ -243025,7 +242657,7 @@
               ],
               [
                 131.565,
-                34.0
+                34
               ],
               [
                 131.568,
@@ -244435,17 +244067,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "JPN.47_1",
-        "GID_0": "JPN",
-        "COUNTRY": "Japan",
-        "NAME_1": "Yamanashi",
-        "VARNAME_1": "Yamanasi",
-        "NL_NAME_1": "山梨県",
-        "TYPE_1": "Ken",
-        "ENGTYPE_1": "Prefecture",
-        "CC_1": "NA",
-        "HASC_1": "JP.YN",
-        "ISO_1": "JP-19"
+        "Country": "Japan",
+        "Name_1": "Yamanashi",
+        "Type": "Prefecture"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -245053,7 +244677,7 @@
                 35.7581
               ],
               [
-                139.0,
+                139,
                 35.749
               ],
               [

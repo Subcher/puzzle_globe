@@ -11,18 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BGD.1_1",
-        "GID_0": "BGD",
-        "COUNTRY": "Bangladesh",
-        "NAME_1": "Barisal",
-        "VARNAME_1": "Bakerganj",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Bibhag",
-        "ENGTYPE_1": "Division",
-        "CC_1": "10",
-        "HASC_1": "BD.BA",
-        "ISO_1": "NA",
-	"AREA": 13340
+        "Country": "Bangladesh",
+        "Name_1": "Barisal",
+        "Type": "Division"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -739,7 +730,7 @@
               ],
               [
                 90.8383,
-                22.0
+                22
               ],
               [
                 90.8408,
@@ -7459,7 +7450,7 @@
               ],
               [
                 90.2822,
-                22.0
+                22
               ],
               [
                 90.2832,
@@ -14921,18 +14912,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BGD.2_1",
-        "GID_0": "BGD",
-        "COUNTRY": "Bangladesh",
-        "NAME_1": "Chittagong",
-        "VARNAME_1": "Chattagram|ParbattyaChattagram|",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Bibhag",
-        "ENGTYPE_1": "Division",
-        "CC_1": "20",
-        "HASC_1": "BD.CG",
-        "ISO_1": "NA",
-	"AREA": 33771
+        "Country": "Bangladesh",
+        "Name_1": "Chittagong",
+        "Type": "Division"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -18332,7 +18314,7 @@
                 21.5092
               ],
               [
-                92.0,
+                92,
                 21.5156
               ],
               [
@@ -18388,7 +18370,7 @@
                 21.5175
               ],
               [
-                92.0,
+                92,
                 21.5186
               ],
               [
@@ -18508,7 +18490,7 @@
                 21.6461
               ],
               [
-                92.0,
+                92,
                 21.6567
               ],
               [
@@ -20800,7 +20782,7 @@
                 22.9783
               ],
               [
-                90.685626277372251,
+                90.68562627737225,
                 22.978882481751825
               ],
               [
@@ -20808,8 +20790,8 @@
                 22.9789
               ],
               [
-                90.685512770137535,
-                22.978904715127701
+                90.68551277013754,
+                22.9789047151277
               ],
               [
                 90.6789,
@@ -24600,7 +24582,7 @@
                 23.6782
               ],
               [
-                92.0,
+                92,
                 23.6713
               ],
               [
@@ -28122,7 +28104,7 @@
           [
             [
               [
-                90.685626277372251,
+                90.68562627737225,
                 22.978882481751825
               ],
               [
@@ -28270,11 +28252,11 @@
                 22.9793
               ],
               [
-                90.685512770137535,
-                22.978904715127701
+                90.68551277013754,
+                22.9789047151277
               ],
               [
-                90.685626277372251,
+                90.68562627737225,
                 22.978882481751825
               ]
             ]
@@ -28285,18 +28267,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BGD.3_1",
-        "GID_0": "BGD",
-        "COUNTRY": "Bangladesh",
-        "NAME_1": "Dhaka",
-        "VARNAME_1": "Daca|Dacca",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Bibhag",
-        "ENGTYPE_1": "Division",
-        "CC_1": "30",
-        "HASC_1": "BD.DH",
-        "ISO_1": "BD-C",
-	"AREA": 30414
+        "Country": "Bangladesh",
+        "Name_1": "Dhaka",
+        "Type": "Division"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -33519,18 +33492,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BGD.4_1",
-        "GID_0": "BGD",
-        "COUNTRY": "Bangladesh",
-        "NAME_1": "Khulna",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Bibhag",
-        "ENGTYPE_1": "Division",
-        "CC_1": "40",
-        "HASC_1": "BD.KH",
-        "ISO_1": "BD-D",
-	"AREA": 22288
+        "Country": "Bangladesh",
+        "Name_1": "Khulna",
+        "Type": "Division"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -39755,7 +39719,7 @@
               ],
               [
                 89.6814,
-                22.0
+                22
               ],
               [
                 89.6761,
@@ -45235,18 +45199,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BGD.8_1",
-        "GID_0": "BGD",
-        "COUNTRY": "Bangladesh",
-        "NAME_1": "Mymensingh",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Bibhag",
-        "ENGTYPE_1": "Division",
-        "CC_1": "NA",
-        "HASC_1": "BD.MM",
-        "ISO_1": "NA",
-	"AREA": 4362
+        "Country": "Bangladesh",
+        "Name_1": "Mymensingh",
+        "Type": "Division"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -49597,18 +49552,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BGD.5_1",
-        "GID_0": "BGD",
-        "COUNTRY": "Bangladesh",
-        "NAME_1": "Rajshahi",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Bibhag",
-        "ENGTYPE_1": "Division",
-        "CC_1": "50",
-        "HASC_1": "BD.RS",
-        "ISO_1": "BD-E",
-	"AREA": 18153
+        "Country": "Bangladesh",
+        "Name_1": "Rajshahi",
+        "Type": "Division"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -53535,18 +53481,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BGD.6_1",
-        "GID_0": "BGD",
-        "COUNTRY": "Bangladesh",
-        "NAME_1": "Rangpur",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Bibhag",
-        "ENGTYPE_1": "Division",
-        "CC_1": "55",
-        "HASC_1": "BD.RP",
-        "ISO_1": "BD-F",
-	"AREA": 2512
+        "Country": "Bangladesh",
+        "Name_1": "Rangpur",
+        "Type": "Division"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -58602,7 +58539,7 @@
                 26.3231
               ],
               [
-                89.0,
+                89,
                 26.3248
               ],
               [
@@ -64251,18 +64188,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "BGD.7_1",
-        "GID_0": "BGD",
-        "COUNTRY": "Bangladesh",
-        "NAME_1": "Sylhet",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Bibhag",
-        "ENGTYPE_1": "Division",
-        "CC_1": "60",
-        "HASC_1": "BD.SY",
-        "ISO_1": "BD-G",
-	"AREA": 12485
+        "Country": "Bangladesh",
+        "Name_1": "Sylhet",
+        "Type": "Division"
       },
       "geometry": {
         "type": "MultiPolygon",

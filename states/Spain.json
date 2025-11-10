@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ESP.1_1",
-        "GID_0": "ESP",
-        "COUNTRY": "Spain",
-        "NAME_1": "Andalucía",
-        "VARNAME_1": "Andalousie|Andaluc¡a|Andalusien|",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "ComunidadAutónoma",
-        "ENGTYPE_1": "AutonomousCommunity",
-        "CC_1": "01",
-        "HASC_1": "ES.AN",
-        "ISO_1": "NA"
+        "Country": "Spain",
+        "Name_1": "Andalucía",
+        "Type": "AutonomousCommunity"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -11096,17 +11088,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ESP.2_1",
-        "GID_0": "ESP",
-        "COUNTRY": "Spain",
-        "NAME_1": "Aragón",
-        "VARNAME_1": "Aragão|Aragó|Aragón|Aragona|Arag",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "ComunidadAutónoma",
-        "ENGTYPE_1": "AutonomousCommunity",
-        "CC_1": "15",
-        "HASC_1": "ES.AR",
-        "ISO_1": "NA"
+        "Country": "Spain",
+        "Name_1": "Aragón",
+        "Type": "AutonomousCommunity"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -17261,17 +17245,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ESP.3_1",
-        "GID_0": "ESP",
-        "COUNTRY": "Spain",
-        "NAME_1": "Cantabria",
-        "VARNAME_1": "Cantàbria|Cantábria|Cantabrie|Ka",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "ComunidadAutónoma",
-        "ENGTYPE_1": "AutonomousCommunity",
-        "CC_1": "06",
-        "HASC_1": "ES.CB",
-        "ISO_1": "ES-CB"
+        "Country": "Spain",
+        "Name_1": "Cantabria",
+        "Type": "AutonomousCommunity"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -17675,7 +17651,7 @@
                 42.8098
               ],
               [
-                -4.0,
+                -4,
                 42.8241
               ],
               [
@@ -21810,17 +21786,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ESP.4_1",
-        "GID_0": "ESP",
-        "COUNTRY": "Spain",
-        "NAME_1": "Castilla-LaMancha",
-        "VARNAME_1": "Castela-LaMancha|Castela-Mancha",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "ComunidadAutónoma",
-        "ENGTYPE_1": "AutonomousCommunity",
-        "CC_1": "08",
-        "HASC_1": "ES.CM",
-        "ISO_1": "ES-CM"
+        "Country": "Spain",
+        "Name_1": "Castilla- La Mancha",
+        "Type": "AutonomousCommunity"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -30879,17 +30847,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ESP.5_1",
-        "GID_0": "ESP",
-        "COUNTRY": "Spain",
-        "NAME_1": "CastillayLeón",
-        "VARNAME_1": "CastileandLeon|CastelaeLeão|",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "ComunidadAutónoma",
-        "ENGTYPE_1": "AutonomousCommunity",
-        "CC_1": "07",
-        "HASC_1": "ES.CL",
-        "ISO_1": "NA"
+        "Country": "Spain",
+        "Name_1": "Castillay León",
+        "Type": "AutonomousCommunity"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -36061,7 +36021,7 @@
                 42.8314
               ],
               [
-                -4.0,
+                -4,
                 42.8241
               ],
               [
@@ -42710,17 +42670,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ESP.6_1",
-        "GID_0": "ESP",
-        "COUNTRY": "Spain",
-        "NAME_1": "Cataluña",
-        "VARNAME_1": "Catalogna|Catalogne|Catalonia|Ca",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "ComunidadAutónoma",
-        "ENGTYPE_1": "AutonomousCommunity",
-        "CC_1": "09",
-        "HASC_1": "ES.CT",
-        "ISO_1": "NA"
+        "Country": "Spain",
+        "Name_1": "Cataluña",
+        "Type": "AutonomousCommunity"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -49847,17 +49799,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ESP.7_1",
-        "GID_0": "ESP",
-        "COUNTRY": "Spain",
-        "NAME_1": "CeutayMelilla",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "CiudadAutónoma",
-        "ENGTYPE_1": "AutonomousCity",
-        "CC_1": "19",
-        "HASC_1": "ES.ML",
-        "ISO_1": "NA"
+        "Country": "Spain",
+        "Name_1": "Ceutay Melilla",
+        "Type": "AutonomousCity"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -50344,17 +50288,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ESP.8_1",
-        "GID_0": "ESP",
-        "COUNTRY": "Spain",
-        "NAME_1": "ComunidaddeMadrid",
-        "VARNAME_1": "Madrid|CommunautédeMadrid|Com",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "ComunidadAutónoma",
-        "ENGTYPE_1": "AutonomousCommunity",
-        "CC_1": "NA",
-        "HASC_1": "ES.MD",
-        "ISO_1": "NA"
+        "Country": "Spain",
+        "Name_1": "Comunidadde Madrid",
+        "Type": "AutonomousCommunity"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -53883,17 +53819,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ESP.9_1",
-        "GID_0": "ESP",
-        "COUNTRY": "Spain",
-        "NAME_1": "ComunidadForaldeNavarra",
-        "VARNAME_1": "CommunautéforaledeNavarre|Com",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "ComunidadAutónoma",
-        "ENGTYPE_1": "AutonomousCommunity",
-        "CC_1": "15",
-        "HASC_1": "ES.NA",
-        "ISO_1": "NA"
+        "Country": "Spain",
+        "Name_1": "Comunidad Foralde Navarra",
+        "Type": "AutonomousCommunity"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -57096,17 +57024,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ESP.10_1",
-        "GID_0": "ESP",
-        "COUNTRY": "Spain",
-        "NAME_1": "ComunidadValenciana",
-        "VARNAME_1": "Valencia|CommunautédeValence|C",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "ComunidadAutónoma",
-        "ENGTYPE_1": "AutonomousCommunity",
-        "CC_1": "10",
-        "HASC_1": "ES.VC",
-        "ISO_1": "NA"
+        "Country": "Spain",
+        "Name_1": "Comunidad Valenciana",
+        "Type": "AutonomousCommunity"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -63429,17 +63349,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ESP.11_1",
-        "GID_0": "ESP",
-        "COUNTRY": "Spain",
-        "NAME_1": "Extremadura",
-        "VARNAME_1": "Estremadura|Estrémadure",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "ComunidadAutónoma",
-        "ENGTYPE_1": "AutonomousCommunity",
-        "CC_1": "11",
-        "HASC_1": "ES.EX",
-        "ISO_1": "ES-EX"
+        "Country": "Spain",
+        "Name_1": "Extremadura",
+        "Type": "AutonomousCommunity"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -69606,17 +69518,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ESP.12_1",
-        "GID_0": "ESP",
-        "COUNTRY": "Spain",
-        "NAME_1": "Galicia",
-        "VARNAME_1": "Galice|Gal¡cia|Galicien|Galiza|G",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "ComunidadAutónoma",
-        "ENGTYPE_1": "AutonomousCommunity",
-        "CC_1": "12",
-        "HASC_1": "ES.GA",
-        "ISO_1": "ES-GA"
+        "Country": "Spain",
+        "Name_1": "Galicia",
+        "Type": "AutonomousCommunity"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -85131,17 +85035,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ESP.13_1",
-        "GID_0": "ESP",
-        "COUNTRY": "Spain",
-        "NAME_1": "IslasBaleares",
-        "VARNAME_1": "BalearicIslands|Balearen|Balear",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "ComunidadAutónoma",
-        "ENGTYPE_1": "AutonomousCommunity",
-        "CC_1": "04",
-        "HASC_1": "ES.PM",
-        "ISO_1": "NA"
+        "Country": "Spain",
+        "Name_1": "Islas Baleares",
+        "Type": "AutonomousCommunity"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -94456,17 +94352,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ESP.14_1",
-        "GID_0": "ESP",
-        "COUNTRY": "Spain",
-        "NAME_1": "IslasCanarias",
-        "VARNAME_1": "Canarias|CanaryIslands|Canárias",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "ComunidadAutónoma",
-        "ENGTYPE_1": "AutonomousCommunity",
-        "CC_1": "05",
-        "HASC_1": "ES.CN",
-        "ISO_1": "NA"
+        "Country": "Spain",
+        "Name_1": "Islas Canarias",
+        "Type": "AutonomousCommunity"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -104149,17 +104037,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ESP.15_1",
-        "GID_0": "ESP",
-        "COUNTRY": "Spain",
-        "NAME_1": "LaRioja",
-        "VARNAME_1": "Rioja",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "ComunidadAutónoma",
-        "ENGTYPE_1": "AutonomousCommunity",
-        "CC_1": "17",
-        "HASC_1": "ES.LO",
-        "ISO_1": "ES-RI"
+        "Country": "Spain",
+        "Name_1": "La Rioja",
+        "Type": "AutonomousCommunity"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -106726,17 +106606,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ESP.16_1",
-        "GID_0": "ESP",
-        "COUNTRY": "Spain",
-        "NAME_1": "PaísVasco",
-        "VARNAME_1": "BasqueCountry|Baskenland|Basque",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "ComunidadAutónoma",
-        "ENGTYPE_1": "AutonomousCommunity",
-        "CC_1": "16",
-        "HASC_1": "ES.PV",
-        "ISO_1": "NA"
+        "Country": "Spain",
+        "Name_1": "País Vasco",
+        "Type": "AutonomousCommunity"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -111551,17 +111423,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ESP.17_1",
-        "GID_0": "ESP",
-        "COUNTRY": "Spain",
-        "NAME_1": "PrincipadodeAsturias",
-        "VARNAME_1": "Astúrias|Asturie|Asturien|Asturi",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "ComunidadAutónoma",
-        "ENGTYPE_1": "AutonomousCommunity",
-        "CC_1": "03",
-        "HASC_1": "ES.AS",
-        "ISO_1": "NA"
+        "Country": "Spain",
+        "Name_1": "Principadode Asturias",
+        "Type": "AutonomousCommunity"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -116960,17 +116824,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ESP.18_1",
-        "GID_0": "ESP",
-        "COUNTRY": "Spain",
-        "NAME_1": "RegióndeMurcia",
-        "VARNAME_1": "Murcia|RegiãodeMúrcia|Regióde",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "ComunidadAutónoma",
-        "ENGTYPE_1": "AutonomousCommunity",
-        "CC_1": "14",
-        "HASC_1": "ES.MU",
-        "ISO_1": "NA"
+        "Country": "Spain",
+        "Name_1": "Regiónde Murcia",
+        "Type": "AutonomousCommunity"
       },
       "geometry": {
         "type": "MultiPolygon",

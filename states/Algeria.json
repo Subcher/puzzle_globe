@@ -11,18 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.1_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "Adrar",
-        "VARNAME_1": "Duperré",
-        "NL_NAME_1": "ولايةأدرا",
-       	"TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "1",
-        "HASC_1": "DZ.AR",
-        "ISO_1": "DZ-01",
-	"AREA": 424948
+        "Country": "Algeria",
+        "Name_1": "Adrar",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1745,18 +1736,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.2_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "AïnDefla",
-        "VARNAME_1": "AinDafla",
-        "NL_NAME_1": "ولايةعينالدفلى",
-     	"TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "44",
-        "HASC_1": "DZ.AD",
-        "ISO_1": "NA",
-	"AREA": 4897
+        "Country": "Algeria",
+        "Name_1": "Aïn Defla",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3411,18 +3393,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.3_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "AïnTémouchent",
-        "VARNAME_1": "AinTamouchent",
-        "NL_NAME_1": "ولايةعينتموشنت",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "46",
-        "HASC_1": "DZ.AT",
-        "ISO_1": "NA",
-	"AREA": 2376
+        "Country": "Algeria",
+        "Name_1": "Aïn Témouchent",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4697,18 +4670,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.4_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "Alger",
-        "VARNAME_1": "Algeri|Algiers|Algier|al-Jazair|",
-        "NL_NAME_1": "ولايةالجزائر",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "16",
-        "HASC_1": "DZ.AL",
-        "ISO_1": "DZ-16",
-	"AREA": 1190
+        "Country": "Algeria",
+        "Name_1": "Alger",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5345,18 +5309,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.5_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "Annaba",
-        "VARNAME_1": "Anaba|Bona|Bône",
-        "NL_NAME_1": "ولايةعنابة",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "23",
-        "HASC_1": "DZ.AN",
-        "ISO_1": "DZ-23",
-	"AREA": 1439
+        "Country": "Algeria",
+        "Name_1": "Annaba",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6151,18 +6106,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.6_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "Batna",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "ولايةباتنة",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "5",
-        "HASC_1": "DZ.BT",
-        "ISO_1": "DZ-05",
-	"AREA": 12192
+        "Country": "Algeria",
+        "Name_1": "Batna",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -8533,18 +8479,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.7_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "Béchar",
-        "VARNAME_1": "Colomb-Béchar|Bechar",
-        "NL_NAME_1": "ولايةبشار",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "8",
-        "HASC_1": "DZ.BC",
-        "ISO_1": "NA",
-	"AREA": 161400
+        "Country": "Algeria",
+        "Name_1": "Béchar",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10925,18 +10862,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.8_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "Béjaïa",
-        "VARNAME_1": "Bougie|Bedjaya|Bidjaia|Bugia|Buj",
-        "NL_NAME_1": "بجاية",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "6",
-        "HASC_1": "DZ.BJ",
-        "ISO_1": "NA",
-	"AREA": 3268
+        "Country": "Algeria",
+        "Name_1": "Béjaïa",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -12443,18 +12371,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.9_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "Biskra",
-        "VARNAME_1": "Beskra",
-        "NL_NAME_1": "ولايةبسكرة",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "7",
-        "HASC_1": "DZ.BS",
-        "ISO_1": "DZ-07",
-	"AREA": 20986
+        "Country": "Algeria",
+        "Name_1": "Biskra",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13535,7 +13454,7 @@
               ],
               [
                 5.0064,
-                35.0
+                35
               ],
               [
                 5.0069,
@@ -15073,18 +14992,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.10_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "Blida",
-        "VARNAME_1": "ElBoulaïda|Al-Boulaida",
-        "NL_NAME_1": "البليدة",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "9",
-        "HASC_1": "DZ.BL",
-        "ISO_1": "DZ-09",
-	"AREA": 1696
+        "Country": "Algeria",
+        "Name_1": "Blida",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -16071,18 +15981,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.11_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "BordjBouArréridj",
-        "VARNAME_1": "Borjbouarirej|BordiBouArreridj",
-        "NL_NAME_1": "ولايةبرجبوعريريج",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "34",
-        "HASC_1": "DZ.BB",
-        "ISO_1": "NA",
-	"AREA": 4115
+        "Country": "Algeria",
+        "Name_1": "Bordj Bou Arréridj",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -17605,18 +17506,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.12_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "Bouira",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "ولايةالبويرة",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "10",
-        "HASC_1": "DZ.BU",
-        "ISO_1": "DZ-10",
-	"AREA": 4439
+        "Country": "Algeria",
+        "Name_1": "Bouira",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -19107,18 +18999,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.13_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "Boumerdès",
-        "VARNAME_1": "Boumerdas",
-        "NL_NAME_1": "ولايةبومرداس",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "35",
-        "HASC_1": "DZ.BM",
-        "ISO_1": "NA",
-	"AREA": 1456
+        "Country": "Algeria",
+        "Name_1": "Boumerdès",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -20033,18 +19916,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.14_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "Chlef",
-        "VARNAME_1": "ElAsnam|Orléansville|EchChelif",
-        "NL_NAME_1": "ولايةالشلف",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "2",
-        "HASC_1": "DZ.CH",
-        "ISO_1": "DZ-02",
-	"AREA": 4975
+        "Country": "Algeria",
+        "Name_1": "Chlef",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -21607,18 +21481,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.15_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "Constantine",
-        "VARNAME_1": "Constantina|Costatina|Qoussantin",
-        "NL_NAME_1": "قسنطينة",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "25",
-        "HASC_1": "DZ.CO",
-        "ISO_1": "DZ-25",
-	"AREA": 2187
+        "Country": "Algeria",
+        "Name_1": "Constantine",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -22729,18 +22594,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.16_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "Djelfa",
-        "VARNAME_1": "ElDjelfa",
-        "NL_NAME_1": "ولايةالجلفة",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "17",
-        "HASC_1": "DZ.DJ",
-        "ISO_1": "DZ-17",
-	"AREA": 66415
+        "Country": "Algeria",
+        "Name_1": "Djelfa",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -24556,7 +24412,7 @@
                 34.3421
               ],
               [
-                4.0,
+                4,
                 34.3401
               ],
               [
@@ -24783,18 +24639,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.17_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "ElBayadh",
-        "VARNAME_1": "ElBayad|ElBeyyadh|Géryville",
-        "NL_NAME_1": "ولايةالبيض",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "32",
-        "HASC_1": "DZ.EB",
-        "ISO_1": "DZ-32",
-	"AREA": 78870
+        "Country": "Algeria",
+        "Name_1": "El Bayadh",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -25226,7 +25073,7 @@
                 32.9229
               ],
               [
-                0.0,
+                0,
                 32.9484
               ],
               [
@@ -25306,7 +25153,7 @@
                 33.1473
               ],
               [
-                -0.0,
+                0,
                 33.1701
               ],
               [
@@ -26405,18 +26252,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.18_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "ElOued",
-        "VARNAME_1": "ElOuadi|ElWad",
-        "NL_NAME_1": "ولايةالوادي",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "39",
-        "HASC_1": "DZ.EO",
-        "ISO_1": "DZ-39",
-	"AREA": 54573
+        "Country": "Algeria",
+        "Name_1": "El Oued",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -27407,18 +27245,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.19_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "ElTarf",
-        "VARNAME_1": "EtTarf|ElTaref",
-        "NL_NAME_1": "ولايةالطارف",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "36",
-        "HASC_1": "DZ.ET",
-        "ISO_1": "DZ-36",
-	"AREA": 3339
+        "Country": "Algeria",
+        "Name_1": "El Tarf",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -28509,18 +28338,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.20_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "Ghardaïa",
-        "VARNAME_1": "GhardaSa|Gharday",
-        "NL_NAME_1": "ولايةغرداية",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "47",
-        "HASC_1": "DZ.GR",
-        "ISO_1": "NA",
-	"AREA": 86105 
+        "Country": "Algeria",
+        "Name_1": "Ghardaïa",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -29035,18 +28855,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.21_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "Guelma",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "ولايةقالمة",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "24",
-        "HASC_1": "DZ.GL",
-        "ISO_1": "DZ-24",
-	"AREA": 4101
+        "Country": "Algeria",
+        "Name_1": "Guelma",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -30289,18 +30100,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.22_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "Illizi",
-        "VARNAME_1": "Polignac|FortPolignac|Ilizi",
-        "NL_NAME_1": "ولايةاليزي",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "33",
-        "HASC_1": "DZ.IL",
-        "ISO_1": "DZ-33",
-	"AREA": 284618
+        "Country": "Algeria",
+        "Name_1": "Illizi",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -31057,7 +30859,7 @@
               ],
               [
                 6.4129,
-                26.0
+                26
               ],
               [
                 6.4106,
@@ -31863,18 +31665,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.23_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "Jijel",
-        "VARNAME_1": "Djidjel|Djidjelli",
-        "NL_NAME_1": "ولايةجيجل",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "18",
-        "HASC_1": "DZ.JJ",
-        "ISO_1": "DZ-18",
-	"AREA": 2398
+        "Country": "Algeria",
+        "Name_1": "Jijel",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -32973,18 +32766,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.24_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "Khenchela",
-        "VARNAME_1": "Khenchela",
-        "NL_NAME_1": "ولايةخنشلة",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "40",
-        "HASC_1": "DZ.KH",
-        "ISO_1": "DZ-40",
-	"AREA": 9811
+        "Country": "Algeria",
+        "Name_1": "Khenchela",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -34549,18 +34333,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.25_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "Laghouat",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "ولايةالأغواط",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "3",
-        "HASC_1": "DZ.LG",
-        "ISO_1": "DZ-03",
-	"AREA": 25057
+        "Country": "Algeria",
+        "Name_1": "Laghouat",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -35935,18 +35710,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.26_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "M'Sila",
-        "VARNAME_1": "Msila",
-        "NL_NAME_1": "ولايةالمسيلة",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "28",
-        "HASC_1": "DZ.MS",
-        "ISO_1": "NA",
-	"AREA": 18718
+        "Country": "Algeria",
+        "Name_1": "M' Sila",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -36358,7 +36124,7 @@
                 34.3332
               ],
               [
-                4.0,
+                4,
                 34.3401
               ],
               [
@@ -38167,7 +37933,7 @@
               ],
               [
                 5.0064,
-                35.0
+                35
               ],
               [
                 5.0109,
@@ -38549,18 +38315,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.27_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "Mascara",
-        "VARNAME_1": "Mouaskar",
-        "NL_NAME_1": "ولايةمعسكر",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "29",
-        "HASC_1": "DZ.MC",
-        "ISO_1": "DZ-29",
-	"AREA": 5941
+        "Country": "Algeria",
+        "Name_1": "Mascara",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -40147,18 +39904,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.28_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "Médéa",
-        "VARNAME_1": "ElMediyya|Lemdiyya",
-        "NL_NAME_1": "ولايةالمدية",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "26",
-        "HASC_1": "DZ.MD",
-        "ISO_1": "NA",
-	"AREA": 8866
+        "Country": "Algeria",
+        "Name_1": "Médéa",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -42271,18 +42019,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.29_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "Mila",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "ولايةميلة",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "43",
-        "HASC_1": "DZ.ML",
-        "ISO_1": "DZ-43",
-	"AREA": 3368
+        "Country": "Algeria",
+        "Name_1": "Mila",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -43545,18 +43284,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.30_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "Mostaganem",
-        "VARNAME_1": "Mostaghanem|Mestghanem",
-        "NL_NAME_1": "ولايةمستغانم",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "27",
-        "HASC_1": "DZ.MG",
-        "ISO_1": "DZ-27",
-	"AREA": 2269
+        "Country": "Algeria",
+        "Name_1": "Mostaganem",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -44475,18 +44205,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.31_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "Naâma",
-        "VARNAME_1": "Naama",
-        "NL_NAME_1": "ولايةالنعامة",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "45",
-        "HASC_1": "DZ.NA",
-        "ISO_1": "NA",
-	"AREA": 29950
+        "Country": "Algeria",
+        "Name_1": "Naâma",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -45618,7 +45339,7 @@
                 33.201
               ],
               [
-                -0.0,
+                0,
                 33.1701
               ],
               [
@@ -45698,7 +45419,7 @@
                 32.9781
               ],
               [
-                0.0,
+                0,
                 32.9484
               ],
               [
@@ -45789,18 +45510,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.32_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "Oran",
-        "VARNAME_1": "Orán|Orano|Orão|Ouahran|Ouahrane",
-        "NL_NAME_1": "ولايةوهران",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "31",
-        "HASC_1": "DZ.OR",
-        "ISO_1": "DZ-31",
-	"AREA": 2114
+        "Country": "Algeria",
+        "Name_1": "Oran",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -46839,18 +46551,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.33_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "Ouargla",
-        "VARNAME_1": "Wargla",
-        "NL_NAME_1": "ورقلة",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "30",
-        "HASC_1": "DZ.OG",
-        "ISO_1": "DZ-30",
-	"AREA": 211980
+        "Country": "Algeria",
+        "Name_1": "Ouargla",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -47593,18 +47296,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.34_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "OumelBouaghi",
-        "VARNAME_1": "OumelBouagui|Canrobert",
-        "NL_NAME_1": "ولايةأمالبواقي",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "4",
-        "HASC_1": "DZ.OB",
-        "ISO_1": "DZ-04",
-	"AREA": 7636
+        "Country": "Algeria",
+        "Name_1": "Oumel Bouaghi",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -49311,18 +49005,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.35_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "Relizane",
-        "VARNAME_1": "Ghelizane|Ghilizane",
-        "NL_NAME_1": "ولايةغليزان",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "48",
-        "HASC_1": "DZ.RE",
-        "ISO_1": "DZ-48",
-	"AREA":  4870
+        "Country": "Algeria",
+        "Name_1": "Relizane",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -50965,18 +50650,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.36_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "Saïda",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "ولايةسعيدة",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "20",
-        "HASC_1": "DZ.SD",
-        "ISO_1": "NA",
-	"AREA": 6764
+        "Country": "Algeria",
+        "Name_1": "Saïda",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -52223,18 +51899,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.37_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "Sétif",
-        "VARNAME_1": "Stif",
-        "NL_NAME_1": "ولايةسطيف",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "19",
-        "HASC_1": "DZ.SF",
-        "ISO_1": "NA",
-	"AREA": 6504
+        "Country": "Algeria",
+        "Name_1": "Sétif",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -54351,18 +54018,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.38_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "SidiBelAbbès",
-        "VARNAME_1": "Sidi-Bel-Abbes",
-        "NL_NAME_1": "ولايةسيديبلعباس",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "22",
-        "HASC_1": "DZ.SB",
-        "ISO_1": "NA",
-	"AREA": 9150
+        "Country": "Algeria",
+        "Name_1": "Sidi Bel Abbès",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -56433,18 +56091,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.39_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "Skikda",
-        "VARNAME_1": "Philippeville|Skidda",
-        "NL_NAME_1": "سكيكدة",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "21",
-        "HASC_1": "DZ.SK",
-        "ISO_1": "DZ-21",
-	"AREA": 4026
+        "Country": "Algeria",
+        "Name_1": "Skikda",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -58083,18 +57732,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.40_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "SoukAhras",
-        "VARNAME_1": "Souk-Ahras|SouqAhras",
-        "NL_NAME_1": "ولايةسوقأهراس",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "41",
-        "HASC_1": "DZ.SA",
-        "ISO_1": "DZ-41",
-	"AREA": 4360
+        "Country": "Algeria",
+        "Name_1": "Souk Ahras",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -59485,18 +59125,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.41_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "Tamanghasset",
-        "VARNAME_1": "Tamanrasset|Tamenghasset|Tamengh",
-        "NL_NAME_1": "ولايةتمنراست",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "11",
-        "HASC_1": "DZ.TM",
-        "ISO_1": "NA",
-	"AREA": 557906
+        "Country": "Algeria",
+        "Name_1": "Tamanghasset",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -59801,7 +59432,7 @@
               ],
               [
                 6.4129,
-                26.0
+                26
               ],
               [
                 6.5854,
@@ -61139,18 +60770,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.42_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "Tébessa",
-        "VARNAME_1": "Tbessa",
-        "NL_NAME_1": "ولايةتبسة",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "12",
-        "HASC_1": "DZ.TB",
-        "ISO_1": "NA",
-	"AREA": 14227
+        "Country": "Algeria",
+        "Name_1": "Tébessa",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -62989,18 +62611,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.43_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "Tiaret",
-        "VARNAME_1": "Tendouf|Tihert",
-        "NL_NAME_1": "ولايةتيارت",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "14",
-        "HASC_1": "DZ.TR",
-        "ISO_1": "DZ-14",
-	"AREA": 20673
+        "Country": "Algeria",
+        "Name_1": "Tiaret",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -64803,18 +64416,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.44_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "Tindouf",
-        "VARNAME_1": "Tiaret",
-        "NL_NAME_1": "ولايةتندوف",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "37",
-        "HASC_1": "DZ.TN",
-        "ISO_1": "DZ-37",
-	"AREA": 159000
+        "Country": "Algeria",
+        "Name_1": "Tindouf",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -64998,7 +64602,7 @@
                 26.3042
               ],
               [
-                -7.0,
+                -7,
                 26.3414
               ],
               [
@@ -66101,18 +65705,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.45_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "Tipaza",
-        "VARNAME_1": "Tibaza|Tefessedt",
-        "NL_NAME_1": "ولايةتيبازة",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "42",
-        "HASC_1": "DZ.TP",
-        "ISO_1": "DZ-42",
-	"AREA": 2166
+        "Country": "Algeria",
+        "Name_1": "Tipaza",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -67143,18 +66738,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.46_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "Tissemsilt",
-        "VARNAME_1": "Vialar",
-        "NL_NAME_1": "ولايةتسمسيلت",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "38",
-        "HASC_1": "DZ.TS",
-        "ISO_1": "DZ-38",
-	"AREA": 3152
+        "Country": "Algeria",
+        "Name_1": "Tissemsilt",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -68593,18 +68179,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.47_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "TiziOuzou",
-        "VARNAME_1": "Tizi-ouzou|TiziWezzu",
-        "NL_NAME_1": "ولايةغليزان",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "15",
-        "HASC_1": "DZ.TO",
-        "ISO_1": "DZ-15",
-	"AREA": 2968
+        "Country": "Algeria",
+        "Name_1": "Tizi Ouzou",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -69631,18 +69208,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "DZA.48_1",
-        "GID_0": "DZA",
-        "COUNTRY": "Algeria",
-        "NAME_1": "Tlemcen",
-        "VARNAME_1": "Tilimsene|Tlemsane|Tilimsen|Trem",
-        "NL_NAME_1": "تلمسان",
-        "TYPE_1": "Wilaya",
-        "ENGTYPE_1": "Province",
-        "CC_1": "13",
-        "HASC_1": "DZ.TL",
-        "ISO_1": "DZ-13",
-	"AREA": 9061
+        "Country": "Algeria",
+        "Name_1": "Tlemcen",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",

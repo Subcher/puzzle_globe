@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MLI.1_1",
-        "GID_0": "MLI",
-        "COUNTRY": "Mali",
-        "NAME_1": "Bamako",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "ML.BA",
-        "ISO_1": "ML-BKO"
+        "Country": "Mali",
+        "Name_1": "Bamako",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -208,17 +200,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MLI.2_1",
-        "GID_0": "MLI",
-        "COUNTRY": "Mali",
-        "NAME_1": "Gao",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "ML.GA",
-        "ISO_1": "ML-7"
+        "Country": "Mali",
+        "Name_1": "Gao",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -327,7 +311,7 @@
               ],
               [
                 0.5043,
-                15.0
+                15
               ],
               [
                 0.4996,
@@ -2029,17 +2013,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MLI.3_1",
-        "GID_0": "MLI",
-        "COUNTRY": "Mali",
-        "NAME_1": "Kayes",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "ML.KY",
-        "ISO_1": "ML-1"
+        "Country": "Mali",
+        "Name_1": "Kayes",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -8518,17 +8494,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MLI.4_1",
-        "GID_0": "MLI",
-        "COUNTRY": "Mali",
-        "NAME_1": "Kidal",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "ML.KD",
-        "ISO_1": "ML-8"
+        "Country": "Mali",
+        "Name_1": "Kidal",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9943,17 +9911,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MLI.5_1",
-        "GID_0": "MLI",
-        "COUNTRY": "Mali",
-        "NAME_1": "Koulikoro",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "ML.KK",
-        "ISO_1": "ML-2"
+        "Country": "Mali",
+        "Name_1": "Koulikoro",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -15686,17 +15646,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MLI.6_1",
-        "GID_0": "MLI",
-        "COUNTRY": "Mali",
-        "NAME_1": "Mopti",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "ML.MO",
-        "ISO_1": "ML-5"
+        "Country": "Mali",
+        "Name_1": "Mopti",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -16405,7 +16357,7 @@
               ],
               [
                 -4.9871,
-                14.0
+                14
               ],
               [
                 -4.9824,
@@ -18919,17 +18871,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MLI.7_1",
-        "GID_0": "MLI",
-        "COUNTRY": "Mali",
-        "NAME_1": "Ségou",
-        "VARNAME_1": "Segou",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "ML.SG",
-        "ISO_1": "NA"
+        "Country": "Mali",
+        "Name_1": "Ségou",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -20818,7 +20762,7 @@
               ],
               [
                 -4.9871,
-                14.0
+                14
               ],
               [
                 -4.9886,
@@ -21856,17 +21800,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MLI.8_1",
-        "GID_0": "MLI",
-        "COUNTRY": "Mali",
-        "NAME_1": "Sikasso",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "ML.SK",
-        "ISO_1": "ML-3"
+        "Country": "Mali",
+        "Name_1": "Sikasso",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -28069,17 +28005,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MLI.9_1",
-        "GID_0": "MLI",
-        "COUNTRY": "Mali",
-        "NAME_1": "Timbuktu",
-        "VARNAME_1": "Timbouctou|Tombouctou|Timbuct|T",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "ML.TB",
-        "ISO_1": "NA"
+        "Country": "Mali",
+        "Name_1": "Timbuktu",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -29248,7 +29176,7 @@
               ],
               [
                 -5.3975,
-                16.0
+                16
               ],
               [
                 -5.3271,
@@ -29924,7 +29852,7 @@
               ],
               [
                 -6.4518,
-                24.0
+                24
               ],
               [
                 -6.4548,
@@ -29956,14 +29884,14 @@
               ],
               [
                 -6.5644,
-                25.0
+                25
               ],
               [
-                -5.0,
-                25.0
+                -5,
+                25
               ],
               [
-                -5.0,
+                -5,
                 24.9959
               ],
               [

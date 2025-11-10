@@ -11,18 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TCD.1_1",
-        "GID_0": "TCD",
-        "COUNTRY": "Chad",
-        "NAME_1": "BarhelGhazel",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "TD.BG",
-        "ISO_1": "NA",
-        "AREA": 60000
+        "Country": "Chad",
+        "Name_1": "Barhel Ghazel",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -261,18 +252,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TCD.2_1",
-        "GID_0": "TCD",
-        "COUNTRY": "Chad",
-        "NAME_1": "Batha",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "TD.BA",
-        "ISO_1": "NA",
-        "AREA": 88800
+        "Country": "Chad",
+        "Name_1": "Batha",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -631,18 +613,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TCD.3_1",
-        "GID_0": "TCD",
-        "COUNTRY": "Chad",
-        "NAME_1": "Borkou",
-        "VARNAME_1": "Borkou",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "TD.BR",
-        "ISO_1": "NA",
-        "AREA": 111000
+        "Country": "Chad",
+        "Name_1": "Borkou",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1149,18 +1122,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TCD.4_1",
-        "GID_0": "TCD",
-        "COUNTRY": "Chad",
-        "NAME_1": "Chari-Baguirmi",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "TD.CB",
-        "ISO_1": "TD-CB",
-        "AREA": 45180
+        "Country": "Chad",
+        "Name_1": "Chari- Baguirmi",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2115,18 +2079,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TCD.5_1",
-        "GID_0": "TCD",
-        "COUNTRY": "Chad",
-        "NAME_1": "EnnediEst",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "TD.EE",
-        "ISO_1": "NA",
-        "AREA": 143000
+        "Country": "Chad",
+        "Name_1": "Ennedi Est",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2363,7 +2318,7 @@
               ],
               [
                 23.0469,
-                20.0
+                20
               ],
               [
                 23.0575,
@@ -2561,18 +2516,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TCD.6_1",
-        "GID_0": "TCD",
-        "COUNTRY": "Chad",
-        "NAME_1": "EnnediOuest",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "TD.EO",
-        "ISO_1": "NA",
-        "AREA": 65000
+        "Country": "Chad",
+        "Name_1": "Ennedi Ouest",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2943,18 +2889,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TCD.7_1",
-        "GID_0": "TCD",
-        "COUNTRY": "Chad",
-        "NAME_1": "Guéra",
-        "VARNAME_1": "Guera|Baguirmi",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "TD.GR",
-        "ISO_1": "NA",
-        "AREA": 58950
+        "Country": "Chad",
+        "Name_1": "Guéra",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3477,18 +3414,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TCD.8_1",
-        "GID_0": "TCD",
-        "COUNTRY": "Chad",
-        "NAME_1": "Hadjer-Lamis",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "TD.HD",
-        "ISO_1": "NA",
-        "AREA": 26000
+        "Country": "Chad",
+        "Name_1": "Hadjer- Lamis",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4483,18 +4411,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TCD.9_1",
-        "GID_0": "TCD",
-        "COUNTRY": "Chad",
-        "NAME_1": "Kanem",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "TD.KM",
-        "ISO_1": "NA",
-        "AREA": 114520
+        "Country": "Chad",
+        "Name_1": "Kanem",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5037,18 +4956,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TCD.10_1",
-        "GID_0": "TCD",
-        "COUNTRY": "Chad",
-        "NAME_1": "Lac",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "TD.LC",
-        "ISO_1": "TD-LC",
-        "AREA": 22320
+        "Country": "Chad",
+        "Name_1": "Lac",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5467,18 +5377,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TCD.11_1",
-        "GID_0": "TCD",
-        "COUNTRY": "Chad",
-        "NAME_1": "LogoneOccidental",
-        "VARNAME_1": "Logone-Occidental",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "TD.LO",
-        "ISO_1": "NA",
-        "AREA": 9800
+        "Country": "Chad",
+        "Name_1": "Logone Occidental",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5869,18 +5770,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TCD.12_1",
-        "GID_0": "TCD",
-        "COUNTRY": "Chad",
-        "NAME_1": "LogoneOriental",
-        "VARNAME_1": "Logone-Oriental",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "TD.LR",
-        "ISO_1": "NA",
-        "AREA": 28735
+        "Country": "Chad",
+        "Name_1": "Logone Oriental",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7403,18 +7295,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TCD.13_1",
-        "GID_0": "TCD",
-        "COUNTRY": "Chad",
-        "NAME_1": "Mandoul",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "TD.MA",
-        "ISO_1": "NA",
-        "AREA": 30220
+        "Country": "Chad",
+        "Name_1": "Mandoul",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -8166,7 +8049,7 @@
                 8.0093
               ],
               [
-                18.0,
+                18,
                 7.9859
               ],
               [
@@ -8229,18 +8112,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TCD.14_1",
-        "GID_0": "TCD",
-        "COUNTRY": "Chad",
-        "NAME_1": "Mayo-KebbiEst",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "TD.ME",
-        "ISO_1": "NA",
-        "AREA": 19230
+        "Country": "Chad",
+        "Name_1": "Mayo- Kebbi Est",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9411,18 +9285,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TCD.15_1",
-        "GID_0": "TCD",
-        "COUNTRY": "Chad",
-        "NAME_1": "Mayo-KebbiOuest",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "TD.MW",
-        "ISO_1": "NA",
-        "AREA": 16445
+        "Country": "Chad",
+        "Name_1": "Mayo- Kebbi Ouest",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10401,18 +10266,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TCD.16_1",
-        "GID_0": "TCD",
-        "COUNTRY": "Chad",
-        "NAME_1": "Moyen-Chari",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "TD.MC",
-        "ISO_1": "NA",
-        "AREA": 45180
+        "Country": "Chad",
+        "Name_1": "Moyen- Chari",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10472,7 +10328,7 @@
                 8.524
               ],
               [
-                19.0,
+                19,
                 8.5158
               ],
               [
@@ -12008,7 +11864,7 @@
                 8.7693
               ],
               [
-                19.0,
+                19,
                 8.7704
               ],
               [
@@ -12119,18 +11975,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TCD.17_1",
-        "GID_0": "TCD",
-        "COUNTRY": "Chad",
-        "NAME_1": "Ouaddaï",
-        "VARNAME_1": "Ouaddai|Ouadaï",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "TD.OA",
-        "ISO_1": "NA",
-        "AREA": 76240
+        "Country": "Chad",
+        "Name_1": "Ouaddaï",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -12853,18 +12700,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TCD.18_1",
-        "GID_0": "TCD",
-        "COUNTRY": "Chad",
-        "NAME_1": "Salamat",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "TD.SA",
-        "ISO_1": "NA",
-        "AREA": 61000
+        "Country": "Chad",
+        "Name_1": "Salamat",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -14879,18 +14717,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TCD.19_1",
-        "GID_0": "TCD",
-        "COUNTRY": "Chad",
-        "NAME_1": "Sila",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "TD.SI",
-        "ISO_1": "TD-SI",
-        "AREA": 46850
+        "Country": "Chad",
+        "Name_1": "Sila",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -15745,18 +15574,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TCD.20_1",
-        "GID_0": "TCD",
-        "COUNTRY": "Chad",
-        "NAME_1": "Tandjilé",
-        "VARNAME_1": "Tandjile",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "TD.TA",
-        "ISO_1": "NA",
-        "AREA": 18045
+        "Country": "Chad",
+        "Name_1": "Tandjilé",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -16303,18 +16123,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TCD.21_1",
-        "GID_0": "TCD",
-        "COUNTRY": "Chad",
-        "NAME_1": "Tibesti",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "TD.TI",
-        "ISO_1": "NA",
-        "AREA": 114000
+        "Country": "Chad",
+        "Name_1": "Tibesti",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -17389,18 +17200,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TCD.22_1",
-        "GID_0": "TCD",
-        "COUNTRY": "Chad",
-        "NAME_1": "VilledeN'Djamena",
-        "VARNAME_1": "N'Djamena",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "TD.NJ",
-        "ISO_1": "NA",
-        "AREA": 102
+        "Country": "Chad",
+        "Name_1": "Villede N' Djamena",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -17647,18 +17449,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "TCD.23_1",
-        "GID_0": "TCD",
-        "COUNTRY": "Chad",
-        "NAME_1": "WadiFira",
-        "VARNAME_1": "Biltine",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Région",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "TD.BI",
-        "ISO_1": "NA",
-        "AREA": 72950
+        "Country": "Chad",
+        "Name_1": "Wadi Fira",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",

@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "LBR.1_1",
-        "GID_0": "LBR",
-        "COUNTRY": "Liberia",
-        "NAME_1": "Bomi",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "03",
-        "HASC_1": "LR.BM",
-        "ISO_1": "LR-BM"
+        "Country": "Liberia",
+        "Name_1": "Bomi",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -356,17 +348,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "LBR.2_1",
-        "GID_0": "LBR",
-        "COUNTRY": "Liberia",
-        "NAME_1": "Bong",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "06",
-        "HASC_1": "LR.BG",
-        "ISO_1": "NA"
+        "Country": "Liberia",
+        "Name_1": "Bong",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -861,17 +845,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "LBR.3_1",
-        "GID_0": "LBR",
-        "COUNTRY": "Liberia",
-        "NAME_1": "Gbapolu",
-        "VARNAME_1": "Gbarpolu",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "45",
-        "HASC_1": "LR.GP",
-        "ISO_1": "NA"
+        "Country": "Liberia",
+        "Name_1": "Gbapolu",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1494,17 +1470,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "LBR.5_1",
-        "GID_0": "LBR",
-        "COUNTRY": "Liberia",
-        "NAME_1": "GrandBassa",
-        "VARNAME_1": "GrandBassa",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "09",
-        "HASC_1": "LR.GB",
-        "ISO_1": "LR-GB"
+        "Country": "Liberia",
+        "Name_1": "Grand Bassa",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2279,17 +2247,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "LBR.4_1",
-        "GID_0": "LBR",
-        "COUNTRY": "Liberia",
-        "NAME_1": "GrandCapeMount",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "12",
-        "HASC_1": "LR.CM",
-        "ISO_1": "NA"
+        "Country": "Liberia",
+        "Name_1": "Grand Cape Mount",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3152,17 +3112,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "LBR.6_1",
-        "GID_0": "LBR",
-        "COUNTRY": "Liberia",
-        "NAME_1": "GrandGedeh",
-        "VARNAME_1": "GrandGedeh",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "15",
-        "HASC_1": "LR.GD",
-        "ISO_1": "LR-GG"
+        "Country": "Liberia",
+        "Name_1": "Grand Gedeh",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3866,7 +3818,7 @@
                 6.3151
               ],
               [
-                -8.0,
+                -8,
                 6.3121
               ],
               [
@@ -4521,17 +4473,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "LBR.7_1",
-        "GID_0": "LBR",
-        "COUNTRY": "Liberia",
-        "NAME_1": "GrandKru",
-        "VARNAME_1": "GrandKru",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "18",
-        "HASC_1": "LR.GK",
-        "ISO_1": "NA"
+        "Country": "Liberia",
+        "Name_1": "Grand Kru",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5214,17 +5158,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "LBR.8_1",
-        "GID_0": "LBR",
-        "COUNTRY": "Liberia",
-        "NAME_1": "Lofa",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "21",
-        "HASC_1": "LR.LF",
-        "ISO_1": "NA"
+        "Country": "Liberia",
+        "Name_1": "Lofa",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6541,7 +6477,7 @@
               ],
               [
                 -9.4213,
-                8.0
+                8
               ],
               [
                 -9.4118,
@@ -6723,17 +6659,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "LBR.9_1",
-        "GID_0": "LBR",
-        "COUNTRY": "Liberia",
-        "NAME_1": "Margibi",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "24",
-        "HASC_1": "LR.MG",
-        "ISO_1": "LR-MG"
+        "Country": "Liberia",
+        "Name_1": "Margibi",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7256,17 +7184,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "LBR.10_1",
-        "GID_0": "LBR",
-        "COUNTRY": "Liberia",
-        "NAME_1": "Maryland",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "27",
-        "HASC_1": "LR.MY",
-        "ISO_1": "NA"
+        "Country": "Liberia",
+        "Name_1": "Maryland",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7821,17 +7741,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "LBR.11_1",
-        "GID_0": "LBR",
-        "COUNTRY": "Liberia",
-        "NAME_1": "Montserrado",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "30",
-        "HASC_1": "LR.MO",
-        "ISO_1": "LR-MO"
+        "Country": "Liberia",
+        "Name_1": "Montserrado",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -8534,17 +8446,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "LBR.12_1",
-        "GID_0": "LBR",
-        "COUNTRY": "Liberia",
-        "NAME_1": "Nimba",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "33",
-        "HASC_1": "LR.NI",
-        "ISO_1": "LR-NI"
+        "Country": "Liberia",
+        "Name_1": "Nimba",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9847,17 +9751,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "LBR.14_1",
-        "GID_0": "LBR",
-        "COUNTRY": "Liberia",
-        "NAME_1": "RiverGee",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "42",
-        "HASC_1": "LR.RG",
-        "ISO_1": "NA"
+        "Country": "Liberia",
+        "Name_1": "River Gee",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10728,17 +10624,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "LBR.13_1",
-        "GID_0": "LBR",
-        "COUNTRY": "Liberia",
-        "NAME_1": "Rivercess",
-        "VARNAME_1": "RiverCess",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "36",
-        "HASC_1": "LR.RI",
-        "ISO_1": "NA"
+        "Country": "Liberia",
+        "Name_1": "Rivercess",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -11253,17 +11141,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "LBR.15_1",
-        "GID_0": "LBR",
-        "COUNTRY": "Liberia",
-        "NAME_1": "Sinoe",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "County",
-        "ENGTYPE_1": "County",
-        "CC_1": "39",
-        "HASC_1": "LR.SI",
-        "ISO_1": "LR-SI"
+        "Country": "Liberia",
+        "Name_1": "Sinoe",
+        "Type": "County"
       },
       "geometry": {
         "type": "MultiPolygon",

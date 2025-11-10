@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ECU.1_1",
-        "GID_0": "ECU",
-        "COUNTRY": "Ecuador",
-        "NAME_1": "Azuay",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "01",
-        "HASC_1": "EC.AZ",
-        "ISO_1": "EC-A"
+        "Country": "Ecuador",
+        "Name_1": "Azuay",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3440,17 +3432,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ECU.2_1",
-        "GID_0": "ECU",
-        "COUNTRY": "Ecuador",
-        "NAME_1": "Bolivar",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "02",
-        "HASC_1": "EC.BO",
-        "ISO_1": "EC-B"
+        "Country": "Ecuador",
+        "Name_1": "Bolivar",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5685,17 +5669,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ECU.3_1",
-        "GID_0": "ECU",
-        "COUNTRY": "Ecuador",
-        "NAME_1": "Cañar",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "03",
-        "HASC_1": "EC.CN",
-        "ISO_1": "NA"
+        "Country": "Ecuador",
+        "Name_1": "Cañar",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7662,17 +7638,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ECU.4_1",
-        "GID_0": "ECU",
-        "COUNTRY": "Ecuador",
-        "NAME_1": "Carchi",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "04",
-        "HASC_1": "EC.CR",
-        "ISO_1": "EC-C"
+        "Country": "Ecuador",
+        "Name_1": "Carchi",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10367,17 +10335,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ECU.5_1",
-        "GID_0": "ECU",
-        "COUNTRY": "Ecuador",
-        "NAME_1": "Chimborazo",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "06",
-        "HASC_1": "EC.CB",
-        "ISO_1": "EC-H"
+        "Country": "Ecuador",
+        "Name_1": "Chimborazo",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13008,17 +12968,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ECU.6_1",
-        "GID_0": "ECU",
-        "COUNTRY": "Ecuador",
-        "NAME_1": "Cotopaxi",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "05",
-        "HASC_1": "EC.CT",
-        "ISO_1": "EC-X"
+        "Country": "Ecuador",
+        "Name_1": "Cotopaxi",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -15613,17 +15565,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ECU.7_1",
-        "GID_0": "ECU",
-        "COUNTRY": "Ecuador",
-        "NAME_1": "ElOro",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "07",
-        "HASC_1": "EC.EO",
-        "ISO_1": "EC-O"
+        "Country": "Ecuador",
+        "Name_1": "El Oro",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -18338,17 +18282,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ECU.8_1",
-        "GID_0": "ECU",
-        "COUNTRY": "Ecuador",
-        "NAME_1": "Esmeraldas",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "08",
-        "HASC_1": "EC.ES",
-        "ISO_1": "EC-E"
+        "Country": "Ecuador",
+        "Name_1": "Esmeraldas",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -23175,17 +23111,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ECU.9_1",
-        "GID_0": "ECU",
-        "COUNTRY": "Ecuador",
-        "NAME_1": "Galápagos",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "20",
-        "HASC_1": "EC.GA",
-        "ISO_1": "NA"
+        "Country": "Ecuador",
+        "Name_1": "Galápagos",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -27817,7 +27745,7 @@
                 0.3833
               ],
               [
-                -90.497774074074073,
+                -90.49777407407407,
                 0.3838
               ],
               [
@@ -27941,7 +27869,7 @@
           [
             [
               [
-                -90.497774074074073,
+                -90.49777407407407,
                 0.3838
               ],
               [
@@ -27961,7 +27889,7 @@
                 0.38384
               ],
               [
-                -90.497774074074073,
+                -90.49777407407407,
                 0.3838
               ]
             ]
@@ -34680,17 +34608,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ECU.10_1",
-        "GID_0": "ECU",
-        "COUNTRY": "Ecuador",
-        "NAME_1": "Guayas",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "09",
-        "HASC_1": "EC.GU",
-        "ISO_1": "EC-G"
+        "Country": "Ecuador",
+        "Name_1": "Guayas",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -43731,17 +43651,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ECU.11_1",
-        "GID_0": "ECU",
-        "COUNTRY": "Ecuador",
-        "NAME_1": "Imbabura",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "10",
-        "HASC_1": "EC.IM",
-        "ISO_1": "EC-I"
+        "Country": "Ecuador",
+        "Name_1": "Imbabura",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -47288,17 +47200,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ECU.12_1",
-        "GID_0": "ECU",
-        "COUNTRY": "Ecuador",
-        "NAME_1": "Loja",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "11",
-        "HASC_1": "EC.LJ",
-        "ISO_1": "EC-L"
+        "Country": "Ecuador",
+        "Name_1": "Loja",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -51701,17 +51605,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ECU.13_1",
-        "GID_0": "ECU",
-        "COUNTRY": "Ecuador",
-        "NAME_1": "LosRios",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "12",
-        "HASC_1": "EC.LR",
-        "ISO_1": "EC-R"
+        "Country": "Ecuador",
+        "Name_1": "Los Rios",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -57126,17 +57022,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ECU.14_1",
-        "GID_0": "ECU",
-        "COUNTRY": "Ecuador",
-        "NAME_1": "Manabi",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "13",
-        "HASC_1": "EC.MN",
-        "ISO_1": "EC-M"
+        "Country": "Ecuador",
+        "Name_1": "Manabi",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -63151,17 +63039,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ECU.15_1",
-        "GID_0": "ECU",
-        "COUNTRY": "Ecuador",
-        "NAME_1": "MoronaSantiago",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "14",
-        "HASC_1": "EC.MS",
-        "ISO_1": "EC-S"
+        "Country": "Ecuador",
+        "Name_1": "Morona Santiago",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -67224,17 +67104,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ECU.16_1",
-        "GID_0": "ECU",
-        "COUNTRY": "Ecuador",
-        "NAME_1": "Napo",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "15",
-        "HASC_1": "EC.NA",
-        "ISO_1": "EC-N"
+        "Country": "Ecuador",
+        "Name_1": "Napo",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -68914,7 +68786,7 @@
                 -0.1298
               ],
               [
-                -78.0,
+                -78,
                 -0.1283
               ],
               [
@@ -73065,17 +72937,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ECU.17_1",
-        "GID_0": "ECU",
-        "COUNTRY": "Ecuador",
-        "NAME_1": "Orellana",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "22",
-        "HASC_1": "EC.OR",
-        "ISO_1": "EC-D"
+        "Country": "Ecuador",
+        "Name_1": "Orellana",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -80750,17 +80614,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ECU.18_1",
-        "GID_0": "ECU",
-        "COUNTRY": "Ecuador",
-        "NAME_1": "Pastaza",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "16",
-        "HASC_1": "EC.PA",
-        "ISO_1": "EC-Y"
+        "Country": "Ecuador",
+        "Name_1": "Pastaza",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -86551,17 +86407,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ECU.19_1",
-        "GID_0": "ECU",
-        "COUNTRY": "Ecuador",
-        "NAME_1": "Pichincha",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "17",
-        "HASC_1": "EC.PI",
-        "ISO_1": "EC-P"
+        "Country": "Ecuador",
+        "Name_1": "Pichincha",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -88278,7 +88126,7 @@
               ],
               [
                 -79.1999,
-                -0.0
+                0
               ],
               [
                 -79.1992,
@@ -90533,7 +90381,7 @@
                 -0.1196
               ],
               [
-                -78.0,
+                -78,
                 -0.1283
               ],
               [
@@ -91060,17 +90908,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ECU.20_1",
-        "GID_0": "ECU",
-        "COUNTRY": "Ecuador",
-        "NAME_1": "SantaElena",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "24",
-        "HASC_1": "EC.SE",
-        "ISO_1": "EC-SE"
+        "Country": "Ecuador",
+        "Name_1": "Santa Elena",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -93417,17 +93257,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ECU.21_1",
-        "GID_0": "ECU",
-        "COUNTRY": "Ecuador",
-        "NAME_1": "SantoDomingodelosTsachilas",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "23",
-        "HASC_1": "EC.SD",
-        "ISO_1": "EC-SD"
+        "Country": "Ecuador",
+        "Name_1": "Santo Domingodelos Tsachilas",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -95096,7 +94928,7 @@
               ],
               [
                 -79.1999,
-                -0.0
+                0
               ],
               [
                 -79.1978,
@@ -96158,17 +95990,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ECU.22_1",
-        "GID_0": "ECU",
-        "COUNTRY": "Ecuador",
-        "NAME_1": "Sucumbios",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "21",
-        "HASC_1": "EC.SU",
-        "ISO_1": "EC-U"
+        "Country": "Ecuador",
+        "Name_1": "Sucumbios",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -102459,17 +102283,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ECU.23_1",
-        "GID_0": "ECU",
-        "COUNTRY": "Ecuador",
-        "NAME_1": "Tungurahua",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "18",
-        "HASC_1": "EC.TU",
-        "ISO_1": "EC-T"
+        "Country": "Ecuador",
+        "Name_1": "Tungurahua",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -104308,17 +104124,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ECU.24_1",
-        "GID_0": "ECU",
-        "COUNTRY": "Ecuador",
-        "NAME_1": "ZamoraChinchipe",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Provincia",
-        "ENGTYPE_1": "Province",
-        "CC_1": "19",
-        "HASC_1": "EC.ZC",
-        "ISO_1": "EC-Z"
+        "Country": "Ecuador",
+        "Name_1": "Zamora Chinchipe",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",

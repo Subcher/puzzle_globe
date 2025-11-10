@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MEX.1_1",
-        "GID_0": "MEX",
-        "COUNTRY": "México",
-        "NAME_1": "Aguascalientes",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "MX.AG",
-        "ISO_1": "MX-AGU"
+        "Country": "México",
+        "Name_1": "Aguascalientes",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1504,17 +1496,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MEX.3_1",
-        "GID_0": "MEX",
-        "COUNTRY": "México",
-        "NAME_1": "BajaCalifornia",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "MX.BN",
-        "ISO_1": "MX-BCN"
+        "Country": "México",
+        "Name_1": "Baja California",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1878,7 +1862,7 @@
           [
             [
               [
-                -116.724486046511629,
+                -116.72448604651163,
                 31.726923255813954
               ],
               [
@@ -1890,7 +1874,7 @@
                 31.7275
               ],
               [
-                -116.724486046511629,
+                -116.72448604651163,
                 31.726923255813954
               ]
             ]
@@ -2434,7 +2418,7 @@
           [
             [
               [
-                -114.371215238095246,
+                -114.37121523809525,
                 29.809058095238093
               ],
               [
@@ -2450,7 +2434,7 @@
                 29.8058
               ],
               [
-                -114.371215238095246,
+                -114.37121523809525,
                 29.809058095238093
               ]
             ]
@@ -2458,11 +2442,11 @@
           [
             [
               [
-                -114.371215238095246,
+                -114.37121523809525,
                 29.809058095238093
               ],
               [
-                -114.371374545454557,
+                -114.37137454545456,
                 29.809165454545457
               ],
               [
@@ -2470,7 +2454,7 @@
                 29.8091
               ],
               [
-                -114.371215238095246,
+                -114.37121523809525,
                 29.809058095238093
               ]
             ]
@@ -4402,7 +4386,7 @@
           [
             [
               [
-                -114.065711594202895,
+                -114.0657115942029,
                 28.106321739130426
               ],
               [
@@ -4410,11 +4394,11 @@
                 28.1063
               ],
               [
-                -114.065724365482225,
+                -114.06572436548223,
                 28.106298477157363
               ],
               [
-                -114.065711594202895,
+                -114.0657115942029,
                 28.106321739130426
               ]
             ]
@@ -4422,7 +4406,7 @@
           [
             [
               [
-                -114.065711594202895,
+                -114.0657115942029,
                 28.106321739130426
               ],
               [
@@ -4434,7 +4418,7 @@
                 28.1078
               ],
               [
-                -114.065711594202895,
+                -114.0657115942029,
                 28.106321739130426
               ]
             ]
@@ -4471,11 +4455,11 @@
               ],
               [
                 -114.0867,
-                28.0
+                28
               ],
               [
                 -114.0972,
-                28.0
+                28
               ],
               [
                 -114.0973,
@@ -4803,7 +4787,7 @@
               ],
               [
                 -114.076,
-                28.0
+                28
               ],
               [
                 -114.0812,
@@ -4839,11 +4823,11 @@
             [
               [
                 -114.2036,
-                28.0
+                28
               ],
               [
                 -114.2047,
-                28.0
+                28
               ],
               [
                 -114.1759,
@@ -4927,11 +4911,11 @@
               ],
               [
                 -114.1493,
-                28.0
+                28
               ],
               [
                 -114.2036,
-                28.0
+                28
               ]
             ]
           ],
@@ -7155,11 +7139,11 @@
             [
               [
                 -112.8167,
-                28.0
+                28
               ],
               [
                 -114.0628,
-                28.0
+                28
               ],
               [
                 -114.0602,
@@ -7394,7 +7378,7 @@
                 28.1062
               ],
               [
-                -114.065724365482225,
+                -114.06572436548223,
                 28.106298477157363
               ],
               [
@@ -10010,7 +9994,7 @@
                 30.5023
               ],
               [
-                -116.0,
+                -116,
                 30.4979
               ],
               [
@@ -11182,7 +11166,7 @@
                 31.7267
               ],
               [
-                -116.724486046511629,
+                -116.72448604651163,
                 31.726923255813954
               ],
               [
@@ -13614,7 +13598,7 @@
                 29.8139
               ],
               [
-                -114.371374545454557,
+                -114.37137454545456,
                 29.809165454545457
               ],
               [
@@ -15487,11 +15471,11 @@
               ],
               [
                 -112.7649,
-                28.0
+                28
               ],
               [
                 -112.8167,
-                28.0
+                28
               ]
             ]
           ]
@@ -15501,17 +15485,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MEX.2_1",
-        "GID_0": "MEX",
-        "COUNTRY": "México",
-        "NAME_1": "BajaCaliforniaSur",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "MX.BS",
-        "ISO_1": "MX-BCS"
+        "Country": "México",
+        "Name_1": "Baja California Sur",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -20120,11 +20096,11 @@
               ],
               [
                 -114.0785,
-                28.0
+                28
               ],
               [
                 -114.076,
-                28.0
+                28
               ],
               [
                 -114.076,
@@ -20655,8 +20631,8 @@
                 22.8831
               ],
               [
-                -109.909211111111105,
-                22.883188888888888
+                -109.9092111111111,
+                22.88318888888889
               ],
               [
                 -109.9091,
@@ -20671,11 +20647,11 @@
                 22.8832
               ],
               [
-                -109.909211111111105,
-                22.883188888888888
+                -109.9092111111111,
+                22.88318888888889
               ],
               [
-                -109.909214285714285,
+                -109.90921428571428,
                 22.8832
               ],
               [
@@ -30220,7 +30196,7 @@
               ],
               [
                 -112.1104,
-                25.0
+                25
               ],
               [
                 -112.1102,
@@ -39796,11 +39772,11 @@
               ],
               [
                 -114.2047,
-                28.0
+                28
               ],
               [
                 -114.1493,
-                28.0
+                28
               ],
               [
                 -114.1414,
@@ -40076,11 +40052,11 @@
               ],
               [
                 -114.0972,
-                28.0
+                28
               ],
               [
                 -114.0867,
-                28.0
+                28
               ],
               [
                 -114.0864,
@@ -40240,11 +40216,11 @@
               ],
               [
                 -114.0628,
-                28.0
+                28
               ],
               [
                 -112.7649,
-                28.0
+                28
               ],
               [
                 -112.7621,
@@ -43515,7 +43491,7 @@
                 25.4074
               ],
               [
-                -111.0,
+                -111,
                 25.3948
               ],
               [
@@ -45610,17 +45586,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MEX.4_1",
-        "GID_0": "MEX",
-        "COUNTRY": "México",
-        "NAME_1": "Campeche",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "MX.CM",
-        "ISO_1": "MX-CAM"
+        "Country": "México",
+        "Name_1": "Campeche",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -55327,17 +55295,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MEX.5_1",
-        "GID_0": "MEX",
-        "COUNTRY": "México",
-        "NAME_1": "Chiapas",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "MX.CP",
-        "ISO_1": "MX-CHP"
+        "Country": "México",
+        "Name_1": "Chiapas",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -55433,7 +55393,7 @@
           [
             [
               [
-                -92.774091478696747,
+                -92.77409147869675,
                 15.155899498746868
               ],
               [
@@ -55453,7 +55413,7 @@
                 15.155892
               ],
               [
-                -92.774091478696747,
+                -92.77409147869675,
                 15.155899498746868
               ]
             ]
@@ -62081,7 +62041,7 @@
                 15.1573
               ],
               [
-                -92.774091478696747,
+                -92.77409147869675,
                 15.155899498746868
               ],
               [
@@ -62224,17 +62184,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MEX.6_1",
-        "GID_0": "MEX",
-        "COUNTRY": "México",
-        "NAME_1": "Chihuahua",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "MX.CH",
-        "ISO_1": "MX-CHH"
+        "Country": "México",
+        "Name_1": "Chihuahua",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -69994,7 +69946,7 @@
                 26.4565
               ],
               [
-                -105.0,
+                -105,
                 26.4539
               ],
               [
@@ -70989,17 +70941,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MEX.7_1",
-        "GID_0": "MEX",
-        "COUNTRY": "México",
-        "NAME_1": "Coahuila",
-        "VARNAME_1": "CoahuiladeZaragoza",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "MX.CA",
-        "ISO_1": "NA"
+        "Country": "México",
+        "Name_1": "Coahuila",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -76258,17 +76202,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MEX.8_1",
-        "GID_0": "MEX",
-        "COUNTRY": "México",
-        "NAME_1": "Colima",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "MX.CL",
-        "ISO_1": "MX-COL"
+        "Country": "México",
+        "Name_1": "Colima",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -78252,7 +78188,7 @@
                 19.4723
               ],
               [
-                -104.0,
+                -104,
                 19.4688
               ],
               [
@@ -79639,17 +79575,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MEX.9_1",
-        "GID_0": "MEX",
-        "COUNTRY": "México",
-        "NAME_1": "DistritoFederal",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "DistritoFederal",
-        "ENGTYPE_1": "FederalDistrict",
-        "CC_1": "NA",
-        "HASC_1": "MX.DF",
-        "ISO_1": "NA"
+        "Country": "México",
+        "Name_1": "Distrito Federal",
+        "Type": "FederalDistrict"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -80324,17 +80252,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MEX.10_1",
-        "GID_0": "MEX",
-        "COUNTRY": "México",
-        "NAME_1": "Durango",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "MX.DU",
-        "ISO_1": "MX-DUR"
+        "Country": "México",
+        "Name_1": "Durango",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -85050,7 +84970,7 @@
                 26.455
               ],
               [
-                -105.0,
+                -105,
                 26.4539
               ],
               [
@@ -87829,17 +87749,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MEX.11_1",
-        "GID_0": "MEX",
-        "COUNTRY": "México",
-        "NAME_1": "Guanajuato",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "MX.GJ",
-        "ISO_1": "MX-GUA"
+        "Country": "México",
+        "Name_1": "Guanajuato",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -89051,7 +88963,7 @@
                 20.3568
               ],
               [
-                -102.0,
+                -102,
                 20.3581
               ],
               [
@@ -90939,7 +90851,7 @@
                 21.7508
               ],
               [
-                -101.0,
+                -101,
                 21.7564
               ],
               [
@@ -93682,17 +93594,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MEX.12_1",
-        "GID_0": "MEX",
-        "COUNTRY": "México",
-        "NAME_1": "Guerrero",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "MX.GR",
-        "ISO_1": "MX-GRO"
+        "Country": "México",
+        "Name_1": "Guerrero",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -101647,17 +101551,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MEX.13_1",
-        "GID_0": "MEX",
-        "COUNTRY": "México",
-        "NAME_1": "Hidalgo",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "MX.HI",
-        "ISO_1": "MX-HID"
+        "Country": "México",
+        "Name_1": "Hidalgo",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -110196,17 +110092,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MEX.14_1",
-        "GID_0": "MEX",
-        "COUNTRY": "México",
-        "NAME_1": "Jalisco",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "MX.JA",
-        "ISO_1": "MX-JAL"
+        "Country": "México",
+        "Name_1": "Jalisco",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -115627,7 +115515,7 @@
               ],
               [
                 -104.2856,
-                22.0
+                22
               ],
               [
                 -104.2894,
@@ -126879,7 +126767,7 @@
               ],
               [
                 -103.0444,
-                20.0
+                20
               ],
               [
                 -103.0502,
@@ -128611,7 +128499,7 @@
               ],
               [
                 -103.2089,
-                19.0
+                19
               ],
               [
                 -103.2095,
@@ -129566,7 +129454,7 @@
                 19.4716
               ],
               [
-                -104.0,
+                -104,
                 19.4688
               ],
               [
@@ -130553,17 +130441,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MEX.15_1",
-        "GID_0": "MEX",
-        "COUNTRY": "México",
-        "NAME_1": "México",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "MX.MX",
-        "ISO_1": "NA"
+        "Country": "México",
+        "Name_1": "México",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -137558,17 +137438,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MEX.16_1",
-        "GID_0": "MEX",
-        "COUNTRY": "México",
-        "NAME_1": "Michoacán",
-        "VARNAME_1": "MichoacándeOcampo",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "MX.MC",
-        "ISO_1": "NA"
+        "Country": "México",
+        "Name_1": "Michoacán",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -139105,7 +138977,7 @@
               ],
               [
                 -103.2089,
-                19.0
+                19
               ],
               [
                 -103.2106,
@@ -140837,7 +140709,7 @@
               ],
               [
                 -103.0444,
-                20.0
+                20
               ],
               [
                 -103.0438,
@@ -141896,7 +141768,7 @@
                 20.3547
               ],
               [
-                -102.0,
+                -102,
                 20.3581
               ],
               [
@@ -147585,17 +147457,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MEX.17_1",
-        "GID_0": "MEX",
-        "COUNTRY": "México",
-        "NAME_1": "Morelos",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "MX.MR",
-        "ISO_1": "MX-MOR"
+        "Country": "México",
+        "Name_1": "Morelos",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -149870,17 +149734,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MEX.18_1",
-        "GID_0": "MEX",
-        "COUNTRY": "México",
-        "NAME_1": "Nayarit",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "MX.NA",
-        "ISO_1": "MX-NAY"
+        "Country": "México",
+        "Name_1": "Nayarit",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -154177,7 +154033,7 @@
               ],
               [
                 -104.2856,
-                22.0
+                22
               ],
               [
                 -104.2814,
@@ -156947,17 +156803,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MEX.19_1",
-        "GID_0": "MEX",
-        "COUNTRY": "México",
-        "NAME_1": "NuevoLeón",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "MX.NL",
-        "ISO_1": "NA"
+        "Country": "México",
+        "Name_1": "Nuevo León",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -159720,17 +159568,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MEX.20_1",
-        "GID_0": "MEX",
-        "COUNTRY": "México",
-        "NAME_1": "Oaxaca",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "MX.OA",
-        "ISO_1": "MX-OAX"
+        "Country": "México",
+        "Name_1": "Oaxaca",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -171013,17 +170853,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MEX.21_1",
-        "GID_0": "MEX",
-        "COUNTRY": "México",
-        "NAME_1": "Puebla",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "MX.PU",
-        "ISO_1": "MX-PUE"
+        "Country": "México",
+        "Name_1": "Puebla",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -182518,17 +182350,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MEX.22_1",
-        "GID_0": "MEX",
-        "COUNTRY": "México",
-        "NAME_1": "Querétaro",
-        "VARNAME_1": "QuerétarodeArteaga",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "MX.QE",
-        "ISO_1": "NA"
+        "Country": "México",
+        "Name_1": "Querétaro",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -186119,17 +185943,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MEX.23_1",
-        "GID_0": "MEX",
-        "COUNTRY": "México",
-        "NAME_1": "QuintanaRoo",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "MX.QR",
-        "ISO_1": "MX-ROO"
+        "Country": "México",
+        "Name_1": "Quintana Roo",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -189337,7 +189153,7 @@
           [
             [
               [
-                -87.442258536585371,
+                -87.44225853658537,
                 18.511926829268283
               ],
               [
@@ -189349,7 +189165,7 @@
                 18.5094
               ],
               [
-                -87.442258536585371,
+                -87.44225853658537,
                 18.511926829268283
               ]
             ]
@@ -189357,7 +189173,7 @@
           [
             [
               [
-                -87.442258536585371,
+                -87.44225853658537,
                 18.511926829268283
               ],
               [
@@ -189369,7 +189185,7 @@
                 18.5122
               ],
               [
-                -87.442258536585371,
+                -87.44225853658537,
                 18.511926829268283
               ]
             ]
@@ -200692,17 +200508,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MEX.24_1",
-        "GID_0": "MEX",
-        "COUNTRY": "México",
-        "NAME_1": "SanLuisPotosí",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "MX.SL",
-        "ISO_1": "NA"
+        "Country": "México",
+        "Name_1": "San Luis Potosí",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -202354,7 +202162,7 @@
                 21.7535
               ],
               [
-                -101.0,
+                -101,
                 21.7564
               ],
               [
@@ -203426,7 +203234,7 @@
                 24.4039
               ],
               [
-                -101.0,
+                -101,
                 24.3984
               ],
               [
@@ -206665,17 +206473,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MEX.25_1",
-        "GID_0": "MEX",
-        "COUNTRY": "México",
-        "NAME_1": "Sinaloa",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "MX.SI",
-        "ISO_1": "MX-SIN"
+        "Country": "México",
+        "Name_1": "Sinaloa",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -213868,7 +213668,7 @@
               ],
               [
                 -108.0407,
-                25.0
+                25
               ],
               [
                 -108.0438,
@@ -218460,7 +218260,7 @@
               ],
               [
                 -109.4291,
-                26.0
+                26
               ],
               [
                 -109.4295,
@@ -219991,8 +219791,8 @@
                 26.2643
               ],
               [
-                -109.089126613591134,
-                26.270060420813191
+                -109.08912661359113,
+                26.27006042081319
               ],
               [
                 -109.0899,
@@ -223889,8 +223689,8 @@
             ],
             [
               [
-                -109.089126613591134,
-                26.270060420813191
+                -109.08912661359113,
+                26.27006042081319
               ],
               [
                 -109.089004,
@@ -223901,8 +223701,8 @@
                 26.2701
               ],
               [
-                -109.089126613591134,
-                26.270060420813191
+                -109.08912661359113,
+                26.27006042081319
               ]
             ],
             [
@@ -224339,7 +224139,7 @@
                 24.9332
               ],
               [
-                -108.036323076923082,
+                -108.03632307692308,
                 24.934384615384612
               ],
               [
@@ -224375,7 +224175,7 @@
           [
             [
               [
-                -108.036323076923082,
+                -108.03632307692308,
                 24.934384615384612
               ],
               [
@@ -224387,7 +224187,7 @@
                 24.9344
               ],
               [
-                -108.036323076923082,
+                -108.03632307692308,
                 24.934384615384612
               ]
             ]
@@ -229714,17 +229514,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MEX.26_1",
-        "GID_0": "MEX",
-        "COUNTRY": "México",
-        "NAME_1": "Sonora",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "MX.SO",
-        "ISO_1": "MX-SON"
+        "Country": "México",
+        "Name_1": "Sonora",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -244464,7 +244256,7 @@
                 26.7645
               ],
               [
-                -109.825403654485058,
+                -109.82540365448506,
                 26.771575083056465
               ],
               [
@@ -244898,7 +244690,7 @@
             ],
             [
               [
-                -109.825403654485058,
+                -109.82540365448506,
                 26.771575083056465
               ],
               [
@@ -244910,7 +244702,7 @@
                 26.771758757062152
               ],
               [
-                -109.825403654485058,
+                -109.82540365448506,
                 26.771575083056465
               ]
             ],
@@ -245548,7 +245340,7 @@
           [
             [
               [
-                -110.309124664429532,
+                -110.30912466442953,
                 27.157642617449664
               ],
               [
@@ -245560,7 +245352,7 @@
                 27.1541
               ],
               [
-                -110.309124664429532,
+                -110.30912466442953,
                 27.157642617449664
               ]
             ]
@@ -245568,7 +245360,7 @@
           [
             [
               [
-                -110.309124664429532,
+                -110.30912466442953,
                 27.157642617449664
               ],
               [
@@ -245580,7 +245372,7 @@
                 27.157767322834644
               ],
               [
-                -110.309124664429532,
+                -110.30912466442953,
                 27.157642617449664
               ]
             ]
@@ -246707,17 +246499,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MEX.27_1",
-        "GID_0": "MEX",
-        "COUNTRY": "México",
-        "NAME_1": "Tabasco",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "MX.TB",
-        "ISO_1": "MX-TAB"
+        "Country": "México",
+        "Name_1": "Tabasco",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -254500,17 +254284,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MEX.28_1",
-        "GID_0": "MEX",
-        "COUNTRY": "México",
-        "NAME_1": "Tamaulipas",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "MX.TM",
-        "ISO_1": "MX-TAM"
+        "Country": "México",
+        "Name_1": "Tamaulipas",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -281441,17 +281217,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MEX.29_1",
-        "GID_0": "MEX",
-        "COUNTRY": "México",
-        "NAME_1": "Tlaxcala",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "MX.TL",
-        "ISO_1": "MX-TLA"
+        "Country": "México",
+        "Name_1": "Tlaxcala",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -283234,17 +283002,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MEX.30_1",
-        "GID_0": "MEX",
-        "COUNTRY": "México",
-        "NAME_1": "Veracruz",
-        "VARNAME_1": "VeracruzdeIgnaciodelaLlave",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "MX.VE",
-        "ISO_1": "NA"
+        "Country": "México",
+        "Name_1": "Veracruz",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -302771,17 +302531,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MEX.31_1",
-        "GID_0": "MEX",
-        "COUNTRY": "México",
-        "NAME_1": "Yucatán",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "MX.YU",
-        "ISO_1": "NA"
+        "Country": "México",
+        "Name_1": "Yucatán",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -303274,7 +303026,7 @@
               ],
               [
                 -90.3428,
-                21.0
+                21
               ],
               [
                 -90.3316,
@@ -305612,17 +305364,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "MEX.32_1",
-        "GID_0": "MEX",
-        "COUNTRY": "México",
-        "NAME_1": "Zacatecas",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Estado",
-        "ENGTYPE_1": "State",
-        "CC_1": "NA",
-        "HASC_1": "MX.ZA",
-        "ISO_1": "MX-ZAC"
+        "Country": "México",
+        "Name_1": "Zacatecas",
+        "Type": "State"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -313834,7 +313578,7 @@
                 24.3975
               ],
               [
-                -101.0,
+                -101,
                 24.3984
               ],
               [

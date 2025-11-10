@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "OMN.1_1",
-        "GID_0": "OMN",
-        "COUNTRY": "Oman",
-        "NAME_1": "AdDakhliyah",
-        "VARNAME_1": "AdDakhiliyah",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Mintaqah",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "OM.DA",
-        "ISO_1": "NA"
+        "Country": "Oman",
+        "Name_1": "Ad Dakhliyah",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -128,17 +120,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "OMN.2_1",
-        "GID_0": "OMN",
-        "COUNTRY": "Oman",
-        "NAME_1": "AlBatinahNorth",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Mintaqah",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "OM.BN",
-        "ISO_1": "NA"
+        "Country": "Oman",
+        "Name_1": "Al Batinah North",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -681,17 +665,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "OMN.3_1",
-        "GID_0": "OMN",
-        "COUNTRY": "Oman",
-        "NAME_1": "AlBatinahSouth",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Mintaqah",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "OM.BS",
-        "ISO_1": "NA"
+        "Country": "Oman",
+        "Name_1": "Al Batinah South",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1102,17 +1078,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "OMN.4_1",
-        "GID_0": "OMN",
-        "COUNTRY": "Oman",
-        "NAME_1": "AlBuraymi",
-        "VARNAME_1": "AdhDhahirah|AzZahirah",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Mintaqah",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "OM.DH",
-        "ISO_1": "OM-BU"
+        "Country": "Oman",
+        "Name_1": "Al Buraymi",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1619,17 +1587,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "OMN.5_1",
-        "GID_0": "OMN",
-        "COUNTRY": "Oman",
-        "NAME_1": "AlDhahira",
-        "VARNAME_1": "AdhDhahirah|AzZahirah",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Mintaqah",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "OM.ZA",
-        "ISO_1": "NA"
+        "Country": "Oman",
+        "Name_1": "Al Dhahira",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1646,7 +1606,7 @@
               ],
               [
                 55.6667,
-                22.0
+                22
               ],
               [
                 55.5667,
@@ -1896,17 +1856,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "OMN.6_1",
-        "GID_0": "OMN",
-        "COUNTRY": "Oman",
-        "NAME_1": "AlWusta",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Mintaqah",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "OM.WU",
-        "ISO_1": "OM-WU"
+        "Country": "Oman",
+        "Name_1": "Al Wusta",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4845,17 +4797,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "OMN.7_1",
-        "GID_0": "OMN",
-        "COUNTRY": "Oman",
-        "NAME_1": "AshSharqiyahNorth",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Mintaqah",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "OM.SN",
-        "ISO_1": "NA"
+        "Country": "Oman",
+        "Name_1": "Ash Sharqiyah North",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5098,17 +5042,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "OMN.8_1",
-        "GID_0": "OMN",
-        "COUNTRY": "Oman",
-        "NAME_1": "AshSharqiyahSouth",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Mintaqah",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "OM.SS",
-        "ISO_1": "NA"
+        "Country": "Oman",
+        "Name_1": "Ash Sharqiyah South",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7335,17 +7271,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "OMN.9_1",
-        "GID_0": "OMN",
-        "COUNTRY": "Oman",
-        "NAME_1": "Dhofar",
-        "VARNAME_1": "AlJanubiyah[Zufar]",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Muhafazah",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "OM.JA",
-        "ISO_1": "NA"
+        "Country": "Oman",
+        "Name_1": "Dhofar",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -8213,12 +8141,12 @@
                 17.3497
               ],
               [
-                52.0,
-                19.0
+                52,
+                19
               ],
               [
-                55.0,
-                20.0
+                55,
+                20
               ],
               [
                 55.1494,
@@ -11572,17 +11500,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "OMN.10_1",
-        "GID_0": "OMN",
-        "COUNTRY": "Oman",
-        "NAME_1": "Musandam",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Muhafazah",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "OM.MU",
-        "ISO_1": "OM-MU"
+        "Country": "Oman",
+        "Name_1": "Musandam",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -17215,17 +17135,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "OMN.11_1",
-        "GID_0": "OMN",
-        "COUNTRY": "Oman",
-        "NAME_1": "Muscat",
-        "VARNAME_1": "Masqat",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Muhafazah",
-        "ENGTYPE_1": "Province",
-        "CC_1": "NA",
-        "HASC_1": "OM.MA",
-        "ISO_1": "NA"
+        "Country": "Oman",
+        "Name_1": "Muscat",
+        "Type": "Province"
       },
       "geometry": {
         "type": "MultiPolygon",

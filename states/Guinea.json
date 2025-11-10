@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GIN.1_1",
-        "GID_0": "GIN",
-        "COUNTRY": "Guinea",
-        "NAME_1": "Boké",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "NA"
+        "Country": "Guinea",
+        "Name_1": "Boké",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3301,7 +3293,7 @@
                 11.6533
               ],
               [
-                -14.0,
+                -14,
                 11.6449
               ],
               [
@@ -6887,7 +6879,7 @@
                 10.2268
               ],
               [
-                -14.284289850746269,
+                -14.28428985074627,
                 10.226855820895523
               ],
               [
@@ -6897,7 +6889,7 @@
             ],
             [
               [
-                -14.284289850746269,
+                -14.28428985074627,
                 10.226855820895523
               ],
               [
@@ -6925,7 +6917,7 @@
                 10.2312
               ],
               [
-                -14.284289850746269,
+                -14.28428985074627,
                 10.226855820895523
               ]
             ]
@@ -10068,17 +10060,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GIN.2_1",
-        "GID_0": "GIN",
-        "COUNTRY": "Guinea",
-        "NAME_1": "Conakry",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "GN-C"
+        "Country": "Guinea",
+        "Name_1": "Conakry",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10889,17 +10873,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GIN.3_1",
-        "GID_0": "GIN",
-        "COUNTRY": "Guinea",
-        "NAME_1": "Faranah",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "NA"
+        "Country": "Guinea",
+        "Name_1": "Faranah",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -14798,17 +14774,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GIN.4_1",
-        "GID_0": "GIN",
-        "COUNTRY": "Guinea",
-        "NAME_1": "Kankan",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "GN-K"
+        "Country": "Guinea",
+        "Name_1": "Kankan",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -19315,17 +19283,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GIN.5_1",
-        "GID_0": "GIN",
-        "COUNTRY": "Guinea",
-        "NAME_1": "Kindia",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "NA"
+        "Country": "Guinea",
+        "Name_1": "Kindia",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -23144,17 +23104,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GIN.6_1",
-        "GID_0": "GIN",
-        "COUNTRY": "Guinea",
-        "NAME_1": "Labé",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "NA"
+        "Country": "Guinea",
+        "Name_1": "Labé",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -25081,17 +25033,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GIN.7_1",
-        "GID_0": "GIN",
-        "COUNTRY": "Guinea",
-        "NAME_1": "Mamou",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "NA"
+        "Country": "Guinea",
+        "Name_1": "Mamou",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -26340,7 +26284,7 @@
               ],
               [
                 -11.7348,
-                10.0
+                10
               ],
               [
                 -11.7687,
@@ -26438,17 +26382,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "GIN.8_1",
-        "GID_0": "GIN",
-        "COUNTRY": "Guinea",
-        "NAME_1": "Nzérékoré",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Region",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "NA",
-        "ISO_1": "NA"
+        "Country": "Guinea",
+        "Name_1": "Nzérékoré",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -26849,7 +26785,7 @@
               ],
               [
                 -9.4213,
-                8.0
+                8
               ],
               [
                 -9.4216,
@@ -30125,7 +30061,7 @@
               ],
               [
                 -8.0534,
-                8.0
+                8
               ],
               [
                 -8.0658,

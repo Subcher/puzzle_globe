@@ -11,18 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ASM.1_1",
-        "GID_0": "ASM",
-        "COUNTRY": "AmericanSamoa",
-        "NAME_1": "Eastern",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "AS.ET",
-        "ISO_1": "NA",
-	"AREA": 90
+        "Country": "AmericanSamoa",
+        "Name_1": "Eastern",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -341,18 +332,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ASM.2_1",
-        "GID_0": "ASM",
-        "COUNTRY": "AmericanSamoa",
-        "NAME_1": "Manu'a",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "AS.MA",
-        "ISO_1": "NA",
-	"AREA": 56
+        "Country": "AmericanSamoa",
+        "Name_1": "Manu'a",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -555,18 +537,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ASM.3_1",
-        "GID_0": "ASM",
-        "COUNTRY": "AmericanSamoa",
-        "NAME_1": "Swains Island :)",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "AS.UU",
-        "ISO_1": "NA",
-	"AREA": 2
+        "Country": "AmericanSamoa",
+        "Name_1": "Swains  Island :)",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -617,18 +590,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "ASM.4_1",
-        "GID_0": "ASM",
-        "COUNTRY": "AmericanSamoa",
-        "NAME_1": "Western",
-        "VARNAME_1": "NA",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "District",
-        "ENGTYPE_1": "District",
-        "CC_1": "NA",
-        "HASC_1": "AS.WT",
-        "ISO_1": "NA",
-	"AREA": 50
+        "Country": "AmericanSamoa",
+        "Name_1": "Western",
+        "Type": "District"
       },
       "geometry": {
         "type": "MultiPolygon",

@@ -11,17 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CZE.1_1",
-        "GID_0": "CZE",
-        "COUNTRY": "Czechia",
-        "NAME_1": "Jihočeský",
-        "VARNAME_1": "Budweis|Budejovický|Ceskobudejov",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Kraj",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "CZ.CK",
-        "ISO_1": "NA"
+        "Country": "Czechia",
+        "Name_1": "Jihočeský",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2354,7 +2346,7 @@
               ],
               [
                 15.1153,
-                49.0
+                49
               ],
               [
                 15.1093,
@@ -2916,17 +2908,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CZE.2_1",
-        "GID_0": "CZE",
-        "COUNTRY": "Czechia",
-        "NAME_1": "Jihomoravský",
-        "VARNAME_1": "Brünn|JihomoravskýBrnenský|Sout",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Kraj",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "CZ.BK",
-        "ISO_1": "NA"
+        "Country": "Czechia",
+        "Name_1": "Jihomoravský",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5141,17 +5125,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CZE.3_1",
-        "GID_0": "CZE",
-        "COUNTRY": "Czechia",
-        "NAME_1": "Karlovarský",
-        "VARNAME_1": "Carlsbad|KarlovyVary",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Kraj",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "CZ.KK",
-        "ISO_1": "NA"
+        "Country": "Czechia",
+        "Name_1": "Karlovarský",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7022,17 +6998,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CZE.4_1",
-        "GID_0": "CZE",
-        "COUNTRY": "Czechia",
-        "NAME_1": "KrajVysočina",
-        "VARNAME_1": "Iglau|Jihlavský|Vysocina|Vysočin",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Kraj",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "CZ.JK",
-        "ISO_1": "NA"
+        "Country": "Czechia",
+        "Name_1": "Kraj Vysočina",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -8271,17 +8239,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CZE.5_1",
-        "GID_0": "CZE",
-        "COUNTRY": "Czechia",
-        "NAME_1": "Královéhradecký",
-        "VARNAME_1": "Königsgrätz|HradecKrálové",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Kraj",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "CZ.HK",
-        "ISO_1": "NA"
+        "Country": "Czechia",
+        "Name_1": "Královéhradecký",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10552,17 +10512,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CZE.6_1",
-        "GID_0": "CZE",
-        "COUNTRY": "Czechia",
-        "NAME_1": "Liberecký",
-        "VARNAME_1": "Reichenberg|Liberec",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Kraj",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "CZ.LK",
-        "ISO_1": "NA"
+        "Country": "Czechia",
+        "Name_1": "Liberecký",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -12065,17 +12017,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CZE.7_1",
-        "GID_0": "CZE",
-        "COUNTRY": "Czechia",
-        "NAME_1": "Moravskoslezský",
-        "VARNAME_1": "Mährisch-Ostrau|Mähren|Morava|Mo",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Kraj",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "CZ.VK",
-        "ISO_1": "NA"
+        "Country": "Czechia",
+        "Name_1": "Moravskoslezský",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13812,7 +13756,7 @@
               ],
               [
                 18.1064,
-                50.0
+                50
               ],
               [
                 18.1155,
@@ -14406,17 +14350,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CZE.8_1",
-        "GID_0": "CZE",
-        "COUNTRY": "Czechia",
-        "NAME_1": "Olomoucký",
-        "VARNAME_1": "Olmütz|Olomouc",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Kraj",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "CZ.OK",
-        "ISO_1": "NA"
+        "Country": "Czechia",
+        "Name_1": "Olomoucký",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -16255,17 +16191,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CZE.9_1",
-        "GID_0": "CZE",
-        "COUNTRY": "Czechia",
-        "NAME_1": "Pardubický",
-        "VARNAME_1": "Pardubitz|Pardubice",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Kraj",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "CZ.EK",
-        "ISO_1": "NA"
+        "Country": "Czechia",
+        "Name_1": "Pardubický",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -17552,17 +17480,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CZE.10_1",
-        "GID_0": "CZE",
-        "COUNTRY": "Czechia",
-        "NAME_1": "Plzeňský",
-        "VARNAME_1": "Pilsen|Plzeň",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Kraj",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "CZ.PK",
-        "ISO_1": "NA"
+        "Country": "Czechia",
+        "Name_1": "Plzeňský",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -19381,17 +19301,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CZE.12_1",
-        "GID_0": "CZE",
-        "COUNTRY": "Czechia",
-        "NAME_1": "Středočeský",
-        "VARNAME_1": "CentralBohemian",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Kraj",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "CZ.SK",
-        "ISO_1": "NA"
+        "Country": "Czechia",
+        "Name_1": "Středočeský",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -21114,17 +21026,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CZE.13_1",
-        "GID_0": "CZE",
-        "COUNTRY": "Czechia",
-        "NAME_1": "Ústecký",
-        "VARNAME_1": "AussiganderElbe|Aussig|Ústín",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Kraj",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "CZ.UK",
-        "ISO_1": "NA"
+        "Country": "Czechia",
+        "Name_1": "Ústecký",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -22457,7 +22361,7 @@
               ],
               [
                 14.2688,
-                51.0
+                51
               ],
               [
                 14.2622,
@@ -23363,17 +23267,9 @@
     {
       "type": "Feature",
       "properties": {
-        "GID_1": "CZE.14_1",
-        "GID_0": "CZE",
-        "COUNTRY": "Czechia",
-        "NAME_1": "Zlínský",
-        "VARNAME_1": "Gottwaldov|Zlín",
-        "NL_NAME_1": "NA",
-        "TYPE_1": "Kraj",
-        "ENGTYPE_1": "Region",
-        "CC_1": "NA",
-        "HASC_1": "CZ.ZK",
-        "ISO_1": "NA"
+        "Country": "Czechia",
+        "Name_1": "Zlínský",
+        "Type": "Region"
       },
       "geometry": {
         "type": "MultiPolygon",
