@@ -62,6 +62,13 @@
 </div>
 <div id="cesiumContainer"></div>
 
+<!-- Panel affiché après clic sur un point -->
+<div id="placePanel" style="display:none; position: absolute; top: 20px; right: 20px; background: rgba(255,255,255,0.95); padding: 10px; border: 1px solid #ccc; z-index: 1000;">
+    <div id="placeInfo" style="margin-bottom:8px;">Point sélectionné</div>
+    <button id="placeButton">Placer</button>
+    <button id="cancelPlace" style="margin-left:8px;">Annuler</button>
+</div>
+
 <script type="module">
     Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJhYWUxMjgyOC04YjI0LTQ0NGUtYjM0OC0wMWQ1MGJkNWVjZjYiLCJpZCI6MjQwNDc3LCJpYXQiOjE3MjU5ODAxMDB9.Ml_ZTxTk_V86bdUOdoJ0k8klK7iyN-0atpz-KXvvYRs';
 
@@ -326,6 +333,7 @@
     ];
     const sidebar = document.getElementById('sidebar');
     let lastSelectedProvince = null;
+    let lastDataSource = null;
 
     // Function to select a random province without repetition
     function getRandomProvince() {
@@ -380,17 +388,21 @@
     }
 
     // Function to add a point to the globe at the center of a feature
-    function addPointToGlobe(geometry) {
+    function addPointToGlobe(provinceName, geometry) {
         const center = turf.center(geometry); // Calculate the center of the feature
         const [lon, lat] = center.geometry.coordinates;
 
-        viewer.entities.add({
+        const entity = viewer.entities.add({
             position: Cesium.Cartesian3.fromDegrees(lon, lat),
             point: {
-                pixelSize: 10,
+                pixelSize: 8,
                 color: Cesium.Color.WHITE,
             },
         });
+
+        // Store metadata on the entity so we can identify it when clicked
+        entity.provinceName = provinceName;
+        entity.featureGeometry = geometry;
     }
 
     // Function to load all features from all provinces and display their points on the globe
@@ -407,7 +419,8 @@
                 const geoJson = await response.json();
                 if (geoJson.features && Array.isArray(geoJson.features)) {
                     geoJson.features.forEach(feature => {
-                        addPointToGlobe(feature.geometry);
+                        // Pass province name and full feature geometry so we can display later
+                        addPointToGlobe(provinceName, feature.geometry);
                     });
                 }
             } catch (error) {
@@ -441,7 +454,8 @@
                 // Create tile
                 const tile = document.createElement('div');
                 tile.className = 'tile';
-                tile.draggable = true;
+                // tiles are not draggable anymore; interaction is by clicking globe points
+                // tile.draggable = true;
                 tile.dataset.id = provinceName;
                 tile.textContent = displayName;
 
@@ -466,17 +480,7 @@
                 sidebar.appendChild(tile);
                 sidebar.appendChild(svg);
 
-                // Add drag-and-drop events
-                tile.addEventListener('dragstart', (e) => {
-                    draggedTile = tile;
-                    tile.classList.add('dragging');
-                });
-
-                tile.addEventListener('dragend', () => {
-                    draggedTile.classList.remove('dragging');
-                    draggedTile = null;
-                    loadRandomProvince(); // Load the next random province
-                });
+                // No drag events: user will click a point on the globe and press "Placer"
             }
         } catch (error) {
             console.error(`Error reading file ${filePath}:`, error);
@@ -487,117 +491,200 @@
     loadRandomProvince();
 
     function displayProvinceOnGlobe(inputGeometry) {
-        // Extract geometry if input is a Feature
-        const geometry = inputGeometry.type === 'Feature' ? inputGeometry.geometry : inputGeometry;
-
-        console.log('Geometry received:', geometry); // Debugging
-
-        if (!geometry || !geometry.coordinates || !Array.isArray(geometry.coordinates)) {
-            console.error('Invalid or missing geometry:', geometry);
-            return;
+        // Sanitize geometry: remove invalid coordinates and tiny rings/polygons to avoid NaN errors in Cesium
+        function isValidNumber(n) {
+            return typeof n === 'number' && Number.isFinite(n);
         }
 
-        let hierarchy;
+        function sanitizePolygonCoords(coords) {
+            // coords: array of rings; each ring: array of [lon, lat, ...]
+            const outRings = [];
+            for (const ring of coords) {
+                // Map and filter invalid numbers, clamp to valid ranges, and remove consecutive duplicates
+                const mapped = ring.map(pt => {
+                    const lon = Number(pt[0]);
+                    const lat = Number(pt[1]);
+                    if (!isValidNumber(lon) || !isValidNumber(lat)) return null;
+                    // filter by valid geographic ranges
+                    if (lon < -180 || lon > 180 || lat < -90 || lat > 90) return null;
+                    return [lon, lat];
+                }).filter(Boolean);
+
+                const cleanRing = [];
+                for (let i = 0; i < mapped.length; i++) {
+                    const pt = mapped[i];
+                    const prev = cleanRing[cleanRing.length - 1];
+                    if (!prev || prev[0] !== pt[0] || prev[1] !== pt[1]) {
+                        cleanRing.push(pt);
+                    }
+                }
+
+                // Ensure ring closes (first == last); GeoJSON allows non-closed rings but Cesium ok with either
+                if (cleanRing.length >= 3) {
+                    // if not closed, close it
+                    const first = cleanRing[0];
+                    const last = cleanRing[cleanRing.length - 1];
+                    if (first[0] !== last[0] || first[1] !== last[1]) {
+                        cleanRing.push([first[0], first[1]]);
+                    }
+                    outRings.push(cleanRing);
+                }
+            }
+            return outRings.length ? outRings : null;
+        }
+
         try {
-            if (geometry.type === 'Polygon') {
-                hierarchy = new Cesium.PolygonHierarchy(
-                    geometry.coordinates[0].map(([lon, lat]) => {
-                        if (isNaN(lon) || isNaN(lat)) {
-                            throw new Error('Invalid coordinate');
-                        }
-                        return Cesium.Cartesian3.fromDegrees(lon, lat);
-                    })
-                );
-            } else if (geometry.type === 'MultiPolygon') {
-                hierarchy = geometry.coordinates.map(polygon =>
-                    new Cesium.PolygonHierarchy(
-                        polygon[0].map(([lon, lat]) => {
-                            if (isNaN(lon) || isNaN(lat)) {
-                                throw new Error('Invalid coordinate');
-                            }
-                            return Cesium.Cartesian3.fromDegrees(lon, lat);
-                        })
-                    )
-                );
-            } else {
-                console.error('Unsupported geometry type:', geometry.type);
+            const geom = (inputGeometry && inputGeometry.type === 'Feature') ? inputGeometry.geometry : inputGeometry;
+            if (!geom || !geom.type) {
+                console.error('No geometry to display', geom);
                 return;
             }
-        } catch (error) {
-            console.error('Error processing geometry:', error.message);
-            return;
-        }
 
-        viewer.entities.add({
-            polygon: {
-                hierarchy: hierarchy,
-                material: Cesium.Color.BLUE.withAlpha(0.5),
-                outline: true,
-                outlineColor: Cesium.Color.BLACK,
-            },
-        });
+            let sanitized = null;
+            if (geom.type === 'Polygon') {
+                const rings = sanitizePolygonCoords(geom.coordinates);
+                // small polygon check: ensure bbox is not degenerate
+                if (rings) {
+                    const flat = rings.flat();
+                    const lons = flat.map(p => p[0]);
+                    const lats = flat.map(p => p[1]);
+                    const lonRange = Math.max(...lons) - Math.min(...lons);
+                    const latRange = Math.max(...lats) - Math.min(...lats);
+                    if (lonRange > 1e-6 && latRange > 1e-6) sanitized = { type: 'Polygon', coordinates: rings };
+                    else console.warn('Skipping tiny/degenerate polygon');
+                }
+            } else if (geom.type === 'MultiPolygon') {
+                const polys = [];
+                for (const poly of geom.coordinates) {
+                    const rings = sanitizePolygonCoords(poly);
+                    if (rings) {
+                        const flat = rings.flat();
+                        const lons = flat.map(p => p[0]);
+                        const lats = flat.map(p => p[1]);
+                        const lonRange = Math.max(...lons) - Math.min(...lons);
+                        const latRange = Math.max(...lats) - Math.min(...lats);
+                        if (lonRange > 1e-6 && latRange > 1e-6) polys.push(rings);
+                        else console.warn('Skipping tiny/degenerate polygon in MultiPolygon');
+                    }
+                }
+                if (polys.length) sanitized = { type: 'MultiPolygon', coordinates: polys };
+            } else {
+                // For other types, pass through (GeoJsonDataSource may handle)
+                sanitized = geom;
+            }
+
+            if (!sanitized) {
+                console.error('Sanitized geometry is empty or invalid, skipping display. Original:', geom);
+                return;
+            }
+
+            const feature = {
+                type: 'Feature',
+                geometry: sanitized,
+                properties: {}
+            };
+
+            Cesium.GeoJsonDataSource.load(feature, { clampToGround: false }).then(dataSource => {
+                // Remove previously displayed province to keep only one at a time
+                if (lastDataSource) {
+                    try { viewer.dataSources.remove(lastDataSource, true); } catch (e) { /* ignore */ }
+                    lastDataSource = null;
+                }
+                viewer.dataSources.add(dataSource);
+                lastDataSource = dataSource;
+
+                dataSource.entities.values.forEach(entity => {
+                    if (entity.polygon) {
+                        entity.polygon.material = Cesium.Color.BLUE.withAlpha(0.5);
+                        entity.polygon.outline = true;
+                        entity.polygon.outlineColor = Cesium.Color.BLACK;
+                    }
+                });
+                viewer.flyTo(dataSource).catch(() => {});
+            }).catch(err => {
+                console.error('GeoJsonDataSource.load failed:', err);
+            });
+        } catch (err) {
+            console.error('displayProvinceOnGlobe unexpected error:', err);
+        }
     }
 
     // Drag-and-drop logic
-    let draggedTile = null;
+    // removed drag-and-drop: interaction is now by clicking points
 
     const cesiumContainer = document.getElementById('cesiumContainer');
 
-    // Allow dragging over the Cesium container
-    cesiumContainer.addEventListener('dragover', (e) => {
-        e.preventDefault(); // Necessary to allow dropping
+    // Remove existing drag/drop behavior on Cesium container (we'll use clicks now)
+    // Allow clicking points: show a "Placer" button when a point is clicked
+    const placePanel = document.getElementById('placePanel');
+    const placeButton = document.getElementById('placeButton');
+    const cancelPlace = document.getElementById('cancelPlace');
+    const placeInfo = document.getElementById('placeInfo');
+
+    let selectedEntity = null; // entity clicked on the globe
+
+    const handler = new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas);
+
+    handler.setInputAction(function (movement) {
+        const picked = viewer.scene.pick(movement.position);
+        if (Cesium.defined(picked) && picked.id && picked.id.provinceName) {
+            selectedEntity = picked.id;
+            placeInfo.textContent = `Point sélectionné: ${selectedEntity.provinceName}`;
+            placePanel.style.display = 'block';
+
+            // Visual feedback: make the selected point yellow
+            if (selectedEntity.point) {
+                selectedEntity._originalColor = selectedEntity.point.color;
+                selectedEntity.point.color = Cesium.Color.YELLOW;
+            }
+        } else {
+            // click sur autre chose : masquer le panneau
+            selectedEntity = null;
+            placePanel.style.display = 'none';
+        }
+    }, Cesium.ScreenSpaceEventType.LEFT_CLICK);
+
+    // Cancel
+    cancelPlace.addEventListener('click', () => {
+        if (selectedEntity && selectedEntity.point && selectedEntity._originalColor) {
+            selectedEntity.point.color = selectedEntity._originalColor;
+        }
+        selectedEntity = null;
+        placePanel.style.display = 'none';
     });
 
-    // Handle the drop event
-    cesiumContainer.addEventListener('drop', async (e) => {
-        e.preventDefault();
-        if (draggedTile) {
-            const provinceId = draggedTile.dataset.id;
-            const filePath = `./states/${provinceId}.json`;
+    // Place button behaviour: check if selected point matches the currently displayed province
+    placeButton.addEventListener('click', () => {
+        if (!selectedEntity) return;
 
-            try {
-                const response = await fetch(filePath);
-                if (!response.ok) {
-                    console.error(`Error loading ${filePath}: ${response.statusText}`);
-                    return;
-                }
+        const clickedProvince = selectedEntity.provinceName;
+        // Compare directly with the last selected province
+        if (clickedProvince === lastSelectedProvince) {
+            // Correct: display the province geometry on the globe and load the next province
+            displayProvinceOnGlobe(selectedEntity.featureGeometry);
 
-                const geoJson = await response.json();
-                if (geoJson.features && geoJson.features.length > 0) {
-                    const geometry = geoJson.features[0].geometry;
-                    displayProvinceOnGlobe(geometry);
-                }
-            } catch (error) {
-                console.error(`Error reading file ${filePath}:`, error);
+            // Reset visual state and hide panel
+            if (selectedEntity.point && selectedEntity._originalColor) {
+                selectedEntity.point.color = selectedEntity._originalColor;
             }
+            selectedEntity = null;
+            placePanel.style.display = 'none';
+
+            // Load next province
+            loadRandomProvince();
+        } else {
+            // Incorrect: popup
+            alert("Ce n'est pas le bon endroit. Réessayez !");
+
+            // Optionally reset selected point color
+            if (selectedEntity && selectedEntity.point && selectedEntity._originalColor) {
+                selectedEntity.point.color = selectedEntity._originalColor;
+            }
+            selectedEntity = null;
+            placePanel.style.display = 'none';
         }
     });
-
-    // Add dragstart and dragend events to tiles
-    function addDragEventsToTile(tile) {
-        tile.addEventListener('dragstart', (e) => {
-            draggedTile = tile;
-            tile.classList.add('dragging');
-        });
-
-        tile.addEventListener('dragend', () => {
-            draggedTile.classList.remove('dragging');
-            draggedTile = null;
-        });
-    }
-
-    // Example: Add drag events to dynamically created tiles
-    function createTile(provinceName) {
-        const tile = document.createElement('div');
-        tile.className = 'tile';
-        tile.draggable = true;
-        tile.dataset.id = provinceName;
-        tile.textContent = provinceName;
-
-        addDragEventsToTile(tile);
-        sidebar.appendChild(tile);
-    }
-</script>
+    </script>
 </body>
 
 </html>
