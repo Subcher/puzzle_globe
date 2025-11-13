@@ -1,28 +1,163 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <script src="https://cesium.com/downloads/cesiumjs/releases/1.119/Build/Cesium/Cesium.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@turf/turf@7.2.0/turf.min.js"></script>
     <link href="https://cesium.com/downloads/cesiumjs/releases/1.119/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
     <style>
-        body, html {
+        html,
+        body {
+            min-height: 100vh;
+            height: 100%;
             margin: 0;
             padding: 0;
-            height: 100%;
-            width: 100%;
             display: flex;
         }
 
         #sidebar {
-            width: 20%;
+            /* responsive sidebar with min/max using clamp */
+            width: clamp(220px, 20%, 420px);
             background: #f4f4f4;
-            overflow-y: auto;
             padding: 10px;
             box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            position: relative; /* ensure absolutely positioned footer sits inside sidebar */
+            z-index: 9999;
         }
 
+        #sidebarContent {
+            flex: 1 1 auto;
+            overflow-y: auto;
+            /* keep space for the bottom button so it's not overlapped */
+            padding-bottom: 12px;
+            min-height: 0; /* allow flex child to shrink and enable scrolling */
+        }
+
+        /* footer inside sidebar placed by flex; margin-top:auto pushes it to the bottom */
+        #sidebarBottom {
+            position: relative;
+            margin-top: auto;
+            background: #fff;
+            padding: 8px 0 8px 0;
+            border-top: 1px solid #e0e0e0;
+            left: 0;
+            right: 0;
+            z-index: 50; /* ensure visible above tiles */
+        }
+        /* Make the Skip button non-selectable to avoid interfering with drag gestures */
+        #sidebarBottom button {
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            cursor: pointer;
+        }
+
+        /* Prevent selection on tile/title/svg wrapper to avoid blocking drag */
+        .tile, .tileTitle, .svg-wrapper, #sidebarContent {
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        #placedPanel {
+            display: none;
+            margin-top: 8px;
+            padding: 6px;
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            max-height: 40vh;
+            overflow-y: auto;
+        }
+
+        #burgerButton {
+            background: transparent;
+            border: none;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .tile {
+            margin: 10px 0;
+            padding: 6px;
+            background: #fff;
+            border: 1px solid #ddd;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .tileTitle {
+            font-weight: 700;
+            font-size: 16px;
+            text-align: center;
+            margin-bottom: 8px;
+            color: #222;
+            cursor: grab;
+        }
+
+        /* SVG wrapper ensures square SVG */
+        .svg-wrapper {
+            width: 100%;
+            aspect-ratio: 1 / 1; /* force square */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            background: #fff;
+            box-sizing: border-box;
+        }
+
+        .svg-wrapper svg {
+            width: 92%;
+            height: 92%;
+            max-width: 100%;
+            max-height: 100%;
+            display: block;
+            cursor: grab; /* indicate draggable */
+        }
+
+        .svg-wrapper svg:active {
+            cursor: grabbing;
+        }
+
+        .tileLabel {
+            margin-top: 8px;
+            text-align: center;
+            font-size: 14px;
+            color: #222;
+        }
+
+        #cesiumContainer {
+            flex: 1 1 auto;
+            /* don't use fixed viewport height here; let flexbox distribute space */
+            position: relative;
+            min-width: 0; /* allow flex children to shrink properly */
+            min-height: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* More specific rules to force the Cesium widget to grow inside the flex container */
+        #cesiumContainer > .cesium-viewer,
+        #cesiumContainer > .cesium-viewer .cesium-widget-viewport,
+        #cesiumContainer > .cesium-viewer, #cesiumContainer > .cesium-viewer .cesium-widget, #cesiumContainer canvas {
+            width: 100% !important;
+            height: 100% !important;
+            min-width: 0;
+            min-height: 0;
+            flex: 1 1 auto;
+        }
+        /* ensure the direct viewer element grows to fill the parent */
+        #cesiumContainer > .cesium-viewer { display: flex; flex-direction: column; }
+        #cesiumContainer > .cesium-viewer .cesium-widget-viewport { flex: 1 1 auto; }
+
+        /* hide default Cesium UI elements we don't want */
         .cesium-viewer-animationContainer,
         .cesium-viewer-timelineContainer,
         .cesium-viewer-bottom,
@@ -31,660 +166,371 @@
         .cesium-navigationHelpButton-wrapper {
             display: none !important;
         }
-
-        #cesiumContainer {
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
-            margin: 0;
-            padding: 0;
-        }
-
-        .tile {
-            margin: 10px 0;
-            padding: 10px;
-            background: #fff;
-            border: 1px solid #ddd;
-            cursor: grab;
-        }
-
-        .tile.dragging {
-            opacity: 0.5;
-        }
     </style>
     <title>Giant Globe Puzzle</title>
 </head>
 
 <body>
-<div id="sidebar">
-    <h2>Provinces</h2>
-    <!-- Province tiles will be added here -->
-</div>
-<div id="cesiumContainer"></div>
+    <div id="sidebar">
+        <div style="display:flex; align-items:center; justify-content:space-between;">
+            <h2 style="margin:0;">Provinces</h2>
+            <button id="burgerButton" title="Afficher les provinces placées">☰</button>
+        </div>
+        <div id="placedPanel"></div>
+        <div id="sidebarContent"><!-- tiles --></div>
+        <div id="sidebarBottom"><button id="skipSidebar" style="width:100%; padding:8px;" onmousedown="event.preventDefault();">Skip</button></div>
+    </div>
+    <div id="cesiumContainer"></div>
 
-<!-- Panel affiché après clic sur un point -->
-<div id="placePanel" style="display:none; position: absolute; top: 20px; right: 20px; background: rgba(255,255,255,0.95); padding: 10px; border: 1px solid #ccc; z-index: 1000;">
-    <div id="placeInfo" style="margin-bottom:8px;">Point sélectionné</div>
-    <button id="placeButton">Placer</button>
-    <button id="cancelPlace" style="margin-left:8px;">Annuler</button>
-</div>
+    <script type="module">
+        // Restore a working Cesium Ion access token (previously used in this project).
+        Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJhYWUxMjgyOC04YjI0LTQ0NGUtYjM0OC0wMWQ1MGJkNWVjZjYiLCJpZCI6MjQwNDc3LCJpYXQiOjE3MjU5ODAxMDB9.Ml_ZTxTk_V86bdUOdoJ0k8klK7iyN-0atpz-KXvvYRs';
 
-<script type="module">
-    Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJhYWUxMjgyOC04YjI0LTQ0NGUtYjM0OC0wMWQ1MGJkNWVjZjYiLCJpZCI6MjQwNDc3LCJpYXQiOjE3MjU5ODAxMDB9.Ml_ZTxTk_V86bdUOdoJ0k8klK7iyN-0atpz-KXvvYRs';
+        const viewer = new Cesium.Viewer('cesiumContainer', {
+            terrainProviderViewModels: Cesium.createDefaultTerrainProviderViewModels(),
+            selectedTerrainProviderViewModel: Cesium.createDefaultTerrainProviderViewModels()[0]
+        });
 
-    const viewer = new Cesium.Viewer('cesiumContainer', {
-        terrainProviderViewModels: Cesium.createDefaultTerrainProviderViewModels(),
-        selectedTerrainProviderViewModel: Cesium.createDefaultTerrainProviderViewModels()[0]
-    });
+        // Prevent Cesium default double-click zoom behavior (it flies to the clicked object)
+        try {
+            if (viewer && viewer.screenSpaceEventHandler) {
+                viewer.screenSpaceEventHandler.removeInputAction(Cesium.ScreenSpaceEventType.LEFT_DOUBLE_CLICK);
+                // remove default LEFT_CLICK too to prevent viewer internal selection/zoom behavior
+                viewer.screenSpaceEventHandler.removeInputAction(Cesium.ScreenSpaceEventType.LEFT_CLICK);
+            }
+            // Ensure globe is visible
+            if (viewer && viewer.scene && viewer.scene.globe) {
+                viewer.scene.globe.show = true;
+            }
+            // hide Cesium's selection indicator if present (avoid visual selection zoom triggers)
+            try { if (viewer.selectionIndicator && viewer.selectionIndicator.container) viewer.selectionIndicator.container.style.display = 'none'; } catch(e) {}
+        } catch (e) { /* ignore */ }
 
-    const file_list = [
-        "Afghanistan",
-        "AkrotiriandDhekelia",
-        "Åland",
-        "Albania",
-        "Algeria",
-        "AmericanSamoa",
-        "Andorra",
-        "Angola",
-        "Anguilla",
-        "AntiguaandBarbuda",
-        "Argentina",
-        "Armenia",
-        "Aruba",
-        "Australia",
-        "Austria",
-        "Azerbaijan",
-        "Bahamas",
-        "Bahrain",
-        "Bangladesh",
-        "Barbados",
-        "Belarus",
-        "Belgium",
-        "Belize",
-        "Benin",
-        "Bermuda",
-        "Bhutan",
-        "Bolivia",
-        "BonaireSintEustatiusandSaba",
-        "BosniaandHerzegovina",
-        "Botswana",
-        "BouvetIsland",
-        "Brazil",
-        "BritishIndianOceanTerritory",
-        "BritishVirginIslands",
-        "Brunei",
-        "Bulgaria",
-        "BurkinaFaso",
-        "Burundi",
-        "CaboVerde",
-        "Cambodia",
-        "Cameroon",
-        "Canada",
-        "CaymanIslands",
-        "CentralAfricanRepublic",
-        "Chad",
-        "Chile",
-        "China",
-        "ChristmasIsland",
-        "ClippertonIsland",
-        "CocosIslands",
-        "Colombia",
-        "Comoros",
-        "CookIslands",
-        "CostaRica",
-        "CôtedIvoire",
-        "Croatia",
-        "Cuba",
-        "Curaçao",
-        "Cyprus",
-        "Czechia",
-        "DemocraticRepublicoftheCongo",
-        "Denmark",
-        "Djibouti",
-        "Dominica",
-        "DominicanRepublic",
-        "Ecuador",
-        "Egypt",
-        "ElSalvador",
-        "EquatorialGuinea",
-        "Eritrea",
-        "Estonia",
-        "Eswatini",
-        "Ethiopia",
-        "FalklandIslands",
-        "FaroeIslands",
-        "Fiji",
-        "Finland",
-        "France",
-        "FrenchGuiana",
-        "FrenchPolynesia",
-        "FrenchSouthernTerritories",
-        "Gabon",
-        "Gambia",
-        "Georgia",
-        "Germany",
-        "Ghana",
-        "Gibraltar",
-        "Greece",
-        "Greenland",
-        "Grenada",
-        "Guadeloupe",
-        "Guam",
-        "Guatemala",
-        "Guernsey",
-        "Guinea-Bissau",
-        "Guinea",
-        "Guyana",
-        "Haiti",
-        "HeardIslandandMcDonaldIsland",
-        "Honduras",
-        "Hungary",
-        "Iceland",
-        "India",
-        "Indonesia",
-        "Iran",
-        "Iraq",
-        "Ireland",
-        "IsleofMan",
-        "Israel",
-        "Italy",
-        "Jamaica",
-        "Japan",
-        "Jersey",
-        "Jordan",
-        "Kazakhstan",
-        "Kenya",
-        "Kiribati",
-        "Kosovo",
-        "Kuwait",
-        "Kyrgyzstan",
-        "Laos",
-        "Latvia",
-        "Lebanon",
-        "Lesotho",
-        "Liberia",
-        "Libya",
-        "Liechtenstein",
-        "Lithuania",
-        "Luxembourg",
-        "Madagascar",
-        "Malawi",
-        "Malaysia",
-        "Maldives",
-        "Mali",
-        "Malta",
-        "MarshallIslands",
-        "Martinique",
-        "Mauritania",
-        "Mauritius",
-        "Mayotte",
-        "México",
-        "Micronesia",
-        "Moldova",
-        "Monaco",
-        "Mongolia",
-        "Montenegro",
-        "Montserrat",
-        "Morocco",
-        "Mozambique",
-        "Myanmar",
-        "Namibia",
-        "Nauru",
-        "Nepal",
-        "Netherlands",
-        "NewCaledonia",
-        "NewZealand",
-        "Nicaragua",
-        "Niger",
-        "Nigeria",
-        "Niue",
-        "NorfolkIsland",
-        "NorthKorea",
-        "NorthernCyprus",
-        "NorthMacedonia",
-        "NorthernMarianaIslands",
-        "Norway",
-        "Oman",
-        "Pakistan",
-        "Palau",
-        "Palestine",
-        "Panama",
-        "PapuaNewGuinea",
-        "ParacelIslands",
-        "Paraguay",
-        "Peru",
-        "Philippines",
-        "PitcairnIslands",
-        "Poland",
-        "Portugal",
-        "PuertoRico",
-        "Qatar",
-        "Réunion",
-        "Romania",
-        "Russia",
-        "Rwanda",
-        "Saint-Barthélemy",
-        "Saint-Martin",
-        "SaintHelena,AscensionandTristandaCunha",
-        "SaintKittsandNevis",
-        "SaintLucia",
-        "SaintPierreandMiquelon",
-        "SaintVincentandtheGrenadines",
-        "Samoa",
-        "SanMarino",
-        "SãoToméandPríncipe",
-        "SaudiArabia",
-        "Senegal",
-        "Serbia",
-        "Seychelles",
-        "SierraLeone",
-        "Singapore",
-        "SintMaarten",
-        "Slovakia",
-        "Slovenia",
-        "SolomonIslands",
-        "Somalia",
-        "SouthAfrica",
-        "SouthGeorgiaandtheSouthSandwichIslands",
-        "SouthKorea",
-        "SouthSudan",
-        "Spain",
-        "SpratlyIslands",
-        "SriLanka",
-        "Sudan",
-        "Suriname",
-        "SvalbardandJanMayen",
-        "Sweden",
-        "Switzerland",
-        "Syria",
-        "Taiwan",
-        "Tajikistan",
-        "Tanzania",
-        "Thailand",
-        "Togo",
-        "Tokelau",
-        "Tonga",
-        "TrinidadandTobago",
-        "Tunisia",
-        "Turkey",
-        "Turkmenistan",
-        "TurksandCaicosIslands",
-        "Tuvalu",
-        "Uganda",
-        "Ukraine",
-        "UnitedArabEmirates",
-        "UnitedKingdom",
-        "UnitedStates",
-        "UnitedStatesMinorOutlyingIslands",
-        "Uruguay",
-        "Uzbekistan",
-        "Vanuatu",
-        "Vatican",
-        "Venezuela",
-        "Vietnam",
-        "VirginIslands,US",
-        "WallisandFutuna",
-        "WesternSahara",
-        "Yemen",
-        "Zambia",
-        "Zimbabwe",
-        "RepublicoftheCongo",
-        "Timor-Leste"
-    ];
-    const sidebar = document.getElementById('sidebar');
-    let lastSelectedProvince = null;
-    let lastDataSource = null;
+        // Diagnostic/restore: ensure Cesium canvas exists and is visible
+        try {
+            const canv = document.querySelector('#cesiumContainer canvas');
+            if (!canv) {
+                // try to reappend viewer's canvas if available
+                if (viewer && viewer.scene && viewer.scene.canvas) {
+                    document.getElementById('cesiumContainer').appendChild(viewer.scene.canvas);
+                }
+            } else {
+                // make sure it's visible
+                canv.style.display = '';
+                canv.style.width = '100%';
+                canv.style.height = '100%';
+            }
+        } catch (e) { /* ignore */ }
 
-    // Function to select a random province without repetition
-    function getRandomProvince() {
-        if (file_list.length === 0) {
-            console.error("No provinces available.");
+        // list of files (trimmed) - kept as in your workspace
+        const file_list = [
+            "Afghanistan","AkrotiriandDhekelia","Åland","Albania","Algeria","AmericanSamoa","Andorra","Angola","Anguilla","AntiguaandBarbuda","Argentina","Armenia","Aruba","Australia","Austria","Azerbaijan","Bahamas","Bahrain","Bangladesh","Barbados","Belarus","Belgium","Belize","Benin","Bermuda","Bhutan","Bolivia","BonaireSintEustatiusandSaba","BosniaandHerzegovina","Botswana","BouvetIsland","Brazil","BritishIndianOceanTerritory","BritishVirginIslands","Brunei","Bulgaria","BurkinaFaso","Burundi","CaboVerde","Cambodia","Cameroon","Canada","CaymanIslands","CentralAfricanRepublic","Chad","Chile","China","ChristmasIsland","ClippertonIsland","CocosIslands","Colombia","Comoros","CookIslands","CostaRica","CôtedIvoire","Croatia","Cuba","Curaçao","Cyprus","Czechia","DemocraticRepublicoftheCongo","Denmark","Djibouti","Dominica","DominicanRepublic","Ecuador","Egypt","ElSalvador","EquatorialGuinea","Eritrea","Estonia","Eswatini","Ethiopia","FalklandIslands","FaroeIslands","Fiji","Finland","France","FrenchGuiana","FrenchPolynesia","FrenchSouthernTerritories","Gabon","Gambia","Georgia","Germany","Ghana","Gibraltar","Greece","Greenland","Grenada","Guadeloupe","Guam","Guatemala","Guernsey","Guinea-Bissau","Guinea","Guyana","Haiti","HeardIslandandMcDonaldIsland","Honduras","Hungary","Iceland","India","Indonesia","Iran","Iraq","Ireland","IsleofMan","Israel","Italy","Jamaica","Japan","Jersey","Jordan","Kazakhstan","Kenya","Kiribati","Kosovo","Kuwait","Kyrgyzstan","Laos","Latvia","Lebanon","Lesotho","Liberia","Libya","Liechtenstein","Lithuania","Luxembourg","Madagascar","Malawi","Malaysia","Maldives","Mali","Malta","MarshallIslands","Martinique","Mauritania","Mauritius","Mayotte","México","Micronesia","Moldova","Monaco","Mongolia","Montenegro","Montserrat","Morocco","Mozambique","Myanmar","Namibia","Nauru","Nepal","Netherlands","NewCaledonia","NewZealand","Nicaragua","Niger","Nigeria","Niue","NorfolkIsland","NorthKorea","NorthernCyprus","NorthMacedonia","NorthernMarianaIslands","Norway","Oman","Pakistan","Palau","Palestine","Panama","PapuaNewGuinea","ParacelIslands","Paraguay","Peru","Philippines","PitcairnIslands","Poland","Portugal","PuertoRico","Qatar","Réunion","Romania","Russia","Rwanda","Saint-Barthélemy","Saint-Martin","SaintHelena,AscensionandTristandaCunha","SaintKittsandNevis","SaintLucia","SaintPierreandMiquelon","SaintVincentandtheGrenadines","Samoa","SanMarino","SãoToméandPríncipe","SaudiArabia","Senegal","Serbia","Seychelles","SierraLeone","Singapore","SintMaarten","Slovakia","Slovenia","SolomonIslands","Somalia","SouthAfrica","SouthGeorgiaandtheSouthSandwichIslands","SouthKorea","SouthSudan","Spain","SpratlyIslands","SriLanka","Sudan","Suriname","SvalbardandJanMayen","Sweden","Switzerland","Syria","Taiwan","Tajikistan","Tanzania","Thailand","Togo","Tokelau","Tonga","TrinidadandTobago","Tunisia","Turkey","Turkmenistan","TurksandCaicosIslands","Tuvalu","Uganda","Ukraine","UnitedArabEmirates","UnitedKingdom","UnitedStates","UnitedStatesMinorOutlyingIslands","Uruguay","Uzbekistan","Vanuatu","Vatican","Venezuela","Vietnam","VirginIslands,US","WallisandFutuna","WesternSahara","Yemen","Zambia","Zimbabwe","RepublicoftheCongo","Timor-Leste"
+        ];
+
+        const sidebarContent = document.getElementById('sidebarContent');
+        const skipSidebar = document.getElementById('skipSidebar');
+        const burgerButton = document.getElementById('burgerButton');
+        const placedPanel = document.getElementById('placedPanel');
+
+        // state
+        let currentDisplayedProvince = null;
+        let currentIndex = -1;
+        const placedProvinces = []; // { name, displayName, country }
+        let lastDataSource = null;
+
+        function isPlaced(name) { return placedProvinces.some(p => p.name === name); }
+        function registerPlacedProvince(name, displayName, country) {
+            if (isPlaced(name)) return;
+            placedProvinces.push({ name, displayName, country });
+            updatePlacedPanel();
+        }
+
+        function updatePlacedPanel() {
+            if (!placedPanel) return;
+            placedPanel.innerHTML = '';
+            const groups = {};
+            placedProvinces.forEach(p => { const k = p.country || 'Unknown'; (groups[k] = groups[k] || []).push(p); });
+            Object.keys(groups).forEach(country => {
+                const h = document.createElement('div'); h.style.fontWeight='bold'; h.style.marginTop='6px'; h.textContent = country; placedPanel.appendChild(h);
+                const ul = document.createElement('ul'); ul.style.paddingLeft='16px';
+                groups[country].forEach(p => {
+                    const li = document.createElement('li'); li.style.cursor='pointer'; li.textContent = p.displayName || p.name;
+                    li.addEventListener('click', () => {
+                        // fly to entity with matching name or property
+                        viewer.dataSources._dataSources.forEach(ds => ds.entities.values.forEach(ent => {
+                            if ((ent.name === p.displayName) || (ent.properties && ent.properties.Name_1 && ent.properties.Name_1 === p.displayName)) {
+                                viewer.flyTo(ent).catch(() => {});
+                            }
+                        }));
+                    });
+                    ul.appendChild(li);
+                });
+                placedPanel.appendChild(ul);
+            });
+        }
+
+        function pickDifferentProvince() {
+            if (!file_list || file_list.length === 0) return null;
+            let startIdx = (currentIndex >= 0 && currentIndex < file_list.length) ? (currentIndex + 1) % file_list.length : 0;
+            for (let i=0;i<file_list.length;i++){
+                const idx=(startIdx+i)%file_list.length; const candidate=file_list[idx];
+                if (!isPlaced(candidate) && candidate!==currentDisplayedProvince) { return candidate; }
+            }
             return null;
         }
+        function getRandomProvince(){ const candidates = file_list.filter(n=>!isPlaced(n)); return candidates.length? candidates[Math.floor(Math.random()*candidates.length)] : null; }
 
-        let randomProvince;
-        do {
-            const randomIndex = Math.floor(Math.random() * file_list.length);
-            randomProvince = file_list[randomIndex];
-        } while (randomProvince === lastSelectedProvince && file_list.length > 1);
+        function createSVGPath(geometry, svgWidth, svgHeight){
+            if (!geometry) return '';
+            const bbox = turf.bbox(geometry);
+            let [xmin, ymin, xmax, ymax] = bbox;
+            // Defensive: ensure non-zero ranges
+            const lonRange = (xmax - xmin) || 1e-6;
+            const latRange = (ymax - ymin) || 1e-6;
 
-        lastSelectedProvince = randomProvince;
-        return randomProvince;
-    }
+            const scaleX = svgWidth / lonRange;
+            const scaleY = svgHeight / latRange;
+            // Use scaleX to maximize horizontal usage (user requested max width)
+            let scale = scaleX;
 
-    // Function to create an SVG path from GeoJSON geometry and fit it to the SVG
-    function createSVGPath(geometry, svgWidth, svgHeight) {
-        if (geometry.type !== 'Polygon' && geometry.type !== 'MultiPolygon') {
-            console.error('Unsupported geometry type:', geometry.type);
-            return '';
-        }
+            // If scale is infinite/zero fallback to min
+            if (!isFinite(scale) || scale <= 0) scale = Math.min(scaleX, scaleY) || 1;
 
-        // Calculate bounding box of the geometry
-        const bbox = turf.bbox(geometry); // [xmin, ymin, xmax, ymax]
-        const [xmin, ymin, xmax, ymax] = bbox;
+            // compute vertical offset to center the shape vertically inside svgHeight
+            const usedHeight = latRange * scale;
+            const yOffset = Math.max(0, (svgHeight - usedHeight) / 2);
 
-        // Calculate scaling factors to fit the geometry into the SVG
-        const scaleX = svgWidth / (xmax - xmin);
-        const scaleY = svgHeight / (ymax - ymin);
-        const scale = Math.min(scaleX, scaleY); // Maintain aspect ratio
+            const coords = geometry.type === 'Polygon' ? [geometry.coordinates] : geometry.coordinates;
+            let path = '';
 
-        // Transform coordinates to fit within the SVG
-        const coordinates = geometry.type === 'Polygon' ? [geometry.coordinates] : geometry.coordinates;
-        let path = '';
-
-        coordinates.forEach(polygon => {
-            polygon.forEach(ring => {
+            coords.forEach(polygon => polygon.forEach(ring => {
                 const projected = ring.map(([lon, lat]) => {
-                    const x = (lon - xmin) * scale; // Scale and translate X
-                    const y = svgHeight - (lat - ymin) * scale; // Scale and translate Y (invert Y-axis)
+                    const x = (lon - xmin) * scale; // scaled to fill width
+                    // invert y and apply vertical centering
+                    const y = svgHeight - ((lat - ymin) * scale) - yOffset;
                     return `${x},${y}`;
                 });
-
                 path += `M${projected.join('L')}Z `;
-            });
-        });
+            }));
 
-        return path.trim();
-    }
+            return path.trim();
+         }
 
-    // Function to add a point to the globe at the center of a feature
-    function addPointToGlobe(provinceName, geometry) {
-        const center = turf.center(geometry); // Calculate the center of the feature
-        const [lon, lat] = center.geometry.coordinates;
+        function addPointToGlobe(provinceName, geometry){
+            try{
+                const center = turf.center(geometry); const [lon,lat]=center.geometry.coordinates;
+                const ent = viewer.entities.add({ position: Cesium.Cartesian3.fromDegrees(lon,lat), point:{ pixelSize:8, color:Cesium.Color.WHITE } });
+                ent.provinceName = provinceName; ent.featureGeometry = geometry;
+                return ent;
+            }catch(e){ return null; }
+        }
 
-        const entity = viewer.entities.add({
-            position: Cesium.Cartesian3.fromDegrees(lon, lat),
-            point: {
-                pixelSize: 8,
-                color: Cesium.Color.WHITE,
-            },
-        });
+        async function loadAllFeatures(){
+            for(const provinceName of file_list){
+                try{ const resp = await fetch(`./states/${provinceName}.json`); if(!resp.ok) continue; const geoJson = await resp.json(); if(geoJson.features && Array.isArray(geoJson.features)) geoJson.features.forEach(f=> addPointToGlobe(provinceName,f.geometry)); }catch(e){/*ignore*/}
+            }
+        }
+        loadAllFeatures();
 
-        // Store metadata on the entity so we can identify it when clicked
-        entity.provinceName = provinceName;
-        entity.featureGeometry = geometry;
-    }
+        async function loadProvinceByName(provinceName){
+            if(!provinceName) return;
+            try{
+                const resp = await fetch(`./states/${provinceName}.json`);
+                if(!resp.ok) return;
+                const geoJson = await resp.json(); if(geoJson.features && geoJson.features.length>0){
+                    const props=geoJson.features[0].properties; const geometry=geoJson.features[0].geometry; const displayName = props.Name_1 || props.Country || provinceName;
+                    // tile
+                    const tile = document.createElement('div');
+                    tile.className = 'tile';
+                    tile.dataset.id = provinceName;
+                    // tile is not draggable anymore; the SVG inside is draggable
+                    tile.textContent = '';
 
-    // Function to load all features from all provinces and display their points on the globe
-    async function loadAllFeatures() {
-        for (const provinceName of file_list) {
-            const filePath = `./states/${provinceName}.json`;
-            try {
-                const response = await fetch(filePath);
-                if (!response.ok) {
-                    console.error(`Error loading ${filePath}: ${response.statusText}`);
-                    continue;
-                }
+                    // create square svg wrapper and a label; make SVG draggable (so user drags the svg)
+                    const svgWidth = 300, svgHeight = 300; // square svg surface
+                    const wrapper = document.createElement('div'); wrapper.className = 'svg-wrapper';
+                    const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+                    svg.setAttribute('viewBox', `0 0 ${svgWidth} ${svgHeight}`);
+                    svg.setAttribute('preserveAspectRatio', 'xMidYMid meet');
+                    svg.style.border = '1px solid #ddd';
+                    // Do NOT make the inner <svg> itself draggable; make the wrapper draggable
+                    svg.draggable = true;
+                    // make the wrapper draggable so dragging works consistently across browsers
+                    wrapper.draggable = true;
+                    // Make both the svg and the wrapper (and the tile and the title) draggable — attach same handlers
+                    svg.draggable = true;
+                    wrapper.draggable = true;
+                    tile.draggable = true;
+                    const onDragStart = (e, el) => {
+                        try { e.dataTransfer.setData('text/plain', provinceName); } catch (err) {}
+                        e.dataTransfer.effectAllowed = 'copy';
+                        try { el.classList.add('dragging'); } catch (err) {}
+                        // debug log to confirm dragstart
+                        try { console.log('[dragstart]', provinceName, el && el.className); } catch (err) {}
+                        // set a drag image using the wrapper if possible
+                        try {
+                            const rect = wrapper.getBoundingClientRect();
+                            e.dataTransfer.setDragImage(wrapper, rect.width / 2, rect.height / 2);
+                        } catch (err) { /* ignore */ }
+                    };
+                    const onDragEnd = (e, el) => { try { el.classList.remove('dragging'); } catch (err) {} };
+                    wrapper.addEventListener('dragstart', (e) => onDragStart(e, wrapper));
+                    wrapper.addEventListener('dragend', (e) => onDragEnd(e, wrapper));
+                    svg.addEventListener('dragstart', (e) => onDragStart(e, svg));
+                    svg.addEventListener('dragend', (e) => onDragEnd(e, svg));
+                    tile.addEventListener('dragstart', (e) => onDragStart(e, tile));
+                    tile.addEventListener('dragend', (e) => onDragEnd(e, tile));
 
-                const geoJson = await response.json();
-                if (geoJson.features && Array.isArray(geoJson.features)) {
-                    geoJson.features.forEach(feature => {
-                        // Pass province name and full feature geometry so we can display later
-                        addPointToGlobe(provinceName, feature.geometry);
+                    const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+                    path.setAttribute('d', createSVGPath(geometry, svgWidth, svgHeight));
+                    path.setAttribute('fill', 'rgba(0,123,255,0.5)');
+                    path.setAttribute('stroke', '#007bff');
+                    path.setAttribute('stroke-width', '1');
+                    svg.appendChild(path);
+                    wrapper.appendChild(svg);
+
+                    // title above the SVG
+                    const titleDiv = document.createElement('div');
+                    titleDiv.className = 'tileTitle';
+                    titleDiv.textContent = displayName;
+                    // make the title draggable too (same behaviour as wrapper) to ease drag start
+                    titleDiv.draggable = true;
+                    titleDiv.addEventListener('dragstart', (e) => {
+                        try { e.dataTransfer.setData('text/plain', provinceName); } catch (err) {}
+                        e.dataTransfer.effectAllowed = 'copy';
+                        titleDiv.classList.add('dragging');
+                        try {
+                            const rect = titleDiv.getBoundingClientRect();
+                            e.dataTransfer.setDragImage(titleDiv, rect.width / 2, rect.height / 2);
+                        } catch (err) {}
                     });
+                    titleDiv.addEventListener('dragend', () => titleDiv.classList.remove('dragging'));
+
+                     sidebarContent.innerHTML = '';
+                    // append title and wrapper inside the tile so the whole tile is one draggable area
+                    tile.appendChild(titleDiv);
+                    tile.appendChild(wrapper);
+                    sidebarContent.appendChild(tile);
+
+                     currentDisplayedProvince = provinceName; currentIndex = file_list.indexOf(provinceName);
                 }
-            } catch (error) {
-                console.error(`Error reading file ${filePath}:`, error);
-            }
-        }
-    }
-
-    // Load all features at the start
-    loadAllFeatures();
-
-    // Update the loadRandomProvince function to use the new createSVGPath
-    async function loadRandomProvince() {
-        const provinceName = getRandomProvince();
-        if (!provinceName) return;
-
-        const filePath = `./states/${provinceName}.json`;
-        try {
-            const response = await fetch(filePath);
-            if (!response.ok) {
-                console.error(`Error loading ${filePath}: ${response.statusText}`);
-                return;
-            }
-
-            const geoJson = await response.json();
-            if (geoJson.features && geoJson.features.length > 0) {
-                const properties = geoJson.features[0].properties;
-                const geometry = geoJson.features[0].geometry;
-                const displayName = properties.Name_1 || properties.Country || provinceName;
-
-                // Create tile
-                const tile = document.createElement('div');
-                tile.className = 'tile';
-                // tiles are not draggable anymore; interaction is by clicking globe points
-                // tile.draggable = true;
-                tile.dataset.id = provinceName;
-                tile.textContent = displayName;
-
-                // Create SVG for the shape
-                const svgWidth = 300; // Width of the SVG
-                const svgHeight = 150; // Height of the SVG
-                const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-                svg.setAttribute('viewBox', `0 0 ${svgWidth} ${svgHeight}`);
-                svg.setAttribute('width', '100%');
-                svg.setAttribute('height', '150px');
-                svg.style.border = '1px solid #ddd';
-
-                const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
-                path.setAttribute('d', createSVGPath(geometry, svgWidth, svgHeight));
-                path.setAttribute('fill', 'rgba(0, 123, 255, 0.5)');
-                path.setAttribute('stroke', '#007bff');
-                path.setAttribute('stroke-width', '1');
-                svg.appendChild(path);
-
-                // Append tile and SVG to the sidebar
-                sidebar.innerHTML = ''; // Clear previous content
-                sidebar.appendChild(tile);
-                sidebar.appendChild(svg);
-
-                // No drag events: user will click a point on the globe and press "Placer"
-            }
-        } catch (error) {
-            console.error(`Error reading file ${filePath}:`, error);
-        }
-    }
-
-    // Load the first random province
-    loadRandomProvince();
-
-    function displayProvinceOnGlobe(inputGeometry) {
-        // Sanitize geometry: remove invalid coordinates and tiny rings/polygons to avoid NaN errors in Cesium
-        function isValidNumber(n) {
-            return typeof n === 'number' && Number.isFinite(n);
+            }catch(e){/*ignore*/}
         }
 
-        function sanitizePolygonCoords(coords) {
-            // coords: array of rings; each ring: array of [lon, lat, ...]
-            const outRings = [];
-            for (const ring of coords) {
-                // Map and filter invalid numbers, clamp to valid ranges, and remove consecutive duplicates
-                const mapped = ring.map(pt => {
-                    const lon = Number(pt[0]);
-                    const lat = Number(pt[1]);
-                    if (!isValidNumber(lon) || !isValidNumber(lat)) return null;
-                    // filter by valid geographic ranges
-                    if (lon < -180 || lon > 180 || lat < -90 || lat > 90) return null;
-                    return [lon, lat];
-                }).filter(Boolean);
+        async function loadRandomProvince(){ const p = getRandomProvince(); if(p) await loadProvinceByName(p); }
+        loadRandomProvince();
 
-                const cleanRing = [];
-                for (let i = 0; i < mapped.length; i++) {
-                    const pt = mapped[i];
-                    const prev = cleanRing[cleanRing.length - 1];
-                    if (!prev || prev[0] !== pt[0] || prev[1] !== pt[1]) {
-                        cleanRing.push(pt);
-                    }
-                }
+        // ensure Cesium infoBox is hidden unless we set viewer.selectedEntity on polygons
+        if(viewer && viewer.infoBox && viewer.infoBox.container) viewer.infoBox.container.style.display='none';
 
-                // Ensure ring closes (first == last); GeoJSON allows non-closed rings but Cesium ok with either
-                if (cleanRing.length >= 3) {
-                    // if not closed, close it
-                    const first = cleanRing[0];
-                    const last = cleanRing[cleanRing.length - 1];
-                    if (first[0] !== last[0] || first[1] !== last[1]) {
-                        cleanRing.push([first[0], first[1]]);
-                    }
-                    outRings.push(cleanRing);
-                }
-            }
-            return outRings.length ? outRings : null;
+        function displayProvinceOnGlobe(inputGeometry){
+            if(!inputGeometry) return;
+            // sanitize and load
+            const geom = inputGeometry.type==='Feature'? inputGeometry.geometry : inputGeometry;
+            if(!geom) return;
+            // minimal sanitization and pass to GeoJsonDataSource
+            Cesium.GeoJsonDataSource.load({ type:'Feature', geometry:geom, properties:{} }, { clampToGround:false }).then(ds=>{
+                if(lastDataSource){ try{ viewer.dataSources.remove(lastDataSource,true); }catch(e){} lastDataSource=null; }
+                viewer.dataSources.add(ds); lastDataSource = ds;
+                ds.entities.values.forEach(ent=>{ if(ent.polygon){ ent.polygon.material = Cesium.Color.BLUE.withAlpha(0.5); ent.polygon.outline=true; ent.polygon.outlineColor=Cesium.Color.BLACK; }});
+            }).catch(()=>{});
         }
 
-        try {
-            const geom = (inputGeometry && inputGeometry.type === 'Feature') ? inputGeometry.geometry : inputGeometry;
-            if (!geom || !geom.type) {
-                console.error('No geometry to display', geom);
-                return;
+        // pick position helpers
+        function getCartesianFromDomEvent(e){ const rect = document.getElementById('cesiumContainer').getBoundingClientRect(); const x = e.clientX - rect.left; const y = e.clientY - rect.top; const windowPosition = new Cesium.Cartesian2(x,y); let cart = null; try{ if(viewer.scene.pickPositionSupported) cart = viewer.scene.pickPosition(windowPosition); }catch(e){ cart = null; } if(!cart) cart = viewer.camera.pickEllipsoid(windowPosition, viewer.scene.globe.ellipsoid); return cart; }
+        function findNearestPointEntity(cartesian){ if(!cartesian) return null; const ents = viewer.entities.values; let best=null, bestDist=Infinity; const now=Cesium.JulianDate.now(); for(let i=0;i<ents.length;i++){ const ent=ents[i]; if(!ent.provinceName || !ent.position) continue; const pos=ent.position.getValue(now); if(!pos) continue; const d = Cesium.Cartesian3.distance(pos,cartesian); if(d<bestDist){ bestDist=d; best={entity:ent, distance:d}; }} return best; }
+
+        // drag/drop on globe
+        const cesiumContainer = document.getElementById('cesiumContainer');
+        cesiumContainer.addEventListener('dragover', e=>{ e.preventDefault(); e.dataTransfer.dropEffect='copy'; });
+        cesiumContainer.addEventListener('drop', e=>{
+            e.preventDefault(); const provinceId = e.dataTransfer.getData('text/plain') || e.dataTransfer.getData('text');
+            console.log('[drop] dataTransfer:', provinceId);
+            if(!provinceId) return; const cart = getCartesianFromDomEvent(e); if(!cart){ alert('Impossible de déterminer l\'endroit sur le globe.'); return; } const nearest = findNearestPointEntity(cart);
+            console.log('[drop] nearest:', nearest && nearest.entity && nearest.entity.provinceName, 'dist:', nearest && nearest.distance);
+            if(!nearest || !nearest.entity){ alert('Aucun point proche trouvé.'); return; }
+             if(nearest.entity.provinceName === provinceId){
+                 // read displayName/country then place and register
+                 fetch(`./states/${provinceId}.json`).then(r=>{ if(!r.ok) throw new Error('fetch'); return r.json(); }).then(json=>{
+                    const feat = (json.features && json.features[0])||null; const displayName = feat && (feat.properties.Name_1 || feat.properties.Country) ? (feat.properties.Name_1 || feat.properties.Country) : provinceId; const country = feat && feat.properties && feat.properties.Country ? feat.properties.Country : null;
+                    displayProvinceOnGlobe(nearest.entity.featureGeometry);
+                    try{ viewer.entities.remove(nearest.entity); }catch(e){}
+                    registerPlacedProvince(provinceId, displayName, country);
+                    loadRandomProvince();
+                }).catch(()=>{ displayProvinceOnGlobe(nearest.entity.featureGeometry); try{ viewer.entities.remove(nearest.entity); }catch(e){} registerPlacedProvince(provinceId, provinceId, null); loadRandomProvince(); });
+            } else { alert('Ce n\'est pas le bon endroit.'); }
+        });
+
+        // click handler: points stay white; polygons show infoBox
+        let selectedEntity = null;
+        try{
+            if(viewer && viewer.scene && viewer.scene.canvas){
+                const handler = new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas);
+                handler.setInputAction(function(click){
+                     try{
+                        // Save camera state to restore it after possible internal camera changes
+                        let camState = null;
+                        try {
+                            const cam = viewer.camera;
+                            camState = {
+                                position: cam.position.clone(),
+                                direction: cam.direction.clone(),
+                                up: cam.up.clone()
+                            };
+                        } catch (e) { camState = null; }
+
+                        const picked = viewer.scene.pick(click.position);
+                        if (Cesium.defined(picked) && picked.id) {
+                            const ent = picked.id;
+                            if (ent.polygon) {
+                                try {
+                                    const title = ent.name || (ent.properties && ent.properties.Name_1) || 'Province';
+                                    let desc = '';
+                                    if (ent.properties) {
+                                        desc += '<table style="border-collapse:collapse; width:100%">';
+                                        for (const k in ent.properties) {
+                                            if (!Object.prototype.hasOwnProperty.call(ent.properties, k)) continue;
+                                            const v = ent.properties[k];
+                                            desc += `<tr><td style="border:1px solid #ddd;padding:4px;font-weight:600">${k}</td><td style="border:1px solid #ddd;padding:4px">${v}</td></tr>`;
+                                        }
+                                        desc += '</table>';
+                                    }
+                                    if (viewer.infoBox && viewer.infoBox.viewModel) {
+                                        viewer.infoBox.viewModel.title = title;
+                                        viewer.infoBox.viewModel.description = desc || 'Aucune donnée disponible.';
+                                        if (viewer.infoBox.container) viewer.infoBox.container.style.display = '';
+                                    }
+                                } catch (e) { /* ignore */ }
+                            } else {
+                                try { if (viewer.infoBox && viewer.infoBox.container) viewer.infoBox.container.style.display = 'none'; } catch (e) {}
+                            }
+                        }
+
+                        // Restore camera state shortly after to cancel any internal camera movement
+                        if (camState) {
+                            setTimeout(() => {
+                                try {
+                                    viewer.camera.setView({
+                                        destination: camState.position,
+                                        orientation: {
+                                            direction: camState.direction,
+                                            up: camState.up
+                                        }
+                                    });
+                                } catch (e) { /* ignore restore errors */ }
+                            }, 20);
+                        }
+                     }catch(e){}
+                 }, Cesium.ScreenSpaceEventType.LEFT_CLICK);
             }
+        }catch(e){}
 
-            let sanitized = null;
-            if (geom.type === 'Polygon') {
-                const rings = sanitizePolygonCoords(geom.coordinates);
-                // small polygon check: ensure bbox is not degenerate
-                if (rings) {
-                    const flat = rings.flat();
-                    const lons = flat.map(p => p[0]);
-                    const lats = flat.map(p => p[1]);
-                    const lonRange = Math.max(...lons) - Math.min(...lons);
-                    const latRange = Math.max(...lats) - Math.min(...lats);
-                    if (lonRange > 1e-6 && latRange > 1e-6) sanitized = { type: 'Polygon', coordinates: rings };
-                    else console.warn('Skipping tiny/degenerate polygon');
-                }
-            } else if (geom.type === 'MultiPolygon') {
-                const polys = [];
-                for (const poly of geom.coordinates) {
-                    const rings = sanitizePolygonCoords(poly);
-                    if (rings) {
-                        const flat = rings.flat();
-                        const lons = flat.map(p => p[0]);
-                        const lats = flat.map(p => p[1]);
-                        const lonRange = Math.max(...lons) - Math.min(...lons);
-                        const latRange = Math.max(...lats) - Math.min(...lats);
-                        if (lonRange > 1e-6 && latRange > 1e-6) polys.push(rings);
-                        else console.warn('Skipping tiny/degenerate polygon in MultiPolygon');
-                    }
-                }
-                if (polys.length) sanitized = { type: 'MultiPolygon', coordinates: polys };
-            } else {
-                // For other types, pass through (GeoJsonDataSource may handle)
-                sanitized = geom;
-            }
+        // Skip button
+        if(skipSidebar){ skipSidebar.addEventListener('click', e=>{ e.preventDefault(); selectedEntity=null; const next = pickDifferentProvince() || getRandomProvince(); if(!next) return; skipSidebar.disabled=true; loadProvinceByName(next).finally(()=>{ skipSidebar.disabled=false; }); }); }
 
-            if (!sanitized) {
-                console.error('Sanitized geometry is empty or invalid, skipping display. Original:', geom);
-                return;
-            }
+        // burger toggle
+        if(burgerButton){ burgerButton.addEventListener('click', ()=>{ if(!placedPanel) return; placedPanel.style.display = placedPanel.style.display==='block'?'none':'block'; }); }
 
-            const feature = {
-                type: 'Feature',
-                geometry: sanitized,
-                properties: {}
-            };
-
-            Cesium.GeoJsonDataSource.load(feature, { clampToGround: false }).then(dataSource => {
-                // Remove previously displayed province to keep only one at a time
-                if (lastDataSource) {
-                    try { viewer.dataSources.remove(lastDataSource, true); } catch (e) { /* ignore */ }
-                    lastDataSource = null;
-                }
-                viewer.dataSources.add(dataSource);
-                lastDataSource = dataSource;
-
-                dataSource.entities.values.forEach(entity => {
-                    if (entity.polygon) {
-                        entity.polygon.material = Cesium.Color.BLUE.withAlpha(0.5);
-                        entity.polygon.outline = true;
-                        entity.polygon.outlineColor = Cesium.Color.BLACK;
-                    }
-                });
-                viewer.flyTo(dataSource).catch(() => {});
-            }).catch(err => {
-                console.error('GeoJsonDataSource.load failed:', err);
-            });
-        } catch (err) {
-            console.error('displayProvinceOnGlobe unexpected error:', err);
-        }
-    }
-
-    // Drag-and-drop logic
-    // removed drag-and-drop: interaction is now by clicking points
-
-    const cesiumContainer = document.getElementById('cesiumContainer');
-
-    // Remove existing drag/drop behavior on Cesium container (we'll use clicks now)
-    // Allow clicking points: show a "Placer" button when a point is clicked
-    const placePanel = document.getElementById('placePanel');
-    const placeButton = document.getElementById('placeButton');
-    const cancelPlace = document.getElementById('cancelPlace');
-    const placeInfo = document.getElementById('placeInfo');
-
-    let selectedEntity = null; // entity clicked on the globe
-
-    const handler = new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas);
-
-    handler.setInputAction(function (movement) {
-        const picked = viewer.scene.pick(movement.position);
-        if (Cesium.defined(picked) && picked.id && picked.id.provinceName) {
-            selectedEntity = picked.id;
-            placeInfo.textContent = `Point sélectionné: ${selectedEntity.provinceName}`;
-            placePanel.style.display = 'block';
-
-            // Visual feedback: make the selected point yellow
-            if (selectedEntity.point) {
-                selectedEntity._originalColor = selectedEntity.point.color;
-                selectedEntity.point.color = Cesium.Color.YELLOW;
-            }
-        } else {
-            // click sur autre chose : masquer le panneau
-            selectedEntity = null;
-            placePanel.style.display = 'none';
-        }
-    }, Cesium.ScreenSpaceEventType.LEFT_CLICK);
-
-    // Cancel
-    cancelPlace.addEventListener('click', () => {
-        if (selectedEntity && selectedEntity.point && selectedEntity._originalColor) {
-            selectedEntity.point.color = selectedEntity._originalColor;
-        }
-        selectedEntity = null;
-        placePanel.style.display = 'none';
-    });
-
-    // Place button behaviour: check if selected point matches the currently displayed province
-    placeButton.addEventListener('click', () => {
-        if (!selectedEntity) return;
-
-        const clickedProvince = selectedEntity.provinceName;
-        // Compare directly with the last selected province
-        if (clickedProvince === lastSelectedProvince) {
-            // Correct: display the province geometry on the globe and load the next province
-            displayProvinceOnGlobe(selectedEntity.featureGeometry);
-
-            // Reset visual state and hide panel
-            if (selectedEntity.point && selectedEntity._originalColor) {
-                selectedEntity.point.color = selectedEntity._originalColor;
-            }
-            selectedEntity = null;
-            placePanel.style.display = 'none';
-
-            // Load next province
-            loadRandomProvince();
-        } else {
-            // Incorrect: popup
-            alert("Ce n'est pas le bon endroit. Réessayez !");
-
-            // Optionally reset selected point color
-            if (selectedEntity && selectedEntity.point && selectedEntity._originalColor) {
-                selectedEntity.point.color = selectedEntity._originalColor;
-            }
-            selectedEntity = null;
-            placePanel.style.display = 'none';
-        }
-    });
     </script>
 </body>
-
 </html>
