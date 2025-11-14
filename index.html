@@ -11,6 +11,7 @@
         body {
             min-height: 100vh;
             height: 100%;
+            width: 100%;
             margin: 0;
             padding: 0;
             display: flex;
@@ -66,6 +67,7 @@
             user-select: none;
         }
 
+
         #placedPanel {
             display: none;
             margin-top: 8px;
@@ -114,8 +116,8 @@
         }
 
         .svg-wrapper svg {
-            width: 92%;
-            height: 92%;
+            width: 100%;
+            height: 100%;
             max-width: 100%;
             max-height: 100%;
             display: block;
@@ -166,6 +168,50 @@
         .cesium-navigationHelpButton-wrapper {
             display: none !important;
         }
+
+        /* floating placement button */
+        #placeButton {
+            position: absolute;
+            z-index: 10000;
+            display: none;
+            background: #007bff;
+            color: #fff;
+            border: none;
+            padding: 8px 10px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: 700;
+        }
+
+        /* Notifications */
+        #notifications {
+            position: fixed;
+            top: 18px;
+            right: 18px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            z-index: 20000;
+            pointer-events: none; /* allow clicks through container except on notifications */
+        }
+        .notif {
+            min-width: 220px;
+            max-width: 380px;
+            padding: 10px 14px;
+            color: #fff;
+            border-radius: 6px;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+            font-weight: 600;
+            pointer-events: auto;
+            opacity: 1;
+            transform: translateY(0);
+            transition: opacity 220ms ease, transform 220ms ease;
+        }
+        .notif.hide { opacity: 0; transform: translateY(-8px); }
+        .notif.success { background: #2ecc71; }
+        .notif.error { background: #e74c3c; }
+        .notif.warn { background: #f39c12; }
+
     </style>
     <title>Giant Globe Puzzle</title>
 </head>
@@ -178,9 +224,14 @@
         </div>
         <div id="placedPanel"></div>
         <div id="sidebarContent"><!-- tiles --></div>
-        <div id="sidebarBottom"><button id="skipSidebar" style="width:100%; padding:8px;" onmousedown="event.preventDefault();">Skip</button></div>
+        <div id="sidebarBottom"><button id="skipSidebar" style="width:100%; padding:8px;" onmousedown="event.preventDefault();">SKip</button></div>
     </div>
     <div id="cesiumContainer"></div>
+    <!-- floating Placer button shown when clicking a point -->
+    <button id="placeButton">Placer</button>
+
+    <!-- Notifications container -->
+    <div id="notifications" aria-live="polite" aria-atomic="true"></div>
 
     <script type="module">
         // Restore a working Cesium Ion access token (previously used in this project).
@@ -195,14 +246,12 @@
         try {
             if (viewer && viewer.screenSpaceEventHandler) {
                 viewer.screenSpaceEventHandler.removeInputAction(Cesium.ScreenSpaceEventType.LEFT_DOUBLE_CLICK);
-                // remove default LEFT_CLICK too to prevent viewer internal selection/zoom behavior
+                // keep LEFT_CLICK removal so our own handler manages click behavior
                 viewer.screenSpaceEventHandler.removeInputAction(Cesium.ScreenSpaceEventType.LEFT_CLICK);
             }
-            // Ensure globe is visible
             if (viewer && viewer.scene && viewer.scene.globe) {
                 viewer.scene.globe.show = true;
             }
-            // hide Cesium's selection indicator if present (avoid visual selection zoom triggers)
             try { if (viewer.selectionIndicator && viewer.selectionIndicator.container) viewer.selectionIndicator.container.style.display = 'none'; } catch(e) {}
         } catch (e) { /* ignore */ }
 
@@ -210,12 +259,10 @@
         try {
             const canv = document.querySelector('#cesiumContainer canvas');
             if (!canv) {
-                // try to reappend viewer's canvas if available
                 if (viewer && viewer.scene && viewer.scene.canvas) {
                     document.getElementById('cesiumContainer').appendChild(viewer.scene.canvas);
                 }
             } else {
-                // make sure it's visible
                 canv.style.display = '';
                 canv.style.width = '100%';
                 canv.style.height = '100%';
@@ -231,12 +278,29 @@
         const skipSidebar = document.getElementById('skipSidebar');
         const burgerButton = document.getElementById('burgerButton');
         const placedPanel = document.getElementById('placedPanel');
+        const placeButton = document.getElementById('placeButton');
+        const notifications = document.getElementById('notifications');
+
+        function showNotification(message, type = 'success', ttl = 3500) {
+            try {
+                if (!notifications) return;
+                const n = document.createElement('div');
+                n.className = 'notif ' + (type || 'success');
+                n.innerHTML = message;
+                notifications.appendChild(n);
+                setTimeout(() => { n.classList.add('hide'); setTimeout(() => { try { notifications.removeChild(n); } catch (e) {} }, 260); }, ttl);
+            } catch (e) { /* ignore */ }
+        }
 
         // state
         let currentDisplayedProvince = null;
+        let currentDisplayedProvinceKey = null; // unique key provinceName::featureIndex for the tile shown
+        let currentDisplayedFeatureCentroid = null; // centroid string 'lon,lat' of the feature shown in sidebar
         let currentIndex = -1;
         const placedProvinces = []; // { name, displayName, country }
+        const placedDataSources = []; // keep all placed GeoJsonDataSource objects so they remain visible
         let lastDataSource = null;
+        let selectedPointEntity = null; // for click-to-place flow
 
         function isPlaced(name) { return placedProvinces.some(p => p.name === name); }
         function registerPlacedProvince(name, displayName, country) {
@@ -282,52 +346,107 @@
 
         function createSVGPath(geometry, svgWidth, svgHeight){
             if (!geometry) return '';
-            const bbox = turf.bbox(geometry);
-            let [xmin, ymin, xmax, ymax] = bbox;
-            // Defensive: ensure non-zero ranges
-            const lonRange = (xmax - xmin) || 1e-6;
-            const latRange = (ymax - ymin) || 1e-6;
+            const geom = geometry.type === 'Feature' ? geometry.geometry : geometry;
+            if (!geom) return '';
 
-            const scaleX = svgWidth / lonRange;
-            const scaleY = svgHeight / latRange;
-            // Use scaleX to maximize horizontal usage (user requested max width)
-            let scale = scaleX;
+            // collect polygons (support Polygon & MultiPolygon)
+            const polygons = [];
+            if (geom.type === 'Polygon') {
+                polygons.push(...geom.coordinates);
+            } else if (geom.type === 'MultiPolygon') {
+                geom.coordinates.forEach(mp => polygons.push(...mp));
+            } else {
+                return '';
+            }
 
-            // If scale is infinite/zero fallback to min
-            if (!isFinite(scale) || scale <= 0) scale = Math.min(scaleX, scaleY) || 1;
+            // flatten coords list to compute circular mean longitude
+            const coordList = [];
+            polygons.forEach(ring => ring.forEach(c => coordList.push(c)));
+            if (coordList.length === 0) return '';
 
-            // compute vertical offset to center the shape vertically inside svgHeight
-            const usedHeight = latRange * scale;
-            const yOffset = Math.max(0, (svgHeight - usedHeight) / 2);
+            // circular mean lon (antimeridian handling)
+            const toRad = d => d * Math.PI / 180;
+            const toDeg = r => r * 180 / Math.PI;
+            let sumSin = 0, sumCos = 0;
+            coordList.forEach(c => { const lon = c[0]; const r = toRad(lon); sumSin += Math.sin(r); sumCos += Math.cos(r); });
+            const meanLon = toDeg(Math.atan2(sumSin / coordList.length, sumCos / coordList.length));
+            const normalizeLon = lon => { let l = lon; while (l - meanLon > 180) l -= 360; while (l - meanLon < -180) l += 360; return l; };
 
-            const coords = geometry.type === 'Polygon' ? [geometry.coordinates] : geometry.coordinates;
+            // adjusted polygons with normalized longitudes
+            const adjusted = polygons.map(ring => ring.map(([lon, lat]) => [normalizeLon(lon), lat]));
+
+            // try to convert to Web Mercator (meters) for accurate scaling across latitudes
+            let mercFeature = null;
+            try { mercFeature = turf.toMercator({ type: 'Feature', geometry: (adjusted.length && adjusted[0].length ? (geom.type==='Polygon'? { type: 'Polygon', coordinates: adjusted } : { type: 'MultiPolygon', coordinates: [adjusted] }) : geom), properties: {} }); } catch (e) { mercFeature = null; }
+
+            // build rings to render (use merc if available, otherwise degrees)
+            let rings = [];
+            if (mercFeature && mercFeature.geometry) {
+                if (mercFeature.geometry.type === 'Polygon') rings = mercFeature.geometry.coordinates;
+                else if (mercFeature.geometry.type === 'MultiPolygon') rings = mercFeature.geometry.coordinates.flat();
+            }
+            if (!rings.length) {
+                // fallback to adjusted degrees rings
+                rings = adjusted;
+            }
+
+            // compute bbox in chosen coordinate space
+            let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+            rings.forEach(r => r.forEach(([x,y]) => { if (typeof x === 'number' && typeof y === 'number') { minX = Math.min(minX,x); maxX = Math.max(maxX,x); minY = Math.min(minY,y); maxY = Math.max(maxY,y); } }));
+            if (!isFinite(minX) || !isFinite(maxX) || !isFinite(minY) || !isFinite(maxY)) return '';
+
+            const rangeX = (maxX - minX) || 1e-6;
+            const rangeY = (maxY - minY) || 1e-6;
+
+            // margin to avoid touching edges (6px or dynamic %)
+            const aspect = rangeX / rangeY;
+            const baseFactor = 0.06;
+            const largeFactor = 0.12; // bigger margin for extreme aspect ratios
+            const marginFactor = (aspect > 8 || aspect < 1/8) ? largeFactor : baseFactor;
+            const marginPx = Math.max(6, Math.min(svgWidth, svgHeight) * marginFactor);
+             const availW = Math.max(1, svgWidth - 2 * marginPx);
+             const availH = Math.max(1, svgHeight - 2 * marginPx);
+
+            // compute scale in selected space
+            const scale = Math.min(availW / rangeX, availH / rangeY);
+            const usedW = rangeX * scale;
+            const usedH = rangeY * scale;
+            const padX = (svgWidth - usedW) / 2;
+            const padY = (svgHeight - usedH) / 2;
+
+            // construct final path with pixel coordinates (no transform needed)
             let path = '';
-
-            coords.forEach(polygon => polygon.forEach(ring => {
-                const projected = ring.map(([lon, lat]) => {
-                    const x = (lon - xmin) * scale; // scaled to fill width
-                    // invert y and apply vertical centering
-                    const y = svgHeight - ((lat - ymin) * scale) - yOffset;
-                    return `${x},${y}`;
-                });
-                path += `M${projected.join('L')}Z `;
-            }));
+            rings.forEach(r => {
+                const pts = r.map(([x,y]) => {
+                    const px = ((x - minX) * scale) + padX;
+                    const py = svgHeight - (((y - minY) * scale) + padY);
+                    return `${px.toFixed(2)},${py.toFixed(2)}`;
+                }).filter(Boolean);
+                if (pts.length) path += `M${pts.join('L')}Z `;
+            });
 
             return path.trim();
-         }
+        }
 
-        function addPointToGlobe(provinceName, geometry){
+        function addPointToGlobe(provinceName, geometry, properties, featureIndex){
             try{
                 const center = turf.center(geometry); const [lon,lat]=center.geometry.coordinates;
                 const ent = viewer.entities.add({ position: Cesium.Cartesian3.fromDegrees(lon,lat), point:{ pixelSize:8, color:Cesium.Color.WHITE } });
-                ent.provinceName = provinceName; ent.featureGeometry = geometry;
+                ent.provinceName = provinceName;
+                ent.featureGeometry = geometry;
+                ent.featureProps = properties || null;
+                ent.featureIndex = (typeof featureIndex !== 'undefined') ? featureIndex : null;
+                // unique per-feature key
+                ent.provinceKey = `${provinceName}::${ent.featureIndex}`;
+                // store a centroid signature to identify the exact tile/feature
+                ent.featureCentroid = `${Number(lon).toFixed(6)},${Number(lat).toFixed(6)}`;
                 return ent;
             }catch(e){ return null; }
         }
 
         async function loadAllFeatures(){
             for(const provinceName of file_list){
-                try{ const resp = await fetch(`./states/${provinceName}.json`); if(!resp.ok) continue; const geoJson = await resp.json(); if(geoJson.features && Array.isArray(geoJson.features)) geoJson.features.forEach(f=> addPointToGlobe(provinceName,f.geometry)); }catch(e){/*ignore*/}
+                try{ const resp = await fetch(`./states/${provinceName}.json`); if(!resp.ok) continue; const geoJson = await resp.json(); if(geoJson.features && Array.isArray(geoJson.features)) geoJson.features.forEach((f, idx)=> addPointToGlobe(provinceName,f.geometry,f.properties, idx)); }catch(e){/*ignore*/}
             }
         }
         loadAllFeatures();
@@ -338,7 +457,16 @@
                 const resp = await fetch(`./states/${provinceName}.json`);
                 if(!resp.ok) return;
                 const geoJson = await resp.json(); if(geoJson.features && geoJson.features.length>0){
-                    const props=geoJson.features[0].properties; const geometry=geoJson.features[0].geometry; const displayName = props.Name_1 || props.Country || provinceName;
+                    // By default we show feature index 0 (first feature) in the sidebar tile.
+                    const displayedFeatureIndex = 0;
+                    const feat0 = geoJson.features[displayedFeatureIndex];
+                    const props=feat0.properties; const geometry=feat0.geometry; const displayName = props.Name_1 || props.Country || provinceName;
+                    // set the centroid signature and key for the exact feature we're showing
+                    try{
+                        const c = turf.center(geometry).geometry.coordinates; currentDisplayedFeatureCentroid = `${Number(c[0]).toFixed(6)},${Number(c[1]).toFixed(6)}`;
+                    }catch(e){ currentDisplayedFeatureCentroid = null; }
+                    currentDisplayedProvinceKey = `${provinceName}::${displayedFeatureIndex}`;
+
                     // tile
                     const tile = document.createElement('div');
                     tile.className = 'tile';
@@ -362,11 +490,9 @@
                     wrapper.draggable = true;
                     tile.draggable = true;
                     const onDragStart = (e, el) => {
-                        try { e.dataTransfer.setData('text/plain', provinceName); } catch (err) {}
+                        try { e.dataTransfer.setData('text/plain', currentDisplayedProvinceKey || (provinceName + '::0')); } catch (err) {}
                         e.dataTransfer.effectAllowed = 'copy';
                         try { el.classList.add('dragging'); } catch (err) {}
-                        // debug log to confirm dragstart
-                        try { console.log('[dragstart]', provinceName, el && el.className); } catch (err) {}
                         // set a drag image using the wrapper if possible
                         try {
                             const rect = wrapper.getBoundingClientRect();
@@ -382,7 +508,8 @@
                     tile.addEventListener('dragend', (e) => onDragEnd(e, tile));
 
                     const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
-                    path.setAttribute('d', createSVGPath(geometry, svgWidth, svgHeight));
+                    const d = createSVGPath(geometry, svgWidth, svgHeight);
+                    path.setAttribute('d', d);
                     path.setAttribute('fill', 'rgba(0,123,255,0.5)');
                     path.setAttribute('stroke', '#007bff');
                     path.setAttribute('stroke-width', '1');
@@ -396,7 +523,7 @@
                     // make the title draggable too (same behaviour as wrapper) to ease drag start
                     titleDiv.draggable = true;
                     titleDiv.addEventListener('dragstart', (e) => {
-                        try { e.dataTransfer.setData('text/plain', provinceName); } catch (err) {}
+                        try { e.dataTransfer.setData('text/plain', currentDisplayedProvinceKey); } catch (err) {}
                         e.dataTransfer.effectAllowed = 'copy';
                         titleDiv.classList.add('dragging');
                         try {
@@ -425,14 +552,14 @@
 
         function displayProvinceOnGlobe(inputGeometry){
             if(!inputGeometry) return;
-            // sanitize and load
             const geom = inputGeometry.type==='Feature'? inputGeometry.geometry : inputGeometry;
             if(!geom) return;
-            // minimal sanitization and pass to GeoJsonDataSource
             Cesium.GeoJsonDataSource.load({ type:'Feature', geometry:geom, properties:{} }, { clampToGround:false }).then(ds=>{
-                if(lastDataSource){ try{ viewer.dataSources.remove(lastDataSource,true); }catch(e){} lastDataSource=null; }
-                viewer.dataSources.add(ds); lastDataSource = ds;
-                ds.entities.values.forEach(ent=>{ if(ent.polygon){ ent.polygon.material = Cesium.Color.BLUE.withAlpha(0.5); ent.polygon.outline=true; ent.polygon.outlineColor=Cesium.Color.BLACK; }});
+                // do NOT remove previously placed provinces; keep them visible
+                viewer.dataSources.add(ds);
+                placedDataSources.push(ds);
+                // style polygons in this datasource
+                ds.entities.values.forEach(ent=>{ if(ent.polygon){ ent.polygon.material = Cesium.Color.BLUE.withAlpha(0.5); ent.polygon.outline=true; ent.polygon.outlineColor=Cesium.Color.BLACK; } });
             }).catch(()=>{});
         }
 
@@ -444,45 +571,41 @@
         const cesiumContainer = document.getElementById('cesiumContainer');
         cesiumContainer.addEventListener('dragover', e=>{ e.preventDefault(); e.dataTransfer.dropEffect='copy'; });
         cesiumContainer.addEventListener('drop', e=>{
-            e.preventDefault(); const provinceId = e.dataTransfer.getData('text/plain') || e.dataTransfer.getData('text');
-            console.log('[drop] dataTransfer:', provinceId);
-            if(!provinceId) return; const cart = getCartesianFromDomEvent(e); if(!cart){ alert('Impossible de déterminer l\'endroit sur le globe.'); return; } const nearest = findNearestPointEntity(cart);
-            console.log('[drop] nearest:', nearest && nearest.entity && nearest.entity.provinceName, 'dist:', nearest && nearest.distance);
-            if(!nearest || !nearest.entity){ alert('Aucun point proche trouvé.'); return; }
-             if(nearest.entity.provinceName === provinceId){
-                 // read displayName/country then place and register
-                 fetch(`./states/${provinceId}.json`).then(r=>{ if(!r.ok) throw new Error('fetch'); return r.json(); }).then(json=>{
-                    const feat = (json.features && json.features[0])||null; const displayName = feat && (feat.properties.Name_1 || feat.properties.Country) ? (feat.properties.Name_1 || feat.properties.Country) : provinceId; const country = feat && feat.properties && feat.properties.Country ? feat.properties.Country : null;
-                    displayProvinceOnGlobe(nearest.entity.featureGeometry);
-                    try{ viewer.entities.remove(nearest.entity); }catch(e){}
-                    registerPlacedProvince(provinceId, displayName, country);
-                    loadRandomProvince();
-                }).catch(()=>{ displayProvinceOnGlobe(nearest.entity.featureGeometry); try{ viewer.entities.remove(nearest.entity); }catch(e){} registerPlacedProvince(provinceId, provinceId, null); loadRandomProvince(); });
-            } else { alert('Ce n\'est pas le bon endroit.'); }
+            e.preventDefault(); const provinceKey = e.dataTransfer.getData('text/plain') || e.dataTransfer.getData('text');
+            if(!provinceKey) return; const cart = getCartesianFromDomEvent(e); if(!cart){ showNotification('Impossible de déterminer l\'endroit sur le globe.', 'error'); return; } const nearest = findNearestPointEntity(cart);
+            if(!nearest || !nearest.entity){ showNotification('Aucun point proche trouvé.', 'error'); return; }
+            // check both unique provinceKey match AND exact feature centroid match (if available)
+            const centroidMatches = currentDisplayedFeatureCentroid && nearest.entity.featureCentroid && (nearest.entity.featureCentroid === currentDisplayedFeatureCentroid);
+            if(nearest.entity.provinceKey === provinceKey && centroidMatches){
+                // parse provinceName and featureIndex from provinceKey
+                const [provinceId, featureIndexStr] = provinceKey.split('::');
+                const featureIndex = parseInt(featureIndexStr || '0', 10) || 0;
+                // read the specific feature from the file
+                fetch(`./states/${provinceId}.json`).then(r=>{ if(!r.ok) throw new Error('fetch'); return r.json(); }).then(json=>{
+                   const feat = (json.features && json.features[featureIndex])||null; const displayName = feat && (feat.properties.Name_1 || feat.properties.Country) ? (feat.properties.Name_1 || feat.properties.Country) : provinceId; const country = feat && feat.properties && feat.properties.Country ? feat.properties.Country : null;
+                   displayProvinceOnGlobe(nearest.entity.featureGeometry);
+                   try{ viewer.entities.remove(nearest.entity); }catch(e){}
+                   registerPlacedProvince(provinceId, displayName, country);
+                   showNotification(`${displayName} placé !`, 'success');
+                   loadRandomProvince();
+               }).catch(()=>{ displayProvinceOnGlobe(nearest.entity.featureGeometry); try{ viewer.entities.remove(nearest.entity); }catch(e){} registerPlacedProvince(provinceId, provinceId, null); loadRandomProvince(); });
+            } else { showNotification('Ce n\'est pas le bon endroit.', 'error'); }
         });
 
-        // click handler: points stay white; polygons show infoBox
+        // click handler: points stay white; polygons show infoBox and clicking points shows Placer button
         let selectedEntity = null;
         try{
             if(viewer && viewer.scene && viewer.scene.canvas){
                 const handler = new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas);
                 handler.setInputAction(function(click){
                      try{
-                        // Save camera state to restore it after possible internal camera changes
-                        let camState = null;
-                        try {
-                            const cam = viewer.camera;
-                            camState = {
-                                position: cam.position.clone(),
-                                direction: cam.direction.clone(),
-                                up: cam.up.clone()
-                            };
-                        } catch (e) { camState = null; }
-
+                        // save click coordinates for placeButton positioning
+                        const clientX = click.position.x, clientY = click.position.y;
                         const picked = viewer.scene.pick(click.position);
                         if (Cesium.defined(picked) && picked.id) {
                             const ent = picked.id;
                             if (ent.polygon) {
+                                // show infoBox for polygons
                                 try {
                                     const title = ent.name || (ent.properties && ent.properties.Name_1) || 'Province';
                                     let desc = '';
@@ -501,29 +624,71 @@
                                         if (viewer.infoBox.container) viewer.infoBox.container.style.display = '';
                                     }
                                 } catch (e) { /* ignore */ }
+                                // hide place button if shown
+                                placeButton.style.display = 'none'; selectedPointEntity = null;
+                            } else if (ent.point) {
+                                // clicked a point: keep it white and show "Placer" button
+                                selectedPointEntity = ent;
+                                // position the button near the click (convert canvas coords to page coords)
+                                const rect = document.getElementById('cesiumContainer').getBoundingClientRect();
+                                placeButton.style.left = (rect.left + clientX + 8) + 'px';
+                                placeButton.style.top = (rect.top + clientY + 8) + 'px';
+                                placeButton.style.display = 'block';
+                                // ensure infoBox hidden for points
+                                try { if (viewer.infoBox && viewer.infoBox.container) viewer.infoBox.container.style.display = 'none'; } catch (e) {}
                             } else {
+                                // clicked something else: hide place button and update UI
+                                placeButton.style.display = 'none'; selectedPointEntity = null;
                                 try { if (viewer.infoBox && viewer.infoBox.container) viewer.infoBox.container.style.display = 'none'; } catch (e) {}
                             }
-                        }
-
-                        // Restore camera state shortly after to cancel any internal camera movement
-                        if (camState) {
-                            setTimeout(() => {
-                                try {
-                                    viewer.camera.setView({
-                                        destination: camState.position,
-                                        orientation: {
-                                            direction: camState.direction,
-                                            up: camState.up
-                                        }
-                                    });
-                                } catch (e) { /* ignore restore errors */ }
-                            }, 20);
+                        } else {
+                            // nothing picked: hide place button / infoBox
+                            placeButton.style.display = 'none'; selectedPointEntity = null;
+                            try { if (viewer.infoBox && viewer.infoBox.container) viewer.infoBox.container.style.display = 'none'; } catch (e) {}
                         }
                      }catch(e){}
                  }, Cesium.ScreenSpaceEventType.LEFT_CLICK);
             }
         }catch(e){}
+
+        // placeButton behavior: when clicked, try to place the clicked point's province compared to currentDisplayedProvince
+        if (placeButton) {
+            placeButton.addEventListener('click', () => {
+                placeButton.style.display = 'none';
+                if (!selectedPointEntity) return;
+                const clickedKey = selectedPointEntity.provinceKey;
+                if (!clickedKey) return;
+                // ensure we match the exact feature key and centroid
+                const centroidMatches = currentDisplayedFeatureCentroid && selectedPointEntity.featureCentroid && (selectedPointEntity.featureCentroid === currentDisplayedFeatureCentroid);
+                if (clickedKey === currentDisplayedProvinceKey && centroidMatches) {
+                    // correct placement: show polygon, remove the point, register and load next
+                    try {
+                        displayProvinceOnGlobe(selectedPointEntity.featureGeometry);
+                    } catch (e) {}
+                    try { viewer.entities.remove(selectedPointEntity); } catch (e) {}
+                    // attempt to read displayName/country and register
+                    const [provinceId, featureIndexStr] = clickedKey.split('::'); const featureIndex = parseInt(featureIndexStr||'0',10) || 0;
+                    fetch(`./states/${provinceId}.json`).then(r=>{ if(!r.ok) throw new Error('fetch'); return r.json(); }).then(json=>{
+                        const feat = (json.features && json.features[featureIndex])||null; const displayName = feat && (feat.properties.Name_1 || feat.properties.Country) ? (feat.properties.Name_1 || feat.properties.Country) : provinceId; const country = feat && feat.properties && feat.properties.Country ? feat.properties.Country : null;
+                        registerPlacedProvince(provinceId, displayName, country);
+                        showNotification(`${displayName} placé !`, 'success');
+                        loadRandomProvince();
+                    }).catch(()=>{
+                        registerPlacedProvince(provinceId, provinceId, null);
+                        showNotification(`${provinceId} placé (données incomplètes).`, 'warn');
+                        loadRandomProvince();
+                    });
+                } else {
+                    showNotification('Ce n\'est pas le bon endroit.', 'error');
+                }
+                selectedPointEntity = null;
+            });
+            // hide it when clicking elsewhere (global click)
+            document.addEventListener('click', (e)=>{
+                // if click is not on the placeButton itself, hide it
+                if (!placeButton.contains(e.target)) { placeButton.style.display = 'none'; selectedPointEntity = null; }
+            });
+        }
 
         // Skip button
         if(skipSidebar){ skipSidebar.addEventListener('click', e=>{ e.preventDefault(); selectedEntity=null; const next = pickDifferentProvince() || getRandomProvince(); if(!next) return; skipSidebar.disabled=true; loadProvinceByName(next).finally(()=>{ skipSidebar.disabled=false; }); }); }
