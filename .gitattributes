@@ -1,6 +1,6 @@
+states/*.json filter=lfs diff=lfs merge=lfs -text
 states/Canada.json filter=lfs diff=lfs merge=lfs -text
 states/Russia.json filter=lfs diff=lfs merge=lfs -text
 states/UnitedStates.json filter=lfs diff=lfs merge=lfs -text
 states/Chile.json filter=lfs diff=lfs merge=lfs -text
 states/Greenland.json filter=lfs diff=lfs merge=lfs -text
-states/*.json filter=lfs diff=lfs merge=lfs -text
