@@ -212,19 +212,77 @@
         .notif.error { background: #e74c3c; }
         .notif.warn { background: #f39c12; }
 
+        /* flag images sized to font-size */
+        .flag {
+            height: 1em; /* same height as current font */
+            width: auto;
+            margin-left: 8px;
+            vertical-align: middle;
+            border: 1px solid rgba(0,0,0,0.06);
+            box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+            background: #fff;
+        }
+
+        /* Progress bar in the sidebar (compact, CodePen-like style) */
+        .progress-wrap {
+            width: calc(100% - 16px);
+            margin: 6px 8px;
+            padding: 6px;
+            box-sizing: border-box;
+            background: linear-gradient(180deg, #f5f5f5, #ffffff);
+            border-radius: 8px;
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.6);
+            display:flex;
+            align-items:center;
+            gap:8px;
+        }
+        .progress-track {
+            flex:1 1 auto;
+            height:10px;
+            background: #e9ecef;
+            border-radius: 999px;
+            overflow:hidden;
+            position:relative;
+        }
+        .progress-fill {
+            height:100%;
+            width:0%;
+            background: linear-gradient(90deg,#4ade80,#10b981); /* green gradient */
+            transition: width 500ms ease;
+            box-shadow: inset 0 -2px 6px rgba(0,0,0,0.08);
+        }
+        .progress-text {
+            min-width:44px;
+            text-align:right;
+            font-weight:700;
+            font-size:13px;
+            color:#222;
+        }
+
     </style>
     <title>Giant Globe Puzzle</title>
 </head>
 
 <body>
     <div id="sidebar">
-        <div style="display:flex; align-items:center; justify-content:space-between;">
-            <h2 style="margin:0;">Provinces</h2>
+        <div style="display:flex; align-items:center; justify-content:space-between; gap:12px;">
+            <div style="display:flex;flex-direction:column;">
+                <h2 style="margin:0;">Provinces</h2>
+                <div id="scoreDisplay" style="font-weight:700;font-size:14px;margin-top:6px;color:#222;">Score: 0</div>
+            </div>
             <button id="burgerButton" title="Afficher les provinces placées">☰</button>
         </div>
         <div id="placedPanel"></div>
         <div id="sidebarContent"><!-- tiles --></div>
-        <div id="sidebarBottom"><button id="skipSidebar" style="width:100%; padding:8px;" onmousedown="event.preventDefault();">SKip</button></div>
+        <div id="sidebarBottom">
+            <div class="progress-wrap" aria-hidden="false">
+                <div class="progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <div class="progress-text" id="progressText">0%</div>
+            </div>
+            <button id="skipSidebar" style="width:100%; padding:8px;" onmousedown="event.preventDefault();">Skip</button>
+        </div>
     </div>
     <div id="cesiumContainer"></div>
     <!-- floating Placer button shown when clicking a point -->
@@ -301,12 +359,74 @@
         const placedDataSources = []; // keep all placed GeoJsonDataSource objects so they remain visible
         let lastDataSource = null;
         let selectedPointEntity = null; // for click-to-place flow
+        // total number of province-tiles (features) across all state files
+        let totalProvincesCount = 0;
+        // map filename -> number of features in that file (used for country->features selection)
+        const countryFeatureCounts = {};
+        // attempts per feature key (provinceName::featureIndex)
+        const attemptsByKey = {};
+        // total score
+        let totalScore = 0;
+
+        function updateScoreDisplay(){
+            try{
+                const el = document.getElementById('scoreDisplay');
+                if(el) el.textContent = `Score: ${totalScore}`;
+            }catch(e){}
+        }
 
         function isPlaced(name) { return placedProvinces.some(p => p.name === name); }
+        // check if a specific province featureKey is already placed
+        function isPlacedKey(key) { return placedProvinces.some(p => p.key === key); }
+        // registerPlacedProvince(name, displayName, country, flag, key)
         function registerPlacedProvince(name, displayName, country) {
-            if (isPlaced(name)) return;
-            placedProvinces.push({ name, displayName, country });
+            const flag = (arguments.length >= 4) ? arguments[3] : null;
+            const key = (arguments.length >= 5) ? arguments[4] : null;
+            // if key provided, avoid duplicate per key; otherwise fallback to name-based check
+            if (key) {
+                if (isPlacedKey(key)) return;
+            } else {
+                if (isPlaced(name)) return;
+            }
+            const entry = { name, displayName, country, flag };
+            if (key) entry.key = key;
+            placedProvinces.push(entry);
+            // increment placed features counter only once per unique placed feature
+            placedFeaturesCount += 1;
             updatePlacedPanel();
+            updateProgress();
+        }
+
+        // update the progress bar (placed provinces vs total tiles)
+        function updateProgress(){
+            try{
+                const total = (typeof totalProvincesCount === 'number' && totalProvincesCount>0) ? totalProvincesCount : 0;
+                const placed = (typeof placedFeaturesCount === 'number') ? placedFeaturesCount : 0;
+                const pct = (total > 0) ? Math.round((placed / total) * 100) : 0;
+                const fill = document.getElementById('progressFill');
+                const txt = document.getElementById('progressText');
+                if (fill) { fill.style.width = (total>0? (placed/total*100) : 0) + '%'; if (fill.parentElement) fill.parentElement.setAttribute('aria-valuenow', String(pct)); }
+                if (txt) txt.textContent = `${placed} / ${total}`;
+            }catch(e){/*ignore*/}
+        }
+
+        // initialize progress at startup
+        try{ window.addEventListener('load', ()=>{ setTimeout(()=>{ updateProgress(); }, 50); }); }catch(e){}
+        // Build a likely Wikipedia commons file path for the country's flag.
+        // Uses the 'Special:FilePath' endpoint with a guessed filename like 'Flag_of_France.svg'.
+        // This is best-effort: some countries use different filenames; onerror hides missing images.
+        function makeFlagUrl(countryName) {
+            if (!countryName) return null;
+            // remove common punctuation, replace spaces with underscores
+            let clean = countryName.replace(/[\u2019'‘’.,]/g, '')
+                                  .replace(/\s+/g, '_')
+                                  .replace(/&/g, 'and')
+                                  .replace(/,+$/,'');
+            // common wiki filenames sometimes use 'the' (e.g., 'Flag_of_the_United_Kingdom'),
+            // try the simple form first 'Flag_of_X'
+            const filename = `Flag_of_${clean}.svg`;
+            const url = `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(filename)}`;
+            return url;
         }
 
         function updatePlacedPanel() {
@@ -314,24 +434,60 @@
             placedPanel.innerHTML = '';
             const groups = {};
             placedProvinces.forEach(p => { const k = p.country || 'Unknown'; (groups[k] = groups[k] || []).push(p); });
-            Object.keys(groups).forEach(country => {
-                const h = document.createElement('div'); h.style.fontWeight='bold'; h.style.marginTop='6px'; h.textContent = country; placedPanel.appendChild(h);
-                const ul = document.createElement('ul'); ul.style.paddingLeft='16px';
-                groups[country].forEach(p => {
-                    const li = document.createElement('li'); li.style.cursor='pointer'; li.textContent = p.displayName || p.name;
-                    li.addEventListener('click', () => {
-                        // fly to entity with matching name or property
-                        viewer.dataSources._dataSources.forEach(ds => ds.entities.values.forEach(ent => {
-                            if ((ent.name === p.displayName) || (ent.properties && ent.properties.Name_1 && ent.properties.Name_1 === p.displayName)) {
-                                viewer.flyTo(ent).catch(() => {});
-                            }
-                        }));
-                    });
-                    ul.appendChild(li);
+            // sort country names alphabetically (locale-aware)
+            const countryKeys = Object.keys(groups).sort((a,b)=> a.localeCompare(b, 'fr', { sensitivity: 'base' }));
+            countryKeys.forEach(country => {
+                // sort provinces inside country by displayName/name first (we need items to pick a group's flag)
+                const items = (groups[country] || []).slice().sort((x,y)=> {
+                    const a = (x.displayName || x.name || '').toString();
+                    const b = (y.displayName || y.name || '').toString();
+                    return a.localeCompare(b, 'fr', { sensitivity: 'base' });
                 });
-                placedPanel.appendChild(ul);
-            });
-        }
+                // choose a flag from the group's provinces if present, otherwise fallback to guessed URL
+                let groupFlag = null;
+                for (const it of items) { if (it && it.flag) { groupFlag = it.flag; break; } }
+                const flagUrl = groupFlag || makeFlagUrl(country);
+
+                // header with flag on the left and country name to the right
+                const header = document.createElement('div');
+                header.style.display = 'flex';
+                header.style.alignItems = 'center';
+                header.style.gap = '8px';
+                header.style.marginTop = '6px';
+
+                if (flagUrl) {
+                    const img = document.createElement('img');
+                    img.className = 'flag';
+                    img.alt = `${country} flag`;
+                    img.src = flagUrl;
+                    // hide image if it fails to load (some filenames differ)
+                    img.onerror = () => { try { img.style.display = 'none'; } catch (e) {} };
+                    header.appendChild(img);
+                }
+
+                const h = document.createElement('div');
+                h.style.fontWeight = 'bold';
+                h.textContent = country;
+                header.appendChild(h);
+
+                placedPanel.appendChild(header);
+
+                const ul = document.createElement('ul'); ul.style.paddingLeft='16px';
+                 items.forEach(p => {
+                     const li = document.createElement('li'); li.style.cursor='pointer'; li.textContent = p.displayName || p.name;
+                     li.addEventListener('click', () => {
+                         // fly to entity with matching name or property
+                         viewer.dataSources._dataSources.forEach(ds => ds.entities.values.forEach(ent => {
+                             if ((ent.name === p.displayName) || (ent.properties && ent.properties.Name_1 && ent.properties.Name_1 === p.displayName)) {
+                                 viewer.flyTo(ent).catch(() => {});
+                             }
+                         }));
+                     });
+                     ul.appendChild(li);
+                 });
+                 placedPanel.appendChild(ul);
+             });
+         }
 
         function pickDifferentProvince() {
             if (!file_list || file_list.length === 0) return null;
@@ -445,22 +601,37 @@
         }
 
         async function loadAllFeatures(){
+            totalProvincesCount = 0;
             for(const provinceName of file_list){
-                try{ const resp = await fetch(`./states/${provinceName}.json`); if(!resp.ok) continue; const geoJson = await resp.json(); if(geoJson.features && Array.isArray(geoJson.features)) geoJson.features.forEach((f, idx)=> addPointToGlobe(provinceName,f.geometry,f.properties, idx)); }catch(e){/*ignore*/}
+                try{
+                    const resp = await fetch(`./states/${provinceName}.json`);
+                    if(!resp.ok) continue;
+                    const geoJson = await resp.json();
+                    if(geoJson.features && Array.isArray(geoJson.features)){
+                        const count = geoJson.features.length;
+                        countryFeatureCounts[provinceName] = count;
+                        totalProvincesCount += count;
+                        geoJson.features.forEach((f, idx)=> addPointToGlobe(provinceName,f.geometry,f.properties, idx));
+                    } else {
+                        countryFeatureCounts[provinceName] = 0;
+                    }
+                }catch(e){ countryFeatureCounts[provinceName] = 0; /*ignore*/}
             }
-        }
-        loadAllFeatures();
+         }
+        // load all features and update progress once totals are known
+        loadAllFeatures().then(()=>{ try{ updateProgress(); }catch(e){} });
 
-        async function loadProvinceByName(provinceName){
-            if(!provinceName) return;
-            try{
-                const resp = await fetch(`./states/${provinceName}.json`);
-                if(!resp.ok) return;
-                const geoJson = await resp.json(); if(geoJson.features && geoJson.features.length>0){
-                    // By default we show feature index 0 (first feature) in the sidebar tile.
-                    const displayedFeatureIndex = 0;
+        // loadProvinceByName(provinceName, featureIndex?) - if featureIndex provided, show that exact tile
+        async function loadProvinceByName(provinceName, featureIndex){
+             if(!provinceName) return;
+             try{
+                 const resp = await fetch(`./states/${provinceName}.json`);
+                 if(!resp.ok) return;
+                 const geoJson = await resp.json(); if(geoJson.features && geoJson.features.length>0){
+                    // choose featureIndex if provided, otherwise pick randomly among features
+                    const displayedFeatureIndex = (typeof featureIndex === 'number' && featureIndex >=0 && featureIndex < geoJson.features.length) ? featureIndex : Math.floor(Math.random() * geoJson.features.length);
                     const feat0 = geoJson.features[displayedFeatureIndex];
-                    const props=feat0.properties; const geometry=feat0.geometry; const displayName = props.Name_1 || props.Country || provinceName;
+                     const props=feat0.properties; const geometry=feat0.geometry; const displayName = props.Name_1 || props.Country || provinceName;
                     // set the centroid signature and key for the exact feature we're showing
                     try{
                         const c = turf.center(geometry).geometry.coordinates; currentDisplayedFeatureCentroid = `${Number(c[0]).toFixed(6)},${Number(c[1]).toFixed(6)}`;
@@ -516,10 +687,31 @@
                     svg.appendChild(path);
                     wrapper.appendChild(svg);
 
-                    // title above the SVG
+                    // title above the SVG with flag to the RIGHT
                     const titleDiv = document.createElement('div');
                     titleDiv.className = 'tileTitle';
-                    titleDiv.textContent = displayName;
+                    // container row to hold name + flag
+                    const titleRow = document.createElement('div');
+                    titleRow.style.display = 'flex';
+                    titleRow.style.alignItems = 'center';
+                    titleRow.style.justifyContent = 'space-between';
+
+                    const titleText = document.createElement('div');
+                    titleText.textContent = displayName;
+                    titleText.style.flex = '1 1 auto';
+                    titleText.style.textAlign = 'center';
+
+                    // flag image to the right of the name (if available)
+                    const flagImg = document.createElement('img');
+                    flagImg.className = 'flag';
+                    flagImg.alt = countryForFlag ? `${countryForFlag} flag` : '';
+                    if (flagForTile) { flagImg.src = flagForTile; }
+                    flagImg.onerror = () => { try { flagImg.style.display = 'none'; } catch (e) {} };
+
+                    titleRow.appendChild(titleText);
+                    titleRow.appendChild(flagImg);
+                    titleDiv.appendChild(titleRow);
+
                     // make the title draggable too (same behaviour as wrapper) to ease drag start
                     titleDiv.draggable = true;
                     titleDiv.addEventListener('dragstart', (e) => {
@@ -533,18 +725,54 @@
                     });
                     titleDiv.addEventListener('dragend', () => titleDiv.classList.remove('dragging'));
 
+                    // ensure the attempts counter exists for this displayed feature (preserve if returning)
+                    try{ if(currentDisplayedProvinceKey && typeof attemptsByKey[currentDisplayedProvinceKey] === 'undefined') attemptsByKey[currentDisplayedProvinceKey] = 0; }catch(e){}
+
                      sidebarContent.innerHTML = '';
                     // append title and wrapper inside the tile so the whole tile is one draggable area
                     tile.appendChild(titleDiv);
                     tile.appendChild(wrapper);
-                    sidebarContent.appendChild(tile);
+                     sidebarContent.appendChild(tile);
 
                      currentDisplayedProvince = provinceName; currentIndex = file_list.indexOf(provinceName);
                 }
             }catch(e){/*ignore*/}
         }
 
-        async function loadRandomProvince(){ const p = getRandomProvince(); if(p) await loadProvinceByName(p); }
+        // pick random with two-level uniform selection: choose country uniformly among file_list,
+        // then choose randomly one of that country's features uniformly. Skip countries with no remaining unplaced features.
+        function pickRandomCountryFeature(){
+            // build list of candidate countries that still have at least one unplaced feature
+            const candidates = [];
+            for(const country of file_list){
+                const count = countryFeatureCounts[country] || 0;
+                if(count <= 0) continue;
+                // build quickly: if any featureIndex is unplaced
+                let hasUnplaced = false;
+                for(let i=0;i<count;i++){
+                    const key = `${country}::${i}`;
+                    if(!isPlacedKey(key)) { hasUnplaced = true; break; }
+                }
+                if(hasUnplaced) candidates.push(country);
+            }
+            if(candidates.length === 0) return null;
+            // choose a country uniformly
+            const country = candidates[Math.floor(Math.random() * candidates.length)];
+            const count = countryFeatureCounts[country] || 0;
+            // gather unplaced indices for chosen country
+            const unplaced = [];
+            for(let i=0;i<count;i++){ const key = `${country}::${i}`; if(!isPlacedKey(key)) unplaced.push(i); }
+            if(unplaced.length === 0) return null;
+            const featureIndex = unplaced[Math.floor(Math.random() * unplaced.length)];
+            return { country, featureIndex };
+        }
+
+        async function loadRandomProvince(){
+            const choice = pickRandomCountryFeature();
+            if(!choice) return;
+            await loadProvinceByName(choice.country, choice.featureIndex);
+        }
+        // initial random choice
         loadRandomProvince();
 
         // ensure Cesium infoBox is hidden unless we set viewer.selectedEntity on polygons
@@ -572,7 +800,10 @@
         cesiumContainer.addEventListener('dragover', e=>{ e.preventDefault(); e.dataTransfer.dropEffect='copy'; });
         cesiumContainer.addEventListener('drop', e=>{
             e.preventDefault(); const provinceKey = e.dataTransfer.getData('text/plain') || e.dataTransfer.getData('text');
-            if(!provinceKey) return; const cart = getCartesianFromDomEvent(e); if(!cart){ showNotification('Impossible de déterminer l\'endroit sur le globe.', 'error'); return; } const nearest = findNearestPointEntity(cart);
+            if(!provinceKey) return; const cart = getCartesianFromDomEvent(e); if(!cart){ showNotification('Impossible de déterminer l\'endroit sur le globe.', 'error'); return; }
+            // register an attempt for the currently displayed feature (so skips are preserved across returns)
+            try{ if(currentDisplayedProvinceKey){ attemptsByKey[currentDisplayedProvinceKey] = (attemptsByKey[currentDisplayedProvinceKey] || 0) + 1; } }catch(e){}
+            const nearest = findNearestPointEntity(cart);
             if(!nearest || !nearest.entity){ showNotification('Aucun point proche trouvé.', 'error'); return; }
             // check both unique provinceKey match AND exact feature centroid match (if available)
             const centroidMatches = currentDisplayedFeatureCentroid && nearest.entity.featureCentroid && (nearest.entity.featureCentroid === currentDisplayedFeatureCentroid);
@@ -583,14 +814,26 @@
                 // read the specific feature from the file
                 fetch(`./states/${provinceId}.json`).then(r=>{ if(!r.ok) throw new Error('fetch'); return r.json(); }).then(json=>{
                    const feat = (json.features && json.features[featureIndex])||null; const displayName = feat && (feat.properties.Name_1 || feat.properties.Country) ? (feat.properties.Name_1 || feat.properties.Country) : provinceId; const country = feat && feat.properties && feat.properties.Country ? feat.properties.Country : null;
+                   const flagUrl = json && json.flag ? json.flag : null;
                    displayProvinceOnGlobe(nearest.entity.featureGeometry);
                    try{ viewer.entities.remove(nearest.entity); }catch(e){}
-                   registerPlacedProvince(provinceId, displayName, country);
-                   showNotification(`${displayName} placé !`, 'success');
-                   loadRandomProvince();
-               }).catch(()=>{ displayProvinceOnGlobe(nearest.entity.featureGeometry); try{ viewer.entities.remove(nearest.entity); }catch(e){} registerPlacedProvince(provinceId, provinceId, null); loadRandomProvince(); });
-            } else { showNotification('Ce n\'est pas le bon endroit.', 'error'); }
-        });
+                   // compute score based on attempts for this displayed feature
+                   try{
+                       const key = currentDisplayedProvinceKey || (nearest.entity && nearest.entity.provinceKey);
+                       const attempts = key ? (attemptsByKey[key] || 0) : 1;
+                       let points = 1;
+                       if(attempts === 1) points = 5;
+                       else if(attempts >=2 && attempts <=4) points = 3;
+                       else points = 1;
+                       totalScore += points; updateScoreDisplay();
+                       showNotification(`${displayName} placé ! +${points} pts`, 'success');
+                   }catch(e){ showNotification(`${displayName} placé !`, 'success'); }
+                   // register using the unique entity key to allow multiple tiles per file
+                   registerPlacedProvince(provinceId, displayName, country, flagUrl, nearest.entity && nearest.entity.provinceKey ? nearest.entity.provinceKey : null);
+                    loadRandomProvince();
+                 }).catch(()=>{ displayProvinceOnGlobe(nearest.entity.featureGeometry); try{ viewer.entities.remove(nearest.entity); }catch(e){} registerPlacedProvince(provinceId, provinceId, null, null, nearest && nearest.entity && nearest.entity.provinceKey ? nearest.entity.provinceKey : null); loadRandomProvince(); });
+             } else { showNotification('Ce n\'est pas le bon endroit.', 'error'); }
+         });
 
         // click handler: points stay white; polygons show infoBox and clicking points shows Placer button
         let selectedEntity = null;
@@ -658,6 +901,8 @@
                 if (!selectedPointEntity) return;
                 const clickedKey = selectedPointEntity.provinceKey;
                 if (!clickedKey) return;
+                // register an attempt for the currently displayed feature
+                try{ if(currentDisplayedProvinceKey){ attemptsByKey[currentDisplayedProvinceKey] = (attemptsByKey[currentDisplayedProvinceKey] || 0) + 1; } }catch(e){}
                 // ensure we match the exact feature key and centroid
                 const centroidMatches = currentDisplayedFeatureCentroid && selectedPointEntity.featureCentroid && (selectedPointEntity.featureCentroid === currentDisplayedFeatureCentroid);
                 if (clickedKey === currentDisplayedProvinceKey && centroidMatches) {
@@ -670,14 +915,24 @@
                     const [provinceId, featureIndexStr] = clickedKey.split('::'); const featureIndex = parseInt(featureIndexStr||'0',10) || 0;
                     fetch(`./states/${provinceId}.json`).then(r=>{ if(!r.ok) throw new Error('fetch'); return r.json(); }).then(json=>{
                         const feat = (json.features && json.features[featureIndex])||null; const displayName = feat && (feat.properties.Name_1 || feat.properties.Country) ? (feat.properties.Name_1 || feat.properties.Country) : provinceId; const country = feat && feat.properties && feat.properties.Country ? feat.properties.Country : null;
-                        registerPlacedProvince(provinceId, displayName, country);
-                        showNotification(`${displayName} placé !`, 'success');
-                        loadRandomProvince();
-                    }).catch(()=>{
-                        registerPlacedProvince(provinceId, provinceId, null);
+                        const flagUrl = json && json.flag ? json.flag : null;
+                        // compute score for this placement using attempts counter
+                        try{
+                            const attempts = attemptsByKey[clickedKey] || 0;
+                            let points = 1;
+                            if(attempts === 1) points = 5;
+                            else if(attempts >=2 && attempts <=4) points = 3;
+                            else points = 1;
+                            totalScore += points; updateScoreDisplay();
+                            showNotification(`${displayName} placé ! +${points} pts`, 'success');
+                        }catch(e){ showNotification(`${displayName} placé !`, 'success'); }
+                        registerPlacedProvince(provinceId, displayName, country, flagUrl, clickedKey);
+                         loadRandomProvince();
+                     }).catch(()=>{
+                        registerPlacedProvince(provinceId, provinceId, null, null, clickedKey || null);
                         showNotification(`${provinceId} placé (données incomplètes).`, 'warn');
-                        loadRandomProvince();
-                    });
+                         loadRandomProvince();
+                     });
                 } else {
                     showNotification('Ce n\'est pas le bon endroit.', 'error');
                 }
@@ -691,7 +946,7 @@
         }
 
         // Skip button
-        if(skipSidebar){ skipSidebar.addEventListener('click', e=>{ e.preventDefault(); selectedEntity=null; const next = pickDifferentProvince() || getRandomProvince(); if(!next) return; skipSidebar.disabled=true; loadProvinceByName(next).finally(()=>{ skipSidebar.disabled=false; }); }); }
+        if(skipSidebar){ skipSidebar.addEventListener('click', e=>{ e.preventDefault(); selectedEntity=null; skipSidebar.disabled=true; loadRandomProvince().finally(()=>{ skipSidebar.disabled=false; }); }); }
 
         // burger toggle
         if(burgerButton){ burgerButton.addEventListener('click', ()=>{ if(!placedPanel) return; placedPanel.style.display = placedPanel.style.display==='block'?'none':'block'; }); }
