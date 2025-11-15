@@ -291,6 +291,31 @@
     <!-- Notifications container -->
     <div id="notifications" aria-live="polite" aria-atomic="true"></div>
 
+    <!-- Save/Load small panel (bottom-right) -->
+    <div id="savePanelToggle" style="position:fixed; right:16px; bottom:16px; z-index:20000;">
+        <button id="saveBtn" title="Sauvegarde" style="width:44px; height:44px; border-radius:50%; background:#0ea5a4; color:#fff; border:none; box-shadow:0 6px 18px rgba(0,0,0,0.12); cursor:pointer; font-weight:700;">⇪</button>
+        <div id="savePanel" style="display:none; width:320px; max-width:calc(100vw - 40px); background:#fff; box-shadow:0 8px 24px rgba(0,0,0,0.12); padding:10px; border-radius:8px; margin-top:8px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; gap:8px;">
+                <strong>Sauvegarde</strong>
+                <button id="closeSavePanel" style="border:none;background:transparent;cursor:pointer;font-size:16px;">✕</button>
+            </div>
+            <div style="margin-top:8px; font-size:13px; color:#333;">Exporter ou importer votre progression.</div>
+            <div style="display:flex; gap:8px; margin-top:10px;">
+                <button id="exportBtn" style="flex:1;padding:8px;border-radius:6px;border:none;background:#10b981;color:#fff;cursor:pointer;">Exporter JSON</button>
+                <label style="flex:1;">
+                    <input id="importFile" type="file" accept="application/json" style="display:none;">
+                    <button id="importBtn" style="width:100%;padding:8px;border-radius:6px;border:none;background:#ef4444;color:#fff;cursor:pointer;">Importer</button>
+                </label>
+            </div>
+            <div style="margin-top:8px; font-size:12px; color:#666;">Ou coller un JSON ci-dessous puis valider :</div>
+            <textarea id="importArea" style="width:100%;height:120px;margin-top:8px;border:1px solid #e5e7eb;padding:8px;border-radius:6px;box-sizing:border-box;"></textarea>
+            <div style="display:flex; gap:8px; margin-top:8px;">
+                <button id="applyImport" style="flex:1;padding:8px;border-radius:6px;border:none;background:#2563eb;color:#fff;cursor:pointer;">Appliquer</button>
+                <button id="clearImport" style="flex:1;padding:8px;border-radius:6px;border:1px solid #e5e7eb;background:#fff;color:#111;cursor:pointer;">Effacer</button>
+            </div>
+        </div>
+    </div>
+
     <script type="module">
         // Restore a working Cesium Ion access token (previously used in this project).
         Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJhYWUxMjgyOC04YjI0LTQ0NGUtYjM0OC0wMWQ1MGJkNWVjZjYiLCJpZCI6MjQwNDc3LCJpYXQiOjE3MjU5ODAxMDB9.Ml_ZTxTk_V86bdUOdoJ0k8klK7iyN-0atpz-KXvvYRs';
@@ -355,10 +380,11 @@
         let currentDisplayedProvinceKey = null; // unique key provinceName::featureIndex for the tile shown
         let currentDisplayedFeatureCentroid = null; // centroid string 'lon,lat' of the feature shown in sidebar
         let currentIndex = -1;
-        const placedProvinces = []; // { name, displayName, country }
+        let placedProvinces = []; // { name, displayName, country }
         const placedDataSources = []; // keep all placed GeoJsonDataSource objects so they remain visible
         let lastDataSource = null;
         let selectedPointEntity = null; // for click-to-place flow
+        let placedFeaturesCount = 0; // total count of placed feature-tiles
         // total number of province-tiles (features) across all state files
         let totalProvincesCount = 0;
         // map filename -> number of features in that file (used for country->features selection)
@@ -950,6 +976,93 @@
 
         // burger toggle
         if(burgerButton){ burgerButton.addEventListener('click', ()=>{ if(!placedPanel) return; placedPanel.style.display = placedPanel.style.display==='block'?'none':'block'; }); }
+
+        // --- Save / Load logic ---
+        const saveBtn = document.getElementById('saveBtn');
+        const savePanel = document.getElementById('savePanel');
+        const closeSavePanel = document.getElementById('closeSavePanel');
+        const exportBtn = document.getElementById('exportBtn');
+        const importBtn = document.getElementById('importBtn');
+        const importFile = document.getElementById('importFile');
+        const importArea = document.getElementById('importArea');
+        const applyImport = document.getElementById('applyImport');
+        const clearImport = document.getElementById('clearImport');
+
+        function getSaveObject(){
+            return {
+                placedProvinces: placedProvinces.slice(),
+                attemptsByKey: Object.assign({}, attemptsByKey),
+                totalScore: totalScore || 0,
+                placedFeaturesCount: placedFeaturesCount || 0,
+                totalProvincesCount: totalProvincesCount || 0
+            };
+        }
+
+        function exportProgress(){
+            try{
+                const obj = getSaveObject();
+                const blob = new Blob([JSON.stringify(obj, null, 2)], { type: 'application/json' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a'); a.href = url; a.download = 'puzzle_globe_save.json'; document.body.appendChild(a); a.click(); setTimeout(()=>{ URL.revokeObjectURL(url); try{ document.body.removeChild(a); }catch(e){} }, 500);
+            }catch(e){ showNotification('Erreur lors de l\'export.', 'error'); }
+        }
+
+        async function applyImportedObject(obj){
+            if(!obj || !obj.placedProvinces) { showNotification('Fichier invalide.', 'error'); return; }
+            try{
+                // replace local arrays
+                placedProvinces.length = 0; placedProvinces.push(...obj.placedProvinces);
+                for(const k in attemptsByKey) delete attemptsByKey[k];
+                Object.assign(attemptsByKey, obj.attemptsByKey || {});
+                totalScore = Number(obj.totalScore) || 0;
+                placedFeaturesCount = Number(obj.placedFeaturesCount) || placedProvinces.length;
+                updateScoreDisplay(); updatePlacedPanel(); updateProgress();
+
+                // remove any existing placed polygons / points that correspond to these placed keys, then show polygons
+                // first remove matching point entities so they don't remain
+                try{
+                    const now = Cesium.JulianDate.now();
+                    const ents = viewer.entities.values.slice();
+                    for(const ent of ents){ if(ent && ent.provinceKey && isPlacedKey(ent.provinceKey)){ try{ viewer.entities.remove(ent); }catch(e){} } }
+                }catch(e){}
+
+                // load polygons for each placed province entry
+                for(const p of placedProvinces){
+                    try{
+                        const name = p.name;
+                        const key = p.key || null;
+                        if(!name) continue;
+                        // if key available, try to fetch specific feature
+                        if(key && key.includes('::')){
+                            const parts = key.split('::'); const fname = parts[0]; const idx = parseInt(parts[1]||'0',10) || 0;
+                            try{
+                                const r = await fetch(`./states/${fname}.json`);
+                                if(!r.ok) continue;
+                                const j = await r.json(); const feat = (j.features && j.features[idx])? j.features[idx] : null;
+                                if(feat && feat.geometry) displayProvinceOnGlobe(feat.geometry);
+                            }catch(e){ /* ignore per-file errors */ }
+                        } else {
+                            // fallback: try to load first feature of the file
+                            try{
+                                const r = await fetch(`./states/${name}.json`);
+                                if(!r.ok) continue; const j = await r.json(); const feat = (j.features && j.features[0])? j.features[0] : null; if(feat && feat.geometry) displayProvinceOnGlobe(feat.geometry);
+                            }catch(e){}
+                        }
+                    }catch(e){}
+                }
+
+                showNotification('Sauvegarde importée avec succès.', 'success');
+            }catch(e){ showNotification('Erreur lors de l\'import.', 'error'); }
+        }
+
+        // UI wiring
+        if(saveBtn) saveBtn.addEventListener('click', ()=>{ savePanel.style.display = savePanel.style.display === 'block' ? 'none' : 'block'; });
+        if(closeSavePanel) closeSavePanel.addEventListener('click', ()=>{ savePanel.style.display='none'; });
+        if(exportBtn) exportBtn.addEventListener('click', exportProgress);
+        if(importBtn) importBtn.addEventListener('click', ()=> importFile.click());
+        if(importFile) importFile.addEventListener('change', (ev)=>{ const f = ev.target.files && ev.target.files[0]; if(!f) return; const r = new FileReader(); r.onload = (e)=>{ try{ const parsed = JSON.parse(e.target.result); applyImportedObject(parsed); }catch(ex){ showNotification('Fichier JSON invalide.', 'error'); } }; r.readAsText(f); });
+        if(applyImport) applyImport.addEventListener('click', ()=>{ const txt = importArea.value && importArea.value.trim(); if(!txt){ showNotification('Collez un JSON valide.', 'error'); return; } try{ const parsed = JSON.parse(txt); applyImportedObject(parsed); }catch(e){ showNotification('JSON invalide.', 'error'); } });
+        if(clearImport) clearImport.addEventListener('click', ()=>{ importArea.value=''; });
 
     </script>
 </body>
