@@ -4,24 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e132f79-9129-48e0-bb6f-72ef177dc49c" name="Changes" comment="Enhance globe interaction with point placement and notification features">
+    <list default="true" id="1e132f79-9129-48e0-bb6f-72ef177dc49c" name="Changes" comment="Update workspace configuration and enhance terminal settings">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/UnitedKingdom.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/UnitedKingdom.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/UnitedStatesMinorOutlyingIslands.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/UnitedStatesMinorOutlyingIslands.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Uruguay.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Uruguay.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Uzbekistan.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Uzbekistan.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Vanuatu.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Vanuatu.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Vatican.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Vatican.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Venezuela.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Venezuela.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Vietnam.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Vietnam.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/VirginIslands,US.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/VirginIslands,US.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/WallisandFutuna.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/WallisandFutuna.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/WesternSahara.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/WesternSahara.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Yemen.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Yemen.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Zambia.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Zambia.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Zimbabwe.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Zimbabwe.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Åland.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Åland.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/states/AkrotiriandDhekelia.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/AkrotiriandDhekelia.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/states/AmericanSamoa.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/AmericanSamoa.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/states/AntiguaandBarbuda.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/AntiguaandBarbuda.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/states/BonaireSintEustatiusandSaba.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/BonaireSintEustatiusandSaba.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/states/BosniaandHerzegovina.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/BosniaandHerzegovina.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/states/BouvetIsland.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/BouvetIsland.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/states/BritishIndianOceanTerritory.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/BritishIndianOceanTerritory.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/states/BritishVirginIslands.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/BritishVirginIslands.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/states/BurkinaFaso.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/BurkinaFaso.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/states/CaboVerde.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/CaboVerde.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/states/CaymanIslands.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/CaymanIslands.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,24 +64,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JavaScript Debug.index.html.executor": "Run",
-    "Node.js.cleaning.js.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.cleaning.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.inline.completion&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\zazar\Documents\Puzzle globe" />
@@ -113,7 +109,8 @@
       <workItem from="1762951458058" duration="12527000" />
       <workItem from="1763134492170" duration="84000" />
       <workItem from="1763134944948" duration="21587000" />
-      <workItem from="1763286637096" duration="11950000" />
+      <workItem from="1763286637096" duration="16670000" />
+      <workItem from="1763323468731" duration="4454000" />
     </task>
     <task id="LOCAL-00001" summary="Preparing for Puzzle Globe">
       <option name="closed" value="true" />
@@ -147,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763150828519</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update workspace configuration and enhance terminal settings">
+      <option name="closed" value="true" />
+      <created>1763314900891</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1763314900891</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,7 +163,8 @@
     <MESSAGE value="Implement point selection and placement on the globe" />
     <MESSAGE value="Implement point selection and placement functionality on the globe" />
     <MESSAGE value="Enhance globe interaction with point placement and notification features" />
-    <option name="LAST_COMMIT_MESSAGE" value="Enhance globe interaction with point placement and notification features" />
+    <MESSAGE value="Update workspace configuration and enhance terminal settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update workspace configuration and enhance terminal settings" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Puzzle_globe$index_html.dat" NAME="index.html Coverage Results" MODIFIED="1762979615847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

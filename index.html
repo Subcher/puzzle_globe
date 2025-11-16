@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="utf-8" />
@@ -106,34 +106,20 @@
         /* SVG wrapper ensures square SVG */
         .svg-wrapper {
             width: 100%;
-            aspect-ratio: 1 / 1; /* force square when supported */
-            /* fallback for browsers that don't support aspect-ratio: use padding-top trick */
-            position: relative;
-            display: block;
+            aspect-ratio: 1 / 1; /* force square */
+            display: flex;
+            align-items: center;
+            justify-content: center;
             overflow: hidden;
             background: #fff;
             box-sizing: border-box;
         }
 
-        /* create a padding-based square fallback using a pseudo-element */
-        .svg-wrapper::before {
-            content: '';
-            display: block;
-            padding-top: 100%; /* keep a square aspect by default */
-            /* only used when aspect-ratio is not honored; when aspect-ratio is supported this has no visual effect */
-        }
-
-        /* place the SVG absolutely inside the square so it always fills the available square area */
         .svg-wrapper svg {
-            position: absolute;
-            top: 6px;
-            left: 6px;
-            right: 6px;
-            bottom: 6px;
-            width: calc(100% - 12px);
-            height: calc(100% - 12px);
-            max-width: none;
-            max-height: none;
+            width: 100%;
+            height: 100%;
+            max-width: 100%;
+            max-height: 100%;
             display: block;
             cursor: grab; /* indicate draggable */
         }
@@ -230,446 +216,772 @@
         .flag {
             height: 1em; /* same height as current font */
             width: auto;
-            margin-right: 8px;
+            margin-right: 4px; /* tighter spacing */
             vertical-align: middle;
             border: 1px solid rgba(0,0,0,0.06);
             box-shadow: 0 1px 2px rgba(0,0,0,0.04);
             background: #fff;
+            display: inline-block;
         }
 
-        /* Progress bar in the sidebar (compact, CodePen-like style) */
-        .progress-wrap {
-            width: calc(100% - 16px);
-            margin: 6px 8px;
-            padding: 6px;
-            box-sizing: border-box;
-            background: linear-gradient(180deg, #f5f5f5, #ffffff);
-            border-radius: 8px;
-            box-shadow: inset 0 1px 0 rgba(255,255,255,0.6);
-            display:flex;
-            align-items:center;
-            gap:8px;
+        /* placedPanel specific flags (country header) - small fixed size */
+        #placedPanel .country-flag {
+            height: 16px;
+            max-height: 16px;
+            max-width: 28px;
+            width: auto;
+            margin-right: 4px; /* tighter spacing */
+            vertical-align: middle;
+            flex: 0 0 auto;
+            object-fit: contain;
+            display: inline-block;
         }
-        .progress-track {
-            flex:1 1 auto;
-            height:10px;
-            background: #e9ecef;
-            border-radius: 999px;
-            overflow:hidden;
-            position:relative;
+
+        /* country header styling to avoid large fonts affecting flag size */
+        #placedPanel .country-header {
+            display: flex;
+            align-items: center;
+            gap: 4px; /* tighter gap */
+            margin-top: 8px;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 1.2;
         }
-        .progress-fill {
-            height:100%;
-            width:0%;
-            background: linear-gradient(90deg,#4ade80,#10b981); /* green gradient */
-            transition: width 500ms ease;
-            box-shadow: inset 0 -2px 6px rgba(0,0,0,0.08);
-        }
-        .progress-text {
-            min-width:44px;
-            text-align:right;
-            font-weight:700;
-            font-size:13px;
-            color:#222;
-        }
+
+        /* ensure placedPanel list is compact and shows bullets */
+        #placedPanel ul { margin:6px 0 12px 14px; padding:0; }
+        #placedPanel li { margin:4px 0; list-style: disc; }
 
     </style>
     <title>Giant Globe Puzzle</title>
 </head>
 
 <body>
-    <div id="sidebar">
-        <div style="display:flex; align-items:center; justify-content:space-between; gap:12px;">
-            <div style="display:flex;flex-direction:column;">
-                <h2 id="sidebarTitle" style="margin:0;">Provinces</h2>
-                <div id="scoreDisplay" style="font-weight:700;font-size:14px;margin-top:6px;color:#222;">Score: 0</div>
-            </div>
-            <div style="display:flex;align-items:center;gap:8px;">
-                <button id="burgerButton" title="Show placed provinces">☰</button>
-            </div>
+<div id="sidebar">
+    <div style="display:flex; align-items:center; justify-content:space-between;">
+        <div style="display:flex;flex-direction:column;gap:6px;">
+            <h2 style="margin:0;">Provinces</h2>
+            <div id="scoreDisplay" style="font-size:13px;font-weight:700;color:#111;">Score: 0</div>
         </div>
-        <div id="placedPanel"></div>
-        <div id="sidebarContent"><!-- tiles --></div>
-        <div id="sidebarBottom">
-            <div class="progress-wrap" aria-hidden="false">
-                <div class="progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
-                    <div class="progress-fill" id="progressFill"></div>
-                </div>
-                <div class="progress-text" id="progressText">0%</div>
-            </div>
-            <button id="skipSidebar" style="width:100%; padding:8px;" onmousedown="event.preventDefault();">Skip</button>
-        </div>
+        <button id="burgerButton" title="Afficher les provinces placées">☰</button>
     </div>
-    <div id="cesiumContainer"></div>
-    <!-- floating Placer button shown when clicking a point -->
-    <button id="placeButton">Place</button>
+    <div id="placedPanel"></div>
+    <div id="sidebarContent"><!-- tiles --></div>
+    <div id="sidebarBottom"><button id="skipSidebar" style="width:100%; padding:8px;" onmousedown="event.preventDefault();">SKip</button></div>
+</div>
+<div id="cesiumContainer"></div>
+<!-- floating Placer button shown when clicking a point -->
+<button id="placeButton">Placer</button>
 
-    <!-- Notifications container -->
-    <div id="notifications" aria-live="polite" aria-atomic="true"></div>
+<!-- Notifications container -->
+<div id="notifications" aria-live="polite" aria-atomic="true"></div>
 
-    <!-- Save/Load small panel (bottom-right) -->
-    <div id="savePanelToggle" style="position:fixed; right:16px; bottom:16px; z-index:20000;">
-        <button id="saveBtn" title="Save" style="width:44px; height:44px; border-radius:50%; background:#0ea5a4; color:#fff; border:none; box-shadow:0 6px 18px rgba(0,0,0,0.12); cursor:pointer; font-weight:700;">⇪</button>
-        <div id="savePanel" style="display:none; width:320px; max-width:calc(100vw - 40px); background:#fff; box-shadow:0 8px 24px rgba(0,0,0,0.12); padding:10px; border-radius:8px; margin-top:8px;">
-            <div style="display:flex; justify-content:space-between; align-items:center; gap:8px;">
-                <strong>Save</strong>
-                <button id="closeSavePanel" style="border:none;background:transparent;cursor:pointer;font-size:16px;">✕</button>
-            </div>
-            <div style="margin-top:8px; font-size:13px; color:#333;">Export or import your progress.</div>
-            <div style="display:flex; gap:8px; margin-top:10px;">
-                <button id="exportBtn" style="flex:1;padding:8px;border-radius:6px;border:none;background:#10b981;color:#fff;cursor:pointer;">Export JSON</button>
-                <label style="flex:1;">
-                    <input id="importFile" type="file" accept="application/json" style="display:none;">
-                    <button id="importBtn" style="width:100%;padding:8px;border-radius:6px;border:none;background:#ef4444;color:#fff;cursor:pointer;">Import</button>
-                </label>
-            </div>
-            <div style="margin-top:8px; font-size:12px; color:#666;">Or paste a JSON below and validate:</div>
-            <textarea id="importArea" style="width:100%;height:120px;margin-top:8px;border:1px solid #e5e7eb;padding:8px;border-radius:6px;box-sizing:border-box;"></textarea>
-            <div style="display:flex; gap:8px; margin-top:8px;">
-                <button id="validateImport" style="flex:1;padding:8px;border-radius:6px;border:none;background:#2563eb;color:#fff;cursor:pointer;">Validate JSON</button>
-            </div>
-        </div>
-    </div>
+<script type="module">
+    // Restore a working Cesium Ion access token (previously used in this project).
+    Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJhYWUxMjgyOC04YjI0LTQ0NGUtYjM0OC0wMWQ1MGJkNWVjZjYiLCJpZCI6MjQwNDc3LCJpYXQiOjE3MjU5ODAxMDB9.Ml_ZTxTk_V86bdUOdoJ0k8klK7iyN-0atpz-KXvvYRs';
 
-    <script type="module">
-        // Restore a working Cesium Ion access token (previously used in this project).
-        Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJhYWUxMjgyOC04YjI0LTQ0NGUtYjM0OC0wMWQ1MGJkNWVjZjYiLCJpZCI6MjQwNDc3LCJpYXQiOjE3MjU5ODAxMDB9.Ml_ZTxTk_V86bdUOdoJ0k8klK7iyN-0atpz-KXvvYRs';
+    const viewer = new Cesium.Viewer('cesiumContainer', {
+        terrainProviderViewModels: Cesium.createDefaultTerrainProviderViewModels(),
+        selectedTerrainProviderViewModel: Cesium.createDefaultTerrainProviderViewModels()[0]
+    });
 
-        // Disable infoBox and selectionIndicator (Cesium creates a sandboxed iframe for the InfoBox)
-        // which can cause "Blocked script execution in 'about:blank' because the document's frame is sandboxed"
-        // when HTML content includes scripts. Also turn off other widgets we don't use.
-        const viewer = new Cesium.Viewer('cesiumContainer', {
-            terrainProviderViewModels: Cesium.createDefaultTerrainProviderViewModels(),
-            selectedTerrainProviderViewModel: Cesium.createDefaultTerrainProviderViewModels()[0],
-            infoBox: false,
-            selectionIndicator: false,
-            animation: false,
-            timeline: false,
-            navigationHelpButton: false,
-            fullscreenButton: false,
-            baseLayerPicker: false,
-            sceneModePicker: false,
-            geocoder: false
+    // Prevent Cesium default double-click zoom behavior (it flies to the clicked object)
+    try {
+        if (viewer && viewer.screenSpaceEventHandler) {
+            viewer.screenSpaceEventHandler.removeInputAction(Cesium.ScreenSpaceEventType.LEFT_DOUBLE_CLICK);
+            // keep LEFT_CLICK removal so our own handler manages click behavior
+            viewer.screenSpaceEventHandler.removeInputAction(Cesium.ScreenSpaceEventType.LEFT_CLICK);
+        }
+        if (viewer && viewer.scene && viewer.scene.globe) {
+            viewer.scene.globe.show = true;
+        }
+        try { if (viewer.selectionIndicator && viewer.selectionIndicator.container) viewer.selectionIndicator.container.style.display = 'none'; } catch(e) {}
+    } catch (e) { /* ignore */ }
+
+    // Diagnostic/restore: ensure Cesium canvas exists and is visible
+    try {
+        const canv = document.querySelector('#cesiumContainer canvas');
+        if (!canv) {
+            if (viewer && viewer.scene && viewer.scene.canvas) {
+                document.getElementById('cesiumContainer').appendChild(viewer.scene.canvas);
+            }
+        } else {
+            canv.style.display = '';
+            canv.style.width = '100%';
+            canv.style.height = '100%';
+        }
+    } catch (e) { /* ignore */ }
+
+    // list of files (trimmed) - kept as in your workspace
+    const file_list = [
+        "Afghanistan","AkrotiriandDhekelia","Åland","Albania","Algeria","AmericanSamoa","Andorra","Angola","Anguilla","AntiguaandBarbuda","Argentina","Armenia","Aruba","Australia","Austria","Azerbaijan","Bahamas","Bahrain","Bangladesh","Barbados","Belarus","Belgium","Belize","Benin","Bermuda","Bhutan","Bolivia","BonaireSintEustatiusandSaba","BosniaandHerzegovina","Botswana","BouvetIsland","Brazil","BritishIndianOceanTerritory","BritishVirginIslands","Brunei","Bulgaria","BurkinaFaso","Burundi","CaboVerde","Cambodia","Cameroon","Canada","CaymanIslands","CentralAfricanRepublic","Chad","Chile","China","ChristmasIsland","ClippertonIsland","CocosIslands","Colombia","Comoros","CookIslands","CostaRica","CôtedIvoire","Croatia","Cuba","Curaçao","Cyprus","Czechia","DemocraticRepublicoftheCongo","Denmark","Djibouti","Dominica","DominicanRepublic","Ecuador","Egypt","ElSalvador","EquatorialGuinea","Eritrea","Estonia","Eswatini","Ethiopia","FalklandIslands","FaroeIslands","Fiji","Finland","France","FrenchGuiana","FrenchPolynesia","FrenchSouthernTerritories","Gabon","Gambia","Georgia","Germany","Ghana","Gibraltar","Greece","Greenland","Grenada","Guadeloupe","Guam","Guatemala","Guernsey","Guinea-Bissau","Guinea","Guyana","Haiti","HeardIslandandMcDonaldIsland","Honduras","Hungary","Iceland","India","Indonesia","Iran","Iraq","Ireland","IsleofMan","Israel","Italy","Jamaica","Japan","Jersey","Jordan","Kazakhstan","Kenya","Kiribati","Kosovo","Kuwait","Kyrgyzstan","Laos","Latvia","Lebanon","Lesotho","Liberia","Libya","Liechtenstein","Lithuania","Luxembourg","Madagascar","Malawi","Malaysia","Maldives","Mali","Malta","MarshallIslands","Martinique","Mauritania","Mauritius","Mayotte","México","Micronesia","Moldova","Monaco","Mongolia","Montenegro","Montserrat","Morocco","Mozambique","Myanmar","Namibia","Nauru","Nepal","Netherlands","NewCaledonia","NewZealand","Nicaragua","Niger","Nigeria","Niue","NorfolkIsland","NorthKorea","NorthernCyprus","NorthMacedonia","NorthernMarianaIslands","Norway","Oman","Pakistan","Palau","Palestine","Panama","PapuaNewGuinea","ParacelIslands","Paraguay","Peru","Philippines","PitcairnIslands","Poland","Portugal","PuertoRico","Qatar","Réunion","Romania","Russia","Rwanda","Saint-Barthélemy","Saint-Martin","SaintHelena,AscensionandTristandaCunha","SaintKittsandNevis","SaintLucia","SaintPierreandMiquelon","SaintVincentandtheGrenadines","Samoa","SanMarino","SãoToméandPríncipe","SaudiArabia","Senegal","Serbia","Seychelles","SierraLeone","Singapore","SintMaarten","Slovakia","Slovenia","SolomonIslands","Somalia","SouthAfrica","SouthGeorgiaandtheSouthSandwichIslands","SouthKorea","SouthSudan","Spain","SpratlyIslands","SriLanka","Sudan","Suriname","SvalbardandJanMayen","Sweden","Switzerland","Syria","Taiwan","Tajikistan","Tanzania","Thailand","Togo","Tokelau","Tonga","TrinidadandTobago","Tunisia","Turkey","Turkmenistan","TurksandCaicosIslands","Tuvalu","Uganda","Ukraine","UnitedArabEmirates","UnitedKingdom","UnitedStates","UnitedStatesMinorOutlyingIslands","Uruguay","Uzbekistan","Vanuatu","Vatican","Venezuela","Vietnam","VirginIslands,US","WallisandFutuna","WesternSahara","Yemen","Zambia","Zimbabwe","RepublicoftheCongo","Timor-Leste"
+    ];
+
+    const sidebarContent = document.getElementById('sidebarContent');
+    const skipSidebar = document.getElementById('skipSidebar');
+    const burgerButton = document.getElementById('burgerButton');
+    const placedPanel = document.getElementById('placedPanel');
+    const placeButton = document.getElementById('placeButton');
+    const notifications = document.getElementById('notifications');
+
+    function showNotification(message, type = 'success', ttl = 3500) {
+        try {
+            if (!notifications) return;
+            const n = document.createElement('div');
+            n.className = 'notif ' + (type || 'success');
+            n.innerHTML = message;
+            notifications.appendChild(n);
+            setTimeout(() => { n.classList.add('hide'); setTimeout(() => { try { notifications.removeChild(n); } catch (e) {} }, 260); }, ttl);
+        } catch (e) { /* ignore */ }
+    }
+
+    // state
+    let currentDisplayedProvince = null;
+    let currentDisplayedProvinceKey = null; // unique key provinceName::featureIndex for the tile shown
+    let currentDisplayedFeatureCentroid = null; // centroid string 'lon,lat' of the feature shown in sidebar
+    let currentIndex = -1;
+    const placedProvinces = []; // { name, displayName, country, flag }
+    const placedDataSources = []; // keep all placed GeoJsonDataSource objects so they remain visible
+    let lastDataSource = null;
+    let selectedPointEntity = null; // for click-to-place flow
+    // attempts per displayed feature key
+    const attemptsByKey = {}; // persistent attempts per province::featureIndex
+    // currently displayed tile flag (from states/*.json -> flag property)
+    let currentDisplayedFlag = null;
+    // score tracking
+    let score = 0;
+
+    function updateScoreDisplay(){ const el = document.getElementById('scoreDisplay'); if(el) el.textContent = `Score: ${score}`; }
+
+    function isPlaced(name) { return placedProvinces.some(p => p.name === name); }
+    // register a placed province; optional `flag`, unique `key` and `attempts`
+    // To support multi-word country names we store both a normalized `countryKey` (for grouping)
+    // and the original `country` label (for display). This avoids breaking grouping logic while
+    // showing country names with spaces/accents correctly.
+    function registerPlacedProvince(name, displayName, country /*, flag, key, attempts */) {
+        const flag = (arguments.length >= 4) ? arguments[3] : null;
+        const key = (arguments.length >= 5) ? arguments[4] : null;
+        const attempts = (arguments.length >= 6) ? arguments[5] : null;
+        // avoid duplicates by key if provided, otherwise by name
+        if (key) {
+            if (placedProvinces.some(p => p.key === key)) return;
+        } else {
+            if (isPlaced(name)) return;
+        }
+        // store the country label as provided (display label). Keep grouping by this field.
+        const countryLabel = (typeof country === 'string' && country.trim().length>0) ? country.trim() : null;
+        const entry = { name, displayName, country: countryLabel };
+        if (flag) entry.flag = flag;
+        if (key) entry.key = key;
+        if (typeof attempts === 'number') entry.attempts = attempts;
+        placedProvinces.push(entry);
+        updatePlacedPanel();
+        updateScoreDisplay();
+    }
+
+    function updatePlacedPanel() {
+        if (!placedPanel) return;
+        placedPanel.innerHTML = '';
+        const groups = {};
+        placedProvinces.forEach(p => { const k = p.country || 'Unknown'; (groups[k] = groups[k] || []).push(p); });
+        // sort country names alphabetically (locale-aware)
+        const countryKeys = Object.keys(groups).sort((a,b)=> a.localeCompare(b, 'fr', { sensitivity: 'base' }));
+        countryKeys.forEach(country => {
+            const items = (groups[country] || []).slice().sort((x,y)=> {
+                const a = (x.displayName || x.name || '').toString();
+                const b = (y.displayName || y.name || '').toString();
+                return a.localeCompare(b, 'fr', { sensitivity: 'base' });
+            });
+
+            // header row: small country flag on left (if available) + country name
+            const header = document.createElement('div');
+            header.className = 'country-header';
+
+            // pick a flag for the country from any item that has it
+            let groupFlag = null;
+            for (const it of items) { if (it && it.flag) { groupFlag = it.flag; break; } }
+            if (groupFlag) {
+                const img = document.createElement('img');
+                img.className = 'country-flag';
+                img.alt = country + ' flag';
+                img.src = groupFlag;
+                img.onerror = () => { try { img.style.display = 'none'; } catch (e) {} };
+                header.appendChild(img);
+            }
+
+            const h = document.createElement('div');
+            h.textContent = country;
+            header.appendChild(h);
+            placedPanel.appendChild(header);
+
+            // provinces as a simple bullet list (no flags)
+            const ul = document.createElement('ul');
+            items.forEach(p => {
+                const li = document.createElement('li');
+                li.style.cursor = 'pointer';
+                li.textContent = p.displayName || p.name;
+                li.addEventListener('click', () => {
+                    // fly to entity with matching name or property
+                    viewer.dataSources._dataSources.forEach(ds => ds.entities.values.forEach(ent => {
+                        if ((ent.name === p.displayName) || (ent.properties && ent.properties.Name_1 && ent.properties.Name_1 === p.displayName)) {
+                            viewer.flyTo(ent).catch(() => {});
+                        }
+                    }));
+                });
+                ul.appendChild(li);
+            });
+            placedPanel.appendChild(ul);
+        });
+    }
+
+    function pickDifferentProvince() {
+        if (!file_list || file_list.length === 0) return null;
+        let startIdx = (currentIndex >= 0 && currentIndex < file_list.length) ? (currentIndex + 1) % file_list.length : 0;
+        for (let i=0;i<file_list.length;i++){
+            const idx=(startIdx+i)%file_list.length; const candidate=file_list[idx];
+            if (!isPlaced(candidate) && candidate!==currentDisplayedProvince) { return candidate; }
+        }
+        return null;
+    }
+    function getRandomProvince(){ const candidates = file_list.filter(n=>!isPlaced(n)); return candidates.length? candidates[Math.floor(Math.random()*candidates.length)] : null; }
+
+    function createSVGPath(geometry, svgWidth, svgHeight){
+        if (!geometry) return '';
+        const geom = geometry.type === 'Feature' ? geometry.geometry : geometry;
+        if (!geom) return '';
+
+        // collect polygons (support Polygon & MultiPolygon)
+        const polygons = [];
+        if (geom.type === 'Polygon') {
+            polygons.push(...geom.coordinates);
+        } else if (geom.type === 'MultiPolygon') {
+            geom.coordinates.forEach(mp => polygons.push(...mp));
+        } else {
+            return '';
+        }
+
+        // flatten coords list to compute circular mean longitude
+        const coordList = [];
+        polygons.forEach(ring => ring.forEach(c => coordList.push(c)));
+        if (coordList.length === 0) return '';
+
+        // circular mean lon (antimeridian handling)
+        const toRad = d => d * Math.PI / 180;
+        const toDeg = r => r * 180 / Math.PI;
+        let sumSin = 0, sumCos = 0;
+        coordList.forEach(c => { const lon = c[0]; const r = toRad(lon); sumSin += Math.sin(r); sumCos += Math.cos(r); });
+        const meanLon = toDeg(Math.atan2(sumSin / coordList.length, sumCos / coordList.length));
+        const normalizeLon = lon => { let l = lon; while (l - meanLon > 180) l -= 360; while (l - meanLon < -180) l += 360; return l; };
+
+        // adjusted polygons with normalized longitudes
+        const adjusted = polygons.map(ring => ring.map(([lon, lat]) => [normalizeLon(lon), lat]));
+
+        // try to convert to Web Mercator (meters) for accurate scaling across latitudes
+        let mercFeature = null;
+        try { mercFeature = turf.toMercator({ type: 'Feature', geometry: (adjusted.length && adjusted[0].length ? (geom.type==='Polygon'? { type: 'Polygon', coordinates: adjusted } : { type: 'MultiPolygon', coordinates: [adjusted] }) : geom), properties: {} }); } catch (e) { mercFeature = null; }
+
+        // build rings to render (use merc if available, otherwise degrees)
+        let rings = [];
+        if (mercFeature && mercFeature.geometry) {
+            if (mercFeature.geometry.type === 'Polygon') rings = mercFeature.geometry.coordinates;
+            else if (mercFeature.geometry.type === 'MultiPolygon') rings = mercFeature.geometry.coordinates.flat();
+        }
+        if (!rings.length) {
+            // fallback to adjusted degrees rings
+            rings = adjusted;
+        }
+
+        // compute bbox in chosen coordinate space
+        let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+        rings.forEach(r => r.forEach(([x,y]) => { if (typeof x === 'number' && typeof y === 'number') { minX = Math.min(minX,x); maxX = Math.max(maxX,x); minY = Math.min(minY,y); maxY = Math.max(maxY,y); } }));
+        if (!isFinite(minX) || !isFinite(maxX) || !isFinite(minY) || !isFinite(maxY)) return '';
+
+        const rangeX = (maxX - minX) || 1e-6;
+        const rangeY = (maxY - minY) || 1e-6;
+
+        // margin to avoid touching edges (6px or dynamic %)
+        const aspect = rangeX / rangeY;
+        const baseFactor = 0.06;
+        const largeFactor = 0.12; // bigger margin for extreme aspect ratios
+        const marginFactor = (aspect > 8 || aspect < 1/8) ? largeFactor : baseFactor;
+        const marginPx = Math.max(6, Math.min(svgWidth, svgHeight) * marginFactor);
+        const availW = Math.max(1, svgWidth - 2 * marginPx);
+        const availH = Math.max(1, svgHeight - 2 * marginPx);
+
+        // compute scale in selected space
+        const scale = Math.min(availW / rangeX, availH / rangeY);
+        const usedW = rangeX * scale;
+        const usedH = rangeY * scale;
+        const padX = (svgWidth - usedW) / 2;
+        const padY = (svgHeight - usedH) / 2;
+
+        // construct final path with pixel coordinates (no transform needed)
+        let path = '';
+        rings.forEach(r => {
+            const pts = r.map(([x,y]) => {
+                const px = ((x - minX) * scale) + padX;
+                const py = svgHeight - (((y - minY) * scale) + padY);
+                return `${px.toFixed(2)},${py.toFixed(2)}`;
+            }).filter(Boolean);
+            if (pts.length) path += `M${pts.join('L')}Z `;
         });
 
-        // Prevent Cesium default double-click zoom behavior (it flies to the clicked object)
-        try {
-            if (viewer && viewer.screenSpaceEventHandler) {
-                viewer.screenSpaceEventHandler.removeInputAction(Cesium.ScreenSpaceEventType.LEFT_DOUBLE_CLICK);
-                // keep LEFT_CLICK removal so our own handler manages click behavior
-                viewer.screenSpaceEventHandler.removeInputAction(Cesium.ScreenSpaceEventType.LEFT_CLICK);
-            }
-            if (viewer && viewer.scene && viewer.scene.globe) {
-                viewer.scene.globe.show = true;
-            }
-            try { if (viewer.selectionIndicator && viewer.selectionIndicator.container) viewer.selectionIndicator.container.style.display = 'none'; } catch(e) {}
-        } catch (e) { /* ignore */ }
+        return path.trim();
+    }
 
-        // Diagnostic/restore: ensure Cesium canvas exists and is visible
-        try {
-            const canv = document.querySelector('#cesiumContainer canvas');
-            if (!canv) {
-                if (viewer && viewer.scene && viewer.scene.canvas) {
-                    document.getElementById('cesiumContainer').appendChild(viewer.scene.canvas);
-                }
-            } else {
-                canv.style.display = '';
-                canv.style.width = '100%';
-                canv.style.height = '100%';
-            }
-        } catch (e) { /* ignore */ }
+    function addPointToGlobe(provinceName, geometry, properties, featureIndex){
+        try{
+            const center = turf.center(geometry); const [lon,lat]=center.geometry.coordinates;
+            const ent = viewer.entities.add({ position: Cesium.Cartesian3.fromDegrees(lon,lat), point:{ pixelSize:8, color:Cesium.Color.WHITE } });
+            ent.provinceName = provinceName;
+            ent.featureGeometry = geometry;
+            ent.featureProps = properties || null;
+            ent.featureIndex = (typeof featureIndex !== 'undefined') ? featureIndex : null;
+            // unique per-feature key
+            ent.provinceKey = `${provinceName}::${ent.featureIndex}`;
+            // store a centroid signature to identify the exact tile/feature
+            ent.featureCentroid = `${Number(lon).toFixed(6)},${Number(lat).toFixed(6)}`;
+            return ent;
+        }catch(e){ return null; }
+    }
 
-        // list of files (trimmed) - kept as in your workspace
-        const file_list = [
-            "Afghanistan","AkrotiriandDhekelia","Åland","Albania","Algeria","AmericanSamoa","Andorra","Angola","Anguilla","AntiguaandBarbuda","Argentina","Armenia","Aruba","Australia","Austria","Azerbaijan","Bahamas","Bahrain","Bangladesh","Barbados","Belarus","Belgium","Belize","Benin","Bermuda","Bhutan","Bolivia","BonaireSintEustatiusandSaba","BosniaandHerzegovina","Botswana","BouvetIsland","Brazil","BritishIndianOceanTerritory","BritishVirginIslands","Brunei","Bulgaria","BurkinaFaso","Burundi","CaboVerde","Cambodia","Cameroon","Canada","CaymanIslands","CentralAfricanRepublic","Chad","Chile","China","ChristmasIsland","ClippertonIsland","CocosIslands","Colombia","Comoros","CookIslands","CostaRica","CôtedIvoire","Croatia","Cuba","Curaçao","Cyprus","Czechia","DemocraticRepublicoftheCongo","Denmark","Djibouti","Dominica","DominicanRepublic","Ecuador","Egypt","ElSalvador","EquatorialGuinea","Eritrea","Estonia","Eswatini","Ethiopia","FalklandIslands","FaroeIslands","Fiji","Finland","France","FrenchGuiana","FrenchPolynesia","FrenchSouthernTerritories","Gabon","Gambia","Georgia","Germany","Ghana","Gibraltar","Greece","Greenland","Grenada","Guadeloupe","Guam","Guatemala","Guernsey","Guinea-Bissau","Guinea","Guyana","Haiti","HeardIslandandMcDonaldIsland","Honduras","Hungary","Iceland","India","Indonesia","Iran","Iraq","Ireland","IsleofMan","Israel","Italy","Jamaica","Japan","Jersey","Jordan","Kazakhstan","Kenya","Kiribati","Kosovo","Kuwait","Kyrgyzstan","Laos","Latvia","Lebanon","Lesotho","Liberia","Libya","Liechtenstein","Lithuania","Luxembourg","Madagascar","Malawi","Malaysia","Maldives","Mali","Malta","MarshallIslands","Martinique","Mauritania","Mauritius","Mayotte","México","Micronesia","Moldova","Monaco","Mongolia","Montenegro","Montserrat","Morocco","Mozambique","Myanmar","Namibia","Nauru","Nepal","Netherlands","NewCaledonia","NewZealand","Nicaragua","Niger","Nigeria","Niue","NorfolkIsland","NorthKorea","NorthernCyprus","NorthMacedonia","NorthernMarianaIslands","Norway","Oman","Pakistan","Palau","Palestine","Panama","PapuaNewGuinea","ParacelIslands","Paraguay","Peru","Philippines","PitcairnIslands","Poland","Portugal","PuertoRico","Qatar","Réunion","Romania","Russia","Rwanda","Saint-Barthélemy","Saint-Martin","SaintHelena,AscensionandTristandaCunha","SaintKittsandNevis","SaintLucia","SaintPierreandMiquelon","SaintVincentandtheGrenadines","Samoa","SanMarino","SãoToméandPríncipe","SaudiArabia","Senegal","Serbia","Seychelles","SierraLeone","Singapore","SintMaarten","Slovakia","Slovenia","SolomonIslands","Somalia","SouthAfrica","SouthGeorgiaandtheSouthSandwichIslands","SouthKorea","SouthSudan","Spain","SpratlyIslands","SriLanka","Sudan","Suriname","SvalbardandJanMayen","Sweden","Switzerland","Syria","Taiwan","Tajikistan","Tanzania","Thailand","Togo","Tokelau","Tonga","TrinidadandTobago","Tunisia","Turkey","Turkmenistan","TurksandCaicosIslands","Tuvalu","Uganda","Ukraine","UnitedArabEmirates","UnitedKingdom","UnitedStates","UnitedStatesMinorOutlyingIslands","Uruguay","Uzbekistan","Vanuatu","Vatican","Venezuela","Vietnam","VirginIslands,US","WallisandFutuna","WesternSahara","Yemen","Zambia","Zimbabwe","RepublicoftheCongo","Timor-Leste"
-        ];
-
-        const sidebarContent = document.getElementById('sidebarContent');
-        const skipSidebar = document.getElementById('skipSidebar');
-        const burgerButton = document.getElementById('burgerButton');
-        const placedPanel = document.getElementById('placedPanel');
-        const placeButton = document.getElementById('placeButton');
-        const notifications = document.getElementById('notifications');
-
-        function showNotification(message, type = 'success', ttl = 3500) {
-            try {
-                if (!notifications) return;
-                const n = document.createElement('div');
-                n.className = 'notif ' + (type || 'success');
-                n.innerHTML = message;
-                notifications.appendChild(n);
-                setTimeout(() => { n.classList.add('hide'); setTimeout(() => { try { notifications.removeChild(n); } catch (e) {} }, 260); }, ttl);
-            } catch (e) { /* ignore */ }
+    async function loadAllFeatures(){
+        for(const provinceName of file_list){
+            try{ const resp = await fetch(`./states/${provinceName}.json`); if(!resp.ok) continue; const geoJson = await resp.json(); if(geoJson.features && Array.isArray(geoJson.features)) geoJson.features.forEach((f, idx)=> addPointToGlobe(provinceName,f.geometry,f.properties, idx)); }catch(e){/*ignore*/}
         }
+    }
+    loadAllFeatures();
 
-        // Global error capture to help debugging runtime issues in the browser.
-        try {
-            window.addEventListener('error', function (evt) {
-                try { showNotification('Runtime error: ' + (evt && evt.message ? evt.message : String(evt)), 'error', 8000); } catch (e) {}
-                // also log to console
-                console.error('Captured error:', evt.error || evt.message || evt);
-            });
-            window.addEventListener('unhandledrejection', function (evt) {
-                try { showNotification('Unhandled promise rejection: ' + (evt && evt.reason ? (evt.reason.message || String(evt.reason)) : String(evt)), 'error', 8000); } catch (e) {}
-                console.error('Unhandled rejection:', evt.reason || evt);
-            });
-        } catch (e) { /* ignore */ }
-
-        // state
-        let currentDisplayedProvince = null;
-        let currentDisplayedProvinceKey = null; // unique key provinceName::featureIndex for the tile shown
-        let currentDisplayedFeatureCentroid = null; // centroid string 'lon,lat' of the feature shown in sidebar
-        let currentIndex = -1;
-        let placedProvinces = []; // { name, displayName, country }
-        const placedDataSources = []; // keep all placed GeoJsonDataSource objects so they remain visible
-        let lastDataSource = null;
-        let selectedPointEntity = null; // for click-to-place flow
-        let placedFeaturesCount = 0; // total count of placed feature-tiles
-        // total number of province-tiles (features) across all state files
-        let totalProvincesCount = 0;
-        // map filename -> number of features in that file (used for country->features selection)
-        const countryFeatureCounts = {};
-        // attempts per feature key (provinceName::featureIndex)
-        const attemptsByKey = {};
-        // total score
-        let totalScore = 0;
-
-        // updatePlacedPanel defined early to avoid ReferenceError when other functions call it
-        function updatePlacedPanel(){
-            try{
-                if(typeof placedPanel === 'undefined' || !placedPanel) return;
-                placedPanel.innerHTML = '';
-                const groups = {};
-                placedProvinces.forEach(p => { const k = p.country || 'Unknown'; (groups[k] = groups[k] || []).push(p); });
-                const countryKeys = Object.keys(groups).sort((a,b)=> a.localeCompare(b, 'en', { sensitivity: 'base' }));
-                countryKeys.forEach(country => {
-                    const items = (groups[country]||[]).slice().sort((x,y)=> ( (x.displayName||x.name||'').toString().localeCompare((y.displayName||y.name||'').toString(), 'en', { sensitivity: 'base' }) ));
-                    let groupFlag = null; for(const it of items){ if(it && it.flag) { groupFlag = it.flag; break; } }
-                    const flagUrl = groupFlag || (country ? makeFlagUrl(country) : null);
-                    const header = document.createElement('div'); header.style.display='flex'; header.style.alignItems='center'; header.style.gap='8px'; header.style.marginTop='6px';
-                    if(flagUrl){ const img = document.createElement('img'); img.className='flag'; img.alt=`${country} flag`; img.src=flagUrl; img.onerror=()=>{ try{ img.style.display='none'; }catch(e){} }; header.appendChild(img); }
-                    const h = document.createElement('a'); h.dataset.wikiName = country; h.href = makeWikiUrl(country); h.target = '_blank'; h.rel='noopener noreferrer'; h.style.fontWeight='bold'; h.style.color='inherit'; h.style.textDecoration='none'; h.textContent = country; h.addEventListener('click', ev=> ev.stopPropagation()); header.appendChild(h);
-                    placedPanel.appendChild(header);
-                    const ul = document.createElement('ul'); ul.style.paddingLeft='16px';
-                    items.forEach(p=>{
-                        const li = document.createElement('li'); li.style.cursor='pointer';
-                        const pname = p.displayName || p.name || '';
-                        const a = document.createElement('a'); a.dataset.wikiName = pname; a.href = makeWikiUrl(pname); a.target='_blank'; a.rel='noopener noreferrer'; a.textContent = pname; a.style.color='inherit'; a.style.textDecoration='none'; a.addEventListener('click', ev=> ev.stopPropagation());
-                        li.appendChild(a);
-                        li.addEventListener('click', ()=>{ try{ viewer.dataSources._dataSources.forEach(ds => ds.entities.values.forEach(ent => { if((ent.name===pname) || (ent.properties && ent.properties.Name_1===pname)) { viewer.flyTo(ent).catch(()=>{}); } })); }catch(e){} });
-                        ul.appendChild(li);
-                    });
-                    placedPanel.appendChild(ul);
-                });
-                // wiki link updater removed; links use makeWikiUrl() directly
-            }catch(e){ /* ignore */ }
-        }
-
-        function updateScoreDisplay(){
-            try{
-                const el = document.getElementById('scoreDisplay');
-                if(el) el.textContent = `Score: ${totalScore}`;
-            }catch(e){}
-        }
-
-        function isPlaced(name) { return placedProvinces.some(p => p.name === name); }
-        // check if a specific province featureKey is already placed
-        function isPlacedKey(key) { return placedProvinces.some(p => p.key === key); }
-        // registerPlacedProvince(name, displayName, country, flag, key)
-        function registerPlacedProvince(name, displayName, country) {
-            const flag = (arguments.length >= 4) ? arguments[3] : null;
-            const key = (arguments.length >= 5) ? arguments[4] : null;
-            // if key provided, avoid duplicate per key; otherwise fallback to name-based check
-            if (key) {
-                if (isPlacedKey(key)) return;
-            } else {
-                if (isPlaced(name)) return;
-            }
-            const entry = { name, displayName, country, flag };
-            if (key) entry.key = key;
-            placedProvinces.push(entry);
-            // increment placed features counter only once per unique placed feature
-            placedFeaturesCount += 1;
-            updatePlacedPanel();
-            updateProgress();
-        }
-
-        // update the progress bar (placed provinces vs total tiles)
-        function updateProgress(){
-            try{
-                const total = (typeof totalProvincesCount === 'number' && totalProvincesCount>0) ? totalProvincesCount : 0;
-                const placed = (typeof placedFeaturesCount === 'number') ? placedFeaturesCount : 0;
-                const pct = (total > 0) ? Math.round((placed / total) * 100) : 0;
-                const fill = document.getElementById('progressFill');
-                const txt = document.getElementById('progressText');
-                if (fill) { fill.style.width = (total>0? (placed/total*100) : 0) + '%'; if (fill.parentElement) fill.parentElement.setAttribute('aria-valuenow', String(pct)); }
-                if (txt) txt.textContent = `${placed} / ${total}`;
-            }catch(e){/*ignore*/}
-        }
-
-        // Affiche le drapeau dans la tuile (sidebar) seulement si le nombre d'essais pour la clé >= 5
-        function refreshDisplayedTileFlag(key) {
-            try {
-                const k = key || currentDisplayedProvinceKey;
-                if (!k) return;
-                const tile = document.querySelector('#sidebarContent .tile');
-                if (!tile) return;
-                const img = tile.querySelector('img.flag');
-                if (!img) return;
-                const flagUrl = tile.dataset.flagUrl || img.dataset.flagUrl || null;
-                const attempts = attemptsByKey[k] || 0;
-                if (attempts >= 5 && flagUrl) {
-                    // show and ensure src is set
-                    if (!img.getAttribute('src') || img.getAttribute('src') !== flagUrl) {
-                        img.src = flagUrl;
-                    }
-                    img.style.display = '';
-                } else {
-                    // hide flag until threshold
-                    img.style.display = 'none';
-                    // optionally avoid loading image until needed
-                    try { img.removeAttribute('src'); } catch(e) {}
-                }
-            } catch (e) { /* ignore */ }
-        }
-
-        // initialize progress at startup
-        try{ window.addEventListener('load', ()=>{ setTimeout(()=>{ updateProgress(); }, 50); }); }catch(e){}
-        // Display a GeoJSON geometry on the Cesium globe
-        function displayProvinceOnGlobe(geometry, opts = {}) {
-            try {
-                if (!geometry) return;
-                const feature = { type: 'Feature', geometry: geometry, properties: opts.properties || {} };
-                const geojson = { type: 'FeatureCollection', features: [feature] };
-                const loadOptions = Object.assign({ clampToGround: false }, opts.loadOptions || {});
-                Cesium.GeoJsonDataSource.load(geojson, loadOptions).then(ds => {
-                    try {
-                        viewer.dataSources.add(ds);
-                        placedDataSources.push(ds);
-                        // style entities if needed
-                        try {
-                            ds.entities.values.forEach(ent => {
-                                if (ent.polygon) {
-                                    ent.polygon.material = opts.fillColor || Cesium.Color.fromBytes(60,159,255,0.6);
-                                    ent.polygon.outline = true;
-                                    ent.polygon.outlineColor = opts.outlineColor || Cesium.Color.BLACK;
-                                }
-                                if (ent.properties) {
-                                    // set a provinceKey if provided
-                                    if (opts.provinceKey) ent.provinceKey = opts.provinceKey;
-                                }
-                            });
-                        } catch (e) { /* ignore styling errors */ }
-                        // keep the globe visible for all placed provinces (do not auto-zoom unless asked)
-                        if (opts.flyTo) { try { viewer.flyTo(ds).catch(()=>{}); } catch(e){} }
-                    } catch (e) { console.error('displayProvinceOnGlobe add error', e); }
-                }).catch(err => {
-                    console.error('displayProvinceOnGlobe load error', err);
-                });
-            } catch (e) { console.error('displayProvinceOnGlobe error', e); }
-        }
-
-        async function applyImportedObject(obj){
-            if(!obj || !obj.placedProvinces) { showNotification('Invalid file.', 'error'); return; }
-            try{
-                // replace local arrays
-                placedProvinces.length = 0; placedProvinces.push(...obj.placedProvinces);
-                for(const k in attemptsByKey) delete attemptsByKey[k];
-                Object.assign(attemptsByKey, obj.attemptsByKey || {});
-                totalScore = Number(obj.totalScore) || 0;
-                placedFeaturesCount = Number(obj.placedFeaturesCount) || placedProvinces.length;
-                updateScoreDisplay(); updatePlacedPanel(); updateProgress();
-
-                // remove any existing placed polygons / points that correspond to these placed keys, then show polygons
-                // first remove matching point entities so they don't remain
+    async function loadProvinceByName(provinceName){
+        if(!provinceName) return;
+        try{
+            const resp = await fetch(`./states/${provinceName}.json`);
+            if(!resp.ok) return;
+            const geoJson = await resp.json(); if(geoJson.features && geoJson.features.length>0){
+                // By default we show feature index 0 (first feature) in the sidebar tile.
+                const displayedFeatureIndex = 0;
+                const feat0 = geoJson.features[displayedFeatureIndex];
+                const props=feat0.properties; const geometry=feat0.geometry; const displayName = props.Name_1 || props.Country || provinceName;
+                // store flag from json if present
+                currentDisplayedFlag = geoJson.flag || null;
+                // set the centroid signature and key for the exact feature we're showing
                 try{
-                    const now = Cesium.JulianDate.now();
-                    const ents = viewer.entities.values.slice();
-                    for(const ent of ents){ if(ent && ent.provinceKey && isPlacedKey(ent.provinceKey)){ try{ viewer.entities.remove(ent); }catch(e){} } }
-                }catch(e){}
+                    const c = turf.center(geometry).geometry.coordinates; currentDisplayedFeatureCentroid = `${Number(c[0]).toFixed(6)},${Number(c[1]).toFixed(6)}`;
+                }catch(e){ currentDisplayedFeatureCentroid = null; }
+                currentDisplayedProvinceKey = `${provinceName}::${displayedFeatureIndex}`;
 
-                // load polygons for each placed province entry
-                for(const p of placedProvinces){
-                    try{
-                        const name = p.name;
-                        const key = p.key || null;
-                        if(!name) continue;
-                        // if key available, try to fetch specific feature
-                        if(key && key.includes('::')){
-                            const parts = key.split('::'); const fname = parts[0]; const idx = parseInt(parts[1]||'0',10) || 0;
-                            try{
-                                const r = await fetch(`./states/${fname}.json`);
-                                if(!r.ok) continue;
-                                const j = await r.json(); const feat = (j.features && j.features[idx])? j.features[idx] : null;
-                                if(feat && feat.geometry) displayProvinceOnGlobe(feat.geometry);
-                            }catch(e){ /* ignore per-file errors */ }
-                        } else {
-                            // fallback: try to load first feature of the file
-                            try{
-                                const r = await fetch(`./states/${name}.json`);
-                                if(!r.ok) continue; const j = await r.json(); const feat = (j.features && j.features[0])? j.features[0] : null; if(feat && feat.geometry) displayProvinceOnGlobe(feat.geometry);
-                            }catch(e){}
-                        }
-                    }catch(e){}
+                // tile
+                const tile = document.createElement('div');
+                tile.className = 'tile';
+                tile.dataset.id = provinceName;
+                // tile is not draggable anymore; the SVG inside is draggable
+                tile.textContent = '';
+
+                // create square svg wrapper and a label; make SVG draggable (so user drags the svg)
+                const svgWidth = 300, svgHeight = 300; // square svg surface
+                const wrapper = document.createElement('div'); wrapper.className = 'svg-wrapper';
+                const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+                svg.setAttribute('viewBox', `0 0 ${svgWidth} ${svgHeight}`);
+                svg.setAttribute('preserveAspectRatio', 'xMidYMid meet');
+                svg.style.border = '1px solid #ddd';
+                // Do NOT make the inner <svg> itself draggable; make the wrapper draggable
+                svg.draggable = true;
+                // make the wrapper draggable so dragging works consistently across browsers
+                wrapper.draggable = true;
+                // Make both the svg and the wrapper (and the tile and the title) draggable — attach same handlers
+                svg.draggable = true;
+                wrapper.draggable = true;
+                tile.draggable = true;
+                const onDragStart = (e, el) => {
+                    try { e.dataTransfer.setData('text/plain', currentDisplayedProvinceKey || (provinceName + '::0')); } catch (err) {}
+                    e.dataTransfer.effectAllowed = 'copy';
+                    try { el.classList.add('dragging'); } catch (err) {}
+                    // set a drag image using the wrapper if possible
+                    try {
+                        const rect = wrapper.getBoundingClientRect();
+                        e.dataTransfer.setDragImage(wrapper, rect.width / 2, rect.height / 2);
+                    } catch (err) { /* ignore */ }
+                };
+                const onDragEnd = (e, el) => { try { el.classList.remove('dragging'); } catch (err) {} };
+                wrapper.addEventListener('dragstart', (e) => onDragStart(e, wrapper));
+                wrapper.addEventListener('dragend', (e) => onDragEnd(e, wrapper));
+                svg.addEventListener('dragstart', (e) => onDragStart(e, svg));
+                svg.addEventListener('dragend', (e) => onDragEnd(e, svg));
+                tile.addEventListener('dragstart', (e) => onDragStart(e, tile));
+                tile.addEventListener('dragend', (e) => onDragEnd(e, tile));
+
+                const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+                const d = createSVGPath(geometry, svgWidth, svgHeight);
+                path.setAttribute('d', d);
+                path.setAttribute('fill', 'rgba(0,123,255,0.5)');
+                path.setAttribute('stroke', '#007bff');
+                path.setAttribute('stroke-width', '1');
+                svg.appendChild(path);
+                wrapper.appendChild(svg);
+
+                // title above the SVG: include hidden flag img (to show only after 5 attempts)
+                const titleDiv = document.createElement('div');
+                titleDiv.className = 'tileTitle';
+                // build a small row with optional flag to the left
+                const titleRow = document.createElement('div');
+                titleRow.style.display = 'flex'; titleRow.style.alignItems = 'center'; titleRow.style.justifyContent = 'center'; titleRow.style.gap = '4px';
+                const flagImg = document.createElement('img'); flagImg.className = 'flag'; flagImg.alt = '';
+                flagImg.style.display = 'none'; flagImg.style.height = '1em'; flagImg.style.width = 'auto';
+                if(currentDisplayedFlag){ flagImg.src = currentDisplayedFlag; flagImg.onerror = ()=>{ try{ flagImg.style.display='none'; }catch(e){} }; }
+                const titleText = document.createElement('span'); titleText.textContent = displayName;
+                titleRow.appendChild(flagImg); titleRow.appendChild(titleText);
+                titleDiv.appendChild(titleRow);
+                // make the title draggable too (same behaviour as wrapper) to ease drag start
+                titleDiv.draggable = true;
+                titleDiv.addEventListener('dragstart', (e) => {
+                    try { e.dataTransfer.setData('text/plain', currentDisplayedProvinceKey); } catch (err) {}
+                    e.dataTransfer.effectAllowed = 'copy';
+                    titleDiv.classList.add('dragging');
+                    try {
+                        const rect = titleDiv.getBoundingClientRect();
+                        e.dataTransfer.setDragImage(titleDiv, rect.width / 2, rect.height / 2);
+                    } catch (err) {}
+                });
+                titleDiv.addEventListener('dragend', () => titleDiv.classList.remove('dragging'));
+
+                sidebarContent.innerHTML = '';
+                // append title and wrapper inside the tile so the whole tile is one draggable area
+                tile.appendChild(titleDiv);
+                tile.appendChild(wrapper);
+                sidebarContent.appendChild(tile);
+
+                // reveal flag if attempts for this exact tile reached threshold
+                try{ const tries = attemptsByKey[currentDisplayedProvinceKey] || 0; if(tries >= 5 && currentDisplayedFlag){ flagImg.style.display = ''; } else { flagImg.style.display = 'none'; } }catch(e){}
+
+                currentDisplayedProvince = provinceName; currentIndex = file_list.indexOf(provinceName);
+            }
+        }catch(e){/*ignore*/}
+    }
+
+    async function loadRandomProvince(){ const p = getRandomProvince(); if(p) await loadProvinceByName(p); }
+    loadRandomProvince();
+
+    // ensure Cesium infoBox is hidden unless we set viewer.selectedEntity on polygons
+    if(viewer && viewer.infoBox && viewer.infoBox.container) viewer.infoBox.container.style.display='none';
+
+    function displayProvinceOnGlobe(inputGeometry){
+        if(!inputGeometry) return;
+        const geom = inputGeometry.type==='Feature'? inputGeometry.geometry : inputGeometry;
+        if(!geom) return;
+        Cesium.GeoJsonDataSource.load({ type:'Feature', geometry:geom, properties:{} }, { clampToGround:false }).then(ds=>{
+            // do NOT remove previously placed provinces; keep them visible
+            viewer.dataSources.add(ds);
+            placedDataSources.push(ds);
+            // style polygons in this datasource
+            ds.entities.values.forEach(ent=>{ if(ent.polygon){ ent.polygon.material = Cesium.Color.BLUE.withAlpha(0.5); ent.polygon.outline=true; ent.polygon.outlineColor=Cesium.Color.BLACK; } });
+        }).catch(()=>{});
+    }
+
+    // pick position helpers
+    function getCartesianFromDomEvent(e){ const rect = document.getElementById('cesiumContainer').getBoundingClientRect(); const x = e.clientX - rect.left; const y = e.clientY - rect.top; const windowPosition = new Cesium.Cartesian2(x,y); let cart = null; try{ if(viewer.scene.pickPositionSupported) cart = viewer.scene.pickPosition(windowPosition); }catch(e){ cart = null; } if(!cart) cart = viewer.camera.pickEllipsoid(windowPosition, viewer.scene.globe.ellipsoid); return cart; }
+    function findNearestPointEntity(cartesian){ if(!cartesian) return null; const ents = viewer.entities.values; let best=null, bestDist=Infinity; const now=Cesium.JulianDate.now(); for(let i=0;i<ents.length;i++){ const ent=ents[i]; if(!ent.provinceName || !ent.position) continue; const pos=ent.position.getValue(now); if(!pos) continue; const d = Cesium.Cartesian3.distance(pos,cartesian); if(d<bestDist){ bestDist=d; best={entity:ent, distance:d}; }} return best; }
+
+    // drag/drop on globe
+    const cesiumContainer = document.getElementById('cesiumContainer');
+    cesiumContainer.addEventListener('dragover', e=>{ e.preventDefault(); e.dataTransfer.dropEffect='copy'; });
+    cesiumContainer.addEventListener('drop', e=>{
+        e.preventDefault(); const provinceKey = e.dataTransfer.getData('text/plain') || e.dataTransfer.getData('text');
+        if(!provinceKey) return; const cart = getCartesianFromDomEvent(e); if(!cart){ showNotification('Impossible de déterminer l\'endroit sur le globe.', 'error'); return; } const nearest = findNearestPointEntity(cart);
+        if(!nearest || !nearest.entity){ showNotification('Aucun point proche trouvé.', 'error'); return; }
+        // check both unique provinceKey match AND exact feature centroid match (if available)
+        const centroidMatches = currentDisplayedFeatureCentroid && nearest.entity.featureCentroid && (nearest.entity.featureCentroid === currentDisplayedFeatureCentroid);
+        if(nearest.entity.provinceKey === provinceKey && centroidMatches){
+            // parse provinceName and featureIndex from provinceKey
+            const [provinceId, featureIndexStr] = provinceKey.split('::');
+            const featureIndex = parseInt(featureIndexStr || '0', 10) || 0;
+            // read the specific feature from the file
+            fetch(`./states/${provinceId}.json`).then(r=>{ if(!r.ok) throw new Error('fetch'); return r.json(); }).then(json=>{
+                const feat = (json.features && json.features[featureIndex])||null; const displayName = feat && (feat.properties.Name_1 || feat.properties.Country) ? (feat.properties.Name_1 || feat.properties.Country) : provinceId; const country = feat && feat.properties && feat.properties.Country ? feat.properties.Country : null;
+                const flagUrl = json && json.flag ? json.flag : null;
+                displayProvinceOnGlobe(nearest.entity.featureGeometry);
+                try{ viewer.entities.remove(nearest.entity); }catch(e){}
+                const placedKey = nearest.entity && nearest.entity.provinceKey ? nearest.entity.provinceKey : provinceKey;
+                const attempts = attemptsByKey[placedKey] || 0;
+                // compute points: 6 if first try, 3 if 2nd-4th, else 1
+                let points = 1; if(attempts === 0) points = 6; else if(attempts >=1 && attempts <=3) points = 3; else points = 1;
+                score += points; updateScoreDisplay();
+                registerPlacedProvince(provinceId, displayName, country, flagUrl, placedKey, attempts);
+                // cleanup attempts for this key (optional)
+                try{ delete attemptsByKey[placedKey]; }catch(e){}
+                showNotification(`${displayName} placé ! (+${points} pts)`, 'success');
+                 loadRandomProvince();
+            }).catch(()=>{ displayProvinceOnGlobe(nearest.entity.featureGeometry); try{ viewer.entities.remove(nearest.entity); }catch(e){} registerPlacedProvince(provinceId, provinceId, null); loadRandomProvince(); });
+        } else {
+            // wrong placement: increment attempts for the currently displayed tile key
+            try{ if(currentDisplayedProvinceKey){ attemptsByKey[currentDisplayedProvinceKey] = (attemptsByKey[currentDisplayedProvinceKey] || 0) + 1; const tries = attemptsByKey[currentDisplayedProvinceKey];
+                    // if 5th attempt or more, reveal the flag next to the province name in the sidebar (if available)
+                    if(tries >= 5 && currentDisplayedFlag){
+                        try{
+                            const img = document.querySelector('#sidebarContent .tile .tileTitle img.flag');
+                            if(img){ img.style.display = '' ; img.src = currentDisplayedFlag; }
+                        }catch(e){}
+                    }
                 }
-
-                showNotification('Save imported successfully.', 'success');
-            }catch(e){ showNotification('Error during import.', 'error'); }
+            }catch(e){}
+             showNotification('Ce n\'est pas le bon endroit.', 'error');
         }
+    });
 
-        // Build a likely Wikipedia commons file path for the country's flag (unchanged behavior)
-        function makeFlagUrl(countryName) {
-            if (!countryName) return null;
-            let clean = countryName.replace(/[\u2019'‘’.,]/g, '').replace(/\s+/g, '_').replace(/&/g, 'and').replace(/,+$/,'');
-            const filename = `Flag_of_${clean}.svg`;
-            return `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(filename)}`;
+    // click handler: points stay white; polygons show infoBox and clicking points shows Placer button
+    let selectedEntity = null;
+    try{
+        if(viewer && viewer.scene && viewer.scene.canvas){
+            const handler = new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas);
+            handler.setInputAction(function(click){
+                try{
+                    // save click coordinates for placeButton positioning
+                    const clientX = click.position.x, clientY = click.position.y;
+                    const picked = viewer.scene.pick(click.position);
+                    if (Cesium.defined(picked) && picked.id) {
+                        const ent = picked.id;
+                        if (ent.polygon) {
+                            // show infoBox for polygons
+                            try {
+                                const title = ent.name || (ent.properties && ent.properties.Name_1) || 'Province';
+                                let desc = '';
+                                if (ent.properties) {
+                                    desc += '<table style="border-collapse:collapse; width:100%">';
+                                    for (const k in ent.properties) {
+                                        if (!Object.prototype.hasOwnProperty.call(ent.properties, k)) continue;
+                                        const v = ent.properties[k];
+                                        desc += `<tr><td style="border:1px solid #ddd;padding:4px;font-weight:600">${k}</td><td style="border:1px solid #ddd;padding:4px">${v}</td></tr>`;
+                                    }
+                                    desc += '</table>';
+                                }
+                                if (viewer.infoBox && viewer.infoBox.viewModel) {
+                                    viewer.infoBox.viewModel.title = title;
+                                    viewer.infoBox.viewModel.description = desc || 'Aucune donnée disponible.';
+                                    if (viewer.infoBox.container) viewer.infoBox.container.style.display = '';
+                                }
+                            } catch (e) { /* ignore */ }
+                            // hide place button if shown
+                            placeButton.style.display = 'none'; selectedPointEntity = null;
+                        } else if (ent.point) {
+                            // clicked a point: keep it white and show "Placer" button
+                            selectedPointEntity = ent;
+                            // position the button near the click (convert canvas coords to page coords)
+                            const rect = document.getElementById('cesiumContainer').getBoundingClientRect();
+                            placeButton.style.left = (rect.left + clientX + 8) + 'px';
+                            placeButton.style.top = (rect.top + clientY + 8) + 'px';
+                            placeButton.style.display = 'block';
+                            // ensure infoBox hidden for points
+                            try { if (viewer.infoBox && viewer.infoBox.container) viewer.infoBox.container.style.display = 'none'; } catch (e) {}
+                        } else {
+                            // clicked something else: hide place button and update UI
+                            placeButton.style.display = 'none'; selectedPointEntity = null;
+                            try { if (viewer.infoBox && viewer.infoBox.container) viewer.infoBox.container.style.display = 'none'; } catch (e) {}
+                        }
+                    } else {
+                        // nothing picked: hide place button / infoBox
+                        placeButton.style.display = 'none'; selectedPointEntity = null;
+                        try { if (viewer.infoBox && viewer.infoBox.container) viewer.infoBox.container.style.display = 'none'; } catch (e) {}
+                    }
+                }catch(e){}
+            }, Cesium.ScreenSpaceEventType.LEFT_CLICK);
         }
+    }catch(e){}
 
-        // Simple Wikipedia URL helper (English only)
-        function makeWikiUrl(name) {
-            if (!name) return 'https://en.wikipedia.org/';
-            let s = String(name).trim();
-            s = s.replace(/,\s*$/,'').replace(/\s*\(.+\)$/, '');
-            s = s.replace(/[\/]/g, '_').replace(/\s+/g, '_');
-            return `https://en.wikipedia.org/wiki/${encodeURIComponent(s)}`;
-        }
+    // placeButton behavior: when clicked, try to place the clicked point's province compared to currentDisplayedProvince
+    if (placeButton) {
+        placeButton.addEventListener('click', () => {
+            placeButton.style.display = 'none';
+            if (!selectedPointEntity) return;
+            const clickedKey = selectedPointEntity.provinceKey;
+            if (!clickedKey) return;
+            // ensure we match the exact feature key and centroid
+            const centroidMatches = currentDisplayedFeatureCentroid && selectedPointEntity.featureCentroid && (selectedPointEntity.featureCentroid === currentDisplayedFeatureCentroid);
+            if (clickedKey === currentDisplayedProvinceKey && centroidMatches) {
+                // correct placement: show polygon, remove the point, register and load next
+                try {
+                    displayProvinceOnGlobe(selectedPointEntity.featureGeometry);
+                } catch (e) {}
+                try { viewer.entities.remove(selectedPointEntity); } catch (e) {}
+                // attempt to read displayName/country and register
+                const [provinceId, featureIndexStr] = clickedKey.split('::'); const featureIndex = parseInt(featureIndexStr||'0',10) || 0;
+                fetch(`./states/${provinceId}.json`).then(r=>{ if(!r.ok) throw new Error('fetch'); return r.json(); }).then(json=>{
+                    const feat = (json.features && json.features[featureIndex])||null; const displayName = feat && (feat.properties.Name_1 || feat.properties.Country) ? (feat.properties.Name_1 || feat.properties.Country) : provinceId; const country = feat && feat.properties && feat.properties.Country ? feat.properties.Country : null;
+                    const flagUrl = json && json.flag ? json.flag : null;
+                    const placedKey = clickedKey;
+                    const attempts = attemptsByKey[placedKey] || 0;
+                    let points = 1; if(attempts === 0) points = 6; else if(attempts >=1 && attempts <=3) points = 3; else points = 1;
+                    score += points; updateScoreDisplay();
+                    registerPlacedProvince(provinceId, displayName, country, flagUrl, placedKey, attempts);
+                    try{ delete attemptsByKey[placedKey]; }catch(e){}
+                    showNotification(`${displayName} placé ! (+${points} pts)`, 'success');
+                     loadRandomProvince();
+                }).catch(()=>{
+                    registerPlacedProvince(provinceId, provinceId, null);
+                    showNotification(`${provinceId} placé (données incomplètes).`, 'warn');
+                    loadRandomProvince();
+                });
+            } else {
+                // wrong placement via Place button: increment attempts for current displayed tile
+                try{ if(currentDisplayedProvinceKey){ attemptsByKey[currentDisplayedProvinceKey] = (attemptsByKey[currentDisplayedProvinceKey] || 0) + 1; const tries = attemptsByKey[currentDisplayedProvinceKey]; if(tries >=5 && currentDisplayedFlag){ const img = document.querySelector('#sidebarContent .tile .tileTitle img.flag'); if(img){ img.style.display=''; img.src = currentDisplayedFlag; } } } }catch(e){}
+                 showNotification('Ce n\'est pas le bon endroit.', 'error');
+            }
+            selectedPointEntity = null;
+        });
+        // hide it when clicking elsewhere (global click)
+        document.addEventListener('click', (e)=>{
+            // if click is not on the placeButton itself, hide it
+            if (!placeButton.contains(e.target)) { placeButton.style.display = 'none'; selectedPointEntity = null; }
+        });
+    }
 
-        // Save / Load logic
-        const saveBtn = document.getElementById('saveBtn');
-        const savePanel = document.getElementById('savePanel');
-        const closeSavePanel = document.getElementById('closeSavePanel');
-        const exportBtn = document.getElementById('exportBtn');
-        const importBtn = document.getElementById('importBtn');
-        const importFile = document.getElementById('importFile');
-        const importArea = document.getElementById('importArea');
-        const validateImportBtn = document.getElementById('validateImport');
+    // Skip button
+    if(skipSidebar){ skipSidebar.addEventListener('click', e=>{ e.preventDefault(); selectedEntity=null; const next = pickDifferentProvince() || getRandomProvince(); if(!next) return; skipSidebar.disabled=true; loadProvinceByName(next).finally(()=>{ skipSidebar.disabled=false; }); }); }
 
-        function getSaveObject(){
-            return {
-                placedProvinces: placedProvinces.slice(),
-                attemptsByKey: Object.assign({}, attemptsByKey),
-                totalScore: totalScore || 0,
-                placedFeaturesCount: placedFeaturesCount || 0,
-                totalProvincesCount: totalProvincesCount || 0
-            };
-        }
+    // burger toggle
+    if(burgerButton){ burgerButton.addEventListener('click', ()=>{ if(!placedPanel) return; placedPanel.style.display = placedPanel.style.display==='block'?'none':'block'; }); }
 
-        function exportProgress(){
+    // === Save / Load progress panel (export/import JSON file) ===
+    try{
+        // create toggle button (circular) bottom-right
+        const saveBtn = document.createElement('button');
+        saveBtn.id = 'saveBtn';
+        saveBtn.title = 'Save / Load progress';
+        saveBtn.textContent = '⇪';
+        Object.assign(saveBtn.style, {
+            position: 'fixed',
+            right: '16px',
+            bottom: '16px',
+            width: '48px',
+            height: '48px',
+            borderRadius: '50%',
+            border: 'none',
+            background: '#0ea5a4',
+            color: '#fff',
+            zIndex: 20000,
+            cursor: 'pointer',
+            boxShadow: '0 6px 18px rgba(0,0,0,0.12)',
+            fontWeight: '700',
+            fontSize: '18px'
+        });
+        document.body.appendChild(saveBtn);
+
+        // panel
+        const savePanel = document.createElement('div');
+        savePanel.id = 'savePanel';
+        Object.assign(savePanel.style, {
+            position: 'fixed',
+            right: '16px',
+            bottom: '72px',
+            width: '320px',
+            maxWidth: 'calc(100vw - 40px)',
+            background: '#fff',
+            boxShadow: '0 8px 24px rgba(0,0,0,0.12)',
+            padding: '10px',
+            borderRadius: '8px',
+            zIndex: 20000,
+            display: 'none',
+            boxSizing: 'border-box'
+        });
+
+        savePanel.innerHTML = `
+            <div style="display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:8px;">
+                <strong>Save progress</strong>
+                <button id="closeSavePanel" style="border:none;background:transparent;cursor:pointer;font-size:16px;">✕</button>
+            </div>
+            <div style="font-size:13px;color:#333;margin-bottom:8px;">Export your progress to a JSON file or import a previously exported file.</div>
+            <div style="display:flex;gap:8px;">
+                <button id="exportBtn" style="flex:1;padding:8px;border-radius:6px;border:none;background:#10b981;color:#fff;cursor:pointer;">Export JSON</button>
+                <input id="importFile" type="file" accept="application/json" style="display:none">
+                <button id="importBtn" style="flex:1;padding:8px;border-radius:6px;border:none;background:#2563eb;color:#fff;cursor:pointer;">Import JSON</button>
+            </div>
+            <div style="font-size:12px;color:#666;margin-top:8px;">Note: importing replaces currently placed provinces in the UI and attempts to restore polygons on the globe.</div>
+        `;
+        document.body.appendChild(savePanel);
+
+        const closeSavePanel = savePanel.querySelector('#closeSavePanel');
+        const exportBtn = savePanel.querySelector('#exportBtn');
+        const importBtn = savePanel.querySelector('#importBtn');
+        const importFile = savePanel.querySelector('#importFile');
+
+        saveBtn.addEventListener('click', ()=>{ savePanel.style.display = savePanel.style.display==='block' ? 'none' : 'block'; });
+        closeSavePanel.addEventListener('click', ()=>{ savePanel.style.display='none'; });
+
+        function exportProgressToFile(){
             try{
-                const obj = getSaveObject();
-                const blob = new Blob([JSON.stringify(obj, null, 2)], { type: 'application/json' });
+                const data = {
+                    meta: { exportedAt: (new Date()).toISOString(), totalStates: file_list.length },
+                    placedProvinces: placedProvinces.slice(),
+                    score: score,
+                    attemptsByKey: attemptsByKey
+                };
+                const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
                 const url = URL.createObjectURL(blob);
-                const a = document.createElement('a'); a.href = url; a.download = 'puzzle_globe_save.json'; document.body.appendChild(a); a.click(); setTimeout(()=>{ URL.revokeObjectURL(url); try{ document.body.removeChild(a); }catch(e){} }, 500);
-            }catch(e){ showNotification('Error during export.', 'error'); }
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = `puzzle_globe_progress_${new Date().toISOString().slice(0,19).replace(/[:T]/g,'-')}.json`;
+                document.body.appendChild(a);
+                a.click();
+                setTimeout(()=>{ try{ URL.revokeObjectURL(url); document.body.removeChild(a); }catch(e){} }, 500);
+                showNotification('Progress exported.', 'success');
+            }catch(e){ showNotification('Export failed.', 'error'); }
         }
 
-        // UI wiring
-        if(saveBtn) saveBtn.addEventListener('click', ()=>{ savePanel.style.display = savePanel.style.display === 'block' ? 'none' : 'block'; });
-        if(closeSavePanel) closeSavePanel.addEventListener('click', ()=>{ savePanel.style.display='none'; });
-        if(exportBtn) exportBtn.addEventListener('click', exportProgress);
-        if(importBtn) importBtn.addEventListener('click', ()=> importFile.click());
-        if(importFile) importFile.addEventListener('change', (ev)=>{ const f = ev.target.files && ev.target.files[0]; if(!f) return; const r = new FileReader(); r.onload = (e)=>{ try{ const parsed = JSON.parse(e.target.result); applyImportedObject(parsed); }catch(ex){ showNotification('Invalid JSON file.', 'error'); } }; r.readAsText(f); });
-        if(validateImportBtn) validateImportBtn.addEventListener('click', ()=>{ const txt = importArea.value && importArea.value.trim(); if(!txt){ showNotification('Paste a valid JSON.', 'error'); return; } try{ const parsed = JSON.parse(txt); applyImportedObject(parsed); }catch(e){ showNotification('Invalid JSON.', 'error'); } });
-    </script>
+        function importProgressFromFile(file){
+            if(!file) return;
+            const fr = new FileReader();
+            fr.onload = async (ev) => {
+                try{
+                    const parsed = JSON.parse(ev.target.result);
+                    if(!parsed || !Array.isArray(parsed.placedProvinces)) { showNotification('Fichier invalide.', 'error'); return; }
+                    // replace placedProvinces contents
+                    placedProvinces.length = 0;
+                    parsed.placedProvinces.forEach(p => placedProvinces.push(p));
+                    // ensure each imported entry has a country property (fallback to null if missing)
+                    try{
+                        placedProvinces.forEach(ent => {
+                            if(!ent) return;
+                            if(ent.country === undefined) ent.country = null;
+                        });
+                    }catch(e){}
+                    // restore score and attempts
+                    try{ score = Number(parsed.score) || 0; updateScoreDisplay(); }catch(e){}
+                    try{ Object.keys(attemptsByKey).forEach(k=>delete attemptsByKey[k]); if(parsed.attemptsByKey && typeof parsed.attemptsByKey === 'object') Object.assign(attemptsByKey, parsed.attemptsByKey); }catch(e){}
+                     updatePlacedPanel();
+                     showNotification('Progress imported. Restoring on globe...', 'success');
+                    // attempt to restore polygons on globe by fetching the state files for each placed entry
+                    for(const entry of placedProvinces){
+                        try{
+                            const name = entry.name;
+                            const key = entry.key || null; // optional per-feature key (e.g., 'Guernsey::0')
+                            const resp = await fetch(`./states/${name}.json`);
+                            if(!resp.ok) continue;
+                            const json = await resp.json();
+                            let featureIndex = 0;
+                            if(key && typeof key === 'string'){
+                                const split = key.split('::');
+                                if(split.length===2) featureIndex = parseInt(split[1]||'0',10) || 0;
+                            }
+                            const feat = (json.features && json.features[featureIndex]) || json.features && json.features[0];
+                            if(feat && feat.geometry){ displayProvinceOnGlobe(feat.geometry); }
+                            // remove the point entity corresponding to this feature (if present)
+                            try{
+                                const keyToRemove = (key ? key : `${name}::${featureIndex}`);
+                                const ents = viewer.entities.values.slice();
+                                for(const ent of ents){ if(ent && ent.provinceKey === keyToRemove){ try{ viewer.entities.remove(ent); }catch(e){} } }
+                            }catch(e){}
+                        }catch(e){ /* ignore per-entry errors */ }
+                    }
+                    updatePlacedPanel();
+                 }catch(e){ showNotification('Import failed: fichier invalide.', 'error'); }
+            };
+            fr.onerror = ()=> showNotification('Failed to read file.', 'error');
+            fr.readAsText(file);
+        }
+
+        exportBtn.addEventListener('click', exportProgressToFile);
+        importBtn.addEventListener('click', ()=> importFile.click());
+        importFile.addEventListener('change', (ev)=>{ const f = ev.target.files && ev.target.files[0]; if(f) importProgressFromFile(f); importFile.value = ''; });
+    }catch(e){ /* non-blocking */ }
+
+</script>
 </body>
 </html>
