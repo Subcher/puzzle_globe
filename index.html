@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
     <meta charset="utf-8" />
@@ -106,20 +106,34 @@
         /* SVG wrapper ensures square SVG */
         .svg-wrapper {
             width: 100%;
-            aspect-ratio: 1 / 1; /* force square */
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            aspect-ratio: 1 / 1; /* force square when supported */
+            /* fallback for browsers that don't support aspect-ratio: use padding-top trick */
+            position: relative;
+            display: block;
             overflow: hidden;
             background: #fff;
             box-sizing: border-box;
         }
 
+        /* create a padding-based square fallback using a pseudo-element */
+        .svg-wrapper::before {
+            content: '';
+            display: block;
+            padding-top: 100%; /* keep a square aspect by default */
+            /* only used when aspect-ratio is not honored; when aspect-ratio is supported this has no visual effect */
+        }
+
+        /* place the SVG absolutely inside the square so it always fills the available square area */
         .svg-wrapper svg {
-            width: 100%;
-            height: 100%;
-            max-width: 100%;
-            max-height: 100%;
+            position: absolute;
+            top: 6px;
+            left: 6px;
+            right: 6px;
+            bottom: 6px;
+            width: calc(100% - 12px);
+            height: calc(100% - 12px);
+            max-width: none;
+            max-height: none;
             display: block;
             cursor: grab; /* indicate draggable */
         }
@@ -216,7 +230,7 @@
         .flag {
             height: 1em; /* same height as current font */
             width: auto;
-            margin-left: 8px;
+            margin-right: 8px;
             vertical-align: middle;
             border: 1px solid rgba(0,0,0,0.06);
             box-shadow: 0 1px 2px rgba(0,0,0,0.04);
@@ -267,10 +281,12 @@
     <div id="sidebar">
         <div style="display:flex; align-items:center; justify-content:space-between; gap:12px;">
             <div style="display:flex;flex-direction:column;">
-                <h2 style="margin:0;">Provinces</h2>
+                <h2 id="sidebarTitle" style="margin:0;">Provinces</h2>
                 <div id="scoreDisplay" style="font-weight:700;font-size:14px;margin-top:6px;color:#222;">Score: 0</div>
             </div>
-            <button id="burgerButton" title="Afficher les provinces placées">☰</button>
+            <div style="display:flex;align-items:center;gap:8px;">
+                <button id="burgerButton" title="Show placed provinces">☰</button>
+            </div>
         </div>
         <div id="placedPanel"></div>
         <div id="sidebarContent"><!-- tiles --></div>
@@ -286,32 +302,31 @@
     </div>
     <div id="cesiumContainer"></div>
     <!-- floating Placer button shown when clicking a point -->
-    <button id="placeButton">Placer</button>
+    <button id="placeButton">Place</button>
 
     <!-- Notifications container -->
     <div id="notifications" aria-live="polite" aria-atomic="true"></div>
 
     <!-- Save/Load small panel (bottom-right) -->
     <div id="savePanelToggle" style="position:fixed; right:16px; bottom:16px; z-index:20000;">
-        <button id="saveBtn" title="Sauvegarde" style="width:44px; height:44px; border-radius:50%; background:#0ea5a4; color:#fff; border:none; box-shadow:0 6px 18px rgba(0,0,0,0.12); cursor:pointer; font-weight:700;">⇪</button>
+        <button id="saveBtn" title="Save" style="width:44px; height:44px; border-radius:50%; background:#0ea5a4; color:#fff; border:none; box-shadow:0 6px 18px rgba(0,0,0,0.12); cursor:pointer; font-weight:700;">⇪</button>
         <div id="savePanel" style="display:none; width:320px; max-width:calc(100vw - 40px); background:#fff; box-shadow:0 8px 24px rgba(0,0,0,0.12); padding:10px; border-radius:8px; margin-top:8px;">
             <div style="display:flex; justify-content:space-between; align-items:center; gap:8px;">
-                <strong>Sauvegarde</strong>
+                <strong>Save</strong>
                 <button id="closeSavePanel" style="border:none;background:transparent;cursor:pointer;font-size:16px;">✕</button>
             </div>
-            <div style="margin-top:8px; font-size:13px; color:#333;">Exporter ou importer votre progression.</div>
+            <div style="margin-top:8px; font-size:13px; color:#333;">Export or import your progress.</div>
             <div style="display:flex; gap:8px; margin-top:10px;">
-                <button id="exportBtn" style="flex:1;padding:8px;border-radius:6px;border:none;background:#10b981;color:#fff;cursor:pointer;">Exporter JSON</button>
+                <button id="exportBtn" style="flex:1;padding:8px;border-radius:6px;border:none;background:#10b981;color:#fff;cursor:pointer;">Export JSON</button>
                 <label style="flex:1;">
                     <input id="importFile" type="file" accept="application/json" style="display:none;">
-                    <button id="importBtn" style="width:100%;padding:8px;border-radius:6px;border:none;background:#ef4444;color:#fff;cursor:pointer;">Importer</button>
+                    <button id="importBtn" style="width:100%;padding:8px;border-radius:6px;border:none;background:#ef4444;color:#fff;cursor:pointer;">Import</button>
                 </label>
             </div>
-            <div style="margin-top:8px; font-size:12px; color:#666;">Ou coller un JSON ci-dessous puis valider :</div>
+            <div style="margin-top:8px; font-size:12px; color:#666;">Or paste a JSON below and validate:</div>
             <textarea id="importArea" style="width:100%;height:120px;margin-top:8px;border:1px solid #e5e7eb;padding:8px;border-radius:6px;box-sizing:border-box;"></textarea>
             <div style="display:flex; gap:8px; margin-top:8px;">
-                <button id="applyImport" style="flex:1;padding:8px;border-radius:6px;border:none;background:#2563eb;color:#fff;cursor:pointer;">Appliquer</button>
-                <button id="clearImport" style="flex:1;padding:8px;border-radius:6px;border:1px solid #e5e7eb;background:#fff;color:#111;cursor:pointer;">Effacer</button>
+                <button id="validateImport" style="flex:1;padding:8px;border-radius:6px;border:none;background:#2563eb;color:#fff;cursor:pointer;">Validate JSON</button>
             </div>
         </div>
     </div>
@@ -320,9 +335,21 @@
         // Restore a working Cesium Ion access token (previously used in this project).
         Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJhYWUxMjgyOC04YjI0LTQ0NGUtYjM0OC0wMWQ1MGJkNWVjZjYiLCJpZCI6MjQwNDc3LCJpYXQiOjE3MjU5ODAxMDB9.Ml_ZTxTk_V86bdUOdoJ0k8klK7iyN-0atpz-KXvvYRs';
 
+        // Disable infoBox and selectionIndicator (Cesium creates a sandboxed iframe for the InfoBox)
+        // which can cause "Blocked script execution in 'about:blank' because the document's frame is sandboxed"
+        // when HTML content includes scripts. Also turn off other widgets we don't use.
         const viewer = new Cesium.Viewer('cesiumContainer', {
             terrainProviderViewModels: Cesium.createDefaultTerrainProviderViewModels(),
-            selectedTerrainProviderViewModel: Cesium.createDefaultTerrainProviderViewModels()[0]
+            selectedTerrainProviderViewModel: Cesium.createDefaultTerrainProviderViewModels()[0],
+            infoBox: false,
+            selectionIndicator: false,
+            animation: false,
+            timeline: false,
+            navigationHelpButton: false,
+            fullscreenButton: false,
+            baseLayerPicker: false,
+            sceneModePicker: false,
+            geocoder: false
         });
 
         // Prevent Cesium default double-click zoom behavior (it flies to the clicked object)
@@ -375,6 +402,19 @@
             } catch (e) { /* ignore */ }
         }
 
+        // Global error capture to help debugging runtime issues in the browser.
+        try {
+            window.addEventListener('error', function (evt) {
+                try { showNotification('Runtime error: ' + (evt && evt.message ? evt.message : String(evt)), 'error', 8000); } catch (e) {}
+                // also log to console
+                console.error('Captured error:', evt.error || evt.message || evt);
+            });
+            window.addEventListener('unhandledrejection', function (evt) {
+                try { showNotification('Unhandled promise rejection: ' + (evt && evt.reason ? (evt.reason.message || String(evt.reason)) : String(evt)), 'error', 8000); } catch (e) {}
+                console.error('Unhandled rejection:', evt.reason || evt);
+            });
+        } catch (e) { /* ignore */ }
+
         // state
         let currentDisplayedProvince = null;
         let currentDisplayedProvinceKey = null; // unique key provinceName::featureIndex for the tile shown
@@ -393,6 +433,37 @@
         const attemptsByKey = {};
         // total score
         let totalScore = 0;
+
+        // updatePlacedPanel defined early to avoid ReferenceError when other functions call it
+        function updatePlacedPanel(){
+            try{
+                if(typeof placedPanel === 'undefined' || !placedPanel) return;
+                placedPanel.innerHTML = '';
+                const groups = {};
+                placedProvinces.forEach(p => { const k = p.country || 'Unknown'; (groups[k] = groups[k] || []).push(p); });
+                const countryKeys = Object.keys(groups).sort((a,b)=> a.localeCompare(b, 'en', { sensitivity: 'base' }));
+                countryKeys.forEach(country => {
+                    const items = (groups[country]||[]).slice().sort((x,y)=> ( (x.displayName||x.name||'').toString().localeCompare((y.displayName||y.name||'').toString(), 'en', { sensitivity: 'base' }) ));
+                    let groupFlag = null; for(const it of items){ if(it && it.flag) { groupFlag = it.flag; break; } }
+                    const flagUrl = groupFlag || (country ? makeFlagUrl(country) : null);
+                    const header = document.createElement('div'); header.style.display='flex'; header.style.alignItems='center'; header.style.gap='8px'; header.style.marginTop='6px';
+                    if(flagUrl){ const img = document.createElement('img'); img.className='flag'; img.alt=`${country} flag`; img.src=flagUrl; img.onerror=()=>{ try{ img.style.display='none'; }catch(e){} }; header.appendChild(img); }
+                    const h = document.createElement('a'); h.dataset.wikiName = country; h.href = makeWikiUrl(country); h.target = '_blank'; h.rel='noopener noreferrer'; h.style.fontWeight='bold'; h.style.color='inherit'; h.style.textDecoration='none'; h.textContent = country; h.addEventListener('click', ev=> ev.stopPropagation()); header.appendChild(h);
+                    placedPanel.appendChild(header);
+                    const ul = document.createElement('ul'); ul.style.paddingLeft='16px';
+                    items.forEach(p=>{
+                        const li = document.createElement('li'); li.style.cursor='pointer';
+                        const pname = p.displayName || p.name || '';
+                        const a = document.createElement('a'); a.dataset.wikiName = pname; a.href = makeWikiUrl(pname); a.target='_blank'; a.rel='noopener noreferrer'; a.textContent = pname; a.style.color='inherit'; a.style.textDecoration='none'; a.addEventListener('click', ev=> ev.stopPropagation());
+                        li.appendChild(a);
+                        li.addEventListener('click', ()=>{ try{ viewer.dataSources._dataSources.forEach(ds => ds.entities.values.forEach(ent => { if((ent.name===pname) || (ent.properties && ent.properties.Name_1===pname)) { viewer.flyTo(ent).catch(()=>{}); } })); }catch(e){} });
+                        ul.appendChild(li);
+                    });
+                    placedPanel.appendChild(ul);
+                });
+                // wiki link updater removed; links use makeWikiUrl() directly
+            }catch(e){ /* ignore */ }
+        }
 
         function updateScoreDisplay(){
             try{
@@ -436,579 +507,70 @@
             }catch(e){/*ignore*/}
         }
 
+        // Affiche le drapeau dans la tuile (sidebar) seulement si le nombre d'essais pour la clé >= 5
+        function refreshDisplayedTileFlag(key) {
+            try {
+                const k = key || currentDisplayedProvinceKey;
+                if (!k) return;
+                const tile = document.querySelector('#sidebarContent .tile');
+                if (!tile) return;
+                const img = tile.querySelector('img.flag');
+                if (!img) return;
+                const flagUrl = tile.dataset.flagUrl || img.dataset.flagUrl || null;
+                const attempts = attemptsByKey[k] || 0;
+                if (attempts >= 5 && flagUrl) {
+                    // show and ensure src is set
+                    if (!img.getAttribute('src') || img.getAttribute('src') !== flagUrl) {
+                        img.src = flagUrl;
+                    }
+                    img.style.display = '';
+                } else {
+                    // hide flag until threshold
+                    img.style.display = 'none';
+                    // optionally avoid loading image until needed
+                    try { img.removeAttribute('src'); } catch(e) {}
+                }
+            } catch (e) { /* ignore */ }
+        }
+
         // initialize progress at startup
         try{ window.addEventListener('load', ()=>{ setTimeout(()=>{ updateProgress(); }, 50); }); }catch(e){}
-        // Build a likely Wikipedia commons file path for the country's flag.
-        // Uses the 'Special:FilePath' endpoint with a guessed filename like 'Flag_of_France.svg'.
-        // This is best-effort: some countries use different filenames; onerror hides missing images.
-        function makeFlagUrl(countryName) {
-            if (!countryName) return null;
-            // remove common punctuation, replace spaces with underscores
-            let clean = countryName.replace(/[\u2019'‘’.,]/g, '')
-                                  .replace(/\s+/g, '_')
-                                  .replace(/&/g, 'and')
-                                  .replace(/,+$/,'');
-            // common wiki filenames sometimes use 'the' (e.g., 'Flag_of_the_United_Kingdom'),
-            // try the simple form first 'Flag_of_X'
-            const filename = `Flag_of_${clean}.svg`;
-            const url = `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(filename)}`;
-            return url;
-        }
-
-        function updatePlacedPanel() {
-            if (!placedPanel) return;
-            placedPanel.innerHTML = '';
-            const groups = {};
-            placedProvinces.forEach(p => { const k = p.country || 'Unknown'; (groups[k] = groups[k] || []).push(p); });
-            // sort country names alphabetically (locale-aware)
-            const countryKeys = Object.keys(groups).sort((a,b)=> a.localeCompare(b, 'fr', { sensitivity: 'base' }));
-            countryKeys.forEach(country => {
-                // sort provinces inside country by displayName/name first (we need items to pick a group's flag)
-                const items = (groups[country] || []).slice().sort((x,y)=> {
-                    const a = (x.displayName || x.name || '').toString();
-                    const b = (y.displayName || y.name || '').toString();
-                    return a.localeCompare(b, 'fr', { sensitivity: 'base' });
-                });
-                // choose a flag from the group's provinces if present, otherwise fallback to guessed URL
-                let groupFlag = null;
-                for (const it of items) { if (it && it.flag) { groupFlag = it.flag; break; } }
-                const flagUrl = groupFlag || makeFlagUrl(country);
-
-                // header with flag on the left and country name to the right
-                const header = document.createElement('div');
-                header.style.display = 'flex';
-                header.style.alignItems = 'center';
-                header.style.gap = '8px';
-                header.style.marginTop = '6px';
-
-                if (flagUrl) {
-                    const img = document.createElement('img');
-                    img.className = 'flag';
-                    img.alt = `${country} flag`;
-                    img.src = flagUrl;
-                    // hide image if it fails to load (some filenames differ)
-                    img.onerror = () => { try { img.style.display = 'none'; } catch (e) {} };
-                    header.appendChild(img);
-                }
-
-                const h = document.createElement('div');
-                h.style.fontWeight = 'bold';
-                h.textContent = country;
-                header.appendChild(h);
-
-                placedPanel.appendChild(header);
-
-                const ul = document.createElement('ul'); ul.style.paddingLeft='16px';
-                 items.forEach(p => {
-                     const li = document.createElement('li'); li.style.cursor='pointer'; li.textContent = p.displayName || p.name;
-                     li.addEventListener('click', () => {
-                         // fly to entity with matching name or property
-                         viewer.dataSources._dataSources.forEach(ds => ds.entities.values.forEach(ent => {
-                             if ((ent.name === p.displayName) || (ent.properties && ent.properties.Name_1 && ent.properties.Name_1 === p.displayName)) {
-                                 viewer.flyTo(ent).catch(() => {});
-                             }
-                         }));
-                     });
-                     ul.appendChild(li);
-                 });
-                 placedPanel.appendChild(ul);
-             });
-         }
-
-        function pickDifferentProvince() {
-            if (!file_list || file_list.length === 0) return null;
-            let startIdx = (currentIndex >= 0 && currentIndex < file_list.length) ? (currentIndex + 1) % file_list.length : 0;
-            for (let i=0;i<file_list.length;i++){
-                const idx=(startIdx+i)%file_list.length; const candidate=file_list[idx];
-                if (!isPlaced(candidate) && candidate!==currentDisplayedProvince) { return candidate; }
-            }
-            return null;
-        }
-        function getRandomProvince(){ const candidates = file_list.filter(n=>!isPlaced(n)); return candidates.length? candidates[Math.floor(Math.random()*candidates.length)] : null; }
-
-        function createSVGPath(geometry, svgWidth, svgHeight){
-            if (!geometry) return '';
-            const geom = geometry.type === 'Feature' ? geometry.geometry : geometry;
-            if (!geom) return '';
-
-            // collect polygons (support Polygon & MultiPolygon)
-            const polygons = [];
-            if (geom.type === 'Polygon') {
-                polygons.push(...geom.coordinates);
-            } else if (geom.type === 'MultiPolygon') {
-                geom.coordinates.forEach(mp => polygons.push(...mp));
-            } else {
-                return '';
-            }
-
-            // flatten coords list to compute circular mean longitude
-            const coordList = [];
-            polygons.forEach(ring => ring.forEach(c => coordList.push(c)));
-            if (coordList.length === 0) return '';
-
-            // circular mean lon (antimeridian handling)
-            const toRad = d => d * Math.PI / 180;
-            const toDeg = r => r * 180 / Math.PI;
-            let sumSin = 0, sumCos = 0;
-            coordList.forEach(c => { const lon = c[0]; const r = toRad(lon); sumSin += Math.sin(r); sumCos += Math.cos(r); });
-            const meanLon = toDeg(Math.atan2(sumSin / coordList.length, sumCos / coordList.length));
-            const normalizeLon = lon => { let l = lon; while (l - meanLon > 180) l -= 360; while (l - meanLon < -180) l += 360; return l; };
-
-            // adjusted polygons with normalized longitudes
-            const adjusted = polygons.map(ring => ring.map(([lon, lat]) => [normalizeLon(lon), lat]));
-
-            // try to convert to Web Mercator (meters) for accurate scaling across latitudes
-            let mercFeature = null;
-            try { mercFeature = turf.toMercator({ type: 'Feature', geometry: (adjusted.length && adjusted[0].length ? (geom.type==='Polygon'? { type: 'Polygon', coordinates: adjusted } : { type: 'MultiPolygon', coordinates: [adjusted] }) : geom), properties: {} }); } catch (e) { mercFeature = null; }
-
-            // build rings to render (use merc if available, otherwise degrees)
-            let rings = [];
-            if (mercFeature && mercFeature.geometry) {
-                if (mercFeature.geometry.type === 'Polygon') rings = mercFeature.geometry.coordinates;
-                else if (mercFeature.geometry.type === 'MultiPolygon') rings = mercFeature.geometry.coordinates.flat();
-            }
-            if (!rings.length) {
-                // fallback to adjusted degrees rings
-                rings = adjusted;
-            }
-
-            // compute bbox in chosen coordinate space
-            let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
-            rings.forEach(r => r.forEach(([x,y]) => { if (typeof x === 'number' && typeof y === 'number') { minX = Math.min(minX,x); maxX = Math.max(maxX,x); minY = Math.min(minY,y); maxY = Math.max(maxY,y); } }));
-            if (!isFinite(minX) || !isFinite(maxX) || !isFinite(minY) || !isFinite(maxY)) return '';
-
-            const rangeX = (maxX - minX) || 1e-6;
-            const rangeY = (maxY - minY) || 1e-6;
-
-            // margin to avoid touching edges (6px or dynamic %)
-            const aspect = rangeX / rangeY;
-            const baseFactor = 0.06;
-            const largeFactor = 0.12; // bigger margin for extreme aspect ratios
-            const marginFactor = (aspect > 8 || aspect < 1/8) ? largeFactor : baseFactor;
-            const marginPx = Math.max(6, Math.min(svgWidth, svgHeight) * marginFactor);
-             const availW = Math.max(1, svgWidth - 2 * marginPx);
-             const availH = Math.max(1, svgHeight - 2 * marginPx);
-
-            // compute scale in selected space
-            const scale = Math.min(availW / rangeX, availH / rangeY);
-            const usedW = rangeX * scale;
-            const usedH = rangeY * scale;
-            const padX = (svgWidth - usedW) / 2;
-            const padY = (svgHeight - usedH) / 2;
-
-            // construct final path with pixel coordinates (no transform needed)
-            let path = '';
-            rings.forEach(r => {
-                const pts = r.map(([x,y]) => {
-                    const px = ((x - minX) * scale) + padX;
-                    const py = svgHeight - (((y - minY) * scale) + padY);
-                    return `${px.toFixed(2)},${py.toFixed(2)}`;
-                }).filter(Boolean);
-                if (pts.length) path += `M${pts.join('L')}Z `;
-            });
-
-            return path.trim();
-        }
-
-        function addPointToGlobe(provinceName, geometry, properties, featureIndex){
-            try{
-                const center = turf.center(geometry); const [lon,lat]=center.geometry.coordinates;
-                const ent = viewer.entities.add({ position: Cesium.Cartesian3.fromDegrees(lon,lat), point:{ pixelSize:8, color:Cesium.Color.WHITE } });
-                ent.provinceName = provinceName;
-                ent.featureGeometry = geometry;
-                ent.featureProps = properties || null;
-                ent.featureIndex = (typeof featureIndex !== 'undefined') ? featureIndex : null;
-                // unique per-feature key
-                ent.provinceKey = `${provinceName}::${ent.featureIndex}`;
-                // store a centroid signature to identify the exact tile/feature
-                ent.featureCentroid = `${Number(lon).toFixed(6)},${Number(lat).toFixed(6)}`;
-                return ent;
-            }catch(e){ return null; }
-        }
-
-        async function loadAllFeatures(){
-            totalProvincesCount = 0;
-            for(const provinceName of file_list){
-                try{
-                    const resp = await fetch(`./states/${provinceName}.json`);
-                    if(!resp.ok) continue;
-                    const geoJson = await resp.json();
-                    if(geoJson.features && Array.isArray(geoJson.features)){
-                        const count = geoJson.features.length;
-                        countryFeatureCounts[provinceName] = count;
-                        totalProvincesCount += count;
-                        geoJson.features.forEach((f, idx)=> addPointToGlobe(provinceName,f.geometry,f.properties, idx));
-                    } else {
-                        countryFeatureCounts[provinceName] = 0;
-                    }
-                }catch(e){ countryFeatureCounts[provinceName] = 0; /*ignore*/}
-            }
-         }
-        // load all features and update progress once totals are known
-        loadAllFeatures().then(()=>{ try{ updateProgress(); }catch(e){} });
-
-        // loadProvinceByName(provinceName, featureIndex?) - if featureIndex provided, show that exact tile
-        async function loadProvinceByName(provinceName, featureIndex){
-             if(!provinceName) return;
-             try{
-                 const resp = await fetch(`./states/${provinceName}.json`);
-                 if(!resp.ok) return;
-                 const geoJson = await resp.json(); if(geoJson.features && geoJson.features.length>0){
-                    // choose featureIndex if provided, otherwise pick randomly among features
-                    const displayedFeatureIndex = (typeof featureIndex === 'number' && featureIndex >=0 && featureIndex < geoJson.features.length) ? featureIndex : Math.floor(Math.random() * geoJson.features.length);
-                    const feat0 = geoJson.features[displayedFeatureIndex];
-                     const props=feat0.properties; const geometry=feat0.geometry; const displayName = props.Name_1 || props.Country || provinceName;
-                    // set the centroid signature and key for the exact feature we're showing
-                    try{
-                        const c = turf.center(geometry).geometry.coordinates; currentDisplayedFeatureCentroid = `${Number(c[0]).toFixed(6)},${Number(c[1]).toFixed(6)}`;
-                    }catch(e){ currentDisplayedFeatureCentroid = null; }
-                    currentDisplayedProvinceKey = `${provinceName}::${displayedFeatureIndex}`;
-
-                    // tile
-                    const tile = document.createElement('div');
-                    tile.className = 'tile';
-                    tile.dataset.id = provinceName;
-                    // tile is not draggable anymore; the SVG inside is draggable
-                    tile.textContent = '';
-
-                    // create square svg wrapper and a label; make SVG draggable (so user drags the svg)
-                    const svgWidth = 300, svgHeight = 300; // square svg surface
-                    const wrapper = document.createElement('div'); wrapper.className = 'svg-wrapper';
-                    const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-                    svg.setAttribute('viewBox', `0 0 ${svgWidth} ${svgHeight}`);
-                    svg.setAttribute('preserveAspectRatio', 'xMidYMid meet');
-                    svg.style.border = '1px solid #ddd';
-                    // Do NOT make the inner <svg> itself draggable; make the wrapper draggable
-                    svg.draggable = true;
-                    // make the wrapper draggable so dragging works consistently across browsers
-                    wrapper.draggable = true;
-                    // Make both the svg and the wrapper (and the tile and the title) draggable — attach same handlers
-                    svg.draggable = true;
-                    wrapper.draggable = true;
-                    tile.draggable = true;
-                    const onDragStart = (e, el) => {
-                        try { e.dataTransfer.setData('text/plain', currentDisplayedProvinceKey || (provinceName + '::0')); } catch (err) {}
-                        e.dataTransfer.effectAllowed = 'copy';
-                        try { el.classList.add('dragging'); } catch (err) {}
-                        // set a drag image using the wrapper if possible
-                        try {
-                            const rect = wrapper.getBoundingClientRect();
-                            e.dataTransfer.setDragImage(wrapper, rect.width / 2, rect.height / 2);
-                        } catch (err) { /* ignore */ }
-                    };
-                    const onDragEnd = (e, el) => { try { el.classList.remove('dragging'); } catch (err) {} };
-                    wrapper.addEventListener('dragstart', (e) => onDragStart(e, wrapper));
-                    wrapper.addEventListener('dragend', (e) => onDragEnd(e, wrapper));
-                    svg.addEventListener('dragstart', (e) => onDragStart(e, svg));
-                    svg.addEventListener('dragend', (e) => onDragEnd(e, svg));
-                    tile.addEventListener('dragstart', (e) => onDragStart(e, tile));
-                    tile.addEventListener('dragend', (e) => onDragEnd(e, tile));
-
-                    const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
-                    const d = createSVGPath(geometry, svgWidth, svgHeight);
-                    path.setAttribute('d', d);
-                    path.setAttribute('fill', 'rgba(0,123,255,0.5)');
-                    path.setAttribute('stroke', '#007bff');
-                    path.setAttribute('stroke-width', '1');
-                    svg.appendChild(path);
-                    wrapper.appendChild(svg);
-
-                    // title above the SVG with flag to the RIGHT
-                    const titleDiv = document.createElement('div');
-                    titleDiv.className = 'tileTitle';
-                    // container row to hold name + flag
-                    const titleRow = document.createElement('div');
-                    titleRow.style.display = 'flex';
-                    titleRow.style.alignItems = 'center';
-                    titleRow.style.justifyContent = 'space-between';
-
-                    const titleText = document.createElement('div');
-                    titleText.textContent = displayName;
-                    titleText.style.flex = '1 1 auto';
-                    titleText.style.textAlign = 'center';
-
-                    // flag image to the right of the name (if available)
-                    const flagImg = document.createElement('img');
-                    flagImg.className = 'flag';
-                    flagImg.alt = countryForFlag ? `${countryForFlag} flag` : '';
-                    if (flagForTile) { flagImg.src = flagForTile; }
-                    flagImg.onerror = () => { try { flagImg.style.display = 'none'; } catch (e) {} };
-
-                    titleRow.appendChild(titleText);
-                    titleRow.appendChild(flagImg);
-                    titleDiv.appendChild(titleRow);
-
-                    // make the title draggable too (same behaviour as wrapper) to ease drag start
-                    titleDiv.draggable = true;
-                    titleDiv.addEventListener('dragstart', (e) => {
-                        try { e.dataTransfer.setData('text/plain', currentDisplayedProvinceKey); } catch (err) {}
-                        e.dataTransfer.effectAllowed = 'copy';
-                        titleDiv.classList.add('dragging');
-                        try {
-                            const rect = titleDiv.getBoundingClientRect();
-                            e.dataTransfer.setDragImage(titleDiv, rect.width / 2, rect.height / 2);
-                        } catch (err) {}
-                    });
-                    titleDiv.addEventListener('dragend', () => titleDiv.classList.remove('dragging'));
-
-                    // ensure the attempts counter exists for this displayed feature (preserve if returning)
-                    try{ if(currentDisplayedProvinceKey && typeof attemptsByKey[currentDisplayedProvinceKey] === 'undefined') attemptsByKey[currentDisplayedProvinceKey] = 0; }catch(e){}
-
-                     sidebarContent.innerHTML = '';
-                    // append title and wrapper inside the tile so the whole tile is one draggable area
-                    tile.appendChild(titleDiv);
-                    tile.appendChild(wrapper);
-                     sidebarContent.appendChild(tile);
-
-                     currentDisplayedProvince = provinceName; currentIndex = file_list.indexOf(provinceName);
-                }
-            }catch(e){/*ignore*/}
-        }
-
-        // pick random with two-level uniform selection: choose country uniformly among file_list,
-        // then choose randomly one of that country's features uniformly. Skip countries with no remaining unplaced features.
-        function pickRandomCountryFeature(){
-            // build list of candidate countries that still have at least one unplaced feature
-            const candidates = [];
-            for(const country of file_list){
-                const count = countryFeatureCounts[country] || 0;
-                if(count <= 0) continue;
-                // build quickly: if any featureIndex is unplaced
-                let hasUnplaced = false;
-                for(let i=0;i<count;i++){
-                    const key = `${country}::${i}`;
-                    if(!isPlacedKey(key)) { hasUnplaced = true; break; }
-                }
-                if(hasUnplaced) candidates.push(country);
-            }
-            if(candidates.length === 0) return null;
-            // choose a country uniformly
-            const country = candidates[Math.floor(Math.random() * candidates.length)];
-            const count = countryFeatureCounts[country] || 0;
-            // gather unplaced indices for chosen country
-            const unplaced = [];
-            for(let i=0;i<count;i++){ const key = `${country}::${i}`; if(!isPlacedKey(key)) unplaced.push(i); }
-            if(unplaced.length === 0) return null;
-            const featureIndex = unplaced[Math.floor(Math.random() * unplaced.length)];
-            return { country, featureIndex };
-        }
-
-        async function loadRandomProvince(){
-            const choice = pickRandomCountryFeature();
-            if(!choice) return;
-            await loadProvinceByName(choice.country, choice.featureIndex);
-        }
-        // initial random choice
-        loadRandomProvince();
-
-        // ensure Cesium infoBox is hidden unless we set viewer.selectedEntity on polygons
-        if(viewer && viewer.infoBox && viewer.infoBox.container) viewer.infoBox.container.style.display='none';
-
-        function displayProvinceOnGlobe(inputGeometry){
-            if(!inputGeometry) return;
-            const geom = inputGeometry.type==='Feature'? inputGeometry.geometry : inputGeometry;
-            if(!geom) return;
-            Cesium.GeoJsonDataSource.load({ type:'Feature', geometry:geom, properties:{} }, { clampToGround:false }).then(ds=>{
-                // do NOT remove previously placed provinces; keep them visible
-                viewer.dataSources.add(ds);
-                placedDataSources.push(ds);
-                // style polygons in this datasource
-                ds.entities.values.forEach(ent=>{ if(ent.polygon){ ent.polygon.material = Cesium.Color.BLUE.withAlpha(0.5); ent.polygon.outline=true; ent.polygon.outlineColor=Cesium.Color.BLACK; } });
-            }).catch(()=>{});
-        }
-
-        // pick position helpers
-        function getCartesianFromDomEvent(e){ const rect = document.getElementById('cesiumContainer').getBoundingClientRect(); const x = e.clientX - rect.left; const y = e.clientY - rect.top; const windowPosition = new Cesium.Cartesian2(x,y); let cart = null; try{ if(viewer.scene.pickPositionSupported) cart = viewer.scene.pickPosition(windowPosition); }catch(e){ cart = null; } if(!cart) cart = viewer.camera.pickEllipsoid(windowPosition, viewer.scene.globe.ellipsoid); return cart; }
-        function findNearestPointEntity(cartesian){ if(!cartesian) return null; const ents = viewer.entities.values; let best=null, bestDist=Infinity; const now=Cesium.JulianDate.now(); for(let i=0;i<ents.length;i++){ const ent=ents[i]; if(!ent.provinceName || !ent.position) continue; const pos=ent.position.getValue(now); if(!pos) continue; const d = Cesium.Cartesian3.distance(pos,cartesian); if(d<bestDist){ bestDist=d; best={entity:ent, distance:d}; }} return best; }
-
-        // drag/drop on globe
-        const cesiumContainer = document.getElementById('cesiumContainer');
-        cesiumContainer.addEventListener('dragover', e=>{ e.preventDefault(); e.dataTransfer.dropEffect='copy'; });
-        cesiumContainer.addEventListener('drop', e=>{
-            e.preventDefault(); const provinceKey = e.dataTransfer.getData('text/plain') || e.dataTransfer.getData('text');
-            if(!provinceKey) return; const cart = getCartesianFromDomEvent(e); if(!cart){ showNotification('Impossible de déterminer l\'endroit sur le globe.', 'error'); return; }
-            // register an attempt for the currently displayed feature (so skips are preserved across returns)
-            try{ if(currentDisplayedProvinceKey){ attemptsByKey[currentDisplayedProvinceKey] = (attemptsByKey[currentDisplayedProvinceKey] || 0) + 1; } }catch(e){}
-            const nearest = findNearestPointEntity(cart);
-            if(!nearest || !nearest.entity){ showNotification('Aucun point proche trouvé.', 'error'); return; }
-            // check both unique provinceKey match AND exact feature centroid match (if available)
-            const centroidMatches = currentDisplayedFeatureCentroid && nearest.entity.featureCentroid && (nearest.entity.featureCentroid === currentDisplayedFeatureCentroid);
-            if(nearest.entity.provinceKey === provinceKey && centroidMatches){
-                // parse provinceName and featureIndex from provinceKey
-                const [provinceId, featureIndexStr] = provinceKey.split('::');
-                const featureIndex = parseInt(featureIndexStr || '0', 10) || 0;
-                // read the specific feature from the file
-                fetch(`./states/${provinceId}.json`).then(r=>{ if(!r.ok) throw new Error('fetch'); return r.json(); }).then(json=>{
-                   const feat = (json.features && json.features[featureIndex])||null; const displayName = feat && (feat.properties.Name_1 || feat.properties.Country) ? (feat.properties.Name_1 || feat.properties.Country) : provinceId; const country = feat && feat.properties && feat.properties.Country ? feat.properties.Country : null;
-                   const flagUrl = json && json.flag ? json.flag : null;
-                   displayProvinceOnGlobe(nearest.entity.featureGeometry);
-                   try{ viewer.entities.remove(nearest.entity); }catch(e){}
-                   // compute score based on attempts for this displayed feature
-                   try{
-                       const key = currentDisplayedProvinceKey || (nearest.entity && nearest.entity.provinceKey);
-                       const attempts = key ? (attemptsByKey[key] || 0) : 1;
-                       let points = 1;
-                       if(attempts === 1) points = 5;
-                       else if(attempts >=2 && attempts <=4) points = 3;
-                       else points = 1;
-                       totalScore += points; updateScoreDisplay();
-                       showNotification(`${displayName} placé ! +${points} pts`, 'success');
-                   }catch(e){ showNotification(`${displayName} placé !`, 'success'); }
-                   // register using the unique entity key to allow multiple tiles per file
-                   registerPlacedProvince(provinceId, displayName, country, flagUrl, nearest.entity && nearest.entity.provinceKey ? nearest.entity.provinceKey : null);
-                    loadRandomProvince();
-                 }).catch(()=>{ displayProvinceOnGlobe(nearest.entity.featureGeometry); try{ viewer.entities.remove(nearest.entity); }catch(e){} registerPlacedProvince(provinceId, provinceId, null, null, nearest && nearest.entity && nearest.entity.provinceKey ? nearest.entity.provinceKey : null); loadRandomProvince(); });
-             } else { showNotification('Ce n\'est pas le bon endroit.', 'error'); }
-         });
-
-        // click handler: points stay white; polygons show infoBox and clicking points shows Placer button
-        let selectedEntity = null;
-        try{
-            if(viewer && viewer.scene && viewer.scene.canvas){
-                const handler = new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas);
-                handler.setInputAction(function(click){
-                     try{
-                        // save click coordinates for placeButton positioning
-                        const clientX = click.position.x, clientY = click.position.y;
-                        const picked = viewer.scene.pick(click.position);
-                        if (Cesium.defined(picked) && picked.id) {
-                            const ent = picked.id;
-                            if (ent.polygon) {
-                                // show infoBox for polygons
-                                try {
-                                    const title = ent.name || (ent.properties && ent.properties.Name_1) || 'Province';
-                                    let desc = '';
-                                    if (ent.properties) {
-                                        desc += '<table style="border-collapse:collapse; width:100%">';
-                                        for (const k in ent.properties) {
-                                            if (!Object.prototype.hasOwnProperty.call(ent.properties, k)) continue;
-                                            const v = ent.properties[k];
-                                            desc += `<tr><td style="border:1px solid #ddd;padding:4px;font-weight:600">${k}</td><td style="border:1px solid #ddd;padding:4px">${v}</td></tr>`;
-                                        }
-                                        desc += '</table>';
-                                    }
-                                    if (viewer.infoBox && viewer.infoBox.viewModel) {
-                                        viewer.infoBox.viewModel.title = title;
-                                        viewer.infoBox.viewModel.description = desc || 'Aucune donnée disponible.';
-                                        if (viewer.infoBox.container) viewer.infoBox.container.style.display = '';
-                                    }
-                                } catch (e) { /* ignore */ }
-                                // hide place button if shown
-                                placeButton.style.display = 'none'; selectedPointEntity = null;
-                            } else if (ent.point) {
-                                // clicked a point: keep it white and show "Placer" button
-                                selectedPointEntity = ent;
-                                // position the button near the click (convert canvas coords to page coords)
-                                const rect = document.getElementById('cesiumContainer').getBoundingClientRect();
-                                placeButton.style.left = (rect.left + clientX + 8) + 'px';
-                                placeButton.style.top = (rect.top + clientY + 8) + 'px';
-                                placeButton.style.display = 'block';
-                                // ensure infoBox hidden for points
-                                try { if (viewer.infoBox && viewer.infoBox.container) viewer.infoBox.container.style.display = 'none'; } catch (e) {}
-                            } else {
-                                // clicked something else: hide place button and update UI
-                                placeButton.style.display = 'none'; selectedPointEntity = null;
-                                try { if (viewer.infoBox && viewer.infoBox.container) viewer.infoBox.container.style.display = 'none'; } catch (e) {}
-                            }
-                        } else {
-                            // nothing picked: hide place button / infoBox
-                            placeButton.style.display = 'none'; selectedPointEntity = null;
-                            try { if (viewer.infoBox && viewer.infoBox.container) viewer.infoBox.container.style.display = 'none'; } catch (e) {}
-                        }
-                     }catch(e){}
-                 }, Cesium.ScreenSpaceEventType.LEFT_CLICK);
-            }
-        }catch(e){}
-
-        // placeButton behavior: when clicked, try to place the clicked point's province compared to currentDisplayedProvince
-        if (placeButton) {
-            placeButton.addEventListener('click', () => {
-                placeButton.style.display = 'none';
-                if (!selectedPointEntity) return;
-                const clickedKey = selectedPointEntity.provinceKey;
-                if (!clickedKey) return;
-                // register an attempt for the currently displayed feature
-                try{ if(currentDisplayedProvinceKey){ attemptsByKey[currentDisplayedProvinceKey] = (attemptsByKey[currentDisplayedProvinceKey] || 0) + 1; } }catch(e){}
-                // ensure we match the exact feature key and centroid
-                const centroidMatches = currentDisplayedFeatureCentroid && selectedPointEntity.featureCentroid && (selectedPointEntity.featureCentroid === currentDisplayedFeatureCentroid);
-                if (clickedKey === currentDisplayedProvinceKey && centroidMatches) {
-                    // correct placement: show polygon, remove the point, register and load next
+        // Display a GeoJSON geometry on the Cesium globe
+        function displayProvinceOnGlobe(geometry, opts = {}) {
+            try {
+                if (!geometry) return;
+                const feature = { type: 'Feature', geometry: geometry, properties: opts.properties || {} };
+                const geojson = { type: 'FeatureCollection', features: [feature] };
+                const loadOptions = Object.assign({ clampToGround: false }, opts.loadOptions || {});
+                Cesium.GeoJsonDataSource.load(geojson, loadOptions).then(ds => {
                     try {
-                        displayProvinceOnGlobe(selectedPointEntity.featureGeometry);
-                    } catch (e) {}
-                    try { viewer.entities.remove(selectedPointEntity); } catch (e) {}
-                    // attempt to read displayName/country and register
-                    const [provinceId, featureIndexStr] = clickedKey.split('::'); const featureIndex = parseInt(featureIndexStr||'0',10) || 0;
-                    fetch(`./states/${provinceId}.json`).then(r=>{ if(!r.ok) throw new Error('fetch'); return r.json(); }).then(json=>{
-                        const feat = (json.features && json.features[featureIndex])||null; const displayName = feat && (feat.properties.Name_1 || feat.properties.Country) ? (feat.properties.Name_1 || feat.properties.Country) : provinceId; const country = feat && feat.properties && feat.properties.Country ? feat.properties.Country : null;
-                        const flagUrl = json && json.flag ? json.flag : null;
-                        // compute score for this placement using attempts counter
-                        try{
-                            const attempts = attemptsByKey[clickedKey] || 0;
-                            let points = 1;
-                            if(attempts === 1) points = 5;
-                            else if(attempts >=2 && attempts <=4) points = 3;
-                            else points = 1;
-                            totalScore += points; updateScoreDisplay();
-                            showNotification(`${displayName} placé ! +${points} pts`, 'success');
-                        }catch(e){ showNotification(`${displayName} placé !`, 'success'); }
-                        registerPlacedProvince(provinceId, displayName, country, flagUrl, clickedKey);
-                         loadRandomProvince();
-                     }).catch(()=>{
-                        registerPlacedProvince(provinceId, provinceId, null, null, clickedKey || null);
-                        showNotification(`${provinceId} placé (données incomplètes).`, 'warn');
-                         loadRandomProvince();
-                     });
-                } else {
-                    showNotification('Ce n\'est pas le bon endroit.', 'error');
-                }
-                selectedPointEntity = null;
-            });
-            // hide it when clicking elsewhere (global click)
-            document.addEventListener('click', (e)=>{
-                // if click is not on the placeButton itself, hide it
-                if (!placeButton.contains(e.target)) { placeButton.style.display = 'none'; selectedPointEntity = null; }
-            });
-        }
-
-        // Skip button
-        if(skipSidebar){ skipSidebar.addEventListener('click', e=>{ e.preventDefault(); selectedEntity=null; skipSidebar.disabled=true; loadRandomProvince().finally(()=>{ skipSidebar.disabled=false; }); }); }
-
-        // burger toggle
-        if(burgerButton){ burgerButton.addEventListener('click', ()=>{ if(!placedPanel) return; placedPanel.style.display = placedPanel.style.display==='block'?'none':'block'; }); }
-
-        // --- Save / Load logic ---
-        const saveBtn = document.getElementById('saveBtn');
-        const savePanel = document.getElementById('savePanel');
-        const closeSavePanel = document.getElementById('closeSavePanel');
-        const exportBtn = document.getElementById('exportBtn');
-        const importBtn = document.getElementById('importBtn');
-        const importFile = document.getElementById('importFile');
-        const importArea = document.getElementById('importArea');
-        const applyImport = document.getElementById('applyImport');
-        const clearImport = document.getElementById('clearImport');
-
-        function getSaveObject(){
-            return {
-                placedProvinces: placedProvinces.slice(),
-                attemptsByKey: Object.assign({}, attemptsByKey),
-                totalScore: totalScore || 0,
-                placedFeaturesCount: placedFeaturesCount || 0,
-                totalProvincesCount: totalProvincesCount || 0
-            };
-        }
-
-        function exportProgress(){
-            try{
-                const obj = getSaveObject();
-                const blob = new Blob([JSON.stringify(obj, null, 2)], { type: 'application/json' });
-                const url = URL.createObjectURL(blob);
-                const a = document.createElement('a'); a.href = url; a.download = 'puzzle_globe_save.json'; document.body.appendChild(a); a.click(); setTimeout(()=>{ URL.revokeObjectURL(url); try{ document.body.removeChild(a); }catch(e){} }, 500);
-            }catch(e){ showNotification('Erreur lors de l\'export.', 'error'); }
+                        viewer.dataSources.add(ds);
+                        placedDataSources.push(ds);
+                        // style entities if needed
+                        try {
+                            ds.entities.values.forEach(ent => {
+                                if (ent.polygon) {
+                                    ent.polygon.material = opts.fillColor || Cesium.Color.fromBytes(60,159,255,0.6);
+                                    ent.polygon.outline = true;
+                                    ent.polygon.outlineColor = opts.outlineColor || Cesium.Color.BLACK;
+                                }
+                                if (ent.properties) {
+                                    // set a provinceKey if provided
+                                    if (opts.provinceKey) ent.provinceKey = opts.provinceKey;
+                                }
+                            });
+                        } catch (e) { /* ignore styling errors */ }
+                        // keep the globe visible for all placed provinces (do not auto-zoom unless asked)
+                        if (opts.flyTo) { try { viewer.flyTo(ds).catch(()=>{}); } catch(e){} }
+                    } catch (e) { console.error('displayProvinceOnGlobe add error', e); }
+                }).catch(err => {
+                    console.error('displayProvinceOnGlobe load error', err);
+                });
+            } catch (e) { console.error('displayProvinceOnGlobe error', e); }
         }
 
         async function applyImportedObject(obj){
-            if(!obj || !obj.placedProvinces) { showNotification('Fichier invalide.', 'error'); return; }
+            if(!obj || !obj.placedProvinces) { showNotification('Invalid file.', 'error'); return; }
             try{
                 // replace local arrays
                 placedProvinces.length = 0; placedProvinces.push(...obj.placedProvinces);
@@ -1051,8 +613,54 @@
                     }catch(e){}
                 }
 
-                showNotification('Sauvegarde importée avec succès.', 'success');
-            }catch(e){ showNotification('Erreur lors de l\'import.', 'error'); }
+                showNotification('Save imported successfully.', 'success');
+            }catch(e){ showNotification('Error during import.', 'error'); }
+        }
+
+        // Build a likely Wikipedia commons file path for the country's flag (unchanged behavior)
+        function makeFlagUrl(countryName) {
+            if (!countryName) return null;
+            let clean = countryName.replace(/[\u2019'‘’.,]/g, '').replace(/\s+/g, '_').replace(/&/g, 'and').replace(/,+$/,'');
+            const filename = `Flag_of_${clean}.svg`;
+            return `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(filename)}`;
+        }
+
+        // Simple Wikipedia URL helper (English only)
+        function makeWikiUrl(name) {
+            if (!name) return 'https://en.wikipedia.org/';
+            let s = String(name).trim();
+            s = s.replace(/,\s*$/,'').replace(/\s*\(.+\)$/, '');
+            s = s.replace(/[\/]/g, '_').replace(/\s+/g, '_');
+            return `https://en.wikipedia.org/wiki/${encodeURIComponent(s)}`;
+        }
+
+        // Save / Load logic
+        const saveBtn = document.getElementById('saveBtn');
+        const savePanel = document.getElementById('savePanel');
+        const closeSavePanel = document.getElementById('closeSavePanel');
+        const exportBtn = document.getElementById('exportBtn');
+        const importBtn = document.getElementById('importBtn');
+        const importFile = document.getElementById('importFile');
+        const importArea = document.getElementById('importArea');
+        const validateImportBtn = document.getElementById('validateImport');
+
+        function getSaveObject(){
+            return {
+                placedProvinces: placedProvinces.slice(),
+                attemptsByKey: Object.assign({}, attemptsByKey),
+                totalScore: totalScore || 0,
+                placedFeaturesCount: placedFeaturesCount || 0,
+                totalProvincesCount: totalProvincesCount || 0
+            };
+        }
+
+        function exportProgress(){
+            try{
+                const obj = getSaveObject();
+                const blob = new Blob([JSON.stringify(obj, null, 2)], { type: 'application/json' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a'); a.href = url; a.download = 'puzzle_globe_save.json'; document.body.appendChild(a); a.click(); setTimeout(()=>{ URL.revokeObjectURL(url); try{ document.body.removeChild(a); }catch(e){} }, 500);
+            }catch(e){ showNotification('Error during export.', 'error'); }
         }
 
         // UI wiring
@@ -1060,10 +668,8 @@
         if(closeSavePanel) closeSavePanel.addEventListener('click', ()=>{ savePanel.style.display='none'; });
         if(exportBtn) exportBtn.addEventListener('click', exportProgress);
         if(importBtn) importBtn.addEventListener('click', ()=> importFile.click());
-        if(importFile) importFile.addEventListener('change', (ev)=>{ const f = ev.target.files && ev.target.files[0]; if(!f) return; const r = new FileReader(); r.onload = (e)=>{ try{ const parsed = JSON.parse(e.target.result); applyImportedObject(parsed); }catch(ex){ showNotification('Fichier JSON invalide.', 'error'); } }; r.readAsText(f); });
-        if(applyImport) applyImport.addEventListener('click', ()=>{ const txt = importArea.value && importArea.value.trim(); if(!txt){ showNotification('Collez un JSON valide.', 'error'); return; } try{ const parsed = JSON.parse(txt); applyImportedObject(parsed); }catch(e){ showNotification('JSON invalide.', 'error'); } });
-        if(clearImport) clearImport.addEventListener('click', ()=>{ importArea.value=''; });
-
+        if(importFile) importFile.addEventListener('change', (ev)=>{ const f = ev.target.files && ev.target.files[0]; if(!f) return; const r = new FileReader(); r.onload = (e)=>{ try{ const parsed = JSON.parse(e.target.result); applyImportedObject(parsed); }catch(ex){ showNotification('Invalid JSON file.', 'error'); } }; r.readAsText(f); });
+        if(validateImportBtn) validateImportBtn.addEventListener('click', ()=>{ const txt = importArea.value && importArea.value.trim(); if(!txt){ showNotification('Paste a valid JSON.', 'error'); return; } try{ const parsed = JSON.parse(txt); applyImportedObject(parsed); }catch(e){ showNotification('Invalid JSON.', 'error'); } });
     </script>
 </body>
 </html>
