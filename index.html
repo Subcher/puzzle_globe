@@ -267,7 +267,7 @@
     </div>
     <div id="placedPanel"></div>
     <div id="sidebarContent"><!-- tiles --></div>
-    <div id="sidebarBottom"><button id="skipSidebar" style="width:100%; padding:8px;" onmousedown="event.preventDefault();">SKip</button></div>
+    <div id="sidebarBottom"><button id="skipSidebar" style="width:100%; padding:8px;" onmousedown="event.preventDefault();">Skip</button></div>
 </div>
 <div id="cesiumContainer"></div>
 <!-- floating Placer button shown when clicking a point -->
@@ -545,23 +545,72 @@
         }catch(e){ return null; }
     }
 
+    // Robust parallel loader for state files with timeout and limited concurrency.
     async function loadAllFeatures(){
-        for(const provinceName of file_list){
-            try{ const resp = await fetch(`./states/${provinceName}.json`); if(!resp.ok) continue; const geoJson = await resp.json(); if(geoJson.features && Array.isArray(geoJson.features)) geoJson.features.forEach((f, idx)=> addPointToGlobe(provinceName,f.geometry,f.properties, idx)); }catch(e){/*ignore*/}
+        const concurrency = 6; // number of parallel fetches
+        // No blacklist: try to load all files (user requested that large files be loaded too).
+        const queue = file_list.slice();
+        const skipped = []; // collect failed files during loading
+
+        async function fetchWithTimeout(url, timeoutMs = 10000){
+            const controller = new AbortController();
+            const id = setTimeout(()=> controller.abort(), timeoutMs);
+            try{
+                const resp = await fetch(url, { signal: controller.signal });
+                clearTimeout(id);
+                return resp;
+            }catch(err){
+                clearTimeout(id);
+                throw err;
+            }
         }
+
+        async function worker(){
+            while(queue.length){
+                const name = queue.shift();
+                if(!name) break;
+                try{
+                    const resp = await fetchWithTimeout(`./states/${name}.json`, 12000);
+                    if(!resp || !resp.ok){
+                        skipped.push(name);
+                        continue;
+                    }
+                    // try parse JSON; large files may cost time but are handled per-worker
+                    let geoJson = null;
+                    try{ geoJson = await resp.json(); }catch(err){ skipped.push(name); continue; }
+                    if(geoJson && geoJson.features && Array.isArray(geoJson.features)){
+                        geoJson.features.forEach((f, idx)=> {
+                            try{ addPointToGlobe(name, f.geometry, f.properties, idx); }catch(e){}
+                        });
+                    }
+                }catch(err){
+                    // fetch aborted or other network error — skip this file
+                    skipped.push(name);
+                }
+            }
+        }
+
+        const workers = [];
+        for(let i=0;i<concurrency;i++) workers.push(worker());
+        await Promise.all(workers);
+        if(skipped.length){ console.warn('Skipped state files (failed to load or excluded):', skipped); showNotification(`${skipped.length} large/failed files skipped during load.`, 'warn', 6000); }
+        else { showNotification('All state point files loaded.', 'success', 2200); }
     }
     loadAllFeatures();
 
-    async function loadProvinceByName(provinceName){
+    async function loadProvinceByName(provinceName, featureIndexParam){
         if(!provinceName) return;
         try{
             const resp = await fetch(`./states/${provinceName}.json`);
             if(!resp.ok) return;
             const geoJson = await resp.json(); if(geoJson.features && geoJson.features.length>0){
-                // By default we show feature index 0 (first feature) in the sidebar tile.
-                const displayedFeatureIndex = 0;
+                // Determine displayed feature index: use provided param if valid, otherwise default to 0
+                let displayedFeatureIndex = 0;
+                if (typeof featureIndexParam === 'number' && Number.isInteger(featureIndexParam) && featureIndexParam >= 0 && featureIndexParam < geoJson.features.length) {
+                    displayedFeatureIndex = featureIndexParam;
+                }
                 const feat0 = geoJson.features[displayedFeatureIndex];
-                const props=feat0.properties; const geometry=feat0.geometry; const displayName = props.Name_1 || props.Country || provinceName;
+                const props=feat0.properties; const geometry=feat0.geometry; const displayName = props && (props.Name_1 || props.Country) ? (props.Name_1 || props.Country) : provinceName;
                 // store flag from json if present
                 currentDisplayedFlag = geoJson.flag || null;
                 // set the centroid signature and key for the exact feature we're showing
@@ -574,7 +623,6 @@
                 const tile = document.createElement('div');
                 tile.className = 'tile';
                 tile.dataset.id = provinceName;
-                // tile is not draggable anymore; the SVG inside is draggable
                 tile.textContent = '';
 
                 // create square svg wrapper and a label; make SVG draggable (so user drags the svg)
@@ -584,23 +632,12 @@
                 svg.setAttribute('viewBox', `0 0 ${svgWidth} ${svgHeight}`);
                 svg.setAttribute('preserveAspectRatio', 'xMidYMid meet');
                 svg.style.border = '1px solid #ddd';
-                // Do NOT make the inner <svg> itself draggable; make the wrapper draggable
-                svg.draggable = true;
-                // make the wrapper draggable so dragging works consistently across browsers
-                wrapper.draggable = true;
-                // Make both the svg and the wrapper (and the tile and the title) draggable — attach same handlers
-                svg.draggable = true;
-                wrapper.draggable = true;
-                tile.draggable = true;
+                svg.draggable = true; wrapper.draggable = true; tile.draggable = true;
                 const onDragStart = (e, el) => {
                     try { e.dataTransfer.setData('text/plain', currentDisplayedProvinceKey || (provinceName + '::0')); } catch (err) {}
                     e.dataTransfer.effectAllowed = 'copy';
                     try { el.classList.add('dragging'); } catch (err) {}
-                    // set a drag image using the wrapper if possible
-                    try {
-                        const rect = wrapper.getBoundingClientRect();
-                        e.dataTransfer.setDragImage(wrapper, rect.width / 2, rect.height / 2);
-                    } catch (err) { /* ignore */ }
+                    try { const rect = wrapper.getBoundingClientRect(); e.dataTransfer.setDragImage(wrapper, rect.width / 2, rect.height / 2); } catch (err) {}
                 };
                 const onDragEnd = (e, el) => { try { el.classList.remove('dragging'); } catch (err) {} };
                 wrapper.addEventListener('dragstart', (e) => onDragStart(e, wrapper));
@@ -622,7 +659,6 @@
                 // title above the SVG: include hidden flag img (to show only after 5 attempts)
                 const titleDiv = document.createElement('div');
                 titleDiv.className = 'tileTitle';
-                // build a small row with optional flag to the left
                 const titleRow = document.createElement('div');
                 titleRow.style.display = 'flex'; titleRow.style.alignItems = 'center'; titleRow.style.justifyContent = 'center'; titleRow.style.gap = '4px';
                 const flagImg = document.createElement('img'); flagImg.className = 'flag'; flagImg.alt = '';
@@ -631,26 +667,15 @@
                 const titleText = document.createElement('span'); titleText.textContent = displayName;
                 titleRow.appendChild(flagImg); titleRow.appendChild(titleText);
                 titleDiv.appendChild(titleRow);
-                // make the title draggable too (same behaviour as wrapper) to ease drag start
                 titleDiv.draggable = true;
-                titleDiv.addEventListener('dragstart', (e) => {
-                    try { e.dataTransfer.setData('text/plain', currentDisplayedProvinceKey); } catch (err) {}
-                    e.dataTransfer.effectAllowed = 'copy';
-                    titleDiv.classList.add('dragging');
-                    try {
-                        const rect = titleDiv.getBoundingClientRect();
-                        e.dataTransfer.setDragImage(titleDiv, rect.width / 2, rect.height / 2);
-                    } catch (err) {}
-                });
+                titleDiv.addEventListener('dragstart', (e) => { try { e.dataTransfer.setData('text/plain', currentDisplayedProvinceKey); } catch (err) {} titleDiv.classList.add('dragging'); try { const rect = titleDiv.getBoundingClientRect(); e.dataTransfer.setDragImage(titleDiv, rect.width / 2, rect.height / 2); } catch (err) {} });
                 titleDiv.addEventListener('dragend', () => titleDiv.classList.remove('dragging'));
 
                 sidebarContent.innerHTML = '';
-                // append title and wrapper inside the tile so the whole tile is one draggable area
                 tile.appendChild(titleDiv);
                 tile.appendChild(wrapper);
                 sidebarContent.appendChild(tile);
 
-                // reveal flag if attempts for this exact tile reached threshold
                 try{ const tries = attemptsByKey[currentDisplayedProvinceKey] || 0; if(tries >= 5 && currentDisplayedFlag){ flagImg.style.display = ''; } else { flagImg.style.display = 'none'; } }catch(e){}
 
                 currentDisplayedProvince = provinceName; currentIndex = file_list.indexOf(provinceName);
@@ -658,7 +683,7 @@
         }catch(e){/*ignore*/}
     }
 
-    async function loadRandomProvince(){ const p = getRandomProvince(); if(p) await loadProvinceByName(p); }
+    async function loadRandomProvince(){ const key = getRandomFeatureKey(); if(!key) return; const parsed = parseProvinceKeyString(key); if(!parsed) return; await loadProvinceByName(parsed.provinceName, parsed.featureIndex); }
     loadRandomProvince();
 
     // ensure Cesium infoBox is hidden unless we set viewer.selectedEntity on polygons
@@ -833,8 +858,36 @@
         });
     }
 
-    // Skip button
-    if(skipSidebar){ skipSidebar.addEventListener('click', e=>{ e.preventDefault(); selectedEntity=null; const next = pickDifferentProvince() || getRandomProvince(); if(!next) return; skipSidebar.disabled=true; loadProvinceByName(next).finally(()=>{ skipSidebar.disabled=false; }); }); }
+    // Skip button (pick a new random feature key, try to avoid the same currently displayed key)
+    if(skipSidebar){ skipSidebar.addEventListener('click', async e=>{
+        e.preventDefault(); selectedEntity=null; skipSidebar.disabled=true;
+        try{
+            let nextKey = null;
+            // try up to a few attempts to pick a different key than currently displayed
+            for (let attempt = 0; attempt < 12; attempt++){
+                const candidate = getRandomFeatureKey();
+                if (!candidate) break;
+                if (candidate !== currentDisplayedProvinceKey) { nextKey = candidate; break; }
+                // small pause (yield) to allow entities to finish loading if needed
+                await new Promise(r => setTimeout(r, 10));
+            }
+            // fallback: if still null, try pickDifferentFeatureKey once
+            if(!nextKey) nextKey = pickDifferentFeatureKey() || getRandomFeatureKey();
+            if(!nextKey) return;
+            const parsed = parseProvinceKeyString(nextKey);
+            if(!parsed) return;
+            await loadProvinceByName(parsed.provinceName, parsed.featureIndex);
+        } finally { skipSidebar.disabled=false; }
+    }); }
+
+    // Helpers for feature-level selection
+    function parseProvinceKeyString(keyOrName, featureIndexParam){ if(!keyOrName) return null; if(typeof keyOrName === 'string' && keyOrName.indexOf('::') !== -1){ const parts = keyOrName.split('::'); return { provinceName: parts[0], featureIndex: parseInt(parts[1]||'0',10) || 0 }; } return { provinceName: keyOrName, featureIndex: (typeof featureIndexParam === 'number'? featureIndexParam : 0) }; }
+
+    function isFeaturePlaced(provinceKey){ if(!provinceKey) return false; for(const p of placedProvinces){ if(p.key && p.key === provinceKey) return true; const parsed = parseProvinceKeyString(provinceKey); if(parsed && p.name === parsed.provinceName && !p.key) return true; } return false; }
+
+    function getAllUnplacedFeatureKeysFromEntities(){ const ents = viewer && viewer.entities && Array.isArray(viewer.entities.values) ? viewer.entities.values : []; const keys = []; const seen = new Set(); for(const ent of ents){ if(!ent || !ent.provinceKey) continue; if(isFeaturePlaced(ent.provinceKey)) continue; if(seen.has(ent.provinceKey)) continue; seen.add(ent.provinceKey); keys.push(ent.provinceKey); } return keys; }
+
+    function pickDifferentFeatureKey(){ const keys = getAllUnplacedFeatureKeysFromEntities(); if(!keys.length) return null; for(const k of keys){ if(k !== currentDisplayedProvinceKey) return k; } return keys[Math.floor(Math.random()*keys.length)]; }
 
     // burger toggle
     if(burgerButton){ burgerButton.addEventListener('click', ()=>{ if(!placedPanel) return; placedPanel.style.display = placedPanel.style.display==='block'?'none':'block'; }); }
@@ -981,6 +1034,47 @@
         importBtn.addEventListener('click', ()=> importFile.click());
         importFile.addEventListener('change', (ev)=>{ const f = ev.target.files && ev.target.files[0]; if(f) importProgressFromFile(f); importFile.value = ''; });
     }catch(e){ /* non-blocking */ }
+
+    function getRandomFeatureKey() {
+        // New behavior requested: first pick a country (unless ALL features of that country are placed),
+        // then pick a random feature (tile) within that country.
+        try {
+            // build candidate countries which still have at least one unplaced feature
+            const candidates = [];
+            const ents = (viewer && viewer.entities && Array.isArray(viewer.entities.values)) ? viewer.entities.values : [];
+            for (const country of file_list) {
+                // gather entities for this country
+                const countryEnts = ents.filter(ent => ent && ent.provinceName === country && ent.provinceKey);
+                if (countryEnts.length > 0) {
+                    // if any feature for this country is not placed, include the country
+                    const hasUnplaced = countryEnts.some(ent => !isFeaturePlaced(ent.provinceKey));
+                    if (hasUnplaced) candidates.push(country);
+                } else {
+                    // no entities available for this country yet: include country unless whole-country marked as placed
+                    const wholePlaced = placedProvinces.some(p => p.name === country && !p.key);
+                    if (!wholePlaced) candidates.push(country);
+                }
+            }
+
+            if (candidates.length) {
+                const chosenCountry = candidates[Math.floor(Math.random() * candidates.length)];
+                // try to pick a random unplaced feature entity in that country
+                const countryEnts = ents.filter(ent => ent && ent.provinceName === chosenCountry && ent.provinceKey);
+                const unplacedKeys = countryEnts.filter(ent => !isFeaturePlaced(ent.provinceKey)).map(ent => ent.provinceKey);
+                if (unplacedKeys.length) {
+                    return unplacedKeys[Math.floor(Math.random() * unplacedKeys.length)];
+                }
+                // fallback: no entities loaded for this country; choose feature index 0 as a safe default
+                return `${chosenCountry}::0`;
+            }
+        } catch (e) { /* ignore and fallback below */ }
+
+        // last-resort fallback: choose a random file (country) that is not placed yet and use feature 0
+        const fallbackCandidates = file_list.filter(n => !isPlaced(n));
+        if (!fallbackCandidates.length) return null;
+        const chosen = fallbackCandidates[Math.floor(Math.random() * fallbackCandidates.length)];
+        return `${chosen}::0`;
+    }
 
 </script>
 </body>
