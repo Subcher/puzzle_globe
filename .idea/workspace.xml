@@ -4,191 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e132f79-9129-48e0-bb6f-72ef177dc49c" name="Changes" comment="Stable version">
+    <list default="true" id="1e132f79-9129-48e0-bb6f-72ef177dc49c" name="Changes" comment="Add all flags">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Afghanistan.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Afghanistan.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/AkrotiriandDhekelia.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/AkrotiriandDhekelia.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Albania.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Albania.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Andorra.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Andorra.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Anguilla.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Anguilla.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/AntiguaandBarbuda.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/AntiguaandBarbuda.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Armenia.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Armenia.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Aruba.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Aruba.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Azerbaijan.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Azerbaijan.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Bahamas.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Bahamas.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Bahrain.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Bahrain.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Barbados.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Barbados.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Belgium.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Belgium.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Belize.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Belize.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Benin.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Benin.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Bermuda.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Bermuda.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Bhutan.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Bhutan.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Botswana.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Botswana.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Brunei.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Brunei.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Burundi.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Burundi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/CentralAfricanRepublic.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/CentralAfricanRepublic.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Chad.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Chad.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/China.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/China.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/ChristmasIsland.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/ChristmasIsland.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/ClippertonIsland.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/ClippertonIsland.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/CocosIslands.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/CocosIslands.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Comoros.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Comoros.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/CookIslands.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/CookIslands.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/CostaRica.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/CostaRica.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Cyprus.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Cyprus.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Czechia.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Czechia.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/CôtedIvoire.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/CôtedIvoire.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/DemocraticRepublicoftheCongo.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/DemocraticRepublicoftheCongo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Djibouti.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Djibouti.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Dominica.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Dominica.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/DominicanRepublic.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/DominicanRepublic.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Egypt.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Egypt.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/ElSalvador.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/ElSalvador.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/EquatorialGuinea.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/EquatorialGuinea.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Eritrea.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Eritrea.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Estonia.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Estonia.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Eswatini.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Eswatini.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/FalklandIslands.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/FalklandIslands.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/FaroeIslands.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/FaroeIslands.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/France.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/France.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/FrenchGuiana.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/FrenchGuiana.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/FrenchPolynesia.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/FrenchPolynesia.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/FrenchSouthernTerritories.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/FrenchSouthernTerritories.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Gabon.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Gabon.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Gambia.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Gambia.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Georgia.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Georgia.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Gibraltar.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Gibraltar.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Grenada.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Grenada.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Guadeloupe.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Guadeloupe.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Guam.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Guam.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Guatemala.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Guatemala.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Guernsey.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Guernsey.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Guinea-Bissau.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Guinea-Bissau.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Guinea.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Guinea.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Guyana.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Guyana.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Haiti.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Haiti.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/HeardIslandandMcDonaldIsland.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/HeardIslandandMcDonaldIsland.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Hungary.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Hungary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Iraq.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Iraq.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Ireland.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Ireland.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/IsleofMan.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/IsleofMan.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Israel.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Israel.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Jamaica.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Jamaica.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Jersey.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Jersey.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Jordan.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Jordan.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Kiribati.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Kiribati.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Kosovo.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Kosovo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Kuwait.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Kuwait.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Kyrgyzstan.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Kyrgyzstan.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Laos.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Laos.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Latvia.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Latvia.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Lebanon.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Lebanon.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Lesotho.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Lesotho.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Liberia.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Liberia.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Libya.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Libya.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Liechtenstein.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Liechtenstein.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Lithuania.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Lithuania.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Luxembourg.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Luxembourg.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Malawi.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Malawi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Malaysia.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Malaysia.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Maldives.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Maldives.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Mali.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Mali.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Malta.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Malta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/MarshallIslands.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/MarshallIslands.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Martinique.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Martinique.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Mauritania.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Mauritania.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Mauritius.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Mauritius.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Mayotte.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Mayotte.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Micronesia.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Micronesia.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Moldova.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Moldova.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Monaco.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Monaco.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Mongolia.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Mongolia.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Montenegro.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Montenegro.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Montserrat.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Montserrat.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Morocco.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Morocco.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/México.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/México.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Namibia.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Namibia.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Nauru.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Nauru.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Nepal.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Nepal.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Netherlands.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Netherlands.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/NewCaledonia.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/NewCaledonia.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/NewZealand.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/NewZealand.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Nicaragua.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Nicaragua.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Niger.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Niger.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/NorfolkIsland.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/NorfolkIsland.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/NorthKorea.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/NorthKorea.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/NorthMacedonia.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/NorthMacedonia.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/NorthernCyprus.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/NorthernCyprus.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/NorthernMarianaIslands.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/NorthernMarianaIslands.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Oman.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Oman.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Palau.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Palau.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Palestine.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Palestine.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/PapuaNewGuinea.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/PapuaNewGuinea.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/ParacelIslands.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/ParacelIslands.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Philippines.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Philippines.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/PitcairnIslands.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/PitcairnIslands.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Portugal.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Portugal.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/PuertoRico.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/PuertoRico.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Qatar.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Qatar.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/RepublicoftheCongo.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/RepublicoftheCongo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Rwanda.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Rwanda.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Réunion.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Réunion.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Saint-Barthélemy.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Saint-Barthélemy.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Saint-Martin.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Saint-Martin.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/SaintHelena,AscensionandTristandaCunha.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/SaintHelena,AscensionandTristandaCunha.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/SaintKittsandNevis.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/SaintKittsandNevis.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/SaintLucia.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/SaintLucia.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/SaintPierreandMiquelon.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/SaintPierreandMiquelon.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/SaintVincentandtheGrenadines.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/SaintVincentandtheGrenadines.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Samoa.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Samoa.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/SanMarino.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/SanMarino.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/SaudiArabia.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/SaudiArabia.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Serbia.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Serbia.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Seychelles.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Seychelles.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/SierraLeone.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/SierraLeone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Singapore.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Singapore.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/SintMaarten.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/SintMaarten.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Slovakia.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Slovakia.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Slovenia.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Slovenia.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/SolomonIslands.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/SolomonIslands.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Somalia.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Somalia.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/SouthAfrica.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/SouthAfrica.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/SouthGeorgiaandtheSouthSandwichIslands.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/SouthGeorgiaandtheSouthSandwichIslands.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/SouthKorea.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/SouthKorea.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/SouthSudan.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/SouthSudan.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/SpratlyIslands.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/SpratlyIslands.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/SriLanka.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/SriLanka.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Sudan.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Sudan.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Suriname.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Suriname.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/SvalbardandJanMayen.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/SvalbardandJanMayen.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Switzerland.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Switzerland.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Syria.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Syria.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/SãoToméandPríncipe.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/SãoToméandPríncipe.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Taiwan.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Taiwan.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Tajikistan.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Tajikistan.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Thailand.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Thailand.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Timor-Leste.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Timor-Leste.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Togo.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Togo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Tokelau.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Tokelau.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Tonga.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Tonga.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/TrinidadandTobago.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/TrinidadandTobago.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Tunisia.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Tunisia.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Turkmenistan.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Turkmenistan.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/TurksandCaicosIslands.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/TurksandCaicosIslands.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Tuvalu.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Tuvalu.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Uganda.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Uganda.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/UnitedArabEmirates.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/UnitedArabEmirates.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/UnitedKingdom.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/UnitedKingdom.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/UnitedStates.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/UnitedStates.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/UnitedStatesMinorOutlyingIslands.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/UnitedStatesMinorOutlyingIslands.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Uruguay.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Uruguay.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Uzbekistan.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Uzbekistan.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Vanuatu.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Vanuatu.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Vatican.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Vatican.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/VirginIslands,US.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/VirginIslands,US.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/WallisandFutuna.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/WallisandFutuna.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/WesternSahara.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/WesternSahara.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/Åland.json" beforeDir="false" afterPath="$PROJECT_DIR$/states/Åland.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,24 +58,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JavaScript Debug.index.html.executor": "Run",
-    "Node.js.cleaning.js.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "update-states",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.cleaning.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;update-states&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\zazar\Documents\Puzzle globe" />
@@ -287,7 +105,8 @@
       <workItem from="1763134944948" duration="21587000" />
       <workItem from="1763286637096" duration="16670000" />
       <workItem from="1763323468731" duration="5208000" />
-      <workItem from="1763403758101" duration="6704000" />
+      <workItem from="1763403758101" duration="7603000" />
+      <workItem from="1763458154514" duration="3015000" />
     </task>
     <task id="LOCAL-00001" summary="Preparing for Puzzle Globe">
       <option name="closed" value="true" />
@@ -337,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763327980899</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add all flags">
+      <option name="closed" value="true" />
+      <created>1763416818739</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1763416818739</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,7 +177,8 @@
     <MESSAGE value="Enhance globe interaction with point placement and notification features" />
     <MESSAGE value="Update workspace configuration and enhance terminal settings" />
     <MESSAGE value="Stable version" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stable version" />
+    <MESSAGE value="Add all flags" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add all flags" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Puzzle_globe$index_html.dat" NAME="index.html Coverage Results" MODIFIED="1762979615847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
