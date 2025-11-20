@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e132f79-9129-48e0-bb6f-72ef177dc49c" name="Changes" comment="Add all flags">
+    <list default="true" id="1e132f79-9129-48e0-bb6f-72ef177dc49c" name="Changes" comment="Add progress bar to sidebar for province placement tracking">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -107,7 +107,7 @@
       <workItem from="1763323468731" duration="5208000" />
       <workItem from="1763403758101" duration="7603000" />
       <workItem from="1763458154514" duration="5964000" />
-      <workItem from="1763622488030" duration="1304000" />
+      <workItem from="1763622488030" duration="7253000" />
     </task>
     <task id="LOCAL-00001" summary="Preparing for Puzzle Globe">
       <option name="closed" value="true" />
@@ -173,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763490015353</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add progress bar to sidebar for province placement tracking">
+      <option name="closed" value="true" />
+      <created>1763623935876</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1763623935876</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +195,8 @@
     <MESSAGE value="Update workspace configuration and enhance terminal settings" />
     <MESSAGE value="Stable version" />
     <MESSAGE value="Add all flags" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add all flags" />
+    <MESSAGE value="Add progress bar to sidebar for province placement tracking" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add progress bar to sidebar for province placement tracking" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Puzzle_globe$index_html.dat" NAME="index.html Coverage Results" MODIFIED="1762979615847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
