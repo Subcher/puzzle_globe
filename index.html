@@ -390,7 +390,7 @@
         }catch(e){}
     }
 
-    function isPlaced(name) { return placedProvinces.some(p => p.name === name); }
+    function isPlaced(name) { return isProvincePlaced(name); }
     // register a placed province; optional `flag`, unique `key` and `attempts`
     // To support multi-word country names we store both a normalized `countryKey` (for grouping)
     // and the original `country` label (for display). This avoids breaking grouping logic while
@@ -408,6 +408,11 @@
         // store the country label as provided (display label). Keep grouping by this field.
         const countryLabel = (typeof country === 'string' && country.trim().length>0) ? country.trim() : null;
         const entry = { name, displayName, country: countryLabel };
+        // compute and store a normalized name to make future comparisons robust
+        try{
+            const norm = (name || displayName || '').toString().trim().toLowerCase().normalize('NFD').replace(/\p{Diacritic}/gu, '').replace(/[^a-z0-9]/g,'');
+            entry.normName = norm;
+        }catch(e){ entry.normName = (name || displayName || '').toString().trim().toLowerCase(); }
         if (flag) entry.flag = flag;
         if (key) entry.key = key;
         if (typeof attempts === 'number') entry.attempts = attempts;
@@ -925,7 +930,61 @@
     // Helpers for feature-level selection
     function parseProvinceKeyString(keyOrName, featureIndexParam){ if(!keyOrName) return null; if(typeof keyOrName === 'string' && keyOrName.indexOf('::') !== -1){ const parts = keyOrName.split('::'); return { provinceName: parts[0], featureIndex: parseInt(parts[1]||'0',10) || 0 }; } return { provinceName: keyOrName, featureIndex: (typeof featureIndexParam === 'number'? featureIndexParam : 0) }; }
 
-    function isFeaturePlaced(provinceKey){ if(!provinceKey) return false; for(const p of placedProvinces){ if(p.key && p.key === provinceKey) return true; const parsed = parseProvinceKeyString(provinceKey); if(parsed && p.name === parsed.provinceName && !p.key) return true; } return false; }
+    function isFeaturePlaced(provinceKey){
+        if(!provinceKey) return false;
+        // reuse normalize logic to compare base names safely
+        function normalize(s){ if(!s) return ''; try{ return s.toString().trim().toLowerCase().normalize('NFD').replace(/\p{Diacritic}/gu, '').replace(/[^a-z0-9]/g,''); }catch(e){ return s.toString().trim().toLowerCase(); } }
+        const parsed = parseProvinceKeyString(provinceKey);
+        const keyBase = parsed && parsed.provinceName ? parsed.provinceName : null;
+        const keyNorm = keyBase ? normalize(keyBase) : null;
+        for(const p of placedProvinces){
+            if(!p) continue;
+            // exact key match (if both have explicit key)
+            if(p.key && typeof p.key === 'string' && p.key === provinceKey) return true;
+            // compare normalized base names
+            if(keyNorm){
+                if(p.name && normalize(p.name) === keyNorm) return true;
+                if(p.displayName && normalize(p.displayName) === keyNorm) return true;
+                if(p.key && typeof p.key === 'string'){ const parts = p.key.split('::'); if(parts[0] && normalize(parts[0]) === keyNorm) return true; }
+            }
+            // fallback: compare any string fields
+            for(const k of ['name','displayName','country','title']){
+                if(p[k] && typeof p[k] === 'string' && normalize(p[k]) === keyNorm) return true;
+            }
+        }
+        return false;
+    }
+
+    // Check whether a province (by file name) has already been placed (either entirely or by any feature)
+    function isProvincePlaced(provinceName){
+        if(!provinceName) return false;
+        function normalize(s){
+            if(!s) return '';
+            try{
+                // lowercase, trim, remove diacritics, remove spaces and punctuation that may differ between sources
+                return s.toString().trim().toLowerCase().normalize('NFD').replace(/\p{Diacritic}/gu, '').replace(/[^a-z0-9]/g,'');
+            }catch(e){
+                return s.toString().trim().toLowerCase();
+            }
+        }
+        const target = normalize(provinceName);
+        for(const p of placedProvinces){
+            if(!p) continue;
+            // check explicit name
+            if(p.name && normalize(p.name) === target) return true;
+            // check displayName as fallback
+            if(p.displayName && normalize(p.displayName) === target) return true;
+            // if placed entry has a feature key like 'Province::3', compare base name
+            if(p.key && typeof p.key === 'string'){
+                const parts = p.key.split('::'); if(parts[0] && normalize(parts[0]) === target) return true;
+            }
+            // sometimes stored entries might only have a 'title' or similar; check any string-valued field
+            for(const k of ['name','displayName','country']){
+                if(p[k] && typeof p[k] === 'string' && normalize(p[k]) === target) return true;
+            }
+        }
+        return false;
+    }
 
     function getAllUnplacedFeatureKeysFromEntities(){ const ents = viewer && viewer.entities && Array.isArray(viewer.entities.values) ? viewer.entities.values : []; const keys = []; const seen = new Set(); for(const ent of ents){ if(!ent || !ent.provinceKey) continue; if(isFeaturePlaced(ent.provinceKey)) continue; if(seen.has(ent.provinceKey)) continue; seen.add(ent.provinceKey); keys.push(ent.provinceKey); } return keys; }
 
@@ -1037,6 +1096,16 @@
                             if(ent.country === undefined) ent.country = null;
                         });
                     }catch(e){}
+                    // compute a normalized name (normName) for each imported entry to ensure detection works
+                    try{
+                        placedProvinces.forEach(ent => {
+                            if(!ent) return;
+                            if(!ent.normName){
+                                try{ ent.normName = (ent.name || ent.displayName || '').toString().trim().toLowerCase().normalize('NFD').replace(/\p{Diacritic}/gu, '').replace(/[^a-z0-9]/g,''); }
+                                catch(e){ ent.normName = (ent.name || ent.displayName || '').toString().trim().toLowerCase(); }
+                            }
+                        });
+                    }catch(e){}
                     // restore score and attempts
                     try{ score = Number(parsed.score) || 0; updateScoreDisplay(); }catch(e){}
                     try{ Object.keys(attemptsByKey).forEach(k=>delete attemptsByKey[k]); if(parsed.attemptsByKey && typeof parsed.attemptsByKey === 'object') Object.assign(attemptsByKey, parsed.attemptsByKey); }catch(e){}
@@ -1080,41 +1149,43 @@
     }catch(e){ /* non-blocking */ }
 
     function getRandomFeatureKey() {
-        // New behavior requested: first pick a country (unless ALL features of that country are placed),
-        // then pick a random feature (tile) within that country.
+        // Select a country at random (excluding provinces already placed), then a random unplaced feature inside it.
         try {
-            // build candidate countries which still have at least one unplaced feature
-            const candidates = [];
             const ents = (viewer && viewer.entities && Array.isArray(viewer.entities.values)) ? viewer.entities.values : [];
-            for (const country of file_list) {
-                // gather entities for this country
-                const countryEnts = ents.filter(ent => ent && ent.provinceName === country && ent.provinceKey);
-                if (countryEnts.length > 0) {
-                    // if any feature for this country is not placed, include the country
-                    const hasUnplaced = countryEnts.some(ent => !isFeaturePlaced(ent.provinceKey));
-                    if (hasUnplaced) candidates.push(country);
-                } else {
-                    // no entities available for this country yet: include country unless whole-country marked as placed
-                    const wholePlaced = placedProvinces.some(p => p.name === country && !p.key);
-                    if (!wholePlaced) candidates.push(country);
-                }
+            // build list of candidate countries that are not already placed
+            const candidates = file_list.filter(c => !isProvincePlaced(c));
+
+            // shuffle candidate countries to randomize selection order
+            for (let i = candidates.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1)); [candidates[i], candidates[j]] = [candidates[j], candidates[i]];
             }
 
-            if (candidates.length) {
-                const chosenCountry = candidates[Math.floor(Math.random() * candidates.length)];
-                // try to pick a random unplaced feature entity in that country
-                const countryEnts = ents.filter(ent => ent && ent.provinceName === chosenCountry && ent.provinceKey);
+            // try each candidate country until we find an unplaced feature
+            for (const country of candidates) {
+                // gather entities for this country
+                const countryEnts = ents.filter(ent => ent && ent.provinceName === country && ent.provinceKey);
+                // prefer an unplaced feature among loaded entities
                 const unplacedKeys = countryEnts.filter(ent => !isFeaturePlaced(ent.provinceKey)).map(ent => ent.provinceKey);
                 if (unplacedKeys.length) {
                     return unplacedKeys[Math.floor(Math.random() * unplacedKeys.length)];
                 }
-                // fallback: no entities loaded for this country; choose feature index 0 as a safe default
-                return `${chosenCountry}::0`;
+                // if no entities loaded yet for this country, try to return a safe default feature index 0
+                if (!countryEnts.length) {
+                    const candidateKey = `${country}::0`;
+                    if (!isFeaturePlaced(candidateKey)) return candidateKey;
+                }
+                // otherwise continue to next candidate country
             }
         } catch (e) { /* ignore and fallback below */ }
 
-        // last-resort fallback: choose a random file (country) that is not placed yet and use feature 0
-        const fallbackCandidates = file_list.filter(n => !isPlaced(n));
+        // fallback: attempt to pick any unplaced feature key from currently loaded entities
+        try{
+            const keys = getAllUnplacedFeatureKeysFromEntities();
+            if (keys && keys.length) return keys[Math.floor(Math.random() * keys.length)];
+        }catch(e){}
+
+        // final fallback: choose a random province file that is not marked placed and return ::0
+        const fallbackCandidates = file_list.filter(n => !isProvincePlaced(n));
         if (!fallbackCandidates.length) return null;
         const chosen = fallbackCandidates[Math.floor(Math.random() * fallbackCandidates.length)];
         return `${chosen}::0`;
