@@ -252,6 +252,12 @@
         #placedPanel ul { margin:6px 0 12px 14px; padding:0; }
         #placedPanel li { margin:4px 0; list-style: disc; }
 
+        /* Progress bar in sidebar footer */
+        #progressWrap { padding: 8px 12px; box-sizing: border-box; }
+        #progressLabel { font-size: 13px; font-weight: 700; color: #222; margin-bottom: 6px; }
+        #progressBar { width: 100%; height: 10px; background: #e6e6e6; border-radius: 999px; overflow: hidden; }
+        #progressFill { width: 0%; height: 100%; background: linear-gradient(90deg,#10b981,#06b6d4); transition: width 300ms ease; }
+
     </style>
     <title>Giant Globe Puzzle</title>
 </head>
@@ -267,7 +273,15 @@
     </div>
     <div id="placedPanel"></div>
     <div id="sidebarContent"><!-- tiles --></div>
-    <div id="sidebarBottom"><button id="skipSidebar" style="width:100%; padding:8px;" onmousedown="event.preventDefault();">Skip</button></div>
+    <div id="sidebarBottom">
+        <div id="progressWrap">
+            <div id="progressLabel">Placées 0 / 0 provinces</div>
+            <div id="progressBar"><div id="progressFill"></div></div>
+        </div>
+        <div style="padding:8px;">
+            <button id="skipSidebar" style="width:100%; padding:8px;" onmousedown="event.preventDefault();">Skip</button>
+        </div>
+    </div>
 </div>
 <div id="cesiumContainer"></div>
 <!-- floating Placer button shown when clicking a point -->
@@ -353,6 +367,29 @@
 
     function updateScoreDisplay(){ const el = document.getElementById('scoreDisplay'); if(el) el.textContent = `Score: ${score}`; }
 
+    // Progress bar helpers
+    function getTotalFeatureCount(){
+        try{
+            const ents = (viewer && viewer.entities && Array.isArray(viewer.entities.values)) ? viewer.entities.values : [];
+            const set = new Set();
+            for(const ent of ents){ if(ent && ent.provinceKey) set.add(ent.provinceKey); }
+            // also include placed entries that might have removed entities
+            for(const p of placedProvinces){ if(p && p.key) set.add(p.key); else if(p && p.name){ /* add a generic name-based key to count */ set.add(p.name + '::0'); } }
+            return set.size;
+        }catch(e){ return 0; }
+    }
+
+    function updateProgressBar(){
+        try{
+            const total = getTotalFeatureCount() || file_list.length || 0;
+            const placed = placedProvinces ? placedProvinces.length : 0;
+            const pct = total > 0 ? Math.round((placed / total) * 100) : 0;
+            const lbl = document.getElementById('progressLabel'); const fill = document.getElementById('progressFill');
+            if(lbl) lbl.textContent = `Placées ${placed} / ${total} provinces`;
+            if(fill) fill.style.width = pct + '%';
+        }catch(e){}
+    }
+
     function isPlaced(name) { return placedProvinces.some(p => p.name === name); }
     // register a placed province; optional `flag`, unique `key` and `attempts`
     // To support multi-word country names we store both a normalized `countryKey` (for grouping)
@@ -377,7 +414,9 @@
         placedProvinces.push(entry);
         updatePlacedPanel();
         updateScoreDisplay();
-    }
+        // refresh progress UI
+        try{ updateProgressBar(); }catch(e){}
+     }
 
     function updatePlacedPanel() {
         if (!placedPanel) return;
@@ -541,6 +580,8 @@
             ent.provinceKey = `${provinceName}::${ent.featureIndex}`;
             // store a centroid signature to identify the exact tile/feature
             ent.featureCentroid = `${Number(lon).toFixed(6)},${Number(lat).toFixed(6)}`;
+            // update progress UI incrementally when a new point/entity is added
+            try{ if (typeof updateProgressBar === 'function') updateProgressBar(); }catch(e){}
             return ent;
         }catch(e){ return null; }
     }
@@ -595,7 +636,8 @@
         await Promise.all(workers);
         if(skipped.length){ console.warn('Skipped state files (failed to load or excluded):', skipped); showNotification(`${skipped.length} large/failed files skipped during load.`, 'warn', 6000); }
         else { showNotification('All state point files loaded.', 'success', 2200); }
-    }
+        try{ updateProgressBar(); }catch(e){}
+     }
     loadAllFeatures();
 
     async function loadProvinceByName(provinceName, featureIndexParam){
@@ -999,6 +1041,7 @@
                     try{ score = Number(parsed.score) || 0; updateScoreDisplay(); }catch(e){}
                     try{ Object.keys(attemptsByKey).forEach(k=>delete attemptsByKey[k]); if(parsed.attemptsByKey && typeof parsed.attemptsByKey === 'object') Object.assign(attemptsByKey, parsed.attemptsByKey); }catch(e){}
                      updatePlacedPanel();
+                    try{ updateProgressBar(); }catch(e){}
                      showNotification('Progress imported. Restoring on globe...', 'success');
                     // attempt to restore polygons on globe by fetching the state files for each placed entry
                     for(const entry of placedProvinces){
@@ -1024,6 +1067,7 @@
                         }catch(e){ /* ignore per-entry errors */ }
                     }
                     updatePlacedPanel();
+                    try{ updateProgressBar(); }catch(e){}
                  }catch(e){ showNotification('Import failed: fichier invalide.', 'error'); }
             };
             fr.onerror = ()=> showNotification('Failed to read file.', 'error');

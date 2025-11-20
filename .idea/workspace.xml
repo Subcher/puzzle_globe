@@ -106,7 +106,8 @@
       <workItem from="1763286637096" duration="16670000" />
       <workItem from="1763323468731" duration="5208000" />
       <workItem from="1763403758101" duration="7603000" />
-      <workItem from="1763458154514" duration="3015000" />
+      <workItem from="1763458154514" duration="5964000" />
+      <workItem from="1763622488030" duration="1304000" />
     </task>
     <task id="LOCAL-00001" summary="Preparing for Puzzle Globe">
       <option name="closed" value="true" />
@@ -164,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763416818739</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add all flags">
+      <option name="closed" value="true" />
+      <created>1763490015353</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1763490015353</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
